@@ -9,6 +9,7 @@ local filter = {}
 ---@field reverse_lookup table<string, string[]>
 ---@field lookup_pinyin ReverseLookup
 ---@field memory Memory
+---@field chaifen table<string, string>
 
 ---@param env QingyunEnv
 function filter.init(env)
@@ -25,6 +26,7 @@ function filter.init(env)
   end
   env.lookup_pinyin = ReverseLookup("snow_pinyin")
   env.memory = Memory(env.engine, env.engine.schema, "pinyin")
+  env.chaifen = snow.table_from_tsv(rime_api.get_user_data_dir() .. "/lua/snow/qingyun_chaifen.txt")
 end
 
 ---@param candiate Candidate
@@ -45,7 +47,7 @@ function filter.func(translation, env)
       if count == 0 then
         local hint = ""
         for _, letter in ipairs(affix) do
-          local code = candidate.preedit .. letter
+          local code = input .. letter
           local word = env.fixed[code]
           if word then
             -- local fixed_candidate = Candidate("qingyun", candidate.start, candidate._end, word, letter)
@@ -53,6 +55,9 @@ function filter.func(translation, env)
             -- yield(fixed_candidate)
             hint = hint .. word:match("^[^%s]+") .. letter .. " "
           end
+        end
+        if candidate.preedit:sub(1, 1) == "[" then
+          candidate.preedit = candidate.preedit:sub(2, -2)
         end
         candidate.comment = hint
         yield(candidate)
@@ -70,11 +75,12 @@ function filter.func(translation, env)
             local phrase = Phrase(env.memory, "phrase", candidate.start, candidate._end, entry)
             local c = phrase:toCandidate()
             c.comment = pinyin
+            c.quality = entry.weight
             table.insert(candidates, c)
           end
         end
       end
-      table.sort(candidates, function(a, b) return a.quality < b.quality end)
+      table.sort(candidates, function(a, b) return a.quality > b.quality end)
       for _, c in ipairs(candidates) do
         yield(c)
       end
@@ -83,6 +89,12 @@ function filter.func(translation, env)
       local codes = env.reverse_lookup[candidate.text]
       if codes then
         candidate.comment = table.concat(codes, " ")
+        if env.engine.context:get_option("chaifen") then
+          local chaifen = env.chaifen[candidate.text]
+          if chaifen then
+            candidate.comment = candidate.comment .. "［" .. chaifen .. "］"
+          end
+        end
       end
       if candidate.preedit:sub(1, 1) == "[" then
         candidate.preedit = candidate.preedit:sub(2, -2)
@@ -107,6 +119,7 @@ function filter.fini(env)
   env.fixed = nil
   env.reverse_lookup = nil
   env.lookup_pinyin = nil
+  env.memory = nil
   collectgarbage()
 end
 

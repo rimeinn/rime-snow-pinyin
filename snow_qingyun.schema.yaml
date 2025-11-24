@@ -49,7 +49,6 @@ engine:
   filters:
     - lua_filter@*snow.fix
     - lua_filter@*snow.qingyun
-    # - uniquifier
     - simplifier
 
 qingyun_algebra:
@@ -125,7 +124,6 @@ speller:
 qingyun:
   dictionary: snow_qingyun
   prism: snow_qingyun_xingma
-  initial_quality: 10
   enable_user_dict: false
   enable_sentence: false
 
@@ -140,6 +138,9 @@ patch:
       reset: 1
     - name: buffered
       states: [结束, 缓冲]
+      reset: 0
+    - name: chaifen
+      states: [隐藏, 拆分]
       reset: 0
   pinyin/prefix: "`"
   recognizer/patterns/pinyin: "^`[a-z]*'?$"

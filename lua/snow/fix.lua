@@ -1,5 +1,5 @@
--- 固顶过滤器
--- 本过滤器读取用户自定义的固顶短语，将其与当前翻译结果进行匹配，如果匹配成功，则将特定字词固顶到特定位置
+-- 固定过滤器
+-- 本过滤器读取用户自定义的固定短语，将其与当前翻译结果进行匹配，如果匹配成功，则将特定字词固定到特定位置
 
 local snow = require "snow.snow"
 
@@ -39,23 +39,16 @@ function this.tags_match(segment, env)
   return segment:has_tag("abc")
 end
 
----@param context Context
----@param fixed_phrases string[]
----@param unknown_candidates Candidate[]
----@param i number
----@param segment Segment
-function this.finalize(fixed_phrases, unknown_candidates, i, segment, context)
-  -- 输出设为固顶但是没在候选中找到的候选
-  -- 因为不知道全码是什么，所以只能做一个 SimpleCandidate
-  while fixed_phrases[i] do
-    local simple_candidate = Candidate("fixed", segment.start, segment._end, fixed_phrases[i], "")
-    simple_candidate.preedit = snow.current(context) or ""
-    i = i + 1
-    yield(simple_candidate)
+---@param fixed_candidates Candidate[]
+---@param free_candidates Candidate[]
+function this.finalize(fixed_candidates, free_candidates)
+  -- 输出固定的候选
+  for _, fixed_candidate in ipairs(fixed_candidates) do
+    yield(fixed_candidate)
   end
-  -- 输出没有固顶的候选
-  for _, unknown_candidate in ipairs(unknown_candidates) do
-    yield(unknown_candidate)
+  -- 输出没有固定的候选
+  for _, free_candidate in ipairs(free_candidates) do
+    yield(free_candidate)
   end
 end
 
@@ -63,7 +56,6 @@ end
 ---@param env SnowFixedFilterEnv
 function this.func(translation, env)
   local context = env.engine.context
-  -- 取出输入中当前正在翻译的一部分
   local segment = context.composition:toSegmentation():back()
   local input = snow.current(context)
   if not segment or not input then
@@ -83,58 +75,47 @@ function this.func(translation, env)
     end
     return
   end
-  -- 生成固顶候选
+  -- 生成固定候选
   ---@type Candidate[]
-  local unknown_candidates = {}
-  ---@type { string: Candidate }
-  local known_candidates = {}
-  local i = 1
-  -- 总共处理的候选数，多了就不处理了
-  local total_candidates = 0
+  local fixed_candidates = {}
+  ---@type Candidate[]
+  local free_candidates = {}
+  for _, phrase in ipairs(fixed_phrases) do
+    local dummy_candidate = Candidate("fixed", segment.start, segment._end, phrase, "")
+    dummy_candidate.preedit = input
+    table.insert(fixed_candidates, dummy_candidate)
+  end
+  -- 检查前 100 个候选，如果有与固定候选匹配的就替换，否则就添加到未知候选中
+  local seen_candidates = 0
   local max_candidates = 100
   local finalized = false
   for candidate in translation:iter() do
-    total_candidates = total_candidates + 1
-    if total_candidates == max_candidates then
-      this.finalize(fixed_phrases, unknown_candidates, i, segment, context)
+    if finalized then
+      yield(candidate)
+      goto continue
+    elseif seen_candidates == max_candidates or (candidate._end - candidate._start) < input:len() then
+      this.finalize(fixed_candidates, free_candidates)
       finalized = true
       yield(candidate)
       goto continue
-    elseif total_candidates > max_candidates then
-      yield(candidate)
-      goto continue
     end
-    local text = candidate.text
-    local is_fixed = false
     -- 对于一个新的候选，要么加入已知候选，要么加入未知候选
-    for _, phrase in ipairs(fixed_phrases) do
-      if text == phrase then
-        known_candidates[phrase] = candidate
+    local is_fixed = false
+    for j = 1, #fixed_candidates do
+      if candidate.text == fixed_candidates[j].text then
+        fixed_candidates[j] = candidate
         is_fixed = true
         break
       end
     end
     if not is_fixed then
-      table.insert(unknown_candidates, candidate)
+      table.insert(free_candidates, candidate)
     end
-    -- 每看过一个新的候选之后，看看是否找到了新的固顶候选，如果找到了，就输出
-    local current = fixed_phrases[i]
-    if current and known_candidates[current] then
-      local cand = known_candidates[current]
-      cand.type = "fixed"
-      yield(cand)
-      i = i + 1
-    elseif current and (candidate._end - candidate._start) < input:len() then
-      -- 如果当前固顶候选比当前候选长，那么就不可能找到这个固顶候选，因此跳过
-      local simple_candidate = Candidate("fixed", segment.start, segment._end, current, "")
-      simple_candidate.preedit = snow.current(context) or ""
-      yield(simple_candidate)
-      i = i + 1
-    end
+    seen_candidates = seen_candidates + 1
     ::continue::
   end
   if not finalized then
-    this.finalize(fixed_phrases, unknown_candidates, i, segment, context)
+    this.finalize(fixed_candidates, free_candidates)
   end
 end
 
