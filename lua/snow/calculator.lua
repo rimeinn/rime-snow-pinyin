@@ -45,10 +45,6 @@ sqrt = math.sqrt
 exp = math.exp
 e = exp(1)
 ln = math.log
-log = function(x, base)
-  base = base or 10
-  return ln(x) / ln(base)
-end
 
 min = function(arr)
   local m = inf
@@ -343,8 +339,12 @@ end
 -- greedy：隨時求值（每次變化都會求值，否則結尾爲特定字符時求值）
 local greedy = true
 
-local function calculator_translator(input, seg)
-  if string.sub(input, 1, 1) ~= "o" then return end
+--- @param input string
+--- @param seg Segment
+--- @param env Env
+local function calculator_translator(input, seg, env)
+  local lua_prompt = env.engine.schema.config:get_string("lua/input") or "o"
+  if string.sub(input, 1, 1) ~= lua_prompt then return end
   if string.len(input) <= 1 then return end
 
   local expfin = greedy or string.sub(input, -1, -1) == ";"

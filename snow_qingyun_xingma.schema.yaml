@@ -1,0 +1,25 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: snow_qingyun_xingma
+  name: 冰雪清韵形码
+  version: "0.3.0"
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+  description: |
+    以音码词语和形码单字为特色的前缀码输入方案
+
+speller:
+  alphabet: bpmfdtnlgkhjqxzcsrwyvaoeiu;,./
+  initials: bpmfdtnlgkhjqxzcsrwyv
+  algebra:
+    __include: snow_qingyun.schema.yaml:/qingyun_algebra
+    __append:
+      # 简拼
+      - abbrev/^([a-z]).+$/$1/
+
+translator:
+  dictionary: snow_qingyun
+  prism: snow_qingyun_xingma
+  packs: null

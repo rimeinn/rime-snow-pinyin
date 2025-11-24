@@ -4,19 +4,30 @@ local snow = require "snow.snow"
 
 local this = {}
 
----@param env Env
+---@class EditorEnv: Env
+---@field match string
+---@field accept string
+
+---@param env EditorEnv
 function this.init(env)
+  local config = env.engine.schema.config
+  local editor_config = config:get_map("speller/editor")
+  if editor_config then
+    env.match = editor_config:get_value("match"):get_string() or ""
+    env.accept = editor_config:get_value("accept"):get_string() or ""
+  end
 end
 
 ---@param key_event KeyEvent
----@param env Env
+---@param env EditorEnv
 function this.func(key_event, env)
   local context = env.engine.context
   -- 只对无修饰按键生效
-  if key_event.modifier > 0 then
+  if key_event:ctrl() or key_event:alt() or key_event:super() or key_event:release() then
     return snow.kNoop
   end
-  local incoming = key_event:repr()
+  local incoming = utf8.char(key_event.keycode)
+  local incoming_repr = key_event:repr()
   -- 只在顶功模式下生效
   if not context:get_option("popping") then
     return snow.kNoop
@@ -24,7 +35,7 @@ function this.func(key_event, env)
   -- 只对 aeiou 和 Backspace 键生效
   -- 如果输入是 aeiou，则添加一个码
   -- 如果输入是 Backspace，则从之前增加的补码中删除一个码
-  if not (rime_api.regex_match(incoming, "[aeiou]") or incoming == "BackSpace") then
+  if not (rime_api.regex_match(incoming, env.accept) or incoming_repr == "BackSpace") then
     return snow.kNoop
   end
   -- 判断是否满足补码条件：末音节有 3 码，且前面至少还有一个音节
@@ -34,19 +45,19 @@ function this.func(key_event, env)
   local confirmed_position = context.composition:toSegmentation():get_confirmed_position()
   local previous_caret_pos = context.caret_pos
   local current_input = context.input:sub(confirmed_position + 1, previous_caret_pos)
-  if not rime_api.regex_match(current_input, ".+[bpmfdtnlgkhjqxzcsrywv][aeiou]{2}") then
+  if not rime_api.regex_match(current_input, env.match) then
     return snow.kNoop
   end
-  -- 如果输入是 Backspace，还要验证是否有补码
-  if incoming == "BackSpace" then
-    if not rime_api.regex_match(current_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou]+.+") then
+  -- 如果输入是 BackSpace，还要验证是否有补码
+  if incoming_repr == "BackSpace" then
+    if not rime_api.regex_match(current_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou;,./]+.+") then
       return snow.kNoop
     end
   end
   -- 找出补码的位置（第二个音节之前），并添加补码
   local first_char_code_len = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
   context.caret_pos = confirmed_position + first_char_code_len
-  if incoming == "BackSpace" then
+  if incoming_repr == "BackSpace" then
     context:pop_input(1)
     first_char_code_len = first_char_code_len - 1
   else

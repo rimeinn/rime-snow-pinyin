@@ -1,0 +1,18834 @@
+b	家
+p	想
+m	些
+f	中
+d	也
+t	去
+n	看
+l	他
+g	之
+k	来
+h	生
+j	就
+q	有
+x	好
+z	第
+c	过
+s	都
+r	会
+v	对
+w	这
+y	能
+ba	八 8 八
+bo	分
+be	公
+bi	必
+bu	不是
+b;	完
+b,	实
+b.	本 B b
+b/	定
+pa	木
+po	校
+pe	机
+pi	皮
+pu	相
+p;	样
+p.	🈚️ P p
+ma	马 A a
+mo	末 O o
+me	么 E e
+mi	没有 I i
+mu	目 U u
+m;	免
+m,	（
+m.	） M m
+m/	水
+fa	吧
+fo	口
+fe	非
+fi	吃
+fu	夫
+f;	反
+f,	方
+f.	跟 F f
+f/	嗯
+da	大
+do	得
+de	着
+di	而
+du	但是
+d;	前
+d,	为
+d.	很 D d
+d/	东
+ta	它
+to	几
+te	他们
+ti	地
+tu	土
+t;	田
+t,	；
+t.	： T t
+t/	同
+na	手
+no	国
+ne	内
+ni	四
+n;	年
+n,	网
+n.	找 N n
+n/	用
+la	六 6 六
+lo	老
+le	别
+li	你
+lu	做
+l;	子
+l,	意
+l.	那 L l
+l/	另 0 零
+ga	后
+go	所
+ge	个
+gi	质
+gu	度
+g;	干
+g,	广
+g.	问 G g
+g/	共
+ka	卡
+ko	到
+ke	一
+ki	开
+ku	没
+k;	天
+k,	两
+k.	事 K k
+k/	可以
+ha	山
+ho	火
+he	回
+hi	自
+hu	还是
+h;	点
+h,	业
+h.	先 H h
+h/	种
+ja	甲 9 九
+jo	说
+je	多
+ji	以
+ju	句
+j;	见
+j,	就是
+j.	金 J j
+j/	发
+qa	右
+qo	左
+qe	切
+qi	七 7 七
+qu	曲
+q;	全
+q,	？
+q.	！ Q q
+q/	友
+xa	下
+xo	小
+xi	西
+xu	要
+x;	她
+x,	向
+x.	现在 X x
+x/	兄
+za	这样
+zo	早
+ze	知道
+zi	只
+zu	自己
+z;	这个
+z,	长
+z.	真 Z z
+z/	等
+ca	感
+co	刀
+ci	才
+cu	出
+c;	原
+c,	期
+c.	其 C c
+c/	成
+sa	所以
+so	儿
+se	学
+si	十 4 四
+su	什么
+s;	三 3 三
+s,	上
+s.	当 S s
+s/	性
+ra	肉
+ro	如果
+re	最
+ri	日
+ru	时
+r;	电
+r,	然后
+r.	人 R r
+r/	从
+va	进
+vo	又
+ve	给
+vi	二 2 二
+vu	动
+v;	专
+v,	“
+v.	” V v
+v/	经
+wa	我们
+wo	言
+we	未
+wi	理
+wu	无 5 五
+w;	变
+w,	王
+w.	文 W w
+w/	高
+ya	由
+yo	一个
+ye	月
+yi	已 1 一
+yu	与
+y;	因为
+y.	🈚️ Y y
+bb	空
+bm	疤
+bf	宫
+bd	军
+bt	疯
+bn	宜
+bl	字
+bk	病
+bh	赛
+bj	察
+bq	宠
+bx	案
+bz	疑
+bc	宽
+bs	害
+br	寓
+bv	宗
+bw	客
+by	爸
+pb	松
+pp	楚
+pm	朴
+pd	楼
+pt	桂
+pn	极
+pl	李
+pg	述
+pk	槽
+ph	桃
+pj	概
+px	杠
+pz	梅
+pc	模
+ps	构
+pr	查
+pv	标
+pw	格
+py	桥
+mb	瞎
+mm	步
+mf	驶
+md	骑
+mt	黑
+ml	勉
+mg	骗
+mk	驱
+mh	睡
+mj	验
+mz	瞬
+mc	龄
+ms	置
+mv	北
+mw	驻
+my	幽
+fb	哔
+fm	路
+ff	品
+fd	辈
+ft	喂
+fn	员
+fl	哪
+fg	听
+fk	号
+fh	呼
+fj	哈
+fq	呀
+fx	吵
+fz	族
+fc	喊
+fs	贵
+fr	啥
+fv	啊
+fw	咯
+fy	蛇
+db	资
+dp	数
+dm	还
+df	总
+dd	道
+dt	待
+dn	面
+dl	准
+dg	态
+dk	关
+dh	微
+dj	净
+dq	彻
+dx	律
+dz	御
+dc	减
+ds	转
+dr	单
+dv	行
+dw	美
+dy	後
+tp	栽
+tm	盐
+tf	袁
+td	增
+tt	封
+tn	圾
+tl	男
+tg	塘
+tk	域
+th	赫
+tj	埋
+tz	起
+tc	城
+ts	均
+tr	界
+tv	坛
+tw	略
+ty	却
+nb	指
+np	困
+nm	把
+nf	操
+nd	因
+nt	持
+nn	拥
+nl	接
+ng	据
+nk	打
+nh	拍
+nj	换
+nq	拔
+nx	抄
+nz	授
+nc	团
+ns	求
+nr	提
+nv	择
+nw	图
+ny	刚
+lb	华
+lm	修
+lf	保
+ld	书
+lt	佳
+ln	孩
+ll	位
+lg	通
+lk	部
+lh	加
+lj	似
+lq	优
+lx	低
+lz	作
+lc	颜
+ls	值
+lr	但
+lv	买
+lw	住
+ly	效
+gb	屁
+gp	麻
+gm	爬
+gf	强
+gd	弹
+gt	鞋
+gn	间
+gl	局
+gg	房
+gk	屋
+gh	店
+gj	废
+gq	费
+gx	近
+gc	席
+gs	应
+gr	刷
+gv	层
+gw	弦
+gy	黄
+kb	深
+kp	婆
+km	政
+kf	可
+kd	平
+kt	法
+kn	再
+kl	汤
+kg	派
+kk	河
+kh	活
+kj	互
+kq	遭
+kx	式
+kz	海
+kc	满
+ks	带
+kr	更
+kv	清
+kw	流
+ky	区
+hb	崇
+hp	程
+hm	息
+hf	战
+hd	乎
+ht	选
+hn	物
+hl	杂
+hg	乏
+hk	灯
+hh	虚
+hj	岁
+hq	身
+hx	炒
+hz	炸
+hc	岸
+hs	片
+hr	邀
+hv	追
+hw	峰
+hy	系
+jb	谐
+jp	途
+jm	色
+jf	拿
+jd	被
+jt	谓
+jn	调
+jl	母
+jg	外
+jk	试
+jh	话
+jj	够
+jq	既
+jx	语
+jz	许
+jc	解
+js	读
+jr	课
+jv	然
+jw	该
+jy	诶
+qb	龙
+qm	存
+qf	钟
+qd	链
+qt	铅
+qn	钢
+ql	镜
+qg	错
+qk	铺
+qh	铁
+qj	尤
+qq	郁
+qx	键
+qs	销
+qr	铃
+qv	钱
+qw	锋
+qy	雄
+xb	嫁
+xm	肃
+xf	娱
+xd	嫌
+xt	娃
+xn	建
+xl	五
+xg	娘
+xk	功
+xh	群
+xj	辩
+xx	婚
+xc	媒
+xs	姑
+xr	巫
+xv	配
+xw	婷
+xy	始
+zb	爱
+zp	彩
+zm	算
+zf	喜
+zd	知
+zl	符
+zg	简
+zk	策
+zh	缺
+zj	答
+zq	笼
+zx	筑
+zz	遥
+zc	貌
+zs	舞
+zr	制
+zv	款
+zy	笔
+cb	营
+cp	厢
+cm	萝
+cf	咸
+cd	顺
+ct	压
+cn	英
+cl	历
+cg	芝
+ck	世
+ch	愿
+cj	警
+cq	荐
+cx	威
+cz	菜
+cc	藏
+cs	基
+cr	幕
+cv	某
+cw	荒
+cy	董
+sb	索
+sp	耗
+sm	艳
+sf	常
+sd	怀
+st	怯
+sn	直
+sl	快
+sg	惜
+sk	民
+sh	怕
+sj	惯
+sq	考
+sx	叔
+sz	朝
+sc	懂
+ss	愤
+sr	慢
+sv	情
+sw	忙
+sy	惨
+rb	晕
+rp	颗
+rm	曼
+rd	伞
+rn	遇
+rl	领
+rg	暴
+rk	量
+rh	星
+rj	影
+rz	题
+rc	照
+rs	易
+rr	众
+rv	晴
+rw	禽
+ry	盟
+vb	院
+vm	武
+vd	阵
+vt	陵
+vn	责
+vl	难
+vk	结
+vh	表
+vj	除
+vq	随
+vx	避
+vz	临
+vc	怼
+vs	远
+vr	阶
+vv	际
+vw	降
+vy	运
+wb	亮
+wp	琳
+wm	处
+wf	衷
+wd	班
+wt	惫
+wn	球
+wl	务
+wg	瑕
+wh	衣
+wj	望
+wz	瑶
+wc	琪
+ws	逢
+wr	珍
+wv	玩
+ww	琴
+wy	离
+yb	脂
+yp	霜
+ym	肥
+yf	露
+yd	服
+yt	脚
+yl	幼
+yg	划
+yk	腻
+yh	胜
+yj	脸
+yq	希
+yx	腰
+yz	腹
+yc	震
+ys	重
+yr	零
+yw	脑
+yy	胎
+bba	穴
+bbe	痺
+bbi	比 宓 疕
+bpa	宋
+bpi	疲
+bfe	痱
+bd;	疖
+bto	冗 宂
+btu	冤 寃
+bt/	痌
+bno	鹎
+bni	疓
+bla	宍
+bgu	容
+bg.	痕
+bg/	宆
+bha	疝 冚
+bho	灾 疢
+bhe	痐
+bja	疚
+bju	痀
+bj.	釡
+bq;	痊 宊
+bq/	肎
+bxa	疜
+bxo	安
+bxe	疟
+bx.	宰
+bx/	兌
+bzi	疻
+bzu	定
+bz.	寘 瘨
+bco	分
+bc.	守 疛
+bso	冘 尣
+bsu	疫
+bs.	审
+bri	旨
+bvi	官 郫 邲
+bw.	敝
+bya	宙 宦
+byo	公 宎
+byi	父
+byu	写
+pba	朳
+pbo	杴
+pbe	椑
+pbi	朼 柲
+ppa	林
+ppi	柀
+pma	杩 杫
+pmo	枺
+pmu	相
+pm;	梚
+pfo	杏
+pfe	棑
+pfu	枎
+pf;	板 杋
+pf,	枋
+pda	杕
+pd/	栋
+pta	柁
+pto	机
+ptu	杜
+pt/	桐
+pna	杽
+pne	枘
+pla	杺
+plo	栳
+ple	朰
+pli	槅
+plu	樚
+pl/	柺
+pga	柧
+pgi	术 朮
+pg;	杆 皯
+pg.	根
+pg/	杛 栱
+pki	枅
+pha	杣
+pja	桕 柙 杦
+pjo	桷
+pje	札
+pji	杞
+pju	枸
+pj;	枧
+pj/	椋
+pqo	杰
+pq;	栓 枤
+pxi	栖
+px,	橡
+px.	梓
+px/	柷
+pzi	枳
+pzu	株
+pz,	杖 枨
+pz.	槙
+pco	朷
+pci	材 柝
+pcu	柮
+pc;	杊
+pc.	村
+pso	杓
+psu	朻 杸
+ps;	杉
+ps.	柛
+pri	杳
+pr.	朲 杒
+pvo	权
+pv,	枊
+pw,	枉
+pw.	枚
+pya	柚 栕
+pyo	枖
+pye	枂
+mba	貝
+mbo	欠
+mbe	卑 睥
+mbi	此 匕
+mma	止
+mmo	眜
+mmi	麦
+mmu	眉
+mm;	睌
+mm.	皿
+mfe	罪 𬴂
+mfu	麸
+mf;	凡 眅
+mf,	眆
+mda	驮
+mdo	彳
+mdi	歹
+mta	驼
+mto	条 凣
+mtu	兔
+mt/	眮
+mno	鸟 鿺
+mni	乃
+mla	心
+mle	乙
+mli	鬲
+mlu	鹿
+ml.	仑
+mga	瓜 罛
+mgo	尸
+mge	革
+mgi	卜
+mgu	谷
+mg;	盰
+mg.	眼 艮
+mg/	弓
+mja	久 臼
+mjo	角
+mje	巴
+mji	己
+mju	驹 眗
+mj;	𪾢
+mj/	京
+mqa	丘
+mqo	馬
+mqi	气
+mq;	犬 狊
+mq/	肯
+mxo	女
+mxi	习
+mx,	象
+mx.	辛 骍
+mx/	眖
+mzo	士
+mzu	朱 歨
+mz,	丈
+mz.	瞋
+mci	斥
+mcu	齿
+mc;	川 驯
+mc,	厂
+mc.	寸
+mso	見 勺
+msi	水 巳 氺
+msu	殳
+ms.	申 眒
+mro	巾
+mri	旧 驲
+mr.	刃 罖
+mvo	驭
+mwa	瓦
+mwo	詈
+mwe	眛
+mwu	乌
+mw;	丸
+mya	臣
+myo	夭 幺
+mye	曰 眀
+myu	雨
+fba	叭
+fbo	吹
+fbe	啤
+fbi	叱 咇
+fb.	呠
+fpa	呆 棐
+fma	吗
+fme	中
+fmi	唛
+ffo	吕 吅
+ffe	啡
+ffu	呋
+fda	奜
+fdo	剕
+fd;	叩
+fta	咜
+fto	叽
+ftu	吐
+ft/	哃
+fno	鸣
+fne	呐 呙
+fn;	哖
+fla	悲 吣
+flo	咾
+fli	嗝
+fga	呱
+fgu	唂
+fg.	哏
+fg/	哄
+fka	咔
+fke	韭
+fki	咞
+fho	吙
+fja	呷
+fjo	唃
+fju	呴
+fj;	规
+fj.	唫
+fq;	吠 猆
+fq/	肙
+fxa	吓
+fxo	婓
+fxi	哂
+fx,	响
+fx/	呪
+fzi	返 呮
+fzu	足 咮
+fz.	嗔
+fco	叨 叧
+fcu	咄
+fc.	吋
+fsi	叶
+fsu	叫 吺
+fs.	呻
+fro	吊
+fvo	叹
+fvi	邡 邞
+fwa	咓 瓬
+fwo	唁
+fwe	味
+fwu	呜 呒
+fw,	呈
+fw.	放 呚
+fyo	虫 吆
+fyi	史
+dbo	次
+dbi	死
+dpa	米
+dpi	彼
+dma	冯
+dme	丫 丬
+dm;	凂
+dfo	石 夻
+dfe	徘
+dfu	龹
+df,	彷
+dda	夶
+ddo	列
+dd;	兯
+dd/	冻
+dtu	圶
+dt;	奋
+dna	半
+dno	鸫
+dgi	太 卪
+dg.	很
+dke	卫
+dki	并
+dhe	徊 靣
+dje	也
+dj.	凎
+dj/	凉
+dqo	夰
+dxo	夵
+dxe	归
+dxi	徆
+dx/	况 兑
+dzi	达
+dzu	殊
+dz,	套
+dc;	夼
+dc.	夺
+dso	彴
+dsi	车 夲
+dsu	役 殁
+ds;	兰
+dro	帅
+dri	百
+dvi	冭 夳
+dw,	彺
+dyo	厺 殀
+tbo	坎
+tbe	埤
+tpa	朵 凩
+tpi	坡
+tma	址 凪
+tfu	畉
+tf;	坂 畈
+tf,	坊
+tdi	夙
+tta	坨
+ttu	圭 堍
+tt;	畕
+tt/	垌
+tne	凷
+tn/	畀
+tla	思
+tli	塥
+tlu	塶
+tl.	𫭢
+tga	坬 畖
+tgi	圡
+tg,	圹
+tg.	垠
+tg/	異 垬
+tha	圸
+tho	赤 灻
+tja	畂
+tjo	埆
+tje	圠
+tji	圮
+tju	坸
+tqa	坵
+tq;	畎
+tq/	胃
+txa	圷
+tx,	垧
+tx.	垶
+tzi	逸 迱 迵
+tzu	走
+tz.	填
+tci	坼
+tc;	圳 甽
+tc.	寺
+tso	圥 圴
+tsi	圯
+tsu	坄
+ts,	圵
+ts.	坤
+tro	凧
+tvo	凤
+twu	坞
+tw.	畋 坆
+tyo	去
+tyi	风
+nba	扒
+nbo	扻 欮
+nbe	捭
+npa	朶 梟 枭
+npi	披
+nma	扯
+nmo	抹
+nme	屮
+nmu	看
+nm;	挽
+nm.	盁
+nfo	扣 冋
+nfe	排
+nfu	扶
+nf;	扳
+nda	央
+nta	鸵 拕
+nto	凫 鳬
+ntu	冉 扗
+nt/	挏
+nna	用 抙
+nne	击 抐
+nni	扔
+nla	抋
+nli	搹
+nlu	摝
+nl.	抡
+nl/	拐
+ngi	及
+ng;	扞
+ng,	扩
+ng.	拫
+ng/	拱
+nka	拤
+nke	囗
+nha	島 岛
+nja	押
+njo	捔
+nje	扎
+nju	拘
+nj.	捦
+nj/	掠
+nqa	拞
+nqo	鳥
+nq;	拴
+nxo	尕
+nxe	扫
+nxi	拪
+nx/	拀
+nzi	逆 抧 辸
+nz,	扙
+nz.	搷
+nco	冊
+nci	拆
+ncu	拙
+nso	扚
+nsi	囘
+nsu	投
+ns;	且
+ns,	円
+ns.	抻
+nr.	贝 扨
+nvo	夃
+nvi	冃 冄
+nv,	抑
+nwo	丹
+nwe	抺
+nwu	抚
+nw;	执
+nw,	抂
+nya	抽 挋
+nyo	払 扷
+nye	朔 抇 抈
+nyi	冈 罓
+lba	仈
+lbe	俾
+lbi	化 佖 麀
+lb.	体
+lpa	休
+lpi	佊
+lme	了 仫
+lm;	俛
+lfo	吢
+lfe	俳
+lfu	伕
+lf;	仮
+lf,	仿
+lda	夬
+ldo	别
+ld;	飞
+lta	佗
+lto	麂 仉
+ltu	丑 塵
+lt;	留 佃 乪
+lt/	侗
+lna	子 孑 丮
+lno	鹝
+lni	仍
+lla	伈
+llo	佬
+lle	亿
+ll.	伦
+lge	鞷
+lgi	廴 乄 龴
+lgu	俗
+lg;	仠
+lg.	佷
+lg/	供
+lka	佧
+lke	立 刁
+lha	仙
+lho	伙
+lhe	力 佪
+lje	乜
+lju	佝 耈
+lj;	伣
+lj.	鏖
+lj/	倞 麖
+lqo	麃
+lq;	伏 佺
+lxo	乐 仦
+lxi	価
+lx,	像
+lx/	兗
+lzo	仕
+lzi	伿
+lzu	侏 疋
+lz,	仗 伥
+lz.	傎
+lc,	产
+lc.	付
+lso	仢
+lsi	什 卂
+lsu	伇
+ls;	仨
+ls,	仩
+ls.	伸
+lri	耆
+lr.	仞
+lvo	仅
+lvi	仁 佀 鄜
+lv,	仰
+lwa	佤
+lwo	信 隹
+lwe	佅
+lw,	仼
+lya	伷
+lyo	仏 仸
+lye	仴
+lyi	交
+gbo	欲 弞
+gbe	庳 鞞
+gbi	尼 庀
+gpa	床 杘
+gpi	鞁
+gmo	靺
+gme	引 弔 庅
+gm;	鞔
+gfo	咼
+gfe	屝
+gda	庆
+gdo	刊
+gd;	卻
+gto	凥
+gtu	庄 垦 靯
+gt;	屇
+gna	拲
+gno	鹆 鸤
+gne	门 靹
+gn/	亣
+gla	恳 応
+glu	廘
+gga	弧
+ggo	户
+ggi	尺
+gg;	幵 靬
+gg.	良 鞎
+gg/	戶 弜 谼
+gke	弖
+gja	庘
+gj/	弶
+gqo	弗
+gq/	骨
+gxa	斤 卞
+gx.	屖
+gzi	退 迀 迉 逧
+gz,	张
+gcu	屈
+gso	瓝 靮
+gsi	巷
+gri	昔
+gr.	庂 靭
+gvi	邝 邗 䢼 郤
+gwu	庑
+gw.	攼
+gya	届 庙 弫
+gyo	弘 広
+gyi	义
+gyu	屚
+kba	汃
+kbe	渒
+kbi	泌
+kb.	泍
+kpa	沐
+kpi	波
+kma	正 沚
+kmo	沫
+kme	丁
+kmu	泪
+km;	浼
+kfe	渄
+kf;	汎 汳
+kf,	汸
+kda	天 汏
+kdo	刑
+kta	沱
+kto	涤
+ktu	汢
+kt;	沺
+kt/	洞
+kna	于
+kne	丙 汭
+kn/	亓
+kla	沁
+kli	滆
+klu	漉
+kl.	沦
+kga	泒
+kgo	戸
+kgu	浴
+kg;	汗
+kg.	泿
+kg/	洪
+kki	汧
+kha	汕
+kho	灭 烎
+khe	洄
+kh;	耳
+kja	汣
+kjo	万
+kje	匚 丂 匸
+kju	泃
+kj.	淦
+kj/	涼
+kqi	汽
+kqu	浀
+kq;	汱 洤
+kxo	汝
+kxi	洒
+kx,	潒
+kx/	況
+kzo	車
+kzi	辷
+kzu	洙
+kz.	滇
+kco	豕
+kci	泝
+kcu	泏
+kc;	卅 汌
+kso	兀 汋
+ksi	汁 汜
+ksu	没
+ks;	形 卌
+kro	巿 帀
+kri	汨
+kr.	汄
+kvo	汉
+kvi	邢
+kwe	沬
+kwu	𣲘
+kw;	汍
+kw,	汪
+kw.	汷
+kya	油
+kyo	沃
+kye	汩
+hbo	炊
+hbe	崥 焷
+hbi	虙
+hpa	禾 炑
+hpi	岥
+hmu	自
+hm.	血
+hfo	占
+hfu	失
+hf;	岅 炍
+hdo	乊 灲
+hd/	岽
+hta	岮 炨
+hto	虎 凢
+htu	灶
+ht;	甶 畑
+ht/	峒 峝 烔
+hna	牛 牜
+hni	屷
+hn/	升 灷
+hla	虑
+hlo	峔
+hle	九
+hli	鬳
+hlu	熝
+hgo	卢
+hge	煂
+hgi	入
+hgu	峪 焀
+hg;	屽
+hg.	峎
+hg/	烘 烡
+hke	业
+hki	岍
+hha	灿 屲 屾 岀
+hho	炎 炏
+hja	岬 炠
+hjo	崅
+hje	乢
+hji	岂 屺
+hju	岣
+hj;	岘
+hj.	崟 崯
+hqa	岴 虗
+hqi	乇
+hqu	𪨰
+hq;	峑 烇
+hxe	虐
+hx,	嶑
+hx.	峷
+hx/	岲 炾
+hzo	卓 壬
+hzi	迴 炽 辿
+hz.	嵮
+hco	屶 灱
+hcu	炪
+hc,	屵
+hso	灼 灮
+hsi	千
+hsu	炈
+hro	币
+hri	白
+hr.	屻 岃
+hvo	生
+hvi	亗 邖 邩
+hv,	岇
+hwo	訔
+hw.	炇
+hya	岫 峀 烥
+hyo	岆
+hye	舟 岄
+hyu	屿
+jba	釟
+jbo	欽 欨
+jbe	錍
+jbi	鉍
+jb.	鉢
+jpa	余 鈢
+jpi	诐 鈹
+jpu	鈙
+jme	亇
+jmu	鉬
+jm;	鋔
+jfo	合 釦
+jfe	诽
+jfu	鈇
+jf;	釩 鈑
+jf,	访 鈁
+jda	釱
+jdo	釗 剠
+jd;	即 衤
+jta	鉈
+jto	讥 釠
+jtu	釷
+jt;	鈿
+jt/	銅 𫍣
+jno	鸭 鸲
+jne	鈉 讷
+jni	釢
+jn/	舁
+jla	忌 鈊
+jlo	銠
+jle	釔
+jli	鎘
+jlu	鏕 麁
+jl.	论
+jga	觚 鈲
+jgi	夕 礻
+jgu	鋊
+jg;	讦 釬
+jg.	銀 𬣳
+jg/	鉷
+jka	鉲
+jke	鱼
+jki	鈃
+jha	讪
+jho	灸 鈥
+jja	鉀 臽
+jje	饣 釓
+jji	记
+jju	鉤
+jj.	鍂
+jj/	谅 鍄
+jqo	魚
+jq;	銓 诠
+jxo	尔 妀 釥 釹
+jxe	刍
+jx,	銄 鐌
+jx.	鋅 觪
+jzi	识 鉙
+jzu	诛 銖
+jz.	鎮
+jco	釖
+jci	诉 釮
+jcu	诎 鈯
+jc;	训 釧
+jc,	厃
+jc.	讨
+jso	兒 釣
+jsi	计 針 釲
+jsu	设 觓 鈠
+js;	釤
+js,	让
+js.	鉮
+jro	帠
+jri	鈤
+jr.	认 臾 乆 讱 釰
+jvi	里 邔 邭 鈻
+jw;	釻
+jw.	改 敂
+jya	鈾
+jye	鈅
+jyu	鼠
+qba	兵
+qbo	钦
+qbi	铋
+qb.	钵
+qpi	铍
+qmi	鿏
+qmu	钼
+qfo	右
+qfu	𫓧
+qf;	钣 钒
+qf,	钫
+qdo	钊 刏
+qta	铊
+qtu	钍
+qt;	钿
+qt/	铜
+qne	钠 冇 氝
+qni	氖
+qla	忥
+qlo	铑
+qle	钇
+qli	镉
+ql.	𬬭
+qgi	乓
+qg.	银
+qg/	𫟹
+qki	钘
+qha	岳 氙
+qho	灰 钬
+qhe	乒 氕
+qja	钾
+qje	尢 钆
+qqo	氘
+qq;	铨
+qq/	有
+qxo	钕
+qxi	氥
+qx.	锌
+qzi	迖
+qzu	铢
+qz,	𬬮
+qz.	镇
+qco	切
+qc;	钏 氚
+qso	钓 兂 旡
+qsi	针
+qs;	钐
+qs.	氠 𬬹
+qro	布
+qri	氜
+qvo	友
+qvi	邱
+qwu	钨
+qya	铀
+qyo	厷
+qye	钥
+qyi	気
+xbe	婢
+xbi	妼
+xpa	栗
+xma	妈
+xmo	妺
+xme	肀
+xm;	娩
+xfo	如
+xfe	婔
+xfu	妋
+xf,	妨
+xda	尖
+xd;	印
+xtu	尘 垔 婏
+xt/	姛
+xna	聿
+xne	妠
+xni	奶
+xn;	姩
+xla	忑
+xlo	姥
+xle	乤
+xgi	尐
+xg;	奸
+xg/	娂
+xke	工 襾
+xki	妍
+xha	奾
+xho	灵
+xhe	少 尹
+xja	奺
+xje	氏 乵
+xji	妃
+xju	姁
+xj/	婛
+xq;	姾
+xxo	要 奻
+xxe	妇
+xxi	羽
+xx,	姠
+xx.	辡
+xzo	覃
+xzi	迺 逈
+xzu	姝
+xz.	嫃
+xc.	寻
+xso	妁
+xs.	妽
+xro	帇
+xvo	奴
+xvi	酉 邚
+xwo	娮
+xwe	妹
+xwu	妩
+xya	妯 姫
+xyo	妖
+zbe	箄
+zb.	笨
+zpa	采
+zma	笃
+zme	声
+zm.	笽
+zfo	吉
+zf;	竼
+zda	矢
+zd;	壭
+zto	筿
+ztu	玍
+zt/	筒
+zne	笍
+zla	志
+zle	乞
+zlu	簏
+zga	笟
+zg;	竿
+zki	笄
+zha	缶
+zja	舀 笚 镹
+zju	笱
+zj;	觅 笕
+zqu	筁
+zq;	筌
+zxo	妥 尓
+zco	豸
+zcu	笜
+zc.	寽
+zsi	午
+zs;	髟
+zvi	竺 邾
+zwa	瓺
+zw;	笂
+zya	笛
+zyo	笑 镺
+cbo	芡 欪
+cbe	萆
+cbi	苾
+cb.	苯
+cma	芷
+cmo	茉
+cmu	苜
+cm;	莬
+cfo	召
+cfe	菲 厞
+cfu	芙
+cf;	芃
+cf,	芳
+cda	芖
+cdo	刌
+cd;	节
+cto	芁
+ctu	菟 芏 圧
+ct;	苗
+ct/	茼
+cna	芈
+cno	茑
+cne	芮
+cni	艿
+cla	芯
+clo	荖
+cle	艺
+cli	蒚
+clu	蔍
+cga	苽
+cgi	刄
+cg;	厈 芉
+cg.	茛
+cg/	芎
+cke	廿
+cki	茾
+cho	苂
+che	茴
+cji	芑
+cju	苟 茍
+cj;	苋
+cj.	菳
+cqa	茊
+cqi	戊 戌 芞
+cq;	厌 荃
+cxa	芐
+cxi	茜
+cx.	莘 厗
+czo	草
+czi	过 辺 𦭜
+czu	茱
+cz,	苌
+cz.	厧 蒖
+cco	芀
+ccu	茁
+cso	芍
+csu	芟
+cro	芇
+cr.	仄
+cvi	甘 䢺 刅 苢
+cwe	苿
+cwu	芜
+cw;	芄
+cya	苖 茞
+cyo	芺
+cyi	艾
+sbo	忺
+sbi	匂 怭
+spa	耒 栄
+spi	怶
+sme	丰 丯
+sm;	悗
+sfo	古
+sfe	悱
+sf;	忛
+sda	忕
+sdi	爿
+sd;	匀
+stu	坣
+st;	甸 甾 畄
+st/	恫
+sno	鸴
+sn/	异 卉
+sla	忐
+slo	恅
+sle	忆
+sge	愅
+sg;	忓
+sg.	恨
+sha	峃
+sho	災 灳
+she	犭 恛
+sji	忋
+sju	怐
+sj;	觉
+sj.	惍
+sj/	惊
+sqi	忾
+sq;	恮 耂
+sq/	肖
+sxo	尗
+sxe	当
+sxi	恓
+sx,	恦
+sx/	克 怳
+szo	龺
+szi	巡 怾 辻 迧
+szu	辵
+sz,	怅
+sz.	慎
+sco	忉
+sc.	导 忖
+sso	畃
+ssi	包
+sri	旬
+sr.	仧 勽
+svo	支 収
+svi	勿 勻
+swo	訇
+swe	怽
+swu	怃
+sw,	忹
+sw.	收 攺
+sya	怞
+syo	勾
+rbo	欥
+rpa	果 杲
+rpi	帔
+rma	企
+rmo	帓 昩
+rme	曱
+rm;	晚
+rm.	昷
+rfe	暃
+rf;	帆 昄
+rf,	昉 昘
+rda	旲
+rtu	圼
+rt/	晍
+rne	禺
+rla	忍 昗
+rle	今
+rg;	旱 旰
+rg,	旷
+rg.	食
+rg/	晎
+rke	旦 丒
+rha	仚 旵
+rho	炅 炚
+rje	电 亾
+rji	飠
+rju	昫
+rj;	𬀪
+rj/	景 晾
+rqo	介
+rqi	曳
+rxo	妟 尒
+rxi	晒
+rx,	晌 晑
+rzi	帜
+rzu	是
+rz,	帐
+rco	旫
+rcu	昢
+rc.	时
+rso	旳
+rsi	仐 旪
+rri	昌 昍
+rr.	从 仌
+rvi	仒
+rv,	昂
+rwe	昧
+rw,	旺
+rye	明
+vbo	欢
+vbe	陴
+vpi	陂
+vma	阯
+vme	亍
+vfe	陫
+vf;	阪
+vf,	防
+vda	头
+vd;	韦
+vd/	陈
+vta	陀
+vtu	圣
+vno	鸡
+vla	忈
+vli	隔
+vgi	叉
+vg.	限 艰
+vke	纟
+vho	阦
+vhe	乡
+vje	亏 亐
+vj;	观
+vqo	井
+vqi	戋
+vq/	青
+vxo	示
+vx.	辟
+vzi	迎
+vzu	陎
+vc.	对
+vso	元
+vsi	斗
+vri	阳
+vr.	队
+vvo	双
+vvi	門 邓 亖
+vw.	敖
+vyo	云
+vye	阴
+wba	兲 玐
+wbe	琕 諀
+wbi	珌
+wpi	玻 詖
+wma	玛 訨
+wfo	各
+wfe	琲 誹
+wfu	玞
+wf;	瓪 訉
+wf,	訪
+wta	詑
+wto	亢 玑 処
+wtu	主
+wt;	备 亩 畗
+wt/	詷
+wne	訥
+wn/	弄
+wla	悥 訫
+wlo	珯
+wge	諽
+wgi	玉 玊
+wg;	訐 玕
+wg.	珢 詪
+wg/	珙 鿁
+wki	訮
+wha	訕
+who	亦
+wja	玖 玾
+wje	亡 玌
+wji	記 玘
+wju	玽 訽
+wj;	现
+wj.	琻
+wj/	諒 琼
+wqo	烏
+wq;	詮
+wxo	奿
+wx,	珦
+wx/	詋
+wzi	這 迋
+wzu	珠 誅
+wz.	瑱 謓
+wci	訴
+wcu	詘
+wc;	訓 玔
+wc.	討
+wso	玓 訋
+wsi	計 瓧
+wsu	設 訆
+ws.	珅 訷
+wro	市
+wri	亯
+wr.	訒
+wvi	冬 邬 邷
+wwa	珁
+wwo	琂 誩
+ww;	訙
+ww,	玨
+ww.	玫
+wyo	玄 丟 訞
+wye	玥
+wyi	文
+wyu	玙
+ybo	欤 肷
+ybe	脾
+ypa	杀 雬
+ym;	脕
+yfo	台 呑
+yfe	霏 腓
+yfu	肤
+yf,	肪 雱
+ydo	刈 刖
+yd/	胨
+yto	肌
+ytu	肚
+yt;	雷
+yt/	胴
+yne	凶 肭
+yn;	脌
+yn/	弁 畁
+yle	幻 肊
+yli	膈
+ylu	膔
+yga	胍
+ygi	戈
+yg;	肝
+yka	胩
+yha	岙
+yja	胛
+yje	甩 乣
+yju	朐 胊
+yqo	乔
+yqi	毛
+yq;	肰
+yq/	胄
+yxa	雫
+yxo	糸 厼 肗
+yxe	雪
+yzi	迪 胑 迌
+yz,	胀
+ycu	朏 胐
+yc.	肘
+yso	允 肑
+ysu	股
+ys;	肜 糹
+ys.	胂
+yra	朒
+yr.	臥 肕
+yvo	臤
+yvi	邮
+ywo	霅
+yw;	肒
+yya	臦
+yyo	厸
+yye	朋
+yyi	爻
+bbf	蜜
+bbl	穷
+bbh	究
+bbq	穿
+bld	宿
+blg	痛
+bkf	富
+bkr	宣
+bky	室
+bhb	寒
+bhj	农
+bjm	瘦
+bsm	割
+bvs	冠
+bwf	额
+byj	爹
+ppj	梦
+ppv	禁
+pdm	杯
+pgy	横
+pjs	检
+psr	棒
+prl	枪
+pwy	核
+mmh	频
+mtq	默
+mjg	逻
+mvb	背
+fmb	嘴
+fmk	距
+fmh	跳
+fms	跑
+ffm	患
+ffq	器
+fnl	啦
+flh	咖
+fgp	嘛
+fkf	呵
+fhn	哦
+fzd	施
+fzl	旅
+fzc	旗
+fsn	遗
+fsc	喷
+frs	喝
+dpb	粉
+dpn	粗
+dpg	糖
+dpj	断
+dps	糊
+dpv	精
+dmg	否
+dmj	将
+dmz	装
+dfd	碰
+dfl	卷
+dfk	硬
+dfw	碎
+dtt	街
+dnv	耐
+dgm	州
+dkb	益
+dkf	养
+dkd	送
+dkn	差
+dkh	普
+dkq	剪
+dkx	兼
+djd	衡
+dxv	尊
+dsm	德
+dsf	辑
+dsl	较
+dsg	暂
+dsk	辆
+dsj	输
+dsv	轻
+drl	冷
+dvx	径
+tdm	坏
+tds	载
+ttg	戴
+tlk	境
+tlw	截
+tzk	越
+tzc	超
+tcj	塔
+tsd	墙
+nbb	控
+nbd	挥
+nbj	擦
+nmt	摆
+nfn	损
+ndf	圈
+ndk	恩
+nnk	删
+ngm	抓
+ngk	握
+ngx	哲
+nkg	拒
+nkh	摄
+nhd	播
+nhl	抛
+nhz	挺
+nhs	括
+nhy	搬
+njm	搜
+nqj	扰
+nxj	抵
+nzd	拖
+nzz	摇
+ncj	搭
+ncs	撕
+ncr	摸
+nsf	固
+nsl	助
+nsg	救
+nrd	赚
+nrl	抢
+nrh	贴
+nrs	购
+nvd	围
+nvs	园
+nwn	搞
+nwl	势
+lbd	倾
+lbn	货
+lms	承
+ldl	伪
+lnb	商
+lnr	侧
+llk	倍
+lgm	假
+lgn	勇
+lgl	预
+lgg	偏
+lgc	柔
+lgv	登
+lkp	新
+lkf	使
+lkn	俩
+lkh	站
+lkj	代
+lkr	便
+lky	倒
+lhf	架
+lhn	傻
+lhz	凭
+ljq	偷
+ljx	您
+lxb	侵
+lxn	健
+lzf	蛋
+lzl	伤
+lvm	录
+lvj	传
+lwb	停
+lwh	依
+gpp	魔
+gdg	弱
+gnd	阅
+gnk	闻
+gnw	闹
+glg	序
+ggn	遍
+ggj	展
+ghf	属
+ghz	庭
+gxm	康
+gxj	底
+gsf	剧
+grr	座
+kbk	演
+kpr	渣
+kmm	涉
+kmd	顶
+kfp	整
+kfm	歌
+kff	潜
+kfd	豆
+kft	逼
+kfk	或
+kfz	游
+kdg	洲
+kdk	洋
+kds	渐
+knp	刺
+kng	丽
+knj	顿
+knr	测
+kln	滴
+kly	滚
+kgn	润
+khd	联
+kht	洗
+khl	聊
+khk	恶
+khr	激
+khv	聚
+kxm	妻
+kxv	漂
+kzd	医
+kch	源
+kcq	匿
+ksf	湖
+ksz	淘
+krb	混
+krm	漫
+kwl	液
+kwh	湾
+kwy	济
+kyt	致
+kyj	欧
+kyy	爽
+hpd	税
+hpn	透
+hpl	季
+hph	穆
+hpj	称
+hpx	秒
+hps	稍
+hpv	科
+hmt	鼻
+hdp	翻
+hdn	烦
+hdl	炼
+hdj	逃
+htf	造
+hts	赞
+hnd	奥
+hnt	特
+hjg	餐
+hqk	射
+hsm	剩
+hsf	适
+hsl	版
+hrg	爆
+hyt	船
+hyk	烧
+hyw	航
+jfk	误
+jdm	补
+jdg	裤
+jdk	谱
+jlk	词
+jgn	祖
+jgl	怨
+jgk	福
+jkd	评
+jhq	谢
+jjb	馆
+jjz	饰
+jxk	毁
+jcl	诚
+jcq	诺
+jsk	剑
+jsq	诸
+jvl	野
+qbg	袭
+qmh	雅
+qsn	锁
+xkf	恐
+xkd	项
+xkg	姨
+xkk	巧
+xvl	努
+xvh	酷
+xvr	醒
+xvy	酸
+zmv	怎
+zfd	鼓
+zdf	智
+zdk	短
+zgg	篇
+zjl	每
+zjs	签
+zsp	籍
+zvz	篮
+cbl	劳
+cbv	蒙
+clk	薪
+clh	苏
+clj	顾
+clq	盛
+ckd	苹
+ckl	范
+ckk	薄
+ckj	励
+ckw	落
+csb	斯
+csh	获
+csq	著
+crl	厚
+cvl	萨
+cvk	药
+cvz	蓝
+sfn	赏
+snd	南
+slh	协
+slv	卖
+skb	举
+skf	懒
+skq	博
+shf	独
+shl	犯
+shc	猫
+shs	猪
+shv	帮
+shw	逛
+sql	教
+sxl	悟
+szv	韩
+srm	泰
+srk	奏
+rlk	暗
+rlj	创
+rgf	舒
+rzm	昨
+rzg	暖
+rcv	晨
+vlk	陪
+vkb	综
+vkf	阿
+vkd	练
+vkn	级
+vkl	维
+vkg	编
+vkk	纯
+vkj	绝
+vkx	红
+vkz	缓
+vkc	绍
+vks	续
+vkv	线
+vkw	统
+vjl	毒
+vjx	隐
+vjs	险
+vqj	静
+vxk	劲
+vvy	紧
+vyb	魂
+wbk	豪
+wby	毫
+wdm	环
+wln	熟
+whf	蛮
+wyn	赢
+wys	率
+wyr	刻
+ydf	腾
+ydn	需
+yqb	熊
+ycr	膜
+ysy	胸
+bbbi	毖 疪
+bbpa	枈 穼 罙
+bbmu	窅
+bbtu	坒
+bbno	窎
+bble	穵
+bbga	窊
+bbg;	罕
+bbg/	穹
+bbha	密
+bbq;	突
+bbz.	窴
+bbcu	窋
+bbsi	毕
+bbro	帘
+bbvi	痯
+bbyo	穾
+bppa	痲 冧 痳
+bmbi	疵
+bmje	疤
+bmso	覕
+bfpa	宲
+bffo	宫
+bfyo	痋
+bdpa	冞 宩
+bdfo	宕
+bdx/	痥
+bdsi	军
+btn/	痹
+btc.	痔
+btyi	疯
+bnbo	瘚
+bnna	痈
+bnqo	鴓 鵯
+bns;	宜 疽 冝
+blme	疗
+blm.	寍
+blda	疦
+blt;	瘤
+blna	字
+blvi	疡
+blwo	寉 痽 隺
+bgbi	痆
+bgfo	瘑
+bgga	寙
+bgqo	疿
+bgs;	彮
+bgri	瘄
+bgyo	宖
+bgyu	瘺
+bkma	症
+bkme	宁 疔
+bkna	宇
+bkne	病
+bkjo	疠
+bkje	兮
+bkzo	軍
+bkco	家
+bhfo	痁
+bhna	牢
+bhle	宄
+bhho	痰
+bhqi	宅
+bhxe	瘧
+bhvo	叜
+bjso	瘹
+bjr.	瘐
+bjyo	鬼
+bjyu	癙
+bqba	宾
+bqq/	宥 痏
+bqyo	宏
+bxpa	案
+bxge	鞌
+bxke	疘
+bxje	疧
+bxxi	翉
+bxw.	敓
+bzpa	寀
+bzda	疾
+bzla	痣
+bzle	疙
+bcm.	盆
+bctu	坌
+bcn/	弅
+bcla	忿
+bclu	麄
+bcha	岔
+bcho	炃
+bcj;	宽
+bcvi	疳 邠
+bcwa	瓫
+bcw.	攽
+bsno	鸨 鸩
+bsq/	宵 痟
+bsso	尦
+bssi	疱
+bsr.	実
+bsvo	痩
+bsvi	邥
+bswa	瓭
+bsw,	尩
+brm.	瘟
+brne	寓
+brla	冥
+brke	疸
+brqo	疥
+brxo	宴
+brzu	寔
+brs;	疹
+brr.	疭
+bvda	实
+bvla	悹
+bvje	疞
+bvqo	宑
+bvq/	寈
+bvxo	宗
+bvx.	癖
+bvzi	逭
+bvso	完
+bwmu	瞥
+bwfo	客
+bwtu	疰 宔
+bwna	撆
+bwn/	弊
+bwla	憋
+bwgi	宝
+bwg/	彆
+bwj.	鐅
+bwq;	獘
+bwxo	嫳
+bwro	幣
+bwri	暼
+bwvi	疼
+bwyo	痃
+bypa	枀
+byd;	爷
+byt;	癗
+byla	忩
+byqi	宒
+byso	兊
+bywa	瓮
+byye	痭
+pbba	柼
+pbbi	枇
+pbm.	榓
+pbfo	柗
+pbgu	榕
+pbxo	桉
+pbx.	榟
+pbx/	梲
+pbzu	椗
+pbco	枌
+pbso	枕
+pbri	栺
+pbvi	棺
+pbyo	松 枩
+pppa	森
+ppf;	梵
+pptu	埜
+ppt;	榃
+pplu	麓
+ppho	焚
+ppxa	梺
+ppxo	婪
+pps;	彬
+ppvi	郴
+pmba	梖
+pmmu	楣
+pmfe	檌
+pmf,	楞
+pmla	想
+pmgi	朴
+pmje	杷
+pmqo	榪
+pmso	梘
+pffo	梠
+pftu	堏
+pfq/	梋
+pfco	枴
+pfw,	桯
+pdbo	栨
+pdfo	柘
+pddo	栵
+pdna	柈
+pdki	栟
+pdje	杝
+pdx/	棁
+pds;	栏
+pdri	栢
+pttu	桂
+ptla	楒
+ptyo	㭕
+ptyi	枫
+pnpa	桗
+pnda	柍
+pntu	柟
+pngi	极
+pnha	槝
+pnqo	樢
+pnco	柵
+pns;	柤 査
+pnvi	枏
+pnwo	枬
+pnyi	㭎
+plbi	杹
+pltu	杻
+plt;	榴
+plna	李 杍
+plke	柆
+plhe	朸
+plq;	栿
+plxo	栎
+plc.	柎
+plri	榰
+plvi	杨
+plwo	椎
+plyi	校
+pgbi	柅
+pgfo	楇
+pgtu	桩
+pgla	怷 怸
+pggo	枦
+pgg.	桹
+pgqo	柫
+pgq/	榾
+pgxa	析
+pgzi	述
+pgri	棤
+pkma	柾
+pkme	朾
+pkna	杅
+pkne	柄
+pkh;	栮
+pkjo	杤
+pkje	朽
+pkso	杌
+pkro	杮
+phpa	柇
+phm.	桖
+phfo	枮
+phfu	柣
+phto	椃
+phn/	枡
+phle	朹
+phgo	栌
+phgi	杁
+phho	棪
+phji	桤
+phqi	杔
+phzo	棹
+phsi	杄
+phri	柏
+phvo	栍
+phvi	桘
+pjpa	梌
+pjd;	楖
+pjla	梞
+pjg.	檭
+pjso	棿
+pjr.	楰
+pjvi	梩
+pqba	梹
+pqq/	栯
+pqro	柨
+pxke	杠 杢
+pxho	棂 樮
+pxhe	杪
+pxxo	楆
+pxxi	栩
+pxzo	橝
+pxc.	桪
+pxvi	梄
+pzpa	棌
+pzfo	桔
+pzla	梽
+pzle	杚
+pzja	槄
+pzxo	桵
+pzsi	杵
+pcfo	柖
+pcd;	栉
+pcvi	柑
+psfo	枯
+psd;	枃
+pst;	椔
+psn/	枿
+psqi	桟
+psq/	梢
+psxa	桛
+psxo	桜
+psxe	档
+pssi	皰 枹
+psri	栒
+psvo	枝
+psyo	构
+prpa	棵
+prm.	榅
+prla	梕
+prle	枔
+prg;	桿
+prke	查 柦
+prqi	栧
+prri	椙
+prr.	枞
+pvtu	柽
+pvgi	杈
+pvje	杇
+pvqi	栈
+pvq/	棈
+pvxo	标 柰
+pvx.	檘
+pvc.	树
+pvso	杬
+pvsi	枓
+pvvi	椚
+pvyo	枟
+pwfo	格
+pwto	杭
+pwtu	柱
+pwn/	梇
+pwje	杧
+pwro	柿
+pwvi	柊
+pyfo	枱
+pyt;	檑
+pyqo	桥
+pyqi	枆
+pyxe	樰
+pyye	棚
+mbpa	柴
+mbpi	貱
+mbmu	眥
+mbfo	呰
+mbf;	販
+mbdo	則
+mbjo	觜
+mbj.	鈭
+mbxo	姕
+mbx/	貺
+mbco	盼
+mbci	財
+mbso	眈
+mbra	胔
+mbvi	些 郥
+mbwo	訾
+mbw.	敗
+mppa	罧
+mmba	買
+mmbo	冖 宀
+mmbi	眦
+mmb/	疒
+mmpa	朩
+mmpu	攴
+mmma	歮 骉
+mmme	丨 亅
+mmmu	睸 瞐 罒
+mmdo	刂 丷
+mmdi	丆
+mmd;	卩 冫
+mmna	扌 龵
+mmno	鹛
+mmne	冂 凵 禸
+mmni	屰
+mmn/	丌 廾
+mmla	愳
+mmle	乛
+mmli	亻
+mmgi	丶 乀 乁
+mmgu	冎
+mmg/	龷
+mmka	氵
+mmho	煛
+mmhe	丿
+mmhu	虍
+mmja	讠
+mmje	乚
+mmj.	亼 釒
+mmqo	罵 灬
+mmqi	钅
+mmq;	瞁
+mmxa	丅
+mmxe	彐
+mmxi	覀
+mmzo	爫
+mmzi	辶
+mmzu	龰
+mmz,	镸
+mmco	艹 乑 卄 卝
+mmso	勹 睍
+mmsu	忄 丩
+mms;	彡 巛
+mms,	丄 龸
+mmr.	亽
+mmvo	龶
+mmvi	阝 巜 郿
+mmv,	卬
+mmwo	亠 吂 訁
+mmw.	攵 夂 夊
+mmyo	厶
+mmyi	乂
+mfbi	唜
+mfq/	睊 罥
+mfw,	睈
+mfyi	驶
+mdpa	眯
+mdna	眫
+mdki	骈
+mdje	驰
+mttu	眭 罣
+mtn/	睤
+mtla	罳
+mtqo	黑
+mtc.	歭
+mtyo	罢
+mnfo	𬳶
+mnda	眏
+mnqo	瞗
+mns;	驵 罝
+mlda	𫘝
+mlt;	骝 罶
+mlhe	勉
+mlc.	驸
+mlwo	睢 骓
+mgbi	眤
+mgma	羁
+mgm.	盀
+mggo	驴
+mgxa	盺
+mkma	罡 眐
+mkme	盯
+mkna	盱
+mkne	眪
+mkh;	眲
+mhfu	眣
+mhho	睒
+mhzo	罩
+mhye	歬
+mjpa	𬳿
+mjdo	罚
+mjgi	罗
+mjha	岊
+mjxo	県
+mjxe	驺
+mjso	睨
+mqbi	駜
+mqpi	駊
+mqfe	騑
+mqda	馱
+mqta	駝
+mqt/	駧
+mqno	䴗
+mqn/	馵
+mqlu	騼
+mqg;	馯
+mqju	駒
+mqqa	駈
+mqq;	駩
+mqx.	騂
+mqzi	遤
+mqzu	駯
+mqc;	馴
+mqso	馰
+mqri	馹
+mqvo	馭
+mqvi	郹
+mqw.	駇
+mqya	駎
+mxhe	眇 歩
+mxje	眂
+mxzo	瞫
+mzpa	睬
+mzle	盵
+mcbi	龀
+mcfo	眧
+mct;	瞄
+mcg.	龈
+msme	盽
+msm.	泴
+msfo	罟 呇
+msd;	盷
+mstu	坔
+mst;	畓
+msne	凼
+msq/	睄
+msri	沓 眴
+msr.	氼
+msvo	歧
+mrpa	骒
+mrg;	睅
+mrzu	睼 𫘨
+mrso	児
+mrs;	眕
+mvbi	北
+mvna	驿
+mvq/	睛
+mvxo	眎
+mvso	盶
+mvyo	眃
+mwfo	骆
+mwdo	罰
+mwtu	驻 罜
+mwje	盳
+mwc;	瞓
+mwc.	罸
+mwyo	眩 𫠊
+mwyi	盿 𫘜
+myfo	眙 骀
+myqo	骄
+myqi	眊
+myyi	驳
+fbbi	吡
+fbho	焁
+fbxo	咹
+fbzu	啶
+fbco	吩
+fbyi	㕮
+fppa	啉
+fmba	員 趴 唄
+fmbi	呲
+fmpi	跛
+fmma	趾
+fmm.	盅
+fmfu	趺
+fmf,	趽
+fmta	跎
+fmla	忠
+fmlu	蹗
+fmgi	卟
+fmg.	跟
+fmki	趼
+fmje	吧 邑
+fmju	跔
+fmqo	嗎
+fmq;	跧
+fmq/	啃
+fmxi	跴
+fmzi	迚
+fmzu	跦
+fmz.	蹎
+fmci	跅
+fmcu	啮
+fmso	規 趵 哯
+fmwe	跊
+fmyo	跃
+fmye	跀
+ffma	骂
+ffme	串
+fffo	品
+ffto	咒
+fftu	堃
+ffqo	丳
+ffq;	哭
+ffzu	哫
+ffri	替
+ffvi	郘
+ffyo	虽 蜚
+fdpa	咪
+fdme	吖
+fddo	咧
+fdgi	呔
+fdje	吔
+fdx/	哾
+fdzi	哒
+fdsi	辈
+fdri	咟
+ftpa	哚
+fttu	哇
+ftho	哧
+ftq/	喟
+ftzu	唗
+ftyo	呿
+fnpa	嘄
+fnda	咉
+fndo	剐
+fntu	呥
+fngi	吸
+fnqo	鳴 鳺 鴋
+fns;	咀
+fnr.	员 呗
+fnye	嗍
+flbi	吪
+flpa	咻
+flda	吷
+fldo	哵
+fltu	吜
+flna	吇
+flke	叼
+flhe	叻
+flc.	咐
+flri	嗜
+flwo	唯
+flyi	咬
+fgbi	呢
+fgme	吲
+fgfo	喎
+fggi	呎
+fgg.	哴
+fgqo	咈
+fgq/	嗗
+fgxa	听
+fgcu	啒
+fgri	唶
+fkpi	啵
+fkme	叮
+fkda	吴
+fkna	吁
+fkh;	咠 咡
+fkje	号
+fkzo	輩 唓
+fhpa	咊
+fhmu	咱
+fhfo	呂 呫
+fhfu	呹
+fhto	唬
+fhna	吽
+fhn/	呏
+fhgi	叺
+fhho	啖
+fhqi	吒
+fhzo	啅
+fhsi	吀
+fjpa	唋 椝
+fjfo	哈
+fjda	吳
+fjdo	別
+fjd;	唧
+fjli	鬶
+fjja	啗
+fjqo	喣
+fjso	唲
+fjvi	哩
+fqdo	剈
+fqno	鹃
+fqho	咴
+fqq/	哊
+fqro	咘
+fqwa	瓹
+fqyo	吰
+fxke	叿
+fxhe	吵 吚
+fxxo	喓
+fxxi	翡
+fxzo	嘾
+fxvo	呶
+fxvi	唒
+fzpa	啋
+fzpi	旇
+fzfo	咭
+fzto	斻
+fzle	吃
+fzxo	哸
+fzc.	哷
+fzsi	吘
+fzro	斾
+fzwa	旊
+fct;	喵
+fcle	呓
+fcg;	哶
+fcvi	咁
+fcyi	哎
+fsfo	咕
+fsd;	呁
+fshe	啚
+fsq/	哨
+fssi	咆
+fsri	咰
+fsvo	吱
+fsvi	吻
+frm.	嗢
+frne	喁
+frle	吟
+frg;	哻
+frg.	喰 餥
+frke	呾
+frje	黾
+frqo	吤 斺
+frxi	嗮
+frri	唱
+frvi	於
+fvq/	啨
+fvxo	呩
+fvx.	噼
+fvsi	呌
+fvw.	嗷
+fvyo	呍
+fwfo	咯
+fwto	吭
+fwn/	哢
+fwqo	嗚
+fwzi	逞
+fwvi	咚 郢
+fwyo	呟
+fwyi	斐 呅
+fybe	蜱
+fypa	蚞
+fypi	蚾
+fyma	蚂
+fym.	蛊
+fyfo	咍
+fyfu	蚨
+fyf,	蚄
+fyd/	𬟽
+fyta	蛇
+fyto	虮
+fyne	蚋
+fylo	蛯
+fyli	螎
+fylu	螰
+fyga	蛌
+fyg;	虷
+fyg.	蛝
+fyki	蚈
+fyhe	蛔
+fyje	虬
+fyju	蚼
+fyj;	蚬
+fyqa	蚯
+fyqi	靟
+fyqu	蛐
+fyxa	虾
+fyxo	旀
+fyx,	蟓
+fyzu	蛛
+fyco	虭
+fyci	蚸
+fyso	吮 虳
+fysu	虯
+fyri	蚎
+fyw,	蚟
+fyya	蚰
+fyye	蚏
+dbpa	栥
+dbm.	盗
+dbfo	咨
+dbtu	垐
+dbla	恣
+dble	乲
+dbxo	姿
+dbwa	瓷
+dbw.	徶
+dbyo	彸
+dpbe	粺
+dpmo	粖
+dpf;	粄
+dpda	类
+dpto	籶
+dpt;	畨
+dpt/	粡
+dplo	粩
+dplu	麊
+dpg/	粪 粠
+dpha	籼
+dpqu	粬
+dpxo	娄 籹
+dpxi	粞
+dpzi	迷
+dpz,	粀
+dpc.	籿
+dpsi	籵
+dpr.	籾
+dpw.	敉
+dpya	粙
+dmba	頁
+dmgi	不
+dmje	夿
+dmqo	馮
+dmq;	状
+dmxo	妆
+dmzo	壮
+dmzu	徙
+dmsi	冰
+dmri	曾
+dmw.	夏
+dfbo	砍
+dfbe	碑
+dfb.	砵
+dfpa	桊
+dfpi	破
+dfma	码 砋
+dfmo	砞
+dfme	冲
+dfmu	眷
+dffu	砆
+dff;	矾
+dfdo	矵
+dfta	砣
+dfto	矶
+dft;	鿬
+dft/	硐
+dfna	拳
+dfla	总
+dflo	硓
+dfle	乭
+dfgu	硲
+dfg;	矸
+dfg,	矿
+dfg.	硍
+dfg/	弮 硔
+dfki	研
+dfhe	硘
+dfjo	确 觠
+dfji	巻
+dfj;	砚
+dfj.	碒
+dfqo	奍
+dfq;	硂
+dfxi	硒
+dfzu	硃
+dfz.	磌
+dfco	券
+dfcu	础
+dfsu	砓
+dfs.	砷
+dfro	帣
+dfwa	砙
+dfwo	誊
+dfw,	徎
+ddmu	首 眘
+dddo	冽
+ddna	冸
+ddno	䴕
+ddho	烮
+ddje	彵
+ddj.	銐
+ddqo	烈
+ddxo	姴
+ddzi	迾
+ddri	昚
+dttu	奎 徍
+dtg/	兾
+dtzu	徒
+dtc.	待
+dtri	曽
+dnf;	叛
+dnda	殃
+dndo	判
+dngi	彶
+dnqo	殦
+dns;	殂 徂
+dnr.	页
+dnvi	而
+dlda	决
+dlgi	为
+dlhe	夯
+dlwo	准 奞
+dgme	弚
+dgm.	盇
+dgla	态
+dggi	鿈
+dgqo	彿
+dgxa	歽
+dgzi	迏
+dgri	徣
+dkma	征
+dkda	关
+dkna	羊
+dkh;	耷
+dkzi	迸
+dkro	师
+dkr.	剏
+dkvi	郱
+dkwa	瓶
+dhm.	殈
+dhsi	歼
+dhvo	徃 殅
+djpa	徐 凃
+djfo	冾
+djzi	迆
+dqco	彻
+dxpa	凓
+dxtu	凐
+dxna	律 冿 肂
+dxke	冮
+dxvi	酋
+dxw.	敚
+dsbo	软
+dsda	轪
+dstu	垼
+dsn/	奔
+dslu	辘
+dsl.	轮
+dsg;	轩
+dsje	轧
+dsj/	辌
+dsq;	辁
+dsx/	殑
+dszi	连 轵
+dsso	羌
+dsri	殉 徇
+dsr.	轫
+dsvo	歿
+dsvi	歾
+dsya	轴
+drm.	殟
+drg.	飡 飱
+drje	奄
+drzu	徥
+drsi	单
+drs;	殄
+drye	奛
+dvme	行
+dvje	夸
+dvqi	残
+dvq/	凊
+dvxo	奈
+dvyo	夽
+dwm.	盖
+dwda	美
+dwtu	往
+dwla	恙
+dwgi	鿑
+dwho	羙
+dwja	羑
+dwqo	羔
+dwxo	姜
+dyfo	殆 冶
+dyw.	後
+dyye	奟
+tbba	坹
+tbbi	毗 毘
+tbto	坈
+tbtu	坴
+tbgu	塎
+tbxo	垵
+tbzu	埞
+tbco	坋
+tbc.	垨
+tbw.	夌 畟
+tpdo	剁
+tpqi	栽
+tmba	垻
+tmmu	堳
+tmf,	塄
+tmgi	圤
+tmso	垷
+tfne	埚
+tfqi	哉
+tfq/	埍
+tfw,	埕
+tdfo	坧
+tdna	畔 坢
+tdg;	幸
+tdki	垪
+tdje	地
+tdzi	垯
+tdri	凮
+ttpa	垛
+ttdo	刲
+tttu	畦 垚
+ttt;	畾
+ttla	恚
+ttc.	封 畤
+ttvi	邽
+tnpa	垜
+tnfo	坰
+tnda	坱
+tntu	畘
+tngi	圾
+tnqo	鳯 鴫 鵵
+tns;	坥
+tnr.	坝
+tnwo	坍
+tlda	块
+tlt;	塯
+tlke	垃
+tlhe	男
+tlq;	垘
+tlc.	坿
+tlvi	场
+tlwo	堆
+tgbi	坭
+tgfo	堝
+tgg.	埌
+tgqo	坲
+tgxa	圻
+tgcu	堀
+tgsi	塂
+tkme	町 圢 甼
+tkna	圩
+tkri	凬
+thbo	赥
+thmu	垍
+thfo	坫
+thgo	垆
+thgi	圦
+thho	埮
+thji	垲
+thqi	圫 烖
+thsi	圲
+thvi	郝 垖
+thw.	赦
+tjpa	畭
+tjfo	垥
+tjja	埳
+tjso	堄
+tjvi	埋
+tqm.	盢
+txpa	塛
+txtu	堙
+txna	垏
+txje	坁
+txxo	㙘
+txzo	墰
+tzbo	赼
+tzpa	埰
+tzda	垁
+tzle	圪
+tzg;	赶
+tzha	赸
+tzja	塪
+tzji	起
+tzj.	趛
+tzzu	趎
+tzcu	趉
+tzc.	埒 埓
+tzsu	赳
+tzr.	龪
+tzyi	赵
+tcvi	坩 邿
+tsd;	均 畇
+tstu	塁
+tsxa	垰
+tsxe	垱
+tssi	垉
+tsvi	圽
+trpa	堁
+trm.	塭
+trne	堣
+trle	坅
+trg;	垾
+trke	坦
+trqo	界 圿 畍
+trqi	胾
+trzu	堤
+trc.	埘
+trs;	畛
+tvje	圬
+tvqo	畊
+tvq/	埥
+tvx.	壀
+tvso	坃
+tvyo	坛 凨
+twfo	略 垎 畧
+twto	坑
+twje	甿
+twqo	塢
+twyi	坟
+tym.	盍
+tyfo	坮
+tydo	刦
+tyd;	却
+tyn/	弆
+tygi	戙
+tyxo	累
+tyzi	迲
+tyco	刧
+tyr.	刼
+tyye	堋
+nbbi	批
+nbfo	冏
+nbto	抭
+nbgu	搈
+nbxo	按
+nbx/	挩
+nbzu	掟
+nbco	扮
+nbso	抌
+nbri	指
+nbvi	捾
+nbw.	撇
+npdo	刴
+npke	困
+npvi	鄡
+nmgi	扑
+nmje	把
+nmq/	掯
+nmso	挸
+nmvi	搀
+nffo	捛
+nfj.	鋬
+nfq/	捐
+nfzi	迥
+nfzu	捉
+nfw,	挰
+ndm.	盎
+ndfo	拓
+nddo	挒
+ndna	拌
+ndno	鸯
+ndke	因
+ndki	拼
+ndje	扡
+ndx/	捝
+ndzi	挞
+nds;	拦
+ndvo	报
+ntpa	挆
+ntfo	周
+nttu	挂
+ntla	揌
+ntho	捇
+ntc.	持
+ntyo	抾
+nnpa	挅
+nnda	抰
+nntu	抩
+nnna	拥 掱
+nngi	扱
+nnke	册
+nnha	搗 捣
+nnqo	鵇
+nns;	抯
+nnye	搠
+nlda	抉
+nldo	捌
+nltu	扭
+nlna	孕
+nlke	拉 囵
+nlhe	劧 扐
+nlc.	拊
+nlsi	扟
+nlri	搘
+nlvi	扬
+nlwo	推
+nlyi	挍
+ngba	典
+ngbi	抳
+ngne	扪
+nggo	护
+nggi	択
+ngke	囙
+ngqo	拂
+ngq/	搰
+ngxa	折 抃
+ngx.	搱
+ngcu	掘
+ngri	措
+ngyo	拡
+nkme	打
+nkna	扜
+nkne	抦
+nkh;	挕
+nkzo	捙
+nkso	扤
+nhfo	拈
+nhfu	抶
+nhn/	抍
+nhla	摅
+nhle	扏
+nhgi	內 扖
+nhho	掞
+nhqi	托
+nhzo	掉
+nhsi	扦
+nhri	拍
+njbo	撳
+njpa	捈
+njfo	拾
+njd;	揤
+njja	掐
+njso	掜
+njvi	捚
+nqba	捠
+nqbo	揿
+nqta	鴕
+nqto	鳧
+nqle	鳦
+nqha	捳
+nqho	拻
+nqro	抪
+nqvo	抜
+nqvi	鄥
+nxpa	搮
+nxke	扛 囡
+nxhe	抄
+nxje	扺
+nxxi	挧
+nxzo	撢
+nxc.	挦
+nzpa	採
+nzfo	拮
+nzle	扢
+nzja	搯
+nzxo	挼
+nzc.	捋
+ncfo	招
+ncdo	刪
+nct;	描
+ncke	团 団
+nczi	挝
+ncvi	拑
+nsba	具
+nsme	拜 拝
+nsfo	呄
+nsdo	刞
+nsd;	抣
+nsgi	求
+nske	四 甴
+nsj;	搅
+nsq/	捎
+nsxa	挊
+nsxo	妛
+nsxe	挡
+nssi	抱
+nsri	旹
+nsvo	技 捜
+nswo	揈
+nsyo	县 抅
+nrpa	捰
+nrm.	揾
+nrf;	贩
+nrdo	则
+nrtu	捏
+nrle	扲
+nrg;	捍
+nrke	担 囚
+nrj/	撔
+nrqo	扴
+nrqi	拽
+nrx/	贶
+nrzu	提
+nrz,	账
+nrci	财
+nrs;	抮
+nrvi	扵
+nrw.	败
+nvmu	冒
+nvm;	冕
+nvm.	盈
+nvna	择
+nvgi	扠
+nvje	扝
+nvq/	冐 掅
+nvx.	擗
+nvso	抏
+nvsi	抖
+nvs;	囬
+nvvo	㧐
+nvvi	捫
+nvyo	抎
+nwfo	挌
+nwdo	刐
+nwto	抗 拠
+nwtu	垫 拄
+nwna	挚
+nwno	鸷
+nwn/	挵
+nwke	囯 圁
+nwqo	热 摀
+nws;	彤
+nwyi	抆
+nypa	槊
+nyfo	抬
+nydo	刚
+nytu	塑
+nyt;	擂
+nyn/	拚
+nyla	愬
+nyle	抝
+nygi	找
+nyke	囜 龱
+nyje	扥
+nyqo	挢
+nyzi	遡
+nyso	抁
+nys.	挿
+nyye	掤
+nyyi	网
+lbbi	仳
+lbpa	俕
+lbf,	旁
+lbto	伔
+lbgu	傛
+lbke	伫
+lbq/	佾
+lbxo	侒
+lbco	份
+lbsi	华
+lbro	帝
+lbvi	倌
+lbyo	伀
+lpno	鸺
+lpla	恷
+lpqo	烋
+lmba	貿
+lmbi	佌
+lmfo	叾
+lmto	條
+lmne	𠙶
+lmgi	仆 孓
+lmke	孒
+lmqo	傌
+lmzi	辽
+lmso	俔
+lmsi	氶 氹
+lmw.	攸
+lfpa	保
+lfme	仲
+lffo	侣
+lfh,	侃
+lfzu	促
+lfw,	侱
+lfw.	倣
+lfyo	融
+ldbo	佽
+ldpa	麋 侎
+ldfo	佦
+lddo	例 刔
+ldna	伴
+ldgi	书
+ldki	併
+ldje	他
+ldx/	侻
+ldsi	伡
+ldri	佰
+lttu	佳
+ltno	鹠
+ltla	偲
+ltzi	遛
+ltc.	侍
+ltyo	佉 厾
+lnm.	孟
+lnda	佒
+lnna	佣
+lnla	孞
+lnga	孤
+lngi	伋
+lnje	孔
+lnqo	鷊
+lnxo	孙
+lns;	伹 麆
+lnr.	贸
+lnvi	那
+lnw.	孜
+llt;	鬸
+llna	仔
+llla	惢
+lllu	麤
+llke	位
+llhe	仂
+llqo	儦
+llwo	倠
+llyi	佼
+lgbi	伲
+lgme	伄
+lgne	们
+lggi	伬
+lgg.	俍
+lgqo	佛
+lgq/	傦
+lgxa	伒
+lgci	矛
+lgcu	倔
+lgri	借
+lgyi	仪
+lkpa	亲
+lkma	佂
+lkme	仃
+lkfo	司 咅
+lkdo	侀
+lkto	竌
+lkn/	竎
+lkh;	佴
+lkju	竘
+lkxo	妾
+lkx/	竞
+lkzo	章 俥
+lkco	豙
+lksi	竍
+lksu	竐
+lkro	伂
+lkri	音
+lhpa	麇
+lhm.	侐
+lhfo	加 佔
+lhfu	佚
+lhd;	卯
+lhto	俿
+lhna	件
+lhle	仇
+lhho	倓
+lhje	劜
+lhqi	仛
+lhzo	任 倬
+lhzi	边
+lhsi	仟
+lhri	伯
+lhvi	办
+lhye	侜
+ljpa	俆
+ljfo	佮
+ljdo	劉
+ljxo	你
+ljxe	㑇
+ljso	倪 麑
+ljvi	俚
+lqfo	佑
+lqq/	侑
+lqro	佈
+lqvo	伖
+lxpa	傈 麜
+lxfo	侞
+lxna	侓
+lxke	仜
+lxhe	伊 仯
+lxxo	偠
+lxxi	翮
+lxvo	伮
+lzpa	倸
+lzfo	佶
+lzla	俧
+lzle	仡
+lzq/	胥
+lzxo	俀
+lzsi	仵
+lcfo	佋
+lcla	怤
+lcgi	仭
+lcxo	姇
+lcs;	彦
+lcvi	佄
+lsme	仹
+lsfo	估
+lsd;	伨
+lsq/	俏
+lszi	迅
+lssi	佨 麅
+lsri	侚
+lsvo	伎 叏
+lsvi	伆
+lsw.	敒
+lrpa	倮
+lrne	偶
+lrle	仱
+lrke	但
+lrha	佡
+lrqo	价
+lrxo	伱
+lrzu	偍
+lrri	倡
+lvda	买
+lvd;	伟
+lvq/	倩
+lvxo	佞
+lvx.	僻
+lvvi	們
+lvw.	傲
+lvyo	伝
+lwpa	集
+lwfo	售 佫
+lwto	伉
+lwtu	住 麈
+lwt;	俻
+lwni	隽
+lwho	㑊
+lwqo	焦
+lwzi	進
+lwc.	傠
+lwsi	隼
+lws;	俢
+lwvo	隻
+lwvi	佟
+lwyo	伭
+lwyi	伩
+lyfo	佁
+lyno	䴔
+lygi	伐
+lyqo	侨
+lyqi	耄
+lyso	兖
+lyvi	郊
+lyw.	效
+lyye	倗
+gbba	屄
+gbbi	屁 庇
+gbla	慾
+gbxo	鞍
+gbzi	迡
+gppa	麻
+gpmu	廂
+gmba	屓
+gmbi	庛
+gmm.	盄
+gmgi	爪
+gmje	靶 弝
+gmsi	尿 氷
+gms;	恭
+gfbo	歄
+gfdo	剮
+gfq/	弲 鞙
+gfzi	過
+gfro	屌
+gfw,	鞓
+gfyo	蛬
+gdbi	屍
+gdpa	屎
+gdna	靽
+gdki	屏 庰
+gdje	弛
+gdzi	鞑
+gdsi	库
+gttu	鞋
+gtne	屆
+gtgi	庒
+gtg/	廙
+gtc.	庤
+gnpa	闲
+gnma	闯
+gnfo	问
+gnda	鞅
+gnla	闷
+gngi	靸
+gng;	闬
+gnke	闩
+gnja	闸
+gnqo	鳱 鳲 鵒
+gnz.	阗
+gnci	闭
+gns;	闫 靻
+gnri	间
+gnr.	闪 屃
+gnwo	訚
+gnw,	闰
+glbi	靴
+glpa	庥
+glfo	局
+gltu	靵
+glt;	廇
+glna	谻
+glgi	之
+glhe	勒
+glc.	府 弣
+glsi	永
+ggpa	栞
+ggme	靷
+ggfo	启
+ggfe	扉
+ggf,	房
+ggda	戻
+ggle	戹
+gglu	麉
+gggo	庐
+ggq;	戾
+ggq/	肩
+ggxa	靳 庍
+ggx,	扄
+ggzi	迟 咫
+ggsi	戺
+ggsu	殿
+ggro	帍
+ggri	庴
+ggvi	尽 郉 郞
+ggyo	鞃
+gkme	庁 靪
+gkfo	后
+gkna	弙
+gkne	鞆
+gkh;	弭
+gkzo	庫 輂
+gkso	靰
+ghpa	鞂
+ghfo	店
+ghfu	瓞
+ghto	虒
+ghle	尻
+gjbo	廞 欴
+gjpa	庩
+gjfo	鞈
+gjdo	剆
+gjxo	弥
+gjsu	廄
+gjr.	庾
+gjvi	郎
+gjye	朗
+gqbo	𫷷
+gqbe	髀
+gqb.	骵
+gqpi	骳
+gqf;	骪
+gqdo	刜
+gqno	鹘
+gqg;	骭
+gqsu	骰
+gqw;	骫
+gqw.	散
+gqyo	谹
+gxbo	欣
+gxzi	近 遟
+gxr.	庚
+gxvi	庮 邤
+gzfo	鞊
+gzda	矤
+gzja	鞱
+gzxo	鞖
+gcfo	弨 鞀
+gct;	庿
+gcgi	靱
+gsmu	盾
+gsfo	居
+gske	应
+gsq/	屑 鞘 弰
+gsxa	鞐
+gsso	兏
+gssi	庖 瓟 鞄
+gsvo	庋
+gswo	鞫
+grpi	皵
+grm.	鞰
+grdo	刷 剒
+grno	鹊
+grne	庽
+grle	庈 靲
+grke	靼
+grqo	庎
+grzi	逪
+grzu	鞮
+gvgi	靫
+gvx.	廦
+gvro	乕
+gvw.	廒
+gvyo	层
+gwvi	庝
+gwyo	弦
+gyba	黄
+gyqo	鞒
+gyqi	尾
+gyye	弸
+kbba	泬
+kbbi	沘 淧
+kbpa	浨
+kbm.	盜
+kbto	沉
+kbgu	溶
+kbq;	涋
+kbq/	洕
+kbxo	洝
+kbx.	滓
+kbx/	涗
+kbzu	淀
+kbco	汾
+kbso	沈
+kbs.	渖
+kbvi	涫
+kbw.	潎
+kbyi	㳇
+kbyu	泻
+kppa	淋
+kpmu	湘
+kpgi	沭
+kpj.	錃
+kpxo	婆
+kps;	涁
+kmba	浿
+kmbi	泚
+kmpa	柬
+kmmu	湄
+kmqo	溤
+kmq;	湨
+kmco	潈
+kmso	涀
+kmsi	渋
+kmvi	邒
+kmw.	政
+kfpa	束
+kfme	可 沖
+kfm.	盕
+kft;	畐
+kfne	涡
+kfje	匪 叵
+kfqi	戓
+kfq/	涓
+kfzu	浞
+kfw,	浧
+kfyo	浊
+kfyi	吏
+kdpa	来 洣
+kdfo	吞 沰
+kdda	夹
+kddo	洌
+kdtu	型
+kdna	泮
+kdgi	汰
+kdki	洴
+kdje	池
+kdx/	涚
+kdzi	迗
+kdsi	平
+kdri	昋 洦
+ktfo	沿
+ktdi	洬
+kttu	洼
+ktne	画
+ktn/	淠
+ktg/	潩
+ktho	浾
+ktq/	渭
+ktc.	洔
+ktyo	法
+ktyi	沨
+knpa	朿
+knm.	盂
+knfo	泂
+knda	泱
+kntu	再
+kngi	汲
+knha	両
+knje	屯
+knqo	鳽
+knqi	戒
+knzi	迂
+kns;	沮
+knr.	𬇙
+knvi	邴 邘
+knye	溯
+klbi	沎
+klda	決
+kltu	沑
+klt;	溜
+klna	汓
+klke	泣 汈
+klhe	氻
+klje	氾
+klqo	瀌
+klq;	洑
+klxo	泺
+klx/	渷
+klc,	浐
+klc.	泭
+klsi	汛
+klvi	汤
+klwo	淮 雃
+klyi	洨
+kgbi	泥
+kgfo	渦
+kggo	沪
+kggi	沢
+kgg.	浪
+kgje	巨
+kgj.	鍙
+kgqo	沸
+kgq/	滑
+kgxa	沂 汴
+kgz,	涨
+kgcu	淈
+kgsi	港
+kgr.	夷
+kgyo	泓
+kgyu	漏
+kkma	泟
+kkme	汀
+kkna	汙
+kkh;	洱
+kkjo	𬇕
+kkje	汇 汅
+kkro	沛 沞
+khbe	聛
+khma	耻
+khmu	洎
+khm.	洫
+khfo	沾
+khfu	泆
+khdo	刵
+khto	淲
+khna	汼
+khla	恥 滤
+khle	氿
+khgo	泸
+khke	亚
+khho	淡 耿
+khje	耴
+khqi	汑
+khzo	淖
+khzi	职
+khcu	聉
+khc,	严
+khsi	汘
+khri	泊
+khvo	取 泩
+khvi	耶
+khye	洀
+kjpa	涂
+kjfo	洽
+kjgi	汐 弋 夨
+kjke	渔
+kjja	淊
+kjje	匣 匛
+kjqo	漁
+kjqi	戉
+kjxo	沵
+kjzi	迈
+kjso	淣
+kjvi	浬
+kjw.	攷
+kqba	浜
+kqpa	柒
+kqho	洃
+kqqi	戎
+kqq/	洧
+kqco	沏
+kqri	曹
+kqyo	汯
+kxpa	溧
+kxfo	洳
+kxtu	湮
+kxna	津
+kxke	江
+kxhe	沙
+kxje	汦
+kxzo	潭
+kxzu	疌
+kxc.	浔
+kxvi	酒
+kzbo	軟
+kzpu	軙
+kzm;	輓
+kzfo	洁 軎
+kzfe	輫
+kzfu	渓
+kzf;	軓
+kzda	軑
+kzne	軜
+kzle	汔
+kzlu	轆
+kzga	軱
+kzgu	輍
+kzg;	軒
+kzg/	輁
+kzha	軕
+kzja	滔
+kzje	軋
+kzju	軥
+kzj/	輬
+kzq;	輇
+kzxo	浽
+kzx/	軦
+kzzi	連 軹
+kzc.	浖
+kzsi	汻 軣
+kzsu	軗
+kzr.	軔
+kzw,	軖
+kzya	軸
+kcma	淽
+kcfo	沼
+kcf,	淓
+kct;	渵
+kcg.	豤
+kcke	亞
+kcki	豜
+kcju	豞
+kczi	逐
+kcsu	豛
+kcvi	泔
+kspa	洡
+ksme	沣
+ksfo	沽
+ksd;	汮
+kstu	坙
+kst;	淄
+ksn/	泋
+kske	丗
+ksje	匹
+ksq/	消
+kssi	泡
+ksri	洵
+ksvo	沒 汥
+ksvi	沕
+kswo	渹
+ksw,	尫
+ksyo	沟
+krpa	東 淉 鿄
+krma	涩
+krm.	温
+krtu	涅
+krno	䴓
+krne	湡
+krla	涊
+krle	汵
+krg;	涆
+krg.	湌
+krke	亘 泹
+krje	匝
+krj/	澋
+krqi	洩
+krzi	迊
+krzu	湜
+krs;	沴
+krri	淐
+kryi	更
+kvd;	𣲗
+kvna	泽
+kvgi	汊
+kvje	污 汚
+kvqo	汫
+kvqi	浅
+kvq/	清
+kvxo	沶
+kvx.	澼
+kvso	沅
+kvw.	滶
+kvyo	沄
+kwfo	洛
+kwto	沆
+kwtu	注
+kwho	洂
+kwje	匡 汒
+kwqo	溩
+kwri	湻
+kwvi	泈
+kwyo	泫
+kwyi	汶
+kyfo	治
+kytu	至
+kyne	汹
+kyla	恵
+kyje	区
+kyj.	鋈
+kyc.	専
+kyso	沇
+kyri	曺
+kyyo	叀
+kyye	淜
+hbba	岤
+hbgu	熔 嵱
+hbq/	肻
+hbxo	峖
+hbco	岎
+hbyo	炂
+hpbe	稗
+hpbi	秘
+hppa	崊
+hppi	秛
+hpmo	秣
+hpm.	盉
+hpfo	和
+hpdo	利
+hpto	秃
+hpt/	秱
+hpni	秀
+hpgi	炢
+hpg;	秆
+hpha	秈
+hpho	秋
+hpj/	稤
+hpxo	委
+hpzi	积
+hpzu	秼
+hpz.	稹
+hpso	禿
+hpri	香
+hpr.	秂
+hpw;	秇
+hpya	秞
+hpyo	私 秗
+hmba	貞
+hmbo	欰
+hmpa	臬
+hmmu	嵋 煝
+hmfe	嶵
+hmd;	卹
+hmla	息
+hmje	岜 臫
+hmq;	臭
+hmx.	辠
+hmco	衆
+hmso	峴
+hmsi	汖
+hmr.	衂
+hmvi	郋
+hfpu	敁
+hffo	焒
+hfda	奌
+hfne	禹
+hfla	怣
+hfje	乩
+hfj;	觇
+hfqo	点
+hfq/	焆
+hfzi	迭 迠
+hfyo	烛
+hdpa	釆
+hdfo	岩 炻
+hddo	峛 峢
+hdtu	峚
+hdna	乎
+hdle	乥
+hdje	灺
+hdxe	岿
+hds;	烂
+htbo	崁
+htm.	盧
+htfo	告
+httu	烓
+htla	慮 崽
+htg/	熼
+htho	焃
+htq/	膚 煟
+htc.	峙
+htso	先
+hts;	彪
+htyo	丢
+htyi	岚
+hnbi	牝
+hnfo	炯 吿
+hnf,	牥
+hnda	岟 炴
+hntu	牡 冓
+hnna	㶲 甪
+hngi	岌 岋
+hnjo	觕
+hnqo	嶋 嶌
+hnqi	我
+hnq;	牷
+hnxi	牺
+hns;	岨 虘
+hnr.	贞 牣
+hnw.	牧
+hnya	牰
+hnyi	岗
+hlbi	炛
+hlpa	杂 烌
+hlfo	叴
+hlda	炔
+hltu	炄
+hlt;	熘 嵧
+hlno	鸠
+hlgi	廻
+hlke	岦
+hlhe	虏 屴
+hlqo	爊
+hlq;	獻
+hlxo	烁
+hlsi	卆
+hlri	旭 旮
+hlvi	炀
+hlwa	甗
+hlwo	崔 焳 訄 雐
+hlyo	厹
+hlyi	峧 烄
+hgfo	卨 煱
+hgno	鸬
+hggo	炉
+hgg.	崀 烺
+hgha	屳
+hgje	兦
+hgqo	岪 炥
+hgxa	岓 炘 炞
+hgzi	煺 込
+hgcu	崛 崫 煀
+hgra	肏
+hgri	焟
+hkbi	黹
+hkma	炡
+hkme	灯
+hkne	炳
+hkco	烼 豦
+hkso	屼
+hkvi	邺
+hhbo	欻
+hhpa	秌
+hhpu	敥
+hhm.	烅
+hhfo	岾 炶
+hhdo	剡
+hhtu	烾
+hhke	虚
+hhho	焱
+hhqi	灹
+hhzo	焯
+hhri	岶
+hhvi	郯
+hhye	烐
+hjbo	嶔
+hjfo	峆 峇 烚
+hjdo	剀
+hjto	凯
+hjgi	岁 歺
+hjja	焰
+hjj;	觊
+hjqo	龽
+hqbo	嵚
+hqdo	刋
+hqtu	圱
+hqgu	谸
+hqho	炭 烣
+hqq/	峟 烠
+hqvo	叐
+hxtu	煙
+hxna	峍
+hxke	屸 灴
+hxhe	炒
+hxxo	崾
+hxzo	燂
+hxc.	𬊈
+hzle	屹
+hzja	熖
+hzzi	逴
+hcfo	岧 岹 炤
+hcne	焫
+hcg;	岸
+hcke	虛
+hcso	烵
+hsme	炐
+hsfo	舌 岵
+hst;	崰
+hsla	忎
+hsle	片
+hsja	臿
+hsq/	峭 焇
+hsxa	峠
+hszi	迁
+hssi	炮
+hsri	峋
+hsvo	岐
+hsvi	岉
+hrbi	皀
+hrpa	桌
+hrma	峜
+hrmo	皌
+hrm.	煴
+hrf;	皈
+hrt;	畠
+hrne	嵎
+hrle	岑 岒
+hrg;	焊
+hrke	炟
+hrje	癿
+hrj/	燝
+hrqo	岕 炌
+hrqi	皂
+hrzi	迫
+hrzu	崼 煶
+hrso	的 皃
+hrsi	皁
+hrro	帛
+hrri	焻
+hrw,	皇
+hrw.	敀
+hvmu	眚
+hvd;	炜
+hvna	峄
+hvha	峊
+hvq/	崝
+hvzi	追
+hvso	岏
+hvsi	阜 炓
+hvro	帥
+hwfo	烙 峈 峉
+hwto	處 炕
+hwtu	炷
+hwqo	嵨 熓
+hwri	峕
+hwvi	峂 炵
+hwyo	炫
+hwyi	虔 炆
+hym.	盘
+hyfo	炲
+hyf;	舨 舤
+hyf,	舫
+hyta	舵
+hyno	鸼
+hyn/	峅
+hyg/	舼
+hyha	舢
+hyja	舺
+hyj;	舰
+hyqo	峤
+hyxo	系
+hyxi	舾
+hyco	舠
+hysu	般
+hyvi	郍
+hyya	舳
+hyye	崩 焩
+jbbi	鈚
+jbm.	谧
+jbgu	鎔
+jbke	𬣞
+jbxo	銨
+jbx/	銳
+jbzu	錠
+jbco	鈖
+jbso	鈂
+jbs.	谉
+jbri	诣
+jbvi	錧
+jbyo	讼 鈆
+jppu	敍
+jpt;	畬
+jpla	悆
+jpgi	鉥
+jpha	峹
+jpqo	錰
+jpzi	途
+jpvo	叙
+jpw.	敘
+jmba	負 鋇
+jmmu	鎇
+jmda	奐
+jmgi	讣 釙
+jmho	烉
+jmje	色 鈀
+jmqo	鎷
+jmq/	錹
+jmso	鋧
+jmsi	淾
+jmri	會
+jmvo	叟
+jmvi	谗
+jfbo	欱
+jfpu	敆
+jfme	鈡
+jfm.	盒
+jffo	鋁
+jfd;	命
+jft;	畣
+jfna	拿
+jfno	鸽
+jfn/	弇
+jfke	鿖
+jfq/	鋗
+jfzu	鋜
+jfro	銱
+jfvi	郃
+jfw,	鋥
+jfyo	触 鉵
+jfyi	鉂
+jdbe	裨
+jdbi	袐
+jdpa	粂 銤
+jdpi	被
+jdmo	袜
+jdfo	鉐
+jdfe	裶
+jdfu	衭
+jdta	袉
+jdtu	堲
+jdna	鉡
+jdne	衲
+jdgi	鈦
+jdgu	裕
+jdg;	衦
+jdg.	裉
+jdki	鉼
+jdje	釶
+jdju	袧
+jdx,	襐
+jdx/	说 鋭
+jdzu	袾
+jdco	初
+jdcu	袦
+jdc.	衬
+jds;	衫
+jdri	衵 銆
+jdya	袖
+jdyo	袄
+jtfo	鉛
+jttu	诖 觟 銈
+jtla	鍶
+jtq/	谓
+jtc.	诗
+jtsu	毀
+jtyo	鉣
+jtyi	讽
+jnfo	诇
+jnda	奂 鉠
+jngi	觙 鈒
+jnqo	鴨 鴝 鵖 鵤 鵭 鶁
+jnco	侖
+jns;	诅 鉏
+jnr.	负
+jnye	鎙
+jlbi	讹 鈋
+jlpa	銝
+jlme	釕
+jlda	诀 觖 鈌
+jltu	鈕
+jlt;	鎦
+jlna	觃 釨
+jlke	彑 鉝
+jlhe	劬 勍 觔 釛
+jlqo	鑣
+jlq;	毋
+jlc.	鉜
+jlsi	讯 毌
+jlwo	谁 錐 雊
+jlyi	鉸
+jgbe	禆
+jgbi	祕 鈮
+jgma	祉 祃
+jgme	鈏 鈟
+jgfo	名 鍋
+jgf,	祊
+jgd;	夘
+jgtu	社
+jgni	礽
+jggo	鈩
+jggi	鈬
+jgg;	銒
+jgg.	鋃
+jgje	礼
+jgj;	视
+jgqo	鉘
+jgxa	䜣 斪 釿
+jgx/	祝
+jgzu	祩
+jgz.	禛
+jgso	礿
+jgsi	祀
+jgsu	祋
+jgs.	神
+jgri	錯
+jgr.	以
+jgvi	祁 邜
+jgwe	祙
+jgyo	祅 鉱
+jgyi	议
+jkpi	鲏
+jkma	证 佱 鉦
+jkme	订 釘
+jkm;	𩾃
+jkfe	鲱
+jkf,	鲂
+jkdo	鉶
+jkta	𬶍
+jkto	鲦
+jkt/	鲖
+jkna	釪 𬣙
+jkne	鈵
+jkh;	鉺
+jkji	鱾
+jkju	𬶋
+jkj/	鲸
+jkco	鱽
+jksu	段
+jkri	鲁
+jkya	鲉
+jhpa	鉌
+jhfo	鉆
+jhfu	鉄
+jhto	錿
+jhna	鈝 鎼
+jhle	釚
+jhgi	釞
+jhho	谈 錟
+jhqi	讬
+jhxe	谑
+jhzo	鈓 鋽
+jhsi	釺
+jhro	銟
+jhri	鉑
+jhvo	鉎
+jjbo	饮 欿
+jjfo	鉿
+jjf;	饭
+jjto	饥
+jjno	鹐
+jjgi	釸
+jjja	谄 錎
+jjj.	鑫
+jjqi	饩
+jjxo	鉨
+jjxe	诌
+jjx,	饷
+jjcu	饳
+jjso	觬
+jjr.	谀
+jjvi	鋰
+jjyo	饫
+jqba	鋲
+jqbi	鮅
+jqpi	鮍
+jqm;	鮸
+jqfe	鯡
+jqf;	魬
+jqf,	魴
+jqdo	俞 魝
+jqta	鮀
+jqt/	鮦
+jqne	魶
+jqlo	鮱
+jqho	诙
+jqhe	鮰
+jqja	魻
+jqji	魢
+jqju	鮈
+jqj/	鯨
+jqq/	銪
+jqx,	鱌
+jqzu	鮢
+jqco	魛
+jqso	既 魡
+jqro	鈽
+jqri	魯
+jqr.	魜
+jqwe	鮇
+jqya	鮋
+jqyo	鈜
+jxpi	皱
+jxme	争
+jxfo	銣
+jxtu	𬤇
+jxna	銉
+jxla	急
+jxke	讧 釭
+jxhe	鈔 觘
+jxje	觗
+jxxi	诩 翈
+jxzo	谭 鐔
+jxzi	迩
+jxvi	邹
+jzfo	诘 銡
+jzda	鉃
+jzla	鋕
+jzle	讫 釳
+jzxo	鋖
+jzc.	鋝
+jzsi	许
+jzro	鉓
+jcfo	诏 鉊
+jcf,	錺
+jct;	錨
+jcgi	釼
+jcqi	銊 龯
+jcvi	鉗
+jcyi	銰
+jspa	诔 銇
+jsfo	诂 鈷
+jsd;	鈞
+jst;	錙
+jske	佥
+jsqo	舄
+jsqi	銭
+jsq/	銷 诮
+jsx/	鋴
+jssi	鉋
+jsri	询 銁
+jsvo	鈘
+jsvi	郳
+jswo	鍧
+jsyo	鈎
+jrpa	课 錁
+jrm.	鎾
+jrne	鍝
+jrla	惥
+jrle	鈐
+jrg;	銲
+jrke	觛 鉭
+jrje	龟
+jrj/	鐛
+jrxo	鉩
+jrzu	鍉 𬤊
+jrs;	诊 鉁
+jrri	錩
+jvd;	讳
+jvna	译
+jvgi	釵
+jvho	炙
+jvje	釫
+jvqo	讲 黒
+jvqi	𬣡
+jvq/	请 錆
+jvx.	鐴
+jvso	鈨
+jvsi	斛 鈄
+jvvi	鍆
+jwfo	鉻 觡
+jwto	鈧
+jwtu	鉒
+jwgi	鈺
+jwje	釯
+jwqo	鎢
+jwro	鈰
+jwvi	鉖
+jww,	錱
+jwyo	鉉
+jwyi	鈫
+jyfo	诒 鈶
+jyta	鼧
+jyt;	鐳
+jyne	讻
+jygi	鈛
+jyju	鼩
+jyq;	鼣
+jyxo	銯
+jyso	鈗
+jyya	鼬
+jyye	錋
+qbgi	龙
+qbgu	镕
+qbxo	氨 铵
+qbzu	锭
+qbco	氛
+qbw.	𬭯
+qptu	𬭊
+qpgi	𬬸
+qmmu	镅
+qmtu	在
+qmgi	钋
+qmhe	牙
+qmje	钯
+qfme	钟
+qffo	铝
+qfne	锅
+qfq/	𫓶
+qfro	铞
+qfw,	锃
+qdpa	氣
+qdgi	钛
+qdx/	锐
+qdzi	𫟼
+qtfo	铅
+qttu	𫓯
+qtla	锶
+qngi	钑
+qnr.	钡
+qnyi	钢
+qlme	钌
+qltu	钮
+qlt;	镏
+qlqo	镳
+qlxo	铄
+qlc,	铲
+qlvi	钖
+qlwo	锥
+qlyi	铰
+qgbi	铌 屔
+qgne	钔
+qgg.	锒
+qgqo	氟
+qgxa	𬬱
+qgri	错
+qkpi	𬭛
+qkma	钲
+qkme	钉
+qkdo	铏
+qkne	氞
+qkh;	铒
+qhm.	盔
+qhfo	钻
+qhfu	铁
+qhgo	𬬻
+qhho	氮 锬
+qhji	铠
+qhsi	钎
+qhri	铂
+qjfo	铪
+qjgi	尤
+qjxo	鿭
+qjso	尥
+qjvi	锂
+qjw,	尪
+qqq;	猋
+qqq/	铕
+qqzi	迶
+qqro	钸
+qqvi	郁
+qxfo	铷
+qxke	左
+qxhe	钞
+qxzo	镡
+qzc.	锊
+qcfo	𬬿
+qct;	锚
+qcvi	钳
+qsfo	钴
+qsd;	钧
+qst;	锱
+qsqo	炁
+qsq/	销
+qsxe	铛
+qsx/	氪
+qssi	铇
+qsyo	钩
+qrpa	锞
+qrm.	氲
+qrle	钤
+qrke	钽
+qrri	锠
+qvna	铎
+qvgi	钗 犮
+qvqi	钱
+qvq/	氰 锖
+qvsi	钭
+qwfo	铬
+qwto	钪
+qwgi	钰
+qwro	铈
+qwvi	氡
+qwyo	铉
+qypa	铩
+qyt;	镭
+xbbi	妣
+xbgu	嫆
+xbxo	姲
+xbzu	婝
+xbco	妢
+xbso	妉
+xbs.	婶
+xbro	帚
+xbvi	婠
+xbyo	妐
+xmba	賈
+xmmu	媚
+xmje	妑
+xmqo	媽
+xmso	娊 覍
+xmsi	隶
+xfpa	桇
+xfme	妕
+xfna	挐
+xfne	娲
+xfla	恕
+xfq/	娟
+xfzu	娖
+xfro	帤
+xdpa	粟
+xdfo	妬
+xdna	姅
+xdki	姘
+xdje	她
+xdxo	尜
+xdx.	辨
+xdx/	娧
+xtbo	歅
+xttu	娃
+xtla	媤
+xtq/	媦
+xtri	書
+xtvi	鄄
+xtwa	甄
+xnfo	尙
+xnda	姎
+xntu	姌
+xnco	姍
+xns;	姐
+xnr.	贾
+xlda	妜
+xltu	妞
+xlt;	媹
+xlna	好
+xlgi	廼
+xlka	亙
+xlke	五
+xlhe	勨
+xlq;	覄
+xlwo	雀 婎
+xlyi	姣
+xgbi	妮
+xgfo	媧
+xggo	妒
+xgg;	姸
+xgg.	娘
+xgxa	妡
+xgx.	瓣
+xgye	覇
+xkma	姃
+xkme	奵
+xkf;	巩
+xkd;	卭
+xkje	丐
+xkro	姉
+xkvi	邛
+xkwa	瓨
+xkw.	攻
+xhpa	姀
+xhmu	省
+xhfo	君
+xhfu	妷
+xhto	婋
+xhho	婒
+xhqi	奼
+xhzo	妊 婥
+xhsi	奷
+xhvo	姓
+xjfo	姶
+xjd;	長
+xjle	丏
+xjgi	氐
+xjxo	妳
+xjx.	辩
+xjso	婗
+xjsi	氒
+xjro	帋
+xjri	昏
+xjvi	娌
+xqba	娦
+xqq/	姷
+xxpi	翍
+xxn/	羿
+xxg;	姧
+xxke	妅
+xxhe	妙
+xxju	翑
+xxj/	翞
+xxxo	姦 婹 尛
+xzpa	婇
+xzfo	姞
+xzla	娡
+xzja	嫍
+xzxo	娞
+xcfo	妱
+xct;	媌
+xcx.	辧
+xcvi	姏 𬩽
+xsme	妦
+xsfo	姑
+xsq/	娋
+xsx/	娔
+xsri	姰
+xsvo	妓
+xrpa	婐
+xrm.	媪
+xrne	媀
+xrle	妗
+xrg;	娨
+xrke	妲
+xrqo	妎
+xrzu	媞
+xrri	娼
+xvma	驽
+xvfu	酜
+xvta	酡
+xvt/	酮
+xvna	拏
+xvla	怒
+xvg;	酐
+xvg/	弩
+xvji	配
+xvqo	妌
+xvq;	酫
+xvq/	婧
+xvxo	票
+xvzi	逎
+xvc.	酎
+xvso	酌 妧
+xvsu	酘
+xvra	胬
+xvro	帑
+xvyo	妘
+xwto	妔
+xwtu	妵
+xwx.	辯
+xwyo	妶
+xwyi	妏
+xyfo	始
+xyqo	娇
+xyq/	姢
+zbbi	壱 笓
+zbpa	筞
+zbto	壳
+zbso	売
+zbvo	受
+zbvi	管
+zppa	箖
+zpmu	箱
+zps;	彩
+zmba	筫
+zmbo	欫
+zmmu	篃
+zmd;	卸
+zmn/	算
+zmje	笆
+zmqo	篤
+zmso	覓 筧
+zmsu	殸
+zmvi	乍
+zfbo	欯
+zffo	筥
+zfzi	迼
+zfvi	郆
+zdfo	知
+zdje	竾
+zdyo	矨
+zttu	筀
+ztn/	箅
+ztc.	等
+znbe	篺
+znfo	筘
+zntu	爯
+znl/	箉
+zngi	笈
+znqo	鴸 鷏
+zns;	笡
+zldo	刉
+zlna	孚
+zlgi	延
+zlke	笠
+zlhe	竻
+zlzi	迄
+zlc.	符
+zlyi	筊
+zgm.	簋
+zgg;	筓
+zgg.	筤
+zgqo	笰
+zgxa	笇
+zgcu	镼
+zgvo	爰
+zkpi	箥
+zkna	竽
+zkg/	篊
+zhbo	缼
+zhb.	缽
+zhfo	笘
+zhfu	镻
+zhd;	缷
+zhto	箎
+zhqo	缹
+zhvo	笙
+zhwa	缻
+zjpa	筡
+zjfo	答
+zjd;	節
+zxpa	篥
+zxme	爭
+zxfo	筎
+zxna	筆 肆
+zxke	笁
+zxhe	笋
+zxxo	嘦
+zxzo	簟
+zxvo	笯
+zzda	笶
+zzzo	壵
+zcbe	貏
+zcfo	笤
+zcne	豽
+zcg;	豻
+zcg.	貇
+zcju	豿
+zcci	豺
+zccu	貀
+zcso	豹
+zspa	筙 髤
+zspi	髲
+zsf,	髣
+zsd;	笉
+zsto	髠
+zsg/	髸
+zsqu	髷
+zsq/	筲
+zsxe	筜
+zszi	迕
+zsz.	鬒
+zssi	笣
+zsri	筍
+zsvi	笏
+zrdo	制
+zrle	笒
+zrg;	筸
+zrg.	篒
+zrke	笪
+zrw.	复
+zvqi	笺
+zvq/	箐
+zvso	笎
+zwfo	笿
+zwto	笐
+zwn/	筭
+zwje	笀
+zwvi	笗
+zybe	簲
+zyfo	笞
+zyda	奚
+zyn/	笲
+zyqi	笔
+zyyi	笅
+cbba	茓
+cbbi	芘
+cbpa	荣
+cbtu	茔 蒬
+cbno	莺
+cbgu	蓉
+cbke	苎
+cbho	荧
+cbj.	蓥
+cbxo	荌
+cbzu	萣
+cbco	芬
+cbvi	菅
+cbw.	蔽
+cppa	菻
+cpmu	厢 葙
+cpfo	莕
+cptu	荰
+cmbi	茈
+cmmu	葿
+cmn/	萛
+cmje	芭
+cmso	莧
+cfbo	欩
+cfbi	厑
+cffo	莒
+cfdo	刟
+cfd;	卲
+cfne	莴
+cfla	蕜
+cfke	韮
+cfqi	咸
+cfzi	迢
+cfzu	莡
+cfsi	巶
+cfvi	邵
+cfwe	菋
+cfyo	茧
+cdbo	茨
+cdpa	粜
+cddo	茢
+cdki	荓
+cdx/	莌
+cdzi	荙
+cdsi	厍
+ctbo	莰
+cttu	厓 茥
+ctno	鹋
+ctla	葸
+ctgi	压
+ctja	羐
+cnbo	厥
+cnfo	苘
+cnfu	荴
+cnda	英
+cntu	苒
+cnna	苚
+cngi	芨
+cnqo	蔦 鳫 鳭
+cns;	苴
+cnya	菗
+cnye	蒴
+clbi	花
+clpa	茠
+clda	芵
+cldo	莂
+cltu	薼
+clt;	蒥
+clna	芓
+clno	𬟁
+clni	芿
+clke	苙
+clha	苮
+clhe	历 艻
+clje	厄
+clqo	藨
+clqi	成
+clq;	茯
+clzo	茌
+clc.	苻
+clri	蓍
+clvi	芢
+clwo	萑 雈
+clyi	茭
+cgbi	苨
+cgfo	萵
+cgga	蓏
+cggo	芦
+cgg.	莨
+cgqo	茀
+cgqi	戍
+cgq/	蓇
+cgxa	芹 苄
+cgcu	䓛
+cgri	厝
+cgyo	苰
+ckpa	莯
+ckpi	菠
+ckma	鿊
+ckme	厅 艼
+ckdo	荆 荊
+ckna	芋
+ckne	苪
+ckg/	葓
+ckho	炗
+ckh;	茸
+ckjo	厉
+ckje	世
+ckzo	厙 莗
+cksu	莈
+ckro	芾
+chfo	苫
+chfu	苵
+chto	萀
+chle	艽
+chho	菼
+chqi	厇 烕
+chzo	䓬
+chsi	芊
+chri	苩
+chvo	苼
+cjpa	荼
+cjfo	荅
+cjdo	葪
+cjd;	莭
+cjgi	芕
+cjja	萏
+cjso	萖
+cjr.	萸
+cjvi	厘 荲
+cjw.	敬
+cqfo	若
+cqn/	莽
+cqja	厣
+cqco	苆
+cqvo	苃
+cxfo	茹
+cxd;	茚
+cxna	茟
+cxhe	芛
+cxje	芪
+cxqi	威
+cxxo	葽
+cxzo	蕈
+cxc.	荨
+cxvi	莤
+czpa	菜
+czg/	蕻
+czha	厒
+czja	蓞
+czxo	荽
+ccfo	苕
+ccqi	茂
+ccco	刕
+ccvi	苷
+csba	其
+csfo	苦
+cst;	菑
+csq/	莦
+csxo	茮
+cssi	苞
+csri	荀
+csvo	芰
+csvi	芴
+csw.	荍
+csyo	芶
+crbi	芲
+crpa	茶 菒 菓
+crm.	蒀
+crda	莫
+crne	萬
+crla	荵
+crle	芩
+crqo	芥
+crxo	苶
+crc.	莳
+crri	菖
+crr.	苁
+crye	萌
+cryi	茰
+cvpa	某
+cvd;	苇
+cvgi	芆
+cvhe	芗
+cvje	芌
+cvq/	菁
+cvxo	祟
+cvx.	薜
+cvso	芫
+cvvi	邯 菛
+cvw.	厫 蔜
+cvyo	芸
+cvye	荫
+cwfo	茖
+cwto	苀
+cwje	芒
+cwsu	蔎
+cwvi	苳
+cwyi	芠
+cyfo	苔
+cydo	苅
+cyt;	蕾
+cyju	葋
+cyqo	荞
+cyqi	芼
+cyvo	菣
+cyyo	茲
+cyye	萠
+sbgu	愹
+sbx/	悅
+sbso	忱
+sbri	恉
+sbvi	悺
+sbyo	忪
+sppa	惏
+sppi	耚
+spgi	怵
+spvi	耜
+smf,	愣
+smso	悓 覚
+smsi	泶
+sfpa	棠
+sfme	忡
+sffo	営
+sftu	堂
+sft;	當
+sfna	掌
+sfno	鸪
+sfla	怘
+sfq/	悁
+sfx.	辜
+sfso	党
+sfro	常
+sfwa	瓳 瓽
+sfw,	悜
+sfw.	故
+sfyo	蛍
+sfye	胡
+sdpa	匊 牀
+sdfo	𬒈
+sdna	怑
+sdgi	忲
+sdki	恲
+sdje	忚
+sdq;	狀
+sdxo	妝
+sdx/	悦
+sdzo	壯
+stna	鼡
+stla	愢
+stja	畞
+stc.	恃
+styo	怯
+snfo	尚
+snda	怏
+sngi	忣
+snqo	鴬
+sns;	直 怚
+slpa	恘
+slda	快
+sltu	忸
+slna	学
+slgi	廵
+slhe	労 忇
+slri	愭
+slvi	畅
+slwo	惟
+slyi	恔
+sgbi	怩
+sgg.	悢
+sgqo	怫
+sgq/	愲
+sgxa	忻 忭
+sgri	惜
+skba	兴
+skma	怔
+skme	忊
+skne	怲
+skje	民
+skso	光
+shbe	猈
+shpa	狇
+shpi	狓
+shma	犸
+shm.	恤
+shfo	怗
+shfe	猅
+shfu	怢
+sht/	狪
+shlo	狫
+shle	勼
+shga	狐
+shgi	匁
+shg;	犴
+shg,	犷
+shg.	狠
+shho	狄 惔
+shja	狎
+shji	恺
+shju	狗
+shj/	猄
+shq;	犾
+shzo	悼
+shci	犲
+shc.	寿
+shso	犳
+shsi	忏
+shri	怕
+shvo	性
+shvi	邦
+shwo	狺
+shw;	犱
+shw,	狂
+sjpa	悇
+sjfo	恰 匌
+sjgi	匇
+sjke	鲎
+sjja	惂
+sjxe	㤘
+sjsu	匓
+sjvi	悝
+sqdo	削
+sqho	恢
+sqju	耇
+sqzi	逍
+sqro	怖
+sqri	者
+sxpa	慄
+sxpu	敊
+sxdo	剋
+sxje	忯
+sxzo	憛
+sxc.	尅
+sxsi	兙
+sxvo	叔 怓
+szfo	恄
+szle	忔
+szha	匋
+szja	慆
+szje	乹
+szsi	忤
+szr.	倝
+szye	朝
+scpa	桒
+scfo	怊
+scke	卋
+scq;	恹
+sczo	愺
+ssfo	怙
+ssdo	刨
+ssg/	巽
+ssqo	炰
+ssq/	悄
+sssi	怉
+ssri	恂
+ssvo	忮
+srpa	巢 巣 惈
+srm.	愠
+srna	奉
+srle	忴
+srg;	悍
+srke	怛
+srja	舂
+srje	匃
+srj.	銞
+srj/	憬
+srqo	忦
+srq/	脊
+srzi	迿
+srzu	惿
+srsi	単
+srri	春
+srvi	郇
+svdo	刎
+svtu	怪
+svna	怿
+svla	忽
+svgi	匆
+svq/	情
+svso	忨
+svri	曶
+svvi	𨙸
+svw.	慠
+svyo	尝 忶
+swfo	恪
+swto	忼
+swje	忙 匄
+swyo	怰
+swyi	忟
+syfo	怡
+syne	匈 忷
+rbbi	昆
+rbxo	晏
+rbco	帉 昐
+rbso	帎
+rbyo	昖
+rppa	晽
+rppu	敤
+rmje	帊
+rmso	晛
+rmsi	氽
+rmvo	曼
+rdki	帡
+rdqo	昦
+rdx/	帨
+rdsi	伞
+rdri	帞
+rtfo	舎
+rttu	晆
+rtc.	時
+rnda	映
+rnla	愚
+rngi	昅
+rnzi	遇
+rlbo	欦
+rlfo	含
+rlla	念
+rlgi	令
+rlke	昱
+rlje	仓
+rlvi	旸
+rlwo	帷
+rlyi	晈
+rgbi	昵
+rgfo	舍
+rggo	昈
+rgg.	㫰
+rgqo	昲
+rgxa	昕
+rgsi	畢
+rgwo	謈
+rgyo	昿
+rkma	昰
+rkme	帄
+rkda	昊
+rkna	旴
+rkne	昞 昺
+rkro	昁
+rhfo	帖
+rhfu	帙 昳
+rhn/	昇
+rhle	旯
+rhke	显
+rhho	晱
+rhzo	晫
+rhri	帕
+rhvo	星 甠
+rjbo	飲
+rjbi	飶
+rjfo	帢
+rjf;	飯
+rjto	飢
+rjt/	餇
+rjg;	飦
+rjqo	煦
+rjx,	餉
+rjcu	飿
+rjso	晲
+rjs;	影
+rjr.	飤
+rjyo	飫
+rqgi	曵
+rqq;	猒
+rxke	仝
+rxzo	曋
+rzbi	匙
+rzja	幍
+rzzi	遈
+rzsi	旿
+rcfo	昭
+rcr.	昃
+rsd;	昀
+rsq/	帩
+rsvi	易 昒
+rrtu	坐
+rrla	怂
+rrle	昑
+rrg;	晘
+rrke	丛
+rrho	焸
+rrj/	幜 暻
+rrs;	昣
+rrri	晶 晿
+rrr.	众
+rvd;	帏 𬀩
+rvq/	晴
+rvxo	佘
+rvyo	会 昙
+rwvi	昸
+rwyo	昡
+rwyi	旻 旼
+rym.	盟
+ryn/	昪
+ryho	焽
+vbbi	阰
+vmba	責
+vmso	覌
+vmsi	阥
+vftu	埅
+vdje	阤
+vdzi	违
+vdsi	阵
+vdri	陌
+vdr.	韧
+vtzu	陡
+vtyo	阹
+vnne	陆
+vnqo	隝 鳮
+vns;	阻
+vns,	靑
+vnr.	责
+vlhe	劝 阞
+vlc.	附
+vlsi	阠
+vlwo	难 陮
+vkma	阷
+vkfe	绯
+vkf,	纺
+vkto	绦
+vkt;	细
+vkne	纳 陃
+vkl.	纶
+vkge	缂
+vkgu	绤
+vkg,	纩
+vkji	纪
+vkj/	𫟅
+vkzo	陣
+vkzi	织
+vkz.	缜
+vkcu	绌
+vkc;	𬘓
+vkc.	纣
+vkso	约 阢
+vksu	纠
+vks.	绅
+vkr.	纫
+vkw;	纨
+vhfo	阽
+vhn/	阩
+vhji	𬮿
+vhsi	阡
+vjpa	除
+vjgi	专
+vjja	陷
+vjzi	迃
+vjso	𨺙
+vqm.	盏
+vqdo	刬
+vqtu	坓
+vqno	䴖
+vqgi	丼
+vqj;	靓
+vqqi	靔
+vqq/	陏
+vqzi	进
+vqvi	郬
+vxpa	檗
+vxtu	壁 陻
+vxna	擘
+vxno	䴙
+vxla	憵
+vxj.	鐾
+vxq/	臂
+vxxo	嬖
+vxzi	避
+vxco	劈
+vxro	幦
+vxwa	甓
+vxwo	譬
+vzm.	监
+vzle	阣
+vzj;	览
+vzj.	鉴
+vzri	临
+vcla	怼
+vsdo	刓
+vstu	坖
+vsle	乧
+vsq/	陗
+vszi	远
+vsvi	邧
+vrtu	坠 陧
+vrne	隅
+vrqo	阶
+vrzu	隄
+vrz,	隂
+vvbi	閟
+vvpa	閑
+vvfo	問
+vvf,	閍
+vvtu	坚
+vvla	悶
+vvg;	閈
+vvg/	閧
+vvke	丝 閂
+vvki	開
+vvha	閊
+vvho	焛
+vvhe	閁
+vvja	閘 閰
+vvqo	阱
+vvq/	肾
+vvxa	閇
+vvxo	际
+vvxi	閪
+vvx.	隦
+vvz.	闐
+vvci	閉
+vvso	阮
+vvsi	阧
+vvs;	閆
+vvri	間
+vvr.	閃 閄
+vvvo	叒
+vvwo	誾
+vvw,	閏
+vvw.	隞
+vvye	閒
+vwma	骜
+vwfo	嗸
+vwto	阬
+vwna	摮
+vwha	嶅
+vwj.	鏊
+vwqo	熬 隖
+vwq;	獒
+vwxo	嫯
+vwzi	遨
+vwwo	謷
+vygi	戏
+vyxo	素
+vyzi	运
+vyso	阭
+wbbi	玭
+wbm.	謐
+wbto	亮
+wbgu	瑢
+wbx/	說
+wbzu	琔 諚
+wbco	玢 瓰 訜
+wbso	訦
+wbri	詣
+wbvi	琯
+wbyo	訟 玜
+wppa	琳 諃
+wpgi	訹
+wmba	珼
+wmbi	玼 訿
+wmmu	瑂
+wmgi	处 訃
+wmje	鿱
+wmqo	瑪
+wmso	現 誢
+wfme	訲
+wfq/	琄
+wfzu	珿
+wfw,	珵
+wfw.	敋
+wdpa	夈 詸
+wdna	詊
+wdki	誁
+wdje	訑
+wdx/	説
+wdri	瓸
+wdw,	班
+wtdi	珟
+wttu	珪 詿
+wtla	惫 諰 𠅤
+wtja	畝
+wtq/	謂
+wtzi	迒 迬
+wtc.	詩
+wtsu	殶
+wtr.	畒
+wtvi	邟
+wtyo	珐 畆 詓
+wnfo	高 詗
+wnda	詇
+wntu	珃
+wngi	訯
+wnqo	鳿
+wns;	詛 珇
+wnwo	玬
+wlbi	訛
+wlme	亨
+wlda	訣 玦
+wlt;	瑠
+wlna	享
+wlhe	务 玏
+wlxo	𬍛
+wlc.	詂
+wlsi	訊
+wlvi	玚
+wlwo	誰 琟
+wlw.	夜
+wlyi	珓 詨
+wgme	訠
+wgfo	諣
+wggi	訳
+wgg;	詽
+wgg.	琅 誏
+wgxa	玣 訢
+wgx.	謘
+wgcu	誳
+wgri	諎
+wkma	証
+wkme	訂 玎
+wkna	玗 訏
+wkh;	珥 誀
+whpa	栾 訸
+whmu	詯
+whfo	玷 詀
+whfu	詄
+whda	奕
+whto	琥 諕
+whna	挛
+whno	鸾
+whn/	弈
+whla	恋
+whle	訅
+whgi	亪
+whg/	弯
+whha	峦
+whho	談 琰
+whj.	銮
+whqi	託
+whxo	娈
+whxe	謔
+whzo	琸
+whzi	迹
+whsi	瓩
+whra	脔
+whro	帟
+whri	珀
+whvo	变 珄
+whw.	変
+whye	珘
+wjpa	杗
+wjmu	盲
+wjfo	珨 詥
+wjla	忘 誋
+wjh,	巟
+wjja	諂
+wjq/	肓
+wjxo	妄 珎
+wjso	誽
+wjr.	諛
+wjvi	理 邙 瓼
+wqbo	歍
+wqme	夅
+wqho	詼
+wqq/	珛 詴
+wqvi	鄔
+wxpa	瑮
+wxtu	諲
+wxna	珒
+wxke	訌 玒
+wxhe	訬
+wxxi	珝 詡
+wxzo	譚
+wxc.	𬍤
+wxvo	詉
+wzfo	詰
+wzla	誌
+wzle	訖
+wzha	珤
+wzja	瑫 謟
+wzsi	許 玝
+wcfo	詔 玿
+wcqi	珬
+wcvi	玵 詌
+wspa	誄
+wsme	夆 玤
+wsfo	詁
+wsq/	琑 誚
+wsxo	珱
+wsxe	珰
+wssi	玸
+wsri	詢 珣
+wrpa	課
+wrm.	瑥
+wrla	認 恴
+wrle	玪 訡
+wrke	詚
+wrj/	璟
+wrqo	玠
+wrxo	亰
+wrzu	瑅 諟
+wrs;	珍 診
+wrri	琩 誯
+wvd;	玮
+wvgi	訍
+wvq/	請
+wvso	玩
+wvw.	璈 謸
+wwbi	瑟
+wwpa	琹
+wwfo	珞 詻
+wwtu	註
+wwgi	珏
+wwqo	瑦
+wwr.	珡
+wwwo	譶
+wwyo	玹 詃
+wwyi	玟
+wyfo	吝 珆 詒
+wydo	刘
+wyt;	畜
+wyne	訩
+wyn/	弃
+wyla	忞
+wyqo	齐
+wyqi	瓱
+wyq/	育
+wyzi	这
+wyc.	対
+wyso	充 玧
+wys;	彣
+wyr.	亥
+wyyi	訤
+ybbi	肶
+ybxo	胺
+ybx/	脫
+ybzu	腚
+ybco	朌 肦 雰
+ybsi	肸
+ybri	脂
+ybw.	夋
+yppa	霖
+ypmu	霜
+ypdo	刹
+ypsu	殺
+ymba	貟
+ymgi	卧
+ymje	肥
+yfpa	枲
+yfme	肿
+yfdo	刣
+yfne	脶
+yfla	怠
+yfho	炱
+yfje	乨
+yfx.	辝
+yfzi	迨
+yfvi	邰
+yfwa	瓵
+yfw,	脭
+ydpa	脒
+ydmu	脜
+ydfo	雼
+ydt;	畚
+ydna	胖
+ydgi	肽
+ydki	胼
+ydje	肔
+ydx/	脱
+yds;	参 叁
+ydvo	服
+yttu	胿
+ytla	腮
+ytg/	霬
+ytyo	胠
+ynda	胦 雵
+yngi	雭
+ynqo	鴁
+ynso	兇
+ynr.	贠
+ynvi	冑 𨚕
+ylt;	霤
+ylgi	廸
+ylke	雴
+ylhe	幼 肋
+ylqo	臕
+ylc.	胕
+ylvi	肠
+ylwo	霍 脽
+ylyi	胶
+ygbi	胒
+ygpa	乗
+ygfo	腡
+ygdo	划
+ygd;	腳
+ygtu	脏
+ygg.	朖
+ygqo	胇
+ygxa	肵
+ygzi	腿
+ygri	腊
+ygye	霸
+ykpa	霂
+ykt/	霘
+ykg/	霟
+ykje	甹
+ykco	豚
+ykso	尧
+ykro	肺
+yhfo	胋
+yhfu	胅
+yhna	牟
+yhle	肍
+yhgo	胪
+yhho	腅
+yhri	胉
+yhvo	胜
+yjso	霓 腉
+yjr.	腴
+yqfe	毴
+yqho	脄
+yqq/	肴
+yqxo	毜
+yqxi	毢
+yqs;	毝
+yqro	希
+yqyo	肱
+yxpa	秉
+yxke	肛
+yxxo	腰
+yzm.	監
+yzda	矣
+yzle	肐
+yzj.	鍳
+yzxo	脮
+yzc.	脟
+ycvi	雸
+ysbe	綼
+ysb.	絊
+yspi	紴
+ysme	肨
+ysm;	絻
+ysfo	𦙶
+ysfe	緋
+ysf,	紡
+ysta	紽
+yst;	細
+yst/	絧
+ysne	納
+ysge	緙
+ysgu	綌
+yshe	絗
+ysje	糺
+ysji	紀
+ysju	絇
+ysj/	綡
+ysq;	紎 絟
+ysq/	霄
+ysxi	絤
+yszu	絑
+ysz.	縝
+ysco	糿
+yscu	絀
+ysc;	紃
+ysc.	紂
+ysso	約
+yssi	胞 雹
+yssu	糾
+yss.	紳
+ysr.	紉
+ysvo	肢
+ysvi	重 肳
+ysw;	紈
+ysya	紬
+yrpa	腂
+yrm.	腽
+yrne	腢
+yrle	肣
+yrke	胆
+yrje	電
+yrs;	胗
+yvtu	堅
+yvna	掔
+yvgi	肞
+yvje	雩 肟
+yvj.	鋻
+yvqo	肼
+yvq/	腎 腈
+yvxo	䏡 婜
+yvx.	霹
+yvso	朊
+yvyo	雲
+ywfo	胳
+ywto	肮
+ywyo	胘
+ywyi	雯
+yypa	脎
+yyfo	胎
+yyno	鹏
+yyn/	腗
+yyho	燛
+yyqi	雮
+yyxe	膤
+yyw,	朢
+yyyo	厽
+bbbb	窽
+bbfm	窜
+bbfn	窝
+bbfj	窥
+bbfs	窺
+bbfy	蜜
+bbdb	毙
+bbdp	粊
+bbdq	窯
+bbdx	窭 竂
+bbdz	邃
+bbds	窲
+bbtt	窐
+bbtj	竃
+bbtx	竈
+bbnt	寗
+bbnq	窵 鴪
+bblb	竉
+bbld	窌
+bblt	窱
+bblh	穷
+bblr	窨
+bbly	窔
+bbgf	窩
+bbgg	窳
+bbgc	窟
+bbkd	窷
+bbkt	窒 窪
+bbkn	穻 窉 窏
+bbkj	窀
+bbkq	窢
+bbkz	瘒
+bbks	竀
+bbhf	窖 竆
+bbhd	窕
+bbhn	竊 窂
+bbhl	究 窸 窻
+bbhg	窮 窆
+bbhk	窗
+bbhh	勓
+bbhq	鶛
+bbhz	窧
+bbhr	皆
+bbhw	竅
+bbjd	窬
+bbjg	穸
+bbjj	窞
+bbjy	竄 瘣
+bbqh	穿
+bbqq	鶟
+bbqc	窃
+bbxf	窘
+bbxk	空
+bbxj	窍
+bbxq	鵼
+bbzb	竇 窾
+bbzh	窑 窰
+bbzz	寲 癡
+bbzv	窄
+bbcq	窚
+bbsp	窼
+bbsf	窹
+bbsd	窦 窫
+bbsn	窙
+bbss	窇
+bbrb	窤
+bbrp	窠
+bbrx	窶
+bbvq	穽
+bbvx	窛
+bbvv	窿 窡
+bbws	窣
+bbyp	梥
+bbyl	窓
+bbyh	窈
+bbyq	毞 竁
+bmbx	癭
+bmmb	賔
+bmmv	瘝
+bmmw	癯
+bmtt	癦
+bmld	宐
+bmkd	寰 癏
+bmjb	眞 顚
+bmjl	鼏
+bmjq	鷆
+bmsb	潁
+bmsk	寷
+bmsr	颍
+bffh	癌
+bffs	癉
+bfkh	宺
+bfhf	宮
+bfzd	瘯
+bfrv	瘀
+bdpx	瘘
+bdmb	頃
+bdmm	寕
+bdmf	痞
+bdmv	寝
+bddx	療 寮
+bdnc	寡
+bdnr	顷
+bdkm	寄
+bdkn	痒
+bdkg	癢
+bdkk	瘥
+bdhw	癥 癓
+bdzw	癁
+bdcd	冢 瘃
+bdsp	皲
+bdsv	郓
+bdrj	痷
+bdrz	瘲
+bdrs	瘅
+bttx	癳
+btnq	鴧
+bthy	瘋
+btyx	瘰
+bngb	痶
+bnsk	痼
+bnrx	瘿
+blmm	寧 寜
+blmq	鸋
+bldr	宿
+blnn	甯
+blld	瘊
+blgn	痛
+blgs	癈
+blkb	寵
+blkl	癔
+blkz	瘴
+blks	寴
+blkr	瘖
+blhf	痂
+blhr	瘸
+blxv	寑
+blzv	宱
+blwn	鹤 寯
+blwq	鶴 癄
+bgmv	瘕
+bgnp	痫
+bggs	癜
+bgxd	瘬
+bgyb	癀
+bkmb	賓 顮
+bkfb	癩 瘶
+bkfm	疴
+bkfd	瘌
+bkft	富 冨
+bkfk	痘
+bkfr	癞
+bkfw	瘷
+bkdt	瘗
+bkgr	痍
+bkkc	冡
+bkhk	痖
+bkhv	冣
+bkqg	痡
+bkxh	痧
+bkxz	寁
+bkxv	寖
+bkzb	顐
+bkzp	皸
+bkzq	鶤
+bkzz	運
+bkzv	鄆
+bkcl	癋
+bkck	瘂
+bksk	痙
+bkrt	瘞
+bkrl	寭 瘱
+bkrk	宣
+bkrx	翧
+bkyb	寅
+bkyt	室 痓
+bkyg	戭
+bhbb	賽
+bhbp	寨
+bhbm	骞
+bhbd	褰
+bhbt	塞
+bhbn	搴 𬸣
+bhbg	弿
+bhbj	寋
+bhbq	騫 鶱
+bhbz	蹇
+bhbr	赛
+bhbv	寒
+bhbw	謇
+bhpb	穎 癪
+bhpd	痢
+bhpt	痜
+bhpn	痵
+bhpx	痿
+bhpr	颖
+bhmb	寊
+bhml	瘪 瘜
+bhmc	癟
+bhdb	熲
+bhdp	宷
+bhdd	宨
+bhdt	審
+bhds	覾
+bhdr	颎
+bhts	宪
+bhls	疩
+bhgg	疺
+bhhh	癆
+bhjd	农
+bhrb	冟
+bhys	瘢
+bjmd	瘓 寏
+bjmr	癐
+bjmv	瘦
+bjnd	痪
+bjlb	實
+bjgd	剜
+bjgn	鹓
+bjgl	惌
+bjgg	痑
+bjgj	宛
+bjgq	鵷
+bjkn	癣
+bjqd	瘉
+bjqn	癬
+bjql	癒
+bjcw	癚
+bjsq	寫 冩
+bjvx	察 瘵
+bjyb	魌
+bjyn	魑
+bjyg	魃 魎
+bjyk	魖
+bjyh	魐
+bjyj	魍
+bjyq	魈 魀 魆 魊 魕
+bjyx	鬿 魒
+bjys	魁 鬽 魓
+bjyr	魉
+bjyv	鬾
+bjyw	魅 魋
+bqbg	宠
+bqmh	疨
+bqjg	疣 痝
+bqcd	癑
+bqyx	翝
+bxmt	癅
+bxfj	宧
+bxdb	頞
+bxnq	鴳
+bxlf	痦
+bxhf	宭
+bxjd	痮
+bxjg	疷
+bxjr	痻
+bxxs	寥 瘳
+bxvx	瘭
+bzmv	痄
+bzdb	癲 欵 顁
+bzdf	痴
+bzdn	肄
+bzdj	觺
+bzdz	疑
+bzdr	癫
+bzhq	寪
+bzjd	癤
+bzjg	痗
+bzrd	痸
+bcbh	痨
+bcmb	貧
+bcmg	寬
+bcms	寛
+bcfb	兺
+bcfy	蚠
+bcdb	頒
+bcdr	颁
+bcnq	鳻
+bcnr	贫
+bclh	疬
+bclq	宬
+bckj	疶
+bckv	瘽
+bckw	癱
+bchm	癧
+bcjf	瘩
+bcsf	瘔
+bcsj	瘎
+bcrd	寞 瘼
+bcrn	癘
+bcrr	冪
+bcvd	宸
+bsmf	害
+bsmd	割 瘈
+bsml	憲 瘛
+bsmg	豁
+bsmq	駂 鶷
+bsms	沊
+bsfw	癰
+bsdp	寱
+bsdf	寤
+bsdn	寎
+bsdv	寢
+bsdw	寐 寣
+bsnq	鴆 鴇
+bshk	匘
+bsqn	宯 痚
+bsqr	瘏
+bsxv	寂
+bsrq	瘠
+brfx	寠 瘻
+brdr	幂
+brnq	鴲
+brlj	疮
+brlx	鼆
+brls	覭
+brlv	鄍
+brkv	瘍
+brxf	瘡
+brsv	痬
+brrt	痤
+bvdh	宻
+bvlw	瘫
+bvgy	瘙
+bvkm	痾
+bvjl	瘾
+bvxb	賨 頴
+bvxk	痉
+bvxh	崈
+bvxq	鶎
+bvxr	颕
+bvzl	癮
+bvsp	寇 冦
+bvsq	鵍
+bvsx	宼
+bvsc	冠
+bvry	癊
+bvvr	癎
+bvvy	癇
+bvwv	癃
+bwfb	額
+bwfl	愙
+bwfj	鄨
+bwfz	蹩
+bwfr	额
+bwfy	蟞
+bwdb	斃
+bwdv	癠
+bwnq	鷩
+bwnx	鼈
+bwhp	癛
+bwhk	龞
+bwhx	癝
+bwjb	寳
+bwjk	鳖
+bwjq	鱉
+bwzb	寶
+bwzh	寚
+bwrs	瘁
+bwvw	癕
+bwww	癍
+bwyn	癴
+bwyr	痎 癵
+bybw	痠
+bymj	爸
+bydb	頌
+byds	瘆
+bydr	颂
+bylw	癨
+bygk	釜
+bygx	斧
+bykv	爺
+byjg	爹
+byxb	顈
+byxn	鹟
+byxh	勜
+byxq	鶲
+byxx	翁
+bysq	毤
+bysv	瘇
+byys	瘮
+pbbp	棎
+pbbt	梐
+pbbk	椌
+pbbh	樒
+pbbr	楷
+pbbv	榨
+pbby	櫁
+pbmb	槇
+pbdm	槣
+pbns	椬
+pblm	檸
+pbln	橣
+pblr	樎
+pblw	榷
+pbkb	檳
+pbkm	柠
+pbkt	榁
+pbkk	楦
+pbkj	枍
+pbkz	楎 皹
+pbkc	榢
+pbjj	椀
+pbjx	檫
+pbjs	櫆
+pbjy	槐
+pbqb	槟
+pbzd	槉
+pbcp	椕
+pbsl	櫶
+pbrl	榠
+pbvx	棕
+pbvs	梡
+pbwf	楁
+pbyl	棇
+ppbt	棾
+ppbc	棼
+pppz	檚
+ppdb	櫇
+ppty	檒
+pplz	楚
+ppgg	椘
+ppkv	樷
+ppjg	梦
+ppcd	辳
+pprl	棽
+pprk	楂
+ppvx	禁
+pmbx	櫻 橴
+pmmv	欔
+pmmw	欋
+pmfy	鿝
+pmtg	檡
+pmkd	檈
+pmjl	檙
+pmjg	椤
+pmcq	檅
+pmyw	欏
+pfms	槻
+pffb	櫕
+pffp	橾
+pffm	梙
+pfff	榀 楍
+pffl	槵
+pffs	樿
+pffw	欕
+pfkh	楫
+pfkj	枵
+pfkq	檝
+pfzm	檹
+pfzj	椸
+pfsb	樻
+pfrv	棜
+pfyy	螙
+pdpm	橉
+pdpx	楼
+pdmb	頗
+pdmf	桮
+pdmg	杯
+pdmk	柸
+pdms	栤
+pdmr	橧
+pdmw	榎
+pdfh	椦
+pdfj	棬
+pddx	橑
+pddz	檤
+pdtt	楏
+pdnr	颇
+pdnv	栭
+pdnw	櫌
+pdgm	栦
+pdgh	梯
+pdkm	椅 椼 榏
+pdkf	橏
+pdkd	栚 椾
+pdkn	样
+pdkk	槎 椪
+pdkh	槏
+pdkj	檶
+pdkz	檖
+pdxd	橂
+pdxc	樽
+pdxv	楢
+pdcd	椓
+pdsz	梿
+pdss	様
+pdrz	樅
+pdrs	椫
+pdvm	桁
+pdvg	槬
+pdvj	桍
+pdwb	檨
+pdwq	榚 檥
+pdws	樣
+ptbw	棱 槸
+ptfd	榬
+ptdz	橽
+pttt	櫑
+pttx	欙
+ptts	橈
+ptkd	椳
+pthy	楓
+ptjv	榸
+ptzq	樾
+ptrq	楐
+ptym	榼
+ptyx	樏
+pnpk	梱
+pnfd	欜
+pndk	栶
+pndh	棡
+pndj	棢
+pntf	椆
+pnnk	栅
+pngb	椣
+pnkg	桺
+pnkk	槶 檲
+pnhk	棞
+pnsb	椇
+pnsg	梂
+pnsk	柶 棝
+pnrm	榲
+pnrx	樱
+pnvm	楹
+pnwk	椢
+plbf	榜
+plbs	桦
+plbr	楴
+plmb	橮
+plmt	樤
+plmk	極
+plmq	樇
+plfp	椺
+pldm	榌
+pltt	橻
+plnf	樀
+plnx	槂
+plnv	梛
+pllw	櫦
+plgp	楙 楺
+plgm	杼
+plgf	橘
+plgd	楑
+plgt	壄 櫈
+plgn	桶
+plgl	懋
+plgk	橙
+plgq	梻
+plgx	櫲
+plgz	樋
+plgc	柕
+plgs	橃
+plkb	櫳
+plkp	榇
+plkf	柌 棓
+plkl	檍
+plkj	槞
+plkq	樴
+plkx	椄
+plkz	樟
+plks	樈 櫬
+plkv	橦
+plkw	橄
+plky	楩
+plhf	枷
+plhd	柳
+plhh	栛
+plhz	栣
+plzq	楈
+plcs	楌
+plsm	椲
+plvs	椂
+plwn	槜 檇
+plwq	樵
+plws	榫
+plwv	欆
+plyg	栰
+pgmn	樨
+pgmg	枛
+pgmv	椵
+pgmy	欘
+pgfz	檛
+pgdd	榒
+pgnf	榈
+pglf	梮
+pgln	樼
+pglc	椨
+pgls	栐 櫠
+pggb	櫎
+pggf	椖
+pggd	榐
+pggj	槴
+pggq	棙
+pggc	楄
+pgkt	楃
+pgkj	梔 栀 栃
+pgkz	檋
+pght	榹
+pghg	榳
+pgjv	榔
+pgjy	樃
+pgqw	橵
+pgxb	櫍
+pgxp	椞
+pgxm	槦
+pgxf	榶
+pgxl	惁
+pgxs	槺
+pgxr	皙 晳 椩
+pgxy	蜤
+pgzq	鶐
+pgzc	櫥
+pgcq	樜
+pgsm	楯
+pgsf	椐
+pgsq	榍
+pgsr	𬃊
+pgyb	横
+pgyq	梶
+pkby	檷
+pkmp	楝
+pkfb	樕 櫴
+pkfp	梀
+pkfm	柯
+pkfd	楋
+pkft	楅
+pkfk	梪
+pkfj	櫃 樞 榧
+pkfq	棫
+pkdp	梾
+pkdd	𬂩
+pkds	枰
+pktk	橿
+pknp	栜
+pknl	欐
+pknj	杶
+pknq	械
+pkgj	柜
+pkgr	桋
+pkhk	桠
+pkhh	欇
+pkhr	榗
+pkhv	椰 棷
+pkhw	檉
+pkjg	杙
+pkjk	枑
+pkjj	柩
+pkqc	榑
+pkqr	槽
+pkxg	栻
+pkxh	桫
+pkxx	棲
+pkzz	槤
+pkcp	樑
+pkck	椏
+pksk	桱
+pkrp	棟 棶
+pkrl	橞
+pkrk	桓
+pkrj	椻
+pkrc	槫
+pkrr	梜
+pkry	梗
+pkvg	樲
+pkwj	框
+pkyd	椡
+pkyt	桎
+pkyj	枢
+pkyr	樉
+phbc	梤
+phpd	梸
+phph	楸
+phps	㰀
+phpr	楿
+phmb	楨
+phmf	櫋
+phms	橰
+phfn	楀
+phdd	桃
+phdt	橎
+phdv	椯
+phtb	欑
+phtm	櫨
+phtf	梏
+phtl	櫖
+phnt	構
+phnl	樬
+phnk	樐 櫷
+phns	樝
+phnr	桢
+phlf	欈
+phls	枠
+phlw	槯
+phgg	柉
+phgv	楡
+phkf	樸
+phkk	榿
+phkv	欉
+phkw	檏
+phhf	檆 櫿
+phht	橩
+phhh	橯
+phjh	柹
+phqc	榭
+phzg	梃
+phsf	栝
+phsk	棰
+phrb	梎
+phrp	槕 檪 櫟
+phrl	梣
+phrq	梍
+phrs	槪 槔 楾 槹 橷
+phrr	棉
+phrw	檄 楻
+phvz	槌
+phwy	榩
+pjmj	栬
+pjmr	檜
+pjfd	椧
+pjft	欃
+pjfr	檢 検
+pjfy	蚻
+pjnc	棆
+pjlb	樌
+pjlg	栂
+pjlc	椽
+pjly	欚
+pjgp	榤
+pjgm	桝
+pjgd	栁
+pjgg	栘
+pjgs	榊
+pjgv	桞
+pjkn	櫸 欅
+pjks	椴
+pjkr	橹
+pjqp	櫯
+pjqd	榆
+pjqk	櫭
+pjqs	概
+pjqr	櫓
+pjxm	棦
+pjxs	檓
+pjcn	檞
+pjcj	桅
+pjcw	檐
+pjsk	检
+pjsr	槠
+pjvq	橪
+pjvs	槲
+pjyx	紮
+pqbg	栊
+pqmm	棩
+pqmn	栫
+pqmh	枒
+pqff	槗
+pqxq	楕
+pqcp	欁
+pqcd	檂
+pqsr	橬
+pqvg	柭
+pxbv	梫
+pxmb	檟
+pxmm	橚
+pxmt	橊
+pxms	棣
+pxfk	櫮
+pxdz	櫏
+pxng	楗
+pxnr	槚
+pxlf	梧
+pxkb	槓
+pxkv	桏
+pxhf	桾
+pxjf	桰
+pxjd	棖
+pxjg	柢
+pxjr	棔
+pxxx	榋
+pxxc	樳
+pxxs	樛
+pxxr	槢
+pxxw	櫂
+pxvd	檦
+pxvq	槱
+pxvx	標
+pzbm	橓
+pzmb	櫝
+pzmv	柞
+pzff	橲
+pzft	檯
+pzfc	樹
+pzdf	椥
+pzdd	櫤
+pzdj	柂
+pznw	栴
+pzln	桴
+pzlg	梴
+pzlc	檮
+pzlw	権
+pzgv	楥
+pzhs	鬱
+pzjd	櫛
+pzjg	梅
+pzxl	檼
+pzzh	榣
+pzzx	櫾
+pzcb	檱
+pzsq	橅
+pzsr	橁 櫡
+pzrw	椱
+pzwt	樦
+pzyd	榽
+pcbc	檬
+pcmq	櫗
+pcfq	椷
+pcfs	欟
+pcfw	權
+pcnb	橛
+pcnd	楧
+pclb	椛
+pclh	枥
+pclj	枙 欍
+pclq	櫵
+pclv	檴
+pckb	橫
+pckp	楪
+pckg	樠
+pckh	榵
+pckj	枻 櫙
+pckz	櫣
+pckc	橱 欂
+pcks	樺
+pckv	槿
+pchm	櫪
+pchx	榞
+pcjf	榙
+pcjx	櫒
+pcqf	楉
+pcxm	櫹
+pcxq	楲
+pczc	櫉
+pccn	櫔
+pccq	欌
+pcsb	棋
+pcsf	楛
+pcst	樭
+pcsl	檧
+pcsj	椹
+pcsq	槭
+pcsx	櫀
+pcsr	槆
+pcrd	模
+pcry	橗
+pcvp	楳 欗
+pcvd	桭
+pcvc	槈
+pcwm	樥
+psbn	桲
+psmd	楔
+psml	櫘
+psmx	槥
+psfp	橖
+psft	檔 樘
+psfh	橕
+psfq	欓
+psfx	橭
+psfs	𣗋
+psfy	楜
+psdp	椈 龾
+psdh	樯
+psdz	梉
+psng	楠
+psns	植
+psld	椟
+pskn	榉
+psks	桄
+pshh	梑
+pshc	梼
+pshv	梆
+psjg	桚
+psqk	枾
+psqj	栲
+psqr	楮
+psxv	椒
+pszg	橶 檊
+pscb	橨
+psrp	榛 樔
+psrd	楱
+psrn	棒
+psrh	檣
+psrj	樁
+psrr	椿
+psvl	楤
+prbb	棍
+prmd	厀
+prms	桼
+prmv	槾
+prfx	樓
+prfw	櫢
+prtc	榯
+prlf	梒
+prll	棯
+prlg	柃
+prlj	枪
+prkp	皶
+prkq	鸉
+prkc	棏
+prkv	楊 樶
+prxf	槍
+prxx	榻
+prsj	楬
+prss	榥
+prrt	桽
+prrq	櫼
+prrr	橸
+prvy	桧
+prwn	檎
+pvmb	樍
+pvms	柡
+pvkp	樄
+pvkc	橼
+pvqq	橢 椭
+pvxb	歀
+pvxs	隸
+pvzm	槛
+pvzj	榄
+pvvp	欄 槡
+pvvf	櫚 櫊
+pvvj	櫩
+pvvr	橺
+pvvv	棳
+pvvw	橍
+pvvy	橌
+pvyx	榡
+pwbm	楟
+pwbc	檺
+pwmd	櫰
+pwfd	欀
+pwdv	櫅
+pwnf	槁
+pwlm	梈
+pwln	椁
+pwlv	槨
+pwlw	棭 橔
+pwhp	檁
+pwhk	檀
+pwhx	檩
+pwjd	橠
+pwqm	栙
+pwsm	桻
+pwsz	槰
+pwsr	櫧
+pwrd	榱
+pwrs	椊
+pwym	橀
+pwyt	槒
+pwyn	樆
+pwyh	梳
+pwyq	棛
+pwyr	核
+pybw	梭
+pyps	榝 樧
+pymq	櫄
+pyff	橋 櫺
+pyfk	欞
+pydh	橳
+pyds	桳 椮
+pydv	棴 檽
+pynw	椶
+pylh	柪
+pygg	棧
+pygy	欛
+pykj	梬
+pyks	桡
+pyhn	桙
+pyqq	橇
+pyqr	桸
+pyxp	棅
+pyzm	檻
+pyzs	欖
+pysc	櫞
+pysr	檰
+pyvt	樫
+pyvj	樗
+pyvy	橒
+pyyp	棥
+pyyf	礬
+pyyd	樊
+pyyn	攀
+pyyh	燓
+pyyj	檵 鐢
+pyyq	機
+pyyc	欎 欝
+pyys	槮 鬰
+pyyy	蠜
+mbbp	賝
+mbbm	貯
+mbbx	賩
+mbbz	賱
+mbmb	貲 賏 贔
+mbmh	罌
+mbmj	鑍
+mbmq	鸚 鸎
+mbmx	嬰
+mbmw	甖 譻 贁
+mbfm	賗
+mbff	啙
+mbfl	贃
+mbdm	賹
+mbdf	砦
+mbdk	賆
+mbdh	賺
+mbdj	貤
+mbdr	贈
+mbtq	賳
+mbnb	賟
+mbnm	賵
+mbnf	賙
+mbng	賕
+mbnq	鴜 鵙
+mbnr	赀
+mblb	贚
+mblm	矃
+mblf	賠
+mblw	雌
+mbly	賋
+mbgt	賍
+mbgg	賘
+mbkb	瞚 矉
+mbkm	眝
+mbkk	睻
+mbkj	盻
+mbkq	賊
+mbkz	睴
+mbkc	賻
+mbky	蠈
+mbhm	賉
+mbhf	貼 贌
+mbht	購
+mbhg	貶
+mbhh	賧
+mbhv	貹
+mbjp	賖
+mbjk	𫚖
+mbjj	睕
+mbjq	鮆
+mbjw	贍
+mbqq	賄 贆
+mbxm	贐
+mbxd	賬
+mbxg	貾
+mbxz	贉
+mbxs	賿
+mbzb	贖
+mbcd	賑
+mbcn	贎
+mbcq	贓 贜
+mbsb	贘
+mbsf	瞎
+mbsn	賯
+mbsq	賎
+mbsr	賭 賰
+mbrf	賶
+mbrn	歶
+mbrl	瞑
+mbrg	飺
+mbrx	賒
+mbrv	賜
+mbvg	賦
+mbvx	祡 骔
+mbvs	睆 貦
+mbwf	賂
+mbwt	貥
+mbws	賥
+mbwr	賅
+mbyf	貽
+mbyg	賤 戝
+mbyx	紫 瞈
+mbys	贂
+mbyw	賐
+mmbk	瞾
+mmbq	鷪 鷶
+mmmd	奰
+mmnq	鶥
+mmlg	戵
+mmlq	氍 鸜
+mmlv	矍 𨟠
+mmlw	瞿
+mmhb	頻 颦 顰
+mmhh	步
+mmhr	频
+mmvg	骥
+mmvz	遝
+mmvv	眔
+mfms	瞡
+mffp	矂
+mffl	瞣
+mfsb	瞶
+mfsr	瞆
+mdpm	瞵 𬴊
+mdpn	歯
+mdpg	齢
+mdpx	䁖
+mdpz	瞇
+mdmb	頉
+mdmg	罘
+mdmk	𬳵
+mdmr	罾
+mdfj	睠
+mddx	瞭
+mdtt	睳
+mdns	麺
+mdgh	睇 罤
+mdkm	骑
+mdkd	眹
+mdkn	眻
+mdhw	矀
+mdrj	罨
+mdrz	瞛
+mtbt	睦
+mtbw	睖
+mtfd	瞏
+mtfq	睵
+mtdb	歝
+mtdg	睪
+mtdq	鸅
+mtdw	斁
+mttg	罫
+mtqb	黷
+mtqm	黸
+mtqf	點 黠
+mtqd	黩
+mtqt	墨 黫
+mtqn	黭
+mtql	黔
+mtqg	黟 黓 黣
+mtqh	黝
+mtqj	黥 黗 黤 黦 黮
+mtqq	默 黬
+mtqz	黰
+mtqc	黜
+mtqs	黪 黕 黖 黲
+mtqr	黯
+mtqv	黚
+mtqw	黢 黵
+mtym	瞌
+mtyq	罴
+mtyx	骡
+mnpk	睏
+mndk	骃
+mntf	睭
+mngb	睓
+mnsk	驷
+mlbs	骅
+mlnk	凹
+mlns	兕
+mlld	睺
+mlgf	瞲
+mlgd	睽 骙
+mlgk	瞪
+mlgc	罞
+mlkb	矓
+mlkz	瞕
+mlkr	罯
+mlkv	瞳 罿
+mlkw	瞰
+mlrr	眾
+mlvs	睩 𫘧
+mlwq	瞧
+mgmq	羈
+mgmv	睱
+mgmy	矚
+mgdm	羇
+mgnq	鳪
+mgld	眽
+mgln	骣
+mgls	眿
+mggb	矌
+mggq	睙
+mggx	骟
+mggc	骗
+mghn	瞩
+mgxf	瞊
+mgsm	瞃
+mgvc	罻
+mkmk	凸
+mkfd	睘
+mkfn	鹮
+mkfj	瞘
+mkfq	罭
+mkfx	翾
+mkfz	還
+mkdp	睐
+mknl	矖
+mkng	骊
+mknj	盹
+mkgj	歫
+mkgr	眱
+mkhc	骤
+mkhr	鿃
+mkjq	眓
+mkxz	睫
+mkcn	豳
+mkrp	睞
+mkwj	眶
+mkyt	眰
+mkyj	驱 眍
+mhpl	矁
+mhph	瞅
+mhmf	矏
+mhdd	眺
+mhtm	矑
+mhts	𬳽
+mhnl	骢
+mhnq	睋
+mhgg	眨
+mhkf	瞨
+mhsk	睡
+mhrf	矈
+mhvx	辪
+mjmr	瞺
+mjmv	瞍
+mjfb	巼
+mjfr	瞼
+mjdl	鼎
+mjnc	睔
+mjnw	矎
+mjgf	眳
+mjgg	眵
+mjgz	逻
+mjqd	睮
+mjxm	睁
+mjcw	瞻
+mjsk	验 睑
+mjsv	郻
+mqbb	驞
+mqbg	眬
+mqbx	騌
+mqbs	馾
+mqby	騩
+mqmg	驛 驥
+mqmq	騳 驫
+mqfm	馽
+mqfq	駽
+mqfs	驒
+mqfy	駛
+mqdm	騎 駲 驎
+mqdd	騚
+mqdg	駄
+mqdk	駢 駓
+mqdj	馳
+mqdq	驣
+mqdx	駾
+mqdr	驓
+mqtl	騦
+mqtg	龭
+mqtq	驖
+mqtx	騾
+mqts	驍
+mqty	颿
+mqnf	駉 騆
+mqnd	駚
+mqng	馺 駵
+mqnk	駟 駰
+mqnq	鶪
+mqns	駔
+mqlp	騥
+mqlm	騛
+mqlf	騯 驈
+mqld	駃 駠 騤
+mqlt	騮
+mqlz	騿
+mqlc	駙
+mqls	騄 驋
+mqlw	騅
+mqly	駮
+mqgp	驧
+mqgf	駶 騧
+mqgn	驏
+mqgg	馿 駅 駺
+mqgx	馸 騸
+mqgc	騙
+mqgv	騢
+mqkp	駷 騋
+mqkt	駤
+mqkl	驪
+mqkh	駬
+mqkj	驅 駆 駏
+mqkq	駥 駴
+mqkc	驟
+mqks	駍
+mqkr	馷 騻
+mqhm	驢
+mqhf	驨
+mqhd	駣
+mqhl	驄
+mqhg	騈
+mqhk	驉
+mqhq	馲 騀
+mqhs	駪 騡
+mqhr	騬
+mqhw	騜 驜
+mqjp	駼
+mqjd	騟
+mqjr	驗 験
+mqjv	騪
+mqqg	駀 駹
+mqxm	驌
+mqxt	驑
+mqxg	騝 龮
+mqxx	驃 騕
+mqxz	驔
+mqxr	騽
+mqxv	駸
+mqzp	驝
+mqzd	騱
+mqzg	駳
+mqzj	駞
+mqcb	騏
+mqcf	駋
+mqcq	驠
+mqcx	騵
+mqcz	騲
+mqcs	驊
+mqcv	騹
+mqcw	驩
+mqsf	騞
+mqsl	騘
+mqsh	騊 騶
+mqss	駫 騨
+mqsr	駨
+mqsv	馶
+mqrb	騉
+mqrp	騍
+mqrf	騇
+mqrl	騐
+mqrg	駖 駻
+mqrj	騔
+mqrx	騴
+mqrz	騠
+mqrs	駗 驆
+mqvy	騷 騒
+mqwf	駱
+mqwd	驤
+mqwt	駐
+mqwk	驙
+mqwr	駭
+mqww	驐
+mqwy	馼
+mqym	驦
+mqyf	驕 駘
+mqyd	騃
+mqyj	騁
+mqys	馻 驂
+mqyw	駿 騣
+mqyy	駁
+mxbv	骎
+mxmb	骕
+mxng	睷
+mxjl	眄
+mxjg	眡
+mxjr	睧
+mxxw	矅
+mxvx	瞟 骠
+mzbm	瞬
+mzbw	瞹
+mzff	瞦
+mzln	罦
+mzxm	睜
+mzsq	瞴
+mzyd	𫘬
+mcbc	矇
+mcpz	𬺓
+mcmb	龇 顪
+mcmm	矒
+mcmd	劌
+mcmq	歲
+mcmx	翽
+mcfz	龊
+mcfw	矔
+mcdm	𬺈
+mctt	睚
+mcns	龃
+mclv	矆
+mcgt	龌
+mcgx	龂
+mckg	瞞
+mcks	瞱
+mckr	瞒
+mchd	罽
+mchn	龋
+mchx	𫘪
+mcjs	𫠜
+mcqf	睰
+mcxf	龉
+mcxq	歳
+mczl	龁
+mccp	瞸
+mccf	龆
+mccn	矋
+mcsb	骐
+mcss	龅
+mcrd	瞙
+mcrg	龄
+mcrq	𬹼
+mcrr	羃
+msmm	豔 豓
+msmf	𬴃
+msmk	豐
+msmh	豒
+msmj	艷
+msms	淼 沝 覞
+msmv	酆
+msfb	歜
+msfp	斀
+msfd	劅
+msft	瞠
+msfq	矘 鸀
+msfs	斣
+msfy	蜀
+msdp	麹
+msdf	沯
+msdw	覹
+msnb	頮
+msng	罱
+msns	置
+msnr	颒
+mslm	沀
+msln	覎
+mslw	罹
+mskg	濷
+mskj	眠 罠
+msqr	署 睹
+mszh	𫘦
+msrp	罺
+msrr	睶
+msyy	覐
+mrfx	瞜
+mrgs	罼
+mrhv	睲
+mrsv	睗
+mrrb	齜 齔
+mrrm	齮 齸
+mrrf	齬 齝 齠
+mrrt	齷 睉
+mrrn	齒 齲 齵
+mrrl	齕
+mrrg	齡 齦
+mrrk	齫
+mrrh	齖 齺
+mrrj	齣 齓 齛 齨 齶
+mrrq	齘 齥
+mrrx	齗 齭 齽
+mrrz	齪 齞 齳 齻 齼
+mrrs	齟 齙 齯 齴
+mrrr	齰
+mrrv	齚 齱
+mrry	齩
+mvbg	冀
+mvbk	丠
+mvbq	背
+mvbz	軰
+mvbv	邶 鄁
+mvmb	歵 瞔
+mvgy	骚
+mvvr	瞷
+mvvv	罬
+mvvw	瞤 矙
+mvvy	瞯
+mwfd	骧
+mwrs	睟
+mwwm	鬥
+mwwg	鬨
+mwwk	鬮
+mwwx	鬬 鬭
+mwwc	鬪
+mwws	鬦 鬩
+mwwr	鬧
+mwww	鬫
+mwyn	瞝
+mwyx	羉
+mwyr	骇
+mwyw	瞮
+mybw	骏 睃
+mypm	骦
+mymq	矄
+mydb	頥
+myds	骖
+mylh	眑
+mylw	矐
+mykj	骋
+myks	骁
+myhn	眸
+myqb	罷
+myqq	羆
+myqr	睎
+mysq	羂
+mysz	邏 羄
+mysr	矊
+mysv	歱
+mysw	羅
+mysy	鿡
+myyn	幽
+fbbk	啌
+fbbh	嘧
+fbbc	哛
+fbbs	哔
+fbbr	喈 噾
+fbbv	鿽
+fblm	嚀
+fbkm	咛
+fbkk	喧
+fbkz	喗
+fbhd	哝
+fbht	噻
+fbhn	哰
+fbhq	咤
+fbjj	啘
+fbjx	嚓
+fbsf	嗐
+fbvs	唍
+fbwf	喀
+fbyg	嗲
+fbyx	嗡
+fppx	噤
+fpfp	槑
+fpgx	唽
+fpsf	喖
+fprk	喳
+fmbb	蹞
+fmbp	喍
+fmbm	蹿
+fmbh	勛
+fmbj	嘴 踠
+fmbq	鶰
+fmbx	踪 嚶
+fmbs	跸
+fmbr	囎 蹜
+fmbv	鄖
+fmby	躥
+fmpk	蹅
+fmmb	嘪 嚬 跐
+fmmh	踄
+fmmj	跁
+fmmz	嚃
+fmmr	踏
+fmmv	躩
+fmmw	躣
+fmmy	躅
+fmfb	蹪
+fmfp	躁
+fmfz	踀
+fmdm	踦 蹸
+fmdf	跖 踎
+fmdn	噛 跘
+fmdk	蹉 踫 跰
+fmdj	跨 踡
+fmdx	蹽
+fmdz	蹤 嚺 跶 蹝
+fmdc	蹲
+fmdr	蹭
+fmdv	躑 踯
+fmdw	躨
+fmtp	跺
+fmtf	嚸
+fmtd	踋
+fmtt	跬 嚜 踛
+fmtq	嘿
+fmtz	躂 跿
+fmtc	跱
+fmts	蹺
+fmtw	踜
+fmnp	跥
+fmng	趿
+fmnk	跚
+fmns	跙
+fmlb	躘
+fmlp	蹂
+fmlf	跏 踣 蹢 蹫
+fmld	趹
+fmlt	蹓
+fmln	踊
+fmlk	蹬
+fmlh	踴
+fmlx	跞 踥
+fmlc	跗
+fmls	蹳
+fmlr	蹄
+fmlv	蹱
+fmlw	踓
+fmly	跤
+fmgb	跜 躓
+fmgm	踲
+fmgf	踮 踞 跼 踻
+fmgd	蹍
+fmgt	躔 蹏
+fmgg	踉
+fmgq	蹠
+fmgz	蹆
+fmgc	蹁 躕
+fmgr	踬 踖
+fmgv	踱
+fmkp	踈
+fmkm	跒
+fmkd	噮
+fmkt	跮 踾
+fmkn	趶
+fmkl	躧
+fmkk	踁
+fmkh	躡
+fmkj	距 踂
+fmkz	踕 蹥
+fmkr	跠 蹧
+fmkv	蹑 踙
+fmky	躎
+fmhb	躦
+fmhp	躒
+fmhf	跌 蹼 跕
+fmhd	跳
+fmht	蹯
+fmhn	踽
+fmhh	踿
+fmhx	踒
+fmhz	跹 踔
+fmhc	躆
+fmhs	跣
+fmhr	躜
+fmhv	踹
+fmhw	躈
+fmhy	蹦
+fmjb	躀
+fmjm	踭
+fmjf	跲
+fmjd	踰
+fmjl	跽
+fmjg	蹴 啰 跢 𧿹
+fmjj	跪
+fmjq	蹨
+fmjx	蹹
+fmjc	踚
+fmqg	跋
+fmqr	蹛
+fmxg	踺
+fmxz	躚
+fmxs	蹘 蹮
+fmxw	躍
+fmzp	踩
+fmzm	躌
+fmzf	踟
+fmzd	蹊
+fmzl	趷
+fmzg	踇
+fmzj	蹈
+fmzc	躊
+fmcb	蹶 踑
+fmcp	蹀
+fmcf	蹃
+fmcg	蹣
+fmcj	跇 踸
+fmcq	噦
+fmcc	蹰
+fmcr	躇 蹒 躤
+fmcw	躪 躏
+fmsp	槼 踘
+fmsf	跍
+fmst	蹚
+fmsn	踍
+fmsl	鬹
+fmsj	蹖
+fmsq	踃 蹐
+fmsx	嫢
+fmsc	踌 蹡
+fmss	跑
+fmsr	踳 踷
+fmsv	跂 踧
+fmsy	躐 噣
+fmrp	踝
+fmrf	蹌
+fmrn	嚙
+fmrl	趻 踗
+fmrg	跉
+fmrj	跄
+fmrq	跩
+fmrx	蹋
+fmrz	踨 踶
+fmrs	跈 蹕
+fmrv	踢 踼
+fmvb	蹟
+fmvp	躝
+fmvq	践
+fmvx	躃 躢
+fmvw	躙
+fmwm	跭
+fmwf	路
+fmwd	躟
+fmwt	跓
+fmwn	鹭
+fmwh	跡
+fmwq	鷺 跻
+fmws	踤
+fmwv	躞 躋
+fmww	蹾
+fmyf	跆 蹻
+fmyg	踐
+fmyk	躖
+fmys	跷
+fmyv	踵
+fmyw	囉 踆
+ffbs	斝
+ffmb	賛
+ffml	患
+ffmj	唈
+ffmq	駡
+ffmv	鄼
+fffp	噪 喿
+ffff	碞
+fffd	劋
+fffh	喦 嵒
+fffq	氉
+fffs	嘽
+fffv	鄵
+ffdm	喌
+ffdf	囂 嚣 嚻
+ffds	辇
+fftf	嘼
+fftj	鼍
+fftq	獸
+fftx	鼉
+ffnz	遻
+ffkj	呺
+ffkz	輦
+ffkv	鄻
+ffqf	器
+ffxf	噐
+ffzd	嗾
+ffcw	嚴
+ffsb	嘳
+ffsf	嘂
+ffrd	囅 辴
+ffrg	戰
+ffrq	鷤
+ffrs	單
+ffrv	唹 鄲
+ffvb	顎
+ffvd	卾
+ffvn	鹗
+ffvj	咢
+ffvq	鶚
+ffvz	遌
+ffvs	覨
+ffvr	颚
+ffvv	鄂
+ffyf	嚚
+ffyw	雖
+fdpm	噒
+fdpx	喽
+fdmg	嘎 吥
+fdmk	呸
+fdmz	嘥
+fdmr	噌
+fdmw	嗄
+fdfj	啳
+fddx	嘹
+fdtt	喹
+fdng	嘠
+fdns	喕
+fdnw	嚘
+fdkm	嗌 旑
+fdkd	咲
+fdkn	咩
+fdkk	嗟
+fdkh	嗛
+fdky	嗞
+fdxc	噂
+fdcd	啄
+fdsn	喯
+fdsg	啭
+fdss	唴
+fdsy	嗴
+fdrg	唥
+fdrj	唵
+fdrc	嘚
+fdrs	啴
+fdvm	哘
+fdvj	咵
+ftdg	啈
+ftdj	哋
+ftdz	噠
+fttg	啩
+ftts	嘵
+ftkd	喂
+fthh	嚇
+ftym	嗑
+fnfd	囔
+fndl	嗯
+fndk	咽
+fntf	啁
+fnlk	啦
+fngb	唺
+fngx	哳
+fnkm	咑
+fnkk	嘓
+fnhg	吶
+fnhr	啪
+fncf	嗣
+fncx	翤
+fnsk	呬
+fnsy	嗤
+fnrh	勋
+fnrx	嘤
+fnrv	郧
+fnvs	唞
+fnwk	啯
+flbf	嗙
+flbs	哗
+flbr	啼
+fldj	咃
+flnf	嘀
+flnk	嗰
+flnj	吼
+flnv	哪
+flld	喉
+flgf	噊
+flgk	噔
+flgz	嗵
+flkb	嚨 噷
+flkm	哬
+flkf	呞
+flkl	噫
+flkq	旘
+flkx	唼 噺
+flks	嚫
+flkr	喑
+flkv	噇
+flkw	噉
+flhf	咖
+flhq	嗋
+flhx	喺
+fljd	嚠
+flxh	咿
+flcs	喭
+flsm	喡
+flwq	噍 鷕
+fgpp	嘛
+fgpf	嚰
+fgpn	嚤
+fgpy	嚒
+fgmy	囑
+fgtt	嚡
+fgnw	㘎
+fgld	哌
+fglh	嘞
+fgls	咏
+fggb	嚝
+fggl	呝
+fggq	唳
+fgkt	喔
+fght	嗁
+fghn	嘱
+fgjv	啷
+fgxm	嘃
+fgcq	嗻
+fgcv	喥
+fgsf	啹
+fgrd	唰
+fkpx	嘙
+fkmq	嘕
+fkfb	嗽
+fkfm	呵
+fkfd	喇
+fkfk	哣 唖
+fkfj	嘔
+fkds	呯
+fknb	噸
+fknl	囇
+fknj	吨
+fknr	唡
+fkgr	咦
+fkhl	𫫇
+fkhk	哑
+fkhh	囁
+fkhq	戢
+fkhv	嗫
+fkjt	號
+fkjn	鸮
+fkjg	饕 飸
+fkjq	鴞
+fkqg	哺
+fkqr	嘈
+fkxh	唦
+fkxx	啛
+fkxz	啑
+fkzg	嗨
+fkzz	嗹
+fkzc	囀
+fkcl	噁
+fkck	啞
+fkrp	唻
+fkrg	啢
+fkrk	咺
+fkrj	咂
+fkrr	唊
+fkrw	嘜
+fkry	哽
+fkwj	哐
+fkyt	咥
+fkyj	呕
+fhpf	啝
+fhpd	唎
+fhpn	唀
+fhph	啾
+fhpx	唩
+fhps	嚟
+fhmn	嚊
+fhmq	嗅
+fhms	嘷
+fhfd	噳
+fhdf	啱
+fhdd	咷
+fhdt	噃 旙
+fhdn	呼
+fhdv	喘
+fhtb	囋
+fhtm	嚧
+fhtf	哠
+fhnd	噢
+fhnq	哦
+fhlq	囐
+fhlw	嗺
+fhgv	喩
+fhkf	噗
+fhkg	嚱
+fhkc	噱 嚉
+fhhn	嘑
+fhhk	嘘
+fhhh	嘮
+fhjg	哕
+fhct	嘊
+fhck	噓
+fhsf	咶
+fhsk	唾
+fhsj	喢
+fhrp	嚛
+fhrd	喞
+fhrq	唣
+fhrs	嗥 唕 啲 噑
+fhrw	喤 噭
+fhyy	嘣
+fjmd	喚
+fjmr	噲
+fjmv	嗖
+fjft	嚵
+fjfn	啽 嗱
+fjfx	噏
+fjfr	噞
+fjnd	唤
+fjlg	呣
+fjlc	喙
+fjgg	哆
+fjkb	呉
+fjkr	噜
+fjqd	喻
+fjqg	噈
+fjqs	嘅
+fjqr	嚕
+fjxl	喼
+fjcw	噡
+fjvm	嘢
+fjvq	嘫
+fjvs	嘝
+fqbg	咙
+fqmh	呀
+fqnq	鵑
+fqjg	哤
+fqqv	喐
+fqxk	咗
+fqcd	噥
+fqsr	噆
+fxbv	唚
+fxmb	啸 嘨
+fxmm	嘯
+fxng	旔
+fxlf	唔
+fxkb	嗊
+fxkr	唝
+fxjg	呧
+fxxc	噚
+fxxs	嘐 噿
+fxxw	嚁
+fxsm	嚍
+fxvx	嘌
+fzbk	噎
+fzbv	嗳
+fzbw	噯
+fzmd	啣
+fzmc	嚼
+fzmv	咋
+fzmw	囖
+fzff	嘻
+fzfs	嘭
+fzdm	旖
+fzdj	施
+fzdz	旞
+fznw	旃
+fzld	旅
+fzln	哹 斿
+fzlg	唌
+fzlj	啂
+fzlq	膂
+fzlz	遊 旋
+fzlc	嚋
+fzlr	膐
+fzgb	旎
+fzgx	旂
+fzgv	喛
+fzkr	旆
+fzhd	旐
+fzht	旛
+fzhn	嚹
+fzhq	噅
+fzhv	旌
+fzjb	旟
+fzjr	旝
+fzxk	噬
+fzxx	旚
+fzzd	族
+fzzn	𬸦
+fzzh	嗂
+fzzq	鷟
+fzcb	旗
+fzsq	嘸 旓
+fzrg	旍
+fzwk	旜
+fzwh	旒
+fzyd	嗘
+fzyq	旄
+fcbh	唠
+fcfq	喊
+fcfw	嚾
+fctt	啀
+fcty	囈
+fcnb	噘
+fclm	嗬
+fclh	呖
+fclj	呃 嚿
+fclv	嚄
+fckp	喋
+fckf	嘆
+fckj	呭
+fckq	嚥
+fcks	嘩
+fchm	嚦
+fcjp	囌
+fcjf	嗒
+fcjv	喱
+fcqf	喏
+fcxq	喴
+fcsb	唭
+fcsj	啿
+fcsq	嘁
+fcsx	嘶
+fcrp	嗏
+fcrd	嗼
+fcrn	噧
+fcrj	噶
+fcrq	嚈
+fcry	囆
+fcvp	囒
+fcvc	嗕
+fcwf	嚆
+fsbn	哱
+fsbx	嗦
+fsbz	嚏 嚔
+fsmb	貴 嗩
+fsmd	喫
+fsmn	囓
+fsml	嚖
+fsmx	嘒 噄
+fsmz	遺
+fsft	噹 嘡
+fsfj	嗈
+fsfr	嚐
+fsng	喃
+fsnz	遗
+fsnr	贵 唢
+fskj	呡
+fsks	咣
+fshh	唙
+fshv	鄙 𠳐
+fsqn	哮
+fsqr	啫
+fsqv	嘟
+fsqw	嘋
+fszh	啕
+fszy	嘲
+fscb	噴
+fscr	喷
+fssg	噀
+fsrp	嗪
+fsrn	唪
+fsvl	唿
+fsvz	遣
+fsyn	哅
+frfx	嘍
+frlb	嗿
+frlf	唅
+frll	唸
+frlg	呤
+frlk	喅
+frlj	呛
+frgf	啥
+frgs	嗶 嚗
+frkv	嘬 啺
+frjv	𫑡
+frxf	嗆
+frsj	喝
+frrt	唑
+frvb	旕
+frvl	乻
+frvy	哙
+frwn	噙
+fvmb	嘖
+fvns	唨
+fvnr	啧
+fvkm	啊
+fvks	哟
+fvvp	嗓
+fvvk	咝
+fvvj	嚪
+fvvv	啜
+fvwb	嚽
+fvyx	嗉
+fwbt	喨
+fwbc	嚎
+fwmr	喒
+fwfd	嚷
+fwdv	嚌
+fwnf	嗃
+fwlm	哼
+fwln	啍
+fwlw	噋
+fwhd	裴
+fwrs	啐
+fwrw	囃
+fwvw	噰
+fwwl	噖
+fwyh	旈
+fwyq	唷 哜
+fwyr	咳
+fwyw	囄
+fybb	蚍 螾 蠙
+fybf	螛
+fybd	螏
+fybt	蜌 螲
+fybl	螟
+fybk	蝖
+fybj	蜿
+fybx	蛻 螉
+fybz	蝊
+fybc	蚡
+fybr	蝔
+fybw	唆
+fyby	蚣 蚥 螝
+fypx	蜥
+fypy	蜙
+fymb	蛽
+fymm	蝞
+fymd	蠉
+fymg	虲 蠌
+fymj	蚆 蟕
+fymq	螞 嚑 蟔
+fymx	蠳
+fyms	蜆
+fymv	蠼
+fymw	蠷
+fymy	蠋
+fyfm	蠱 蚛
+fyff	嘺
+fyfd	蜈
+fyfn	蜗 蝣
+fyfj	蝇
+fyfq	蜎
+fyfs	蟬
+fyfy	蟲
+fydb	蝢 蠀
+fydm	螠
+fydf	蟮
+fydd	蛚 蝡
+fydt	蝰
+fydn	蛘
+fydk	蚽 蛢
+fydh	螊
+fydj	蜷 虵
+fydq	蟻
+fydx	蜕 蝼 蟟
+fyds	蝉 蜣 蝒
+fydr	蛳 蛨
+fydv	嚅 蝤
+fydy	螆
+fytt	蛙 蠝
+fyth	蜐
+fytq	蝟 蠘
+fytx	螺
+fytz	蟽
+fyts	蟯
+fynp	蟂
+fynm	蝐
+fynf	蜩
+fynt	蚺
+fyng	蛷
+fynk	蝈 蟈 蜠
+fynj	蝄
+fynx	蠅
+fyns	蛆 蜖
+fynv	蚦
+fynw	蚒
+fyny	蛧
+fylb	蟘 蠬
+fylp	蝚
+fylm	蜢
+fylf	螃 螪
+fyld	蚗
+fylt	螩
+fyln	蛹 虸 蜬
+fylg	蚮
+fylh	呦 蛜 蛠
+fylq	䗛 蝑 蟙 蟭
+fylz	蟑
+fylc	蚹
+fylr	螧
+fylw	嚯 蜼
+fyly	蛟
+fygb	蟥 蚭
+fygm	蚓
+fygf	蝸 螗 蜛
+fygt	螔
+fygn	蝷
+fygg	蚇 蜋
+fygh	蠊
+fygq	蜧 螖 蟅
+fygx	蚚
+fygz	螁
+fygc	蝙
+fygr	蜡
+fygv	蝦 螂
+fygy	蚁 蠾
+fykp	蝀 蟝
+fykm	蚵 虰
+fykd	蛱 蝲
+fykt	蝠 蛭
+fykn	虶 蛃
+fykl	蟪
+fykg	蜅 蜽
+fykk	蛵
+fykj	蚷 蝘
+fykq	蜮
+fykx	螹 蠮
+fykz	蛼 蜨
+fyks	哓 蚲
+fykr	螬 䗖 蛦 蛺
+fykw	蟶
+fyhb	螕
+fyhp	蟍 蠑
+fyhm	蠦
+fyhf	蛞 蛅 蛈 蝂 蠵
+fyhd	蜊
+fyht	蟠
+fyhn	哞 蜏 蝺
+fyhl	蟋 螅 蟌
+fyhg	蜓
+fyhk	螘
+fyhh	蟧
+fyhq	蛾 虴 螑
+fyhx	蜲
+fyhs	蝌
+fyhr	螄
+fyhw	蝗
+fyjb	蝜
+fyjp	蜍
+fyjf	蛤
+fyjd	蝓 蝍
+fyjn	蠏
+fyjg	蛥
+fyjj	蛫 蜭
+fyjc	蜦 蝝
+fyjs	蜺
+fyjv	螋
+fyjw	蟾
+fyqm	蜵
+fyqg	蚘 蛂 蛖
+fyqh	蚜
+fyqq	蛕
+fyqr	唏 螮
+fyxm	蟰
+fyxg	蚳
+fyxk	虹
+fyxj	蚔
+fyxx	螵 蛡
+fyxz	蟫
+fyxc	蟳
+fyxs	蟉
+fyxw	蠗
+fyzm	嚂
+fyzf	蜘 蛣 蟢
+fyzd	唉 螇
+fyzn	蜉
+fyzl	虼
+fyzg	蜒 䗴
+fyzq	蟡 蟱
+fyzz	蜁
+fyzc	蛶
+fyzs	蟛 囕
+fyzv	蚱 蝯
+fyzw	蝮
+fycb	蜞 蟏 蟩
+fycp	蝶 蝾 蠂
+fycm	蠨
+fycf	蛁
+fycd	蟆 蜄 蝧
+fycn	蟒 蠣 蜹 蝆 蠇 蠎
+fycg	蟎
+fycj	蛎 蚅
+fycq	蠛 蝛
+fycx	螈 蟖
+fycc	蠓 蟵
+fycr	螨 蠴
+fycv	蚶 蠖 螼
+fycw	蠸
+fysb	蟦
+fysp	螓
+fysm	蚌
+fysf	蛄
+fysd	蚐
+fyst	螳 蜔 蟷
+fysn	蜯 蝋
+fysg	蝻 蟤
+fysh	蜪
+fysq	蛸
+fysx	噝
+fysc	嚩
+fyss	喲 蚫
+fysr	蝽 蝫 蟐
+fysv	喠 蚑
+fysy	蝴 蠟
+fyrb	蠍 蜫
+fyrp	蜾
+fyrm	蝹
+fyrf	蛿 螥
+fyrn	蠄
+fyrl	蚙
+fyrg	蛉
+fyrj	蝎 蝿
+fyrq	蚧
+fyrx	螻
+fyrz	蝭
+fyrv	蜴 蝪 蟃
+fyvt	蛏
+fyvg	蝳
+fyvq	蜻
+fyvx	螦
+fyvs	蚪 蚖
+fyvv	蝃
+fywm	蜂 蝏
+fywf	蛒
+fywd	蠰
+fywt	蛀 蚢
+fywn	螭 蜳
+fywk	蟺
+fywj	虻
+fywq	蛴 蜟 螐
+fywc	蠔
+fyws	蟀 蜶
+fywr	蠩
+fywv	蠐
+fywy	蚊 蚿
+fyyf	蟜
+fyyn	蛑
+fyyh	蚴
+fyyq	嘰 蚝 蟣
+fyys	蛲 嘇
+fyyv	蠕 蝩
+fyyw	蝬
+dbmb	資
+dbfp	楶
+dbdp	粢
+dbnr	资
+dbkb	殯 殥
+dbhp	秶
+dbhn	牵
+dbqb	殡
+dbzz	凝
+dbrl	凕
+dbrg	餈
+dbvx	徖
+dpbb	粃
+dpbx	粽
+dpbc	粉 糘
+dpby	凇
+dppk	𥻗
+dppx	凚
+dpmd	糫
+dpmj	粑
+dpms	粯
+dpmr	糬
+dpdb	頪
+dpdd	糋
+dpdg	粏
+dpdq	糕
+dpds	糆
+dpdr	粨
+dpdv	粫 糥
+dpdy	糍
+dptg	糞
+dpnk	粣 糰
+dpns	粗
+dplp	糅
+dpld	糇
+dplt	粈
+dpln	籽
+dplk	粒
+dplq	糈
+dpls	籸 粶 糡
+dpgm	術 粌
+dpgf	糖
+dpgd	糑
+dpgt	粧
+dpgn	糒
+dpgg	粮 粎 粐
+dpgq	糏
+dpgc	糄
+dpgs	糠
+dpgw	糤
+dpgy	糨
+dpkj	粔
+dpkc	糐
+dpkr	糟
+dpky	粳
+dphf	粘
+dphq	糗 籷
+dphz	糙
+dphs	粁 粋
+dphr	粕
+dpjm	粦
+dpjf	粭
+dpjj	亃
+dpjx	断 斴 翷
+dpjz	遴
+dpjr	糩
+dpjv	鄰 粼 粴
+dpjw	甐
+dpqb	類
+dpqr	糣
+dpxd	粻
+dpxh	粆
+dpxw	数
+dpzf	糦
+dpzn	粰
+dpzl	籺
+dpzj	粚
+dpcb	粸 糀
+dpcp	糷
+dpcd	糢
+dpcn	糲
+dpcj	粝 糂
+dpcz	糚
+dpcv	粓 糎
+dpsp	粷
+dpst	糛
+dpsv	粅
+dpsy	糊
+dprp	粿
+dprv	糧 糃
+dpvq	精
+dpvs	料
+dpvy	糔
+dpwt	粇
+dpws	粹
+dpwr	糌
+dpyb	纇
+dpym	糮
+dpyq	粍
+dpys	糁 糝
+dpyr	颣
+dpyv	糯
+dpyw	糉 糭
+dmbn	顨
+dmmm	衢
+dmmh	徏
+dmmw	夒 忂
+dmdq	奡
+dmtg	凙 殬
+dmnl	慿
+dmgm	歪 盃
+dmgf	否
+dmgd	奀
+dmgn	甭 孬
+dmgk	丕
+dmgq	鴀
+dmgx	嫑
+dmgz	还
+dmgs	覔
+dmgv	邳
+dmjp	桨
+dmjd	奖
+dmjc	将
+dmjs	浆
+dmjv	酱
+dmjy	螀
+dmqt	凴
+dmql	憑
+dmzd	装 奨
+dmzv	醤
+dmcq	奯
+dmrx	䎖
+dmrv	朆 鄫
+dmrw	甑
+dmyg	戛
+dfbb	砒 礗
+dfbf	碦 磍
+dfbk	碹 硿
+dfbj	碗
+dfbx	碂
+dfbz	礙 碇
+dfbc	砏
+dfbw	確
+dfby	硡 磈
+dfpp	碄
+dfpk	碴
+dfpz	礎
+dfpy	硹
+dfmb	殞
+dfmn	齤
+dfmg	礋
+dfmq	碼 駦 𬒔
+dfms	泵 硯 砅
+dfmy	礟 礮
+dffb	磒
+dffp	𥖨
+dffj	𥔲
+dffs	殫 磾
+dffw	礹
+dfdb	碩
+dfdm	磷 碕
+dfdf	磊 砳 磰
+dfdd	硺 碝 磸
+dfdl	礠
+dfdg	䃎 礢
+dfdk	碰 磋 硑
+dfdh	磏
+dfdj	硽
+dfdq	礒
+dfdz	磫 礈 鿎
+dfds	砗 䃅
+dfdr	硕 磳
+dfdy	磁
+dftm	磕
+dftd	碨
+dftt	硅 礧
+dfth	硳
+dftx	磥
+dfts	磽
+dftw	碐
+dfty	砝 砜 碸
+dfnb	碘
+dfnf	碉
+dfnn	砽
+dfng	砐
+dfnk	硱 碅
+dfnh	碙
+dfnz	磀
+dfns	砠
+dfnr	殒
+dfnw	砃
+dflb	礲
+dflp	磼
+dflm	韏
+dflf	磅 碚
+dfld	磙 砄
+dflt	磂
+dfln	矷 硧
+dflk	磴 砬
+dflh	劯 劵 勌
+dflj	卷
+dflq	礁
+dflx	砾
+dfls	碌
+dflr	碲
+dflv	砀
+dflw	碓
+dfgb	礦 磺 礩
+dfgm	碷
+dfgf	碢 磄 礳
+dfgd	碾
+dfgt	磃
+dfgl	砨
+dfgg	硏 硠 飬
+dfgq	砩 碿 磆
+dfgx	斫
+dfgc	碥
+dfgs	砯 磤
+dfgr	碏
+dfgv	碬
+dfgy	砿
+dfkp	磲
+dfkm	矴 砢
+dfkd	硎 硖
+dfkn	揅
+dfkk	礓 硜
+dfkj	砸 砘
+dfkz	硨
+dfkc	磚 豢 磗
+dfks	砰 矹
+dfkr	硤 磢 𥕢
+dfky	硬
+dfhb	碵 磇 礸
+dfhp	礫
+dfhm	碋
+dfhf	砧 硞
+dfhd	礇
+dfht	磻
+dfhn	牶
+dfhl	硶
+dfhg	砭 硸
+dfhk	硇 硵 硾 磑 磠
+dfhh	碳 磱
+dfhj	硙
+dfhq	硪 矺
+dfhx	礯
+dfhz	磓
+dfhc	磮
+dfhs	砕
+dfhr	砶
+dfhw	磪 礉 礏
+dfhy	磞
+dfjb	礖
+dfjp	磔 硢
+dfjm	碀
+dfjf	硆
+dfjg	矽 砪
+dfjk	鲞 硷
+dfjj	硊
+dfjq	磶 鮝
+dfjx	磜
+dfjc	碖
+dfjs	碫
+dfjr	礆
+dfqg	硥
+dfqh	砑
+dfqc	砌
+dfxb	碽
+dfxn	硉
+dfxg	砥
+dfxk	矼
+dfxh	砂
+dfxx	磦
+dfxz	磹
+dfxs	磟
+dfxr	碈 磖
+dfzf	硈 礂
+dfzd	磎
+dfzl	矻
+dfzg	硟
+dfzh	磘
+dfzj	砤
+dfzv	砟
+dfcb	硴
+dfcp	碟
+dfcm	礚 礰 礷
+dfcd	碤
+dfcn	礪
+dfch	磡
+dfcj	砺 硭 砈 碪 礍
+dfcq	碱 磩 磭 礣
+dfcx	礤
+dfcc	礴 礞 礡
+dfcw	礶
+dfcy	砹
+dfsb	殨
+dfsd	碶
+dfst	礑
+dfsn	硣 礃
+dfsk	碯
+dfsq	硝
+dfss	砲 硄
+dfrl	砛
+dfrg	砱 餋
+dfrk	砼
+dfrj	碣
+dfrq	砎 礘
+dfrz	碮
+dfrc	碍
+dfrv	碭
+dfvb	磧
+dfvp	磉
+dfvf	唘
+dfvg	砖 碡 碔
+dfvk	硁
+dfvj	𬒗
+dfvq	碃
+dfvx	礔
+dfvr	碛 磵
+dfvw	磝
+dfvy	礀
+dfwm	碠
+dfwf	硌 碻
+dfwt	砊 砫
+dfwn	硦
+dfwg	砡
+dfwh	硫 硛
+dfws	碎
+dfwr	硋
+dfww	礅
+dfwy	砇
+dfyb	礥
+dfym	礛 礵
+dfyf	礄
+dfyt	礌
+dfyg	碊
+dfyh	勬
+dfyq	磯 硚
+dfyx	絭
+dfys	碜 硗 磣
+dfyv	礝
+dfyw	礭
+dfyy	硼
+ddmf	噵
+ddmq	馘
+ddmz	道
+ddmc	導
+dddm	衜
+ddnq	鴷
+ddns	奤
+ddlh	劽
+ddkm	徛
+ddkn	徉 羍
+ddkz	従
+ddky	鿞
+ddjq	鮤
+ddrn	鹩
+ddrj	殗
+ddrq	鷯
+ddrx	尞
+ddrz	遼
+ddrs	殚
+ddwd	裂
+dtbw	凌
+dtby	鿛
+dtfq	殱
+dttm	街
+dtts	徺
+dtkf	兽
+dtvm	衕
+dndb	頖
+dndq	鵥
+dntf	凋 奝 徟
+dnqm	鵆
+dnsg	殏
+dnsk	凅
+dnvb	靧
+dnvd	耎
+dnvn	鸸
+dnvl	恧
+dnvg	戞
+dnvh	勔
+dnvq	鴯
+dnvx	耍
+dnvc	耐
+dnvs	面 靦 耏 靤
+dnvv	鄾
+dnvw	憂
+dnvy	蠠
+dlbf	徬
+dlmk	殛
+dllq	為
+dlkb	徿
+dlkf	殕
+dlkv	徸
+dlhd	奅
+dlsm	衛 徫 衞
+dlsz	躗 躛
+dlsw	讆 讏
+dlwt	奮
+dlwc	奪
+dlws	凖
+dgmm	州
+dgmd	剃
+dgmn	鹈 徲
+dgmh	弟
+dgmq	鵜
+dgmz	递
+dgmv	徦
+dggc	徧
+dgsm	循
+dgvm	衎 衖
+dkbm	益
+dkbn	鹢
+dkbq	鷁
+dkby	蠲
+dkmp	徚
+dkmm	徰
+dkml	惩
+dkfb	欹
+dkfp	凁 敧 殐
+dkfm	奇
+dkfd	剞
+dkfg	養
+dkfj	奩
+dkfq	养 鯗 鵸
+dkfv	攲
+dkdb	頩
+dkdp	徕
+dkdz	送
+dkdv	郑
+dktk	殭
+dknb	歚 羵
+dknm	着 羜
+dknf	善
+dknd	羭
+dknt	羞 羳
+dknn	羴 齹
+dkng	羚 羝 羪
+dknk	差 羟 羶 羥 羫 鲝
+dknh	羰 劷
+dknj	羯 羓
+dknq	羢 羬 鮺 鴹 鵧
+dknx	翔 羱
+dknc	羒
+dkns	羏 羖 羦
+dknr	羠 羷
+dknv	鄯 羺
+dknw	羧 敾 羻 譱
+dkny	兿
+dkgm	衐
+dkgj	奆
+dkhk	並
+dkhr	普
+dkhw	夔
+dkjk	冱
+dkjj	艵
+dkqm	奫
+dkqd	前
+dkqq	煎
+dkqx	翦
+dkqc	剪
+dkxb	歉
+dkxn	鹣
+dkxh	兼
+dkxq	鶼
+dkxx	凄
+dkxz	徢
+dkxw	甉
+dkcq	鿪
+dkcz	遂
+dkcv	剙
+dksk	徑 殌
+dkrp	凍 徠
+dkrr	殎
+dkvm	衍
+dkvl	愆
+dkyn	孳 鹚
+dkyl	慈
+dkyj	奁
+dkyq	鶿 鷀
+dkyw	甆
+dkyy	兹
+dhmq	殠
+dhmw	黴
+dhts	冼
+dhtw	微
+dhlw	凗
+dhkk	凒
+dhjp	殩
+dhjw	鰴
+dhrw	徨 徼 幑
+dhwl	懲
+dhww	徵 徴 徾
+dhyq	凞
+dhyw	徽
+djmr	徻
+djfr	殮
+djdm	衡
+djgg	奓
+djjg	乸
+djqg	殧
+djxm	净
+djsk	殓
+djvm	銜
+dqmh	冴
+dqvm	衔
+dqvg	冹
+dqvr	殢
+dxbr	帰
+dxms	殔
+dxng	徤
+dxlm	衙
+dxlk	鿉
+dxjg	奃 彽
+dxjr	殙
+dxvd	奠
+dxvq	猷 鷷
+dxvx	徱
+dxvz	遵 遒
+dxvc	尊
+dxvv	鄭
+dxvy	蠤
+dzbk	殪
+dzmb	凟 殰
+dzmm	衘
+dzmd	御
+dzmx	禦
+dzln	殍
+dzlv	殇
+dzxm	凈
+dzzh	徭
+dzrv	殤
+dzrw	復
+dzvm	衠
+dzyd	徯
+dcfq	减
+dcgd	剢 豖
+dcgg	徔
+dckp	殜
+dckv	殣
+dcsx	凘
+dsbf	辖
+dsml	德 徳
+dsfm	衚
+dsfh	辑
+dsdm	辚 衟
+dsdz	𫟦
+dsdv	𬨎
+dstd	辕
+dsnf	徜
+dsnl	憄
+dsnj	辋
+dsnz	逩
+dsns	殖 徝
+dslp	𫐓
+dslx	轹
+dsly	较
+dsgp	椠
+dsgd	辗
+dsgt	堑
+dsgj	錾
+dsgx	斩
+dsgr	暂
+dskm	轲
+dskt	辐 轾
+dskg	辅 轼
+dskj	辄 冺
+dsks	𫐄
+dskr	辆
+dshf	轶
+dshn	轷
+dshl	轨
+dshg	轳
+dshy	辀
+dsjd	输
+dsjs	𫐐
+dsqs	奲
+dsqr	奢
+dsxj	𬨂
+dscf	轺
+dscj	轭
+dssf	轱
+dssd	辏
+dsst	辎
+dsss	𨐈
+dssy	羗
+dsrb	辊
+dsrp	殝
+dsrm	辒
+dsrd	凑
+dsrs	轸
+dsvg	转
+dsvk	轻
+dsvv	轰 辍
+dswf	辂
+dsww	辙
+dsyq	轿
+drdr	皕
+drlm	衑
+drlg	冷 彾
+drkc	得
+drjd	剦
+drjn	鹌
+drjq	鵪
+drxf	凔
+drcs	忁
+drsd	冁
+drsg	餮
+drsv	郸
+drrl	慫
+drrh	聳 熧
+drrq	殲
+drrz	從
+dvmn	鸻
+dvmq	鴴
+dvjd	刳
+dvjg	瓠
+dvjq	鴮
+dvjx	綔
+dvjs	匏
+dvjv	郀
+dvxk	径
+dvsm	衏
+dwfd	忀
+dwdb	羡
+dwgq	羛
+dwgs	羕
+dwkb	羨
+dwhp	凜
+dwhq	義 羲
+dwhx	凛
+dwqf	羮
+dwqd	羹
+dwym	衒
+dwyh	勶
+dwyr	奒
+dwyw	徹
+dygg	殘
+dysm	衝
+tbbp	堔
+tbbk	埪
+tbbq	堗
+tbbr	堦
+tbmb	塡
+tbdd	塚
+tbtp	槷
+tbtt	龳
+tbtn	摰
+tbth	勢 勎 燅
+tbtq	熱 驇 鵱
+tbtz	逵
+tbtr	暬
+tbtw	埶
+tbnx	鼀
+tbns	畳
+tbkm	坾
+tbkk	塇
+tbkz	堚
+tbkc	塜
+tbhq	垞
+tbjj	畹 埦
+tbjy	塊
+tbrl	塓
+tbvs	垸
+tbyx	塕
+tmmh	埗
+tmtg	墿
+tmlk	垇
+tmgm	盐
+tmkm	堽
+tfmb	塤
+tffj	堮
+tffs	墠
+tffw	壧
+tfnr	埙
+tflz	遠
+tfkq	韯
+tfhd	袁
+tfsb	墤
+tfsz	壝
+tfyq	蛓
+tdpm	疄
+tdpx	𪣻
+tdmg	坏
+tdmk	坯
+tdmr	增
+tdft	堘 畻
+tdfj	埢
+tdtr	増
+tdnd	堧
+tdgb	贄
+tdgm	盩
+tdgd	褺
+tdgt	墊
+tdgn	摯
+tdgl	慹
+tdgg	瓡
+tdgq	騺 鷙
+tdgx	縶
+tdgz	逹
+tdgs	漐
+tdgv	報
+tdgw	執 謺
+tdgy	蟄
+tdkm	畸 埼 塧
+tdkf	墡
+tdkn	垟
+tdkh	凲
+tdkz	達
+tdjz	逇
+tdxc	墫
+tdsq	载
+tdrj	埯
+tdrs	𫮃
+tdvm	垳
+tdvj	垮
+ttbw	堎
+ttmg	卦
+ttfj	郌
+ttdz	墶
+tttb	顤
+tttp	櫐
+tttf	礨
+tttt	壘 壨
+tttk	疉
+ttth	罍
+tttq	氎 鸓
+tttx	翹 纍
+tttz	遶
+ttts	疊 堯 墝
+ttnx	鼃
+ttlh	劸
+ttgq	戴
+ttkg	奊
+tthy	堸
+ttct	堼
+ttcn	犎
+ttcg	鞤
+ttcr	幫 幇
+ttrq	堺
+tnbf	埛
+tndh	堈
+tnsb	埧
+tnsk	堌
+tlbf	塝
+tlfp	堢
+tldb	顋
+tlnf	墒 墑
+tlld	堠
+tlgn	埇
+tlgk	墱
+tlgs	墢
+tlkb	壠
+tlkf	培
+tlkz	墇
+tlks	境
+tlkr	堷
+tlkv	疃 墥
+tlhd	壌
+tlhh	嬲
+tlzq	壻
+tlwq	截
+tgmn	墀
+tgms	塨
+tgdk	塀
+tglm	垿
+tggb	壙
+tggc	𡎚
+tgkf	垢
+tghg	赱
+tgjv	鿾
+tgxm	墉
+tgxf	塘
+tgxs	𡐓
+tgcq	墌
+tgvc	墛
+tgyb	墴
+tkmp	堜
+tkmq	墕
+tkfm	坷
+tkft	堛
+tkfj	塸
+tkfq	域
+tkds	坪
+tktk	壃 疅
+tknj	坉
+tknq	鳳
+tkhk	垭 壣
+tkjd	畏
+tkjk	坘
+tkqg	埔
+tkzq	載
+tkcp	墚
+tkck	埡
+tkrp	埬
+tkrk	垣
+tkrj	堰
+tkrc	塼
+tkrr	埉
+tkry	埂
+tkyt	垤
+tkyj	𫭟
+tkyq	臷
+tkyr	塽
+thbm	龼
+thfb	颶 飋
+thfm	颹
+thff	颱 颳 颫 颭
+thfd	颲
+thft	飀 飅
+thfl	颸
+thfg	颰
+thfh	颬 颷 飈
+thfq	颵 飇
+thfx	飃 飉
+thfz	颴
+thfs	颩 颮 飂
+thfv	颼 颺
+thfy	風 赨 颾 飍
+thdb	頳
+thdd	垗
+thdt	墦
+thdn	垀
+thdv	赧
+thtm	壚
+thth	赫
+thnd	墺
+thnk	塷
+thlw	墔
+thgf	赯
+thgv	赮
+thkf	墣
+thkk	塏
+thkc	壉
+thhb	赬
+thhk	墟
+thhr	赪
+thjj	赩
+thqc	塮
+thcg	堓
+thsk	埵
+thsr	赭 塖
+thrl	埁
+thrw	凰 堭 墽
+thvz	塠
+thvs	埠
+thwy	螫
+thyy	塴
+tjft	墖
+tjnc	埨
+tjlg	坶
+tjlz	逺
+tjlc	堟
+tjgg	垑
+tjks	塅
+tjqd	堬
+tjxm	埩
+tjcj	垝
+tqbg	垅
+tqxq	堶
+tqvg	坺
+tqvr	墆
+txbr	埽
+txbv	埐
+txms	埭
+txjg	坻
+txxs	疁 𪤗
+txsm	壗
+txvq	酨
+txvx	墂
+tzbf	趤
+tzmg	赴
+tzfp	趮
+tzfm	塩
+tzfz	趗
+tzdb	趑
+tzdf	趦
+tzdd	趔
+tzdv	趥
+tztp	趓
+tztg	趩
+tzts	趬
+tzns	趄
+tzld	赽
+tzln	垺
+tzlg	埏
+tzlk	趇
+tzlh	赲
+tzlq	趭
+tzlc	疇 壔
+tzls	趢
+tzlw	趡
+tzgb	趪
+tzgq	趘
+tzgx	赾
+tzgr	趞
+tzkp	趚
+tzkq	越
+tzkv	趣
+tzky	趰
+tzhb	趲
+tzhf	趃 趈 趏
+tzhd	趒
+tzhh	趀
+tzhz	趠
+tzhr	趱
+tzjg	畮 趍
+tzjx	趋 趂
+tzxg	趆
+tzxh	赻
+tzxj	赿
+tzxx	趐
+tzxw	趯
+tzzf	趌
+tzcf	超
+tzsp	趜
+tzsf	趟
+tzsd	赹
+tzsh	趨
+tzsq	趙 墲
+tzrt	趖
+tzrl	赺 趝
+tzrg	趕
+tzrz	趧
+tzrs	趁
+tzrv	塲
+tzyf	趫
+tcbh	𫭼
+tcmt	壥
+tcfq	堿
+tcfw	壦
+tctm	壒
+tctt	堐
+tclb	埖
+tclm	墭
+tclh	坜
+tclq	城
+tckp	堞
+tcks	墷
+tckv	墐
+tchm	壢
+tchx	塬
+tcjf	塔
+tcsh	墈
+tcsj	堪
+tcsq	墄
+tcsr	墸
+tcrd	塻
+tcwh	塃
+tsbs	疂
+tsmd	壊
+tsft	壋
+tsdh	墙
+tsdj	鋆
+tsnf	埫
+tsns	埴
+tskj	垊
+tsks	垙
+tshk	堖
+tshc	畴
+tshv	垹
+tsqr	堵
+tsxk	堩
+tsxv	埱
+tszl	墘
+tscb	墳
+tsrn	埲
+tsrh	墻
+tsrq	塉
+tsrr	堾
+trbb	堒
+trmv	墁
+trfx	塿
+trtc	塒
+trll	埝
+trlg	坽
+trkv	場 畼
+trxx	塌
+trsj	堨
+trsv	埸
+tryy	壜
+tvvj	壛
+tvvr	墹
+tvvv	㙍 畷
+tvyx	塐
+twbc	壕
+twmd	壞
+twfd	壤
+twnf	塙
+twln	埻
+twlv	墎
+twlw	墩
+twhp	壈
+twhd	畩
+twhg	塆
+twhk	壇
+twhq	裁
+twqm	鿍
+twsm	埄
+twsz	塳
+twrs	埣
+twyn	垴
+twyg	壪
+twyq	堉
+twyr	垓 畡
+tybw	埈 畯
+tymq	壎
+tyfb	唟
+tyff	墧
+tydv	叝 壖
+tytl	飔
+tynb	飓
+tynx	鼁
+tynw	堫
+tylt	飗
+tylh	劫 坳
+tylv	飏
+tygy	壩
+tyhf	飐
+tyhh	飚
+tyjv	飕
+tyzm	壏
+tyzd	埃
+tyss	飑
+tysv	堹 畽
+tyrj	朅
+tyvy	墵
+tyys	墋
+nbbp	探
+nbbm	撺
+nbbl	挖
+nbbg	搲 摉 攨
+nbbk	控
+nbbq	揬
+nbbr	揩
+nbbv	搾
+nbby	攛
+nbfk	圀
+nbdk	圙
+nbds	挥
+nbtk	囶
+nbnk	囧
+nbny	朙
+nblm	擰
+nblr	摍
+nblw	搉
+nbkb	擯
+nbkm	拧
+nbkk	揎
+nbkz	揮
+nbhd	嚢 攐
+nbhq	挓
+nbhz	攓
+nbjj	捥
+nbjx	擦
+nbqb	摈
+nbzz	擬
+nbcn	掰
+nbsf	搳
+nbsl	攇
+nbvs	捖
+nbwf	揢
+nbyl	捴
+nprk	揸
+nmbx	攖
+nmmh	捗
+nmmv	攫
+nmfk	圐
+nmtg	擇
+nmtk	圛
+nmty	摆
+nmnm	芔
+nmkd	擐
+nmkk	圜
+nmjl	鼐
+nmsk	囦
+nmsy	擉
+nmvq	揹
+nmyb	擺
+nmyw	攞
+nfmb	損
+nfmk	圓
+nfmj	挹
+nfms	摫
+nffb	攅
+nffp	操
+nffd	囊
+nffz	攆
+nffs	撵 撣
+nfnk	圆
+nfnr	损
+nfkh	揖
+nfkq	擑
+nfzj	揓
+nfsb	撌
+nfsk	圖 圚
+ndpm	撛
+ndpx	搂
+ndpw	擞
+ndmg	抔
+ndmk	囨 抷
+ndfp	橐
+ndfn	搼
+ndfl	搃
+ndfk	圈 圏
+ndfj	捲
+ndfs	揼
+ndfy	蠹
+nddx	撩
+ndnq	鴦
+ndnw	擾
+ndlb	拣
+ndlg	㧑
+ndgh	挮
+ndkb	欭
+ndkm	掎 搤 撯
+ndkd	剛 揃
+ndkl	恩
+ndkg	攁
+ndkk	搓 掽
+ndkh	岡 搛
+ndkj	罔
+ndkv	掷
+ndxc	撙
+ndxv	擲 揂
+ndsn	捹
+ndsr	撦
+ndrj	掩
+ndrz	摐
+ndrs	掸
+ndvg	摦
+ndvj	挎
+ndvx	捺
+ntbw	掕
+ntfk	園
+ntfq	鵰
+ntfx	翢
+ntfz	週
+ntfs	彫
+ntfv	郮
+ntfw	雕
+ntdk	圉
+ntdz	撻
+nttt	攂
+nttg	掛
+ntts	撓
+ntlq	擮
+ntkd	揋
+ntxx	䎃
+ntwf	撂
+ntym	搕
+ntyk	圔
+ntyx	摞
+nnpk	捆
+nnmk	攌
+nnfd	攮
+nndl	摁
+nndh	掆
+nngb	捵
+nnkd	删
+nnkk	摑
+nnsg	捄
+nnrm	搵
+nnrx	撄
+nnwk	掴
+nlbf	搒
+nlbk	囮
+nlbr	揥
+nlmk	拯
+nldp	攗
+nlnm	掹
+nlnf	摘
+nlnk	囝 攟
+nlnx	搎
+nlnz	擿
+nlnv	挪
+nlgp	揉
+nlgm	抒
+nlgd	揆
+nlgn	捅
+nlgk	撜
+nlgs	撥
+nlkb	攏
+nlkf	掊
+nlkx	接
+nlks	摬
+nlkr	揞
+nlkv	撞
+nlkw	撖
+nlky	鿜
+nlhp	攈
+nlhf	拁
+nlhh	拹
+nlhq	搚
+nlhz	拰
+nlzq	揟
+nlcv	摌
+nlsk	圍
+nlwn	携 擕
+nlwq	撨
+ngbj	觍
+ngbs	覥
+ngbw	敟
+ngpf	攠
+ngpn	擵
+ngmn	摨
+ngmg	抓
+ngfz	撾
+ngfy	摾
+ngdd	搦
+ngdk	摒
+ngnf	搁
+nglf	挶
+ngld	挀
+nglc	捬
+nggb	擴
+nggd	搌
+nggq	捩 掮
+nggx	搧
+nggc	揙
+ngkt	握
+nghb	擨
+nghf	掂
+nght	搋
+ngqw	撒
+ngxb	掀
+ngxp	梊
+ngxf	哲 搪 硩
+ngxd	裚
+ngxt	埑
+ngxl	乴 悊
+ngxg	掋
+ngxh	烲
+ngxj	銴
+ngxq	焎
+ngxx	娎
+ngxz	逝 踅
+ngxr	掶 晢
+ngxw	誓
+ngxy	蜇
+ngcq	摭
+ngsm	揗
+ngsf	据
+ngyb	撗
+ngyq	捤
+nkby	擟
+nkmp	揀
+nkmk	囸
+nkfb	摗 攋
+nkfp	捒
+nkfm	抲
+nkfd	揦
+nkft	揊
+nkfg	爴
+nkfk	國
+nkfj	摳
+nkfq	掝
+nkdd	挟
+nkds	抨 掭
+nknp	拺
+nknl	攦
+nknk	囤
+nknj	扽
+nkgj	拒
+nkgr	挗
+nkkj	㧟 擓
+nkkx	黽
+nkkv	鄳
+nkhk	挜
+nkhh	攝
+nkhs	摂
+nkhr	搢
+nkhv	摄 揶 掫
+nkjg	丣
+nkqg	捕
+nkqk	圃 圑
+nkqc	搏
+nkxg	拭
+nkxh	挱
+nkxx	捿
+nkxz	捷
+nkzg	搟
+nkzx	摲
+nkzz	摙
+nkcl	慁
+nkck	圂 掗
+nksk	挳
+nkrg	掚
+nkrk	團
+nkrj	揠
+nkrc	摶
+nkrr	挾
+nkry	挭
+nkyd	捯
+nkyt	挃
+nkyj	抠
+nkyr	摤
+nhpk	囷
+nhph	揪
+nhpx	捼
+nhmb	揁
+nhmn	擤
+nhmq	搝
+nhdd	挑
+nhdt	播
+nhdk	圌
+nhdv	揣
+nhtb	攢
+nhtm	攎
+nhtf	捁
+nhtl	攄
+nhth	擄
+nhtr	攒
+nhnm	艸 茻
+nhnd	擙
+nhnt	搆
+nhnl	摠
+nhns	摣
+nhlf	攜 雟
+nhlh	抛 掳
+nhlw	摧
+nhgg	抸
+nhkf	撲
+nhkc	據
+nhkw	擈
+nhhp	櫱 糱
+nhhf	攚
+nhhn	孼 摢
+nhhh	撈
+nhhx	辥
+nhhy	蠥
+nhzg	挺
+nhsf	括
+nhsl	扸
+nhsk	捶
+nhsj	插 揷
+nhrp	擽
+nhrw	揘 撽
+nhvz	搥
+nhys	搬
+njmd	換
+njmv	搜
+njfd	掵
+njft	攙
+njfn	搿 揜
+njfr	撿
+njnd	换
+njnk	圇
+njnc	掄
+njlb	摜
+njlg	拇
+njlc	掾
+njlr	掼
+njly	攭
+njgp	搩
+njgg	拸
+njgr	拟
+njkn	攑
+njkr	撸
+njhg	拨
+njqd	揄
+njqs	摡
+njqr	擼
+njxm	挣
+njxk	揑
+njcw	擔
+njsk	捡
+njvh	搖
+njvq	撚
+njvx	摖
+njyx	紥
+njys	攪
+nqbb	鴥
+nqbg	拢
+nqmn	拵
+nqmq	鷌
+nqmv	捓
+nqdq	鸃
+nqld	鴃
+nqlg	鴏
+nqlh	鳨
+nqls	鵦
+nqlw	鵻
+nqgt	鷈
+nqkm	鴚
+nqhr	鶳
+nqjp	鵌
+nqjg	扰
+nqjh	拋
+nqjs	鶃
+nqqk	囿
+nqcb	鶀
+nqcd	擃
+nqcv	鸌
+nqsr	撍
+nqrn	鵿
+nqrs	鸔
+nqvg	拔
+nqvr	摕
+nqwf	鴼
+nqwv	鴤
+nqww	鷻
+nqyw	鵔
+nxbr	掃
+nxms	捸
+nxtk	圕
+nxng	揵
+nxlf	捂
+nxlk	圄
+nxkb	摃
+nxhf	捃
+nxhh	挘
+nxhq	毮
+nxjd	掁
+nxjg	抵
+nxjr	捪
+nxxc	撏
+nxxs	摎
+nxxr	摺
+nxxw	擢
+nxvx	摽
+nzbk	撎
+nzbv	授
+nzmx	攥
+nzmv	拃
+nzfb	擷
+nzft	擡
+nzfr	撷
+nzdb	攧
+nzdd	擶
+nzdj	拖
+nzln	捊
+nzlg	挻
+nzlz	逰
+nzlc	擣
+nzgn	揺
+nzgv	援
+nzkr	擌
+nzhq	撝
+nzjf	撘
+nzjd	擳
+nzjg	挴
+nzxm	掙
+nzzh	摇
+nzsq	撫
+nzrv	摥
+ncbh	捞
+ncfl	撼
+ncfy	蟗
+nctt	捱
+ncnb	撅
+nclj	扼
+nclv	鹱 擭
+nckb	擹
+nckp	揲
+nckh	搑
+nckj	抴
+ncks	撶
+nckw	攤
+nchm	攊
+nchq	搣
+ncjf	搭
+ncjx	攃
+ncjw	擏
+ncqf	掿
+ncxq	揻
+nccp	擛
+ncsb	掑
+ncsj	揕
+ncsq	摵
+ncsx	撕
+ncsr	擆
+ncrp	搽
+ncrd	摸
+ncrj	擖
+ncrq	擫
+ncvd	振
+ncvc	搙
+nsbn	挬
+nsmd	揳
+nsms	撹
+nsft	擋 摚
+nsfn	撑
+nsfk	固
+nsfh	撐
+nsfq	攩
+nsfy	蚩
+nsdp	掬
+nsdc	摪
+nsng	揇
+nsnh	搊
+nsnq	擜 鴡
+nsny	擸
+nslh	助
+nslw	雎
+nsgp	皳
+nsgm	盚
+nsgd	裘
+nsgl	慦
+nsgz	逑
+nsgw	救
+nskk	囻 搄
+nskj	抿
+nsks	挄
+nshv	挷
+nsjg	拶
+nsqj	拷
+nsxl	懸
+nsxk	揯
+nsxx	縣
+nsxv	掓
+nszg	擀 撠
+nszh	掏
+nssg	撰
+nsrp	搸 摷
+nsrd	揍
+nsrn	捧
+nsrj	摏
+nsvl	揔
+nsvk	囫
+nsyl	悬
+nrbb	掍
+nrbk	贮
+nrmv	摱
+nrfx	摟
+nrfw	擻
+nrdh	赚
+nrdr	赠
+nrnm	赗
+nrnf	赒
+nrnn	鹦
+nrng	赇
+nrnh	罂
+nrnx	婴
+nrnr	赑
+nrlf	赔
+nrld	搇
+nrll	捻
+nrlg	拎
+nrlk	囹
+nrlj	抢
+nrlr	摿
+nrgf	捨
+nrgt	赃
+nrgv	赆
+nrkg	捑
+nrkq	贼
+nrkc	赙
+nrkv	揚 撮
+nrhf	贴
+nrhg	贬
+nrhh	赕
+nrjw	赡
+nrqq	贿
+nrxf	搶
+nrxx	搨
+nrcd	赈
+nrsb	掲
+nrsd	赎
+nrsj	揭
+nrsr	赌
+nrsv	掦
+nrsy	购
+nrrt	挫
+nrrq	攕
+nrrx	赊
+nrrv	赐
+nrvg	赋
+nrvq	贱
+nrwf	赂
+nrwn	擒
+nrwr	赅
+nrym	擝
+nryf	贻
+nvmg	戤
+nvmh	勖
+nvmq	毷
+nvfn	冔
+nvfy	掻
+nvdk	围
+nvlw	摊
+nvgy	搔
+nvjg	抟
+nvqk	圊 囲
+nvqq	撱
+nvzj	揽
+nvsg	廽
+nvsk	园
+nvsz	逥
+nvvp	攔 搡
+nvvf	擱
+nvvv	掇
+nvvw	撋
+nvvy	撊
+nvyk	囩 図
+nwbm	揨
+nwmp	櫜
+nwmr	揝
+nwfd	攘
+nwfy	蛰
+nwdv	擠
+nwtk	囥
+nwnf	搞
+nwnq	鴅
+nwnr	贽
+nwlh	势
+nwlw	掖 撴
+nwgk	国
+nwhd	裊 袅 挔
+nwhk	擅
+nwcv	雘
+nwsm	捀
+nwsz	摓
+nwrs	捽
+nwvk	图
+nwvw	擁
+nwyf	攍
+nwyt	搐
+nwyn	摛 撁
+nwyk	圝 圞
+nwyq	挤
+nwyx	絷
+nwys	摔
+nwyw	撤 攡
+nybw	捘
+nyps	摋
+nymk	圎
+nyff	撟
+nyfk	囼
+nydz	撪
+nyds	掺
+nydv	擩
+nylh	拗
+nylw	攉
+nyks	挠
+nyqq	撬
+nyzd	挨
+nyzs	攬
+nysk	圗
+nysj	撧
+nysv	揰
+nyvt	摼
+nyvj	摴
+nyyt	羀
+nyys	摻 撡
+lbbf	僒
+lbbk	倥
+lbbr	偕
+lbmb	貨
+lbfs	覫
+lbdb	傾
+lbdr	倾
+lbnr	货
+lblm	儜
+lblw	傕
+lbkb	儐
+lbkm	佇
+lbkc	傢
+lbhd	侬
+lbht	僿
+lbhq	侘
+lbjj	倇
+lbjy	傀
+lbqb	傧
+lbzz	儗
+lbrf	啻
+lbrq	鶙
+lbrz	遆
+lbvx	倧
+lbvs	俒
+lbyl	倊
+lbyx	傟
+lpby	倯
+lppx	僸
+lppz	儊
+lpnq	鵂
+lmbp	偨
+lmbd	側
+lmbv	儩 鄮
+lmfn	凾
+lmfk	亟
+lmfq	焏
+lmtj	鎥
+lmld	候
+lmkb	倶
+lmkp	疎
+lmkm	卍
+lmkd	儇
+lmsb	顄
+lmsn	函
+lmsk	丞
+lmsj	卺 巹
+lmsq	烝 脀
+lmss	承
+lmvq	偝
+lmwt	偹
+lmwl	悠
+lmwg	鞗
+lmwh	疏 倐 焂
+lmwj	鋚
+lmwq	倏 脩 儵 鯈
+lmwx	絛 翛
+lmwz	跾
+lmws	修
+lmyw	儸
+lfpb	賲
+lfpt	堡
+lfph	煲
+lfmb	傊
+lfmj	俋
+lffb	儧
+lffp	僺
+lfff	偘
+lffj	偔
+lffs	僤
+lffr	僣
+lffw	儼 麣
+lfkd	俣 麌
+lfkh	偮
+lfhf	侶
+lfhd	袞
+lfhw	諐
+lfjd	俁
+lfsb	僓
+lfsz	儙
+ldpm	麟 僯
+ldpx	偻
+ldmf	俖
+ldmg	伓
+ldmk	伾
+ldmr	僧
+ldfj	倦
+ldfq	儯
+lddb	贕
+lddm	傄
+lddn	孵
+lddg	卵
+lddx	僚
+ldds	毈
+ldtc	偫
+ldnd	偄
+ldnq	鴂
+ldns	偭
+ldnv	侕
+ldnw	優
+ldlg	伪
+ldlq	偽
+ldgh	俤
+ldkm	倚
+ldkf	僐
+ldkd	偂
+ldkn	佯
+ldkk	傞
+ldkh	傔
+ldhm	飛 飝
+ldjl	怹
+ldjg	偧
+ldxc	僔
+ldxv	偤
+ldsn	倴
+ldrj	俺
+ldrz	傱
+ldrs	𫢸
+ldvj	侉
+ldvx	倷
+ldwq	儀
+ltbw	倰
+ltdg	倖
+ltdq	傤
+lttt	儡
+lttx	儽
+ltts	僥
+ltnq	鶹
+ltlh	侽
+ltkd	偎
+ltkq	儎
+ltkr	佩
+lthy	偑
+ltyx	傫
+lnbf	商
+lnbx	孮
+lnmb	孭
+lnmh	勐
+lnmx	孾
+lnfd	儾
+lntf	倜
+lnln	孖 孨
+lnlr	孴
+lngb	倎
+lnkk	孲
+lnkx	僶
+lnhl	愻
+lnhk	麕
+lnhx	孫
+lnhz	遜
+lnxm	孻
+lnxz	逊
+lnsb	俱 歒
+lnsf	啇
+lnsg	俅
+lnsk	個 伵
+lnsz	適
+lnss	孢
+lnsw	敵 甋
+lnrd	侧
+lnwr	孩
+lnyf	孡
+lnyv	孺
+llbf	傍
+llbr	偙
+lllp	橤
+lllx	繠
+lllw	慶
+llgm	伃
+llgf	僪
+llgn	俑
+llgk	僜
+llkb	儱
+llkf	倍 伺
+llkd	侯
+llkl	億
+llkk	傡
+llkx	倿
+llkz	傽 麞
+llks	傹 儭
+llkr	偣
+llkv	僮 鄇
+llhf	伽
+llzq	偦
+llcs	偐
+llsm	偉
+llwn	儁
+llwq	僬
+llyh	俲
+llyw	傚
+lgmv	假 麚
+lgdk	偋
+lgnn	甬
+lgnl	恿
+lgnk	圅
+lgnh	勇 勈
+lgnz	通
+lglb	預
+lglm	予
+lglf	侷
+lgln	僝
+lglx	豫
+lglc	俯
+lglr	预
+lggb	儣
+lggx	傓
+lggc	偏
+lggv	侭
+lggw	僱
+lgkt	偓
+lgkh	麛
+lght	傂
+lghn	備
+lghl	憊
+lghq	侂
+lgxb	俽 儨
+lgxm	傭
+lgxf	傏
+lgcp	柔 楘
+lgcm	骛 瞀
+lgcf	矞
+lgcd	劀 奦
+lgct	堥
+lgcn	鹜 鹬
+lgcl	矜 愗
+lgcg	矝 鞪
+lgch	務 嵍 熃
+lgcj	鍪
+lgcq	騖 氄 矟 鶔 鶩 鷸
+lgcx	婺
+lgcz	遹
+lgcr	暓 矠
+lgcv	矡
+lgcw	敄
+lgcy	蟊 蝥
+lgsm	偱
+lgsf	倨
+lgvd	癸
+lgvt	凳
+lgvg	戣 癶 癷
+lgvk	登
+lgvz	邆
+lgvs	發 癹 発 覴
+lgvv	鄧 鄈
+lgyb	僙
+lkbm	竚
+lkbc	竕
+lkbs	竩
+lkby	儞 竤
+lkpx	新
+lkps	親
+lkmq	傿
+lkfm	何 倳 竒
+lkfd	剖
+lkft	偪
+lkfn	孠
+lkfk	侸
+lkfh	勏
+lkfj	傴 郶
+lkfs	覗
+lkfv	部
+lkfw	瓿 敨
+lkfy	使
+lkdp	俫
+lkdd	侠
+lkdc	竴
+lkds	伻
+lkdr	竡 竲
+lktk	僵 麠
+lkty	颯 飒
+lknt	侢
+lknl	儷
+lkng	俪
+lknj	伅
+lknq	鴗
+lknr	俩
+lklk	竝 竳
+lklr	暜
+lkgk	竮
+lkgj	佢
+lkgr	侇
+lkkp	竦
+lkkx	竵
+lkkc	竱
+lkhf	站
+lkhn	竔 竬
+lkhl	憨 聼
+lkhg	饏
+lkhh	竧
+lkhz	竨
+lkhc	俨
+lkhs	竏
+lkhv	端 倻
+lkhw	敢
+lkjb	貸
+lkjp	柋
+lkjm	竫
+lkjd	袋
+lkjt	垈
+lkjn	牮
+lkjg	代 戼
+lkjk	仾
+lkjh	岱 勭
+lkjq	黛 廌 氃
+lkjx	𦒍
+lkjr	贷 帒
+lkjv	童
+lkqb	龍 龖 龘
+lkqf	礱
+lkqd	襲 龑
+lkqt	壟
+lkqn	龏
+lkqg	龔 俌 鬴
+lkqh	聾
+lkqq	驡 鸗
+lkqx	龒
+lkqc	傅
+lkqr	傮
+lkqw	讋
+lkqy	竑 蠪
+lkxg	侙
+lkxh	竗
+lkxx	競 翊
+lkxz	倢
+lkzb	贛 贑
+lkzl	戆 戅 戇
+lkzz	僆 遧
+lkzs	彰
+lkzr	赣
+lkzv	鄣
+lkzw	僌 竷
+lkcb	顡
+lkcl	僫
+lkck	俹
+lkcx	斵
+lkcs	毅
+lkcv	竰
+lksk	俓
+lksv	攱
+lkrb	韻 歆
+lkrp	倈 倲
+lkrm	韸
+lkrf	韶
+lkrd	韵 韺
+lkrl	意 僡
+lkrg	倆 竛
+lkrj	竭 偃 竜
+lkrq	戠 鶕 鷾
+lkrx	嬜
+lkrz	韼
+lkrc	傳 韷
+lkrs	竟 竸
+lkrr	俠 韴
+lkrv	頀
+lkrw	韹
+lkry	便
+lkvq	靖
+lkyd	倒 竢
+lkyt	侄 耋
+lkyj	伛
+lkyq	竓
+lkyr	傸
+lkyw	竣
+lhpf	俰
+lhpd	俐
+lhpl	僽
+lhph	偢
+lhpx	倭
+lhpr	麘
+lhpy	俬
+lhmb	偵
+lhfb	賀
+lhfp	架
+lhfm	驾 哿
+lhfd	袈
+lhfn	偊
+lhfl	乫
+lhfq	駕 毠 鴐
+lhfx	妿
+lhfz	迦
+lhfc	嗧
+lhfr	贺
+lhfy	虱
+lhdd	佻
+lhdt	僠
+lhdl	乮 僁
+lhdv	偳
+lhtb	儹
+lhtf	俈
+lhtl	儢
+lhts	侁
+lhnt	傋
+lhnl	傯
+lhnq	俄
+lhnr	侦
+lhnw	傻
+lhlf	儶
+lhll	勰
+lhlh	劦
+lhlq	脅
+lhlx	姭
+lhls	伜
+lhlw	催
+lhgg	倂
+lhgv	偸
+lhkf	僕
+lhhp	儝
+lhhh	僗
+lhjp	儏
+lhjd	卿
+lhqc	麝
+lhxz	偼
+lhzb	賃
+lhzp	栠
+lhzt	凭
+lhzl	恁
+lhzg	侹
+lhzq	鵀
+lhzr	赁
+lhsf	佸
+lhsk	倕
+lhsj	偛
+lhrl	侺
+lhrw	偟 儌
+lhyx	係
+lhyy	傰
+ljmb	偩
+ljmr	儈
+ljmv	傁
+ljft	儳
+ljfr	儉 倹
+ljnc	倫
+ljgp	傑
+ljgf	佲
+ljgg	侈
+ljgr	似
+ljkx	斲
+ljqd	偷
+ljqg	僦
+ljxm	鿇
+ljxl	您
+ljcj	佹
+ljcw	儋
+ljsk	俭
+ljsr	储
+ljvx	傺
+lqmn	侟
+lqmk	丱
+lqmh	伢
+lqkk	僼
+lqjg	优
+lqxk	佐
+lqcd	儂
+lqsr	僭
+lqvr	僀
+lxbv	侵
+lxmb	價
+lxdp	僳
+lxds	僊
+lxng	健
+lxlf	俉
+lxlk	伍
+lxhm	偗
+lxhf	侰 麏 鿘 鿚
+lxhx	鿙
+lxjm	僲
+lxjd	倀
+lxjg	低
+lxxs	僇
+lxsm	儘
+lxvx	僄
+lzbm	僢
+lzbw	僾
+lzmb	儥
+lzmv	作
+lzff	僖
+lzft	儓
+lzfy	蛋
+lzdf	倁
+lznt	偁
+lzln	俘
+lzlh	伤
+lzlc	儔
+lzhq	僞
+lzjg	侮
+lzzh	傜
+lzsm	儛
+lzrk	疍
+lzrv	傷 鬺
+lzyd	傒
+lcmg	儚
+lcfq	麙
+lcnd	偀
+lclj	伌
+lckp	偞
+lckf	傼
+lckh	傇
+lckj	伳
+lckv	僅
+lckw	儺
+lchm	儮
+lchd	剷
+lchx	傆
+lchv	産
+lcjw	儆
+lcqf	偌
+lcxh	亷
+lczq	儰
+lccp	僷
+lcsb	顔 麒 倛 僛
+lcsn	僃
+lcsj	偡
+lcsq	傶
+lcsz	遃
+lcsr	颜
+lcvd	侲 麎
+lcvc	傉
+lsbn	侼
+lsmd	偰
+lsmj	値
+lsfb	償 韥
+lsfp	韖 韘
+lsfm	韋 韎 韞
+lsff	韐
+lsfd	韔
+lsft	儅 韝
+lsfn	韕 韛
+lsfl	韢
+lsfg	韍 韚
+lsfj	韜
+lsfq	儻 韒 韤
+lsfz	違 韗
+lsfs	傥 韟 韠 韡
+lsfr	韌
+lsfv	郼
+lsfw	做
+lsfy	蝨 韣
+lsnf	倘
+lsnq	鳵
+lsns	值
+lsnw	僘
+lsny	儠
+lsks	侊
+lshc	俦
+lshw	俇
+lsqn	侾
+lsqj	侤
+lsqr	偖
+lsxv	俶
+lscb	僨
+lscr	偾
+lssm	舝
+lssg	僎
+lsrn	俸
+lsrs	傣
+lsrr	偆
+lsvl	偬
+lsvy	偿
+lrbb	倱
+lrmv	僈
+lrfx	僂
+lrlb	僋
+lrlg	伶
+lrlj	伧
+lrgf	倽
+lrgs	儤
+lrkv	偒
+lrxf	傖
+lrxx	傝
+lrsj	偈
+lrrt	侳
+lrvy	侩
+lryq	儑
+lvbp	彚
+lvmb	債
+lvmm	盝
+lvmd	剥
+lvmg	倵
+lvmz	逯
+lvms	录
+lvdn	彞 彛
+lvnr	债
+lvlw	傩
+lvhd	俵
+lvjg	传 夛
+lvqs	儬
+lvvr	僴
+lvvy	僩
+lvyx	傃
+lwbm	停
+lwbq	燞
+lwbc	儫
+lwmf	倃 麔
+lwmn	雋
+lwmr	偺
+lwfd	儴
+lwdb	顀
+lwdv	儕 麡
+lwnf	傐
+lwlp	雧
+lwln	犨
+lwlv	雙
+lwlw	讐 雔 雥 雦
+lwhd	依 偯
+lwhk	儃
+lwjx	侫
+lwjw	雠
+lwqb	顦
+lwqm	佭
+lwqd	劁
+lwqn	鹪
+lwqq	鷦
+lwsq	鶽
+lwsr	儲
+lwrs	倅
+lwwn	犫
+lwww	讎
+lwyf	麐
+lwyt	傗
+lwyh	麍
+lwyq	侪 俼
+lwyr	侅
+lybw	俊
+lymj	俷
+lyff	僑 麢
+lydb	頝
+lydv	儒
+lynq	鵁
+lynw	鬷
+lylh	効
+lygt	垡
+lygg	俴
+lykj	俜
+lyks	侥
+lyhd	衮
+lyht	虠
+lyhn	侔
+lyqq	倄
+lyqr	俙
+lyqw	儍
+lyzm	儖
+lyzd	俟
+lysh	働
+lysv	偅
+lyyq	僟
+lyys	傪
+gbbk	谾 鞚
+gbfy	螷 螸 蠯
+gbdb	廎
+gbdx	屪
+gbdr	庼
+gbhv	廀
+gbjy	廆
+gbyp	庺
+gppb	黂
+gppp	糜 穈
+gppm	麽
+gppf	磨 靡 麿
+gppd	劘
+gppt	塺
+gppn	摩 犘
+gppq	麾 爢
+gppx	縻
+gppr	黁
+gppv	黀
+gppy	麼 魔
+gmbb	屭
+gmbd	廁
+gmbx	廮
+gmmv	彏
+gmgt	坕
+gmgj	爬
+gmgs	爮
+gmkd	彋
+gmsd	劚
+gmsn	犀
+gmsx	斸
+gmsz	遲
+gmsr	鞜
+gmsy	屬
+gmvz	遐
+gmvv	叚
+gffn	犟
+gffh	勥
+gffs	彈
+gffw	謽
+gffy	强
+gfqs	旤
+gfsb	鞼
+gdpl	鬻
+gdpg	粥
+gdpx	屡
+gdmb	頇
+gdmz	屣
+gdmr	層
+gdmw	廈
+gddx	屦
+gdnr	顸
+gdgd	弱
+gdgq	鶸
+gdkd	劆
+gdkn	庠 羼
+gdkh	廉
+gdkz	遅
+gdkc	彅
+gdxv	鞧
+gdzw	履
+gdcp	屧
+gdcj	屜
+gdsv	屐
+gdrg	弼
+gdrj	庵
+gdrx	屨
+gdrs	弹
+gdyf	屩
+gtbw	庱
+gtdz	韃
+gtkk	疆
+gtym	廅
+gnpn	鹇
+gnmd	阛
+gnmq	阒
+gnmv	弢
+gnff	闾
+gnfr	阓
+gnfv	阏
+gnfy	闽
+gndk	鞇
+gndj	阉
+gndx	阅
+gndz	闼
+gnds	阐
+gntm	阖
+gntt	闺
+gnnb	阙
+gnnk	阃
+gnld	阕
+gnlg	阀
+gnlk	鞡
+gnlw	阚
+gngg	阆
+gnkp	阑
+gnkf	阔
+gnkh	闻
+gnkq	阈
+gnhp	𫔶
+gnhj	闿
+gnjj	阎 阄
+gnjs	阋
+gnqy	闳
+gnxt	𬮱
+gnxr	阍
+gnzv	阌
+gnsr	阇
+gnsv	庪
+gnrx	阘
+gnrr	阊
+gnvd	闱
+gnwf	阁
+gnwt	闶
+gnwr	闹 阂
+gnwy	闵
+glds	覛
+glnn	孱
+gllf	噟
+glln	鹰
+glll	應
+gllq	鷹 膺
+gllw	譍
+glgp	鞣
+glgm	序
+glgs	廢 廃
+glkb	龐 豅
+glkf	鞛
+glkq	韀
+glkv	廍
+glkw	豃
+glky	鞭
+glch	焤
+glcr	腐
+glsr	昶
+ggfj	扈
+ggfw	啟
+ggnf	扃
+ggnq	騗 鳸 鶣
+ggnx	翩
+ggnz	遍
+ggnc	扁
+ggnw	甂
+gglb	顧
+gglw	雇
+gggb	彍
+gggl	乺
+gggx	所
+gghf	扂
+gghn	鞴
+gghh	扊
+ggjd	展
+ggjg	扅
+ggjv	廊
+ggqb	顅
+ggqq	鵳
+ggxn	肁
+ggxx	扇
+ggst	壂
+ggsh	焈
+ggsq	臀
+ggsr	廜 臋
+ggrk	昼
+ggvs	戽
+ggwp	棨
+ggwf	啓
+ggwd	扆
+ggwn	肇
+ggwx	綮
+ggwr	晵
+ggyb	廣 彉
+ggyf	啔
+ggyn	肈
+ggyl	懬
+ggyv	鄺
+gkbg	瓕
+gkby	彌
+gkmj	巵
+gkfm	彁
+gkft	垕
+gkfh	劶
+gkfj	彄
+gkfz	逅
+gkfv	郈
+gktk	韁 彊
+gknl	廲
+gkng	弻
+gknj	庉
+gklj	卮
+gkgj	弡
+gkhl	廳 廰
+gkqg	庯
+gkzb	廤
+gkcy	瓥
+gksk	弳
+gksr	鿮
+gkrp	庲
+gkry	鞕
+gkyd	剭
+gkyt	屋 庢
+gkyj	𫸩
+ghpb	廭
+ghph	鞦
+ghms	覝
+ghfn	属
+ghdd	庣 鞉
+ghtb	歋
+ghtm	廬
+ghtn	䴘
+ghtq	鷉
+ghtz	遞
+ghnt	鞲
+ghgg	屛
+ghzg	庭
+ghrs	廏
+gjmr	廥
+gjmv	廋
+gjfn	鞥
+gjfj	郒
+gjlh	勆
+gjhg	废
+gjqn	廯
+gjqs	廐
+gjcn	廨
+gjcw	韂
+gjvt	廛
+gjvv	鄽
+gjvy	鿥
+gjyp	㮾
+gjyt	塱
+gqbb	髌 髕
+gqbf	髂
+gqbg	庞 髖
+gqbj	髋
+gqbw	髉
+gqmb	費 骴
+gqmh	庌 谺
+gqmv	鄪
+gqmy	髑
+gqdb	顝
+gqdk	骿 髊
+gqdj	骻
+gqdx	髅
+gqts	髐
+gqnq	鶻
+gqnr	费
+gqlf	髈
+gqly	骹
+gqgp	髍
+gqgf	骺
+gqkn	骬
+gqkg	骮
+gqkc	髆
+gqky	骾
+gqhm	髗
+gqhl	骩
+gqjg	庬
+gqjj	艴
+gqqk	體
+gqqz	髓 髄
+gqxg	骶
+gqxs	髎
+gqzx	骽
+gqcn	髒
+gqsf	骷
+gqss	骲
+gqrp	髁
+gqrn	髃
+gqrq	骱
+gqrx	髏
+gqvr	廗
+gqwf	骼 髇
+gqwt	骯
+gqwr	骸
+gxmm	彇
+gxmf	唐
+gxmj	弬
+gxmq	鶶
+gxms	康
+gxmv	鄌
+gxmy	斶
+gxdb	頎
+gxdz	韆
+gxdr	颀
+gxng	鞬
+gxll	慇
+gxlh	劤
+gxls	殷
+gxgb	質
+gxgf	啠
+gxgd	劕
+gxgx	斦
+gxjd	張
+gxjg	底 弤
+gxqm	庸
+gxqq	鷛
+gxqv	鄘
+gxxs	廖 豂
+gxrb	賡
+gxrn	鹒
+gxrq	鶊
+gxrr	赓
+gzmb	豄 韇
+gzfc	廚
+gzsq	廡
+gzyd	豀 鞵
+gcmq	韈
+gcnq	鶌
+gclq	韉
+gclv	韄
+gckp	屟 弽 鞢
+gckd	剫
+gckn	鹧
+gckg	庹
+gckj	屉 靾
+gckq	庶 鷓
+gckz	遮
+gcks	鞾
+gckr	席 庻
+gckv	度 廑
+gcky	䗪
+gcjf	鞳
+gcqn	鞯
+gcsx	廝
+gcvp	韊
+gcvd	屒
+gsmb	貭
+gsmg	瞂
+gsmq	鶞
+gsmx	緳
+gsmz	遁
+gsfd	剧
+gsft	鞺
+gsfq	鶋
+gsfw	廱
+gsdp	鞠
+gsdf	屫
+gsnf	鞝
+gsnr	质
+gsnw	廠
+gsqd	鞩
+gsqn	庨
+gsqq	鷵
+gsqr	屠
+gszy	廟
+gsrh	廧
+gsrs	弾
+grfx	屢 廔 鞻
+grnq	鵲
+grlf	谽
+grgx	斮
+grgs	彃 鞸
+grsj	鞨
+grrt	座
+gryq	韅
+gvkm	屙
+gvxd	褽
+gvxn	犚
+gvxl	慰
+gvxk	弪
+gvxh	熨
+gvxc	尉
+gvxv	叞
+gvxy	螱
+gvrz	逓
+gvry	廕
+gwln	弴 鞟
+gwlv	廓 鞹
+gwhp	廩
+gwhd	庡
+gwhx	廪
+gwyx	婱
+gybf	黇
+gybt	黈 黊
+gybl	黅
+gybq	鷬
+gybs	斢 黆
+gyff	鞽
+gyfy	強
+gylh	靿
+gyqn	屘
+gyqc	屗
+gyxs	廫
+gyyq	鞿
+kbbp	深
+kbbf	滘
+kbbt	漥 潌
+kbbg	浫 溛
+kbbk	涳
+kbbh	滵
+kbbq	湥
+kbbr	湝
+kbmb	濵
+kbds	浑
+kblm	濘
+kbln	澝
+kbkb	演 濱
+kbkm	泞
+kbkk	渲
+kbkz	渾
+kbkc	溕
+kbhd	浓
+kbht	瀋
+kbhn	浶
+kbhz	瀽
+kbjj	涴
+kbjq	瀉
+kbjy	溾
+kbqb	滨
+kbqy	浤
+kbxv	濅
+kbcm	湓
+kbsl	瀗
+kbsv	漃
+kbrt	壐
+kbrl	溟
+kbrg	璽
+kbrq	鸍
+kbrz	邇
+kbrs	覼
+kbry	爾 蠒
+kbvp	滱
+kbvx	淙
+kbvs	浣
+kbyk	滏
+kbyx	滃
+kpby	淞
+kppp	潹
+kppf	滼
+kppt	漜
+kppq	潸
+kppx	漤 澿
+kppz	濋
+kppr	澘
+kpdf	碆
+kptt	溎
+kpgx	淅
+kphr	湐
+kpzs	灪
+kprk	渣
+kprs	漆
+kpvx	渿
+kmbd	測
+kmbg	濺
+kmbx	瀴
+kmbv	瀃
+kmpq	鶫
+kmmb	瀕
+kmmm	澁
+kmmh	涉
+kmmj	匷
+kmmr	濒
+kmmw	灈
+kmdb	頂 頙
+kmdr	顶
+kmtt	濹
+kmtg	澤
+kmtq	潶
+kmnq	鴊
+kmlr	潀
+kmlw	濉
+kmkd	澴
+kmkq	焉
+kmkv	鄢
+kmjl	濎
+kmxh	渺 渉
+kmcd	瀱
+kmcq	濊
+kmsm	灩
+kmsk	灃
+kmsj	灧
+kmss	渁
+kmsr	涾 濖
+kmsy	濁
+kmvq	靕
+kfpb	賴 欶 頼
+kfpm	整
+kfpd	剌
+kfpn	揧
+kfpl	慗
+kfph	勅
+kfpq	鵣 鶒 鷘
+kfpx	辢
+kfpz	速 遫 遬
+kfpr	赖
+kfpw	敕
+kfmb	歌 溳
+kfmm	哥
+kfmf	潞
+kfmg	戨
+kfmj	浥
+kfmv	叓 栆
+kffb	歐 濽
+kffp	澡 敺
+kffd	剾
+kffl	漶
+kffh	澏
+kffj	區 匰 湂
+kffq	鷗
+kffs	毆 潬
+kffr	潜
+kffw	甌
+kfdb	頭 豍
+kfdd	剅
+kfdk	豆 豇
+kfdh	豏 鿲
+kfdj	豌
+kfdq	毭
+kfdz	逗
+kfdv	豉 郖
+kftd	副
+kftt	疈
+kftq	鶝
+kftz	逼
+kfnr	涢
+kfkd	洖
+kfkl	惑
+kfkg	彧
+kfkh	湒
+kfkq	或 濈
+kfjc	尀
+kfxm	事
+kfxd	剚
+kfzn	游
+kfzj	湤
+kfzz	漩
+kfsb	潰
+kfsj	匮 匱
+kfsz	瀢
+kfsr	溃
+kfrj	渑
+kfrv	淤
+kfvl	悪
+kfvk	亜
+kfwt	塣
+kfwq	戜
+kfyk	渱 灗
+kdbb	澬
+kdpm	潾
+kdpl	慭
+kdpg	瀵
+kdpx	溇
+kdpr	赉
+kdmb	湏
+kdmz	漇
+kdms	忝 沗
+kdmr	潧
+kdfj	匲 淃
+kdfx	潫
+kdfs	漛
+kdfy	蚕
+kddb	頬
+kddm	渞
+kddd	刾
+kddx	潦
+kddr	颊
+kddv	郏
+kdnd	渜
+kdnq	鴌
+kdns	湎
+kdnv	洏
+kdnw	瀀
+kdlg	沩
+kdlq	溈
+kdgm	洲
+kdgh	涕
+kdkm	溢 渏
+kdkd	湔 浂 渆 渕
+kdkn	洋
+kdkl	濨
+kdkg	瀁
+kdkk	湴 溠
+kdkh	溓
+kdkz	澻
+kdkr	浉 潽
+kdky	滋 蝅 蠺
+kdhw	瀓
+kdjj	匜
+kdxm	亊
+kdxc	澊
+kdxv	湭
+kdzw	澓
+kdcd	涿
+kdsn	渀
+kdsj	匦
+kdsx	渐
+kdsz	涟
+kdsy	溬
+kdrj	淹
+kdrz	漎
+kdrr	奭
+kdry	奣
+kdvm	洐
+kdvj	洿
+kdwd	渼
+kdwj	湵
+kdwq	溔 潃
+kdws	漾
+ktbt	淕
+ktbw	淩 溭
+ktpq	溨
+ktfd	溒
+ktfq	渽 瀐
+ktdn	溿
+ktdg	涬
+ktdz	澾
+kttt	灅
+kttq	瀻
+kttc	湗
+ktts	澆
+ktkd	渨
+ktkk	畺
+kthy	渢
+ktym	溘
+ktyx	漯
+knbf	浻
+knpp	棘 棗
+knpd	刺
+knpk	涃
+knpr	僰
+knpv	枣
+knpw	敇
+knfd	灢
+kndk	洇
+kntf	淍
+knlk	潿
+kngb	淟
+kngn	鹂
+kngl	麗
+kngg	丽
+kngq	鸝
+kngx	浙 婯
+kngz	邐 逦
+kngs	彨 彲
+kngv	郦 酈
+knkk	溷 漍
+knkx	澠
+knjb	頓
+knjf	湁
+knjz	迍
+knjr	顿 旾
+knjv	邨
+knsm	湃
+knsg	浗
+knsk	涸 泗
+knsj	匩
+knsy	滍
+knrm	溫
+knrd	测
+knrk	泅
+knrq	溅
+knrr	两
+knvm	溋
+knvk	涠
+knwk	𬇹
+knws	浵
+klbf	滂
+klbr	渧
+klmt	滌
+klmn	涵
+klml	滺
+klmk	洆
+klmq	滫
+klmw	浟
+klfp	湺
+klfd	滾
+klfy	瀜
+klnf	滴 滳
+kllk	涖
+klgb	澦
+klgp	渘
+klgm	汿
+klgf	潏
+klgd	湀
+klgn	涌
+klgl	慂
+klgk	澄
+klgh	湧
+klgs	潑 溌
+klgr	滪
+klkb	瀧 灨
+klkf	涪 泀
+klkl	澺
+klkj	滝
+klkq	湇
+klkx	淁 澵
+klkz	漳
+klks	滰 瀙
+klkr	湆
+klkv	潼
+klkw	澉
+klky	灋
+klhf	濮 泇
+klhd	泖
+kljd	瀏
+kljg	忒
+kljc	溣
+klxh	洢
+klzq	湑
+klch	濓
+klcv	滻
+klsm	湋
+klvg	𬍡
+klvh	烫
+klvs	渌
+klwp	潗
+klwj	龨
+klwq	潐
+klws	準
+klyd	滚
+klyg	浌
+klyw	滧
+kgbt	埿
+kgpf	灖
+kgmn	漽
+kgmg	沠
+kgmv	溊
+kgmy	灟
+kgfz	濄
+kgfy	漒
+kgdd	溺
+kgdh	濂
+kgnp	澜
+kgnr	涧
+kgnw	润
+kgld	派
+kgln	潺
+kgls	泳
+kggb	瀇
+kggp	淭
+kggd	涙
+kggj	匾 滬
+kggq	淚
+kggs	澱
+kggv	浕
+kgkf	洉
+kgkt	渥
+kgkh	渳
+kgky	瀰
+kghl	泦
+kgjt	瀍
+kgjl	乬 巪
+kgjy	螶
+kgqw	潵
+kgxm	滽
+kgxf	溏
+kgxd	漲
+kgxt	垽
+kgxh	峾
+kgxj	匠
+kgxs	溵 漮
+kgcv	渡
+kgsf	涺
+kgsr	潳
+kgrd	涮
+kgrq	鴺
+kgyb	潢
+kgyq	浘
+kkby	濔
+kkmp	湅
+kkmq	漹
+kkfb	漱 瀨 瀬
+kkfp	涑
+kkfm	河 滒
+kkfd	溂
+kkft	湢
+kkfk	浢
+kkfj	漚
+kkfq	淢
+kkfr	濑
+kkfw	潄
+kkdp	涞
+kkdd	浃
+kkds	添 泙
+kknp	洓
+kknm	盓
+kknt	洅
+kknl	灑
+kknj	沌
+kklj	匯 滙
+kkgp	渠
+kkgj	洰
+kkgr	洟
+kkhh	灄
+kkhr	溍
+kkhv	滠
+kkjg	弌
+kkjk	沍
+kkjq	泧 浳
+kkqg	浦
+kkqc	溥
+kkqr	漕
+kkxx	淒
+kkzd	瀭
+kkzt	壍
+kkzh	聻
+kkzj	匭
+kkzx	漸 嬱
+kkzz	漣
+kkzy	魙
+kkcr	瀦
+kkst	湽
+kksk	涇
+kksr	滞
+kkrp	涷 淶
+kkrl	潓
+kkrk	洹
+kkrh	瀒
+kkrj	匧
+kkrc	漙
+kkrr	浹
+kkry	浭
+kkwj	洭
+kkyt	溼 洷
+kkyj	沤
+kkyr	漺
+khbm	濬 聍 聹
+khbl	聡
+khbk	聜
+khbx	漴 聬 聺
+khbz	聢
+khbc	聁
+khbs	耽
+khby	聭
+khpb	瀩
+khpd	浰
+khph	湫
+khpq	潲
+khpx	涹
+khps	潻
+khmb	湞
+khmn	濞
+khmq	溴
+khmc	潨
+khfb	聵
+khfd	澞
+khfn	渪
+khfl	惉
+khfr	聩
+khfw	聖
+khdm	渊
+khdd	联 洮
+khdt	潘
+khdn	泘
+khdl	聪
+khdk	潂 聠
+khdv	湍 聏
+khtb	灒
+khtm	瀘
+khtf	浩
+khtl	濾
+khtj	鍌
+khts	洗 滮
+khtr	濳
+khtw	溦
+khnd	澳
+khnt	溝 聃
+khnl	漗
+khnk	滷
+khnj	澚
+khnq	涐 鵈
+khnr	浈
+khnv	耼
+khlp	染
+khld	聊 聧
+khlq	職
+khlw	漼
+khgg	泛
+khkb	顳
+khkm	耵 聇
+khkt	垩
+khkl	恶
+khkg	戬
+khkk	溰
+khkh	聶 聑
+khkq	聝
+khkc	澽 濧
+khkr	晋 聗
+khkv	灇 鄑
+khkw	澲
+khhp	濚
+khhf	聒 瀯 聕
+khhd	聎 褧
+khhn	滹 聥
+khhl	聰
+khhg	瀅
+khhh	澇 濙
+khhj	灐
+khhx	瀠
+khhs	濴
+khjp	澯
+khjk	瀣
+khjh	泲
+khjs	聣
+khjw	聸
+khqh	湠
+khqy	耾
+khzf	聐
+khzd	聅
+khzg	涏
+khct	漄
+khsf	活
+khsl	沜 聦 聴
+khsk	涶
+khsr	溗
+khrb	潉
+khrp	濼
+khrf	澔
+khrl	涔 耹
+khrg	聆
+khrs	漑 湶 滜 聄
+khrr	淿
+khrw	激 湟
+khvp	棸
+khvf	鿢 鿤
+khvt	埾
+khvq	焣 聙
+khvx	娶 鿣
+khvc	聚
+khvr	颞 溮
+khvv	聂 鄹 郰
+khvy	耺
+khwm	聤
+khwn	溄
+khwl	聽
+khww	澂
+khym	瀊
+khyd	聫
+khyn	聨
+khyg	聀
+khyk	聯
+khyh	聈
+khyj	聘 湚
+khyq	毦 聮
+khyy	漰
+kjpp	潊
+kjpt	塗
+kjpv	溆
+kjpw	漵
+kjmd	渙
+kjmr	澮
+kjmv	溲
+kjft	瀺
+kjfn	渰
+kjfj	匳 匼
+kjfx	潝
+kjfz	趸
+kjfc	瀹
+kjfr	澰
+kjfv	㽏
+kjfw	瀲
+kjfy	虿
+kjnd	涣
+kjnc	淪
+kjlk	互
+kjlh	劢
+kjlc	湪
+kjls	淥
+kjgb	濥 貣
+kjgp	滐
+kjgf	洺
+kjgn	鸢
+kjgq	鳶
+kjgr	泤
+kjgw	隿
+kjkq	澙
+kjkr	澛
+kjhg	泼
+kjqd	渝
+kjqj	匬
+kjqs	溉
+kjqr	瀂
+kjxm	浄
+kjxl	㴔
+kjxk	湼
+kjzs	浒
+kjcn	澥
+kjcj	洈
+kjcw	澹
+kjsq	潟
+kjsw	潋
+kjvx	漈
+kjys	灚
+kqbg	泷
+kqmb	喸
+kqmm	淵 盙
+kqmf	旉
+kqmn	洊 𬷕
+kqml	乶 懯
+kqmg	甫
+kqmq	鵏
+kqmz	逋
+kqmc	尃
+kqms	鿿
+kqmv	郙 鼝
+kqmw	敷
+kqdp	滊
+kqkm	灎
+kqkk	澧
+kqkj	灔
+kqjg	沋 浝
+kqcd	濃
+kqsl	灊
+kqsr	潛
+kqrz	遭
+kqvl	懘
+kqvg	沷
+kqvr	滯
+kxbv	浸
+kxmm	潚
+kxmt	澑
+kxmq	鶈
+kxmx	妻
+kxmv	郪
+kxfj	洍
+kxdp	潥
+kxtk	澅
+kxnt	堻
+kxng	湕
+kxlf	浯
+kxkb	澒
+kxkn	鸿
+kxkg	式
+kxkj	匞
+kxkq	鴻
+kxhp	桬
+kxhm	渻
+kxhf	涒 硰
+kxhd	裟
+kxhn	挲
+kxhl	乷
+kxhk	鲨
+kxhq	鯊
+kxhx	娑
+kxhz	逤
+kxjd	涱
+kxjl	沔
+kxjg	泜
+kxjr	涽
+kxxf	瀥
+kxxg	瀷
+kxxz	瀈
+kxxc	潯
+kxxs	漻 濢
+kxxr	漝
+kxxw	濯
+kxsm	濜
+kxvx	漂
+kzbf	轄
+kzbk	潱
+kzbs	涜 濲 瀔 瀫 輐
+kzbv	涭 輨
+kzmb	瀆
+kzmd	轘
+kzmj	匴 匵
+kzmc	灂
+kzms	漞
+kzmv	泎
+kzfh	輯
+kzfc	澍
+kzfs	澎 毄
+kzdb	贀
+kzdm	轔 瞖 輢
+kzdd	輭
+kzdn	鹥
+kzdl	悘
+kzdg	瑿 軚
+kzdk	毉 軿
+kzdj	医 沲
+kzdq	轙 鷖 黳
+kzdx	翳 嫛 繄 轑
+kzds	殹
+kzdr	潪
+kzdv	醫 輀 輶
+kztd	轅
+kztt	轠
+kztw	輘
+kznp	檕
+kznm	轀
+kznf	礊 輖
+kznd	軮
+kznt	墼
+kznn	擊
+kznh	罊
+kznj	輞
+kznq	鿂
+kznx	繫
+kznz	轚
+kzny	蟿
+kzlp	輮
+kzln	浮
+kzlg	涎
+kzlc	濤 軵
+kzls	軐
+kzlw	潅
+kzly	較
+kzgp	槧
+kzgm	輴
+kzgf	磛
+kzgd	輾
+kzgt	塹
+kzgn	轏
+kzgl	慙 軶
+kzgj	鏨
+kzgx	斬
+kzgz	蹔
+kzgs	覱
+kzgr	暫
+kzgv	湲
+kzkm	軻
+kzkt	輻 輊 輺
+kzkg	輔 輛 軾
+kzkk	輕
+kzkh	輌
+kzkj	輒 軘 軭 鑋
+kzkz	轟 轋
+kzkc	轉
+kzks	軏 軯
+kzkv	輙
+kzhp	轢
+kzhm	轤
+kzhf	軼 轐
+kzht	轓
+kzhn	軤
+kzhl	軌
+kzhg	輧
+kzhq	潙
+kzhz	淫 軠
+kzhc	轛
+kzhv	輲
+kzhy	輈
+kzjd	輸 瀄
+kzjt	塰
+kzjg	海
+kzjj	輡
+kzjx	瀿
+kzjc	輪
+kzjs	輗
+kzqg	軷
+kzxm	淨
+kzxf	輑
+kzxn	潷
+kzxl	濦
+kzxg	軧
+kzxk	澨
+kzxj	軝
+kzxs	轇
+kzxv	輏
+kzzh	滛
+kzzj	轁
+kzzw	輹
+kzcm	轣
+kzcf	軺
+kzcl	轗
+kzcj	軛 轕
+kzcq	輱
+kzcw	轥
+kzsb	轒
+kzsp	轃 轈
+kzsf	軲
+kzsd	輳
+kzst	輜
+kzsn	撃
+kzsh	轖
+kzsq	潕 輎
+kzsx	繋 轊
+kzss	軳 輄
+kzsw	輷
+kzrb	輥
+kzrp	輠
+kzrm	輼
+kzrd	淛
+kzrl	軡
+kzrg	軨 龫
+kzrj	輵
+kzrs	軫
+kzrv	漡 輰
+kzvt	軽
+kzvq	輤
+kzvv	輟
+kzvy	転
+kzwf	輅
+kzwt	軴
+kzwr	輆
+kzww	轍
+kzym	轞
+kzyf	轎 軩
+kzyd	溪
+kzyt	輽
+kzyg	輚
+kzyh	軪
+kzyq	滗 軞 鸂
+kzyx	轌
+kzyv	轜
+kzyy	輣
+kcbp	溁
+kcbg	滢
+kcbh	涝
+kcbx	潆
+kcbc	濛
+kcmj	豝
+kcmq	瀎
+kcfl	澸
+kcfq	減
+kcfw	灌
+kcfy	蟸
+kcdz	豵
+kctm	濭
+kctt	涯
+kcnb	㵐
+kcnd	渶
+kcns	豠
+kclf	豴
+kclh	沥
+kclj	匶
+kclq	瀳
+kclv	濩
+kcgl	豟
+kcgg	豣
+kcgq	㳚
+kcgv	豭
+kckp	渫
+kckm	渮
+kckf	漢
+kckt	堊
+kckl	惡 懣 懑
+kckg	滿 琧 豧
+kckh	燹 満
+kckj	泄 豘
+kckq	鵶
+kckc	豩
+kcks	澕
+kckr	满
+kckv	漌
+kckw	灘
+kcky	蝁
+kchm	瀝
+kchq	滅
+kchx	源
+kchv	甤
+kcjf	溚
+kcjv	湹
+kcqf	渃
+kcqn	漭
+kcql	慝
+kcqj	匿
+kcxb	潇
+kcxm	瀟
+kczd	豯
+kczk	豷
+kccn	濿
+kccx	豲
+kcsb	淇 豶
+kcsp	櫫
+kcsl	濍
+kcsj	湛
+kcsx	澌 濝
+kcsr	豬 豮
+kcrm	豱
+kcrf	濸
+kcrd	漠
+kcrn	澫
+kcrr	濗
+kcvp	梁 粱 湈 灡
+kcvf	滣
+kcvd	浱
+kcvg	甙
+kcvq	漘
+kcvc	溽
+kcwr	豥
+kcym	灆
+kcyr	豨
+ksbn	浡
+ksbh	渤
+ksbx	溹
+ksbr	带
+ksmb	溑
+ksmf	湱
+ksmj	滟
+ksmx	潔
+ksfm	浺
+ksft	漟 澢
+ksfq	灙
+ksfw	灉
+ksfy	湖 虺
+ksdp	淗
+ksdj	匨
+ksnf	淌
+ksng	湳
+ksns	淔
+ksld	渎
+kskj	泯
+kskc	豗
+ksks	洸
+kskr	帯 湣
+kshm	漪
+kshf	湉
+kshc	涛
+kshr	潴
+ksjg	弎
+ksjj	卼
+ksjq	鴄
+ksqn	涍
+ksqj	洘
+ksqr	渚
+ksqw	漖
+ksxb	頸
+ksxd	剄
+ksxk	巠
+ksxh	勁 巰
+ksxq	鵛
+ksxz	逕
+ksxv	淑
+kszd	鿰
+kszl	漧
+kszg	澣
+kszh	淘
+kszx	瀚
+kszs	濣
+kszy	潮
+kscb	濆
+kscr	𣸣
+kssg	潠
+ksrp	溱 漅
+ksrd	湊
+ksrn	淎
+ksrh	濇
+ksrs	溙
+ksrr	湷
+ksvl	淴
+ksvj	匢 匫
+ksym	尶
+ksyn	洶
+krbb	混
+krpq	鶇
+krmf	澷
+krmv	漫
+krfx	漊
+krtc	溡
+krnq	鳾
+krlf	浛
+krll	淰
+krlg	泠
+krlj	沧
+krgf	涻
+krgs	瀑 滭
+krkm	盪
+krkd	刯 淏
+krkg	璗
+krkh	燙
+krkc	淂
+krkv	湯
+krhg	兩
+krhk	湿
+krhv	湦
+krjb	灝
+krjr	灏
+krxf	滄
+krxn	𬸘
+krxj	匽
+krxq	鶠
+krxx	溻
+krxv	郾
+krsb	渇
+krsj	渴
+krss	滉
+krsr	濐
+krrb	頰 賚 顂
+krrp	來 麴 麬 麳
+krrm	澀
+krrf	麩
+krrn	麰 麶
+krrl	愸 憖 憗 麧 麪
+krrg	麱
+krrk	麷
+krrh	勑 麨
+krrj	麫
+krrq	瀸 猌 鵊 鶆 麯
+krrz	逨
+krrs	麵 麭 麲
+krrr	夾
+krrv	郟 郲
+krrw	麥
+krry	麮
+krvy	浍
+krwy	渂
+kryb	灦
+kryd	剸
+kryl	惠
+kryq	濕 鷒
+kryc	專
+kryv	甦 郠 鄟
+kryw	甎
+kvmb	漬
+kvmg	貳
+kvfb	濻
+kvng	贰
+kvns	淸
+kvnr	渍
+kvlh	泐
+kvlw	滩
+kvgy	溞
+kvkw	潍
+kvjp	滁
+kvjg	弍
+kvqm	瀞
+kvqj	濪
+kvqz	瀡
+kvxk	泾
+kvzm	滥
+kvvb	灍
+kvvp	瀾 澖
+kvvf	濶
+kvvs	灁 灛
+kvvr	澗
+kvvv	涰
+kvvw	潤
+kvvy	潣
+kvwv	漋
+kvyx	溸
+kwbm	渟
+kwbt	湸
+kwbc	濠
+kwmd	瀤
+kwfd	瀼
+kwdv	濟
+kwtl	乼
+kwtj	匟
+kwnf	滈
+kwlm	涥
+kwln	淳
+kwlv	漷
+kwlw	液 潡
+kwgj	匤
+kwkv	湰
+kwhp	滦 澟
+kwhd	湙
+kwhg	湾
+kwhk	澶
+kwjh	劻
+kwjv	邼
+kwqm	洚
+kwzs	滸
+kwsm	浲
+kwsz	漨
+kwrd	滖
+kwrx	鿌
+kwrs	淬
+kwvw	澭
+kwwb	濏
+kwwj	潖
+kwyp	灤
+kwyf	瀛 灜
+kwyd	浏
+kwyt	滀
+kwyn	漓
+kwyg	灣 瑬
+kwyh	流
+kwyj	鎏
+kwyq	济 淯
+kwys	㳘
+kwyv	済
+kwyw	澈 灕
+kybw	浚
+kypp	瀮
+kypm	灀
+kymj	淝
+kyds	渗
+kydv	濡
+kytp	臻
+kytf	臵
+kytd	到
+kytt	臸
+kytn	臶
+kytq	臹 鵄
+kytv	郅
+kytw	致
+kynj	匥
+kylh	泑
+kylw	瀖
+kygg	淺
+kygy	灞
+kykj	涄
+kyks	浇
+kyhn	洠
+kyjb	欧
+kyjn	鸥
+kyjq	鴎
+kyjs	殴
+kyjw	瓯
+kyqq	淆
+kyqr	浠
+kyzm	濫
+kyzf	瀶
+kyzd	涘
+kyzs	灠
+kysv	湩
+kysw	濰
+kyrg	澪
+kyvy	澐
+kyyg	戩
+kyyq	鷞
+kyys	滲
+kyyr	爽 晉
+hbbg	焪
+hbbk	崆 焢
+hbbr	煯
+hbmb	巓
+hbff	熍
+hbdx	爎
+hbkm	睿
+hbkt	壑 壡
+hbkk	煊
+hbkz	煇
+hbkv	叡
+hbhq	烢
+hbhw	敹
+hbjj	焥
+hbjy	嵬
+hbqy	峵
+hbzz	嶷
+hbrl	熐
+hbvx	崇
+hbvs	烷
+hbyl	焧
+hbyx	嵡
+hpbb	秕 穦
+hpbd	秾
+hpbg	穃
+hpbq	秺
+hpbx	稅
+hpbc	稼 秎
+hpbr	稭
+hpby	崧
+hppg	秫
+hpps	虨
+hpmg	烞
+hpmq	穢
+hpfm	种
+hpff	稆
+hpfl	惒
+hpfw	程
+hpdp	梨
+hpdd	稬
+hpdn	犁 秚
+hpdl	悡
+hpdk	秠
+hpdh	稊 稴
+hpdj	鋫
+hpdx	税 鿟
+hpdz	穟
+hpdy	稵 鿠
+hptb	頽 穨
+hptt	稑
+hptg	穓
+hptq	稩 鵚
+hptc	秲
+hpts	穘
+hptr	颓
+hptw	稜 稷
+hpnb	頺
+hpnf	稠
+hpnd	秧
+hpnk	秵 稇 稒 稛
+hpnq	穒
+hpnz	透
+hpns	租
+hplp	穕
+hplm	稦
+hplf	稖
+hpld	穣
+hpln	季 秄
+hplq	稰 穛 穮
+hplz	秹
+hplv	穜
+hplw	稚
+hpgb	秜 穔 穬
+hpgn	穉
+hpgg	稂
+hpgx	稺
+hpgc	稨
+hpgs	穅
+hpgr	稓
+hpkt	秷 稫
+hpkl	穗 穂 穲
+hpkg	秿 稶
+hpkk	稏
+hpkj	秬
+hpkq	稢
+hpks	秤
+hpky	稉 穪
+hphb	穳
+hphp	秝
+hphf	秩 秥 秳 穙
+hphn	揫 鹙
+hphl	愁
+hphg	秽
+hphk	龝
+hphh	秭
+hphj	鍫
+hphq	秅 鶖
+hphx	媝
+hphs	穆 湬 秊
+hphv	醔
+hphw	甃
+hphy	蝵
+hpjb	穥
+hpjp	稌
+hpjf	秴
+hpjl	稳
+hpjg	移
+hpjj	穐
+hpjx	称 穄
+hpjc	稐
+hpjs	穊
+hpjr	穞 穭
+hpqd	穠
+hpqg	秡
+hpqh	嵇 嵆
+hpqr	稽 稥
+hpqw	諬
+hpxn	犩
+hpxg	秪
+hpxh	秒
+hpxj	秖
+hpxz	逶
+hpxs	穋 覣
+hpxw	瓾
+hpxy	魏
+hpzf	秸
+hpzt	稱
+hpzn	稃
+hpzl	穩 穏
+hpzj	稻
+hpzc	穱
+hpzs	爩
+hpzr	稲
+hpzv	秨
+hpzw	稪
+hpcb	稘
+hpch	穁
+hpcv	穫
+hpsb	頹
+hpsp	棃
+hpsm	睝
+hpsf	秙
+hpsd	稧
+hpsn	犂
+hpsh	穑 穡 穯
+hpsj	錅
+hpsq	稍 黧 鯬 鵹
+hpsz	邌
+hpsc	剓
+hpss	黎 稙
+hpsv	秓
+hprb	馜 馝 馩 馪
+hprp	稞
+hprm	馧
+hprf	黏 馠 馡
+hprn	馞 馟 黐
+hprl	稔
+hprg	稈 秢 馛 馢
+hprk	嵖
+hprh	馦
+hprj	馣 馤
+hprc	馚
+hprs	黍
+hprr	馫
+hprv	穝
+hprw	馥
+hpvb	積
+hpvs	科
+hpvy	秐
+hpwf	稿
+hpwd	穰
+hpwt	嵀 秔 稸
+hpwn	稕
+hpws	稡
+hpwv	穧
+hpyf	秮 穚
+hpyg	嶘
+hpyq	秏 穖
+hpys	䅟 穇
+hpyr	稀
+hpyv	種 穤
+hpyw	稄 稯
+hpyy	稝
+hmbf	臱
+hmbd	崱
+hmbx	巊
+hmbz	邊 遉 邉
+hmpj	臲
+hmpq	鷍
+hmpw	甈
+hmmw	爠
+hmdb	臰
+hmdn	衅
+hmdg	衃
+hmtd	劓 齈 齉
+hmtt	爅
+hmtn	鼻
+hmtl	鼽
+hmtg	鼾 睾 嶧 燡
+hmtk	齄
+hmtj	齁 齃 齆
+hmtq	齅
+hmts	鼼 鼿 齂 齇
+hmtw	齀
+hmlt	衄
+hmlr	臮
+hmlv	鄎
+hmgd	衇
+hmkh	衈
+hmhn	羋
+hmjl	鼑
+hmqv	鄓
+hmcq	衊
+hmst	埊
+hmsq	鷱
+hmsx	翺
+hmss	臯
+hmsr	崉
+hmsy	燭
+hmwf	衉
+hfmb	熉
+hfms	覘
+hffp	燥
+hfff	嵓 煰
+hffj	崿
+hffs	燀
+hffw	巖 巗
+hfdb	頕
+hfnq	鴩
+hfnv	鄅
+hflh	劮
+hflw	嶉
+hfkd	虞
+hfkq	嶯 鸆
+hfzj	崺
+hfsg	兎
+hfvp	梷
+hfyg	战
+hfyy	爞
+hdpm	嶙 燐 飜
+hdpt	番
+hdpn	释 𬸪
+hdpl	悉
+hdpg	釋 釈
+hdph	勫
+hdpq	鷭
+hdpx	翻 嵝
+hdpv	鄱
+hdpy	釉
+hdmb	煩 崸
+hdmg	炋
+hdmk	岯
+hdmr	嶒 熷
+hdmw	巎
+hddx	燎 嶚 嶛
+hdds	𪨶
+hdtt	煃
+hdtc	崻
+hdnb	顓 歂
+hdnd	剬 煗
+hdnl	乯
+hdnz	遄
+hdnr	烦 颛
+hdnv	峏 耑
+hdlb	炼
+hdgh	焍
+hdkm	崎
+hdkd	烪
+hdkn	烊
+hdkk	嵯 嵳
+hdkh	嵰 熑
+hdkx	巕
+hdkz	燧 輋
+hdkc	煫
+hdkw	巙
+hdky	嵫
+hdhw	嶶
+hdjb	頫
+hdjd	兆
+hdjq	鴵
+hdjz	逃
+hdjs	覜
+hdjr	𫖯
+hdjv	鼗
+hdxn	嵂
+hdxc	嶟 燇
+hdxv	崷 煪
+hdsx	崭
+hdrj	崦
+hdrz	嵷 嵸
+hdrs	𬊤
+hdvm	烆
+hdwd	嵄
+hdwq	嶬 燨 爔
+htbw	崚
+htmb	顱
+htmq	鸕
+htms	覤
+htfb	頶
+htff	靠
+htfn	鹄
+htfh	勂
+htfq	鵠
+htfz	造
+htfv	郜
+htdz	燵
+httc	崶
+htts	燒 嶢 嶤
+htlh	虜 勴
+htlq	嶻 虪
+htkd	煨 嵔
+hthb	贙
+htht	虤
+hthh	爀
+hthy	嵐 煈
+htcv	甝
+htsb	贊
+htsd	劗
+htsz	选
+htss	兟
+htsr	赞
+htsv	虝 酂 酇
+htym	熆
+htyg	虥
+hnbf	烱 犗
+hnbn	牸
+hnpk	焑
+hnmb	犤
+hnmq	犑
+hndm	犄
+hndd	奥
+hndl	煾
+hndk	烟
+hndh	崗 嶴 焵
+hndj	牠 粤 焹 犈
+hndq	犧 犠
+hndw	犪
+hntb	顜
+hntj	觏
+hntz	遘
+hntc	特
+hnts	斠 覯
+hnnb	犋
+hnnk	牭
+hnnh	犅
+hnlf	犃
+hnlh	牞
+hnlq	犥
+hnlv	犝
+hnlw	嶊
+hngn	犕
+hngk	卣
+hngz	逌
+hngc	犏
+hngv	犌
+hnkm	牱
+hnkk	龜 牼
+hnhf	牿
+hnhd	奧
+hnhn	牪 犇
+hnhh	牬
+hnhj	粵
+hnhs	犐
+hnhv	牲
+hnjg	牳
+hnqp	犔
+hnqn	鹅
+hnqg	牻
+hnqq	鵝 鵞
+hnxf	牾
+hnxg	牴 犍
+hnzb	犢
+hncb	欳
+hncn	犡
+hnsp	皻 鿯
+hnsf	牯
+hnsd	犊
+hnsl	惣
+hnsk	崮 崓
+hnsh	犓
+hnss	犆 覰
+hnsv	物
+hnsy	犣
+hnrm	熅
+hnrs	犦
+hnvk	囪 卥
+hnvq	焨
+hnwf	犒
+hnwt	牨
+hnwn	犉
+hnwl	悤
+hnwk	囱
+hnwj	牤
+hnws	烿
+hnww	犜
+hnyb	顖
+hnyf	犞
+hnyn	禼
+hnyl	恖 鹶
+hnyg	牫 鹷
+hnyk	卤 囟 鹾 鹵 鹺
+hnyh	鹻
+hnyq	鹹 牦
+hnys	犙
+hnyr	鹼 鹸
+hlbf	嵭
+hlbs	烨
+hlbr	崹
+hlpw	雑
+hlmn	崡
+hlmw	峳
+hldb	頄
+hldm	馗
+hlnf	熵
+hlnq	鳩
+hlgp	煣
+hlgf	燏
+hlgk	燈 嶝
+hlgz	熥
+hlkb	巃 巄 爖
+hlkm	嵜
+hlkf	焙 㟃
+hlkl	燱
+hlkq	熾
+hlkz	嶂
+hlkv	燑
+hlhb	燲
+hlhd	峁
+hlht	虓
+hlhq	熁
+hlqn	齾
+hlcs	嵃
+hlcv	嵼
+hlsm	煒
+hlwf	巂
+hlwn	嶲
+hlwj	虧
+hlwq	嶕 嶣 燋
+hlwv	酅
+hgms	汆
+hgmv	煆
+hgmy	爥
+hgfy	嵹
+hgdp	籴
+hgdd	嵶
+hgdh	燫
+hgdr	颅
+hgdw	糴
+hgnl	焖
+hgnq	鳰
+hglf	焗
+hglg	乏
+hglq	鴔
+hggb	爌
+hggj	熩
+hggx	煽
+hggc	煸
+hggv	烬
+hgkv	兪
+hghg	幷
+hghz	逬
+hghw	甁
+hgxb	焮
+hgxf	嵣 煻
+hgxs	嵻
+hgxr	焿
+hgcq	熫
+hgsp	巈
+hgsf	崌
+hgvc	嶎
+hgyb	熿
+hkbg	黻 黼
+hkbc	黺
+hkmb	嵿
+hkmp	煉
+hkfb	顗
+hkfp	敱
+hkfm	岢 炣
+hkfd	剴
+hkft	凱 煏
+hkfg	戲
+hkfk	豈
+hkfj	嶇 熰
+hkfq	獃
+hkfs	覬 覻
+hkfw	敳
+hkfy	颽
+hkdp	崃 糳
+hkdf	菐
+hkdd	峡
+hkdn	凿
+hkdl	懟
+hkdg	丵
+hkdj	鑿
+hkdq	鸈
+hkdc	對
+hkds	岼
+hkdv	叢 鄴
+hkdw	業
+hknj	炖
+hkgd	彂
+hkgj	炬 岠
+hkgs	崋
+hkgr	峓
+hkqg	峬 烳
+hkqc	煿
+hkqr	嶆
+hkxg	烒
+hkxz	崨
+hkzx	嶄 嶃
+hkcd	劇
+hkct	嶳
+hkch	勮
+hkcz	遽
+hksk	烴
+hksr	𫶇
+hkrp	崍 崠 崬
+hkrk	峘 烜
+hkrr	峽
+hkry	峺
+hkyt	峌
+hkyj	岖 𬉼
+hhbp	榮 檾
+hhbf	營
+hhbd	褮
+hhbt	塋 焭
+hhbn	犖
+hhbl	憥
+hhbg	瑩
+hhbh	勞 嵤 熒 罃
+hhbj	鎣
+hhbq	鶯 膋
+hhbx	縈 嫈 禜
+hhbs	滎 煢 覮
+hhbv	醟
+hhbw	甇 謍
+hhby	螢
+hhpd	峲
+hhpg	熪
+hhph	煍
+hhpx	崣
+hhps	嵙
+hhpy	巍
+hhmp	嵲
+hhml	熄
+hhms	覢
+hhdb	歑 顃
+hhdd	烑
+hhdt	燔 嶓
+hhdn	烀 虖
+hhdv	煓
+hhtb	巑
+hhtm	爐
+hhtf	㸆 峼 焅
+hhtl	爈
+hhts	烍
+hhnd	燠
+hhnt	煹
+hhnl	熜
+hhnq	峨 峩 鶑
+hhnw	炿
+hhlq	巘 巚
+hhlw	熣
+hhkb	歔 虡
+hhkg	巇 戯
+hhkk	嵦
+hhkj	觑
+hhks	覷
+hhkv	爜
+hhkw	嶪 嶫
+hhhb	歘
+hhhp	嶸 燊 爃
+hhhf	巆 煔
+hhhh	嶗 燚
+hhhy	飊
+hhjp	燦
+hhjg	爘
+hhzg	烶
+hhsk	崜
+hhsr	嵊
+hhrb	熴
+hhrp	爍
+hhrw	煌 崲 燩
+hhvx	嶭
+hhvr	巋
+hhwb	顲
+hjmd	煥
+hjmr	燴 焔
+hjft	巉
+hjfx	嶖 熻
+hjfc	爚
+hjfr	嶮
+hjdr	𫖮
+hjnd	焕
+hjnc	崙 崘
+hjgp	粲 嵥
+hjgd	刿
+hjgg	餐
+hjgk	韰
+hjgx	翙
+hjkb	嶼
+hjks	煅
+hjqd	嵛 崳
+hjqg	㠇
+hjxm	峥
+hjxs	燬
+hjcn	嶰
+hjcj	峗 峞
+hjcw	嶦
+hjsk	崄
+hjvq	燃
+hqmh	岈
+hqmv	峫
+hqdp	熂
+hqkb	躰 軉
+hqkp	躲 躱 躶 躹
+hqkm	躸
+hqkf	躺 躳
+hqkd	躼 躾
+hqkl	躵 軈
+hqkg	躬 躴
+hqkk	躻 軆
+hqkh	身 軂
+hqkj	軀 躯 躽
+hqkq	軄 鵢
+hqkx	躷 軁
+hqkc	射 躮 軇
+hqks	躭 躿 軃
+hqkw	軅
+hqcd	嶩 燶
+hqsr	嶜 熸
+hqvg	炦
+hqvr	嵽
+hxmm	熽
+hxng	煡
+hxlf	焐 峿
+hxlg	巀
+hxlw	熦
+hxkb	熕
+hxhf	峮
+hxjg	岻
+hxjr	崏 焝
+hxxk	熤
+hxxc	燖
+hxxs	嵺 熮
+hxxr	熠 嶍
+hxxw	燿
+hxsm	燼
+hxvx	熛
+hzbw	燰
+hzmc	爝
+hzmv	炸 岝 岞
+hzff	熺
+hzdb	巔
+hzdj	炧
+hzdr	巅
+hznq	鵫
+hzlb	頲
+hzln	烰
+hzlg	廷 烻
+hzlc	嶹 燽
+hzlr	颋
+hzgv	嵈 煖
+hzjg	烸
+hzxm	崢
+hzxl	嶾
+hzzh	熎
+hzyd	嵠
+hcbp	嵘
+hcbh	崂
+hcbc	㠓
+hcmq	嵗
+hcfq	嵅 煘
+hcfw	巏 爟
+hctt	崖 崕
+hcnb	嶡 嶥
+hcnd	煐
+hclh	𫵷
+hclq	峸 爑
+hclw	嵟
+hckp	煠
+hckf	熯
+hckg	戱
+hcks	燁
+hchm	爏
+hcxj	嶏
+hcxq	崴
+hccn	巁 爄
+hcsl	燪
+hcsj	嵁 煁
+hcsx	燍
+hcrn	燤
+hcrj	嶱
+hcry	爡
+hcvb	嵌
+hcvp	煤 爤
+hsmb	乖
+hsmd	剩
+hsmr	乘
+hsmv	埀
+hsfb	頢
+hsff	舙
+hsfd	刮
+hsft	舑
+hsfn	鸹
+hsfl	憩 憇
+hsfh	舕
+hsfj	乱 舐
+hsfq	爣 鴰
+hsfx	辞
+hsfz	适
+hsfs	舔 舏
+hsfr	龦
+hsfv	甜 舓
+hsfw	敌 舚
+hsfy	煳
+hsdc	嶈
+hsng	煵
+hsnh	煼
+hsnq	𪩘
+hsny	爉
+hslb	牌 牘
+hslp	牒
+hslm	牗
+hslf	版 牊 牓
+hsld	牍 牏
+hsln	牉
+hsll	牎 牕
+hslg	牖 牋
+hslj	牐
+hslc	牑 牔
+hsls	覑
+hsgk	垂
+hsgv	郵
+hsgw	甀
+hskj	岷
+hshq	嶽
+hsjb	歃
+hsjp	敮
+hsqj	烤
+hscb	燌
+hscs	焼
+hscw	巌
+hsrq	嵴
+hrbb	崑 崐 焜
+hrbd	卽 皍
+hrbt	墍
+hrbk	曁
+hrbs	旣 皖
+hrby	魄
+hrmb	皉
+hrmj	皅
+hrms	泉 兠 灥
+hrmv	熳
+hrfq	鸄
+hrfx	嶁 熡
+hrfz	邀
+hrfw	敫 譥
+hrdk	皏
+hrdq	鷎
+hrdx	翱
+hrds	皋
+hrtc	嵵
+hrts	皢
+hrnf	皗
+hrlb	嶺
+hrlf	焓
+hrll	焾
+hrlg	岭 岺 廹 炩
+hrlk	煜
+hrlh	劰
+hrlj	炝
+hrlq	皫
+hrls	兜
+hrly	皎
+hrgs	爆 熚
+hrkv	煬 崵 熶
+hrhp	皪
+hrhf	皓
+hrht	皤 皨
+hrhn	焺
+hrhk	皚
+hrhj	皑
+hrhq	皒
+hrhs	皞 皡 皥
+hrhr	皛
+hrhv	煋
+hrhw	皠 皦
+hrxf	嵢 熗
+hrzc	皭
+hrzw	皧
+hrcq	燳
+hrcs	爗 皣
+hrsp	楽
+hrsj	嵑
+hrsx	翶
+hrss	㿠 熀 皐
+hrsv	焬
+hrrg	皊 皔
+hrrx	緜
+hrvb	皟
+hrvq	皘
+hrvy	烩
+hrwf	皜
+hrwz	遑
+hrws	皝 皩
+hryp	樂
+hryw	皬
+hvmr	歸
+hvfy	蛗
+hvdb	頧
+hvth	甥
+hvnq	鴭
+hvkr	師
+hvhq	甧
+hvhv	甡
+hvxk	烃
+hvsb	顊
+hvvp	爛
+hvvl	燜
+hvvj	爓
+hvvr	熌
+hvvy	燗 燘
+hvwv	嶐
+hwbm	嵉
+hwbt	煷
+hwfd	爙
+hwnp	燺
+hwnf	嵩 嵪 熇
+hwnn	巐
+hwln	崞 焞
+hwlw	燉 焲
+hwhp	燣
+hwhx	燷
+hwsm	峰 烽 峯
+hwsz	熢
+hwrs	崒 崪 焠
+hwyq	焴
+hwyr	峐 烗
+hybb	舭
+hybw	峻 焌
+hyby	舩
+hymh	爋
+hymj	舥
+hymq	燻
+hyfm	舯
+hyff	嶠 燆
+hyfk	爧
+hyfq	艥
+hydm	艏 艗
+hydg	舦
+hydk	艖
+hydj	舿
+hydq	艤
+hydv	嶿 燸
+hytf	船
+hynm	艒
+hynq	鵃
+hynw	嵏 嵕
+hylm	艋
+hylf	艕
+hylk	艠
+hylh	岰
+hylv	艟 艭
+hylw	㸌
+hygf	艍
+hygg	舮 艆
+hygq	艉
+hygc	艑
+hygv	艔
+hygy	舣
+hykm	舸
+hyks	烧 峣
+hykr	艚
+hyhm	艫
+hyhf	艁
+hyhg	艇 舻 舧
+hyhh	艣
+hyhr	舶 艊
+hyhw	艎
+hyjp	艅
+hyjt	艬
+hyjr	艪
+hyjv	艘 艃
+hyqj	胤
+hyqq	崤
+hyqr	烯 艜
+hyxk	舡
+hyzm	爁
+hyzd	艞
+hyzn	艀
+hyzs	爦
+hyzv	舴
+hycp	艓
+hycc	艨
+hycv	艧
+hysp	槃
+hysm	盤
+hysf	磐
+hysd	褩
+hyst	艡
+hysn	搫
+hysg	鞶
+hysh	艢
+hysj	鎜
+hysq	艄 熈
+hysx	媻 縏
+hysr	幋
+hysv	煄
+hysy	螌
+hyrf	艙
+hyrl	艌
+hyrg	燯 舲
+hyrj	舱
+hyrx	艛
+hyvt	熞
+hyvj	嶀
+hywm	舽 艂
+hywt	航
+hywh	艈
+hywv	艩
+hywy	舷
+hyym	艦
+hyyd	剻
+hyyx	艝
+hyys	嵾
+hyyw	艐
+jbbr	谐 鍇
+jbby	鑹
+jbmb	鎭
+jbds	诨
+jbns	谊
+jblm	鑏
+jblr	鏥
+jbkb	鏔 鑌
+jbkk	鍹
+jbkz	鍕
+jbkc	鎵
+jbhq	诧
+jbhz	鑳
+jbjj	鋺
+jbjx	鑔
+jbqy	鋐
+jbcg	鑧
+jbsf	鎋
+jbvx	錝
+jbvs	鋎
+jbyx	鎓
+jplw	雓
+jphh	嵞
+jpvd	厁
+jpvt	㙦
+jpvs	斜
+jpyn	鑻
+jmbd	鍘
+jmmv	钁
+jmmw	鑺
+jmtg	鐸
+jmkm	鎠
+jmkd	鐶 𫍽
+jmjl	鐤
+jmcq	鐬
+jmsm	盥
+jmsr	錔
+jmsy	觸 鐲
+jmrb	朇
+jmrd	劊
+jmrn	鑡
+jmrv	鄶
+jmvb	鉳
+jmvz	遚
+jmvv	鄋
+jmyw	鑼
+jfbd	劖
+jfbt	毚
+jfbv	酁
+jfpm	樖
+jfmf	鏴
+jffb	歛 鑚 顩 龡 龥
+jffp	鐰 龢
+jffm	鋛
+jffd	劍
+jffg	劔
+jffj	谔 鍔
+jffq	鸙
+jffc	龠 劎
+jffs	觶 龣
+jffr	僉 劒 鐟 龤
+jffw	斂
+jfdb	頜
+jfdr	颌
+jfnn	搻
+jfnq	鴿
+jflb	龕
+jfkd	误 鋘
+jfkh	鍓
+jfqg	龛
+jfxb	歙
+jfxm	盫
+jfxx	翕 翖
+jfzd	鏃
+jfzj	鍦
+jfzz	鏇
+jfsb	鐀
+jfsz	谴 鑓
+jfrd	剣
+jfrr	剱
+jdbb	袕
+jdbf	谘
+jdbg	褣
+jdbz	褌
+jdbc	衯
+jdbs	衴 裈
+jdbw	襒
+jdby	衳
+jdpm	鏻
+jdpn	襻
+jdpx	襟
+jdpz	谜
+jdps	毇
+jdmb	襬 顉
+jdmg	补 襗 鈈
+jdmk	鉟
+jdmq	褙 褃
+jdms	銔
+jdmr	鏳
+jdmw	夓
+jdmy	襡
+jdfp	襙
+jdfm	衶
+jdfj	錈
+jdfq	裐
+jdfs	襌
+jdfw	裎
+jddm	裄 裿
+jddf	袥
+jddn	袢
+jddk	褨
+jddj	衪 袴 裷 裺
+jddx	褛 裞 鐐
+jddz	裢 褷 襚
+jdds	褝
+jddr	袹
+jddv	袻
+jdtd	褤
+jdtt	袿 鍷
+jdtg	褂
+jdtq	襶
+jdts	襓
+jdtw	裬 褹
+jdty	袪
+jdnf	裯
+jdnt	袡
+jdng	衱
+jdnk	裀 裍
+jdns	袓
+jdnv	衻
+jdnw	袇
+jdlb	襱
+jdlp	褓 襍
+jdlm	褘
+jdlf	襥
+jdld	袂
+jdlq	袱
+jdlz	袵
+jdlc	袝
+jdls	襯 襏
+jdlr	褅
+jdgp	襕
+jdgm	銂
+jdgf	裾
+jdgt	褫
+jdgh	銻
+jdgz	褲 褪
+jdgc	褊
+jdgs	裤
+jdgr	裥 褯
+jdgy	襁
+jdkb	襰
+jdkp	襋
+jdkm	谥 袔 觭 錡 鎰
+jdkf	鐥
+jdkd	鎆
+jdkt	褔
+jdkn	详 衧 觧
+jdkl	襹
+jdkg	補 裲
+jdkk	裋 鎈
+jdkh	谦 襵 鎌
+jdkj	褗
+jdkq	裓
+jdkx	褄
+jdkz	褳 鎹 鐩
+jdkc	谫
+jdkr	谱 裌 褿 襫 鐠
+jdky	襧 鎡
+jdhb	襸
+jdhm	裇
+jdhf	袟 袩 襆
+jdhd	襖
+jdht	裭 褠 襎
+jdhn	襣
+jdhh	裑 裧
+jdhz	衽
+jdhc	襨
+jdhr	袙
+jdhv	褍
+jdjf	袷
+jdjd	褕
+jdjn	襷
+jdjg	袯 袳
+jdjk	裣
+jdjc	褖
+jdjr	襘 襝
+jdjv	裡
+jdjw	襜
+jdqm	裫
+jdqd	襛
+jdqn	袸
+jdqg	袚
+jdqk	袏
+jdxf	裙 袽
+jdxg	袛
+jdxj	衹
+jdxx	褾
+jdxc	襑 鐏
+jdxs	褼
+jdxr	褶
+jdzb	襩 襭
+jdzf	袺 鿋
+jdzj	袘
+jdzx	袮
+jdzv	褑
+jdzw	複
+jdcb	褀
+jdcp	褋 襽
+jdcf	褡 袑
+jdcd	诼 裖
+jdcg	襔
+jdcj	袣
+jdcq	襪
+jdcc	褥
+jdcy	襺 襼
+jdsb	舆
+jdsd	袀 褉
+jdst	襠
+jdsn	錛
+jdsg	襈
+jdsh	裪
+jdsx	裆 裃
+jdss	袍 錓
+jdsr	褚
+jdsv	衼
+jdrb	裩
+jdrp	裸
+jdrm	褞
+jdrl	衿
+jdrg	袊
+jdrk	袒
+jdrj	褐
+jdrq	衸 襳
+jdrx	褸 褟
+jdrz	褆 鏦
+jdrs	觯 袗 襅 襮
+jdrr	裮
+jdrv	裼 襊
+jdvb	襀
+jdvp	褬 襴
+jdvm	褴
+jdvd	裱 袆
+jdvg	衩
+jdvj	銙
+jdvx	錼
+jdvr	襇 𫌀
+jdvv	裰
+jdvy	襉
+jdwm	袶
+jdwf	袼
+jdwd	鎂
+jdwn	褵 觲
+jdwk	襢
+jdwh	裗
+jdwy	袨
+jdyb	褦
+jdym	襤
+jdyh	袎
+jdys	襂
+jdyv	襦 褈
+jtbt	錴
+jtbw	谡 錂
+jtfd	鎱
+jtfq	鐵 鐡
+jtdz	鐽
+jttt	鑘 鑸
+jtts	鐃
+jtlh	舅
+jtkd	鍡
+jtjb	興
+jtjg	璺
+jtjh	爨 爂
+jtjq	臖
+jtjc	釁
+jtjs	舋
+jtrq	鎅
+jtym	鎑
+jtyx	鏍
+jndk	銦
+jndh	鋼
+jndj	龬
+jntf	调 錭
+jnnk	銏
+jngb	錪
+jnsg	觩 銶
+jnsk	錮
+jnsh	鋤
+jnrw	夐 敻
+jlbf	谤 鎊
+jlbr	谛 鍗
+jlmq	鏅
+jlms	鎀
+jltd	侴
+jlnm	錳
+jlnf	谪 鏑
+jlnq	鵋
+jlld	鍭
+jlgp	鍒
+jlgf	谲 鐍
+jlgd	鍨
+jlgn	诵 銿
+jlgk	鐙
+jlgs	鏺
+jlkb	彘 鑨
+jlkp	彙
+jlkm	盠
+jlkf	词 鉰 錇
+jlkd	剝 剶 劙
+jlkn	彝 彜
+jlkl	鐿
+jlkq	鶨
+jlkz	鏱
+jlkc	彖
+jlks	鏡 彔
+jlkr	谙
+jlkv	鐘
+jlky	蠡
+jlhf	鉫
+jlhd	鉚
+jlhz	銋
+jlzq	谞
+jlcs	谚
+jlcv	鏟
+jlsb	貫
+jlsm	鍏
+jlsz	遦
+jlsr	贯
+jlvs	觮 録
+jlwp	鏶
+jlwd	袰
+jlwn	觹 鎸 鐫
+jlwg	母
+jlwj	毑
+jlwq	谯 鐎
+jlws	鎨
+jgbb	夤
+jgbz	禈
+jgmb	夞
+jgmg	外 釽
+jgmq	禙 禡
+jgmx	禤
+jgmz	迯
+jgms	視
+jgmv	鍜
+jgmy	钃
+jgfm	祌
+jgfd	祦
+jgfn	祸
+jgfz	鐹
+jgfs	禪
+jgfy	鏹
+jgdb	禷
+jgdf	祏
+jgdn	祥
+jgdh	鐮 祶
+jgdj	祂
+jgdq	禚
+jgdx	祱
+jgdz	禭
+jgds	禅
+jgdv	禉
+jgdy	禌
+jgtl	禗
+jgtg	禩
+jgtw	祾 禝
+jgty	祛
+jgnp	谰
+jgnf	禂
+jgnk	祵 祻
+jgns	祖
+jglm	眢 盌 禕
+jglf	祠 鋦
+jgln	鸳
+jgll	怨
+jglj	夗
+jglq	鴛 駌
+jglx	妴
+jglc	祔
+jgls	禄
+jglr	禘
+jggb	鑛
+jggf	禍 禟
+jggt	禠
+jggq	錑
+jggx	祈
+jggc	谝 鍽
+jgkf	诟 銗
+jgkd	祆
+jgkt	福 祬
+jgkq	祴
+jgkz	龲
+jgkc	禣
+jgky	禰
+jghb	禎 禶
+jghf	祑 祰
+jghd	祧
+jghz	祍
+jghr	祯
+jghv	夝
+jgjf	夡 祫
+jgjd	卶
+jgjg	多
+jgjj	夠 祪 郺
+jgjx	祢 翗
+jgjz	迻
+jgjc	禒 禴
+jgjs	祿
+jgjr	禬
+jgjv	鎯
+jgqb	鐨
+jgqp	桀
+jgqm	舛
+jgqf	祐
+jgqd	禯
+jgqg	祓
+jgqk	禮
+jgqv	鿆
+jgqw	鏾
+jgxb	鍁 鑕
+jgxm	鏞
+jgxf	鎕
+jgxt	禋
+jgxg	祗
+jgxj	祇
+jgxx	祤
+jgxz	禫
+jgxs	鏮
+jgxv	祲
+jgzf	禧 祮
+jgzd	祣
+jgzc	禱
+jgzv	祚 禐
+jgcb	祺
+jgcp	禖
+jgcf	祒
+jgcd	祳
+jgct	禥
+jgcn	禲
+jgcq	鏣
+jgcv	鍍
+jgsm	鍎
+jgsf	鋸 祜
+jgsd	禊
+jgsh	祹
+jgsc	祷
+jgss	禃
+jgsr	禇
+jgrb	禵
+jgrp	祼
+jgrn	禑
+jgrg	飧
+jgrq	祄
+jgrx	禢
+jgrz	禔
+jgrv	禓
+jgvd	祎
+jgvs	斘
+jgwf	禞
+jgwd	禳
+jgws	祽
+jgyb	觵 鐄
+jgyg	鿅
+jgyq	禨
+jkbh	鿹
+jkbx	𩽾
+jkbs	鲩
+jkby	鑈
+jkmp	鍊 谏
+jkmk	卐
+jkmj	鲃
+jkmv	鳏
+jkfb	鏉
+jkfp	觫 鋉
+jkfm	诃 鈳 鎶
+jkft	鍢
+jkfk	鋀
+jkfj	鳄 鉕 鏂 鑎
+jkdm	鳞
+jkdf	鳝
+jkdn	鲜
+jkdh	鳒
+jkdz	鲢
+jkdc	鳟 鳉
+jkds	评
+jkdr	𫚕
+jkdv	鲕
+jktd	鳂
+jktt	鲑
+jktl	鳃
+jktw	鲮
+jkty	鍅
+jknf	鲷
+jknd	鲗
+jknk	鲴
+jknj	鈍
+jknq	诫
+jknw	鿕
+jklf	鳑
+jkln	鲬
+jklg	鋱
+jklc	鲋
+jklr	鳍 鿷
+jkly	鲛 鲺
+jkgm	鳙
+jkgf	鲘
+jkgd	鎃
+jkgg	鿶
+jkgh	鳓
+jkgj	讵 鉅
+jkgc	鳊 鳚
+jkgs	𩾌
+jkgr	銕
+jkkp	𬶠
+jkkm	鲄
+jkkd	𬶟
+jkkt	鲾
+jkkg	鲡
+jkkj	鲀
+jkks	鲆
+jkkv	鲰
+jkky	鲠
+jkhp	稣
+jkhf	鲇
+jkhd	𬶐
+jkht	鿸
+jkhg	鲈
+jkhh	鳅 鑷
+jkhj	銸
+jkhx	鲧
+jkhs	鳈
+jkhr	鲌
+jkhv	诹 鋄 鋷 鎁
+jkhw	鳇 錽
+jkjb	與 歟
+jkjf	礜
+jkjd	鲫
+jkjn	舉 擧
+jkjg	釴
+jkjj	𬶏
+jkjq	舃 鉞 鸒
+jkjx	𬶭
+jkjz	轝
+jkjs	鲵
+jkjv	鲤
+jkjw	譽
+jkqg	鋪 鱿 鲅
+jkqk	鳢
+jkqq	鲔
+jkqc	鎛
+jkqr	鏪
+jkxf	鲪
+jkxd	䲟
+jkxg	试 鉽
+jkxx	鳔
+jkxc	鲟
+jkxr	鳛
+jkzb	輿
+jkzf	鲒 𬶮
+jkzl	鿵
+jkzh	鳐
+jkzj	錷
+jkzx	鏩
+jkzz	鏈
+jkzv	鲊 鳤
+jkzw	鳆
+jkcb	鳜 鲯
+jkcp	鲽
+jkcl	鐚 鳡
+jkck	錏
+jkcv	鳠
+jkst	鲻 鍿
+jksk	鋞
+jksj	鲓
+jkss	鲍
+jksr	鲼 䲠
+jksy	鲿 𫚭
+jkrb	鲲
+jkrp	錬 錸
+jkrm	鳁
+jkrl	鲶 鏸 𬤝
+jkrj	鉔
+jkrx	鳎
+jkrz	鳀
+jkrc	鲥 鏄
+jkrr	鲳 鋏
+jkrv	鳗 鐋
+jkry	鲙
+jkvt	鲣
+jkvq	鲭
+jkvy	鳋
+jkwk	鳣
+jkwj	诓
+jkwq	鲚
+jkwv	鿴
+jkyf	鲐
+jkyt	銍
+jkyj	讴
+jkyx	鳕
+jkys	鲹
+jkyr	鏯
+jhpp	鏫
+jhpd	鋓
+jhpt	鋵
+jhpn	诱 銹
+jhph	鍬
+jhpx	诿 錗
+jhps	鑗
+jhpr	鑙
+jhmb	鍞
+jhmp	鎳
+jhml	鎴
+jhdd	銚
+jhdt	鐇
+jhdl	鏭
+jhdv	鍴
+jhtb	鑽
+jhtm	鑪
+jhtf	诰 鋯
+jhtl	鑢
+jhth	鐪
+jhts	诜 銑
+jhty	銩
+jhnb	鎞
+jhnd	鐭
+jhnl	鏓
+jhnk	鏀
+jhnq	鋨
+jhnw	鎫
+jhlf	觿 鑴
+jhln	觽
+jhlq	钀
+jhlw	鏙
+jhkf	鏷
+jhkk	鎧
+jhkc	鐻 鑆
+jhhp	鑅
+jhhn	鏬
+jhhh	鐒
+jhqh	銵
+jhqc	谢
+jhzg	鋌
+jhcg	錌
+jhsf	话 銛
+jhsl	懖
+jhsk	錘
+jhsj	鍤
+jhrp	鑠 觻
+jhrr	錦
+jhrw	鍠
+jhvg	发
+jhvz	鎚
+jhwm	鎽
+jhyy	鏰
+jjbv	馆
+jjpk	馇
+jjmj	銫
+jjmv	馋 鎪 𫍲
+jjft	鑱
+jjfn	鎿
+jjfc	鑰
+jjfr	馈 鐱
+jjfy	蚀
+jjdt	馐
+jjdk	饼
+jjtm	馌
+jjnd	馕
+jjnq	鵮
+jjnc	錀
+jjnw	觼
+jjlb	鏆
+jjlf	饲
+jjlt	馏
+jjlg	鉧
+jjls	錄
+jjlv	饧
+jjly	饺
+jjgf	銘
+jjgg	够 鉹
+jjgq	馉
+jjgs	鎺
+jjgr	鉯
+jjgw	馓
+jjkp	𫗧
+jjkm	饤
+jjkk	饾
+jjkh	饵
+jjkj	饨
+jjkc	馎
+jjks	鍛
+jjhh	燄
+jjhq	饿 饦
+jjhz	饪
+jjjp	馀
+jjjf	饸
+jjjj	馅
+jjjv	馊
+jjqd	谕 鍮
+jjqr	鑥
+jjxm	錚 诤
+jjzh	饬
+jjzx	馁
+jjzr	饰
+jjcd	馍
+jjcj	诡 觤
+jjcv	馑
+jjcw	谵
+jjsn	饽
+jjsg	馔
+jjss	饱
+jjrb	馄
+jjrp	馃
+jjrv	馒
+jjvq	饯
+jjwf	饹
+jjwd	饻
+jjwk	𫗴
+jjyf	饴
+jjys	饶
+jjyw	馂
+jqbb	魮
+jqbt	鰘
+jqbg	鰫
+jqbk	鰚
+jqbx	鮟 鯮
+jqbz	鯶
+jqbc	魵
+jqbs	魫 鯇
+jqbr	鮨
+jqmd	鰂 鱞
+jqmn	銌
+jqmh	讶 釾
+jqmq	鰢 鱡 鱥
+jqmr	鱰
+jqmv	鰥 鋣
+jqfp	鱢
+jqfj	鰐
+jqfs	鱓
+jqfv	鯲
+jqdb	歈
+jqdp	鎎
+jqdm	鱗
+jqdf	鱔 鮖
+jqdt	鱃
+jqdn	鮮
+jqdl	愈
+jqdg	鱶
+jqdk	魾 鮩
+jqdh	鮷 鰜
+jqdj	觎 鮬
+jqdq	毹
+jqdx	鮵
+jqdz	逾
+jqdc	鱒
+jqds	覦
+jqdr	鱛
+jqdv	鄃 鮞 鰌
+jqdy	鰦
+jqtm	鰪
+jqtd	鰃
+jqtt	鮭 鯥
+jqtl	鰓
+jqtz	鯐
+jqts	鱙
+jqtw	鯪
+jqty	魼
+jqnm	鰮
+jqnf	鯛
+jqng	魥 鯄
+jqnk	鮂 鯝
+jqnq	鷠
+jqnx	鱦
+jqlb	魤
+jqlp	鮴 鰇
+jqlm	魣 鯭
+jqlf	鰟 鱊
+jqld	鯸
+jqlt	鰡 鰷
+jqln	鯒
+jqlg	鮘
+jqlq	鮲
+jqlx	鯜
+jqlz	鱆
+jqlc	鮒
+jqls	鱍
+jqlr	鰭
+jqly	鮫 鯴 鯾
+jqgb	鱑
+jqgm	鱅
+jqgf	鮜
+jqgd	鰯
+jqgg	魲 鯳
+jqgh	鰳
+jqgq	鮄
+jqgc	鯿
+jqgs	鱇
+jqgv	鰕
+jqkp	鯟 鯠 鰊
+jqkm	魺
+jqkd	鯻
+jqkt	鰏
+jqkl	鱺
+jqkg	鯆
+jqkk	魱
+jqkh	鯋
+jqkj	魨 鮔 鮿 鰋 鰸
+jqkz	鰱 鱁
+jqkc	鱄
+jqks	鮃
+jqkr	魳 鮧 鰽
+jqkv	鯫 鿐
+jqky	鯁
+jqhp	穌 鱳
+jqhm	鱸
+jqhf	鮎 鯌
+jqhd	鮡 鯏
+jqht	鯱 鱕 鿳
+jqhn	鯚
+jqhl	魸
+jqhg	魞
+jqhk	鱋
+jqhh	鰍 鯓
+jqhq	魠
+jqhx	鯀 鯘
+jqhs	鰁
+jqhr	鮊 鰤
+jqhv	鮏
+jqhw	鰉
+jqhy	鰬
+jqjb	鱮
+jqjp	鮽
+jqjf	鮯
+jqjd	鯽
+jqjn	鹫
+jqjg	就
+jqjj	鮠
+jqjq	鱻 鷲
+jqjx	鰶
+jqjz	蹵
+jqjc	鯩
+jqjs	鯢 鰰
+jqjr	鱠
+jqjv	鯉
+jqqg	魷 鮁
+jqqk	鱧
+jqqq	鮪 鰖
+jqxm	鱐
+jqxf	鮶 鯃
+jqxd	鮣
+jqxg	鰎
+jqxk	鱷 魟
+jqxh	魦
+jqxx	鰾 鮙
+jqxz	鱏
+jqxc	鱘
+jqxr	鯞 鰼
+jqxv	鮼 鯂
+jqzf	鮚 鱚
+jqzd	鯯
+jqzg	鯅
+jqzh	鰩
+jqzq	鱵
+jqzx	鮾
+jqzv	鮓 鰀
+jqzw	鰒 鱫
+jqcb	鱖 鯕
+jqcp	鰈
+jqcf	鮉 鰙
+jqcn	鱱
+jqcl	鱤
+jqcq	鯎 鰄 鰔 鱴
+jqcv	魽 鱯
+jqcw	鱹
+jqsb	鱝
+jqsp	槩
+jqsf	鮕
+jqst	塈 鯔
+jqsk	暨 𬶨
+jqsj	鮳
+jqsq	鮹 鱀
+jqsx	鮛
+jqsc	鱂
+jqss	鮑
+jqsr	谮 鐕 鯺 鰆 鱨
+jqsv	魩
+jqsy	鰗 鱲
+jqrb	鯤
+jqrm	鰛
+jqrn	鰅
+jqrl	鯰
+jqrg	魿
+jqrq	魪
+jqrx	鰨
+jqrz	鯷
+jqrc	鰣
+jqrr	鯧 鱪
+jqrv	鰻 鯣 鯹 鰑
+jqry	鿩
+jqvb	鰿
+jqvg	鈸
+jqvq	鯖
+jqvs	魭
+jqvv	鱜
+jqvy	鰠
+jqwf	鮥 鯦 鰝
+jqwt	魧
+jqwn	鯙
+jqwk	鱣
+jqwh	鯍
+jqwq	鰞
+jqwv	鮗 鱭
+jqwy	魰 鮌
+jqyf	鮐 鱎
+jqyt	鰹 鱩
+jqyq	魹
+jqyx	鱈
+jqys	鯵 鰺
+jqyr	鯑
+jqyv	鱬
+jqyw	鮻 鯼
+jxbv	鋟
+jxmm	鏽
+jxmt	鐂
+jxms	覙
+jxfk	鑩
+jxng	鍵
+jxlf	语 鋙
+jxlw	雏
+jxkj	鈣
+jxks	毁 觨 銾
+jxjf	銽
+jxjd	鋹
+jxjg	诋 觝
+jxjr	錉
+jxxc	鐞
+jxxs	谬 鏐
+jxxw	鑃
+jxrk	诬
+jxvx	鏢
+jxwg	玺
+jxwq	煞
+jzbw	鑀
+jzmb	鑟
+jzmv	诈 鈼
+jzdj	鉇
+jzln	鋢
+jzlg	诞 鋋
+jzlc	鑄
+jzlv	觞
+jzgv	谖 鍰
+jzkp	鏼
+jzjg	诲 鋂
+jzzh	谣 鎐
+jzrv	觴
+jzrw	鍑
+jcbw	詹 甔
+jcmq	鑖
+jcfq	鍼 𫍯
+jcfw	鑵
+jctm	鑉
+jcnb	鐝
+jcnd	鍈
+jclb	錵 頠
+jclj	危 鈪
+jclq	诚 鋮
+jclr	𬱟
+jclv	鑊
+jckp	谍 鍱
+jckg	鏋
+jckj	鉪
+jckq	觾
+jckc	鑮
+jcks	鏵
+jckv	谨
+jchn	解
+jchz	邂
+jchy	蟹
+jcjf	鎝
+jcqf	诺 鍩
+jczd	矦
+jccp	鐷
+jccf	鍣
+jccq	鑶
+jcsb	錤
+jcsj	谌 鍖
+jcsq	鏚
+jcsx	鐁
+jcsr	鐯
+jcrd	谟 鏌
+jcvp	谋 钄
+jcvd	鋠
+jcvc	鎒
+jcwh	谎
+jcwj	鋩
+jcwz	鑝
+jsbn	鋍
+jsbx	鎍
+jsmb	鎖 鎻
+jsmd	鍥
+jsmx	鏏
+jsfb	鑜
+jsfp	鏿
+jsft	鐺 鏜
+jsfn	鐣
+jsfq	钂
+jsfs	谠 鎲
+jsfr	鏛
+jsfy	鍸
+jsdl	憌
+jsdc	鏘
+jsnf	鋿
+jsnq	谳 鶂
+jsny	鑞
+jsld	读
+jskd	剑
+jskj	鈱
+jsks	觥 銧
+jskr	鍲
+jskw	敛
+jshc	诪 鋳
+jshw	诳
+jsqj	銬
+jsqr	诸 觰 鍺
+jszh	鋾
+jscb	鐼
+jssg	鐉
+jsrp	鏁
+jsvl	鍃 鍯
+jrbb	錕
+jrmv	谩 鏝
+jrfx	鏤
+jrlf	鋡
+jrll	谂 錜
+jrlg	鈴
+jrgs	鏎 鑤
+jrkc	鍀
+jrkv	鍚
+jrhv	鍟
+jrxf	鎗
+jrxx	鎉
+jrsj	谒 鍻
+jrss	鎤
+jrsv	錫
+jrrt	銼
+jrrj	亀
+jrrq	谶 鑯
+jrvs	斞
+jvmg	錻
+jvms	銢
+jvnb	頯
+jvlm	野
+jvlt	墅
+jvlk	豋
+jvlx	祭
+jvlw	詧
+jvkm	錒
+jvhd	錶
+jvhx	爒
+jvqq	然 黙
+jvzz	遙
+jvrv	鐊
+jvvp	鎟 鑭
+jvvk	鐦
+jvvr	鐧
+jvvv	錣
+jvvy	鐗
+jvwz	邎
+jwfd	鑲
+jwdv	鑇
+jwnf	鎬
+jwln	谆 錞
+jwlw	鐓
+jwhd	銥 鎄
+jwsm	鋒
+jwsz	鏠
+jwrs	谇 錊
+jwyn	鏲
+jwyh	鋶
+jwyq	錥
+jwys	銃
+jwyr	该
+jybq	鼵
+jybz	鼲
+jybc	鼢
+jybw	鋑
+jyps	鎩
+jymb	鼰
+jymq	鑂 鼳
+jyff	鐈
+jydf	鼫
+jydh	鼸
+jydv	鑐
+jytt	鼺
+jytc	鼭
+jynw	鍐
+jylf	鿼
+jygt	鼶
+jygg	錢
+jykj	鼴
+jyhn	鉾
+jyhg	鼮
+jyhv	鼪
+jyqg	鼥
+jyqr	鿻
+jyqw	鑁
+jyxf	鼯
+jyzm	鑑
+jyzd	诶 鼷
+jyzs	鑬
+jycf	鼦
+jysf	鐑
+jysv	鍾
+jyrx	鼹
+jyvb	鑦
+jyvt	鏗
+jyvq	鼱
+jywv	鼨
+jywy	鼤
+jyyb	黌
+jyyp	斅
+jyyf	嚳 礐
+jyyt	壆
+jyyn	學
+jyyh	嶨 燢
+jyyj	觷
+jyyq	鐖 鱟 鷽
+jyys	覺 澩 鏒
+jyyw	斆 雤
+qbbm	镩
+qbbr	锴
+qbgf	砻
+qbgd	袭 䶮
+qbgt	垄
+qbgg	龚
+qbgh	聋
+qbgw	詟
+qbkc	镓
+qbjx	镲
+qbqb	镔
+qbqy	𬭎
+qbyx	𬭩
+qmtq	𬭶
+qmln	存
+qmkd	镮
+qmhf	𬌗
+qmhn	鸦
+qmhq	鴉
+qmhz	迓
+qmhv	邪
+qmhw	雅
+qmjg	锣
+qmsy	镯
+qffj	锷
+qfzd	镞
+qfzz	镟
+qdpm	𬭸
+qdpx	镂
+qdmg	钚
+qdmc	锵
+qdfj	锩
+qddx	镣
+qdgh	锑
+qdkm	镒 锜
+qdkn	氧
+qdkz	𬭼
+qdkr	镨
+qdky	镃
+qdxc	𨱔
+qdsn	锛
+qdsz	链
+qdwd	镁
+qtyx	镙
+qndk	氤 铟
+qnsg	𨱇
+qnsk	锢
+qnsh	锄
+qnrm	氳
+qnrd	铡
+qlbf	镑
+qlbs	铧
+qlnm	锰
+qlnf	镝
+qlld	𬭤
+qlgf	𫔎
+qlgk	镫
+qlkf	锫
+qlkl	镱
+qlks	镜
+qlhd	铆
+qlvs	氯
+qlwn	镌
+qgfy	镪
+qgdh	镰
+qgnp	镧
+qgnk	锎
+qgnr	锏
+qglf	锔
+qgqr	镄
+qgxb	锨
+qgxm	镛
+qgcv	镀
+qgsf	锯
+qgsr	锧
+qgyb	𨱑
+qkfm	钶 鿔
+qkfk	豊
+qkfh	豑
+qkfj	艶 钷
+qkfv	鄷
+qkdp	铼
+qkdd	铗
+qknj	钝
+qklg	铽
+qklv	铴
+qkgj	钜
+qkhk	氩 铔
+qkhv	镊
+qkjg	𬬩
+qkjq	钺
+qkqg	铺
+qkqc	镈
+qkck	氬
+qksk	氫
+qkrp	氭
+qkyt	铚
+qhpn	锈
+qhph	锹
+qhmp	镍
+qhdd	铫
+qhdt	𫔍
+qhtf	锆
+qhts	铣
+qhty	铥
+qhnd	鿫
+qhnq	锇
+qhkf	镤
+qhzg	铤
+qhsf	铦
+qhsk	锤
+qhsj	锸
+qhrr	锦
+qhrw	锽
+qhyy	镚
+qjmj	铯
+qjmv	锼
+qjfb	尵
+qjft	镵
+qjfn	镎
+qjdh	尲
+qjnp	尮
+qjlg	𬭁
+qjgf	铭
+qjgq	尳
+qjks	锻
+qjkr	镥
+qjhg	䥽
+qjjj	尯
+qjxm	铮
+qjsg	尨
+qjrq	尬
+qjvm	尴
+qjym	尷
+qjyv	尰
+qqmv	铘
+qqlb	龓
+qqkq	戫
+qqqy	飙 飆
+qqvg	钹
+qxbv	锓
+qxng	键
+qxlf	铻
+qxkj	钙
+qxkq	毻
+qxkz	遀
+qxxs	镠
+qxvx	镖
+qzff	𬭳
+qzgv	锾
+qcbh	铹
+qcnb	镢
+qcnd	锳
+qclq	铖
+qclv	镬
+qcjf	𨱏
+qcqf	锘
+qcsb	𫓹
+qcsr	䦃
+qcrd	镆
+qcvd	農
+qcwd	袃
+qcwj	铓
+qsmd	锲
+qsmx	𬭬
+qsft	镗
+qsfs	镋
+qsnr	锁
+qsny	镴
+qshc	铸
+qsql	鬵
+qsqj	铐
+qsqs	兓
+qsqr	锗 朁
+qsqy	蠶
+qsvl	锪
+qrbb	锟
+qrmv	镘
+qrlg	铃
+qrkc	锝
+qrkv	氱
+qrsv	锡
+qrrt	锉
+qvgm	盋
+qvkm	锕
+qvkl	慸
+qvkz	遰
+qvkr	帶
+qvxk	氢
+qvvt	铿
+qwfd	镶
+qwnf	镐
+qwln	𬭚
+qwlw	镦
+qwhd	铱 锿
+qwsm	锋
+qwyh	锍
+qwys	铳
+qwyr	氦
+qylw	雄
+qyks	铙
+qyxx	翃
+qysv	锺
+xbbr	媘
+xblm	嬣
+xbkb	嬪
+xbkk	媗
+xbkz	媈
+xbkc	嫁
+xbht	嬸
+xbhq	姹
+xbjj	婉
+xbjy	媿
+xbqb	嫔
+xbzd	嫉
+xbrl	嫇
+xbvx	婃
+xpnq	鷅
+xmbx	孆
+xmtg	嬕
+xmtq	嫼
+xmgq	煕
+xmkd	嬛
+xmkt	畱
+xmhv	嬎
+xmjd	嬽
+xmqb	肃 歗 粛
+xmqm	肅
+xmqn	鹔
+xmqq	鷫
+xmsz	逮
+xfmb	頤 賾
+xfmq	熙
+xfmx	媐
+xfms	巸
+xfmr	颐 赜
+xffp	嬠
+xffk	噩
+xffs	嬋
+xffw	孍
+xfnq	鴽
+xfkd	娱
+xfjb	娯
+xfjd	娛
+xfzz	嫙
+xfsb	嬇
+xfyx	絮
+xdpm	嫾
+xdmf	娝
+xdmg	妚
+xdfj	婘
+xddx	嫽
+xdnd	媆
+xdns	媔
+xdlg	妫
+xdlq	媯
+xdgh	娣
+xdkm	婍
+xdkf	嫸
+xdkd	媊
+xdkl	嬨
+xdkk	嫅
+xdkh	嫌
+xdkz	嬘
+xdxv	媨
+xdzw	覆
+xdsz	遷
+xdrs	婵
+xdvj	姱
+xdwd	媄
+xdwq	嬟
+xtbw	婈
+xtfd	媴
+xtdg	婞
+xttd	劃
+xttn	畵
+xttk	畫
+xtts	嬈
+xtlh	娚
+xtlx	嫐
+xtkr	姵
+xthv	嬔
+xthy	颪
+xtrk	晝
+xtyx	嫘
+xndm	衋
+xndk	姻
+xntf	婤
+xnnk	姗
+xnlg	建
+xngb	婰
+xnsk	婟
+xnsy	媸
+xnrm	媼
+xnvm	媢
+xnwd	嬝
+xlbf	嫎
+xlbr	媂
+xlfp	媬
+xlnf	嫡
+xlnl	恏
+xlnv	娜
+xlgp	媃
+xlgm	妤
+xlgn	㛚
+xlgk	嬁
+xlkp	媇
+xlkf	吾 婄
+xlkl	嬑 忢
+xlkq	嬂
+xlkz	嫜 逜
+xlkv	郚
+xlkw	敔
+xlky	㛹
+xlhd	嬢
+xlhx	辦
+xlhz	姙
+xljd	嬼
+xljr	娰
+xlzq	婿
+xlsm	媁
+xlvs	娽
+xlwq	嫶
+xlwv	孇
+xlwy	蠽
+xgpp	嫲
+xgpm	嬷
+xgpf	孊
+xgpy	嬤
+xgmq	覊
+xgmv	婽
+xgmy	孎
+xgdm	覉
+xgdd	嫋
+xgdh	嬚
+xgnp	娴
+xggc	媥
+xgkf	姤
+xgkt	媉
+xgjv	嫏
+xgxm	嫞
+xgxs	嫝
+xgcq	嫬
+xgsf	婮
+xgwy	娹
+xgyb	嫹
+xgyq	娓
+xkby	嬭
+xkmb	貢
+xkmp	媡
+xkml	慐
+xkmq	嫣
+xkms	汞
+xkfb	嫰 嬾
+xkfp	辣 娕
+xkfm	妸
+xkfl	恐
+xkfg	鞏
+xkfh	聓
+xkfj	嫗 銎
+xkfz	跫
+xkfw	嫩
+xkfy	蛩
+xkdb	項
+xkds	婖
+xkdr	项
+xktf	巬
+xktn	婳
+xknl	孋
+xknr	贡
+xklf	巭
+xklh	功
+xkgj	姖
+xkgr	姨
+xkkj	巧
+xkhp	媣
+xkhk	娅
+xkhv	娵
+xkqq	娀
+xkxz	婕
+xkzl	嫕
+xkcl	嬺
+xkck	婭
+xkcj	嫟
+xksk	娙
+xkrp	娻 婡
+xkrk	姮
+xkrc	嫥
+xkyt	姪
+xkyj	妪
+xhpd	娳
+xhpx	婑
+xhmb	媜
+xhmn	嬶
+xhml	媳
+xhfb	頵
+xhfd	裠
+xhfn	群 羣
+xhfq	焄 鵘
+xhfs	覠
+xhfr	帬 𫖳
+xhfv	郡
+xhdd	姚
+xhdt	嬏
+xhdv	媏
+xhts	姺
+xhtw	媺
+xhnb	媲
+xhnt	媾
+xhnq	娥
+xhlf	孈
+xhlh	劣
+xhgg	姂 覂
+xhgv	婾
+xhhp	嬫
+xhhn	嫭
+xhjh	姊
+xhxz	媫
+xhzg	娗
+xhcg	婩
+xhsf	姡
+xhsk	娷
+xhrr	婂
+xhrw	媓 嬓 覈
+xhww	嬍
+xhyq	毟
+xjmb	媍
+xjmr	嬒
+xjmv	嫂
+xjfn	媕
+xjfx	嬆
+xjfr	嬐
+xjtb	嬹
+xjnb	嫓
+xjnc	婨
+xjlg	姆
+xjgf	姳
+xjgn	鸱
+xjgg	姼
+xjgq	鴟
+xjgr	姒
+xjgv	邸
+xjkb	嬩
+xjqd	媮
+xjxm	婙
+xjcj	姽
+xqmm	婣
+xqjg	娏
+xqxq	媠
+xqvg	妭
+xxbz	翬
+xxbc	翂
+xxbs	翚
+xxbr	婦
+xxfm	翀
+xxfj	姬
+xxdb	頨
+xxtg	翼
+xxtk	嫿
+xxnq	翵
+xxlf	娪
+xxld	翭
+xxlg	戳
+xxlk	翌 翋
+xxlq	鸐
+xxlx	翣
+xxlw	翟
+xxkz	翴
+xxkc	尋
+xxkr	翜
+xxkv	彠 鄩
+xxhf	翐
+xxhs	翆 翫
+xxhr	習
+xxhy	飁
+xxjr	婚
+xxqg	翇
+xxxk	羾
+xxxs	嫪
+xxxw	嬥
+xxsm	嬧
+xxsv	翄 覅
+xxrb	顟
+xxrd	剹
+xxrn	鹨
+xxrg	戮
+xxrh	勠
+xxrq	鷚
+xxrz	翨
+xxrs	翏
+xxrv	鄝
+xxrw	雡
+xxvx	嫖
+xxwf	翯
+xxws	翠
+xxyq	毣
+xxyw	翪
+xzbk	嬄
+xzbv	嫒
+xzbw	嬡
+xzmb	嬻
+xzmv	妰
+xzff	嬉
+xzft	嬯
+xznq	鷣
+xzln	娐
+xzlg	娫
+xzlc	嬦
+xzgm	孂
+xzgv	媛
+xzhq	嬀
+xzhz	婬
+xzjg	娒
+xzzh	媱
+xzsq	嫵
+xcfw	孉
+xctt	娾
+xcnd	媖
+xclb	婲
+xclq	娍
+xclv	嬳
+xckp	媟
+xckf	嫨
+xckh	媶
+xckq	嬿
+xcks	嬅
+xckv	嫤
+xchx	嫄
+xcqf	婼
+xcxq	媙
+xccv	彟
+xcsb	娸
+xcsj	媅
+xcrd	嫫
+xcvp	媒 孏
+xcvd	娠
+xcvc	媷
+xcyv	嬞
+xsfx	嫴
+xsfr	嫦
+xsfy	媩
+xsdp	婅
+xsdh	嫱
+xsng	婻
+xsnh	媰
+xskj	姄
+xsks	姯
+xsqb	賮
+xsqm	盡
+xsqr	媎
+xsxv	婌
+xsrp	嫀
+xsrh	嬙
+xsrr	媋
+xrbb	婫
+xrmv	嫚
+xrlf	娢
+xrlg	姈
+xrkv	婸
+xrrn	鹀
+xrrk	巫
+xrrj	觋
+xrrq	孅 鵐
+xrrs	覡
+xvbm	醓
+xvbd	𬪩
+xvbc	酚 酧
+xvbs	酖
+xvbr	酯
+xvbv	醡
+xvby	醜
+xvpp	醂
+xvmb	嫧
+xvmg	娬 醳
+xvmq	駑
+xvfw	酲 釅
+xvdm	酬
+xvdf	砮
+xvdg	酞
+xvdk	醝
+xvdj	醃 酏
+xvdz	醚
+xvtm	醘
+xvnm	醞 醠
+xvnq	鴑
+xvlf	醅
+xvld	醸
+xvln	孥
+xvll	醷
+xvlh	努
+xvlq	醮 醑
+xvls	醁 醗 醱
+xvlw	醀
+xvgp	醾
+xvgf	醣 釄
+xvgg	酿
+xvgx	醿
+xvgr	醋
+xvkm	婀 酊 酠
+xvkn	酑
+xvkl	釃
+xvkg	酾 酺
+xvkj	醧
+xvkx	辫
+xvkc	酽
+xvkr	醩
+xvhp	酥
+xvhf	酷 醭 酟
+xvhd	婊
+xvhh	醈
+xvhc	醵
+xvhs	酰 酔
+xvjp	酴
+xvjf	酩
+xvjg	酦
+xvjr	醶
+xvjv	醙
+xvqm	醢
+xvqd	醲
+xvqk	醴
+xvqq	嫷 酭
+xvxb	顠
+xvxd	剽
+xvxg	瓢
+xvxk	𫰛
+xvxh	勡
+xvxx	翲 醥
+xvxz	醰
+xvxs	醪 彯
+xvxy	飄 飘
+xvzn	酻
+xvzg	酶
+xvzc	酹 醻 釂
+xvzv	酢
+xvcq	醛 醎 醼
+xvcv	酣
+xvsf	酤
+xvsn	酵
+xvsh	醄
+xvsr	醏
+xvsy	醐
+xvrb	醌
+xvrm	醖
+xvrz	醍
+xvrv	醒
+xvvp	嫻 孄
+xvvs	酙 酛
+xvvv	娺 醊
+xvvy	酝 嫺
+xvwm	醯
+xvwf	酪
+xvwd	釀
+xvwn	醇 醨
+xvwh	酼
+xvws	醉
+xvwr	醕
+xvyf	醽
+xvyn	酗
+xvyg	醆
+xvyq	醺 酕 酳
+xvyx	嫊
+xvys	醦
+xvyv	醹
+xvyw	酸
+xwbm	婷
+xwfd	孃
+xwhk	嬗
+xwyx	辬
+xwyr	姟
+xypm	孀
+xyff	嬌
+xydv	嬬
+xykj	娉
+xyks	娆
+xyxx	辮
+xyzd	娭
+xysr	嬵
+xysv	媑
+xyvj	嫮
+zbbk	箜
+zbbs	筚
+zbps	榖
+zbms	瞉
+zbfk	壷
+zbfs	嗀
+zbdp	槖
+zbds	毂 糓
+zbdy	蠧
+zbtl	悫 慤
+zbts	殼 殻
+zbns	鷇
+zblw	愛 篧
+zbgs	彀
+zbkp	皼
+zbkl	懿
+zbkk	壹 壸 壼 箮
+zbkj	亄
+zbkq	鷧
+zbks	轂 豰
+zbht	簺
+zbhk	壶
+zbhs	穀
+zbjm	舜
+zbjj	箢
+zbjs	觳
+zbqv	爱
+zbzz	籎
+zbck	壺
+zbsl	愨
+zbsy	螜
+zbvp	簆
+zbvx	辤
+zbvs	筦
+zbws	瑴
+zbys	縠
+zplt	籕
+zpkj	篐
+zpcb	簯
+zmmb	賣 簤
+zmmp	皾
+zmms	覿
+zmmv	籰
+zmdm	簒
+zmdg	籑
+zmdj	篹
+zmdx	纂
+zmdy	篡
+zmnk	夁
+zmkq	簚
+zmjg	箩
+zmjc	爵
+zmxh	篎
+zmzm	竹
+zmcq	篾
+zmsf	磬 毊
+zmsn	撀
+zmsh	聲 罄
+zmsj	鏧
+zmss	漀
+zmsr	馨 韾
+zmsw	謦
+zmvl	怎
+zmvz	迮
+zmyw	籮
+zfbt	臺
+zfmb	篔
+zfmf	簬
+zffs	簞
+zffr	簮
+zfdb	頡 鼙 歖
+zfdp	敼 皷 鼔
+zfdm	瞽 鼘
+zfdf	喜 嘉 嚭 囍 鼛
+zfdd	鼚
+zfdt	鼞
+zfdl	憙
+zfdk	噽 壴 鼟
+zfdj	壾
+zfdq	熹
+zfdc	尌
+zfds	彭
+zfdr	颉
+zfdv	鼓 鼕
+zfdw	甏
+zfdy	蟚 鼜
+zfnq	鴶 鶏
+zfnr	筼
+zflh	劼
+zfkd	筽
+zfkh	箿
+zfxx	翓
+zfzb	籏
+zfzf	喆 嚞
+zfzd	簇
+zfzj	箷
+zfcb	簱
+zfsb	簣
+zfsr	篑
+zfrv	箊
+zdpx	篓 簖
+zdmb	顛 矲
+zdmz	簁
+zdfh	聟
+zdfj	箞
+zdfx	鼅
+zdfr	智
+zddx	簝 镽
+zddr	矰
+zdnq	鴙
+zdnr	颠
+zdlw	雉
+zdgm	矧
+zdkp	榘
+zdkd	箭
+zdkk	短
+zdkj	矩
+zdkr	筛
+zdhx	矮
+zdhy	矪
+zdjz	迤
+zdxn	箻
+zdxc	壿
+zdzd	篽
+zdzx	籞
+zdcv	矱
+zdrt	矬
+zdrz	篵
+zdrs	箪
+zdvm	筕
+zdyf	矯
+zdyq	矫
+ztfq	籖
+zttc	篈
+ztsd	筠
+ztym	篕
+znmg	籜
+znmj	筢
+zndk	筃
+znts	簓
+znnk	笧
+znlt	籀
+zngr	簎
+znkk	簂
+znkj	箍
+znkx	鼄
+znht	簼
+znhk	箘
+znjr	籡
+znxt	籒
+zncv	箝
+znsk	箇
+znsh	筯
+znrb	箆
+znvn	箨
+znvk	笝
+zlbf	篣
+zlmt	篠
+zlmq	篜
+zlms	覟
+zlmw	筱
+zlfm	筗
+zlnf	嗠
+zlng	箛
+zlnj	乳
+zlnv	郛
+zlld	篌
+zlgn	筩
+zlgk	簦
+zlgj	亂
+zlgx	辭
+zlgs	覶
+zlgv	郔
+zlgy	蜑
+zlkb	籠
+zlkf	笥 箁
+zlkg	笩
+zlkj	篭
+zlkq	鷑
+zlkv	篰
+zlky	箯
+zlhf	笳
+zlhd	笷
+zlhz	笾
+zlxq	燾
+zlxx	翿
+zlxc	壽
+zlxy	魗
+zlzv	筰
+zlcv	簅
+zlvq	篟
+zlvs	箓
+zlwb	歓
+zlwh	勧
+zlws	観
+zlwv	篗
+zlyg	筏
+zgmg	笊
+zgmh	第
+zgfz	簻
+zgdd	篛
+zgdk	箳
+zgdh	簾
+zgnr	简
+zglh	簕
+zggj	簄
+zggc	篇
+zgkt	箼
+zght	篪
+zghg	簈
+zgxf	篖
+zgvq	鶢
+zgyb	簧
+zkby	籋 镾
+zkmq	篶
+zkfb	籟 簌
+zkfm	笴
+zkfj	笸 篚 籄
+zkfr	籁
+zkdj	筂
+zknp	策
+zknd	箣
+zknl	籭
+zklj	笵
+zkkj	箧 篋
+zkkc	簿
+zkht	籓
+zkhs	箲
+zkhr	箔
+zkhv	箃
+zkjj	筪
+zkqm	簠
+zkxz	箑
+zkzb	簐
+zkzf	簵
+zkzj	範
+zkcp	簗
+zkcz	篴
+zkrp	箂
+zkrt	篞
+zkrc	篿
+zkrr	筴
+zkrv	簜
+zkry	筻
+zkwj	筐 筺
+zkyf	箈
+zkyd	箌
+zhpd	筣
+zhpg	簃
+zhph	篍
+zhmz	籩
+zhdd	筄
+zhdk	缾
+zhdc	罇
+zhdv	篅
+zhtb	籫
+zhtm	籚
+zhtf	筶
+zhtz	簉
+zhts	筅
+zhnb	篦
+zhnt	篝
+zhnh	罁
+zhlm	爳
+zhlf	噕
+zhld	缺
+zhlq	爲
+zhlv	鄬
+zhgf	缿
+zhkz	籧
+zhhb	簴
+zhhm	罏
+zhhd	罀
+zhhn	罅
+zhhh	簩
+zhjb	罆
+zhjh	笫
+zhxk	缸
+zhxz	罈
+zhzg	筳
+zhcw	罐
+zhsb	簰
+zhsf	筈
+zhsn	罉
+zhsk	箠
+zhrs	篼
+zhrw	篁
+zhry	罎
+zhvr	篩
+zjfb	籲 籨
+zjfd	劄 箚
+zjfc	籥
+zjfr	簽
+zjfw	籢
+zjdy	蠞
+zjll	慜
+zjlg	每
+zjlk	鳘
+zjlh	毓 勄
+zjlq	毐 鰵
+zjlx	繁 緐
+zjlc	篆
+zjls	毎 瀪 籙
+zjlw	敏
+zjgs	簶
+zjgr	笖
+zjkb	籅
+zjxm	筝
+zjcw	簷
+zjsk	签
+zjyg	籛
+zjyv	籦
+zqbg	笼
+zqmh	笌
+zqsr	簪
+zqvq	篯
+zxbr	箒
+zxmb	箫 簘
+zxmm	簫
+zxtw	籈
+zxnq	鵎
+zxkb	篢
+zxkp	築
+zxkf	筑
+zxkd	笻
+zxkn	篫
+zxkr	𬕂
+zxkv	筇
+zxhm	箵
+zxxw	籊
+zxrf	簭
+zxrk	筮
+zxrz	遾
+zxvx	篻
+zzmv	笮
+zzft	籉
+zzln	筟
+zzlg	筵
+zzlc	籌
+zzhn	鹞
+zzhq	鷂
+zzhx	繇
+zzhz	遥
+zzhy	颻 飖
+zzxm	箏
+zcbb	豼 貁
+zcmv	貜
+zcfq	箴
+zcfs	貚
+zcdb	頱
+zcdm	貖
+zcdk	豾
+zcdr	貊
+zcdy	蠫
+zclp	貅
+zclq	筬
+zclv	籆
+zcgt	墾
+zcgl	懇
+zcgv	貑
+zckk	貆
+zckj	䝙 笹 貙
+zchb	貔
+zcht	虢
+zchz	邈
+zchs	貌
+zchr	貃
+zchv	貒
+zchy	貈
+zcjd	貐
+zcjs	貎
+zcjv	貍
+zcqf	箬
+zcxn	貄
+zczd	貕
+zccf	貂
+zccd	貘
+zcct	貓
+zccw	貛
+zcsb	箕
+zcsp	簸
+zcst	簊
+zcsx	簛
+zcrg	貋
+zcrx	貗
+zcvb	篏
+zcwf	貉
+zsbb	鬢 鬓
+zsbm	鬡
+zsbx	鬃
+zsbs	髧
+zspr	籍
+zspy	鬆
+zsmb	髭
+zsmd	鬟
+zsmx	篲
+zsft	簹
+zsfy	箶
+zsdd	鬋
+zsdk	髬
+zsdh	鬀 鬑
+zsdj	鬈 髢
+zsdr	鬙
+zsdv	髵
+zsnt	髯
+zsnh	篘
+zsnv	髥
+zsny	鬛
+zslp	髹
+zsld	筷
+zslc	髳
+zslr	鬐
+zsgq	髴
+zskp	橆
+zskm	舞
+zskd	鬎
+zskh	髶 髿
+zskj	笢
+zskq	無 鷡
+zskc	簙
+zsks	髡
+zskv	鄦
+zskw	甒
+zshf	髺
+zshd	鬁
+zshh	鬏
+zshc	筹
+zsjm	鬇
+zsjr	鬠
+zsqb	鬂
+zsqd	箾 鬞
+zsqg	髮
+zsqq	鬌
+zsqr	箸
+zsqv	髪
+zsxf	啎
+zsxl	髩
+zszf	髻
+zszg	簳
+zscf	髫
+zscd	鬕
+zscg	鬗
+zscj	髰
+zssb	鬚
+zssg	簨
+zssq	髾
+zsss	髱
+zssr	鬊
+zssy	鬍 鬣
+zsrt	髽
+zsrn	箰
+zsrr	箺
+zsrv	鬄 鬘
+zsvs	髨
+zsvr	鬝
+zsvy	鬜
+zswm	髼
+zswd	鬤
+zswz	鬔
+zsyq	髦
+zsys	鬖
+zsyw	鬉
+zsyy	鬅
+zrbb	箟
+zrfx	簍
+zrfw	籔
+zrdd	製
+zrdn	掣
+zrlf	筨
+zrlg	笭
+zrgs	篳
+zrhv	篂
+zrjr	籂
+zrxf	篬
+zrrq	籤
+zvmb	簀
+zvnr	箦
+zvjp	篨
+zvxb	款
+zvxs	隷
+zvzm	篮
+zvvp	籣
+zvvr	簡
+zvvy	簢
+zwbc	籇
+zwnf	篙
+zwkd	簔
+zwsz	篷
+zwrd	簑
+zwrs	箤
+zwyf	籝 籯
+zwyn	篱
+zwyw	籬
+zyff	簥
+zydg	谿
+zydq	鷄
+zydx	籘
+zyds	籐
+zydv	箙
+zydw	雞
+zylh	筋
+zylw	籗 籱
+zygg	箋
+zyxj	乿
+zyzm	籃
+zyss	箹
+zysv	箽
+zyyx	籪
+zyys	篸
+cbbg	藭
+cbbh	䓖 蔤
+cbbq	葖
+cbbs	荜
+cbbr	蒈
+cbby	藌 藱
+cbms	荥
+cbff	营
+cbfy	萤
+cbdf	菪
+cbdx	藔
+cbds	荤
+cbns	萓
+cblm	薴
+cbln	茡
+cblh	劳
+cbls	茕
+cblr	蓿
+cblw	蒮
+cbkb	蔩 薲
+cbkm	苧
+cbkn	荢
+cbkk	萱
+cbkz	葷
+cbhb	蘔
+cbhn	荦 藆
+cbjj	菀
+cbjq	藛
+cbjy	蒐
+cbxv	蒏
+cbzd	蒺
+cbzh	䓨
+cbzz	薿
+cbcp	棻
+cbcm	葐
+cbsl	藼
+cbrl	蓂
+cbvb	蘏
+cbvp	蔻
+cbvn	鹲
+cbvq	氋 鸏
+cbvx	萗
+cbvc	蒙 蒄
+cbvs	莞
+cbvw	蔲
+cbwg	莹
+cbwx	虌
+cbyx	萦 蓊
+cpbs	萙
+cpby	菘
+cppm	歴
+cppr	暦
+cppv	厯
+cptt	蓕
+cplq	藮
+cpgx	菥
+cpgz	蒁
+cpkj	藲
+cmbb	薨 顭
+cmbm	瞢
+cmbd	厠 萴
+cmbg	夢 薎
+cmbx	蘡
+cmbv	蘉 鄸
+cmbw	甍
+cmmb	蘋 蕒
+cmmp	蘃
+cmmm	蕋
+cmmh	荹
+cmmr	𬞟
+cmdp	蔝
+cmdx	繤
+cmld	藈
+cmlh	葂
+cmjl	薡 鼒
+cmjg	萝
+cmcd	蘮
+cmcq	蔑 薉
+cmsg	萈
+cmsk	蘴
+cmsr	薯
+cmsy	薥
+cmvb	苝
+cmwd	藅
+cmyb	藣
+cmyw	蘿
+cfmb	蒷
+cfmf	蕗
+cffb	歡 顴
+cfff	虈
+cffn	鹳
+cffh	勸
+cffj	萼 蕚
+cffq	鸛
+cffx	蘄
+cffs	觀 蕇
+cffr	颧
+cffv	鄿 酄
+cffw	雚
+cffy	飌
+cflh	劭
+cflw	蓶
+cfgx	厛
+cfkd	茣
+cfkh	葺
+cfkq	蕺
+cfqb	顑
+cfql	感
+cfqj	觱
+cfzd	蔟
+cfzj	葹
+cfzz	蔙
+cfsb	蕢
+cfsr	蒉
+cfrl	荶
+cfrv	菸
+cfvx	綤
+cfyv	虄
+cdbb	薋
+cdbt	塟
+cdbn	葬
+cdpb	蘱
+cdpx	蒌
+cdpz	蒾
+cdpw	薮 糶
+cdmb	順 鿓
+cdmg	芣
+cdmk	苤
+cdmz	蓰 荘
+cdmc	蒋
+cdmw	厦 虁
+cdff	藞
+cdfk	薤
+cdfj	菤
+cdtz	蓗
+cdtw	蓤
+cdnr	顺 鿒
+cdnv	荋
+cdlg	𫇭
+cdlq	蒍
+cdgm	葢
+cdkm	䓫 葕
+cdkd	葥
+cdkk	蒫
+cdkh	蒹
+cdhw	薇 藢
+cdjp	蒣
+cdjm	蘅
+cdxn	葎
+cdzd	蓹
+cdzx	蘌
+cdzw	蕧
+cdsn	莾
+cdsz	莲
+cdrg	薞
+cdrj	菴
+cdrx	蕲
+cdrz	蓯
+cdrv	薚
+cdrw	蘷
+cdvm	荇
+cdvj	荂
+cdvx	萘
+cdwq	蓔
+cdwx	葁
+ctbq	爇
+ctbw	菱 蓺
+ctby	藝
+ctfz	薳
+ctdz	薘
+ctdv	蕔
+ctdw	蓻
+cttp	蘽
+cttt	藟 蘲
+cttx	虆
+cttc	葑
+ctts	蕘
+ctnq	鶓
+ctlh	莮
+ctkd	葨
+cthy	葻
+ctsd	荺
+ctwd	蘾
+ctym	蓋
+ctyx	蔂
+cnbp	橜
+cnbd	劂
+cnbl	憠
+cnbk	莔
+cnbq	鷢
+cnbz	蹷
+cnby	蟨
+cnmg	蘀
+cnmy	繭
+cnfb	莻
+cndl	蒽
+cndk	茵 蔨
+cndj	菵
+cndq	鶧
+cndw	鿦
+cntk	薗
+cnlk	菈
+cnlw	蓷
+cnkg	蒱
+cnkk	蔮
+cnkz	蓵
+cnhf	葀
+cnhk	菌
+cnqg	菝
+cnxh	莏
+cncf	萔
+cnsg	莍
+cnsh	莇
+cnss	菢
+cnrb	萞
+cnrm	蒕
+cnrd	厕 荝
+cnrk	苬
+cnvm	萺 萾
+cnvn	萚
+clbb	蒊
+clbf	蒡
+clbr	蒂
+clmt	蓧
+clmn	菡
+clmh	蔬
+clmq	蒸 蓨
+clms	蓚
+clmw	莜
+clfp	葆
+clfm	茽
+clfd	蔉 藵
+cldp	蘪
+cltt	龿
+clnb	贗
+clnf	蔏 蔐
+clng	菰
+clnj	芤
+clnq	虉 鴈
+clnx	蓀 荪
+clnz	藡
+clnv	𦰡
+cllb	贋
+cllp	蘂
+cllf	蓓
+clld	葔
+clll	蕊
+cllk	莅
+cllr	赝
+cllw	雁
+clgb	蕷
+clgp	葇
+clgm	芧
+clgd	葵
+clgh	蓩
+clgq	鶜
+clgz	蓪
+clgc	茅
+clgs	蕟
+clgr	蓣
+clkb	蘢 龎
+clkm	荷
+clkf	菩
+clkl	薏
+clkj	蒟
+clkq	薦
+clkx	薪 菨
+clkz	蔁
+clks	藙 藽
+clkr	萻
+clkv	蔀 蕫
+clhf	茄
+clhd	茆
+clhh	荔
+clhz	荏
+clhv	苏
+cljb	頋
+cljd	藰
+cljr	顾
+clqm	盛
+clqv	郕
+clxv	葠
+clzv	莋
+clsm	葦
+clvd	荬
+clvq	蒨
+clvs	菉
+clwd	劐
+clwj	舊
+clwq	蕉
+clwv	蒦
+clyd	蓘
+clyg	茷
+clys	萒
+clyw	葰
+cgpp	蔴
+cgpf	蘑 蘼
+cgpn	藦
+cgmh	苐
+cgmz	蕸
+cgmv	葭
+cgfz	薖
+cgfy	蔃
+cgdd	蒻
+cgdh	薕
+cgdj	蓭
+cgnf	𬜬
+cgnw	蔺
+cglg	芝
+cggj	蔰
+cggq	菺
+cggx	龩
+cggc	萹
+cggv	荩
+cgkf	茩
+cgkh	葞
+cgjv	蓈
+cgjy	蓢
+cgxf	蓎
+cgxg	菧
+cgxz	菦
+cgxs	蒑
+cgxr	菮
+cgcq	蔗
+cgcr	蓆
+cgcw	虇
+cgsp	蘜
+cgrt	蓙
+cgvl	藯
+cgvc	蔚
+cgyt	蘣 蘳
+cgyq	荱
+ckbs	莐
+ckby	薾
+ckpx	蔢
+ckmp	萰
+ckmq	蔫
+ckfb	蔌 歎 歏 藾
+ckfp	藻
+ckfm	苛
+ckff	囏
+ckft	葍
+ckfl	懃 戁
+ckfg	艱
+ckfk	荳
+ckfh	勤
+ckfj	觐 蓲
+ckfq	燕 鷰
+ckfx	嬊 斳
+ckfz	藗
+ckfc	厨
+ckfs	覲
+ckfr	臡
+ckfv	堇 鄞 菫 酀
+ckfw	難
+ckdp	莱
+ckdd	荚
+ckdk	蓱
+ckds	苹 菾
+cktk	薑
+cktw	蔆
+cknp	茦 蕀
+cknm	薀
+cknd	莿
+cknj	芚
+ckns	菹
+cknr	颟 萅 𬜯
+cknw	蓛
+cklk	蒞
+cklj	范
+cklv	荡
+ckgd	蒎
+ckgg	蒗
+ckgj	苣
+ckgq	鷨
+ckgs	華
+ckgr	荑
+ckkb	黃
+ckkp	蕖
+ckkm	菏
+ckkg	蒲
+ckkj	菃
+ckkc	薄
+ckks	萍
+ckhp	蒅
+ckhf	萿
+ckht	藩
+ckhq	蘵
+ckhc	藂
+ckhr	萡
+ckhv	菆
+ckjb	貰
+ckjp	枼 蒤
+ckjd	蕍
+ckjg	芅
+ckjh	励 勚 勩
+ckjz	迣
+ckjr	贳
+ckqg	莆
+ckqq	茙
+ckqc	蒪
+ckqr	蓸
+ckxn	葏
+ckxk	茳
+ckxh	莎
+ckxx	萋 薸
+ckxz	萐 藫
+ckxv	蓡 薓
+ckzg	蓒
+ckzx	蔪 蘙 蘻
+ckzz	蓮
+ckzv	鿀
+ckcf	菬
+ckcz	蓫
+ckcr	藸
+ckcv	蕤
+cksp	薻
+ckst	葘
+cksk	莖
+cksh	葝
+cksj	苉
+ckss	萢
+cksv	蔋
+ckrb	顢
+ckrp	萊 菄
+ckrm	蕰 蘯
+ckrn	蕅 蕐
+ckrl	蕙
+ckrk	荁
+ckrq	虃
+ckrc	蓴
+ckrr	莢
+ckrv	蕩
+ckry	莄
+ckvq	蔳
+ckwf	落 薃
+ckwh	蓅
+ckwj	茫
+ckym	蘫
+ckyf	菭
+ckyd	菿
+ckyt	厔 荎
+chpb	薭 蘈
+chpp	厤 蔾
+chpm	歷
+chpf	磿 萂
+chpd	莉
+chpn	莠
+chph	菞 萩 蕛
+chpj	藒 蘒
+chpq	蕱 蘓
+chpx	萎
+chpc	藊
+chps	藜 萪 蒩
+chpr	曆 萫
+chpw	萟 薐
+chpy	蘶
+chml	蒠
+chfn	萭
+chfg	莵
+chdb	薠
+chdt	蕃
+chdn	苸
+chtm	蘆
+chtl	藘
+chnb	蓖
+chnd	薁
+chnl	蔥
+chnk	蓾
+chnq	莪
+chns	蔖
+chkz	蘧
+chkc	薱
+chhh	藀
+chjp	薒
+chzg	莛
+chzv	蕿
+chsk	厜 菙
+chrb	願
+chrp	藥 薬
+chrl	愿
+chrg	蔊
+chrj	葩
+chrq	蘤
+chrx	原 厵
+chrs	蔸 厡 菂 葲
+chrr	藠
+chrw	葟 薂
+chvp	蘖 糵
+chvn	孽
+chvx	薛
+chvz	躠
+chvr	蒒 蘬
+chys	蒰
+cjpq	鷋
+cjmb	萯
+cjmr	薈
+cjmv	蓃
+cjfb	蘝
+cjfd	剳
+cjfn	葊
+cjfc	蘥
+cjfr	厱 薟
+cjfw	蘞
+cjdq	臧
+cjtc	虋
+cjnc	菕
+cjnw	藑
+cjlg	苺
+cjlc	蒃
+cjgm	荈
+cjgf	茗
+cjgl	葾
+cjgg	茤 蕵
+cjgj	苑
+cjgr	苡
+cjgv	茒
+cjkb	藇
+cjkd	蓟
+cjkn	藓
+cjks	葮
+cjqp	蘇
+cjqd	萮 薊
+cjqn	蘚
+cjqs	厩 蔇
+cjcn	薢
+cjcw	薝
+cjsk	莶
+cjsq	蕮
+cjsw	蔹
+cjrj	蔼
+cjvx	蔡
+cjvs	蔛
+cjwp	檠
+cjwn	擎
+cjwl	憼
+cjwq	驚
+cjww	警
+cjwy	蟼
+cqbg	茏 厐
+cqby	魇
+cqmt	茬
+cqmn	荐
+cqmh	芽 厊
+cqmq	黡
+cqmw	蕥
+cqfl	惹
+cqfz	逽
+cqfv	鄀
+cqfy	蠚
+cqds	靥
+cqjg	厖
+cqcd	蕽
+cqrg	餍
+cqvg	茇
+cqvr	蔕
+cxbr	菷
+cxmb	萧
+cxmm	蕭
+cxfn	蒘
+cxfk	蘁
+cxfj	茝
+cxfx	蕠
+cxtw	薽
+cxkf	茿
+cxkx	蒆
+cxhf	莙
+cxhq	蔒
+cxjd	萇
+cxjg	厎 茋
+cxxx	葌
+cxxc	蕁
+cxxs	蓼
+cxxw	藋
+cxcc	薅
+cxsm	藎
+cxsf	菇
+cxrk	莁
+cxvj	蓜
+cxvq	蘸
+cxvx	蔈
+czbm	蕣
+czbw	薆
+czmb	藚
+czmv	厏 苲
+czft	薹
+czfv	薣
+czdw	薙
+czln	莩
+czlg	莚
+czlj	薍
+czlc	薵
+czgv	萲
+czhd	蒛
+czhq	蔿
+czjg	莓
+czjx	蘩
+czxn	蕼
+czzx	蘨
+czcs	藐
+czcv	薶
+czsq	蕪
+czyd	蒵
+ccmq	蕆
+ccfq	葴
+ccnb	蕨
+ccnq	蒇
+cclh	苈
+cclj	苊
+cclq	荿
+ccgq	荗
+cckp	葉
+cckv	厪 蓳
+cchm	藶
+cchq	蒧
+cchx	蒝
+ccjq	藏
+ccxq	葳
+cccq	脋
+cccc	茘
+ccsb	萁
+ccsj	葚
+ccsq	蘛
+ccsx	厮 藄
+ccrn	厲
+ccrh	勵
+ccvd	莀
+ccvc	蓐
+ccyq	蔵
+csbb	欺 歁
+csbp	棊
+csbf	碁
+csbd	剘
+csbt	基
+csbn	荸
+csbl	惎
+csbg	戡 夦
+csbh	勘 尠 葧
+csbj	甚
+csbq	朞
+csbx	斯 綦
+csbs	斟 卙
+csbw	諅
+csby	期 蜝 蟴
+cspn	藕
+cspr	藉
+csmd	葜
+csmx	蔧
+csfy	葫
+csdb	蕦
+csdp	菊
+csdh	蔷 蘠
+csdz	莊
+csdc	蔣
+csng	萳
+csnh	蒭
+csnw	厰
+cskt	蔔
+cskg	葡
+cskj	苠
+csks	茪
+csht	莥
+cshg	莸
+cshh	荻
+cshq	获
+cshr	蕏
+cshv	蕕
+csqd	萷
+csqr	著
+csxb	顣
+csxl	慼
+csxq	戚
+csxz	蹙
+csxv	菽
+cszh	萄
+cscb	蕡
+csrp	蓁
+csrn	菶
+csrh	薔
+csrr	萶
+csvl	葱
+csvg	茐
+cswd	蘹
+crbb	菎
+crmv	蔓
+crfx	蔞
+crfw	藪
+crdm	蓦
+crdt	墓
+crdn	摹
+crdh	募
+crdq	驀
+crds	慕
+crdr	幕 暮
+crdv	鄚
+crdw	謩
+crdy	蟇
+crtc	蒔
+crnh	勱
+crnz	邁 躉
+crny	蠆
+crlf	莟
+crln	厚
+crll	菍
+crlg	苓
+crlj	苍
+crgs	蓽
+crkv	蕞
+crhf	萜
+crqp	檿
+crqt	壓
+crqn	擪
+crql	懕
+crqg	饜
+crqj	厴
+crqq	厭 黶
+crqx	嬮
+crqs	靨
+crqy	魘
+crxf	蒼
+crzv	葃
+crsj	葛
+crrt	莝
+crrz	遳
+crrs	葅
+crrr	蕌
+crrw	蓌
+crvy	荟
+crwf	厬
+cvmb	蔶
+cvfb	藬
+cvlc	萨
+cvlv	薩
+cvkp	蔯
+cvkm	蕴
+cvkk	荭
+cvkj	莼
+cvkc	荮
+cvks	药
+cvhf	甛
+cvhv	薌
+cvjp	蒢
+cvjf	唇
+cvjd	辰
+cvjq	脣
+cvjc	辱
+cvjv	鄏
+cvjw	敐
+cvjy	蜃
+cvxp	蘗
+cvxk	茎
+cvxx	蒜
+cvzm	蓝
+cvzl	蘟
+cvry	蔭
+cvvp	蘭
+cvvf	蔄
+cvvl	蕄
+cvvx	蔅
+cvvr	蕳
+cvvw	藺
+cvvy	蕑
+cvwv	蕯
+cwbb	薧
+cwbm	葶
+cwfd	蘘
+cwdk	虀
+cwdv	薺
+cwnb	藃
+cwnp	藁 藳
+cwnf	蒿
+cwjl	莣
+cwjh	荒
+cwzv	蘐
+cwsm	莑
+cwsz	蓬
+cwsr	藷
+cwrd	蓑
+cwrj	藹
+cwrs	萃
+cwvw	蕹
+cwyp	虊
+cwyt	蓄
+cwyn	蓠
+cwyq	荠
+cwys	茺
+cwyr	荄
+cwyv	萕
+cwyw	蘺
+cybw	荾
+cyps	蔱
+cymh	蘍
+cymj	萉
+cymq	薰
+cyfp	葈
+cyff	蕎 蘦 虂
+cydh	蕂
+cydq	虅
+cyds	藤
+cydv	菔 薷
+cynq	鴱
+cynw	葼
+cylh	苭 荕
+cylw	藿
+cygg	菚
+cyks	荛
+cyqr	莃
+cyzm	藍
+cyzv	葄
+cysm	蘊 藴
+cysn	蒳
+cysk	葒
+cysj	蒓 蕝
+cysq	薫
+cysx	蕬
+cysz	蘕
+cysc	葤 蒶
+cyss	葯
+cysv	董 蔠 藧 蘰
+cyrg	蕶
+cyvb	藖
+cyvy	蕓
+cyyd	蒯
+cyyn	孶
+cyyj	蘎
+cyys	蔘
+sbbt	悂
+sbbk	悾
+sbmb	愼
+sbds	恽
+sbtz	疐
+sblm	懧
+sbln	孛 鹁
+sbll	愂
+sblh	勃
+sblq	鵓
+sblv	郣
+sbkk	愃
+sbkz	惲
+sbjj	惋
+sbjy	愧
+sbzd	愱
+sbzz	懝
+sbrl	慏
+sbvx	悰
+sbwf	愘
+sbyx	索 慃
+sbys	恱
+sppz	憷
+spmj	耙
+spdb	頛
+spdx	耧
+spdw	耰
+spnh	耡
+spns	耝
+splf	耪 耞
+spln	耔
+spgf	耱
+spgr	耤
+spkm	耓
+spkj	耟
+spht	耩
+sphh	耮
+spjf	耠
+spjc	耣
+spxh	耖
+spch	耢
+spcc	耨
+spcv	耯
+spsf	耥
+sprn	耦
+sprx	耬
+spvb	耫
+spvq	耕
+spvy	耘
+spwd	耲
+spyf	耛
+spyq	耗 耭
+smbb	頿
+smbd	惻
+smmv	戄
+smmw	懼
+smdf	砉
+smdd	剨
+smtg	懌
+smkd	懁
+smjl	悳
+smjj	艳
+smcp	栔
+smcf	䂮
+smcd	契
+smcn	挈 齧
+smcl	恝
+smcj	觢
+smcx	㛃 絜
+smcs	洯
+smcy	蛪
+smsl	慧
+smsh	熭
+smsx	彗
+smvg	懻
+sfbr	嘗
+sfmb	賞 愪
+sfmj	邕 悒
+sfmq	黨
+sfmw	雝
+sffb	賷
+sffp	懆
+sffd	喪
+sffj	愕
+sffs	憚
+sftd	劏
+sftv	䣘
+sfnq	鴣
+sfnr	赏
+sfgv	嘏
+sfkd	悮
+sfjd	悞
+sfqh	牚
+sfcv	甞
+sfsb	憒
+sfsr	愦
+sfwd	裳
+sfyn	鹕
+sfyq	鶘 鶦
+sdpm	憐
+sdpq	鵴
+sdmb	須 頾
+sdmm	盨
+sdmg	怀
+sdmk	怌
+sdmx	嬃
+sdms	澃
+sdmr	憎
+sdfm	慻
+sdfj	惓
+sddn	牂
+sddq	煭
+sddx	憭
+sdnd	愞
+sdnx	媭
+sdns	愐
+sdnr	须
+sdnw	懮
+sdgm	牅
+sdgh	悌
+sdgx	斨
+sdkm	牁
+sdkd	丧
+sdkg	懩
+sdkh	啬 慊
+sdjp	槳
+sdjd	奬
+sdjt	墏
+sdjq	獎
+sdjc	將
+sdjs	漿
+sdjv	醬
+sdjy	螿
+sdzd	裝 奘
+sdzn	弉
+sdzh	焋
+sdzj	銺
+sdzx	娤
+sdcp	牃
+sdsh	牆
+sdsx	惭
+sdrf	牄
+sdrj	匎
+sdrs	惮
+sdvj	恗
+sdyg	戕
+stbw	㥄
+stfq	懴
+stdg	悻
+stts	憢
+stnq	鶅
+stkd	愄
+stkq	獣
+stkz	疀
+sthh	懗
+snpk	悃
+snfq	氅
+snfr	幤
+snfw	敞
+sndg	南
+sndj	惘
+sndq	献
+sndz	遖
+sntf	惆
+snkk	慖
+snkx	憴
+snhp	皺
+snhh	芻
+snhq	鶵
+snhv	鄒
+snhw	雛
+snsb	惧 嗭
+snsl	惪
+snsk	怬
+snss	矗
+snrm	慍
+snrd	恻
+snyz	邋
+snyy	巤
+slnw	敩
+slgm	忬
+slgf	憰
+slgn	悀
+slgk	憕
+slgh	愑
+slkl	憶
+slkz	慞
+slkr	愔
+slkv	憧
+slhh	協 恊
+slhq	愶
+slhv	协
+sljd	懰
+slsm	愇
+slvd	卖
+slvj	觌
+slwn	懏
+slwq	憔
+slwv	愯
+sgpm	懡
+sgpf	戂
+sgdd	愵
+sgny	悯
+sgls	怺
+sggb	懭
+sggq	悷
+sggc	惼
+sghf	惦
+sgxb	惞 懫
+sgxm	慵
+sgxs	慷
+sgwy	惤
+sgyb	黉
+skbn	举 挙
+skbw	誉
+skmp	朄
+skfb	懶
+skfp	悚
+skft	匐 愊
+skfj	慪
+skfq	惐
+skfr	懒
+skds	怦 匉 悿
+sknj	忳
+sknq	悈
+skgj	怇
+skgr	恞
+skkj	愜 惬
+skhh	懾
+skhv	慑
+skjp	敯
+skjm	睯
+skjd	刡
+skjl	愍
+skjq	怴 鴖
+skjr	昬 暋
+skjw	敃
+skjy	蟁
+skqg	匍 悑
+skqc	博 愽
+skqr	慒
+skxg	恜
+skxx	悽
+skzx	慚
+skzz	慩
+sksb	兤 尡 黋
+sksm	韑
+sksz	輝
+skss	辉
+sksw	耀
+skrl	憓
+skrk	恒
+skrj	愝
+skrc	慱
+skrr	悏
+skwj	恇
+skyt	恎
+skyj	怄
+skyr	慡
+shbb	狖 獱
+shbm	狞 獰
+shbt	狴
+shbl	猽
+shbx	猔
+shbc	狩
+shbw	獙
+shpd	悧
+shpn	悸
+shpk	猹
+shph	愀
+shmb	狽
+shmm	猸
+shmd	獧
+shmg	猡
+shmq	獁 獩
+shmv	玃
+shmw	玀
+shmy	獨
+shfm	狆
+shfj	邫
+shfq	狷
+shfw	玁
+shfy	独
+shdm	猗 獈 獜
+shdd	恌
+shdt	憣
+shdk	狉
+shdx	獠
+shds	猐
+shdr	狮
+shdv	猶 惴
+shdw	獶 獿
+shdy	獇
+shtf	喾 悎
+shtd	猿 猥
+shtq	猬
+shtz	慥
+shts	獟
+shty	猦
+shnb	猠
+shnd	懊
+shnl	憁
+shnx	狾
+shns	狙
+shnr	狈
+shnv	狦
+shlp	猱
+shlm	猛
+shlf	獝
+shld	猴 猤
+shlt	狃
+shlh	峱
+shlj	犯 犼
+shlx	狲 猻
+shlz	獐
+shls	獍 忰
+shlv	獞
+shlw	慛 猚
+shly	狡
+shgb	獷 狔 獚
+shgf	猧
+shgg	狼
+shgq	猾 狒 猏
+shgx	猕 犿
+shgc	猵
+shgr	猎
+shgv	猳
+shgy	獼
+shkb	獺
+shkp	猍
+shkd	狭
+shkk	愷 狟
+shkh	猀
+shkq	狨 狘
+shkx	獑
+shkc	懅 猼
+shkr	狹 獭 犻
+shky	獮
+shhm	獹
+shhf	狧 獛
+shhd	猁 狣
+shht	猇
+shhl	犰 悐
+shhk	憈
+shhh	憦
+shhz	逖 狅
+shhs	獆 獋 獔
+shhr	獅 狛
+shhv	狌 猯
+shhw	獕 獥
+shjp	狳
+shjm	狰
+shjd	㺄
+shjn	獬 𬸚
+shjk	猃
+shjq	狱 獡
+shjx	狝
+shjc	猭
+shjs	猊
+shjr	獪 獫
+shjv	狸 獀
+shqf	匔
+shqg	犹 匑 狵
+shqh	犽
+shzm	猙
+shzf	狤
+shzd	猘
+shzl	犵
+shzg	狿
+shzh	猺
+shzj	狏
+shzv	猨
+shcb	獗 猉
+shcd	獏
+shct	猫
+shcj	獦
+shcq	焘
+shcx	獂 玂
+shcc	獴
+shcv	獲
+shcw	獾
+shsb	獖
+shsp	橥 獉
+shsf	恬 狜
+shsd	猰
+shsn	猟
+shss	狍
+shsr	猪 狥
+shsy	獵 猢
+shrb	猑
+shrp	猓
+shrf	猞 獊
+shrg	狑 猂
+shrk	狚
+shrj	猲
+shrr	猖
+shrv	猩 獌
+shrw	惶 憿
+shry	狯
+shvq	猜
+shvx	狋
+shvr	帮 幚
+shvw	獓
+shwf	狢
+shwd	獽
+shwt	犺
+shwn	𫛭
+shwq	獄 鵟 鸑
+shwz	逛
+shws	猝
+shww	獤
+shyf	獢
+shyh	狕
+shyq	獯
+shys	狁
+shyr	狶
+shyv	獳
+shyw	狻 猣
+sjmd	愌
+sjmr	懀
+sjfr	憸
+sjnc	惀
+sjlb	慣
+sjlr	惯
+sjgg	恀
+sjkb	懙
+sjqd	愉
+sjqg	憱
+sjqs	慨
+sjcn	懈
+sjcj	恑
+sjcw	憺
+sjvx	憏
+sqmt	恠
+sqdp	愾
+sqdn	揱
+sqln	孝
+sqlw	教
+sqkf	耉
+sqkt	耊
+sqkj	考
+sqjg	忧
+sqxt	墯
+sqxq	惰
+sqcd	憹
+sqsr	憯
+sqrl	乽
+sqrh	煑
+sqrq	煮
+sqrx	翥 斱
+sqrs	殾 覩
+sqrv	都
+sxbc	兝
+sxdp	憟
+sxdr	兡
+sxlf	悟
+sxlk	恆
+sxlh	勀 勊
+sxkb	愩
+sxhs	兛
+sxjd	悵
+sxjg	怟
+sxjr	惛
+sxxc	憳
+sxxs	憀
+sxxr	慴
+sxcv	兣
+sxsx	兢
+sxvm	督
+sxvd	裻
+sxvl	惄
+sxvj	錖
+sxvx	慓
+sxyq	兞
+szbw	懓
+szmv	怍
+szff	憘
+szft	懛
+szfs	憉
+szlm	韓
+szlc	懤
+szgv	愋
+szkp	憡
+szjg	悔
+szxl	懚
+szzl	乾
+szzh	愮
+szzq	鶾
+szzw	雗
+szsq	憮
+szrp	榦
+szrg	幹
+szrx	翰
+szrs	斡
+szrv	慯
+szrw	愎
+szry	螒
+szvd	韩
+szyd	慀
+szyg	戟
+scbc	懞
+scmb	賁 歕
+scmm	懵
+scmg	懜
+scmq	懱
+scmx	翸
+scfl	憾
+scfw	懽
+scnd	愥
+scnr	贲
+sclw	厳
+sckp	惵 枽
+sckg	慲
+sckh	懄
+sckj	怈
+scks	尭
+sckv	慬
+scjf	匒
+sczv	鼖
+scsl	憽
+scsj	愖
+scsq	慽
+scrd	慔
+scrq	懨
+scwh	慌
+scwj	恾
+scyv	懂
+ssbn	悖
+ssbz	懥
+ssml	懳
+ssft	憆
+ssfq	戃
+ssnf	惝
+ssgz	選
+sskb	巺
+sskj	怋
+ssks	恍
+sskr	惽
+sshk	惱
+sscb	憤
+sscr	愤
+ssrn	惸
+ssrh	懎
+ssvl	惚 愡
+ssyn	恟 悩
+srbb	惃
+srpd	剿
+srph	勦
+srpv	鄛
+srms	泰
+srmv	慢
+srfx	慺
+srll	惗
+srlg	怜
+srlj	怆
+srgl	亁
+srgs	懪
+srkd	奏
+srkv	暢 愓
+srhp	秦
+srhv	惺
+srjl	憃
+srqn	鹡
+srqq	鶺
+srxf	愴
+srxt	虩
+srsg	戦
+srsj	愒
+srss	愰
+srsv	惕
+srrb	賫
+srrl	惷
+srrh	嗇
+srrq	懺
+srrr	赍
+srry	蠢
+svdb	頍
+svdr	𫠆
+svnn	甮
+svnq	鳷
+svlh	攰
+svgl	怱
+svgy	慅
+svqq	憜
+svxx	翅
+svxc	攳
+svvt	悭
+svvv	惙
+svvy	憫 憪
+svyh	恸
+svyx	愫
+swmd	懷 懐
+swfd	懹
+swdv	懠
+swlm	悙
+swln	惇
+swlw	憞
+swhp	懍
+swhk	憻
+swhx	懔
+swrs	悴
+swyf	悋
+swyt	慉
+swyn	恼
+sybw	悛
+syff	憍
+syds	惨
+sydv	懦
+synq	胷
+synw	惾
+sylh	怮
+syhn	恈
+syqr	悕
+syqy	恡
+syzm	懢
+sysh	慟
+syvt	慳
+syys	慘
+rbbn	鹍
+rbbq	鵾
+rbdx	曢
+rbds	晕 晖
+rbkk	暄
+rbkz	暈 暉
+rbkc	幏
+rbjj	帵 晼
+rbxq	鷃
+rbsl	幰
+rbrl	暝 幎
+rbvs	晥
+rbyx	暡
+rpdb	顆
+rpdr	颗
+rpgx	晰
+rphd	褁
+rpjg	夥
+rmtg	曎
+rmsr	曙
+rmvv	鄤
+rmyw	曪
+rfmq	氀 鷜
+rfmx	婁
+rfmz	遱
+rfmw	數 甊
+rffp	幧
+rffs	幝 暺
+rffw	曮
+rfzj	暆
+rfzz	暶
+rdpm	暽
+rdmb	幁 暊
+rddx	暸
+rdgh	晜
+rdkk	暛
+rdrj	晻
+rdrz	暰
+rdvj	晇
+rdwt	暀
+rdwq	曦
+rtfg	舗
+rtts	曉
+rndb	顒
+rndr	颙
+rntf	晭
+rngb	晪
+rngx	晣
+rnkk	幗
+rnsh	勗
+rnvm	帽
+rnwk	帼
+rlbs	晔
+rlmb	貪
+rlfb	頷
+rlfr	颔
+rlfy	曧
+rlnq	鳹
+rlnr	贪
+rlld	帿
+rllw	敜 雂
+rlgb	領
+rlgd	暌 刢
+rlgn	鸰
+rlgq	鴒
+rlgx	翎
+rlgr	领
+rlgv	邻
+rlgw	瓴
+rlkb	曨
+rlkq	幟
+rlkx	帹
+rlkz	幛 暲
+rlkr	暗
+rlkv	幢 曈
+rlhd	昴
+rljd	创
+rljn	鸧
+rljg	戗
+rlxm	盦
+rlxk	鿗
+rlxr	韽
+rlxv	酓
+rlsm	幃 暐
+rlvy	侌
+rlwd	衾
+rlwz	暹
+rgms	暴
+rgmv	暇
+rgmy	曯
+rgfm	舒
+rgfg	舖
+rgfq	鵨
+rgfv	舘
+rgdk	幈
+rgls	昹
+rggb	曠
+rgkt	幄
+rgqb	曊
+rgzc	幮
+rgsq	鷝
+rgyb	曂
+rkmp	暕
+rkmw	晸
+rkft	幅
+rkfj	鼌
+rknl	曬
+rknj	旽
+rknq	鴠
+rknx	鼂
+rkgh	煚
+rkgj	昛
+rkhh	朂
+rkhv	最
+rkjk	仺
+rkjv	量
+rkqg	晡
+rkcj	暱
+rksz	逿
+rksv	昜
+rksw	敭
+rkrk	晅
+rkrc	暷
+rkyt	晊
+rhmb	幀
+rhmp	暞
+rhms	曍
+rhdd	晁 晀
+rhdt	幡
+rhtm	曥
+rhtf	晧
+rhnl	幒
+rhnr	帧
+rhgg	帲
+rhkb	顕
+rhkf	幞
+rhkk	暟
+rhkw	曗
+rhrs	暤 暭
+rhrw	曒
+rhvg	戥
+rjbz	餫
+rjbv	館
+rjby	餽
+rjpk	餷
+rjmq	饖
+rjmw	饠
+rjfb	饋
+rjfy	蝕
+rjdb	顥
+rjdm	餰
+rjdf	饍
+rjdd	餪
+rjdt	饈
+rjdn	餴
+rjdk	餅
+rjdj	餣
+rjdq	餻
+rjdz	餸
+rjdr	颢
+rjtm	饁
+rjtd	餵
+rjts	饒
+rjnd	饢
+rjns	飷
+rjlf	飼 餢
+rjld	飹 餱
+rjlt	餾
+rjlz	餁
+rjly	餃
+rjgm	曻
+rjgf	餹 饝
+rjgq	餶
+rjgx	飰
+rjgw	饊
+rjkp	餗
+rjkm	飣
+rjkg	餔
+rjkk	餖
+rjkh	餌
+rjkj	飩 饇
+rjkc	餺
+rjhb	饡
+rjhf	餂
+rjhd	餆
+rjhg	餠
+rjhh	餤
+rjhq	餓 飥
+rjhx	餧
+rjhz	飪
+rjhw	餭
+rjjp	餘
+rjjf	餄
+rjjt	饞
+rjjj	餡
+rjjc	餯
+rjjv	餿
+rjqp	餼
+rjxd	餦
+rjzf	饎
+rjzk	饐
+rjzh	飭
+rjzj	饀
+rjzx	餒
+rjzr	飾
+rjzv	飵
+rjcm	饚
+rjcf	餝
+rjcd	饃
+rjcc	饛
+rjcv	饉
+rjcw	幨 曕
+rjcy	餀
+rjsb	饙
+rjsp	饓
+rjst	饄
+rjsn	餑
+rjsg	饌
+rjss	飽
+rjsy	餬
+rjrb	餛
+rjrp	餜
+rjrm	饂
+rjrj	餲
+rjrs	晩 飻 饆
+rjrr	餩
+rjrv	饅 餳
+rjvx	暩
+rjvv	餟
+rjwf	餎
+rjwd	餏 饟
+rjwt	飳
+rjwk	饘
+rjyf	飴
+rjyg	餞
+rjyq	饑 餚
+rjyr	餙
+rjyw	餕
+rqbg	昽
+rqdp	暣
+rqvg	帗
+rxmb	飮
+rxmz	曃
+rxlf	晤
+rxkb	幊
+rxkd	昻
+rxkh	昮
+rxhf	倉
+rxhd	創
+rxhg	戧
+rxhq	鶬
+rxjd	帳
+rxxq	毾
+rxxz	遢
+rxxw	曜
+rxvx	幖
+rzbk	曀
+rzbv	暧
+rzbw	曖
+rzmv	昨
+rzff	暿
+rzdb	題
+rzdr	题
+rznq	鶗
+rzlm	韙
+rzlc	幬
+rzgv	暖 㬊
+rzjd	幯
+rzjg	晦
+rzxh	尟
+rzzh	暚
+rzsq	幠
+rzvd	韪
+rcbc	幪 曚
+rcmq	幭
+rcfq	照
+rcdb	曓
+rcnd	暎
+rclq	晟 晠
+rckp	幉
+rckf	暵
+rckg	暪
+rckq	曣
+rcks	曄 曅
+rcjw	曔
+rccn	曞
+rcsb	帺
+rcrd	幙 暯
+rcvd	晨 帪
+rcvq	鷐
+rsmx	暳
+rsfn	幥
+rsfq	曭
+rsng	暔
+rskk	暅
+rsks	晃 晄
+rshc	帱
+rsqr	暑 帾 暏
+rscb	幩
+rscs	暁
+rsrb	歇
+rsrn	鹖
+rsrj	曷
+rsrq	毼 鶡
+rsrz	遏
+rsrr	暙
+rsvp	敡
+rsvd	剔
+rsvl	惖
+rsvq	鶍
+rsvz	逷
+rrbx	暥
+rrmm	歰 睂
+rrmv	幔
+rrtd	剉
+rrtw	夎
+rrns	俎
+rrlf	晗
+rrlg	昤
+rrgs	曝
+rrkh	耸
+rrkq	韱
+rrkv	暘
+rrhv	暒
+rrsj	幆 暍
+rrss	幌
+rrsr	龧
+rrsv	晹
+rrrd	曟
+rrrs	傘 曑 曡
+rrrv	曐
+rvmb	幘
+rvnr	帻
+rvhv	曏
+rvxt	畲
+rvvp	幱
+rvyd	刽
+rvyv	郐
+rwmf	晷
+rwfd	曩
+rwnf	暠
+rwlw	暾
+rwrs	晬
+rwyn	禽
+rwyr	晐
+rwyw	㬚
+rybk	曌
+rybw	晙
+rymq	曛
+rydv	曘
+rylw	曤
+rygg	帴
+ryks	晓
+ryqr	晞
+ryvy	曇
+rywg	琞
+ryyb	顯 歞
+ryyq	㬎
+ryys	幓
+vbbt	陛
+vbbr	階
+vbjy	隗
+vbvs	院
+vmbg	貮
+vmbh	勣
+vmmm	骘
+vmmh	陟
+vmmq	騭
+vmjt	虣
+vmjn	鹉
+vmjg	武
+vmjq	鵡
+vfmb	隕
+vfnr	陨
+vfsb	隤
+vfsr	𬯎
+vdpm	隣
+vdmg	阫
+vdnd	陾
+vdnv	陑
+vdkm	隘 陭
+vdkt	墜
+vdkh	隒
+vdkj	鐆
+vdkz	隧
+vdkc	隊
+vdqg	韨
+vdzj	韬
+vdrm	韫
+vdvj	陓
+vtbt	陸
+vtbw	陵
+vtdb	頚
+vtts	隢
+vtkd	隈
+vnrh	𪟝
+vlfc	夀
+vlgk	隥
+vlkb	隴
+vlkf	陪
+vlkz	障
+vlkr	隌
+vlcv	隡
+vgfy	蚤
+vggl	阸
+vkbb	缤 纰 𬙂
+vkbk	纻
+vkbx	综
+vkbz	绽
+vkbc	纷
+vkbs	𬘘 𬘫
+vkbr	缩
+vkbv	绾
+vkby	隬
+vkpp	𬘭
+vkpm	缃
+vkmd	缳
+vkmt	𬙊
+vkmh	缈
+vkfp	缲
+vkfm	阿
+vkfh	缉
+vkfj	绳
+vkfq	绢
+vkfx	娿
+vkfz	缱
+vkfr	缋
+vkdb	练
+vkdm	绮 缢 绗
+vkdf	缮 辔
+vkdd	陕
+vkdn	绊
+vkdh	绨 缣
+vkdj	继 绔 绻
+vkdx	缕 缭
+vkds	缅
+vkdr	缯
+vktl	缌
+vktx	缧
+vktw	绫
+vknf	绸 䌹
+vkng	级
+vknk	𬘡
+vknj	陋
+vknx	缨
+vkns	组
+vkny	纲
+vklm	纾
+vkld	缑
+vklt	纽
+vkll	𫄷
+vkls	绿
+vklr	缔
+vklw	维
+vkly	绞 缏
+vkgm	纼
+vkgq	绋
+vkgc	编
+vkgv	缠
+vkkt	绖
+vkkn	纡
+vkkk	缰
+vkkj	纯 陿
+vkkq	绒
+vkkc	缚
+vkkr	缙
+vkky	绠
+vkhn	绣
+vkhg	𬘩
+vkhk	缍
+vkhz	绰 缒 纴
+vkhs	纤 缐
+vkhr	绵 陝 缵
+vkhv	陬
+vkhw	缴
+vkjf	给
+vkjj	绝
+vkjx	绉
+vkjc	缘
+vkjs	缎
+vkqg	绂 陠
+vkqy	纮
+vkxk	红
+vkxh	纱
+vkxj	纸
+vkxx	缥
+vkxs	缪
+vkzf	结
+vkzt	塦
+vkzl	纥
+vkzg	𫄧
+vkzx	绥
+vkzr	缬
+vkzv	缓 绶
+vkcf	绍
+vkcd	绬
+vkcj	绁
+vkcq	缄
+vkcc	缛
+vkcv	绀
+vksp	缫
+vksf	绱
+vksd	续
+vkst	缁
+vksk	陘
+vksh	绹
+vksq	绡
+vksr	绪 绚 缗
+vksv	绑
+vkrb	绲
+vkrp	陳
+vkrm	缊
+vkrj	隁
+vkrz	缇
+vkrr	纵 陜
+vkrv	缦
+vkrw	敶
+vkry	绘 螴
+vkvd	纬
+vkvn	绎
+vkvk	经
+vkvj	缆
+vkvq	线 𬘬
+vkvr	绩
+vkvv	缀
+vkvy	纭
+vkwm	绛
+vkwf	络 绺 缟
+vkwd	缞 𬙋
+vkwn	缡 𬘯
+vkwz	缝
+vkws	统
+vkwv	终
+vkwy	纹
+vkyf	绐
+vkyq	𫄸
+vkys	绕
+vkyr	𫄨
+vkyv	𦈡
+vkyy	绷
+vhfy	蚃
+vhnd	隩
+vhnt	陞
+vhnr	陹
+vhgg	饗
+vhgx	嚮
+vhgr	響
+vhgv	鄉
+vhgy	蠁
+vhkg	隵
+vhkk	隑
+vhkv	鄊
+vhhv	鄕
+vhjd	表
+vhjv	郷
+vhsk	陲
+vhrg	飨
+vhrw	隍
+vjmr	陥
+vjfr	險 険
+vjnc	陯
+vjlt	墬
+vjlg	毒
+vjlx	纛
+vjgg	陊
+vjqd	隃
+vjxl	隐
+vjxk	隉
+vjcj	陒
+vjsk	险
+vjvx	際
+vqbg	陇
+vqbz	靛
+vqms	汬 靚
+vqnq	鶄
+vqjm	静
+vqjj	靘
+vqqp	靝
+vqqt	堕
+vqqz	随
+vqxt	墮
+vqxk	隓
+vqxh	嶞
+vqxq	隋
+vqxz	隨
+vqxs	隳
+vqzm	靜
+vqcv	刱
+vqss	靗
+vxfz	躄
+vxdp	糪
+vxdf	礕
+vxnq	鷿 鸊
+vxnx	鼊
+vxln	孹
+vxkd	刭
+vxkh	劲 巯
+vxkz	迳
+vxkr	颈
+vxhq	隲
+vxjg	阺
+vxrx	隙
+vxvx	祘
+vxwd	襞
+vxwg	璧
+vxyx	繴
+vzmv	阼
+vzdj	陁
+vzlc	隯
+vzxp	檃 櫽
+vzxl	隱 隠
+vclj	阨
+vcxq	隇
+vcvd	陙
+vsft	隚
+vsfj	鼋
+vsdb	頑
+vsdp	陱
+vsdr	顽
+vsnx	黿
+vshc	陦
+vsqr	陼
+vszh	陶
+vscb	隫
+vsrp	隟
+vsyf	兘
+vrlg	阾
+vrly	陰
+vrkv	陽
+vryq	隰
+vvbx	閱
+vvpq	鷴
+vvmb	閴
+vvmp	闅
+vvmd	闤
+vvmg	陚
+vvmq	闖 闃
+vvms	閖
+vvmw	闝
+vvfb	闠
+vvff	闆 閭
+vvfs	闡 闚
+vvfv	閼
+vvfy	閩
+vvdd	関
+vvdj	閹 闂
+vvdx	閲
+vvtm	闔
+vvtt	閨
+vvtz	闥 闧
+vvty	闏
+vvnb	闕
+vvnk	閫
+vvnr	贤
+vvlm	闈
+vvld	闋
+vvlg	閥
+vvlk	竖 閚
+vvlr	闇
+vvlw	閵 闞
+vvgg	閬
+vvgs	闀
+vvgw	闙
+vvkp	闌
+vvkm	閅 閜
+vvkf	闊
+vvkn	鸶
+vvkk	閸
+vvkh	聞 閯
+vvkq	閾
+vvkz	閳
+vvkc	闘
+vvks	閛
+vvhp	闑
+vvhg	閮
+vvhk	闓
+vvhs	闎
+vvjf	閤
+vvjg	弐
+vvjj	閻
+vvjx	闟
+vvqk	闦
+vvqh	閕
+vvqy	閎
+vvxt	闉
+vvxk	陉
+vvxx	闄
+vvxr	閽
+vvzv	閿
+vvst	闛 闣
+vvsr	闍
+vvrg	閝
+vvrq	鷼
+vvrx	闒
+vvrs	覸
+vvrr	閦 閶
+vvry	閺
+vvvb	欼 歠 顙
+vvvp	桑 敠
+vvvd	剟
+vvvq	毲 鵽
+vvvx	闢
+vvvz	逫
+vvvs	叠 閗
+vvvr	颡
+vvvv	叕 闁
+vvvw	敪
+vvwf	閣
+vvwt	閌
+vvwg	閠
+vvwr	閡 閙
+vvwy	閔
+vvyn	閞
+vvyk	關
+vvyq	閐 闗 鷳
+vvyx	紧
+vvys	覵
+vwmb	贅
+vwmq	驁
+vwfy	螯
+vwdv	隮
+vwnq	鷔
+vwnx	鼇
+vwnr	赘
+vwkh	聱
+vwkv	隆
+vwky	鿧
+vwjk	鳌
+vwjq	鰲
+vwqm	降
+vwyq	𬯀
+vwyr	陔
+vybw	陖
+vyby	魂
+vydv	隭
+vylh	动
+vyxz	叇 繛
+vyzv	叆
+vysv	隀
+wbbp	琛
+wbbh	瑏
+wbbr	諧 瑎
+wbfq	膏
+wbds	珲
+wbtl	亴
+wbns	誼
+wbkb	璌 璸
+wbkm	亭 詝 諡
+wbkk	瑄 諠
+wbkz	琿 璭 諢
+wbkc	豪
+wbhp	稁
+wbht	讅
+wbhq	詫 亳
+wbjd	褢
+wbjj	琬
+wbjy	瑰 謉
+wbqb	瑸
+wbzz	譺
+wbvx	琮 誴
+wbvs	琓
+wbyq	毫
+wppz	璴
+wmbx	瓔
+wmmd	褱
+wmtg	譯
+wmgf	咎
+wmgr	昝
+wmkd	環 譞
+wmqd	褭
+wmsr	誻
+wfmf	璐
+wfmd	衷 裛
+wfms	洜
+wffb	瓉 讃
+wffp	璪 譟
+wffd	襄
+wffg	瓤
+wffh	勷
+wffj	諤
+wffs	譂
+wffr	譛
+wffw	讝
+wfdb	頟
+wfnq	鵅
+wflw	雒
+wfkd	誤
+wfkh	諿
+wfhd	裵
+wfzz	璇
+wfsb	璝
+wfsz	譴 讉
+wdbf	諮
+wdpm	璘
+wdpz	謎
+wdmb	頊 齎
+wdmm	齍
+wdmd	劑
+wdmg	环
+wdmk	韲 齏
+wdmh	齌
+wdmx	齋
+wdmr	璔 譄
+wdmv	齊
+wddx	璙
+wdnd	瑌
+wdnr	顼
+wdnw	瓇
+wdgm	詶
+wdgh	珶
+wdkm	琦 謚
+wdkd	瑐
+wdkn	詳 珜
+wdkk	瑳 諩
+wdkh	謙
+wdkx	譾
+wdkz	璲 譢
+wdkc	謭
+wdkr	譜
+wdxc	譐
+wdcd	琢 諑
+wdsz	琏
+wdss	琷
+wdsr	譇
+wdrz	瑽
+wdvm	珩
+wdvj	誇
+wdwq	議
+wtbd	褻
+wtbw	謖
+wtdb	頏
+wtdr	颃
+wttt	瓃 讄
+wtts	譊
+wtlh	劥
+wtlz	邍
+wtkr	珮
+wthy	諷
+wtrq	琾
+wnmv	詜
+wnfb	歊
+wnfp	敲 槀 稾 髞
+wnft	髚
+wnfn	髜
+wnfl	髛
+wnfh	髝
+wnfq	鶮
+wnfs	毃
+wnfv	鄗
+wndk	珚
+wndj	誷
+wntf	調 琱
+wnnk	珊
+wngb	琠
+wnkx	譝
+wnsg	球
+wnsk	訵
+wnrx	璎
+wnvm	瑁
+wnwd	亵
+wlbf	謗
+wlbr	諦 𤧛
+wlmq	烹
+wlfd	褒
+wlnf	謪 謫
+wlnt	塾 墪
+wlnn	鹑 撉
+wlnl	憝
+wlnj	鐜
+wlnq	熟 鶉
+wlnz	瓋 讁
+wlns	亸 嚲
+wlnv	郭
+wlnw	敦 孰
+wlgp	瑈
+wlgf	譎 璚
+wlgd	袤
+wlgn	誦
+wlgk	證 璒
+wlkb	瓏
+wlkf	詞 琣
+wlkl	譩
+wlkg	玳
+wlkq	識
+wlkz	璋
+wlks	璄
+wlkr	諳
+wlkw	譀
+wlhf	珈
+wlhd	珋 譲
+wlhh	珕
+wlzq	諝
+wlcs	諺
+wlsm	諱 瑋
+wlrk	亱
+wlvs	琭
+wlwq	譙 鵺
+wlwz	璡
+wlwv	謢
+wgmv	瑕
+wgdh	譧
+wgls	詠
+wggx	謆
+wggc	諞
+wgkf	詬
+wght	謕
+wgjv	瑯
+wgxb	瓆
+wgxf	瑭
+wgcq	謶
+wgsf	琚
+wgwy	誸
+wgyb	璜
+wkmp	諫 瑓
+wkfb	瓎
+wkfp	誎
+wkfm	珂 訶 謌
+wkft	諨
+wkfj	謳
+wkfq	琙
+wkds	評 玶
+wkty	琺
+wknj	瓲 訰
+wknq	誡
+wkgj	詎
+wkkp	璖
+wkhh	讘
+wkhr	瑨
+wkhv	瑘 諏
+wkqg	誧
+wkqw	璷
+wkxg	試
+wkxz	誱
+wkzz	璉 謰
+wksk	誙
+wkrp	琜 誺 諌
+wkrl	璤 譓
+wkrc	瑼
+wkwj	誆
+wkyt	誈
+whbm	璿
+whpd	琍 誗
+whpn	誘 琇
+whpg	謻
+whpx	諉
+whps	瓈
+whfd	袠
+whfn	瑀
+whfy	蛮
+whdd	珧 誂
+whdt	璠 譒
+whdv	瑞 諯
+whtb	讚 瓚
+whtm	瓐
+whtf	誥
+whts	珗 詵
+whtr	瓒
+whnt	講
+whnl	璁 謥
+whnq	珴 誐 鵉
+whns	謯
+whlf	瓗 讗
+whln	孪
+whlq	瓛 讞
+whlw	璀
+whkf	璞
+whkc	璩 譵
+whhp	稟
+whhn	謼
+whhk	譃
+whhh	爕
+whhv	燮
+whhw	夑
+whjp	璨
+whjf	裔
+whjd	衣 哀
+whqc	謝
+whzg	珽 誔
+whsf	話
+whsk	諈
+whrb	顫
+whrp	瓅 皽
+whrf	碧
+whrn	鹯
+whrl	琌
+whrk	亶
+whrh	勯
+whrq	氈 鸇
+whrz	邅
+whrs	瑔
+whrr	颤
+whrw	瑝 璬 諻 譤
+whvx	禀
+whvr	瑡
+wjmd	瑍
+wjmr	璯 譮
+wjmv	謏
+wjft	讒
+wjfc	讑
+wjfr	譣
+wjfy	蝱
+wjts	亹
+wjnc	論
+wjnw	瓊 讂
+wjlb	瑻 璏 謴
+wjlc	瑑
+wjgp	椉 謋
+wjgf	詺
+wjgd	袲
+wjgg	誃
+wjkb	璵
+wjks	瑖
+wjhm	衁
+wjhd	裒
+wjqd	瑜 諭
+wjxm	諍 琤
+wjxs	譭
+wjcj	詭
+wjcw	譫
+wjsj	氓
+wjry	朚
+wjvd	裏
+wjvh	謠 瑤
+wjyw	望
+wqbg	珑
+wqmd	衺
+wqmn	珔
+wqmh	訝 玡
+wqmz	逄
+wqmv	琊
+wqjg	訧
+wqcd	譨
+wqsr	譖
+wqvg	詙
+wxbv	誛
+wxmm	璛
+wxmt	璢
+wxfd	襃
+wxfk	讍
+wxlf	語 珸
+wxld	裦
+wxhf	珺
+wxhd	褎
+wxjg	詆
+wxjr	琘 諙
+wxxc	璕
+wxxs	謬 璆 璻
+wxxr	謵
+wxsm	璶
+wxrk	誣
+wxvx	謤
+wxyd	褏
+wzbs	読
+wzbv	瑷
+wzbw	璦
+wzmb	讀 璳 瓄
+wzmv	詐
+wzmw	讟
+wzff	譆
+wzln	琈
+wzlg	誕
+wzlq	瓙
+wzlz	琁
+wzlc	璹 譸
+wzgv	瑗 諼
+wzhq	譌
+wzjf	譗
+wzjg	誨 珻
+wzzh	謡 瑶
+wzsq	璑 譕
+wzyd	謑
+wcfq	瑊 諴
+wcfw	瓘 讙
+wctm	瓂
+wcty	讛
+wcnd	瑛
+wclb	誮
+wclq	誠 珹
+wclr	膥
+wclv	護 瓁
+wckp	諜
+wckg	璊
+wckj	玴 詍
+wckq	讌
+wcks	譁 璍
+wckr	𫞩
+wckv	謹 瑾
+wchm	瓑 讈
+wchn	璓
+wchx	謜
+wcjp	瑹
+wcjv	甅
+wcjw	璥
+wcqf	諾
+wcsb	琪 諆
+wcst	璂
+wcsj	諶
+wcrd	謨
+wcrj	譪
+wcvp	謀
+wcvd	誫
+wcwh	謊
+wsbn	誖
+wsmb	瑣
+wsml	譿
+wsmz	逢
+wsmy	蠭
+wsft	璫 譡
+wsfq	讜
+wsfr	瑺
+wsfy	瑚
+wsdp	諊
+wsng	諵
+wsnh	謅
+wsnq	𤩽
+wsnr	琐
+wskj	珉
+wsks	珖
+wskr	瑉
+wshk	瑙
+wshw	誑
+wsqn	誟
+wsqr	諸 琽
+wsxv	琡 諔
+wszy	謿
+wssd	袌
+wssg	譔
+wsrp	瑧 璅
+wsrn	琫
+wsrr	瑃
+wsyn	詾
+wrbb	琨
+wrpd	裹
+wrmv	謾
+wrfx	謱
+wrlf	琀 誝
+wrll	諗
+wrlg	玲 詅
+wrlj	玱
+wrkv	瑒 諹
+wrhd	衰
+wrhv	瑆 謃
+wrjh	詤
+wrxf	瑲 謒
+wrsj	謁
+wrrb	顇
+wrrm	譅
+wrrq	讖
+wrrs	卒
+wrrw	雜
+wrwy	琝
+wvmb	謮
+wvmg	珷
+wvfy	螽
+wvgy	瑵
+wvhd	諘
+wvht	壅
+wvhg	饔
+wvhh	罋
+wvhw	雍 甕
+wvjg	瑇
+wvqz	琎 瓍
+wvzl	讔
+wvvp	瓓 讕
+wvvf	髙
+wvvj	讇
+wvvv	諁
+wvvy	譋
+wwbb	琵
+wwbm	諪
+wwbc	譹
+wwmd	瓌
+wwmj	琶
+wwfd	讓 瓖
+wwdv	璾
+wwnf	謞
+wwln	諄
+wwlw	譈
+wwhk	璮 譠
+wwhv	𤫉
+wwcp	斄
+wwcn	犛 孷
+wwcq	氂
+wwcx	嫠
+wwcc	剺
+wwcs	漦
+wwcv	釐
+wwsm	琒
+wwrl	琴
+wwrs	琗 誶
+wwwb	璱
+wwyn	璃 謧
+wwyh	琉
+wwys	珫 珳
+wwyr	該
+wwyw	斑
+wybn	牽
+wybw	誜
+wymf	贏 驘
+wymg	夣
+wyms	斍
+wyff	蠃 譑
+wyfd	袬
+wyfr	斔 螤
+wyfy	蚉 螡
+wydf	羸
+wydv	斋 瓀 譳
+wytv	鄐
+wynf	赢 鸁
+wynn	离
+wynq	鳼 鴍
+wynw	離
+wyln	斈
+wylh	詏
+wygp	斓
+wygg	斏 琖 諓
+wygc	斒
+wykh	斊
+wyjs	斖
+wyqd	剂 剤
+wyqk	齑
+wyqq	誵
+wyqx	斎
+wyqz	逳
+wyqr	琋
+wyqv	斉
+wyxf	嬴
+wyxh	玅
+wyzm	璼
+wyzd	玈 誒
+wycb	顏
+wycs	彥
+wycv	產
+wycw	棄
+wysp	欒
+wysm	矕
+wysd	奱
+wysn	攣 孿
+wysl	戀
+wysg	彎
+wysh	巒
+wysj	鑾
+wysq	鸞
+wysx	孌
+wyss	率 卛 灓 龻
+wysr	曫 臠
+wysv	諥
+wysw	變
+wysy	蠻
+wyrb	欬 賌 頦
+wyrf	臝
+wyrd	刻
+wyrh	劾
+wyrr	颏
+wyrv	郂
+wyvb	贇
+wyvp	斕
+wyvg	斌
+wyvj	㻬 謣 𨭉
+wyvr	赟
+wywy	玆
+wyyq	譏 璣
+wyyx	紊
+wyys	謲
+ybbt	膣
+ybbk	腔
+yblq	靏
+ybkb	臏
+ybkt	腟
+ybkj	肹
+ybkz	腪
+ybkc	霥
+ybhd	脓
+ybjj	腕
+ybqb	膑
+ybcg	臗
+ybvx	腙
+ybvs	脘
+ybwb	靌
+ybwp	皴
+ybwq	鵕
+ybwz	逡
+ypps	霦
+ypmn	鹴
+ypmq	鸘
+ypgd	剎
+ypgg	弒
+ypkg	弑
+yprs	膝
+ypvr	閷
+ymmw	臞
+ymth	勳
+ymtq	熏
+ymjy	蜰
+ymsk	靊
+ymsy	臅
+yfmb	贒 霣
+yfmf	露
+yffb	龗
+yffp	臊
+yfff	霝
+yffk	靈
+yffj	腭
+yffx	孁
+yffv	酃
+yfnp	敽
+yfnf	喬
+yfnh	勪
+yfnq	鷮
+yfnw	敿
+yfkd	脵
+yfkq	霵
+yfsb	膭
+ydpm	膦
+ydpx	𦝼
+ydmb	貵 頔 頣
+ydmf	脴
+ydmg	肧
+ydmk	胚
+ydfb	賸
+ydfp	榺
+ydfm	腾 膡
+ydft	塍
+ydfk	䲢
+ydfh	勝
+ydfj	腃
+ydfq	騰 鰧 黱
+ydfx	媵 縢
+ydfs	滕
+ydfr	幐
+ydfw	謄
+ydfy	螣
+yddx	膫
+ydnb	顬
+ydnd	腝
+ydns	腼
+ydnr	颥 𬱖
+ydnv	需 胹
+ydgh	䏲
+ydkm	膉
+ydkf	膳
+ydkd	朕
+ydkn	羘
+ydkh	膁
+ydkz	軬
+ydhw	霺
+ydsq	毵
+ydrj	腌 奙
+ydvm	胻
+ydvj	胯
+ydvq	鵩
+ytdm	盭
+yttt	靁
+ytts	膮
+ytkd	腲
+ytky	鿨
+ytyd	脚
+ytyt	靐
+yndk	胭
+yntf	霌
+ynnq	鴘
+yngb	腆
+ynkk	膕
+ynhk	䐃
+ynsg	脙
+ynrm	膃
+ynwk	腘
+ylbf	膀 膪
+ylbr	腣
+ylgp	腬
+ylgm	霿
+ylgf	霱
+ylgk	膯 霯
+ylgh	霧
+ylgc	雺
+ylgw	霚
+ylkb	朧 靇
+ylkl	臆 霠
+ylkq	膱
+ylkx	霎
+ylkr	腤
+ylkv	朣 膧
+ylhn	孧
+ylhh	脇
+ylhq	鴢
+ylhv	胁
+ylwn	臇
+ylwq	膲 靍 鸖
+ylww	靃
+ygpd	剰
+ygms	脲
+ygmv	霞 腵
+ygfz	膼
+ygfy	膙
+ygdh	臁
+ygld	脈
+yglc	腑
+ygls	脉
+yggg	霛
+ygkt	腛
+ygqw	霰
+ygxf	膅
+ygsm	腯
+ygsf	腒
+ygvc	霨
+ygym	盞
+ygyd	剗
+ygyt	虦
+ygyg	戔
+ykbs	霃
+ykfp	脨
+ykfm	胢
+ykft	腷
+ykfk	脰
+ykfj	膒
+ykds	胓
+yknj	肫
+yklf	霶
+yklg	脦
+ykgr	胰
+ykgy	霐
+ykkk	霊
+ykkr	霈
+ykhf	霑
+ykqg	脯
+ykqc	膊
+ykxx	霋
+ykxz	脻
+ykzz	霪
+ykcm	靋
+ykcj	霮
+ykcz	遯
+yksk	脛
+yksx	翘
+ykrp	腖
+ykrg	脼 霗
+ykrc	膞
+ykrr	脥
+ykvg	腻 膩
+ykwt	霔
+ykyt	胵
+yhpd	脷
+yhpx	腇
+yhdd	朓 脁 雿
+yhdt	膰
+yhdn	雽
+yhdv	腨
+yhtb	臢
+yhtm	臚
+yhtr	臜
+yhnb	膍
+yhnh	劺
+yhnq	鴾
+yhlw	膗
+yhgg	腁
+yhkc	臄
+yhhh	朥
+yhjh	胏
+yhzg	霆 脡
+yhsk	腄
+yhrs	腺
+yhvz	膇
+yjmj	脃
+yjmr	膾
+yjmv	膄
+yjfr	臉
+yjnq	靎
+yjnc	腀
+yjlg	胟
+yjlc	腞
+yjks	腶
+yjqd	腧
+yjcj	脆
+yjcw	膽
+yjsk	脸
+yjrj	霭
+yqbb	能
+yqbl	態
+yqbg	胧
+yqbh	熋
+yqbq	熊
+yqby	螚
+yqms	覒
+yqdp	毩
+yqdr	氆
+yqtl	毸
+yqnb	鬯
+yqng	毬
+yqlf	毰
+yqlw	敎
+yqkk	霻
+yqkq	毧
+yqhf	毡
+yqhh	毯
+yqhs	毨
+yqjd	毺
+yqjg	肬
+yqjr	氇 氌
+yqqs	殽
+yqqv	郩
+yqxg	毽
+yqxz	膸
+yqcd	膿 氁
+yqsp	毱
+yqsr	毥
+yqrb	欷
+yqrq	鵗
+yqrv	郗
+yqrw	瓻
+yqvg	胈
+yqwk	氊
+yqyn	毪
+yqyq	毳
+yqys	毶
+yqyv	郄
+yxng	腱
+yxjd	脹
+yxjg	胝
+yxxs	膠 臎
+yxxr	霫
+yxvx	膘
+yzmn	擥
+yzmj	鑒
+yzms	覽 覧
+yzmv	胙
+yzmw	譼
+yzff	臨
+yzfs	膨
+yzfv	臌
+yzdb	欸
+yzdj	胣
+yzdz	逘
+yzln	脬
+yzlg	脠
+yzhm	鹽
+yzjg	霉 脢
+yzcv	霾
+yzsm	盬
+yzsq	膴
+yzrv	膓
+yzrw	腹
+yzyd	膎
+ycbc	朦 靀
+ycnd	朠 霙
+yclh	雳
+yclv	臒
+yckj	朑
+yckq	臙
+ychm	靂
+yccq	臟 臓
+ycrd	膜
+ycrj	臈
+ycvp	腜
+ycvd	震 脤
+ycws	膵
+ysbb	繽 紕 縯
+ysbm	紵
+ysbf	縖
+ysbn	脖
+ysbl	総
+ysbk	縇
+ysbj	綩
+ysbx	綜 縡
+ysbz	綻 緷
+ysbc	紛
+ysbs	紞 綄
+ysbr	縮
+ysbv	綰
+ysby	綋
+yspp	綝
+yspm	緗
+yspg	絉
+ysmb	紪
+ysmd	繉 繯
+ysmt	纆
+ysmg	繹
+ysmh	緲
+ysmj	紦
+ysmx	纓
+ysms	絸
+ysmw	纙
+ysfb	縜 繢 纉
+ysfp	繰
+ysff	絽
+ysft	膛
+ysfh	緝
+ysfq	絹 鶭
+ysfz	縼 繾
+ysfs	繟
+ysdb	絘
+ysdm	綺 縊 絎 絒 繗
+ysdf	繕
+ysdd	緛
+ysdn	絆 絴
+ysdl	縂
+ysdg	紑
+ysdk	絣 縒
+ysdh	縑 綈
+ysdj	絝 継 綣
+ysdx	繚 綐
+ysdz	縱 縦 縰 繸
+ysdc	繜
+ysds	緬
+ysdr	絔 繒
+ysdv	緧
+ysdw	纋
+ystt	絓
+ystn	綥
+ystl	緦
+ystg	緈
+ystq	緭 繊 纎
+ystx	縲 纝
+ystz	繨
+ysts	繞
+ystw	綾
+ysty	紶
+ysnm	縕
+ysnf	綢 絅 綗
+ysnd	紻
+ysng	級 腩 絿
+ysnk	綑 絪
+ysnh	綱
+ysnj	網
+ysnx	繩
+ysnz	縌
+ysns	組
+ysny	臘
+yslb	纐
+yslp	緥
+yslm	緯 紓
+yslf	縍 繘 纀
+ysld	緱
+yslt	紐 縧
+ysll	繶
+yslh	糼
+yslq	織 絥 縃
+yslz	絍
+yslc	紨 縁
+ysls	緑
+yslr	締
+yslw	維
+ysly	絞 緶
+ysgb	纊
+ysgm	紖
+ysgf	緺
+ysgt	纏
+ysgq	紼 綟 縎
+ysgx	紤
+ysgc	編
+ysgv	縀
+ysgw	繖
+ysgy	紭 絋 繈 繦
+yskp	練 綀
+yskm	糽
+yskf	轡
+yskt	絰
+yskn	紆
+yskl	繐 纚
+yskg	緉
+yskk	經 絙 繮
+yskj	純
+yskq	絨 緎
+yskx	緀
+yskz	緁 縺
+yskc	縛 縳
+ysks	胱
+yskr	綊 縉
+yskv	緅
+yskw	緻
+ysky	綆
+yshb	緽 纘
+yshp	纅
+yshm	纑
+yshf	紩 絬 纗
+yshd	絩
+ysht	繙
+yshn	綉
+yshl	總
+yshg	綎
+yshk	腦 綞
+yshh	緂
+yshx	緌
+yshz	綽 紝 縋
+yshs	線 紣
+yshr	綿 絈
+yshw	繀 繌 繳
+yshy	繃
+ysjf	給
+ysjd	緰
+ysjt	纔
+ysjn	繲
+ysjj	絶
+ysjq	繎 繺
+ysjx	縩
+ysjc	緣 綸
+ysjs	綠 緞
+ysjr	繪
+ysqd	繷
+ysqg	紌 紱
+ysqq	絠
+ysqy	紘
+ysxb	繍
+ysxm	繡
+ysxt	緸
+ysxk	紅 絚 繣
+ysxh	紗
+ysxj	紙
+ysxx	縹
+ysxs	繆
+ysxr	緍
+ysxv	綅 綇
+yszb	續 纈
+yszp	綵
+yszf	結 繥
+yszd	縘
+yszn	綒
+yszl	紇 綕
+yszg	綖
+yszj	絁 縚
+yszx	綏
+yszc	絼
+yszs	続
+yszv	緩 綬
+yszw	緮
+yscb	綨 膹
+yscp	緤
+yscf	紹
+yscd	緓 縸
+ysct	緢 纒
+yscl	繱
+ysch	縙
+yscj	絕 紲
+yscq	緘 絾 縅 縬
+yscx	縓
+yscz	纄
+yscc	縟
+yscv	紺 緾
+yssp	繅 縥
+yssf	緔
+yssd	褜
+ysst	緇
+yssn	綍
+yssl	緫
+yssg	緖 繏
+yssk	緪 縆
+yssh	綯 縐 繬
+yssq	綃
+ysss	絖
+yssr	緒 絢 緡
+yssv	綁
+ysrb	緄
+ysrp	綶
+ysrm	緼
+ysrd	腠
+ysrl	紟 綛
+ysrg	紷
+ysrj	縄
+ysrq	纖 紒 絏 膌
+ysrx	縷
+ysrz	緃 緹
+ysrs	紾 縨 縪
+ysrv	緆 縵 繓
+ysry	絵
+ysvb	績
+ysvp	縔
+ysvf	脗
+ysvt	経
+ysvl	憅
+ysvg	紁
+ysvh	動
+ysvq	勲 綪
+ysvx	縤
+ysvs	紏
+ysvr	濌
+ysvv	綴
+ysvy	紜 繝
+yswm	絳 綘
+yswf	絡 綹 縞
+yswd	縗 纕
+yswt	紸
+yswn	綧 縭 縴
+yswl	纞
+yswk	繵
+yswx	綂
+yswz	縫
+ysws	統 綷 繂
+yswr	絯
+yswv	終 緕 纃
+yswy	紋 絃
+ysym	繿
+ysyf	紿 繑
+ysyn	胸 脳
+ysyl	緿
+ysyg	綫
+ysyj	繼
+ysyq	鷥 纁
+ysyx	絲
+ysys	纜 縿
+ysyr	絺
+ysyv	緟 繻
+ysyw	緵
+ysyy	綳 繧
+yrfx	膢
+yrll	腍
+yrlg	零 朎
+yrkv	腸
+yrhv	腥
+yrrt	脞
+yrrv	霷
+yrvy	脍
+yvmb	賢
+yvfy	蜸
+yvdf	硻
+yvln	孯
+yvlk	竪
+yvkk	豎
+yvhd	脿
+yvhv	膷
+yvjg	䏝
+yvjv	鄠
+yvxk	胫
+yvvv	腏
+yvvw	膶
+yvwv	霳
+yvyb	靅
+yvyp	霼
+yvyl	霒
+yvyj	霕
+yvyx	緊 膆
+yvyz	靆
+yvys	霴
+yvyw	靉
+ywdv	臍 霽
+ywlm	脝
+ywln	朜
+ywlh	雾
+ywlv	霩
+ywlw	腋
+ywhk	膻
+ywqm	胮
+ywsz	膖
+ywrj	靄
+ywrs	脺
+ywvw	臃
+ywyn	脑
+ywyq	脐 霁
+ywys	膟
+ywyr	胲
+yybs	斚
+yybw	朘 脧
+yymq	臐
+yydq	臩
+yydv	臑
+yynq	鵬
+yyns	爼
+yynw	朡
+yylw	臛
+yygd	霢
+yygs	霡
+yykq	幾 畿
+yykx	斷
+yyky	蠿
+yyqq	膬
+yyqr	脪
+yysv	腫
+yyvb	臔
+yyyd	剼
+yyyt	垒
+yyyq	毿
+yyyx	絫
+yyyz	遪
+yyys	參 叄 叅
+yyyv	亝
+yyyy	朤

@@ -20,12 +20,11 @@ local strategies = {
 ---@field strategy string
 
 ---@class PoppingEnv: Env
----@field speller Processor
 ---@field popping PoppingConfig[]
+---@field processing boolean
 
 ---@param env PoppingEnv
 function this.init(env)
-  env.speller = Component.Processor(env.engine, "", "speller")
   env.engine.context.option_update_notifier:connect(function(ctx, name)
     if name == "buffered" then
       local buffered = ctx:get_option("buffered")
@@ -68,6 +67,9 @@ end
 ---@param key_event KeyEvent
 ---@param env PoppingEnv
 function this.func(key_event, env)
+  if env.processing then
+    return snow.kNoop
+  end
   local context = env.engine.context
   local buffered = context:get_option("buffered")
   if key_event:release() or key_event:alt() or key_event:ctrl() or key_event:caps() then
@@ -101,6 +103,7 @@ function this.func(key_event, env)
       return snow.kNoop
     end
   end
+  local with_punct = false
   local incoming = utf8.char(key_event.keycode)
   for _, rule in ipairs(env.popping) do
     local when = rule.when
@@ -116,8 +119,9 @@ function this.func(key_event, env)
     end
     -- 如果策略为追加编码，则不执行顶屏直接返回
     if rule.strategy == strategies.append then
+      with_punct = true
       goto finish
-    -- 如果策略为条件顶屏，那么尝试先添加编码，如果能匹配到候选就不顶屏
+      -- 如果策略为条件顶屏，那么尝试先添加编码，如果能匹配到候选就不顶屏
     elseif rule.strategy == strategies.conditional then
       context:push_input(incoming)
       if context:has_menu() then
@@ -147,10 +151,21 @@ function this.func(key_event, env)
   end
   ::finish::
   -- 大写字母执行完顶屏功能之后转成小写
+  local map = {
+    [string.byte(":")] = string.byte(";"),
+    [string.byte("<")] = string.byte(","),
+    [string.byte(">")] = string.byte("."),
+    [string.byte("?")] = string.byte("/")
+  }
   if key_event.keycode >= 65 and key_event.keycode <= 90 then
     key_event = KeyEvent(utf8.char(key_event.keycode + 32))
+  elseif with_punct and map[key_event.keycode] then
+    key_event = KeyEvent(utf8.char(map[key_event.keycode]))
   end
-  return env.speller:process_key_event(key_event)
+  env.processing = true
+  env.engine:process_key(key_event)
+  env.processing = false
+  return snow.kAccepted
 end
 
 return this

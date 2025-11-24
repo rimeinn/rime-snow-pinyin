@@ -124,7 +124,7 @@ function this.func(translation, env)
       cand.type = "fixed"
       yield(cand)
       i = i + 1
-    elseif current and utf8.len(current) > utf8.len(text) then
+    elseif current and (candidate._end - candidate._start) < input:len() then
       -- 如果当前固顶候选比当前候选长，那么就不可能找到这个固顶候选，因此跳过
       local simple_candidate = Candidate("fixed", segment.start, segment._end, current, "")
       simple_candidate.preedit = snow.current(context) or ""

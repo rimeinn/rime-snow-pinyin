@@ -1,0 +1,176 @@
+# Rime schema
+# encoding: utf-8
+
+__include: snow_pinyin.schema.yaml:/
+
+schema:
+  schema_id: snow_qingyun
+  name: 冰雪清韵
+  version: "0.3.0"
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+  description: |
+    以音码词语和形码单字为特色的前缀码输入方案
+  dependencies:
+    - snow_pinyin
+    - snow_stroke
+    - snow_qingyun_xingma
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - lua_processor@*snow.select_character
+    - lua_processor@*snow.popping
+    - lua_processor@*snow.editor
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@pinyin
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - script_translator
+    - script_translator@qingyun
+    - table_translator@stroke
+    - script_translator@pinyin
+    - lua_translator@*snow.datetime
+    - lua_translator@*snow.number
+    - lua_translator@*snow.calculator
+    - history_translator
+  filters:
+    - lua_filter@*snow.fix
+    - lua_filter@*snow.qingyun
+    # - uniquifier
+    - simplifier
+
+qingyun_algebra:
+  # 还原
+  - xform/(^| )(h?)([mn]g?\d)/$1$2e$3/
+  - xform/(^| )(?=[aoe])/$1v/
+  - xform/(^| )wu?/$1wu/
+  - xform/(^| )yi?(?!u)/$1yi/
+  - xform/((?<=[jqxy])u|(?<=[nl])v)/ü/
+  - xform/iu/iou/
+  - xform/u([in])/ue$1/
+  - xlit/ê/e/
+  - xform/(?<=[a-zü])( |$)/1$1/
+  # 声码
+  - xform/(?<=[zcs])h//
+  # 韵码
+  - xform/er(?=\d)/i/
+  - xform/ü(?=\d)/u/
+  - xform/(ia|ua)(?=\d)/a/
+  - xform/(io|uo)(?=\d)/o/
+  - xform/(ie|üe)(?=\d)/e/
+  - xform/u?ai(?=\d)/i/
+  - xform/u?ei(?=\d)/e/
+  - xform/i?ao(?=\d)/o/
+  - xform/i?ou(?=\d)/a/
+  - xform/(an|ian|uan|üan)(?=\d)/;/
+  - xform/(ang|iang|uang)(?=\d)/,/
+  - xform/(en|in|uen|ün)(?=\d)/./
+  - xform+(eng|ing|ueng|ong|iong)(?=\d)+/+
+  # 声调
+  - xform/\d//
+  # 字母
+  - xform/~{1,2}([bpmfdtnlgkhjqxzcsrvwy])/$1./
+  - xform/~{1,2}([aeiou])/m$1/
+
+speller:
+  alphabet: bpmfdtnlgkhjqxzcsrwyvaoeiu;,./
+  initials: bpmfdtnlgkhjqxzcsrwyv
+  delimiter: " "
+  editor:
+    accept: "[aeiou;,./]"
+    match: ".+[bpmfdtnlgkhjqxzcsrywv][aeiou;,./]"
+  popping:
+    # 单字、二字词、三字词
+    - when: popping
+      match: "[bpmfdtnlgkhjqxzcsrywv]{1,3}[aoeiu;,./]"
+      accept: "[a-z;,./]"
+    # 四字词和多字词
+    - when: popping
+      match: "[bpmfdtnlgkhjqxzcsrywv]{4,}"
+      accept: "[a-z;,./]"
+    # 大写参与编码
+    - when: popping
+      match: "[bpmfdtnlgkhjqxzcsrywv]{4,}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWV]"
+      strategy: append
+    - when: popping
+      match: "([a-z;,./]{4,}|[bpmfdtnlgkhjqxzcsrywv]{2,3}[aoeiu;,./])"
+      accept: "[AOEIU:<>?]"
+      strategy: append
+    # 顶标点
+    - match: ".*[^a-z0-9;,./]"
+      accept: "[a-z;,./]"
+    # 标点大写顶
+    - match: ".*[a-z0-9;,./]"
+      accept: "[^a-z0-9;,./ ]"
+  algebra:
+    __include: /qingyun_algebra
+    __append:
+      # 简拼
+      - abbrev/^([a-z]).+$/$1/
+
+qingyun:
+  dictionary: snow_qingyun
+  prism: snow_qingyun_xingma
+  initial_quality: 10
+  enable_user_dict: false
+  enable_sentence: false
+
+__patch:
+  - patch
+  - snow_qingyun.custom:/patch?
+
+patch:
+  switches/+:
+    - name: popping
+      states: [全息, 前缀]
+      reset: 1
+    - name: buffered
+      states: [结束, 缓冲]
+      reset: 0
+  pinyin/prefix: "`"
+  recognizer/patterns/pinyin: "^`[a-z]*'?$"
+  stroke/prefix: "`"
+  stroke/tag: pinyin
+  recognizer/patterns/stroke: "^`[a-z]*'?$"
+  history/input: "`"
+  history/initial_quality: 100
+  lua/input: "`"
+  recognizer/patterns/history: "^`$"
+  recognizer/patterns/lua: null
+  translator/prism: snow_qingyun
+  translator/preedit_format:
+    - xform/^(.+)$/[$1]/
+  punctuator/half_shape/+:
+    "a": 了
+    "o": 我
+    "e": 的
+    "i": 是
+    "u": 不
+    ";": 在
+    "|": ；
+    "/": 和
+    "\\": 、
+  key_binder/bindings/+:
+    # 定位
+    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+    - { when: has_menu, accept: 4, send_sequence: "{Shift+Right}{Shift+Right}" }
+    - { when: has_menu, accept: 5, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}" }
+    - { when: has_menu, accept: 6, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
+    - { when: has_menu, accept: 7, send_sequence: "{End}" }
+    - { when: always, accept: "Control+j", toggle: buffered }
+  menu/alternative_select_keys: "_23890"
+  menu/page_size: 6

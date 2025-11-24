@@ -111,6 +111,9 @@ speller:
       accept: "[aeiou]"
     - match_shape: ".+"
       accept: "[aeiou]"
+  editor:
+    accept: "[aeiou]"
+    match: ".+[bpmfdtnlgkhjqxzcsrywv][aeiou]{2}"
   popping:
     # 单字、二字词、三字词
     - when: popping
