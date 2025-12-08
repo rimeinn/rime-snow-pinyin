@@ -21,6 +21,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - lua_processor@*snow.user_dict
     - lua_processor@*snow.shape_processor
     - key_binder
     - lua_processor@*snow.select_character
@@ -125,6 +126,7 @@ patch:
   translator/t1_pattern: "[bpmfdtnlgkhjqxzcsrywe][a-z]?"
   translator/t2_pattern: "[bpmfdtnlgkhjqxzcsrywe]{4}"
   translator/jianpin_pattern: "[bpmfdtnlgkhjqxzcsrywe]{3,}"
+  translator/enable_schema_user_dict: true
   key_binder/bindings/+:
     - { when: always, accept: "Control+j", toggle: buffered }
     - { when: always, accept: "Control+l", send_sequence: "{Home}{Right}{Right}" }

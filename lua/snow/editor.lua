@@ -27,7 +27,6 @@ function this.func(key_event, env)
     return snow.kNoop
   end
   local incoming = utf8.char(key_event.keycode)
-  local incoming_repr = key_event:repr()
   -- 只在顶功模式下生效
   if not context:get_option("popping") then
     return snow.kNoop
@@ -35,7 +34,7 @@ function this.func(key_event, env)
   -- 只对 aeiou 和 Backspace 键生效
   -- 如果输入是 aeiou，则添加一个码
   -- 如果输入是 Backspace，则从之前增加的补码中删除一个码
-  if not (rime_api.regex_match(incoming, env.accept) or incoming_repr == "BackSpace") then
+  if not (rime_api.regex_match(incoming, env.accept) or key_event.keycode == snow.kBackSpace) then
     return snow.kNoop
   end
   -- 判断是否满足补码条件：末音节有 3 码，且前面至少还有一个音节
@@ -49,7 +48,7 @@ function this.func(key_event, env)
     return snow.kNoop
   end
   -- 如果输入是 BackSpace，还要验证是否有补码
-  if incoming_repr == "BackSpace" then
+  if key_event.keycode == snow.kBackSpace then
     if not rime_api.regex_match(current_input, "[bpmfdtnlgkhjqxzcsrywv][aeiou;,./]+.+") then
       return snow.kNoop
     end
@@ -57,7 +56,7 @@ function this.func(key_event, env)
   -- 找出补码的位置（第二个音节之前），并添加补码
   local first_char_code_len = current_input:find("[bpmfdtnlgkhjqxzcsrywv]", 2) - 1
   context.caret_pos = confirmed_position + first_char_code_len
-  if incoming_repr == "BackSpace" then
+  if key_event.keycode == snow.kBackSpace then
     context:pop_input(1)
     first_char_code_len = first_char_code_len - 1
   else

@@ -19,7 +19,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
-    - lua_processor@*snow.fixed_user*processor
+    - lua_processor@*snow.user_dict
     - lua_processor@*snow.shape_processor
     - key_binder
     - lua_processor@*snow.abbreviation
@@ -57,7 +57,6 @@ engine:
     - lua_filter@*snow.shape_filter
     - simplifier
     - lua_filter@*snow.special
-    - lua_filter@*snow.fixed_user*filter
 
 sipin_algebra:
   # 无理音节
@@ -176,6 +175,7 @@ patch:
       reset: 0
   translator/prism: snow_sipin
   translator/preedit_format: null
+  translator/enable_schema_user_dict: true
   punctuator/half_shape/+:
     ";": 的
     "|": ；

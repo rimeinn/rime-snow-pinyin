@@ -14,10 +14,7 @@ speller:
   alphabet: bpmfdtnlgkhjqxzcsrwyvaoeiu;,./
   initials: bpmfdtnlgkhjqxzcsrwyv
   algebra:
-    __include: snow_qingyun.schema.yaml:/qingyun_algebra
-    __append:
-      # 简拼
-      - abbrev/^([a-z]).+$/$1/
+    __include: snow_qingyun.schema.yaml:/speller/algebra
 
 translator:
   dictionary: snow_qingyun

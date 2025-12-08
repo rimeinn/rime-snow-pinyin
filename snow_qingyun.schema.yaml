@@ -20,6 +20,7 @@ engine:
   processors:
     - ascii_composer
     - recognizer
+    - lua_processor@*snow.user_dict
     - key_binder
     - lua_processor@*snow.select_character
     - lua_processor@*snow.popping
@@ -48,41 +49,8 @@ engine:
     - history_translator
   filters:
     - lua_filter@*snow.fix
+    - lua_filter@*snow.postpone
     - lua_filter@*snow.qingyun
-    - simplifier
-
-qingyun_algebra:
-  # 还原
-  - xform/(^| )(h?)([mn]g?\d)/$1$2e$3/
-  - xform/(^| )(?=[aoe])/$1v/
-  - xform/(^| )wu?/$1wu/
-  - xform/(^| )yi?(?!u)/$1yi/
-  - xform/((?<=[jqxy])u|(?<=[nl])v)/ü/
-  - xform/iu/iou/
-  - xform/u([in])/ue$1/
-  - xlit/ê/e/
-  - xform/(?<=[a-zü])( |$)/1$1/
-  # 声码
-  - xform/(?<=[zcs])h//
-  # 韵码
-  - xform/er(?=\d)/i/
-  - xform/ü(?=\d)/u/
-  - xform/(ia|ua)(?=\d)/a/
-  - xform/(io|uo)(?=\d)/o/
-  - xform/(ie|üe)(?=\d)/e/
-  - xform/u?ai(?=\d)/i/
-  - xform/u?ei(?=\d)/e/
-  - xform/i?ao(?=\d)/o/
-  - xform/i?ou(?=\d)/a/
-  - xform/(an|ian|uan|üan)(?=\d)/;/
-  - xform/(ang|iang|uang)(?=\d)/,/
-  - xform/(en|in|uen|ün)(?=\d)/./
-  - xform+(eng|ing|ueng|ong|iong)(?=\d)+/+
-  # 声调
-  - xform/\d//
-  # 字母
-  - xform/~{1,2}([bpmfdtnlgkhjqxzcsrvwy])/$1./
-  - xform/~{1,2}([aeiou])/m$1/
 
 speller:
   alphabet: bpmfdtnlgkhjqxzcsrwyvaoeiu;,./
@@ -116,10 +84,41 @@ speller:
     - match: ".*[a-z0-9;,./]"
       accept: "[^a-z0-9;,./ ]"
   algebra:
-    __include: /qingyun_algebra
-    __append:
-      # 简拼
-      - abbrev/^([a-z]).+$/$1/
+    - xform/^m$/me/
+    - xform/(?<!\d)$/0/
+    # 还原
+    - xform/(^| )(h?)([mn]g?\d)/$1$2e$3/
+    - xform/(^| )(?=[aoe])/$1v/
+    - xform/(^| )wu?/$1wu/
+    - xform/(^| )yi?(?!u)/$1yi/
+    - xform/((?<=[jqxy])u|(?<=[nl])v)/ü/
+    - xform/iu/iou/
+    - xform/u([in])/ue$1/
+    - xlit/ê/e/
+    - xform/(?<=[a-zü])( |$)/1$1/
+    # 声码
+    - xform/(?<=[zcs])h//
+    # 韵码
+    - xform/er(?=\d)/i/
+    - xform/ü(?=\d)/u/
+    - xform/(ia|ua)(?=\d)/a/
+    - xform/(io|uo)(?=\d)/o/
+    - xform/(ie|üe)(?=\d)/e/
+    - xform/u?ai(?=\d)/i/
+    - xform/u?ei(?=\d)/e/
+    - xform/i?ao(?=\d)/o/
+    - xform/i?ou(?=\d)/a/
+    - xform/(an|ian|uan|üan)(?=\d)/;/
+    - xform/(ang|iang|uang)(?=\d)/,/
+    - xform/(en|in|uen|ün)(?=\d)/./
+    - xform+(eng|ing|ueng|ong|iong)(?=\d)+/+
+    # 声调
+    - xform/\d//
+    # 字母
+    - xform/~{1,2}([bpmfdtnlgkhjqxzcsrvwy])/$1./
+    - xform/~{1,2}([aeiou])/m$1/
+    # 简拼
+    - abbrev/^([a-z]).+$/$1/
 
 qingyun:
   dictionary: snow_qingyun
@@ -142,6 +141,9 @@ patch:
     - name: chaifen
       states: [隐藏, 拆分]
       reset: 0
+    - name: character
+      states: [字词, 单字]
+      reset: 0
   pinyin/prefix: "`"
   recognizer/patterns/pinyin: "^`[a-z]*'?$"
   stroke/prefix: "`"
@@ -155,6 +157,7 @@ patch:
   translator/prism: snow_qingyun
   translator/preedit_format:
     - xform/^(.+)$/[$1]/
+  translator/enable_schema_user_dict: true
   punctuator/half_shape/+:
     "a": 了
     "o": 我
@@ -173,5 +176,6 @@ patch:
     - { when: has_menu, accept: 6, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
     - { when: has_menu, accept: 7, send_sequence: "{End}" }
     - { when: always, accept: "Control+j", toggle: buffered }
+    - { when: always, accept: "Shift+Tab", toggle: character }
   menu/alternative_select_keys: "_23890"
   menu/page_size: 6

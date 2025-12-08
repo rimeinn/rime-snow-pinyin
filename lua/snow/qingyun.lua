@@ -10,6 +10,7 @@ local filter = {}
 ---@field lookup_pinyin ReverseLookup
 ---@field memory Memory
 ---@field chaifen table<string, string>
+---@field connection Connection
 
 ---@param env QingyunEnv
 function filter.init(env)
@@ -27,11 +28,26 @@ function filter.init(env)
   env.lookup_pinyin = ReverseLookup("snow_pinyin")
   env.memory = Memory(env.engine, env.engine.schema, "pinyin")
   env.chaifen = snow.table_from_tsv(rime_api.get_user_data_dir() .. "/lua/snow/qingyun_chaifen.txt")
+  env.connection = env.engine.context.commit_notifier:connect(function(ctx)
+    local reset = env.engine.schema.config:get_int("switches/7/reset")
+    snow.errorf("清韵方案：重置选项，chaifen=%s", tostring(reset))
+    ctx:set_option("character", reset == 1 and true or false)
+  end)
 end
 
 ---@param candiate Candidate
 function is_pinyin(candiate)
   return candiate.preedit:sub(1, 1) == "["
+end
+
+---@param candidate Candidate
+function prettify_preedit(candidate)
+  if candidate.preedit:sub(1, 1) == "[" then
+    candidate.preedit = candidate.preedit:sub(2, -2)
+  end
+  -- 补齐空格以便阅读
+  candidate.preedit = rime_api.regex_replace(candidate.preedit,
+    "(?<=[bpmfdtnlgkhjqxzcsrwyv])(?=[bpmfdtnlgkhjqxzcsrwyv])", " ")
 end
 
 ---@param translation Translation
@@ -43,29 +59,28 @@ function filter.func(translation, env)
   local affix = { "a", "o", "e", "i", "u", ";", ",", ".", "/" }
   for candidate in translation:iter() do
     -- 生成一简十重提示
-    if input:len() == 1 then
+    if rime_api.regex_match(input, "[bpmfdtnlgkhjqxzcsrvwy]{1,2}") then
       if count == 0 then
         local hint = ""
         for _, letter in ipairs(affix) do
           local code = input .. letter
-          local word = env.fixed[code]
-          if word then
-            -- local fixed_candidate = Candidate("qingyun", candidate.start, candidate._end, word, letter)
-            -- fixed_candidate.preedit = candidate.preedit
-            -- yield(fixed_candidate)
-            hint = hint .. word:match("^[^%s]+") .. letter .. " "
+          local word_list = env.fixed[code]
+          if word_list then
+            local word = word_list:match("^[^%s]+")
+            if input:len() == 1 or utf8.len(word) > 1 then
+              ---@type string
+              hint = hint .. word .. letter .. " "
+            end
           end
         end
-        if candidate.preedit:sub(1, 1) == "[" then
-          candidate.preedit = candidate.preedit:sub(2, -2)
-        end
-        candidate.comment = hint
+        candidate.comment = candidate.comment .. hint
+        prettify_preedit(candidate)
         yield(candidate)
       end
       count = count + 1
     elseif env.engine.context:get_option("buffered") and not is_pinyin(candidate) then
       local result = env.lookup_pinyin:lookup(candidate.text)
-      candidate.comment = result
+      candidate.comment = candidate.comment .. result
       ---@type Candidate[]
       local candidates = {}
       for pinyin in result:gmatch("[^%s]+") do
@@ -96,20 +111,18 @@ function filter.func(translation, env)
           end
         end
       end
-      if candidate.preedit:sub(1, 1) == "[" then
-        candidate.preedit = candidate.preedit:sub(2, -2)
-      end
+      prettify_preedit(candidate)
       yield(candidate)
     elseif candidate.type == "sentence" and (not is_pinyin(candidate)) then
       -- 过滤掉冰雪清韵形码的组句候选
     else
-      if candidate.preedit:sub(1, 1) == "[" then
-        candidate.preedit = candidate.preedit:sub(2, -2)
+      prettify_preedit(candidate)
+      local character_only = env.engine.context:get_option("character")
+      if character_only and utf8.len(candidate.text) > 1 then
+        goto continue
       end
-      -- 补齐空格以便阅读
-      candidate.preedit = rime_api.regex_replace(candidate.preedit,
-        "(?<=[bpmfdtnlgkhjqxzcsrwyv])(?=[bpmfdtnlgkhjqxzcsrwyv])", " ")
       yield(candidate)
+      ::continue::
     end
   end
 end

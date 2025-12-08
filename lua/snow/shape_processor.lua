@@ -67,8 +67,8 @@ function processor.func(key, env)
   -- 追加编码
   local context = env.engine.context
   local shape_input = context:get_property("shape_input")
-  local keyName = key:repr()
-  if keyName == "BackSpace" and shape_input ~= "" then
+  local key_char = utf8.char(key.keycode)
+  if key.keycode == snow.kBackSpace and shape_input ~= "" then
     if env.engine.schema.schema_id == "snow_yipin" then
       shape_input = ""
     else
@@ -83,10 +83,10 @@ function processor.func(key, env)
       if rule.match_shape and not rime_api.regex_match(shape_input, rule.match_shape) then
         goto continue
       end
-      if not rime_api.regex_match(keyName, rule.accept) then
+      if not rime_api.regex_match(key_char, rule.accept) then
         goto continue
       end
-      shape_input = shape_input .. keyName
+      shape_input = shape_input .. key_char
       goto update
       ::continue::
     end

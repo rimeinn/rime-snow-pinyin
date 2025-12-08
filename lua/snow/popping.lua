@@ -75,10 +75,10 @@ function this.func(key_event, env)
   if key_event:release() or key_event:alt() or key_event:ctrl() or key_event:caps() then
     return snow.kNoop
   end
-  local incoming = key_event:repr()
+  local incoming = utf8.char(key_event.keycode)
   -- 如果输入为空格或数字，代表着作文即将上屏，此时把 kConfirmed 的片段改为 kSelected
   -- 这解决了 https://github.com/rime/home/issues/276 中的不造词问题
-  if rime_api.regex_match(incoming, "\\d") or incoming == "space" then
+  if rime_api.regex_match(incoming, "\\d") or key_event.keycode == snow.kSpace then
     for _, segment in ipairs(context.composition:toSegmentation():get_segments()) do
       if segment.status == snow.kConfirmed then
         segment.status = snow.kSelected
@@ -104,7 +104,6 @@ function this.func(key_event, env)
     end
   end
   local with_punct = false
-  local incoming = utf8.char(key_event.keycode)
   for _, rule in ipairs(env.popping) do
     local when = rule.when
     local success = false
