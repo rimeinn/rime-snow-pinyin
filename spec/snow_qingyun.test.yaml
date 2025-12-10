@@ -1,0 +1,55 @@
+schema: snow_qingyun
+source_dir: ..
+script: |
+  function has(something)
+    for _, v in ipairs(cand) do
+      if v.text == something then
+        return true
+      end
+    end
+    return false
+  end
+deploy:
+  sentence:
+    options:
+      popping: false
+    tests:
+      - send: kavoq/
+        assert: cand[1].text == "清"
+  popping:
+    tests:
+      # 组词规则
+      - send: b/
+        assert: has("冰")
+      - send: bxe
+        assert: has("冰雪")
+      - send: srfa
+        assert: has("输入法")
+      - send: cmxw
+        assert: has("充满希望")
+      - send: zwsrF
+        assert: has("中文输入法")
+      - send: zhrmGHG
+        assert: has("中华人民共和国")
+      # 固顶词
+      - send: k
+        assert: cand[1].text == "来"
+      - send: je
+        assert: cand[1].text == "多"
+      - send: jgi
+        assert: cand[1].text == "夕"
+      - send: kv
+        assert: cand[1].text == "清"
+      # 首选后置
+      - send: ygeI
+        assert: cand[2].text == "一个"
+      # 顶功
+      - send: fisu
+        assert: commit == "吃" and cand[1].text == "什么"
+      - send: xsin
+        assert: commit == "现实" and cand[1].text == "看"
+      - send: mmmmmm
+        assert: commit == "密密麻麻" and cand[1].text == "步"
+      # 形音替换造词
+      - send: "{Control+j}ppjgkvnagnpabw  mzxk"
+        assert: cand[1].text == "梦泽闲客"

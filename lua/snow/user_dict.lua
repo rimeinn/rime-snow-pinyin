@@ -18,6 +18,7 @@ local this = {}
 ---@field add_key KeyEvent
 ---@field up_key KeyEvent
 ---@field down_key KeyEvent
+---@field reset_key KeyEvent
 
 ---@param env UserDbEnv
 function this.init(env)
@@ -34,7 +35,8 @@ function this.init(env)
   env.add_key = KeyEvent("Control+apostrophe")
   env.up_key = KeyEvent("Control+bracketleft")
   env.down_key = KeyEvent("Control+bracketright")
-  for _, field in ipairs({ "fix_key", "add_key", "up_key", "down_key" }) do
+  env.reset_key = KeyEvent("Control+backslash")
+  for _, field in ipairs({ "fix_key", "add_key", "up_key", "down_key", "reset_key" }) do
     local repr = config:get_string("translator/" .. field)
     if repr then
       ---@diagnostic disable-next-line: no-unknown
@@ -219,6 +221,16 @@ function this.func(key_event, env)
     this.check_move(input, index + 1, index, env)
     env.user_dict:update(key, value)
     this.refresh_recover(context, index + 1)
+    return snow.kAccepted
+  elseif key_event:eq(env.reset_key) then
+    for k, v in env.user_dict:query(input .. snow.separator):iter() do
+      local _, existing_index = snow.decode(snow.parse(v) or 0)
+      if existing_index ~= snow.DISABLE_INDEX then
+        env.user_dict:update(k, snow.format(snow.encode(epoch, snow.DISABLE_INDEX)))
+      end
+    end
+    snow.errorf("时间戳 %d：重置在 %s 的候选", epoch, input)
+    this.refresh_recover(context, index)
     return snow.kAccepted
   end
   return snow.kNoop

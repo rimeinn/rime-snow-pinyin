@@ -5,12 +5,6 @@ local snow = require "snow.snow"
 
 ---@param env Env
 local function update(env)
-  local composition = env.engine.context.composition
-  if composition:empty() then
-    return
-  end
-  local segment = composition:back()
-  segment.prompt = segment.prompt .. ": " .. (env.engine.context:get_property("shape_input") or "")
   env.engine.context:refresh_non_confirmed_composition()
 end
 
@@ -67,7 +61,9 @@ function processor.func(key, env)
   -- 追加编码
   local context = env.engine.context
   local shape_input = context:get_property("shape_input")
-  local key_char = utf8.char(key.keycode)
+  if key.modifier ~= 0 then
+    return snow.kNoop
+  end
   if key.keycode == snow.kBackSpace and shape_input ~= "" then
     if env.engine.schema.schema_id == "snow_yipin" then
       shape_input = ""
@@ -76,6 +72,7 @@ function processor.func(key, env)
     end
     goto update
   else
+    local key_char = utf8.char(key.keycode)
     for _, rule in ipairs(env.config) do
       if rule.match and not rime_api.regex_match(input, rule.match) then
         goto continue

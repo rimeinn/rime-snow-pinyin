@@ -58,7 +58,8 @@ function this.get_customized_list(env, input)
     return fixed_phrases
   end
   local max_index = 0
-  for k, v in env.user_dict:query(input .. snow.separator):iter() do
+  local da = env.user_dict:query(input .. snow.separator)
+  for k, v in da:iter() do
     local word = k:match("\t(.+)$")
     local value = snow.parse(v)
     if not value then
@@ -81,6 +82,9 @@ function this.get_customized_list(env, input)
     end
     ::continue::
   end
+  ---@diagnostic disable-next-line: cast-local-type
+  da = nil
+  collectgarbage()
   for i = 1, max_index do
     if not fixed_phrases[i] then
       fixed_phrases[i] = snow.placeholder
@@ -101,13 +105,14 @@ function this.func(translation, env)
     end
     return
   end
+  local full_input = input
   local shape_input = context:get_property("shape_input")
   if shape_input then
-    input = input .. shape_input
+    full_input = input .. shape_input
   end
-  local fixed_phrases = this.get_customized_list(env, input)
+  local fixed_phrases = this.get_customized_list(env, full_input)
   if #fixed_phrases > 0 then
-    snow.errorf("编码 %s：固定词 %s", input, table.concat(fixed_phrases, ", "))
+    snow.errorf("编码 %s：固定词 %s", full_input, table.concat(fixed_phrases, ", "))
   end
   if not fixed_phrases then
     for candidate in translation:iter() do

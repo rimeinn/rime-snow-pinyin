@@ -171,7 +171,7 @@ function filter.func(translation, env)
   for candidate in translation:iter() do
     local show, prompt, comment = filter.handle_candidate(candidate.text, shape_input, env)
     if show then
-      if comment then candidate.comment = comment end
+      if comment then snow.comment(candidate, comment) end
       if prompt then candidate.preedit = candidate.preedit .. prompt end
       yield(candidate)
     end

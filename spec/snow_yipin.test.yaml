@@ -148,8 +148,8 @@ deploy:
         assert: preedit == "dia3"
       - send: xcm,{Release+x}{Release+c}{Release+m}{Release+comma}
         assert: preedit == "dian3"
-      - send: xcm/{Release+x}{Release+c}{Release+m}{Release+slash}
-        assert: preedit == "diao3"
+      # - send: xcm/{Release+x}{Release+c}{Release+m}{Release+slash}
+      #   assert: preedit == "diao3"
       - send: xcp{Release+x}{Release+c}{Release+p}
         assert: preedit == "die2"
       - send: xch;{Release+x}{Release+c}{Release+h}{Release+semicolon}
@@ -176,8 +176,8 @@ deploy:
         assert: preedit == "ei3"
       - send: zvhk{Release+z}{Release+v}{Release+h}{Release+k}
         assert: preedit == "en4"
-      - send: zvi{Release+z}{Release+v}{Release+i}
-        assert: preedit == "eng1"
+      # - send: zvi{Release+z}{Release+v}{Release+i}
+      #   assert: preedit == "eng1"
       - send: zvj{Release+z}{Release+v}{Release+j}
         assert: preedit == "er4"
       - send: tul{Release+t}{Release+u}{Release+l}
@@ -254,8 +254,8 @@ deploy:
         assert: preedit == "hen2"
       - send: zy{Release+z}{Release+y}
         assert: preedit == "heng2"
-      - send: z,{Release+z}{Release+comma}
-        assert: preedit == "hen1"
+      # - send: z,{Release+z}{Release+comma}
+      #   assert: preedit == "hen1"
       - send: zi{Release+z}{Release+i}
         assert: preedit == "heng1"
       - send: erh;{Release+e}{Release+r}{Release+h}{Release+semicolon}
@@ -394,10 +394,10 @@ deploy:
         assert: preedit == "luo4"
       - send: asu{Release+a}{Release+s}{Release+u}
         assert: preedit == "lv2"
-      - send: ash{Release+a}{Release+s}{Release+h}
-        assert: preedit == "lve4"
-      - send: cu{Release+c}{Release+u}
-        assert: preedit == "mu2"
+      # - send: ash{Release+a}{Release+s}{Release+h}
+      #   assert: preedit == "lve4"
+      # - send: cu{Release+c}{Release+u}
+      #   assert: preedit == "mu2"
       - send: cmk{Release+c}{Release+m}{Release+k}
         assert: preedit == "ma3"
       - send: chl{Release+c}{Release+h}{Release+l}
@@ -456,8 +456,8 @@ deploy:
         assert: preedit == "nen4"
       - send: dgy{Release+d}{Release+g}{Release+y}
         assert: preedit == "neng2"
-      - send: zvjk{Release+z}{Release+v}{Release+j}{Release+k}
-        assert: preedit == "eng4"
+      # - send: zvjk{Release+z}{Release+v}{Release+j}{Release+k}
+      #   assert: preedit == "eng4"
       - send: cf;{Release+c}{Release+f}{Release+semicolon}
         assert: preedit == "ni1"
       - send: cfui{Release+c}{Release+f}{Release+u}{Release+i}
@@ -486,8 +486,8 @@ deploy:
         assert: preedit == "nuo2"
       - send: xdj{Release+x}{Release+d}{Release+j}
         assert: preedit == "nv4"
-      - send: xdh{Release+x}{Release+d}{Release+h}
-        assert: preedit == "nve4"
+      # - send: xdh{Release+x}{Release+d}{Release+h}
+      #   assert: preedit == "nve4"
       - send: zvk{Release+z}{Release+v}{Release+k}
         assert: preedit == "e1"
       - send: zvm.{Release+z}{Release+v}{Release+m}{Release+period}

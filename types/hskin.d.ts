@@ -27,85 +27,63 @@ type KeyboardConfig = {
 };
 
 type Keyboard = {
-  preeditHeight: number;
-  preedit: Preedit;
-  toolbarHeight: number;
-  toolbar: Toolbar;
-  keyboardHeight: number;
+  preeditHeight: Height;
+  preeditStyle: PreeditStyle;
+  toolbarHeight: Height;
+  toolbarStyle: ToolbarStyle;
+  toolbarLayout: Layout;
+  horizontalCandidateStyle: HorizontalCandidateStyle;
+  horizontalCandidateLayout: Layout;
+  verticalCandidateStyle: VerticalCandidateStyle;
+  verticalCandidateLayout: Layout;
+  candidateContextMenu: CandidateContextMenu;
+  keyboardHeight: Height;
   keyboardStyle: KeyboardStyle;
-  keyboardLayout: KeyboardLayout;
+  keyboardLayout: Layout;
   [k: string]: any; // 其他样式或属性
 };
 
 // 预编辑区 Preedit
 
-type Preedit = {
+type PreeditStyle = {
   insets: Insets;
-  backgroundStyle: Ref<ImageBackgroundStyle>;
-  foregroundStyle: Ref<PreeditForegroundStyle>;
-};
-
-type ImageBackgroundStyle = {
-  normalImage: Image;
-};
-
-type PreeditForegroundStyle = {
-  textColor: Color;
-  fontSize: number;
-  fontWeight: FontWeight;
+  backgroundStyle: Ref<Style>;
+  foregroundStyle: Ref<Style>;
 };
 
 // 工具栏区 Toolbar
 
-type Toolbar = {
-  backgroundStyle: Ref<ImageBackgroundStyle>;
-  primaryButtonStyle: Ref<ToolbarButtonStyle>;
-  secondaryButtonStyle: Ref<ToolbarButtonStyle>[];
-  horizontalCandidateStyle: Ref<HorizontalCandidateStyle>;
-  verticalCandidateStyle: Ref<VerticalCandidateStyle>;
-  candidateContextMenu: Ref<CandidateContextMenu>;
+type ToolbarStyle = {
+  backgroundStyle: Ref<Style>;
 };
-
-type ToolbarButtonStyle = {
-  backgroundStyle: Ref<ToolbarButtonBackgroundStyle>;
-  foregroundStyle: Ref<ToolbarButtonForegroundStyle>;
-  action: Action;
-};
-
-type ToolbarButtonBackgroundStyle = {
-  normalColor: Color;
-  highlightColor: Color;
-};
-
-type ToolbarButtonForegroundStyle =
-  | { normalImage: Image; highlightImage: Image }
-  | {
-      text: string | ScriptExpression;
-      normalColor: Color;
-      highlightColor: Color;
-      fontSize: FontSize;
-      fontWeight: FontWeight;
-    };
 
 type HorizontalCandidateStyle = {
-  insets: Insets;
-  candidateStateButtonStyle?: Ref<CandidateStateButtonStyle>;
-  highlightBackgroundColor?: string;
-  preferredBackgroundColor?: string;
-  preferredIndexColor?: string;
-  preferredTextColor?: string;
-  preferredCommentColor?: string;
-  indexColor?: string;
-  textColor?: string;
-  commentColor?: string;
-  indexFontSize?: number;
-  indexFontWeight?: FontWeight;
-  textFontSize?: number;
-  textFontWeight?: FontWeight;
-  commentFontSize?: number;
-  commentFontWeight?: FontWeight;
-  itemSpacing?: number;
+  insets?: Insets;
+  backgroundStyle?: Ref<Style>;
 };
+
+type HorizontalCandidates = {
+  type: 'horizontalCandidates';
+  size: Size;
+  insets: Insets;
+  backgroundStyle: Ref<Style>;
+  candidateStyle: Ref<CandidateStyle>;
+}
+
+type CandidateStyle = {
+  insets?: Insets;
+  highlightBackgroundColor?: Color;
+  preferredBackgroundColor?: Color;
+  preferredIndexColor?: Color;
+  preferredTextColor?: Color;
+  preferredCommentColor?: Color;
+  indexColor?: Color;
+  textColor?: Color;
+  commentColor?: Color;
+  indexFontSize?: number;
+  textFontSize?: number;
+  commentFontSize?: number;
+}
 
 type CandidateStateButtonStyle = {
   backgroundStyle: Ref<CandidateStateButtonBackgroundStyle>;
@@ -124,40 +102,16 @@ type CandidateStateButtonForegroundStyle = {
 
 type VerticalCandidateStyle = {
   insets?: Insets;
-  bottomRowHeight?: number;
-  backgroundStyle?: Ref<ImageBackgroundStyle>;
-  candidateStyle?: Ref<CandidateStyle>;
-  pageUpButtonStyle?: Ref<ButtonStyle>;
-  pageDownButtonStyle?: Ref<ButtonStyle>;
-  returnButtonStyle?: Ref<ButtonStyle>;
-  backspaceButtonStyle?: Ref<ButtonStyle>;
+  backgroundStyle?: Ref<Style>;
 };
 
-type CandidateStyle = {
-  insets?: Insets;
-  backgroundColor?: Color;
-  separatorColor?: Color;
-  cornerRadius?: number;
-  highlightBackgroundColor?: Color;
-  preferredBackgroundColor?: Color;
-  preferredIndexColor?: Color;
-  preferredTextColor?: Color;
-  preferredCommentColor?: Color;
-  indexColor?: Color;
-  textColor?: Color;
-  commentColor?: Color;
-  indexFontSize?: number;
-  indexFontWeight?: FontWeight;
-  textFontSize?: number;
-  textFontWeight?: FontWeight;
-  commentFontSize?: number;
-  commentFontWeight?: FontWeight;
-};
-
-type ButtonStyle = {
-  backgroundStyle: Ref<ToolbarButtonForegroundStyle>;
-  foregroundStyle: Refs<ToolbarButtonForegroundStyle>;
-};
+type VerticalCandidates = {
+  type: 'verticalCandidates';
+  maxRows: number;
+  separatorColor: '#33338888';
+  backgroundStyle: Ref<Style>;
+  candidateStyle: Ref<CandidateStyle>;
+}
 
 type CandidateContextMenu = CandidateContextMenuItem[];
 
@@ -168,7 +122,9 @@ type CandidateContextMenuItem = {
 
 // 键盘 Keyboard
 
-type KeyboardLayout = LayoutElement[];
+type KeyboardStyle = {
+  backgroundStyle: Ref<Style>;
+};
 
 type LayoutElement = CellReference | HStack | VStack;
 
@@ -197,71 +153,20 @@ type StackStyle = {
 type Cell = {
   size?: Size;
   bounds?: Bounds;
-  backgroundStyle?: Ref<CellBackgroundStyle>;
-  foregroundStyle: Refs<CellForegroundStyle> | ScriptExpression;
-  uppercasedStateForegroundStyle?: Refs<CellForegroundStyle> | ScriptExpression;
-  capsLockedStateForegroundStyle?: Refs<CellForegroundStyle> | ScriptExpression;
-  preeditStateForegroundStyle?: Refs<CellForegroundStyle> | ScriptExpression;
-
+  backgroundStyle?: BackgroundStyle;
+  foregroundStyle: ForegroundStyle;
+  uppercasedStateForegroundStyle?: ForegroundStyle;
+  capsLockedStateForegroundStyle?: ForegroundStyle;
   hintStyle?: HintStyle;
-  holdSymbolsStyle?: HoldSymbolsStyle;
+  hintSymbolsStyle?: HoldSymbolsStyle;
 
   action?: Action;
-  uppercasedStateAction?: Action;
-  preeditStateAction?: Action;
   repeatAction?: Action;
+  uppercasedStateAction?: Action;
   swipeUpAction?: Action;
   swipeDownAction?: Action;
-  swipeLeftAction?: Action;
-  swipeRightAction?: Action;
-
-  type?: "symbols" | "pinyin" | "classifiedSymbols" | "subClassifiedSymbols";
-  dataSource?: keyof DataSource;
-  cellStyle?: Ref<CollectionCellStyle>;
-};
-
-type CellForegroundStyle = ForegroundTextStyle | ForegroundImageStyle;
-
-type CellBackgroundStyle =
-  | BackgroundImageStyle
-  | BackgroundOriginalStyle;
-
-type ForegroundImageStyle = {
-  normalImage: Image;
-  highlightImage?: Image;
-};
-
-type ForegroundTextStyle = {
-  text: string | ScriptExpression;
-  normalColor: string;
-  highlightColor?: string;
-  fontSize?: number;
-  fontWeight?: FontWeight;
-  center: Center;
-};
-
-type BackgroundImageStyle = {
-  normalImage: Image;
-  highlightImage?: Image;
-  animation?: Ref<AnimationConfig>;
-};
-
-type BackgroundOriginalStyle = {
-  type: "original";
-  insets?: Insets;
-  normalColor: string;
-  highlightColor?: string;
-  cornerRadius?: number;
-  borderSize?: number;
-  normalBorderColor?: string;
-  highlightBorderColor?: string;
-  normalLowerEdgeColor?: string;
-  highlightLowerEdgeColor?: string;
-  normalShadowColor?: string;
-  highlightShadowColor?: string;
-  shadowRadius?: number;
-  shadowOffset?: Offset;
-  animation?: Ref<AnimationConfig>;
+  animation?: AnimationConfig;
+  notification?: NotificationStyle;
 };
 
 type HintStyle = {
@@ -300,40 +205,44 @@ type Action =
       symbol: string;
     }
   | {
-      shortcutCommand: string;
+      sendKeys: string;
     }
   | {
-      sendKeys?: string;
+      openURL: string;
     }
   | {
-      openURL?: string;
+      runScript: string;
     }
   | {
-      runScript?: string;
+      keyboardType:
+        | "pinyin"
+        | "alphabetic"
+        | "numeric"
+        | "symbolic"
+        | "emojis"
+        | string;
     }
   | {
-      runTranslateScript?: string;
+      shortcut: string;
     }
   | {
-      keyboardType?: "pinyin" | "alphabetic" | "numeric" | "symbolic" | string;
-    }
-  | {
-      floatKeyboardType?: string;
+      switchRimeSchema: string;
     };
 
 type PrimitiveAction =
-  | "backspace"
-  | "enter"
-  | "shift"
-  | "tab"
   | "space"
+  | "enter"
+  | "tab"
+  | "shift"
+  | "backspace"
   | "dismissKeyboard"
-  | "systemSettings"
-  | "nextKeyboard"
-  | "pageUp"
-  | "pageDown"
+  | "moveCursorBackward"
+  | "moveCursorForward"
+  | "returnPrimaryKeyboard"
+  | "returnLastKeyboard"
   | "symbolicKeyboardLockStateToggle"
-  | "returnPrimaryKeyboard";
+  | "settings"
+  | "nextKeyboard";
 
 /*** 动画 ***/
 
@@ -376,31 +285,25 @@ type Ref<_> = string;
 
 type Refs<T> = Ref<T> | Ref<T>[];
 
+type Height = number | `${string}vh`;
+
 type Color = string;
 
 type FontSize = number | string;
 
-type Image = ExternalImage | SFSymbol | InternalImage;
-
 type TargetScale = number | { x: number; y: number };
+
+type Layout = LayoutElement[];
+
+type ContentMode =
+  | "center"
+  | "scaleToFill"
+  | "scaleAspectFit"
+  | "scaleAspectFill";
 
 type ExternalImage = {
   file: string;
   image: string;
-  targetScale: TargetScale;
-};
-
-type SFSymbol = {
-  systemImageName: string;
-  normalColor: Color;
-  highlightColor: Color;
-  fontSize: number;
-};
-
-type InternalImage = {
-  assetImageName: string;
-  normalColor: Color;
-  highlightColor: Color;
 };
 
 type Insets = {
@@ -416,18 +319,24 @@ type Size = {
 };
 
 type Bounds = Size & {
-  alignment?: "left" | "right" | "top" | "bottom";
+  alignment?:
+    | "center"
+    | "centerTop"
+    | "centerBottom"
+    | "left"
+    | "right"
+    | "leftTop"
+    | "leftBottom"
+    | "rightTop"
+    | "rightBottom";
 };
 
-type Offset = {
+type Point = {
   x: number;
   y: number;
 };
 
-type Center = {
-  x?: number;
-  y?: number;
-};
+type Center = Partial<Point>;
 
 type FontWeight =
   | "ultralight"
@@ -440,7 +349,82 @@ type FontWeight =
   | "heavy"
   | "black";
 
-type ScriptExpression = string; // 应以 "// JavaScript" 开头
+type BackgroundStyle = Ref<Style>;
+
+type ForegroundStyle = Ref<Style> | Refs<Style>;
+
+type Style =
+  | TextStyle
+  | GeometryStyle
+  | SystemImageStyle
+  | AssetImageStyle
+  | FileImageStyle;
+
+type TextStyle = {
+  buttonStyleType: "text";
+  text: string;
+  fontSize?: number;
+  fontWeight?: FontWeight;
+  normalColor: string;
+  highlightColor?: string;
+  center?: Center;
+};
+
+type GeometryStyle = {
+  buttonStyleType: "geometry";
+  insets?: Insets;
+  normalColor: string;
+  highlightColor?: string;
+  colorLocation?: number[];
+  colorStartPoint?: Point;
+  colorEndPoint?: Point;
+  colorGradientType?: "axial" | "conic" | "radial";
+  cornerRadius?: number;
+  borderSize?: number;
+  normalBorderColor?: string;
+  highlightBorderColor?: string;
+  normalLowerEdgeColor?: string;
+  highlightLowerEdgeColor?: string;
+  normalShadowColor?: string;
+  highlightShadowColor?: string;
+  shadowOpacity?: number;
+  shadowRadius?: number;
+  shadowOffset?: Point;
+  animation?: Ref<AnimationConfig>;
+};
+
+type SystemImageStyle = {
+  buttonStyleType: "systemImage";
+  systemImageName: string;
+  highlightSystemImageName?: string;
+  contentMode?: ContentMode;
+  fontSize?: number;
+  fontWeight?: FontWeight;
+  normalColor: string;
+  highlightColor?: string;
+};
+
+type AssetImageStyle = {
+  buttonStyleType: "assetImage";
+  assetImageName: string;
+  contentMode?: ContentMode;
+  normalColor: string;
+  highlightColor?: string;
+};
+
+type FileImageStyle = {
+  buttonStyleType: "fileImage";
+  insets?: Insets;
+  contentMode?: ContentMode;
+  normalImage: ExternalImage;
+  highlightImage?: ExternalImage;
+};
+
+/*** 通知 */
+
+type NotificationStyle = string | string[];
+
+type NotificationType = "rime" | "keyboardAction" | "returnKeyType";
 
 /*** 图片描述文件 ***/
 
@@ -461,9 +445,3 @@ type ImageDescriptionFile = Record<
 
 type DataSourceValue = string | { label: string; value: string };
 type DataSource = Record<string, DataSourceValue[]>;
-
-/*** 样式定义 ***/
-
-type KeyboardStyle = {
-  backgroundStyle: Ref<CellBackgroundStyle>;
-};

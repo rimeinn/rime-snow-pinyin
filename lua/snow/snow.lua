@@ -96,7 +96,17 @@ function snow.prepare(candidate, proxy, normal)
   if not normal then
     candidate.quality = candidate.quality + 1
   end
-  -- candidate.comment = ("%s, %s, %d, %d"):format(proxy, proxy_segment, candidate._start, candidate._end)
+  return candidate
+end
+
+---@param candidate Candidate
+---@param comment string
+function snow.comment(candidate, comment)
+  if candidate.comment ~= "" then
+    candidate.comment = candidate.comment .. " " .. comment
+  else
+    candidate.comment = comment
+  end
   return candidate
 end
 

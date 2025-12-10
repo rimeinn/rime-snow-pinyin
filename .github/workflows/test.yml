@@ -17,6 +17,8 @@ jobs:
             schema: snow_yipin
           - name: 冰雪键道
             schema: snow_jiandao
+          - name: 冰雪清韵
+            schema: snow_qingyun
     steps:
       - uses: actions/checkout@v4
       - name: 安装 Mira

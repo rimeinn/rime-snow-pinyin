@@ -54,7 +54,7 @@ function filter.func(translation, env)
     for candidate in translation:iter() do
       if env.reverse_630[candidate.text] then
         local code = env.reverse_630[candidate.text]
-        candidate.comment = candidate.comment .. " [630: " .. code .. "]"
+        snow.comment(candidate, ("[630: %s]"):format(code))
       end
       yield(candidate)
     end

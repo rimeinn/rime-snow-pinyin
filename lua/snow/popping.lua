@@ -21,6 +21,7 @@ local strategies = {
 
 ---@class PoppingEnv: Env
 ---@field popping PoppingConfig[]
+---@field auto_select_pattern string
 ---@field processing boolean
 
 ---@param env PoppingEnv
@@ -62,6 +63,7 @@ function this.init(env)
     table.insert(env.popping, popping)
     ::continue::
   end
+  env.auto_select_pattern = config:get_string("speller/auto_select_pattern") or ""
 end
 
 ---@param key_event KeyEvent
@@ -163,6 +165,13 @@ function this.func(key_event, env)
   end
   env.processing = true
   env.engine:process_key(key_event)
+  if not buffered then
+    local new_input = snow.current(context) or ""
+    if rime_api.regex_match(new_input, env.auto_select_pattern) then
+      context:confirm_current_selection()
+      context:commit()
+    end
+  end
   env.processing = false
   return snow.kAccepted
 end

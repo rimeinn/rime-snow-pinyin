@@ -31,7 +31,11 @@ function filter.init(env)
   env.connection = env.engine.context.commit_notifier:connect(function(ctx)
     local reset = env.engine.schema.config:get_int("switches/7/reset")
     snow.errorf("清韵方案：重置选项，chaifen=%s", tostring(reset))
-    ctx:set_option("character", reset == 1 and true or false)
+    local target = reset == 1 and true or false
+    local current = ctx:get_option("character")
+    if current ~= target then
+      ctx:set_option("character", target)
+    end
   end)
 end
 

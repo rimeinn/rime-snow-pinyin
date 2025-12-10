@@ -1,5 +1,5 @@
 import { dump } from "js-yaml";
-import { mkdirSync, writeFileSync } from "fs";
+import { cpSync, mkdirSync, writeFileSync } from "fs";
 import { join, parse } from "path";
 import { homedir } from "os";
 
@@ -7,9 +7,11 @@ type Style = Record<string, any>;
 type Collection = Record<string, Style>;
 
 interface Config {
+  schema?: string;
   colorful: boolean;
   dark: boolean;
   label: boolean;
+  symbol?: boolean;
   keyInfos: KeyInfo[][];
 }
 
@@ -81,6 +83,19 @@ const qpkr: KeyInfo[][] = [
     { action: "enter", label: "return", up: "#换行", upLabel: "换行" },
   ],
 ];
+
+const qwrt = structuredClone(qpkr);
+const new_keys = [
+  ["q", "w", "r", "t", "y", "l", "p"],
+  ["s", "d", "f", "g", "h", "j", "k"],
+  ["x", "space", "c", "v", "b", "space", "n"],
+  ["z", "a", "e", "u", "i", "o", "m"],
+];
+for (const [rowIndex, row] of new_keys.entries()) {
+  for (const [colIndex, key] of row.entries()) {
+    qwrt[rowIndex][colIndex].action = key;
+  }
+}
 
 const qwerty: KeyInfo[][] = [
   [
@@ -175,11 +190,11 @@ const qwerty: KeyInfo[][] = [
   ],
 ];
 
-function parseAction(raw: string): Action {
+function parseAction(raw: string, symbol?: boolean): Action {
   if (raw.length === 1) {
-    return { character: raw };
+    return symbol ? { symbol: raw } : { character: raw };
   } else if (raw.startsWith("#")) {
-    return { shortcutCommand: raw };
+    return { shortcut: raw };
   } else if (raw.startsWith("*")) {
     return { sendKeys: raw.slice(1) };
   } else {
@@ -190,43 +205,46 @@ function parseAction(raw: string): Action {
 function makeKeyboardLayoutStyles(config: Config): Collection {
   const baseColor = config.dark ? "707070" : "f7f7f7";
   const altColor = config.dark ? "4c4c4c" : "e7e7e7";
-  const mainBackground: CellBackgroundStyle = {
-    type: "original",
+  const mainBackground: GeometryStyle = {
+    buttonStyleType: "geometry",
     insets: { left: 2, right: 2, top: 2, bottom: 2 },
     normalColor: baseColor,
     highlightColor: altColor,
     cornerRadius: 2,
   };
-  const fnBackground: CellBackgroundStyle = {
+  const fnBackground: GeometryStyle = {
     ...mainBackground,
     normalColor: altColor,
     highlightColor: baseColor,
   };
   const styles: Collection = { mainBackground, fnBackground };
   const mainColor = config.dark ? "ffffff" : "000000";
-  const mainLabel: Omit<CellForegroundStyle, "text"> = {
+  const mainLabel: Omit<TextStyle, "text"> = {
+    buttonStyleType: "text",
     normalColor: mainColor,
     highlightColor: mainColor,
     fontSize: 20,
     fontWeight: "regular",
-    center: { y: 0.75 },
+    center: { y: 0.45 },
   };
-  const fnLabel: Omit<CellForegroundStyle, "text"> = {
-    ...mainLabel,
+  const fnLabel: Omit<SystemImageStyle, "systemImageName"> = {
+    buttonStyleType: "systemImage",
+    normalColor: mainColor,
+    highlightColor: mainColor,
     fontSize: 16,
-    center: { y: 0.6 },
   };
   const swipeColor = config.dark ? "e5e5e5" : "575757";
-  const upSwipe: Omit<CellForegroundStyle, "text"> = {
+  const upSwipe: Omit<TextStyle, "text"> = {
+    buttonStyleType: "text",
     normalColor: swipeColor,
     highlightColor: swipeColor,
     fontSize: 10,
     fontWeight: "regular",
-    center: { y: 0.6 },
+    center: { y: 0.2 },
   };
-  const downSwipe: Omit<CellForegroundStyle, "text"> = {
+  const downSwipe: Omit<TextStyle, "text"> = {
     ...upSwipe,
-    center: { y: 1.2 },
+    center: { y: 0.8 },
   };
   const rainbow = [
     { dark: "#893E3E", dark2: "#AC5353", light: "#ECB6B6", light2: "#DA7171" },
@@ -240,13 +258,13 @@ function makeKeyboardLayoutStyles(config: Config): Collection {
   for (const [index, color] of rainbow.entries()) {
     const baseColor = config.dark ? color.dark : color.light;
     const altColor = config.dark ? color.dark2 : color.light2;
-    const backgroundStyle: CellBackgroundStyle = {
+    const backgroundStyle: GeometryStyle = {
       ...structuredClone(mainBackground),
       normalColor: baseColor,
       highlightColor: altColor,
     };
     styles[`color${index}`] = backgroundStyle;
-    const altBackgroundStyle: CellBackgroundStyle = {
+    const altBackgroundStyle: GeometryStyle = {
       ...structuredClone(mainBackground),
       normalColor: altColor,
       highlightColor: baseColor,
@@ -258,7 +276,7 @@ function makeKeyboardLayoutStyles(config: Config): Collection {
       const isCharacter = key.action.length === 1;
       const isAlphabet = /^[a-zA-Z]$/.test(key.action);
       let name = key.name ?? key.action;
-      const action = parseAction(key.action);
+      const action = parseAction(key.action, config.symbol);
       const foregroundStyle: string[] = [];
       const uppercasedStateForegroundStyle: string[] = [];
       const capsLockedStateForegroundStyle: string[] = [];
@@ -290,7 +308,7 @@ function makeKeyboardLayoutStyles(config: Config): Collection {
           ...structuredClone(upSwipe),
           text: key.upLabel ?? up,
         };
-        swipeUpAction = parseAction(up);
+        swipeUpAction = parseAction(up, config.symbol);
       }
       if (key.down) {
         const swipeDownName = name + "SwipeDown";
@@ -301,7 +319,7 @@ function makeKeyboardLayoutStyles(config: Config): Collection {
           ...structuredClone(downSwipe),
           text: key.downLabel ?? key.down,
         };
-        swipeDownAction = parseAction(key.down);
+        swipeDownAction = parseAction(key.down, config.symbol);
       }
       let backgroundStyle;
       if (isCharacter) {
@@ -335,18 +353,10 @@ function makeKeyboardLayoutStyles(config: Config): Collection {
         c.capsLockedStateForegroundStyle = config.label
           ? structuredClone(foreground)
           : [];
-        c.uppercasedStateAction = {
-          character: key.action.toUpperCase(),
-        };
-      }
-      if (key.preedit) {
-        const preeditName = name + "Preedit";
-        c.preeditStateAction = parseAction(key.preedit);
-        c.preeditStateForegroundStyle = preeditName;
-        styles[preeditName] = {
-          ...structuredClone(fnLabel),
-          systemImageName: key.preeditLabel ?? key.preedit,
-        };
+        c.uppercasedStateAction = parseAction(
+          key.action.toUpperCase(),
+          config.symbol
+        );
       }
       styles[name] = c;
     }
@@ -355,141 +365,108 @@ function makeKeyboardLayoutStyles(config: Config): Collection {
 }
 
 function makeGeneralStyles(config: Config): Collection {
-  const background: BackgroundOriginalStyle = {
-    type: "original",
+  const background: GeometryStyle = {
+    buttonStyleType: "geometry",
     normalColor: config.dark ? "2C2C2C03" : "D1D1D1FC",
   };
   return { background };
 }
 
-function makePreedit(config: Config): [Preedit, Collection] {
+function makePreeditStyle(config: Config): [PreeditStyle, Collection] {
   const preedit = {
     insets: { left: 1, right: 1, top: 1, bottom: 1 },
     backgroundStyle: "background",
     foregroundStyle: "preeditForeground",
   };
-  const textColor = config.dark ? "ffffff" : "000000";
-  const preeditForeground: PreeditForegroundStyle = {
-    textColor,
+  const preeditForeground: TextStyle = {
+    buttonStyleType: "text",
+    normalColor: config.dark ? "ffffff" : "000000",
     fontSize: 16,
     fontWeight: "regular",
+    text: "",
   };
   return [preedit, { preeditForeground }];
 }
 
-function makeToolbar(config: Config): [Toolbar, Collection] {
+function makeToolbar(
+  config: Config
+): [ToolbarStyle, LayoutElement[], Collection] {
   const buttonColor = config.dark ? "E5E5E5" : "575757";
-  const toolbar: Toolbar = {
-    backgroundStyle: "backgroundOriginalStyle",
-    primaryButtonStyle: "hamster",
-    secondaryButtonStyle: [
-      "dismiss",
-      "alphabetic",
-      "pinyin",
-      "script",
-      "clipboard",
-      "phrase",
-    ],
-    horizontalCandidateStyle: "horizontalCandidate",
-    verticalCandidateStyle: "verticalCandidate",
-    candidateContextMenu: "candidateContextMenu",
+  const toolbar: ToolbarStyle = {
+    backgroundStyle: "background",
   };
-  const imageBase = {
+  const cellBase = {
+    backgroundStyle: "buttonBackground",
+    size: { width: "1/7" },
+  };
+  const styleBase = {
+    buttonStyleType: "systemImage",
     normalColor: buttonColor,
     highlightColor: buttonColor,
     fontSize: 16,
-  };
-  const hamster: ToolbarButtonStyle = {
-    backgroundStyle: "buttonBackground",
+  } as const;
+  const hamster: Cell = {
     foregroundStyle: "hamsterImage",
-    action: { openURL: "hamster://" },
+    action: { openURL: "hamster3://" },
+    ...cellBase,
   };
-  const hamsterImage: Image = {
+  const hamsterImage: SystemImageStyle = {
     systemImageName: "r.circle",
-    ...imageBase,
+    ...styleBase,
   };
-  const dismiss: ToolbarButtonStyle = {
-    backgroundStyle: "buttonBackground",
+  const dismiss: Cell = {
     foregroundStyle: "dismissImage",
     action: "dismissKeyboard",
+    ...cellBase,
   };
-  const dismissImage: Image = {
+  const dismissImage: SystemImageStyle = {
     systemImageName: "chevron.down.circle",
-    ...imageBase,
+    ...styleBase,
   };
-  const alphabetic: ToolbarButtonStyle = {
-    backgroundStyle: "buttonBackground",
+  const alphabetic: Cell = {
     foregroundStyle: "alphabeticImage",
     action: { keyboardType: "alphabetic" },
+    ...cellBase,
   };
-  const alphabeticImage: Image = {
+  const alphabeticImage: SystemImageStyle = {
     systemImageName: "characters.uppercase",
-    ...imageBase,
+    ...styleBase,
   };
-  const pinyin: ToolbarButtonStyle = {
-    backgroundStyle: "buttonBackground",
+  const pinyin: Cell = {
     foregroundStyle: "pinyinImage",
     action: { keyboardType: "pinyin" },
+    ...cellBase,
   };
-  const pinyinImage: Image = {
+  const pinyinImage: SystemImageStyle = {
     systemImageName: "character",
-    ...imageBase,
+    ...styleBase,
   };
-  const script: ToolbarButtonStyle = {
-    backgroundStyle: "buttonBackground",
+  const script: Cell = {
     foregroundStyle: "scriptImage",
-    action: { shortcutCommand: "#toggleScriptView" },
+    action: { shortcut: "#toggleScriptView" },
+    ...cellBase,
   };
-  const scriptImage: Image = {
+  const scriptImage: SystemImageStyle = {
     systemImageName: "function",
-    ...imageBase,
+    ...styleBase,
   };
-  const clipboard: ToolbarButtonStyle = {
-    backgroundStyle: "buttonBackground",
+  const clipboard: Cell = {
     foregroundStyle: "clipboardImage",
-    action: { shortcutCommand: "#showPasteboardView" },
+    action: { shortcut: "#showPasteboardView" },
+    ...cellBase,
   };
-  const clipboardImage: Image = {
+  const clipboardImage: SystemImageStyle = {
     systemImageName: "doc.on.clipboard",
-    ...imageBase,
+    ...styleBase,
   };
-  const phrase: ToolbarButtonStyle = {
-    backgroundStyle: "buttonBackground",
+  const phrase: Cell = {
     foregroundStyle: "phraseImage",
-    action: { shortcutCommand: "#showPhraseView" },
+    action: { shortcut: "#showPhraseView" },
+    ...cellBase,
   };
-  const phraseImage: Image = {
+  const phraseImage: SystemImageStyle = {
     systemImageName: "text.quote",
-    ...imageBase,
-  };
-  const backgroundColor = config.dark ? "000000" : "ffffff";
-  const textColor = config.dark ? "ffffff" : "000000";
-  const horizontalCandidate: HorizontalCandidateStyle = {
-    insets: { left: 1, bottom: 1, top: 1 },
-    candidateStateButtonStyle: "expand",
-    highlightBackgroundColor: backgroundColor,
-    preferredBackgroundColor: backgroundColor,
-    preferredIndexColor: textColor,
-    preferredTextColor: textColor,
-    preferredCommentColor: textColor,
-    indexColor: textColor,
-    textColor: textColor,
-    commentColor: textColor,
-    indexFontSize: 18,
-    textFontSize: 18,
-    commentFontSize: 18,
-  };
-  const verticalCandidate = {
-    insets: { top: 1, bottom: 1, left: 1, right: 1 },
-    bottomRowHeight: 50,
-  };
-  const expand: CandidateStateButtonStyle = {
-    backgroundStyle: "buttonBackground",
-    foregroundStyle: "expandImage",
-  };
-  const expandImage: Image = {
-    systemImageName: "chevron.down",
-    ...imageBase,
+    ...styleBase,
   };
   const styles = {
     hamster,
@@ -506,22 +483,197 @@ function makeToolbar(config: Config): [Toolbar, Collection] {
     clipboardImage,
     phrase,
     phraseImage,
-    expand,
-    expandImage,
-    horizontalCandidate,
-    verticalCandidate,
   };
-  return [toolbar, styles];
+  const toolbarLayout: LayoutElement[] = [
+    {
+      HStack: {
+        subviews: [
+          { Cell: "hamster" },
+          { Cell: "phrase" },
+          { Cell: "clipboard" },
+          { Cell: "script" },
+          { Cell: "pinyin" },
+          { Cell: "alphabetic" },
+          { Cell: "dismiss" },
+        ],
+      },
+    },
+  ];
+  return [toolbar, toolbarLayout, styles];
+}
+
+function makeCandidates(config: Config): [any, Collection] {
+  const backgroundColor = config.dark ? "000000" : "ffffff";
+  const textColor = config.dark ? "ffffff" : "000000";
+  const expandButton = {
+    action: { shortcut: "#candidatesBarStateToggle" },
+    foregroundStyle: "expandButtonForegroundStyle",
+    size: { width: 44 },
+  };
+  const expandButtonForegroundStyle = {
+    buttonStyleType: "systemImage",
+    fontSize: 20,
+    normalColor: textColor,
+    highlightColor: textColor,
+    systemImageName: "chevron.forward",
+  };
+  const horizontalCandidatesStyle: HorizontalCandidateStyle = {
+    backgroundStyle: "background",
+  };
+  const horizontalCandidates = {
+    candidateStyle: "horizontalCandidateStyle",
+    type: "horizontalCandidates",
+  };
+  const horizontalCandidateStyle: CandidateStyle = {
+    highlightBackgroundColor: backgroundColor,
+    preferredBackgroundColor: backgroundColor,
+    preferredIndexColor: textColor,
+    preferredTextColor: textColor,
+    preferredCommentColor: textColor,
+    indexColor: textColor,
+    textColor: textColor,
+    commentColor: textColor,
+    indexFontSize: 12,
+    textFontSize: 16,
+    commentFontSize: 14,
+  };
+  const horizontalCandidatesLayout: LayoutElement[] = [
+    {
+      HStack: {
+        subviews: [{ Cell: "horizontalCandidates" }, { Cell: "expandButton" }],
+      },
+    },
+  ];
+  const verticalCandidatesStyle: VerticalCandidateStyle = {
+    backgroundStyle: "background",
+  };
+  const verticalCandidatesLayout: LayoutElement[] = [
+    { HStack: { subviews: [{ Cell: "verticalCandidates" }] } },
+    {
+      HStack: {
+        style: "verticalLastRowStyle",
+        subviews: [
+          { Cell: "verticalPageUpButtonStyle" },
+          { Cell: "verticalPageDownButtonStyle" },
+          { Cell: "verticalReturnButtonStyle" },
+          { Cell: "verticalBackspaceButtonStyle" },
+        ],
+      },
+    },
+  ];
+  const verticalPageDownButtonStyle = {
+    action: { shortcut: "#verticalCandidatesPageDown" },
+    backgroundStyle: "systemButtonBackgroundStyle",
+    foregroundStyle: "verticalPageDownButtonStyleForegroundStyle",
+  };
+  const verticalPageDownButtonStyleForegroundStyle = {
+    buttonStyleType: "systemImage",
+    fontSize: 20,
+    highlightColor: textColor,
+    normalColor: textColor,
+    systemImageName: "chevron.down",
+  };
+  const verticalPageUpButtonStyle = {
+    action: { shortcut: "#verticalCandidatesPageUp" },
+    backgroundStyle: "systemButtonBackgroundStyle",
+    foregroundStyle: "verticalPageUpButtonStyleForegroundStyle",
+  };
+  const verticalPageUpButtonStyleForegroundStyle = {
+    buttonStyleType: "systemImage",
+    fontSize: 20,
+    normalColor: textColor,
+    highlightColor: textColor,
+    systemImageName: "chevron.up",
+  };
+  const verticalReturnButtonStyle = {
+    action: { shortcut: "#candidatesBarStateToggle" },
+    backgroundStyle: "systemButtonBackgroundStyle",
+    foregroundStyle: "verticalReturnButtonStyleForegroundStyle",
+  };
+  const verticalReturnButtonStyleForegroundStyle = {
+    buttonStyleType: "systemImage",
+    fontSize: 20,
+    normalColor: textColor,
+    highlightColor: textColor,
+    systemImageName: "return",
+  };
+  const verticalLastRowStyle = {
+    size: { height: 45 },
+  };
+  const verticalCandidates = {
+    candidateStyle: "verticalCandidateStyle",
+    insets: { bottom: 8, left: 8, right: 8, top: 8 },
+    maxColumns: 6,
+    maxRows: 5,
+    separatorColor: "#C6C6C8",
+    type: "verticalCandidates",
+  };
+  const verticalCandidateStyle = {
+    commentColor: textColor,
+    commentFontSize: 14,
+    highlightBackgroundColor: backgroundColor,
+    indexColor: textColor,
+    indexFontSize: 12,
+    insets: { bottom: 4, left: 6, right: 6, top: 4 },
+    preferredBackgroundColor: backgroundColor,
+    preferredCommentColor: textColor,
+    preferredIndexColor: textColor,
+    preferredTextColor: textColor,
+    textColor: textColor,
+    textFontSize: 16,
+  };
+  const verticalBackspaceButtonStyle = {
+    action: "backspace",
+    backgroundStyle: "systemButtonBackgroundStyle",
+    foregroundStyle: "verticalBackspaceButtonStyleForegroundStyle",
+  };
+  const verticalBackspaceButtonStyleForegroundStyle = {
+    buttonStyleType: "systemImage",
+    fontSize: 20,
+    highlightColor: textColor,
+    normalColor: textColor,
+    systemImageName: "delete.left",
+  };
+  const candidateContextMenu: CandidateContextMenu = [
+    { name: "固定", action: { sendKeys: "Control+semicolon" } },
+    { name: "前移", action: { sendKeys: "Control+bracketleft" } },
+    { name: "后移", action: { sendKeys: "Control+bracketright" } },
+  ];
+  const values = {
+    horizontalCandidatesStyle,
+    horizontalCandidatesLayout,
+    verticalCandidatesStyle,
+    verticalCandidatesLayout,
+    candidateContextMenu,
+  };
+  const styles = {
+    expandButton,
+    expandButtonForegroundStyle,
+    horizontalCandidates,
+    horizontalCandidateStyle,
+    verticalCandidates,
+    verticalCandidateStyle,
+    verticalLastRowStyle,
+    verticalPageDownButtonStyle,
+    verticalPageDownButtonStyleForegroundStyle,
+    verticalPageUpButtonStyle,
+    verticalPageUpButtonStyleForegroundStyle,
+    verticalReturnButtonStyle,
+    verticalReturnButtonStyleForegroundStyle,
+    verticalBackspaceButtonStyle,
+    verticalBackspaceButtonStyleForegroundStyle,
+  };
+  return [values, styles];
 }
 
 function makeKeyboardLayout(
   config: Config
-): [KeyboardLayout, KeyboardStyle, Collection] {
+): [Layout, KeyboardStyle, Collection] {
   const styles: Collection = makeKeyboardLayoutStyles(config);
   const keyboardStyle: KeyboardStyle = {
     backgroundStyle: "backgroundOriginalStyle",
   };
-  const keyboardLayout: KeyboardLayout = config.keyInfos.map((row) => {
+  const keyboardLayout: Layout = config.keyInfos.map((row) => {
     return {
       HStack: { subviews: row.map((x) => ({ Cell: x.name ?? x.action })) },
     };
@@ -531,21 +683,25 @@ function makeKeyboardLayout(
 
 function makeHamsterSkin(config: Config): Keyboard {
   const styles = makeGeneralStyles(config);
-  const [preedit, styles1] = makePreedit(config);
-  const [toolbar, styles2] = makeToolbar(config);
-  const [keyboardLayout, keyboardStyle, styles3] = makeKeyboardLayout(config);
+  const [preeditStyle, styles1] = makePreeditStyle(config);
+  const [toolbarStyle, toolbarLayout, styles2] = makeToolbar(config);
+  const [candidates, styles3] = makeCandidates(config);
+  const [keyboardLayout, keyboardStyle, styles4] = makeKeyboardLayout(config);
   return {
-    preeditHeight: 25,
-    toolbarHeight: 45,
-    keyboardHeight: 250,
-    preedit,
-    toolbar,
+    preeditHeight: 24,
+    preeditStyle,
+    toolbarHeight: 32,
+    toolbarStyle,
+    toolbarLayout,
+    ...candidates,
+    keyboardHeight: 256,
     keyboardLayout,
     keyboardStyle,
     ...styles,
     ...styles1,
     ...styles2,
     ...styles3,
+    ...styles4,
   };
 }
 
@@ -568,19 +724,23 @@ function makeHamsterSkinConfig(
     name,
     author: "谭淞宸 <i@tansongchen.com>",
     pinyin: make("pinyin"),
-    alphabetic: keyboards.alphabetic ? make("alphabetic") : undefined,
-    numeric: keyboards.numeric ? make("numeric") : make("pinyin"),
-    symbolic: keyboards.symbolic ? make("symbolic") : make("pinyin"),
+    numeric: make("pinyin"),
+    symbolic: make("pinyin"),
+    ...Object.fromEntries(
+      Object.keys(keyboards)
+        .filter((key) => !["pinyin", "numeric", "symbolic"].includes(key))
+        .map((key) => [key, make(key)])
+    ),
   };
 }
 
-type KeyboardType = "pinyin" | "alphabetic" | "numeric" | "symbolic";
-type KeyboardCollection = Partial<Record<KeyboardType, Omit<Config, "dark">>>;
+type KeyboardType = "pinyin" | "alphabetic" | "numeric" | "symbolic" | string;
+type KeyboardCollection = Record<KeyboardType, Omit<Config, "dark">>;
 
 function generateSkinFolder(name: string, keyboards: KeyboardCollection) {
   const prefix = join(
     homedir(),
-    "Library/Mobile Documents/iCloud~dev~fuxiao~app~hamsterapp/Documents/Skins/"
+    "Library/Mobile Documents/iCloud~com~ihsiao~apps~Hamster3/Documents/Skins"
   );
   const folder = join(prefix, name);
   mkdirSync(folder, { recursive: true });
@@ -599,22 +759,49 @@ function generateSkinFolder(name: string, keyboards: KeyboardCollection) {
   }
 }
 
-const c1 = {
+const snow_sipin = {
+  schema: "snow_sipin",
   colorful: true,
   label: true,
   keyInfos: qpkr,
 };
-const c11 = {
+const snow_qingyun = {
+  schema: "snow_qingyun",
+  colorful: true,
+  label: true,
+  keyInfos: qwrt,
+};
+const snow_sipin_nolabel = {
+  schema: "snow_sipin",
   colorful: true,
   label: false,
   keyInfos: qpkr,
 };
-const c2 = {
+const snow_qingyun_nolabel = {
+  schema: "snow_qingyun",
+  colorful: true,
+  label: false,
+  keyInfos: qwrt,
+};
+const general = {
+  schema: "snow_lingpin",
   colorful: false,
   label: true,
   keyInfos: qwerty,
+  symbol: true,
 };
 
-generateSkinFolder("俏皮可爱・七色", { pinyin: c1, alphabetic: c2 });
-generateSkinFolder("俏皮可爱・七色・无刻", { pinyin: c11, alphabetic: c2 });
-generateSkinFolder("直列 45 键", { pinyin: c2 });
+generateSkinFolder("俏皮可爱・七色", {
+  pinyin: snow_sipin,
+  alphabetic: general,
+});
+generateSkinFolder("俏皮可爱・七色・无刻", {
+  pinyin: snow_sipin_nolabel,
+  alphabetic: general,
+});
+generateSkinFolder("直列 35 键", { pinyin: snow_qingyun, alphabetic: general });
+generateSkinFolder("直列 35 键・无刻", {
+  pinyin: snow_qingyun_nolabel,
+  alphabetic: general,
+});
+generateSkinFolder("直列 45 键", { pinyin: { ...general, symbol: false } });
