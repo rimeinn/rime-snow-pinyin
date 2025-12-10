@@ -26,13 +26,22 @@ function this.tags_match(segment, env)
   return context:get_option("popping")
 end
 
----@param env SnowPostponeEnv
-function format_known_candidates(env)
-  local result = ""
-  for k, v in pairs(env.known_candidates) do
-    result = result .. k .. ":" .. v .. ","
+---@param known_candidates table<string, number>
+function format_known_candidates(known_candidates)
+  local parts = {}
+  for k, v in pairs(known_candidates) do
+    table.insert(parts, string.format("%s:%d", k, v))
   end
-  return result
+  return "{" .. table.concat(parts, ", ") .. "}"
+end
+
+---@param list Candidate[]
+function format_candidate_list(list)
+  local result = {}
+  for _, cand in ipairs(list) do
+    table.insert(result, cand.text)
+  end
+  return table.concat(result, ", ")
 end
 
 ---@param postponed_candidates Candidate[]
@@ -41,6 +50,8 @@ end
 ---@param input string
 ---@param env SnowPostponeEnv
 function this.finalize(postponed_candidates, regular_candidates, final_table, input, env)
+  snow.errorf("后置过滤器：输入 %s，已知候选=%s，后置候选=%s，常规候选=%s",
+    input, format_known_candidates(env.known_candidates), format_candidate_list(postponed_candidates), format_candidate_list(regular_candidates))
   ---@type Candidate[]
   local merged_candidates = { regular_candidates[1] }
   table.sort(postponed_candidates, function(a, b)
@@ -83,13 +94,14 @@ function this.func(translation, env)
     end
     return
   end
+  local full_input = input
   local shape_input = context:get_property("shape_input")
   if shape_input then
-    input = input .. shape_input
+    full_input = input .. shape_input
   end
   -- 删除与当前编码长度相等或者更长的已知候选，这些对当前输入无帮助
   for k, v in pairs(env.known_candidates) do
-    if v >= input:len() then
+    if v >= full_input:len() then
       env.known_candidates[k] = nil
     end
   end
@@ -108,7 +120,6 @@ function this.func(translation, env)
   -- 1. 检视前 10 个候选，并将其分为两类：一是在之前的首选中出现的候选，二是没有出现过的候选。将其重排为以下的顺序：（1）没出现过的候选中的第一个；（2）出现过的候选按码长降序排列（例如，有几个候选分别在 2, 3, 5 码出现过，那么按照 5, 3, 2 的顺序输出）；（3）没出现过的候选中的剩余候选。
   -- 2. 第 10 个以后的候选原样输出
   -- 这个过滤器会位于固定过滤器之后，因此对于已经固定的候选则不会调整位置
-  local is_first = true
   local seen_candidates = 0
   local max_candidates = 10
   local finalized = false
@@ -122,12 +133,12 @@ function this.func(translation, env)
     if finalized then
       yield(candidate)
     elseif seen_candidates == max_candidates or (candidate._end - candidate._start) < input:len() then
-      this.finalize(postponed_candidates, regular_candidates, final_table, input, env)
+      this.finalize(postponed_candidates, regular_candidates, final_table, full_input, env)
       finalized = true
       yield(candidate)
     elseif candidate.comment:match("📌") or candidate.comment:match("📍") then -- 固定候选不调整位置
       final_table[seen_candidates + 1] = candidate
-    elseif (env.known_candidates[text] or math.huge) < input:len() then -- 如果这个候选词已经在首选中出现过，那么后置
+    elseif (env.known_candidates[text] or math.huge) < full_input:len() then -- 如果这个候选词已经在首选中出现过，那么后置
       table.insert(postponed_candidates, candidate)
     else -- 否则暂存
       table.insert(regular_candidates, candidate)
@@ -135,7 +146,7 @@ function this.func(translation, env)
     seen_candidates = seen_candidates + 1
   end
   if not finalized then
-    this.finalize(postponed_candidates, regular_candidates, final_table, input, env)
+    this.finalize(postponed_candidates, regular_candidates, final_table, full_input, env)
   end
 end
 

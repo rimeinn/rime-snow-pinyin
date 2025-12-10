@@ -62,27 +62,7 @@ function filter.func(translation, env)
   local segment = env.engine.context.composition:toSegmentation():back()
   local affix = { "a", "o", "e", "i", "u", ";", ",", ".", "/" }
   for candidate in translation:iter() do
-    -- 生成一简十重提示
-    if rime_api.regex_match(input, "[bpmfdtnlgkhjqxzcsrvwy]{1,2}") then
-      if count == 0 then
-        local hint = ""
-        for _, letter in ipairs(affix) do
-          local code = input .. letter
-          local word_list = env.fixed[code]
-          if word_list then
-            local word = word_list:match("^[^%s]+")
-            if input:len() == 1 or utf8.len(word) > 1 then
-              ---@type string
-              hint = hint .. word .. letter .. " "
-            end
-          end
-        end
-        candidate.comment = candidate.comment .. hint
-        prettify_preedit(candidate)
-        yield(candidate)
-      end
-      count = count + 1
-    elseif env.engine.context:get_option("buffered") and not is_pinyin(candidate) then
+    if env.engine.context:get_option("buffered") and not is_pinyin(candidate) then
       local result = env.lookup_pinyin:lookup(candidate.text)
       candidate.comment = candidate.comment .. result
       ---@type Candidate[]
@@ -103,6 +83,26 @@ function filter.func(translation, env)
       for _, c in ipairs(candidates) do
         yield(c)
       end
+    -- 生成一简十重提示
+    elseif rime_api.regex_match(input, "[bpmfdtnlgkhjqxzcsrvwy]{1,2}") then
+      if count == 0 then
+        local hint = ""
+        for _, letter in ipairs(affix) do
+          local code = input .. letter
+          local word_list = env.fixed[code]
+          if word_list then
+            local word = word_list:match("^[^%s]+")
+            if input:len() == 1 or utf8.len(word) > 1 then
+              ---@type string
+              hint = hint .. word .. letter .. " "
+            end
+          end
+        end
+        candidate.comment = candidate.comment .. hint
+        prettify_preedit(candidate)
+        yield(candidate)
+      end
+      count = count + 1
     elseif utf8.len(candidate.text) == 1 and (is_pinyin(candidate) or (segment and (segment:has_tag("pinyin") or segment:has_tag("stroke")))) then
       -- 生成多音字提示
       local codes = env.reverse_lookup[candidate.text]

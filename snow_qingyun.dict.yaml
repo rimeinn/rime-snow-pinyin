@@ -336,7 +336,7 @@ use_preset_vocabulary: false
 伍	li xia le ke	18393
 伎	li shi vo	1286
 伏	li quan	19869
-伐	li yao gi	11999
+伐	li ke qi	11999
 休	li pa	59194
 伒	li gua xia	101
 伓	li dai me gi	101
@@ -493,7 +493,8 @@ use_preset_vocabulary: false
 侣	li fo fo	20577
 侤	li shi quan ke je	101
 侤	li shi quan je	101
-侥	li yao ke so	2440
+侥	li ke qi ke so	2440
+侥	li ke qi so	2440
 侦	li hu nei ren	8560
 侧	li nei ren dao	41522
 侨	li yao qiao	2515
@@ -590,8 +591,8 @@ use_preset_vocabulary: false
 俲	li liu yi le he	101
 俲	li liu yi he	101
 俳	li fei	388
-俴	li yao gi yao gi	101
-俴	li yao gi gi	101
+俴	li ke qi ke qi	101
+俴	li ke qi qi	101
 俵	li ao he je dian	101
 俵	li ao he dian	101
 俶	li shang xiao vo	101
@@ -1367,7 +1368,7 @@ use_preset_vocabulary: false
 刏	qi dao	101
 刐	nei wo dao	101
 刑	kai dao	33746
-划	yao gi dao	124771
+划	ke qi dao	124771
 刓	er so dao	101
 刔	le da dao	101
 刕	co co co	101
@@ -1440,8 +1441,8 @@ use_preset_vocabulary: false
 剔	ri shao er dao	5693
 剕	fei dao	101
 剖	liu ke fo dao	10101
-剗	yao gi yao gi dao	101
-剗	yao gi yao dao	101
+剗	ke qi ke qi dao	101
+剗	ke qi ke dao	101
 剘	cao san ba dao	101
 剙	dao kai co er	101
 剚	ke fo xue me dao	101
@@ -2262,7 +2263,8 @@ use_preset_vocabulary: false
 哐	fo ke wang je	694
 哑	fo ke huo ke	7219
 哒	fo da zhi	22060
-哓	fo yao ke so	101
+哓	fo ke qi ke so	101
+哓	fo ke qi so	101
 哔	fo bi bi shi	7157
 哕	fo ha jiao gi	101
 哖	fo nian	101
@@ -2416,8 +2418,8 @@ use_preset_vocabulary: false
 啑	fo ke xue zu	101
 啒	fo go chu	101
 啓	gi go wen fo	101
-啔	gi go yao gi fo	101
-啔	gi go yao fo	101
+啔	gi go ke qi fo	101
+啔	gi go ke fo	101
 啕	fo shao zhu ha	912
 啖	fo huo huo	337
 啗	fo jiao jiu	101
@@ -2684,8 +2686,8 @@ use_preset_vocabulary: false
 嘌	fo xi er xiao	329
 嘍	fo ri fo me xo	101
 嘍	fo ri fo xo	101
-嘎	fo dai mu yao gi	4083
-嘎	fo dai mu gi	4083
+嘎	fo dai mu ke qi	4083
+嘎	fo dai mu qi	4083
 嘏	shi fo gong me er gong vo	101
 嘏	shi fo gong vo	101
 嘐	fo xi xi ren san	101
@@ -2713,8 +2715,8 @@ use_preset_vocabulary: false
 嘞	fo ge le he	1772
 嘟	fo shi quan ri er	5778
 嘟	fo shi quan er	5778
-嘠	fo dai nei er bao yao gi	101
-嘠	fo dai nei gi	101
+嘠	fo dai nei er bao ke qi	101
+嘠	fo dai nei qi	101
 嘡	fo shang fo tu	101
 嘢	fo jia er le gi le me	101
 嘢	fo jia er me	101
@@ -2975,8 +2977,8 @@ use_preset_vocabulary: false
 嚯	fo yu li wo	797
 嚰	fo guang pa pa dai fo	101
 嚰	fo guang pa fo	101
-嚱	fo hu ke fo dao ke yao gi	101
-嚱	fo hu ke gi	101
+嚱	fo hu ke fo dao ke ke qi	101
+嚱	fo hu ke qi	101
 嚲	wo le na fo fo ri shi	101
 嚲	wo le na shi	101
 嚳	jiu yi yi jiu bao he tu fo	101
@@ -3293,7 +3295,7 @@ use_preset_vocabulary: false
 垞	tu bao he qi	101
 垟	tu dao ke na	101
 垠	tu gen	1027
-垡	li yao gi tu	101
+垡	li ke qi tu	101
 垢	tu gua ke fo	2455
 垣	tu ke ri ke	1349
 垤	tu ke yao tu	101
@@ -4099,7 +4101,8 @@ use_preset_vocabulary: false
 娃	xo tu tu	29269
 娄	dao pa xo	715
 娅	xo ke huo ke	1984
-娆	xo yao ke so	837
+娆	xo ke qi ke so	837
+娆	xo ke qi so	837
 娇	xo yao qiao	22534
 娈	wo huo xo	310
 娉	xo you ke je	149
@@ -4872,7 +4875,7 @@ use_preset_vocabulary: false
 尤	quan je gi	86427
 尥	quan je shao	101
 尦	ba so shao	101
-尧	yao ke so	2073
+尧	ke qi ke so	2073
 尨	quan je san gi	101
 尩	ba so wang	101
 尪	quan je wang	101
@@ -5090,7 +5093,8 @@ use_preset_vocabulary: false
 峠	ha shang xia	101
 峡	ha ke dao da	5691
 峢	ha dai dao	101
-峣	ha yao ke so	101
+峣	ha ke qi ke so	101
+峣	ha ke qi so	101
 峤	ha yao qiao	101
 峥	ha jiao xue me	922
 峦	wo huo ha	299
@@ -5336,8 +5340,8 @@ use_preset_vocabulary: false
 嶖	ha jin fo xi	101
 嶗	ha huo huo bao le he	101
 嶗	ha huo huo he	101
-嶘	ha pa yao gi yao gi	101
-嶘	ha pa yao gi	101
+嶘	ha pa ke qi ke qi	101
+嶘	ha pa ke qi	101
 嶙	ha dao pa jiao gi qi me	220
 嶙	ha dao pa me	220
 嶚	ha da dao ri xiao	101
@@ -5411,8 +5415,8 @@ use_preset_vocabulary: false
 嶾	ha zhao xia la	101
 嶿	ha yu dai nei er	101
 嶿	ha yu dai er	101
-巀	ha xiao li wo yao gi	101
-巀	ha xiao li gi	101
+巀	ha xiao li wo ke qi	101
+巀	ha xiao li qi	101
 巁	ha chang cao ri nei	101
 巁	ha chang cao nei	101
 巂	ha li wo nei ba fo	101
@@ -5425,8 +5429,8 @@ use_preset_vocabulary: false
 巅	ha zhen dai ren	12629
 巆	ha huo huo bao fo fo	101
 巆	ha huo huo fo	101
-巇	ha hu ke fo dao ke yao gi	101
-巇	ha hu ke gi	101
+巇	ha hu ke fo dao ke ke qi	101
+巇	ha hu ke qi	101
 巈	ha ge shao dao pa	101
 巈	ha ge shao pa	101
 巉	ha jiao fo bi bi tu	101
@@ -5571,8 +5575,8 @@ use_preset_vocabulary: false
 帲	ro he gan he gan	101
 帲	ro he gan gan	101
 帳	ro xue je dian	101
-帴	ro yao gi yao gi	101
-帴	ro yao gi gi	101
+帴	ro ke qi ke qi	101
+帴	ro ke qi qi	101
 帵	ro bao jiao gi le je	101
 帵	ro bao jiao je	101
 帶	quan er ke je bao ro	101
@@ -6930,72 +6934,72 @@ use_preset_vocabulary: false
 戆	liu ke zao la	101
 戇	liu ke zao wen xia ke mu ba la	101
 戇	liu ke zao la	101
-戈	yao gi	8424
+戈	ke qi	8424
 戉	ke je qi	101
 戊	chang qi	1130
 戋	er qi	101
 戌	chang qi	870
 戍	chang gi qi	515
 戎	ke quan qi	1555
-戏	vo yao gi	272696
+戏	vo ke qi	272696
 成	chang le qi	1185049
 我	he na qi	6697648
 戒	ke nong qi	30137
 戓	ke fo qi	101
-戔	yao gi yao gi	101
-戕	shu dai yao gi	204
+戔	ke qi ke qi	101
+戕	shu dai ke qi	204
 或	ke fo ke qi	244191
-戗	ren le je yao gi	101
-戗	ren le je gi	101
-战	hu fo yao gi	334414
-戙	tong yao gi	101
+戗	ren le je ke qi	101
+戗	ren le je qi	101
+战	hu fo ke qi	334414
+戙	tong ke qi	101
 戚	chang shang xiao qi	26594
-戛	dai mu yao gi	1477
+戛	dai mu ke qi	1477
 戜	ke fo wang qi	101
-戝	mu ba yao gi	101
-戞	dai nei er bao yao gi	101
-戞	dai nei er gi	101
-戟	shi zao yao gi	1384
+戝	mu ba ke qi	101
+戞	dai nei er bao ke qi	101
+戞	dai nei er qi	101
+戟	shi zao ke qi	1384
 戠	liu ke ri qi	101
-戡	cao san ba je yao gi	105
-戡	cao san ba gi	105
+戡	cao san ba je ke qi	105
+戡	cao san ba qi	105
 戢	fo ke han qi	101
-戣	le gi er gi ke da yao gi	101
-戣	le gi er gi	101
-戤	nai vo min yao gi	101
-戤	nai vo min gi	101
-戥	ri he ao yao gi	101
-戥	ri he ao gi	101
-戦	shang ri shi yao gi	101
-戦	shang ri shi gi	101
-戧	ren xue he fo yao gi	101
-戧	ren xue he gi	101
-戨	ke fo me ke fo me yao gi	101
-戨	ke fo me gi	101
-戩	ke yao yao ke ri yao gi	101
-戩	ke yao yao gi	101
+戣	le gi er gi ke da ke qi	101
+戣	le gi er qi	101
+戤	nai vo min ke qi	101
+戤	nai vo min qi	101
+戥	ri he ao ke qi	101
+戥	ri he ao qi	101
+戦	shang ri shi ke qi	101
+戦	shang ri shi qi	101
+戧	ren xue he fo ke qi	101
+戧	ren xue he qi	101
+戨	ke fo me ke fo me ke qi	101
+戨	ke fo me qi	101
+戩	ke yao yao ke ri ke qi	101
+戩	ke yao yao qi	101
 截	tu li wo qi	46412
 戫	quan qing ke fo ke qi	101
 戫	quan qing ke qi	101
-戬	ke huo ke ri yao gi	466
-戬	ke huo ke gi	466
-戭	bao ke you ba yao gi	101
-戭	bao ke you gi	101
-戮	xi xi ren san yao gi	2234
-戮	xi xi ren gi	2234
-戯	hu huo ke yao gi	101
-戯	hu huo ke gi	101
-戰	fo fo ri shi yao gi	101
-戰	fo fo ri gi	101
-戱	hu cao ke yao gi	101
-戱	hu cao ke gi	101
-戲	hu ke fo dao ke yao gi	101
-戲	hu ke fo gi	101
-戳	xi xi li wo yao gi	12831
-戳	xi xi li gi	12831
+戬	ke huo ke ri ke qi	466
+戬	ke huo ke qi	466
+戭	bao ke you ba ke qi	101
+戭	bao ke you qi	101
+戮	xi xi ren san ke qi	2234
+戮	xi xi ren qi	2234
+戯	hu huo ke ke qi	101
+戯	hu huo ke qi	101
+戰	fo fo ri shi ke qi	101
+戰	fo fo ri qi	101
+戱	hu cao ke ke qi	101
+戱	hu cao ke qi	101
+戲	hu ke fo dao ke ke qi	101
+戲	hu ke fo qi	101
+戳	xi xi li wo ke qi	12831
+戳	xi xi li qi	12831
 戴	tu tian gong qi	43821
-戵	mu mu li wo yao gi	101
-戵	mu mu li gi	101
+戵	mu mu li wo ke qi	101
+戵	mu mu li qi	101
 戶	gua gong	101
 户	gi go	223223
 戸	ke go	101
@@ -7075,7 +7079,7 @@ use_preset_vocabulary: false
 扻	na bo	101
 扼	na chang le je	2448
 扽	na ke nei je	101
-找	na yao gi	417273
+找	na ke qi	417273
 承	le me san shuai	113682
 技	na shi vo	294549
 抁	na yao so	101
@@ -7253,7 +7257,8 @@ use_preset_vocabulary: false
 挝	na cun zhi	823
 挞	na da zhi	1052
 挟	na ke dao da	2472
-挠	na yao ke so	5543
+挠	na ke qi ke so	5543
+挠	na ke qi so	5543
 挡	na shang xue	23321
 挢	na yao qiao	101
 挣	na jiao xue me	31183
@@ -7779,8 +7784,8 @@ use_preset_vocabulary: false
 撞	na liu ke er	31865
 撟	na yao fo nei fo	101
 撟	na yao fo fo	101
-撠	na shi zao yao gi	101
-撠	na shi zao gi	101
+撠	na shi zao ke qi	101
+撠	na shi zao qi	101
 撡	na yao yao yao ren me san	101
 撡	na yao yao san	101
 撢	na xi zao	101
@@ -8420,7 +8425,8 @@ use_preset_vocabulary: false
 晐	ri wo yao ren	101
 晑	ri xiang	101
 晒	ri xi	32524
-晓	ri yao ke so	25701
+晓	ri ke qi ke so	25701
+晓	ri ke qi so	25701
 晔	ri li bi shi	280
 晕	ri bao dong shi	15735
 晖	ri bao dong shi	1471
@@ -9018,7 +9024,7 @@ use_preset_vocabulary: false
 栭	pa dai nei er	101
 栮	pa ke han	101
 栯	pa quan qing	101
-栰	pa li yao gi	101
+栰	pa li ke qi	101
 栱	pa gong	101
 栲	pa shi quan ke je	101
 栲	pa shi quan je	101
@@ -9073,7 +9079,8 @@ use_preset_vocabulary: false
 桞	pa jiao gi er	101
 桟	pa san qi	101
 桠	pa ke huo ke	154
-桡	pa yao ke so	181
+桡	pa ke qi ke so	181
+桡	pa ke qi so	181
 桢	pa hu nei ren	485
 档	pa shang xue	48580
 桤	pa ha ji	101
@@ -9228,8 +9235,8 @@ use_preset_vocabulary: false
 棤	pa gong ri	101
 棥	pa yi yi pa	101
 棦	pa jiao xue me	101
-棧	pa yao gi yao gi	101
-棧	pa yao gi gi	101
+棧	pa ke qi ke qi	101
+棧	pa ke qi qi	101
 棨	gi go wen pa	101
 棩	pa qiao me ke je ke le ke me	101
 棩	pa qiao me me	101
@@ -9822,8 +9829,8 @@ use_preset_vocabulary: false
 橴	pa ma bi yao xiao	101
 橴	pa ma bi xiao	101
 橵	pa gong qing wen	101
-橶	pa shi zao yao gi	101
-橶	pa shi zao gi	101
+橶	pa shi zao ke qi	101
+橶	pa shi zao qi	101
 橷	pa he ri me er bi so	101
 橷	pa he ri so	101
 橸	pa ri ri ri	101
@@ -10293,8 +10300,8 @@ use_preset_vocabulary: false
 殕	dai liu ke fo	101
 殖	dai shi nei san	18820
 殗	dai da ri je	101
-殘	dai yao gi yao gi	101
-殘	dai yao gi gi	101
+殘	dai ke qi ke qi	101
+殘	dai ke qi qi	101
 殙	dai xue je ri	101
 殚	dai dao ri shi	232
 殛	dai le me fo vo ke	101
@@ -10815,12 +10822,13 @@ use_preset_vocabulary: false
 浅	ka er qi	37734
 浆	dian me jiao gi me shuai	8391
 浆	dian me jiao shuai	8391
-浇	ka yao ke so	5265
+浇	ka ke qi ke so	5265
+浇	ka ke qi so	5265
 浈	ka hu nei ren	101
 浉	ka dao ke ro	101
 浊	ka fo yao	3265
 测	ka nei ren dao	122997
-浌	ka li yao gi	101
+浌	ka li ke qi	101
 浍	ka ren er yao	101
 济	ka wo yi qiao	145813
 浏	ka wo yi dao	16348
@@ -11026,8 +11034,8 @@ use_preset_vocabulary: false
 混	ka ri bi bi	100903
 淸	ka ao nei shang	101
 淹	ka da ri je	5390
-淺	ka yao gi yao gi	101
-淺	ka yao gi gi	101
+淺	ka ke qi ke qi	101
+淺	ka ke qi qi	101
 添	ka ke da me san	27750
 添	ka ke da san	27750
 淼	me shuai me shuai me shuai	837
@@ -11842,8 +11850,8 @@ use_preset_vocabulary: false
 濸	ka cao ren fo	101
 濹	ka min tu qo tu	101
 濹	ka min tu tu	101
-濺	ka mu ba yao gi yao gi	101
-濺	ka mu ba gi	101
+濺	ka mu ba ke qi ke qi	101
+濺	ka mu ba qi	101
 濻	ka er fo shang mu ba	101
 濻	ka er fo ba	101
 濼	ka he ri yao yao pa	101
@@ -12188,7 +12196,8 @@ use_preset_vocabulary: false
 烤	huo shi quan je	27018
 烥	huo ya	101
 烦	huo dai nei ren	71588
-烧	huo yao ke so	61592
+烧	huo ke qi ke so	61592
+烧	huo ke qi so	61592
 烨	huo li bi shi	1588
 烩	huo ren er yao	1358
 烪	huo dao ke da	101
@@ -12725,8 +12734,8 @@ use_preset_vocabulary: false
 牉	he shang le na	101
 牊	he shang le co fo	101
 牊	he shang le fo	101
-牋	he shang le yao gi yao gi	101
-牋	he shang le gi	101
+牋	he shang le ke qi ke qi	101
+牋	he shang le qi	101
 牌	he shang le bei	156409
 牍	he shang le shi le er da	372
 牍	he shang le da	372
@@ -12771,7 +12780,7 @@ use_preset_vocabulary: false
 牨	he na wo to	101
 物	he na shao er	485974
 牪	he na he na	101
-牫	he na yao gi	101
+牫	he na ke qi	101
 牬	he na he je me he	101
 牬	he na he he	101
 牭	he na nei so ke	101
@@ -13396,8 +13405,8 @@ use_preset_vocabulary: false
 琓	wang bao er so	101
 琔	wang bao zu	101
 琕	wang bei	101
-琖	wang yao gi yao gi	101
-琖	wang yao gi gi	101
+琖	wang ke qi ke qi	101
+琖	wang ke qi qi	101
 琗	wang wo ren ren shi	101
 琗	wang wo ren shi	101
 琘	wang xue je ri	101
@@ -14403,8 +14412,8 @@ use_preset_vocabulary: false
 盜	ka bo min	101
 盝	le er me shuai min	101
 盝	le er me min	101
-盞	yao gi yao gi min	101
-盞	yao gi yao min	101
+盞	ke qi ke qi min	101
+盞	ke qi ke min	101
 盟	ri yue min	32725
 盠	je le ke co min	101
 盠	je le ke min	101
@@ -14915,8 +14924,8 @@ use_preset_vocabulary: false
 硕	dai fo dai ren	36257
 硖	dai fo ke dao da	101
 硖	dai fo ke da	101
-硗	dai fo yao ke so	101
-硗	dai fo yao so	101
+硗	dai fo ke qi ke so	101
+硗	dai fo ke so	101
 硘	dai fo hui	101
 硙	dai fo ha ji	101
 硚	dai fo yao qiao	101
@@ -14998,8 +15007,8 @@ use_preset_vocabulary: false
 碈	dai fo xue ri	101
 碉	dai fo nei tu fo	1018
 碉	dai fo nei fo	1018
-碊	dai fo yao gi yao gi	101
-碊	dai fo yao gi	101
+碊	dai fo ke qi ke qi	101
+碊	dai fo ke qi	101
 碋	dai fo ha ke fo me	101
 碋	dai fo ha me	101
 碌	dai fo le er me shuai	6511
@@ -16122,7 +16131,7 @@ use_preset_vocabulary: false
 筌	zhu quan	101
 筍	zhu shao ri	101
 筎	zhu xo fo	101
-筏	zhu li yao gi	327
+筏	zhu li ke qi	327
 筐	zhu ke wang je	2157
 筑	zhu xia ke fan	48143
 筒	zhu tong	9348
@@ -16192,8 +16201,8 @@ use_preset_vocabulary: false
 箈	zhu ka yao fo	101
 箉	zhu na ling	101
 箊	zhu fang ren er	101
-箋	zhu yao gi yao gi	101
-箋	zhu yao gi gi	101
+箋	zhu ke qi ke qi	101
+箋	zhu ke qi qi	101
 箌	zhu ke yao tu dao	101
 箌	zhu ke yao dao	101
 箍	zhu na ke ro je	1849
@@ -16519,8 +16528,8 @@ use_preset_vocabulary: false
 籙	zhu jin le er me shuai	101
 籙	zhu jin le shuai	101
 籚	zhu hu tian min	101
-籛	zhu jin yao gi yao gi	101
-籛	zhu jin yao gi	101
+籛	zhu jin ke qi ke qi	101
+籛	zhu jin ke qi	101
 籜	zhu na mu tu dao gan	101
 籜	zhu na mu gan	101
 籝	zhu wo yue xo fan	101
@@ -17020,8 +17029,8 @@ use_preset_vocabulary: false
 綩	yao san bao jiao gi le je	101
 綩	yao san bao je	101
 綪	yao san ao qing	101
-綫	yao san yao gi yao gi	101
-綫	yao san yao gi	101
+綫	yao san ke qi ke qi	101
+綫	yao san ke qi	101
 綬	yao san zhao bao vo	101
 綬	yao san zhao vo	101
 維	yao san li wo	101
@@ -17544,8 +17553,8 @@ use_preset_vocabulary: false
 结	er ke zo fo	391732
 绔	er ke da er je	554
 绔	er ke da je	554
-绕	er ke yao ke so	26188
-绕	er ke yao so	26188
+绕	er ke ke qi ke so	26188
+绕	er ke ke so	26188
 绖	er ke ke yao tu	101
 绖	er ke ke tu	101
 绗	er ke do er me	101
@@ -17954,8 +17963,8 @@ use_preset_vocabulary: false
 翖	jin fo xi xi	101
 翗	jiao gi jiao gi xi xi	101
 翗	jiao gi jiao xi	101
-翘	yao ke so xi xi	9713
-翘	yao ke so xi	9713
+翘	ke qi ke so xi xi	9713
+翘	ke qi ke xi	9713
 翙	ha jiao gi xi xi	101
 翙	ha jiao gi xi	101
 翚	xi xi bao dong shi	101
@@ -18113,7 +18122,7 @@ use_preset_vocabulary: false
 耽	ke han bao so	9198
 耾	ke han quan yao	101
 耿	ke han huo	5937
-聀	ke han yao gi	101
+聀	ke han ke qi	101
 聁	ke han ba co	101
 聂	ke han vo vo	2328
 聃	ke han nei tu	111
@@ -18231,8 +18240,8 @@ use_preset_vocabulary: false
 肆	zhang xue na	9757
 肇	gi go wen xue na	1896
 肇	gi go wen na	1896
-肈	gi go yao gi xue na	101
-肈	gi go yao na	101
+肈	gi go ke qi xue na	101
+肈	gi go ke na	101
 肉	rou	175412
 肉	m rou	175412
 肊	yue le	101
@@ -19134,7 +19143,7 @@ use_preset_vocabulary: false
 茴	cao hui	932
 茵	cao nei da ke	1744
 茶	cao ren pa	64426
-茷	cao li yao gi	101
+茷	cao li ke qi	101
 茸	cao ke han	1715
 茹	cao xo fo	1327
 茺	cao wo yao so	101
@@ -19174,7 +19183,8 @@ use_preset_vocabulary: false
 荘	cao dian me zo	101
 荙	cao da zhi	101
 荚	cao ke dao da	1179
-荛	cao yao ke so	101
+荛	cao ke qi ke so	101
+荛	cao ke qi so	101
 荜	cao bi bi shi	101
 荝	cao nei ren dao	101
 荞	cao yao qiao	543
@@ -19328,8 +19338,8 @@ use_preset_vocabulary: false
 菘	cao pa ba yao	101
 菙	cao he shi gong ke	101
 菙	cao he shi ke	101
-菚	cao yao gi yao gi	101
-菚	cao yao gi gi	101
+菚	cao ke qi ke qi	101
+菚	cao ke qi qi	101
 菛	cao er er	101
 菜	cao zhao pa	124452
 菝	cao na quan vo gi	101
@@ -19983,8 +19993,8 @@ use_preset_vocabulary: false
 薌	cao er he er	101
 薍	cao zhao le gi nei yao vo je	101
 薍	cao zhao le je	101
-薎	cao mu bao li yao gi	101
-薎	cao mu bao gi	101
+薎	cao mu bao li ke qi	101
+薎	cao mu bao qi	101
 薏	cao liu ke ri la	1243
 薏	cao liu ke la	1243
 薐	cao he pa tu ba wen	101
@@ -20372,10 +20382,10 @@ use_preset_vocabulary: false
 虣	er ma je gi hu to	101
 虣	er ma je to	101
 虤	hu to hu to	101
-虥	hu to yao gi yao gi	101
-虥	hu to yao gi	101
-虦	yao gi yao gi hu to	101
-虦	yao gi yao to	101
+虥	hu to ke qi ke qi	101
+虥	hu to ke qi	101
+虦	ke qi ke qi hu to	101
+虦	ke qi ke to	101
 虧	hu li wo er je	101
 虧	hu li wo je	101
 虨	hu pa pa san	101
@@ -20546,8 +20556,8 @@ use_preset_vocabulary: false
 蛰	na wan fo yao	746
 蛱	fo yao ke dao da	101
 蛱	fo yao ke da	101
-蛲	fo yao yao ke so	101
-蛲	fo yao yao so	101
+蛲	fo yao ke qi ke so	101
+蛲	fo yao ke so	101
 蛳	fo yao dao ke ro	572
 蛳	fo yao dao ro	572
 蛴	fo yao wo yi qiao	101
@@ -21158,7 +21168,7 @@ use_preset_vocabulary: false
 蠻	wo yao san yao	101
 蠼	fo yao mu mu li wo vo	101
 蠼	fo yao mu vo	101
-蠽	xiao li wo yao gi fo yao fo yao	101
+蠽	xiao li wo ke qi fo yao fo yao	101
 蠽	xiao li wo yao	101
 蠾	fo yao go me shuai mu shao fo yao	101
 蠾	fo yao go yao	101
@@ -22130,8 +22140,8 @@ use_preset_vocabulary: false
 諑	wo dai co gi dian	101
 諑	wo dai co dian	101
 諒	wo jing	101
-諓	wo yao gi yao gi	101
-諓	wo yao gi gi	101
+諓	wo ke qi ke qi	101
+諓	wo ke qi qi	101
 諔	wo shang xiao vo	101
 諕	wo hu to	101
 論	wo jin nei cao	101
@@ -22899,8 +22909,8 @@ use_preset_vocabulary: false
 賡	guang xue ren ba	101
 賢	ya vo mu ba	101
 賣	zo mu mu ba	101
-賤	mu ba yao gi yao gi	101
-賤	mu ba yao gi	101
+賤	mu ba ke qi ke qi	101
+賤	mu ba ke qi	101
 賥	mu ba wo ren ren shi	101
 賥	mu ba wo shi	101
 賦	mu ba er ma je gi	101
@@ -23314,8 +23324,8 @@ use_preset_vocabulary: false
 跴	fo ma xi	101
 践	fo ma er qi	23660
 跶	fo ma da zhi	101
-跷	fo ma yao ke so	975
-跷	fo ma yao so	975
+跷	fo ma ke qi ke so	975
+跷	fo ma ke so	975
 跸	fo ma bi bi shi	101
 跸	fo ma bi shi	101
 跹	fo ma he shi zhi	101
@@ -23358,8 +23368,8 @@ use_preset_vocabulary: false
 踎	fo ma dai fo	101
 踏	fo ma me shuai ri	27800
 踏	fo ma me ri	27800
-踐	fo ma yao gi yao gi	101
-踐	fo ma yao gi	101
+踐	fo ma ke qi ke qi	101
+踐	fo ma ke qi	101
 踑	fo ma cao san ba	101
 踑	fo ma cao ba	101
 踒	fo ma he pa xo	101
@@ -23820,8 +23830,8 @@ use_preset_vocabulary: false
 輘	ke zao tu wen	101
 輙	ke zao ke han vo	101
 輙	ke zao ke vo	101
-輚	ke zao yao gi yao gi	101
-輚	ke zao yao gi	101
+輚	ke zao ke qi ke qi	101
+輚	ke zao ke qi	101
 輛	ke zao ke ro he gi he gi	101
 輛	ke zao ke gi	101
 輜	ke zao san tian	101
@@ -24686,8 +24696,8 @@ use_preset_vocabulary: false
 醄	xi er shao ha	101
 醅	xi er liu ke fo	139
 醅	xi er liu fo	139
-醆	xi er yao gi yao gi	101
-醆	xi er yao gi	101
+醆	xi er ke qi ke qi	101
+醆	xi er ke qi	101
 醇	xi er wo le na	5040
 醇	xi er wo na	5040
 醈	xi er huo huo	101
@@ -24900,7 +24910,7 @@ use_preset_vocabulary: false
 鈘	jin shi vo	101
 鈙	jin pu	101
 鈚	jin bi bi	101
-鈛	jin yao gi	101
+鈛	jin ke qi	101
 鈜	jin quan yao	101
 鈝	jin he na	101
 鈞	jin shao dian	101
@@ -25198,8 +25208,8 @@ use_preset_vocabulary: false
 錠	jin bao zu	101
 錡	jin da ke fo me	101
 錡	jin da ke me	101
-錢	jin yao gi yao gi	101
-錢	jin yao gi gi	101
+錢	jin ke qi ke qi	101
+錢	jin ke qi qi	101
 錣	jin vo vo vo vo	101
 錣	jin vo vo vo	101
 錤	jin cao san ba	101
@@ -25846,7 +25856,8 @@ use_preset_vocabulary: false
 铗	qi ke dao da	101
 铘	qi qi me he er	101
 铘	qi qi me er	101
-铙	qi yao ke so	101
+铙	qi ke qi ke so	101
+铙	qi ke qi so	101
 铚	qi ke yao tu	101
 铛	qi shang xue	1271
 铜	qi tong	11375
@@ -26110,8 +26121,8 @@ use_preset_vocabulary: false
 関	er er dao da	101
 閣	er er wen fo	101
 閤	er er jin fo	101
-閥	er er li yao gi	101
-閥	er er li gi	101
+閥	er er li ke qi	101
+閥	er er li qi	101
 閦	er er ren ren ren	101
 閦	er er ren ren	101
 閧	er er gong	101
@@ -26244,8 +26255,8 @@ use_preset_vocabulary: false
 闽	gi nei fo yao	3010
 闾	gi nei fo fo	347
 闿	gi nei ha ji	101
-阀	gi nei li yao gi	5565
-阀	gi nei li gi	5565
+阀	gi nei li ke qi	5565
+阀	gi nei li qi	5565
 阁	gi nei wen fo	8618
 阂	gi nei wo yao ren	1374
 阂	gi nei wo ren	1374
@@ -26489,8 +26500,8 @@ use_preset_vocabulary: false
 隳	er quan xia san	101
 隴	er liu ke qing bi	101
 隴	er liu ke bi	101
-隵	er hu ke fo dao ke yao gi	101
-隵	er hu ke gi	101
+隵	er hu ke fo dao ke ke qi	101
+隵	er hu ke qi	101
 隶	xue me shuai	8890
 隷	zo er xiao xue me shuai	101
 隷	zo er xiao shuai	101
@@ -27481,8 +27492,8 @@ use_preset_vocabulary: false
 餛	ren ji ri bi	101
 餜	ren ji ri pa	101
 餝	ren ji cao fang	101
-餞	ren ji yao gi yao gi	101
-餞	ren ji yao gi	101
+餞	ren ji ke qi ke qi	101
+餞	ren ji ke qi	101
 餟	ren ji vo vo vo vo	101
 餟	ren ji vo vo	101
 餠	ren ji he gan he gan	101
@@ -27633,8 +27644,8 @@ use_preset_vocabulary: false
 饳	jiao je chu	101
 饴	jiao je yao fo	272
 饵	jiao je ke han	1106
-饶	jiao je yao ke so	5297
-饶	jiao je yao so	5297
+饶	jiao je ke qi ke so	5297
+饶	jiao je ke so	5297
 饷	jiao je xiang	603
 饸	jiao je jin fo	101
 饹	jiao je wen fo	101
@@ -27704,8 +27715,8 @@ use_preset_vocabulary: false
 馠	he pa ri ren le fo	101
 馠	he pa ri fo	101
 馡	he pa ri fei	101
-馢	he pa ri yao gi yao gi	101
-馢	he pa ri gi	101
+馢	he pa ri ke qi ke qi	101
+馢	he pa ri qi	101
 馣	he pa ri da ri je	101
 馣	he pa ri je	101
 馤	he pa ri ri shao ren je	101
@@ -28059,7 +28070,8 @@ use_preset_vocabulary: false
 驾	le he fo ma	34670
 驿	ma vo na	897
 骀	ma yao fo	101
-骁	ma yao ke so	2574
+骁	ma ke qi ke so	2574
+骁	ma ke qi so	2574
 骂	fo fo ma	83439
 骃	ma nei da ke	101
 骄	ma yao qiao	13744
@@ -31080,8 +31092,8 @@ use_preset_vocabulary: false
 㘋	fo ya vo ba	101
 㘌	fo hu ke co dao	101
 㘌	fo hu ke dao	101
-㘍	fo xiao li wo yao gi	101
-㘍	fo xiao li gi	101
+㘍	fo xiao li wo ke qi	101
+㘍	fo xiao li qi	101
 㘎	fo gi nei le ke han wen	101
 㘎	fo gi nei wen	101
 㘏	dao dai mu zhi fo bi	101
@@ -31146,7 +31158,7 @@ use_preset_vocabulary: false
 㘷	tu cao yi	101
 㘸	dai bi tu	101
 㘹	ma bi tu	101
-㘺	tu li yao gi	101
+㘺	tu li ke qi	101
 㘻	tu nei da ke	101
 㘼	tu shi quan ke je	101
 㘼	tu shi quan je	101
@@ -31257,8 +31269,8 @@ use_preset_vocabulary: false
 㙾	tu jiu yi na	101
 㙿	tu dao wang he pa qi nai	101
 㙿	tu dao wang nai	101
-㚀	tu hu ke fo dao ke yao gi	101
-㚀	tu hu ke gi	101
+㚀	tu hu ke fo dao ke ke qi	101
+㚀	tu hu ke qi	101
 㚁	tu tu tu ke so tu tu tu ke so	101
 㚁	tu tu tu so	101
 㚂	tu nang fo fo han he je dian	101
@@ -31723,8 +31735,8 @@ use_preset_vocabulary: false
 㟛	ha na cao er	101
 㟜	ha gong jiao xiao	101
 㟝	ha liu ke fo	101
-㟞	ha yao gi yao gi	101
-㟞	ha yao gi gi	101
+㟞	ha ke qi ke qi	101
+㟞	ha ke qi qi	101
 㟟	ha gong si	101
 㟠	ha nei dao ke ha	101
 㟠	ha nei dao ha	101
@@ -31947,7 +31959,7 @@ use_preset_vocabulary: false
 㡯	guang he qi	101
 㡰	guang ke na	101
 㡱	guang jiu	101
-㡲	guang yao gi	101
+㡲	guang ke qi	101
 㡳	guang xue je	101
 㡴	guang liu ke	101
 㡵	guang ren le gi	101
@@ -32096,8 +32108,8 @@ use_preset_vocabulary: false
 㣢	do dao gong he	101
 㣣	do ke he gi he gi ren	101
 㣣	do ke he ren	101
-㣤	do yao gi yao gi	101
-㣤	do yao gi gi	101
+㣤	do ke qi ke qi	101
+㣤	do ke qi qi	101
 㣥	do li tu cun	101
 㣦	do he pa xo	101
 㣧	do yao qing je	101
@@ -32215,8 +32227,8 @@ use_preset_vocabulary: false
 㥄	shu tu ba wen	101
 㥅	shu zhao bao vo	101
 㥆	shu xue me shuai	101
-㥇	shu yao gi yao gi	101
-㥇	shu yao gi gi	101
+㥇	shu ke qi ke qi	101
+㥇	shu ke qi qi	101
 㥈	ro hu fo la	101
 㥉	shu liu ke fo	101
 㥊	shu yue yue	101
@@ -32373,26 +32385,26 @@ use_preset_vocabulary: false
 㦭	shu yu fo fo fo xia ren ren ke	101
 㦭	shu yu fo ke	101
 㦮	san qi	101
-㦯	yao gi yao ke	101
-㦰	ren ren yao gi	101
+㦯	ke qi yao ke	101
+㦰	ren ren ke qi	101
 㦱	er qi tu	101
 㦲	tu jiao qi	101
 㦳	tu tu qi	101
 㦴	ke wen fo qi	101
-㦵	zhu yao gi	101
+㦵	zhu ke qi	101
 㦶	ke ke yao tu qi	101
 㦶	ke ke yao qi	101
-㦷	le gi nei na yao gi	101
-㦷	le gi nei gi	101
-㦸	hu zao yao gi	101
-㦹	ri ke shao er yao gi	101
-㦹	ri ke shao gi	101
-㦺	chang er je dian cun yao gi	101
-㦺	chang er je gi	101
-㦻	xi xi he ri yao gi	101
-㦻	xi xi he gi	101
-㦼	san ren jiu yao gi	101
-㦼	san ren jiu gi	101
+㦷	le gi nei na ke qi	101
+㦷	le gi nei qi	101
+㦸	hu zao ke qi	101
+㦹	ri ke shao er ke qi	101
+㦹	ri ke shao qi	101
+㦺	chang er je dian cun ke qi	101
+㦺	chang er je qi	101
+㦻	xi xi he ri ke qi	101
+㦻	xi xi he qi	101
+㦼	san ren jiu ke qi	101
+㦼	san ren jiu qi	101
 㦽	quan qing ke fo ke qi san	101
 㦽	quan qing ke san	101
 㦾	gi go dan je	101
@@ -32636,8 +32648,8 @@ use_preset_vocabulary: false
 㩪	na yao san ba	101
 㩫	na gua xia gua xia mu ba	101
 㩫	na gua xia ba	101
-㩬	na hu huo ke yao gi	101
-㩬	na hu huo gi	101
+㩬	na hu huo ke ke qi	101
+㩬	na hu huo qi	101
 㩭	na jiu yi yi jiu bao le na	101
 㩭	na jiu yi na	101
 㩮	na jiu ke je me jiu ke ba na	101
@@ -33232,8 +33244,8 @@ use_preset_vocabulary: false
 㰂	pa bao he tian	101
 㰃	pa he ri ro he yao xiao	101
 㰃	pa he ri xiao	101
-㰄	pa mu ba yao gi yao gi	101
-㰄	pa mu ba gi	101
+㰄	pa mu ba ke qi ke qi	101
+㰄	pa mu ba qi	101
 㰅	pa liu nei shi fo zhi	101
 㰅	pa liu nei zhi	101
 㰆	nang fei pa	101
@@ -33516,7 +33528,7 @@ use_preset_vocabulary: false
 㲽	ka ren	101
 㲾	bao me shuai	101
 㲿	ka guang	101
-㳀	ka yao gi	101
+㳀	ka ke qi	101
 㳁	ka chang ren	101
 㳂	ka ba yao	101
 㳃	ka he le shi	101
@@ -34013,8 +34025,8 @@ use_preset_vocabulary: false
 㸋	jiao er huo he dao pa tian	101
 㸋	jiao er huo tian	101
 㸌	huo yu li wo	101
-㸍	huo hu ke fo dao ke yao gi	101
-㸍	huo hu ke gi	101
+㸍	huo hu ke fo dao ke ke qi	101
+㸍	huo hu ke qi	101
 㸎	huo ke han ke han ke han	101
 㸎	huo ke han han	101
 㸏	guang pa pa fei huo	101
@@ -34191,8 +34203,8 @@ use_preset_vocabulary: false
 㹻	shao he he xo	101
 㹼	shao he shao dao pa	101
 㹼	shao he shao pa	101
-㹽	shao he yao gi yao gi	101
-㹽	shao he yao gi	101
+㹽	shao he ke qi ke qi	101
+㹽	shao he ke qi	101
 㹾	shao he wen me gi fo	101
 㹾	shao he wen fo	101
 㹿	shao he hu zao	101
@@ -34264,8 +34276,8 @@ use_preset_vocabulary: false
 㺡	shao he chang ma	101
 㺢	shao he yu li wo	101
 㺢	shao he yu wo	101
-㺣	shao he hu ke fo dao ke yao gi	101
-㺣	shao he hu gi	101
+㺣	shao he hu ke fo dao ke ke qi	101
+㺣	shao he hu qi	101
 㺤	shao he ren ren ke qi	101
 㺤	shao he ren qi	101
 㺥	shao he jiao fo bi bi tu	101
@@ -34842,8 +34854,8 @@ use_preset_vocabulary: false
 䁆	mu da ri je	101
 䁇	bao bi mu	101
 䁈	gi go wen mu	101
-䁉	gi go yao gi mu	101
-䁉	gi go yao mu	101
+䁉	gi go ke qi mu	101
+䁉	gi go ke mu	101
 䁊	mu vo gi mu	101
 䁋	mu cao ke je pa	101
 䁋	mu cao ke pa	101
@@ -34975,7 +34987,7 @@ use_preset_vocabulary: false
 䂛	dai fo le gi le me	101
 䂛	dai fo le me	101
 䂜	dai fo san me	101
-䂝	dai fo yao gi	101
+䂝	dai fo ke qi	101
 䂞	dai fo pa	101
 䂟	le he fo dai fo	101
 䂟	le he fo fo	101
@@ -35147,7 +35159,7 @@ use_preset_vocabulary: false
 䃽	ja gi shi vo	101
 䃾	ja gi bi bi	101
 䃿	ja gi fu	101
-䄀	ja gi yao gi	101
+䄀	ja gi ke qi	101
 䄁	ja gi cao ke je	101
 䄁	ja gi cao je	101
 䄂	ja gi you	101
@@ -35473,7 +35485,7 @@ use_preset_vocabulary: false
 䇂	liu ke me	101
 䇃	liu ke si	101
 䇄	liu ke zhu le	101
-䇅	liu ke yao gi	101
+䇅	liu ke ke qi	101
 䇆	liu ke er shi	101
 䇇	liu ke si ke je	101
 䇇	liu ke si je	101
@@ -35506,7 +35518,7 @@ use_preset_vocabulary: false
 䇚	zhu li me gi	101
 䇛	zhu ma	101
 䇜	zhu bo	101
-䇝	zhu yao gi	101
+䇝	zhu ke qi	101
 䇞	zhu cao er	101
 䇟	zhu jiao gi le he	101
 䇟	zhu jiao gi he	101
@@ -35664,8 +35676,8 @@ use_preset_vocabulary: false
 䉒	zhu he dao pa tian	101
 䉒	zhu he dao tian	101
 䉓	zhu pa ri pa	101
-䉔	zhu dai yao gi yao gi	101
-䉔	zhu dai yao gi	101
+䉔	zhu dai ke qi ke qi	101
+䉔	zhu dai ke qi	101
 䉕	zhu dao min ri	101
 䉖	zhu ke zao ren le gi	101
 䉖	zhu ke zao gi	101
@@ -35917,8 +35929,8 @@ use_preset_vocabulary: false
 䋭	yao san wo yao qing	101
 䋭	yao san wo qing	101
 䋮	yao san jin	101
-䋯	gi go yao gi yao xiao	101
-䋯	gi go yao xiao	101
+䋯	gi go ke qi yao xiao	101
+䋯	gi go ke xiao	101
 䋰	nei san ba yao xiao	101
 䋰	nei san ba xiao	101
 䋱	yao san ke ren ren pa	101
@@ -36196,8 +36208,8 @@ use_preset_vocabulary: false
 䎐	shi zao xi xi	101
 䎑	xi xi le er me shuai	101
 䎑	xi xi le shuai	101
-䎒	xi xi yao gi yao gi	101
-䎒	xi xi yao gi	101
+䎒	xi xi ke qi ke qi	101
+䎒	xi xi ke qi	101
 䎓	xi xi me shuai ri	101
 䎓	xi xi me ri	101
 䎔	xi xi ke qing me gi cun	101
@@ -36345,8 +36357,8 @@ use_preset_vocabulary: false
 䏹	yue mu so	101
 䏺	yue wen san me	101
 䏻	yao qing tu yao	101
-䏼	yue yao gi yao gi	101
-䏼	yue yao gi gi	101
+䏼	yue ke qi ke qi	101
+䏼	yue ke qi qi	101
 䏽	yue liu ke fo	101
 䏾	yue san ren na	101
 䏿	gi go wen qing	101
@@ -36750,8 +36762,8 @@ use_preset_vocabulary: false
 䔎	cao ke fo zhi	101
 䔏	cao he tu fo zhi	101
 䔏	cao he tu zhi	101
-䔐	cao ka yao gi yao gi	101
-䔐	cao ka yao gi	101
+䔐	cao ka ke qi ke qi	101
+䔐	cao ka ke qi	101
 䔑	cao jin pa er shi	101
 䔑	cao jin pa shi	101
 䔒	cao er liu ke fo	101
@@ -37060,8 +37072,8 @@ use_preset_vocabulary: false
 䗁	fo yao da ke fo me	101
 䗁	fo yao da me	101
 䗂	fo yao hu to	101
-䗃	fo yao yao gi yao gi	101
-䗃	fo yao yao gi	101
+䗃	fo yao ke qi ke qi	101
+䗃	fo yao ke qi	101
 䗄	fo yao ba yi gua xia	101
 䗄	fo yao ba xia	101
 䗅	fo yao xue je dian	101
@@ -37282,8 +37294,8 @@ use_preset_vocabulary: false
 䘾	ja dian bao er	101
 䘿	ja dian go chu	101
 䙀	ja dian yue yue	101
-䙁	ja dian yao gi yao gi	101
-䙁	ja dian yao gi	101
+䙁	ja dian ke qi ke qi	101
+䙁	ja dian ke qi	101
 䙂	ja dian ba yao la	101
 䙂	ja dian ba la	101
 䙃	ja dian quan xia ke qing	101
@@ -38354,7 +38366,7 @@ use_preset_vocabulary: false
 䣩	xi er ke je	101
 䣪	xi er ke ro	101
 䣫	xi er shi vo	101
-䣬	xi er yao gi	101
+䣬	xi er ke qi	101
 䣭	xi er quan	101
 䣮	xi er quan vo gi	101
 䣮	xi er quan gi	101
@@ -38373,8 +38385,8 @@ use_preset_vocabulary: false
 䣷	xi er zhu	101
 䣸	li he zo xi er	101
 䣸	li he zo er	101
-䣹	xi er li yao gi	101
-䣹	xi er li gi	101
+䣹	xi er li ke qi	101
+䣹	xi er li qi	101
 䣺	xi er fo qing	101
 䣻	xi er ren le fo	101
 䣻	xi er ren fo	101
@@ -38448,7 +38460,7 @@ use_preset_vocabulary: false
 䤤	jin wo yao ren	101
 䤥	jin jiao chang le je	101
 䤥	jin jiao chang je	101
-䤦	jin li yao gi	101
+䤦	jin li ke qi	101
 䤧	jin hui	101
 䤨	jin gua liu dian	101
 䤩	jin bao he qi	101
@@ -38709,8 +38721,8 @@ use_preset_vocabulary: false
 䧔	er ren le la	101
 䧕	er ke fo ke qi	101
 䧕	er ke fo qi	101
-䧖	er yao gi yao gi	101
-䧖	er yao gi gi	101
+䧖	er ke qi ke qi	101
+䧖	er ke qi qi	101
 䧗	er zhu ri wen	101
 䧘	er je le ke co	101
 䧘	er je le co	101
@@ -39742,7 +39754,7 @@ use_preset_vocabulary: false
 䰶	jiao qo wo je	101
 䰷	jiao qo san me	101
 䰸	jiao qo ba yao	101
-䰹	jiao qo yao gi	101
+䰹	jiao qo ke qi	101
 䰺	jiao qo gua xia	101
 䰻	jiao qo wen	101
 䰼	jiao qo ren le	101
@@ -39802,8 +39814,8 @@ use_preset_vocabulary: false
 䱞	jiao qo da xiao	101
 䱟	jiao qo go shi fo	101
 䱟	jiao qo go fo	101
-䱠	jiao qo yao gi yao gi	101
-䱠	jiao qo yao gi	101
+䱠	jiao qo ke qi ke qi	101
+䱠	jiao qo ke qi	101
 䱡	jiao qo shao dao pa	101
 䱡	jiao qo shao pa	101
 䱢	jiao qo jiao xue me	101
@@ -40142,8 +40154,8 @@ use_preset_vocabulary: false
 䴮	ke ren ren ha	101
 䴯	ke ren ren pa wen shao er	101
 䴯	ke ren ren er	101
-䴰	ke ren ren pa wen yao gi	101
-䴰	ke ren ren gi	101
+䴰	ke ren ren pa wen ke qi	101
+䴰	ke ren ren qi	101
 䴱	ke ren ren pa wen ta	101
 䴱	ke ren ren ta	101
 䴲	ke ren ren pa wen mo	101
@@ -40166,8 +40178,8 @@ use_preset_vocabulary: false
 䴺	ke ren ren fo	101
 䴻	he pa shao he ke ren ren pa wen	101
 䴻	he pa shao wen	101
-䴼	ke ren ren pa wen yao gi yao gi	101
-䴼	ke ren ren gi	101
+䴼	ke ren ren pa wen ke qi ke qi	101
+䴼	ke ren ren qi	101
 䴽	ke ren ren pa wen bei	101
 䴽	ke ren ren bei	101
 䴾	ke ren ren pa wen dao ke na xia ke	101
@@ -41425,8 +41437,8 @@ use_preset_vocabulary: false
 𠋮	li quan me tu nei	101
 𠋮	li quan me nei	101
 𠋯	li zhao jiu	101
-𠋰	li shi yao gi huo	101
-𠋰	li shi yao huo	101
+𠋰	li shi ke qi huo	101
+𠋰	li shi ke huo	101
 𠋱	li go shang qing	101
 𠋲	li shi bao yao xiao	101
 𠋲	li shi bao xiao	101
@@ -41747,8 +41759,8 @@ use_preset_vocabulary: false
 𠎮	li chang ni bo	101
 𠎯	li ka ri ke shao er	101
 𠎯	li ka ri er	101
-𠎰	li yao gi ke san la	101
-𠎰	li yao gi la	101
+𠎰	li ke qi ke san la	101
+𠎰	li ke qi la	101
 𠎱	li qi so qi so la	101
 𠎱	li qi so la	101
 𠎲	li cao ke nei je ri	101
@@ -41812,8 +41824,8 @@ use_preset_vocabulary: false
 𠏒	li cao yu yi	101
 𠏓	ren xue he fo yao fo	101
 𠏓	ren xue he fo	101
-𠏔	li yao gi ma le zu	101
-𠏔	li yao gi zu	101
+𠏔	li ke qi ma le zu	101
+𠏔	li ke qi zu	101
 𠏕	li pa xi xo	101
 𠏖	li da dao wang qo	101
 𠏖	li da dao qo	101
@@ -41826,8 +41838,8 @@ use_preset_vocabulary: false
 𠏛	li guang gong fang	101
 𠏜	li dao wang wo	101
 𠏝	li fu fu mu	101
-𠏞	li xia yao gi mu ba	101
-𠏞	li xia yao ba	101
+𠏞	li xia ke qi mu ba	101
+𠏞	li xia ke ba	101
 𠏟	li wo hui he pa	101
 𠏟	li wo hui pa	101
 𠏠	li fo ma tu tu	101
@@ -42204,8 +42216,8 @@ use_preset_vocabulary: false
 𠒰	jiu so tian le he	101
 𠒰	jiu so tian he	101
 𠒱	er xin so	101
-𠒲	shi xiong yao gi yao gi	101
-𠒲	shi xiong yao gi	101
+𠒲	shi xiong ke qi ke qi	101
+𠒲	shi xiong ke qi	101
 𠒳	bi wen yao so	101
 𠒴	he ri yao yao er so	101
 𠒴	he ri yao so	101
@@ -43274,8 +43286,8 @@ use_preset_vocabulary: false
 𠞳	dao ke yue dao	101
 𠞴	ren xue he fo ren	101
 𠞴	ren xue he ren	101
-𠞵	mu li yao gi dao	101
-𠞵	mu li yao dao	101
+𠞵	mu li ke qi dao	101
+𠞵	mu li ke dao	101
 𠞶	liu nei shi fo dao	101
 𠞶	liu nei shi dao	101
 𠞷	xue tu tian dao	101
@@ -43404,8 +43416,8 @@ use_preset_vocabulary: false
 𠟾	san jiu jiu dao	101
 𠟿	san jiu jiu pa co	101
 𠟿	san jiu jiu co	101
-𠠀	zhu yao gi yao gi dao	101
-𠠀	zhu yao gi dao	101
+𠠀	zhu ke qi ke qi dao	101
+𠠀	zhu ke qi dao	101
 𠠁	ri yao yao qo dao	101
 𠠁	ri yao yao dao	101
 𠠂	je le ke co min dao	101
@@ -44904,7 +44916,7 @@ use_preset_vocabulary: false
 𠯨	ba co fo	101
 𠯩	fo na je	101
 𠯪	fo dai	101
-𠯫	fo yao gi	101
+𠯫	fo ke qi	101
 𠯬	fo zu	101
 𠯭	fo ri	101
 𠯮	fo ri	101
@@ -45096,7 +45108,7 @@ use_preset_vocabulary: false
 𠲋	fo ke nei pa	101
 𠲌	fo chang gi qi	101
 𠲍	fo he tu yao	101
-𠲎	fo li yao gi	101
+𠲎	fo li ke qi	101
 𠲏	fo li he zo	101
 𠲐	fo gua xue je	101
 𠲑	dao na fo le	101
@@ -45165,8 +45177,8 @@ use_preset_vocabulary: false
 𠳄	xia ren ren ke fo	101
 𠳄	xia ren ren fo	101
 𠳅	he dao pa fo	101
-𠳆	he shi yao gi fo	101
-𠳆	he shi yao fo	101
+𠳆	he shi ke qi fo	101
+𠳆	he shi ke fo	101
 𠳇	fo gua xia fo	101
 𠳈	fo yi quan fo	101
 𠳉	fo shao ri ke	101
@@ -45350,8 +45362,8 @@ use_preset_vocabulary: false
 𠵔	fo dao ke huo ke	101
 𠵔	fo dao ke ke	101
 𠵕	fo tu ba tu	101
-𠵖	fo yao gi yao gi	101
-𠵖	fo yao gi gi	101
+𠵖	fo ke qi ke qi	101
+𠵖	fo ke qi qi	101
 𠵗	fo ke je shang ke so	101
 𠵗	fo ke je so	101
 𠵘	fo er er	101
@@ -45481,8 +45493,8 @@ use_preset_vocabulary: false
 𠶴	fo er wo ro	101
 𠶵	fo shao he er ke ba	101
 𠶵	fo shao he ba	101
-𠶶	gi go fo yao gi	101
-𠶶	gi go fo gi	101
+𠶶	gi go fo ke qi	101
+𠶶	gi go fo qi	101
 𠶷	liu ke fo me fo	101
 𠶷	liu ke fo fo	101
 𠶸	fo gu dan	101
@@ -45548,8 +45560,8 @@ use_preset_vocabulary: false
 𠷞	liu dao dan gi shi fo	101
 𠷞	liu dao dan fo	101
 𠷟	fo tian ren qiao	101
-𠷠	dai fo yao gi fo	101
-𠷠	dai fo yao fo	101
+𠷠	dai fo ke qi fo	101
+𠷠	dai fo ke fo	101
 𠷡	dai ri jin fo	101
 𠷢	fo zhu ke ma er me	101
 𠷢	fo zhu ke me	101
@@ -45558,8 +45570,8 @@ use_preset_vocabulary: false
 𠷥	fo wo bao ke me	101
 𠷥	fo wo bao me	101
 𠷦	fo mian le he	101
-𠷧	fo yao gi ke huo	101
-𠷧	fo yao gi huo	101
+𠷧	fo ke qi ke huo	101
+𠷧	fo ke qi huo	101
 𠷨	fo gi go nei cao	101
 𠷨	fo gi go cao	101
 𠷩	fo dao wang xo	101
@@ -45671,8 +45683,8 @@ use_preset_vocabulary: false
 𠸲	ke yao yao fo	101
 𠸳	fo er ke nei je	101
 𠸳	fo er ke je	101
-𠸴	fo yao gi xia ke ba	101
-𠸴	fo yao gi ba	101
+𠸴	fo ke qi xia ke ba	101
+𠸴	fo ke qi ba	101
 𠸵	fo mu ke san	101
 𠸶	fo fo quan wo je	101
 𠸶	fo fo quan je	101
@@ -45870,8 +45882,8 @@ use_preset_vocabulary: false
 𠺳	fo quan je gi bi ri	101
 𠺳	fo quan je ri	101
 𠺴	fo cao wen fo	101
-𠺵	fo ke han yao gi	101
-𠺵	fo ke han gi	101
+𠺵	fo ke han ke qi	101
+𠺵	fo ke han qi	101
 𠺶	fo yao san nei	101
 𠺷	fo ja gi xiong	101
 𠺸	fo ka xue bao vo	101
@@ -45909,8 +45921,8 @@ use_preset_vocabulary: false
 𠻍	fo jiao jiu vo	101
 𠻎	fo wo yi ke han	101
 𠻎	fo wo yi han	101
-𠻏	fo shi yao gi huo	101
-𠻏	fo shi yao huo	101
+𠻏	fo shi ke qi huo	101
+𠻏	fo shi ke huo	101
 𠻐	fo wang wen fo	101
 𠻑	fo yi quan ro er	101
 𠻑	fo yi quan er	101
@@ -46115,8 +46127,8 @@ use_preset_vocabulary: false
 𠽆	fo wo nei	101
 𠽇	fo ka he ri xia ke	101
 𠽇	fo ka he ke	101
-𠽈	fo ka yao gi yao gi	101
-𠽈	fo ka yao gi	101
+𠽈	fo ka ke qi ke qi	101
+𠽈	fo ka ke qi	101
 𠽉	fo ka bao ba pa	101
 𠽉	fo ka bao pa	101
 𠽊	fo zhu je le wo gi wen	101
@@ -46165,8 +46177,8 @@ use_preset_vocabulary: false
 𠽢	fo shi ke cun	101
 𠽣	fo go he shi jiu	101
 𠽣	fo go he jiu	101
-𠽤	fo shi zao yao gi	101
-𠽤	fo shi zao gi	101
+𠽤	fo shi zao ke qi	101
+𠽤	fo shi zao qi	101
 𠽥	fo xi tu tu	101
 𠽦	fo ka chang fo qi	101
 𠽦	fo ka chang qi	101
@@ -46861,8 +46873,8 @@ use_preset_vocabulary: false
 𡃡	liu ke qing fo	101
 𡃢	fo ji qi so ri ke	101
 𡃢	fo ji qi ke	101
-𡃣	fo fo tian ke fo yao gi	101
-𡃣	fo fo tian gi	101
+𡃣	fo fo tian ke fo ke qi	101
+𡃣	fo fo tian qi	101
 𡃤	fo ke fo pa jiao mu ba	101
 𡃤	fo ke fo ba	101
 𡃥	fo wo ri cao gan	101
@@ -46887,8 +46899,8 @@ use_preset_vocabulary: false
 𡃮	fo dao ke ri	101
 𡃯	guang xue me fo ri ke shao er	101
 𡃯	guang xue me er	101
-𡃰	fo hu huo ke yao gi	101
-𡃰	fo hu huo gi	101
+𡃰	fo hu huo ke ke qi	101
+𡃰	fo hu huo qi	101
 𡃱	fo mu ke co zhi	101
 𡃱	fo mu ke zhi	101
 𡃲	fo ren ji zhao xo	101
@@ -46904,8 +46916,8 @@ use_preset_vocabulary: false
 𡃷	fo fo yu tian	101
 𡃸	fo ma bi niao qo	101
 𡃸	fo ma bi qo	101
-𡃹	fo fo fo ri shi yao gi	101
-𡃹	fo fo fo gi	101
+𡃹	fo fo fo ri shi ke qi	101
+𡃹	fo fo fo qi	101
 𡃺	fo tu tu tu ke so zhi	101
 𡃺	fo tu tu zhi	101
 𡃻	fo cao le gi er gi ke fo dao ke	101
@@ -47396,8 +47408,8 @@ use_preset_vocabulary: false
 𡈏	nei ke qi pa	101
 𡈐	nei ke cao jin fo	101
 𡈐	nei ke cao fo	101
-𡈑	nei ke ya yao gi	101
-𡈑	nei ke ya gi	101
+𡈑	nei ke ya ke qi	101
+𡈑	nei ke ya qi	101
 𡈒	nei ke dai bi la	101
 𡈒	nei ke dai la	101
 𡈓	nei ke zhen	101
@@ -47782,8 +47794,8 @@ use_preset_vocabulary: false
 𡍉	tu wen tian	101
 𡍊	tu yao cao tu	101
 𡍋	tu da shi nong	101
-𡍌	tu yao gi yao gi	101
-𡍌	tu yao gi gi	101
+𡍌	tu ke qi ke qi	101
+𡍌	tu ke qi qi	101
 𡍍	tu ma ma	101
 𡍎	tu hu zao	101
 𡍏	hu nei er gi ke tu	101
@@ -48224,7 +48236,7 @@ use_preset_vocabulary: false
 𡑞	tu dao ke co zhi	101
 𡑞	tu dao ke zhi	101
 𡑟	tu gu fo zhi	101
-𡑠	liu ke ri yao gi tu	101
+𡑠	liu ke ri ke qi tu	101
 𡑠	liu ke ri tu	101
 𡑡	tu mu ke fo he je dian	101
 𡑡	tu mu ke dian	101
@@ -48400,8 +48412,8 @@ use_preset_vocabulary: false
 𡒼	tu fo nei tu	101
 𡒽	tu nei tu nei tu nei tu	101
 𡒽	tu nei tu tu	101
-𡒾	tu hu qiu yao gi	101
-𡒾	tu hu qiu gi	101
+𡒾	tu hu qiu ke qi	101
+𡒾	tu hu qiu qi	101
 𡒿	he nei le gong ke co tu	101
 𡒿	he nei le tu	101
 𡓀	tu cai mu je dai me ke me le	101
@@ -48473,8 +48485,8 @@ use_preset_vocabulary: false
 𡓣	tu wo hui shi	101
 𡓤	tu jiu ren mu ba	101
 𡓤	tu jiu ren ba	101
-𡓥	tu fo fo ri shi yao gi	101
-𡓥	tu fo fo gi	101
+𡓥	tu fo fo ri shi ke qi	101
+𡓥	tu fo fo qi	101
 𡓦	tu jiao fo bi bi tu	101
 𡓦	tu jiao fo tu	101
 𡓧	huo cao ri nei tu	101
@@ -49121,8 +49133,8 @@ use_preset_vocabulary: false
 𡚂	shao da dao shuai	101
 𡚃	jin ke nei je da	101
 𡚃	jin ke nei da	101
-𡚄	da hu zao yao gi	101
-𡚄	da hu zao gi	101
+𡚄	da hu zao ke qi	101
+𡚄	da hu zao qi	101
 𡚅	ren ren ren ren ren ren da	101
 𡚅	ren ren ren da	101
 𡚆	he ren ren ren ren tu le da	101
@@ -49227,7 +49239,7 @@ use_preset_vocabulary: false
 𡛌	ke da xo	101
 𡛍	er yao xo	101
 𡛎	ke ha xo	101
-𡛏	xo yao gi	101
+𡛏	xo ke qi	101
 𡛐	xo ren shao	101
 𡛑	ba co xo	101
 𡛒	vo vo xo	101
@@ -49483,7 +49495,7 @@ use_preset_vocabulary: false
 𡞦	xo shao ri na	101
 𡞧	xo yi nei ba wen	101
 𡞧	xo yi nei wen	101
-𡞨	xo yao gi jia	101
+𡞨	xo ke qi jia	101
 𡞩	yao mu ba xo	101
 𡞪	xo zhu ri wen	101
 𡞫	xo pa er xiao	101
@@ -50027,8 +50039,8 @@ use_preset_vocabulary: false
 𡣭	xo hu tian la	101
 𡣮	xo cao jiao er le gi er xiao	101
 𡣮	xo cao jiao xiao	101
-𡣯	xo xiao li wo yao gi	101
-𡣯	xo xiao li gi	101
+𡣯	xo xiao li wo ke qi	101
+𡣯	xo xiao li qi	101
 𡣰	xo ke ren ren pa ke hui	101
 𡣰	xo ke ren hui	101
 𡣱	xo mu tu fo he je dian	101
@@ -50037,8 +50049,8 @@ use_preset_vocabulary: false
 𡣲	xo bao da xiao	101
 𡣳	xo tu fei ke qi	101
 𡣳	xo tu fei qi	101
-𡣴	xo yao gi niao qo	101
-𡣴	xo yao gi qo	101
+𡣴	xo ke qi niao qo	101
+𡣴	xo ke qi qo	101
 𡣵	xo ya zhu yao xiao	101
 𡣵	xo ya zhu xiao	101
 𡣶	xo fu fu mu ba	101
@@ -50144,8 +50156,8 @@ use_preset_vocabulary: false
 𡤨	wo yao san xo	101
 𡤩	xo qu ke fo dao ke jiao mei je	101
 𡤩	xo qu ke je	101
-𡤪	xo zhu yao gi fei ke	101
-𡤪	xo zhu yao ke	101
+𡤪	xo zhu ke qi fei ke	101
+𡤪	xo zhu ke ke	101
 𡤫	ma ren ren ke ren ren nei ke fo me xo	101
 𡤫	ma ren ren xo	101
 𡤬	xo mu mu li wo vo	101
@@ -50458,7 +50470,7 @@ use_preset_vocabulary: false
 𡧼	bao ba ri	101
 𡧽	bao wo je huang	101
 𡧾	bao le min	101
-𡧿	bao nai yao gi	101
+𡧿	bao nai ke qi	101
 𡨀	bao jin pa	101
 𡨁	bao tu huo	101
 𡨂	bao xia le ke fo	101
@@ -51974,8 +51986,8 @@ use_preset_vocabulary: false
 𡸘	ha ke han vo	101
 𡸙	ha nei he pa ke	101
 𡸙	ha nei he ke	101
-𡸚	ha yao gi yao gi	101
-𡸚	ha yao gi gi	101
+𡸚	ha ke qi ke qi	101
+𡸚	ha ke qi qi	101
 𡸛	ha ren le bo	101
 𡸜	ha shi nei san	101
 𡸝	ha wo he je dian shi	101
@@ -51986,8 +51998,8 @@ use_preset_vocabulary: false
 𡸡	chang fo fo ha	101
 𡸢	ha jiu so	101
 𡸣	ha jiu so	101
-𡸤	ha shu dai yao gi	101
-𡸤	ha shu dai gi	101
+𡸤	ha shu dai ke qi	101
+𡸤	ha shu dai qi	101
 𡸥	ha bao jiao gi le je	101
 𡸥	ha bao jiao je	101
 𡸦	ha ri je da	101
@@ -52357,8 +52369,8 @@ use_preset_vocabulary: false
 𡼙	ha shang ren je	101
 𡼚	fo fo ha fo fo	101
 𡼚	fo fo ha fo	101
-𡼛	ha dai nei er bao yao gi	101
-𡼛	ha dai nei gi	101
+𡼛	ha dai nei er bao ke qi	101
+𡼛	ha dai nei qi	101
 𡼜	ha wang yue yue	101
 𡼝	ha shi cao mu ba	101
 𡼝	ha shi cao ba	101
@@ -52538,8 +52550,8 @@ use_preset_vocabulary: false
 𡾁	ha ka le zhi	101
 𡾂	ha dai qing bao ma pu	101
 𡾂	ha dai qing pu	101
-𡾃	ha xiao li wo yao gi	101
-𡾃	ha xiao li gi	101
+𡾃	ha xiao li wo ke qi	101
+𡾃	ha xiao li qi	101
 𡾄	ha ri fo me xo wen	101
 𡾄	ha ri fo wen	101
 𡾅	ha hu tian la	101
@@ -52588,10 +52600,10 @@ use_preset_vocabulary: false
 𡾝	ha wo mu dian	101
 𡾞	ha dao wang he pa ke je qi	101
 𡾞	ha dao wang qi	101
-𡾟	ha hu cao ke yao gi	101
-𡾟	ha hu cao gi	101
-𡾠	ha hu huo ke yao gi	101
-𡾠	ha hu huo gi	101
+𡾟	ha hu cao ke ke qi	101
+𡾟	ha hu cao qi	101
+𡾠	ha hu huo ke ke qi	101
+𡾠	ha hu huo qi	101
 𡾡	ha shang ke so shang ke so ri	101
 𡾡	ha shang ke ri	101
 𡾢	ha bao san me mu la	101
@@ -52757,8 +52769,8 @@ use_preset_vocabulary: false
 𡿼	san mu shi	101
 𡿽	san ma san	101
 𡿾	san li wo	101
-𡿿	yao gi fo ke san	101
-𡿿	yao gi fo san	101
+𡿿	ke qi fo ke san	101
+𡿿	ke qi fo san	101
 𢀀	san jiu jiu je	101
 𢀁	san fan quan vo gi	101
 𢀁	san fan quan gi	101
@@ -53111,8 +53123,8 @@ use_preset_vocabulary: false
 𢄃	ro ka gua dian	101
 𢄄	ha ke ro nei san	101
 𢄄	ha ke ro san	101
-𢄅	ro yao gi ke huo	101
-𢄅	ro yao gi huo	101
+𢄅	ro ke qi ke huo	101
+𢄅	ro ke qi huo	101
 𢄆	nei he nei me bao ro	101
 𢄆	nei he nei ro	101
 𢄇	he ri ro shao yao	101
@@ -53245,8 +53257,8 @@ use_preset_vocabulary: false
 𢅑	ro jiao xue qo	101
 𢅒	ro wo hui ri ke	101
 𢅒	ro wo hui ke	101
-𢅓	cao mu yao gi ro	101
-𢅓	cao mu yao ro	101
+𢅓	cao mu ke qi ro	101
+𢅓	cao mu ke ro	101
 𢅔	ro cao shi quan ri gi	101
 𢅔	ro cao shi gi	101
 𢅕	ro dao ke co zhi	101
@@ -53579,8 +53591,8 @@ use_preset_vocabulary: false
 𢈻	guang ke xue zu	101
 𢈼	guang wo ren ren shi	101
 𢈼	guang wo ren shi	101
-𢈽	guang yao gi yao gi	101
-𢈽	guang yao gi gi	101
+𢈽	guang ke qi ke qi	101
+𢈽	guang ke qi qi	101
 𢈾	guang ke han vo	101
 𢈿	guang ke fo ke qi	101
 𢈿	guang ke fo qi	101
@@ -53890,8 +53902,8 @@ use_preset_vocabulary: false
 𢋺	guang gong er vo	101
 𢋻	guang jin fo fo ren ren wen	101
 𢋻	guang jin fo wen	101
-𢋼	guang hu ke fo dao ke yao gi	101
-𢋼	guang hu ke gi	101
+𢋼	guang hu ke fo dao ke ke qi	101
+𢋼	guang hu ke qi	101
 𢋽	guang hu tian jiao gi er	101
 𢋽	guang hu tian er	101
 𢋾	guang tu ren ren ren ren hui	101
@@ -53981,7 +53993,7 @@ use_preset_vocabulary: false
 𢌲	ha nong	101
 𢌳	jiao er nong	101
 𢌴	si si nong	101
-𢌵	yao gi nong	101
+𢌵	ke qi nong	101
 𢌶	pa nong	101
 𢌷	nei nong	101
 𢌸	liu nong	101
@@ -54156,7 +54168,7 @@ use_preset_vocabulary: false
 𢎬	gong ba gi	101
 𢎭	gong ro	101
 𢎮	gong ren ke	101
-𢎯	yao gong	101
+𢎯	ke qi gong	101
 𢎰	gong er je	101
 𢎱	gong me me he	101
 𢎲	gong ba ke	101
@@ -54414,8 +54426,8 @@ use_preset_vocabulary: false
 𢑝	xue xue bao so	101
 𢑞	je le ke ba ke jiao ro	101
 𢑞	je le ke ro	101
-𢑟	xue bao li yao gi	101
-𢑟	xue bao li gi	101
+𢑟	xue bao li ke qi	101
+𢑟	xue bao li qi	101
 𢑠	xue xue zhu dan je	101
 𢑠	xue xue zhu je	101
 𢑡	je le ke chang co	101
@@ -54720,8 +54732,8 @@ use_preset_vocabulary: false
 𢔷	do shao he nei me wang	101
 𢔷	do shao he wang	101
 𢔸	do li	101
-𢔹	do yao gi fo ha	101
-𢔹	do yao gi ha	101
+𢔹	do ke qi fo ha	101
+𢔹	do ke qi ha	101
 𢔺	do shao he ha wang	101
 𢔺	do shao he wang	101
 𢔻	do bao ke co	101
@@ -54734,8 +54746,8 @@ use_preset_vocabulary: false
 𢕀	do gua shi san	101
 𢕁	do er me wang nong	101
 𢕁	do er me nong	101
-𢕂	do yao gi fo tu	101
-𢕂	do yao gi tu	101
+𢕂	do ke qi fo tu	101
+𢕂	do ke qi tu	101
 𢕃	do fo je ke han	101
 𢕃	do fo je han	101
 𢕄	do ha ke yao wen	101
@@ -54839,8 +54851,8 @@ use_preset_vocabulary: false
 𢕻	do jiao chang wo	101
 𢕼	do mu ke fo he je dian	101
 𢕼	do mu ke dian	101
-𢕽	do he ri nei ren yao gi	101
-𢕽	do he ri gi	101
+𢕽	do he ri nei ren ke qi	101
+𢕽	do he ri qi	101
 𢕾	do er xin	101
 𢕿	do tu yao ri wen	101
 𢕿	do tu yao wen	101
@@ -55102,7 +55114,8 @@ use_preset_vocabulary: false
 𢙐	shu bao he je dian	101
 𢙐	shu bao he dian	101
 𢙑	shu le er da	101
-𢙒	shu yao ke so	101
+𢙒	shu ke qi ke so	101
+𢙒	shu ke qi so	101
 𢙓	shu ren er yao	101
 𢙔	shu ja gi je	101
 𢙕	shu wo huo	101
@@ -55398,8 +55411,8 @@ use_preset_vocabulary: false
 𢜼	shu yao gong pa	101
 𢜽	shu le gi er gi ke da	101
 𢜽	shu le gi da	101
-𢜾	shu yao gi xia ke ba	101
-𢜾	shu yao gi ba	101
+𢜾	shu ke qi xia ke ba	101
+𢜾	shu ke qi ba	101
 𢜿	shu bao ke co	101
 𢝀	shu bao ba quan	101
 𢝁	shu shao wo	101
@@ -55627,8 +55640,8 @@ use_preset_vocabulary: false
 𢟖	shu ka xue bao vo	101
 𢟖	shu ka xue vo	101
 𢟗	shu ka ri tu	101
-𢟘	shu ke han yao gi	101
-𢟘	shu ke han gi	101
+𢟘	shu ke han ke qi	101
+𢟘	shu ke han qi	101
 𢟙	shu jin shi	101
 𢟚	shu wo qing	101
 𢟛	ke han la gong me	101
@@ -55638,8 +55651,8 @@ use_preset_vocabulary: false
 𢟝	shu gua xue shu	101
 𢟞	shu dian ke ri pa	101
 𢟞	shu dian ke pa	101
-𢟟	shu dai ri yao gi	101
-𢟟	shu dai ri gi	101
+𢟟	shu dai ri ke qi	101
+𢟟	shu dai ri qi	101
 𢟠	shu da li wo	101
 𢟡	shu cao shao nei na	101
 𢟡	shu cao shao na	101
@@ -56201,8 +56214,8 @@ use_preset_vocabulary: false
 𢤘	cao er er la	101
 𢤙	ke zao fo fo vo la	101
 𢤙	ke zao fo la	101
-𢤚	shu yao yao jia shang yao gi	101
-𢤚	shu yao yao gi	101
+𢤚	shu yao yao jia shang ke qi	101
+𢤚	shu yao yao qi	101
 𢤛	shu mu yao qing bi bi	101
 𢤛	shu mu yao bi	101
 𢤜	shu dao xi er da er	101
@@ -56289,8 +56302,8 @@ use_preset_vocabulary: false
 𢥅	shu jin he ro	101
 𢥆	shu zhu liu ke ri je	101
 𢥆	shu zhu liu je	101
-𢥇	shu fo fo ri shi yao gi	101
-𢥇	shu fo fo gi	101
+𢥇	shu fo fo ri shi ke qi	101
+𢥇	shu fo fo qi	101
 𢥈	shu hu tian min	101
 𢥉	shu cao ka ri ke shao er	101
 𢥉	shu cao ka er	101
@@ -56423,260 +56436,260 @@ use_preset_vocabulary: false
 𢦊	cao san ba la	101
 𢦋	wang he ri wo yao san yao san la	101
 𢦋	wang he ri la	101
-𢦌	ke yao gi	101
-𢦍	yao he he gi	101
-𢦎	he le yao gi	101
-𢦏	shi yao gi	101
-𢦐	gong yao gi	101
-𢦑	yao he he gi	101
-𢦒	na yao gi	101
+𢦌	ke ke qi	101
+𢦍	ke je san gi	101
+𢦎	he le ke qi	101
+𢦏	shi ke qi	101
+𢦐	gong ke qi	101
+𢦑	ke je san gi	101
+𢦒	na ke qi	101
 𢦓	chang qi co	101
-𢦔	shi he yao gi	101
-𢦕	yao gi he to	101
-𢦖	shao he yao gi	101
-𢦗	yao gi wan	101
-𢦘	yao gi gong ke	101
-𢦙	yao gi yao	101
-𢦚	yao gi le na	101
-𢦛	shi yao gi quan	101
-𢦜	ren ren yao gi	101
-𢦝	co co yao gi	101
-𢦞	yao gi gua me gi	101
-𢦞	yao gi gua gi	101
-𢦟	yao gi ren le	101
-𢦠	yao gi shao er	101
+𢦔	shi he ke qi	101
+𢦕	ke qi he to	101
+𢦖	shao he ke qi	101
+𢦗	ke qi wan	101
+𢦘	ke qi gong ke	101
+𢦙	ke qi yao	101
+𢦚	ke qi le na	101
+𢦛	shi ke qi quan	101
+𢦜	ren ren ke qi	101
+𢦝	co co ke qi	101
+𢦞	ke qi gua me gi	101
+𢦞	ke qi gua gi	101
+𢦟	ke qi ren le	101
+𢦠	ke qi shao er	101
 𢦡	chang qi gan	101
-𢦢	me he he le yao gi	101
-𢦢	me he he gi	101
-𢦣	yao gi ri	101
-𢦤	he shang le yao gi	101
-𢦤	he shang le gi	101
-𢦥	yao gi liu	101
-𢦦	yao gi jia	101
-𢦧	le gi cai yao gi	101
-𢦧	le gi cai gi	101
-𢦨	yao gi nei na	101
+𢦢	me he he le ke qi	101
+𢦢	me he he qi	101
+𢦣	ke qi ri	101
+𢦤	he shang le ke qi	101
+𢦤	he shang le qi	101
+𢦥	ke qi liu	101
+𢦦	ke qi jia	101
+𢦧	le gi cai ke qi	101
+𢦧	le gi cai qi	101
+𢦨	ke qi nei na	101
 𢦩	chang qi zhu shi	101
-𢦪	ke fo me yao gi	101
-𢦪	ke fo me gi	101
-𢦫	ke san yao gi	101
-𢦬	yao gi dian me vo	101
-𢦬	yao gi dian vo	101
-𢦭	yao gi wa	101
-𢦮	shi fo yao gi	101
-𢦯	yao fo yao gi	101
-𢦰	ke yao gi ma	101
-𢦱	ke yao gi ri	101
+𢦪	ke fo me ke qi	101
+𢦪	ke fo me qi	101
+𢦫	ke san ke qi	101
+𢦬	ke qi dian me vo	101
+𢦬	ke qi dian vo	101
+𢦭	ke qi wa	101
+𢦮	shi fo ke qi	101
+𢦯	yao fo ke qi	101
+𢦰	ke ke qi ma	101
+𢦱	ke ke qi ri	101
 𢦲	chang qi gua xia	101
-𢦳	ren xue yao gi	101
-𢦴	yao gi wo tu	101
-𢦵	yao gi le gi cai	101
-𢦵	yao gi le cai	101
-𢦶	yao gi xia ke ba	101
-𢦶	yao gi xia ba	101
-𢦷	shi yao gi fang	101
-𢦸	fo fo yao gi	101
+𢦳	ren xue ke qi	101
+𢦴	ke qi wo tu	101
+𢦵	ke qi le gi cai	101
+𢦵	ke qi le cai	101
+𢦶	ke qi xia ke ba	101
+𢦶	ke qi xia ba	101
+𢦷	shi ke qi fang	101
+𢦸	fo fo ke qi	101
 𢦹	chang qi ke me shuai	101
 𢦹	chang qi ke shuai	101
-𢦺	ren ren er yao gi	101
-𢦺	ren ren er gi	101
-𢦻	yao gi le nei nei he	101
-𢦻	yao gi le he	101
-𢦼	shi yao gi gua me gi	101
-𢦼	shi yao gi gi	101
+𢦺	ren ren er ke qi	101
+𢦺	ren ren er qi	101
+𢦻	ke qi le nei nei he	101
+𢦻	ke qi le he	101
+𢦼	shi ke qi gua me gi	101
+𢦼	shi ke qi gi	101
 𢦽	chang qi co fo	101
-𢦾	yao gi yao tu	101
-𢦿	chang er je dian yao gi	101
-𢦿	chang er je gi	101
-𢧀	ri gan yao gi	101
-𢧁	ma me he he yao gi	101
-𢧁	ma me he gi	101
-𢧂	liu yao gi fo	101
-𢧃	xue he fo yao gi	101
-𢧃	xue he fo gi	101
-𢧄	fo wang yao gi	101
-𢧅	jin pa yao gi	101
-𢧆	yao gi ren le fo	101
-𢧆	yao gi ren fo	101
-𢧇	shi yao gi ba wen	101
-𢧇	shi yao gi wen	101
-𢧈	dai co gi dian yao gi	101
-𢧈	dai co gi gi	101
-𢧉	gong ri yao gi	101
-𢧊	gi go pa yao gi	101
-𢧊	gi go pa gi	101
+𢦾	ke qi yao tu	101
+𢦿	chang er je dian ke qi	101
+𢦿	chang er je qi	101
+𢧀	ri gan ke qi	101
+𢧁	ma me he he ke qi	101
+𢧁	ma me he qi	101
+𢧂	liu ke qi fo	101
+𢧃	xue he fo ke qi	101
+𢧃	xue he fo qi	101
+𢧄	fo wang ke qi	101
+𢧅	jin pa ke qi	101
+𢧆	ke qi ren le fo	101
+𢧆	ke qi ren fo	101
+𢧇	shi ke qi ba wen	101
+𢧇	shi ke qi wen	101
+𢧈	dai co gi dian ke qi	101
+𢧈	dai co gi qi	101
+𢧉	gong ri ke qi	101
+𢧊	gi go pa ke qi	101
+𢧊	gi go pa qi	101
 𢧋	ke fo ke qi ri	101
 𢧋	ke fo ke ri	101
-𢧌	yao gi fo ke he tu	101
-𢧌	yao gi fo tu	101
-𢧍	shang er xiao yao gi	101
-𢧍	shang er xiao gi	101
-𢧎	xia ke han yao gi	101
-𢧎	xia ke han gi	101
-𢧏	ke da me san yao gi	101
-𢧏	ke da me gi	101
-𢧐	dao ri shi yao gi	101
-𢧐	dao ri shi gi	101
-𢧑	shi yao gi fo tu	101
-𢧑	shi yao gi tu	101
+𢧌	ke qi fo ke he tu	101
+𢧌	ke qi fo tu	101
+𢧍	shang er xiao ke qi	101
+𢧍	shang er xiao qi	101
+𢧎	xia ke han ke qi	101
+𢧎	xia ke han qi	101
+𢧏	ke da me san ke qi	101
+𢧏	ke da me qi	101
+𢧐	dao ri shi ke qi	101
+𢧐	dao ri shi qi	101
+𢧑	shi ke qi fo tu	101
+𢧑	shi ke qi tu	101
 𢧒	chang qi ren le fo	101
 𢧒	chang qi ren fo	101
 𢧓	chang qi chang le qi	101
 𢧓	chang qi chang qi	101
-𢧔	yao gi san ren ri	101
-𢧔	yao gi san ri	101
-𢧕	gua shi mu yao gi	101
-𢧕	gua shi mu gi	101
-𢧖	ke me dai mu yao gi	101
-𢧖	ke me dai gi	101
-𢧗	hu fo yao gi yao gi	101
-𢧗	hu fo yao gi	101
-𢧘	gu fo yao gi	101
-𢧙	le gi nei na le he yao gi	101
-𢧙	le gi nei gi	101
+𢧔	ke qi san ren ri	101
+𢧔	ke qi san ri	101
+𢧕	gua shi mu ke qi	101
+𢧕	gua shi mu qi	101
+𢧖	ke me dai mu ke qi	101
+𢧖	ke me dai qi	101
+𢧗	hu fo ke qi ke qi	101
+𢧗	hu fo ke qi	101
+𢧘	gu fo ke qi	101
+𢧙	le gi nei na le he ke qi	101
+𢧙	le gi nei qi	101
 𢧚	nian chang le qi	101
-𢧛	hu ri xo yao gi	101
-𢧛	hu ri xo gi	101
-𢧜	shi yao gi fo wang	101
-𢧜	shi yao gi wang	101
-𢧝	hu le he er yao gi	101
-𢧝	hu le he gi	101
-𢧞	yao gi dian me he yue	101
-𢧞	yao gi dian yue	101
-𢧟	yao gi gong me chang gi er	101
-𢧟	yao gi gong er	101
-𢧠	ri me yao gi qing	101
-𢧠	ri me yao qing	101
+𢧛	hu ri xo ke qi	101
+𢧛	hu ri xo qi	101
+𢧜	shi ke qi fo wang	101
+𢧜	shi ke qi wang	101
+𢧝	hu le he er ke qi	101
+𢧝	hu le he qi	101
+𢧞	ke qi dian me he yue	101
+𢧞	ke qi dian yue	101
+𢧟	ke qi gong me chang gi er	101
+𢧟	ke qi gong er	101
+𢧠	ri me ke qi qing	101
+𢧠	ri me ke qing	101
 𢧡	shang er xiao chang qi	101
 𢧡	shang er xiao qi	101
-𢧢	shi zao ren yao gi	101
-𢧢	shi zao ren gi	101
-𢧣	zo bao ke pa yao gi	101
-𢧣	zo bao ke gi	101
-𢧤	da yao gi fo wang	101
-𢧤	da yao gi wang	101
-𢧥	dao ke xue huo yao gi	101
-𢧥	dao ke xue gi	101
+𢧢	shi zao ren ke qi	101
+𢧢	shi zao ren qi	101
+𢧣	zo bao ke pa ke qi	101
+𢧣	zo bao ke qi	101
+𢧤	da ke qi fo wang	101
+𢧤	da ke qi wang	101
+𢧥	dao ke xue huo ke qi	101
+𢧥	dao ke xue qi	101
 𢧦	chang qi xi xo	101
 𢧧	ke fo pa ke nong qi	101
 𢧧	ke fo pa qi	101
-𢧨	shi yao gi san ren ri	101
-𢧨	shi yao gi ri	101
-𢧩	yao gi bei je yao	101
-𢧩	yao gi bei yao	101
-𢧪	guang xue me fo yao gi	101
-𢧪	guang xue me gi	101
-𢧫	ri ke huo ke yao gi	101
-𢧫	ri ke huo gi	101
-𢧬	na yao gi ha ri	101
-𢧬	na yao gi ri	101
-𢧭	shi yao gi ke nei je ri	101
-𢧭	shi yao gi ri	101
-𢧮	mu mu yao gi	101
+𢧨	shi ke qi san ren ri	101
+𢧨	shi ke qi ri	101
+𢧩	ke qi bei je yao	101
+𢧩	ke qi bei yao	101
+𢧪	guang xue me fo ke qi	101
+𢧪	guang xue me qi	101
+𢧫	ri ke huo ke ke qi	101
+𢧫	ri ke huo qi	101
+𢧬	na ke qi ha ri	101
+𢧬	na ke qi ri	101
+𢧭	shi ke qi ke nei je ri	101
+𢧭	shi ke qi ri	101
+𢧮	mu mu ke qi	101
 𢧯	chang qi ke san ke la	101
 𢧯	chang qi ke la	101
-𢧰	bao ke zao je yao gi	101
-𢧰	bao ke zao gi	101
-𢧱	vo vo vo pa yao gi	101
-𢧱	vo vo vo gi	101
+𢧰	bao ke zao je ke qi	101
+𢧰	bao ke zao qi	101
+𢧱	vo vo vo pa ke qi	101
+𢧱	vo vo vo qi	101
 𢧲	he na qi ma bi er	101
 𢧲	he na qi er	101
-𢧳	guang xue qing me yao gi	101
-𢧳	guang xue qing gi	101
-𢧴	ao wen yao gi	101
-𢧵	xiao li wo yao gi	101
-𢧵	xiao li wo gi	101
-𢧶	hu he dao na yao gi	101
-𢧶	hu he dao gi	101
-𢧷	nei ke fo ke qi ke yao gi	101
-𢧷	nei ke fo gi	101
-𢧸	na yao gi ke nei je ri	101
-𢧸	na yao gi ri	101
-𢧹	hu me yao gi me he he pa	101
-𢧹	hu me yao pa	101
-𢧺	zo bao ke he pa yao gi	101
-𢧺	zo bao ke gi	101
-𢧻	ke me dai qing ke bao yao gi	101
-𢧻	ke me dai gi	101
-𢧼	hu me yao gi bao er xiao	101
-𢧼	hu me yao xiao	101
-𢧽	hu nei yi qo ke yao gi	101
-𢧽	hu nei yi gi	101
-𢧾	ha ri huo yao gi	101
-𢧾	ha ri huo gi	101
+𢧳	guang xue qing me ke qi	101
+𢧳	guang xue qing qi	101
+𢧴	ao wen ke qi	101
+𢧵	xiao li wo ke qi	101
+𢧵	xiao li wo qi	101
+𢧶	hu he dao na ke qi	101
+𢧶	hu he dao qi	101
+𢧷	nei ke fo ke qi ke ke qi	101
+𢧷	nei ke fo qi	101
+𢧸	na ke qi ke nei je ri	101
+𢧸	na ke qi ri	101
+𢧹	hu me ke qi me he he pa	101
+𢧹	hu me ke pa	101
+𢧺	zo bao ke he pa ke qi	101
+𢧺	zo bao ke qi	101
+𢧻	ke me dai qing ke bao ke qi	101
+𢧻	ke me dai qi	101
+𢧼	hu me ke qi bao er xiao	101
+𢧼	hu me ke xiao	101
+𢧽	hu nei yi qo ke ke qi	101
+𢧽	hu nei yi qi	101
+𢧾	ha ri huo ke qi	101
+𢧾	ha ri huo qi	101
 𢧿	chang qi ya nei he gi	101
 𢧿	chang qi ya gi	101
-𢨀	liu yao gi ri tu	101
-𢨀	liu yao gi tu	101
-𢨁	yao gi yao fei ke	101
-𢨁	yao gi yao ke	101
-𢨂	yao yao yao gi ke ma	101
-𢨂	yao yao yao ma	101
-𢨃	cao ri da yao gi	101
-𢨃	cao ri da gi	101
-𢨄	dao fu mu yao gi	101
-𢨄	dao fu mu gi	101
-𢨅	liu yao gi fo wang	101
-𢨅	liu yao gi wang	101
-𢨆	shi yao gi fei je	101
-𢨆	shi yao gi je	101
-𢨇	yao gi tian gong	101
-𢨈	ren ren ren ren ri yao gi	101
-𢨈	ren ren ren gi	101
-𢨉	dao min ri yao gi	101
-𢨉	dao min ri gi	101
+𢨀	liu ke qi ri tu	101
+𢨀	liu ke qi tu	101
+𢨁	ke qi yao fei ke	101
+𢨁	ke qi yao ke	101
+𢨂	yao yao ke qi ke ma	101
+𢨂	yao yao ke ma	101
+𢨃	cao ri da ke qi	101
+𢨃	cao ri da qi	101
+𢨄	dao fu mu ke qi	101
+𢨄	dao fu mu qi	101
+𢨅	liu ke qi fo wang	101
+𢨅	liu ke qi wang	101
+𢨆	shi ke qi fei je	101
+𢨆	shi ke qi je	101
+𢨇	ke qi tian gong	101
+𢨈	ren ren ren ren ri ke qi	101
+𢨈	ren ren ren qi	101
+𢨉	dao min ri ke qi	101
+𢨉	dao min ri qi	101
 𢨊	wo le na ke fo ke qi	101
 𢨊	wo le na qi	101
 𢨋	ke fo ke qi ke fo ke qi	101
 𢨋	ke fo ke qi	101
-𢨌	le gi cai nei ba fo yao gi	101
-𢨌	le gi cai gi	101
-𢨍	jin fo nei yi shi yao gi	101
-𢨍	jin fo nei gi	101
-𢨎	shi yao gi nei he nei he ke nei je	101
-𢨎	shi yao gi je	101
+𢨌	le gi cai nei ba fo ke qi	101
+𢨌	le gi cai qi	101
+𢨍	jin fo nei yi shi ke qi	101
+𢨍	jin fo nei qi	101
+𢨎	shi ke qi nei he nei he ke nei je	101
+𢨎	shi ke qi je	101
 𢨏	cao ke je nei na me ke je san gi	101
 𢨏	cao ke je gi	101
-𢨐	fo fo yao qing yao gi	101
-𢨐	fo fo yao gi	101
+𢨐	fo fo yao qing ke qi	101
+𢨐	fo fo yao qi	101
 𢨑	chang je dai ya qi er	101
 𢨑	chang je dai er	101
-𢨒	liu ke jia er yao gi	101
-𢨒	liu ke jia gi	101
-𢨓	jiao xue wen qo yao gi	101
-𢨓	jiao xue wen gi	101
-𢨔	jin fo fo ren ren yao gi	101
-𢨔	jin fo fo gi	101
-𢨕	jiao chang ba wo yao gi	101
-𢨕	jiao chang ba gi	101
-𢨖	gong fo li yao gi yao gi	101
-𢨖	gong fo li gi	101
-𢨗	da ma qo yao gi	101
-𢨗	da ma qo gi	101
-𢨘	hu li wo yao gi	101
-𢨘	hu li wo gi	101
-𢨙	ke huo ke ri huo yao gi	101
-𢨙	ke huo ke gi	101
-𢨚	na yao gi tian gong ba	101
-𢨚	na yao gi ba	101
-𢨛	gua hu ke fo dao ke yao gi	101
-𢨛	gua hu ke gi	101
-𢨜	yao gi xia ke fo yao fo yao	101
-𢨜	yao gi xia yao	101
-𢨝	cao jiao er le gi er xiao yao gi	101
-𢨝	cao jiao er gi	101
-𢨞	liu yao gi tian gong	101
-𢨞	liu yao gi gong	101
+𢨒	liu ke jia er ke qi	101
+𢨒	liu ke jia qi	101
+𢨓	jiao xue wen qo ke qi	101
+𢨓	jiao xue wen qi	101
+𢨔	jin fo fo ren ren ke qi	101
+𢨔	jin fo fo qi	101
+𢨕	jiao chang ba wo ke qi	101
+𢨕	jiao chang ba qi	101
+𢨖	gong fo li ke qi ke qi	101
+𢨖	gong fo li qi	101
+𢨗	da ma qo ke qi	101
+𢨗	da ma qo qi	101
+𢨘	hu li wo ke qi	101
+𢨘	hu li wo qi	101
+𢨙	ke huo ke ri huo ke qi	101
+𢨙	ke huo ke qi	101
+𢨚	na ke qi tian gong ba	101
+𢨚	na ke qi ba	101
+𢨛	gua hu ke fo dao ke ke qi	101
+𢨛	gua hu ke qi	101
+𢨜	ke qi xia ke fo yao fo yao	101
+𢨜	ke qi xia yao	101
+𢨝	cao jiao er le gi er xiao ke qi	101
+𢨝	cao jiao er qi	101
+𢨞	liu ke qi tian gong	101
+𢨞	liu ke qi gong	101
 𢨟	hu nei ke wen fo chang fo qi	101
 𢨟	hu nei ke qi	101
-𢨠	zhu wo nei fo yao gi	101
-𢨠	zhu wo nei gi	101
-𢨡	he pa fo yao fo yao yao gi	101
-𢨡	he pa fo gi	101
-𢨢	na yao gi nei he nei me ke nei je ri	101
-𢨢	na yao gi ri	101
-𢨣	shi yao gi fo yao fo yao fo	101
-𢨣	shi yao gi fo	101
+𢨠	zhu wo nei fo ke qi	101
+𢨠	zhu wo nei qi	101
+𢨡	he pa fo yao fo yao ke qi	101
+𢨡	he pa fo qi	101
+𢨢	na ke qi nei he nei me ke nei je ri	101
+𢨢	na ke qi ri	101
+𢨣	shi ke qi fo yao fo yao fo	101
+𢨣	shi ke qi fo	101
 𢨤	gua gong je	101
 𢨥	ke gua gong	101
 𢨦	gua gong shi	101
@@ -56985,7 +56998,7 @@ use_preset_vocabulary: false
 𢬦	na ja gi je	101
 𢬧	na nian	101
 𢬨	na ka xo	101
-𢬩	na li yao gi	101
+𢬩	na li ke qi	101
 𢬪	na wo dao shi	101
 𢬫	le me san shuai ke me	101
 𢬫	le me san me	101
@@ -57185,8 +57198,8 @@ use_preset_vocabulary: false
 𢯃	na he tu dan	101
 𢯄	gi go wen na	101
 𢯅	na tu ba tu	101
-𢯆	na yao gi yao gi	101
-𢯆	na yao gi gi	101
+𢯆	na ke qi ke qi	101
+𢯆	na ke qi qi	101
 𢯇	na fo je qing	101
 𢯈	na nei me je le wo gi	101
 𢯈	na nei me gi	101
@@ -57515,8 +57528,8 @@ use_preset_vocabulary: false
 𢲣	na liu ke je	101
 𢲤	na wo nei fo	101
 𢲥	na jin shi	101
-𢲦	na ke han yao gi	101
-𢲦	na ke han gi	101
+𢲦	na ke han ke qi	101
+𢲦	na ke han qi	101
 𢲧	na cao wo yao ren	101
 𢲧	na cao wo ren	101
 𢲨	na ka zhu je le wo gi	101
@@ -57638,8 +57651,8 @@ use_preset_vocabulary: false
 𢳲	na go ka pi	101
 𢳳	na ha jin nei cao	101
 𢳳	na ha jin cao	101
-𢳴	na ma me he he yao gi	101
-𢳴	na ma me gi	101
+𢳴	na ma me he he ke qi	101
+𢳴	na ma me qi	101
 𢳵	na hu ke zu	101
 𢳶	na jiao qo	101
 𢳷	na jiao nei ren min	101
@@ -57901,8 +57914,8 @@ use_preset_vocabulary: false
 𢶉	na yu shao si	101
 𢶊	na bao han ba si	101
 𢶊	na bao han si	101
-𢶋	na shi yao gi fo wang	101
-𢶋	na shi yao wang	101
+𢶋	na shi ke qi fo wang	101
+𢶋	na shi ke wang	101
 𢶌	na zhu ka xiao he	101
 𢶌	na zhu ka he	101
 𢶍	na ke da fei ke	101
@@ -57952,10 +57965,10 @@ use_preset_vocabulary: false
 𢶧	na liu chang huo	101
 𢶨	na dao ke qing dao huo	101
 𢶨	na dao ke huo	101
-𢶩	na san ren ri yao gi	101
-𢶩	na san ren gi	101
-𢶪	na tu ke zao yao gi	101
-𢶪	na tu ke gi	101
+𢶩	na san ren ri ke qi	101
+𢶩	na san ren qi	101
+𢶪	na tu ke zao ke qi	101
+𢶪	na tu ke qi	101
 𢶫	na ke han fo wang	101
 𢶫	na ke han wang	101
 𢶬	na cao jiao er le gi san me	101
@@ -58120,8 +58133,8 @@ use_preset_vocabulary: false
 𢷽	na ji qi pa	101
 𢷾	na chang shang xiao qi la	101
 𢷾	na chang shang la	101
-𢷿	na xiao li wo yao gi	101
-𢷿	na xiao li gi	101
+𢷿	na xiao li wo ke qi	101
+𢷿	na xiao li qi	101
 𢸀	na zo er xiao xue me shuai	101
 𢸀	na zo er shuai	101
 𢸁	jiu tong jiu ke ba na	101
@@ -58271,8 +58284,8 @@ use_preset_vocabulary: false
 𢹋	na he yue min	101
 𢹌	na go me shuai he na zhi	101
 𢹌	na go me zhi	101
-𢹍	na hu ke fo dao ke yao gi	101
-𢹍	na hu ke gi	101
+𢹍	na hu ke fo dao ke ke qi	101
+𢹍	na hu ke qi	101
 𢹎	na dai mu er ma si wen	101
 𢹎	na dai mu wen	101
 𢹏	jiu ke zao jiu ke ba na	101
@@ -58828,7 +58841,7 @@ use_preset_vocabulary: false
 𢾽	he shi me pu	101
 𢾾	ke you fang wen	101
 𢾿	li pu	101
-𢿀	yao gi tong pu	101
+𢿀	ke qi tong pu	101
 𢿁	ha gu pu	101
 𢿂	wei wen chang gan	101
 𢿃	fo mu ba wen	101
@@ -59212,8 +59225,8 @@ use_preset_vocabulary: false
 𣂥	gua he dian xia	101
 𣂦	da ke fo me gua xia	101
 𣂦	da ke fo xia	101
-𣂧	yao gi yao gi gua xia	101
-𣂧	yao gi yao xia	101
+𣂧	ke qi ke qi gua xia	101
+𣂧	ke qi ke xia	101
 𣂨	ri shao er gua xia	101
 𣂨	ri shao er xia	101
 𣂩	he shi gong ke gua xia	101
@@ -59258,8 +59271,8 @@ use_preset_vocabulary: false
 𣂽	nei ke fo xia	101
 𣂾	yao yao ke ma gua xia	101
 𣂾	yao yao ke xia	101
-𣂿	mu li yao gi gua xia	101
-𣂿	mu li yao xia	101
+𣂿	mu li ke qi gua xia	101
+𣂿	mu li ke xia	101
 𣃀	ren ren ren ren ri gua xia	101
 𣃀	ren ren ren xia	101
 𣃁	go he fo nei gua xia	101
@@ -59602,8 +59615,8 @@ use_preset_vocabulary: false
 𣇆	ri bao pa	101
 𣇇	zu le gi ri ke	101
 𣇇	zu le gi ke	101
-𣇈	ri yao gi ke so	101
-𣇈	ri yao gi so	101
+𣇈	ri ke qi ke so	101
+𣇈	ri ke qi so	101
 𣇉	ri xue he fo	101
 𣇊	ri dai me gi fo	101
 𣇊	ri dai me fo	101
@@ -60401,7 +60414,7 @@ use_preset_vocabulary: false
 𣏦	huo pa	101
 𣏧	pa go gi	101
 𣏨	pa er qiao	101
-𣏩	yao gi pa	101
+𣏩	ke qi pa	101
 𣏪	pa vo vo	101
 𣏫	pa he le le he	101
 𣏫	pa he le he	101
@@ -60423,7 +60436,7 @@ use_preset_vocabulary: false
 𣏻	nai ren pa	101
 𣏼	cao ke pa	101
 𣏽	pa pu	101
-𣏾	pa yao gi	101
+𣏾	pa ke qi	101
 𣏿	pa ke da	101
 𣐀	pa wo yi	101
 𣐁	shi bao pa	101
@@ -60534,7 +60547,7 @@ use_preset_vocabulary: false
 𣑟	pa nei ke he quan	101
 𣑟	pa nei ke quan	101
 𣑠	jin fo pa	101
-𣑡	li yao gi pa	101
+𣑡	li ke qi pa	101
 𣑢	pa he le ri	101
 𣑣	pa jiao gi cun	101
 𣑤	pa shao yi nei	101
@@ -60623,7 +60636,7 @@ use_preset_vocabulary: false
 𣒫	zhu je le wo gi pa	101
 𣒫	zhu je le pa	101
 𣒬	pa bi ben	101
-𣒭	na yao gi pa	101
+𣒭	na ke qi pa	101
 𣒮	xia qiao pa tu	101
 𣒯	pa ke nei si ke	101
 𣒯	pa ke nei ke	101
@@ -60790,8 +60803,8 @@ use_preset_vocabulary: false
 𣔬	pa he nei yi nong	101
 𣔬	pa he nei nong	101
 𣔭	pa tu ba tu	101
-𣔮	pa shi yao gi ke je	101
-𣔮	pa shi yao je	101
+𣔮	pa shi ke qi ke je	101
+𣔮	pa shi ke je	101
 𣔯	pa yu	101
 𣔰	pa cao gi le gi	101
 𣔰	pa cao gi gi	101
@@ -60869,8 +60882,8 @@ use_preset_vocabulary: false
 𣕣	shi bao shi pa	101
 𣕤	shi fo ren ke fo pa	101
 𣕤	shi fo ren pa	101
-𣕥	dai fo yao gi pa	101
-𣕥	dai fo yao pa	101
+𣕥	dai fo ke qi pa	101
+𣕥	dai fo ke pa	101
 𣕦	pa pa mu	101
 𣕧	pa le he fo pa	101
 𣕧	pa le he pa	101
@@ -61209,7 +61222,7 @@ use_preset_vocabulary: false
 𣙃	pa guang cao huo	101
 𣙄	pa ka pa ren le	101
 𣙄	pa ka pa le	101
-𣙅	gi go fo yao gi pa	101
+𣙅	gi go fo ke qi pa	101
 𣙅	gi go fo pa	101
 𣙆	pa wo yao cao wei	101
 𣙆	pa wo yao wei	101
@@ -61350,8 +61363,8 @@ use_preset_vocabulary: false
 𣚗	he yue dao pa	101
 𣚘	ka chang fo qi pa	101
 𣚘	ka chang fo pa	101
-𣚙	pa he shang le yao gi yao gi	101
-𣚙	pa he shang gi	101
+𣚙	pa he shang le ke qi ke qi	101
+𣚙	pa he shang qi	101
 𣚚	pa go he fo nei	101
 𣚚	pa go he nei	101
 𣚛	pa hu cao ke	101
@@ -61457,8 +61470,8 @@ use_preset_vocabulary: false
 𣛒	pa er xiao mu	101
 𣛓	pa dai me gi xue je dian	101
 𣛓	pa dai me dian	101
-𣛔	pa hu zao yao gi	101
-𣛔	pa hu zao gi	101
+𣛔	pa hu zao ke qi	101
+𣛔	pa hu zao qi	101
 𣛕	ri pa ri pa	101
 𣛖	pa zhu shi quan ke je	101
 𣛖	pa zhu shi je	101
@@ -61512,8 +61525,8 @@ use_preset_vocabulary: false
 𣛵	pa gong ri pi	101
 𣛶	pa jiao xue wen qo	101
 𣛶	pa jiao xue qo	101
-𣛷	pa yao gi yao gi min	101
-𣛷	pa yao gi min	101
+𣛷	pa ke qi ke qi min	101
+𣛷	pa ke qi min	101
 𣛸	pa mu ba ke quan qi	101
 𣛸	pa mu ba qi	101
 𣛹	pa ha dai nei er zhi	101
@@ -61688,8 +61701,8 @@ use_preset_vocabulary: false
 𣝓	pa chang ri quan	101
 𣝔	pa zo bao dai fo pa	101
 𣝔	pa zo bao pa	101
-𣝕	pa zhu yao gi yao gi	101
-𣝕	pa zhu yao gi	101
+𣝕	pa zhu ke qi ke qi	101
+𣝕	pa zhu ke qi	101
 𣝖	jiao le ke me ri ke shang ren mo	101
 𣝖	jiao le ke mo	101
 𣝗	pa yue gu qing	101
@@ -61998,8 +62011,8 @@ use_preset_vocabulary: false
 𣟳	pa mu ke zhi	101
 𣟴	pa gua gong mu ke fo he je dian	101
 𣟴	pa gua gong dian	101
-𣟵	pa hu ke fo dao ke yao gi	101
-𣟵	pa hu ke gi	101
+𣟵	pa hu ke fo dao ke ke qi	101
+𣟵	pa hu ke qi	101
 𣟶	cao he pa li wo pa	101
 𣟶	cao he pa pa	101
 𣟷	pa hu me nei ren ren ren ren wen	101
@@ -62522,7 +62535,7 @@ use_preset_vocabulary: false
 𣤲	xia fo fo bo	101
 𣤳	shi nei san do pi bo	101
 𣤳	shi nei san bo	101
-𣤴	hu ke fo dao ke yao gi bo	101
+𣤴	hu ke fo dao ke ke qi bo	101
 𣤴	hu ke fo bo	101
 𣤵	mu ba mu ba xo bo	101
 𣤵	mu ba mu bo	101
@@ -62731,7 +62744,7 @@ use_preset_vocabulary: false
 𣧉	dai nai gi	101
 𣧊	dai le tu	101
 𣧋	dai bo	101
-𣧌	dai yao gi	101
+𣧌	dai ke qi	101
 𣧍	dai nei he gi	101
 𣧎	dai le da	101
 𣧏	dai pu	101
@@ -62834,8 +62847,8 @@ use_preset_vocabulary: false
 𣨤	dai ke fo ke qi	101
 𣨤	dai ke fo qi	101
 𣨥	dai yue yue	101
-𣨦	hu nei ke ren ren yao gi	101
-𣨦	hu nei ke gi	101
+𣨦	hu nei ke ren ren ke qi	101
+𣨦	hu nei ke qi	101
 𣨧	dai wo yao qing	101
 𣨨	dai hui vo	101
 𣨩	dai bao nei san	101
@@ -63403,8 +63416,8 @@ use_preset_vocabulary: false
 𣮍	yao qi liu xo	101
 𣮎	yao qi ri bi bi	101
 𣮎	yao qi ri bi	101
-𣮏	yao qi yao gi yao gi	101
-𣮏	yao qi yao gi	101
+𣮏	yao qi ke qi ke qi	101
+𣮏	yao qi ke qi	101
 𣮐	yao qi bei	101
 𣮑	yao qi ri ri	101
 𣮒	guang xue ren yao qi	101
@@ -64008,7 +64021,7 @@ use_preset_vocabulary: false
 𣴡	ka he ri bi	101
 𣴢	ka he ri shi	101
 𣴣	ka shu dai zo	101
-𣴤	ka yao gi yao	101
+𣴤	ka ke qi yao	101
 𣴥	ka shao he wang	101
 𣴦	ka bao gong yao	101
 𣴧	ka tu tu je	101
@@ -64020,7 +64033,7 @@ use_preset_vocabulary: false
 𣴫	ka gong me vo	101
 𣴬	ka nei si vo	101
 𣴭	ka cao ren je	101
-𣴮	ka na yao gi	101
+𣴮	ka na ke qi	101
 𣴯	ka ma ro	101
 𣴰	ka da qi me	101
 𣴱	ka cao na	101
@@ -64151,8 +64164,8 @@ use_preset_vocabulary: false
 𣶒	qiao me ke me	101
 𣶓	ka hu nei ke wen	101
 𣶓	ka hu nei wen	101
-𣶔	ka yao gi vo qiao	101
-𣶔	ka yao gi qiao	101
+𣶔	ka ke qi vo qiao	101
+𣶔	ka ke qi qiao	101
 𣶕	ka ke je nei ao	101
 𣶕	ka ke je ao	101
 𣶖	ka ke san he tu	101
@@ -64304,8 +64317,8 @@ use_preset_vocabulary: false
 𣸀	ka ke so fo yao	101
 𣸀	ka ke so yao	101
 𣸁	ka xue na san	101
-𣸂	ka yao gi xia ke ba	101
-𣸂	ka yao gi ba	101
+𣸂	ka ke qi xia ke ba	101
+𣸂	ka ke qi ba	101
 𣸃	ka cao pa gi	101
 𣸄	ka wen me gi ri	101
 𣸄	ka wen me ri	101
@@ -64793,8 +64806,8 @@ use_preset_vocabulary: false
 𣼵	ka cao he dao	101
 𣼶	ka er er fo	101
 𣼷	ka ge le he	101
-𣼸	ka dai mu yao gi	101
-𣼸	ka dai mu gi	101
+𣼸	ka dai mu ke qi	101
+𣼸	ka dai mu qi	101
 𣼹	ka mu gen	101
 𣼺	ka he nei yi ke so wen	101
 𣼺	ka he nei wen	101
@@ -64847,8 +64860,8 @@ use_preset_vocabulary: false
 𣽔	ka gong nei tu	101
 𣽕	ka pa pa he le yao	101
 𣽕	ka pa pa yao	101
-𣽖	ka he shang le yao gi yao gi	101
-𣽖	ka he shang gi	101
+𣽖	ka he shang le ke qi ke qi	101
+𣽖	ka he shang qi	101
 𣽗	ka wang dai co gi dian	101
 𣽗	ka wang dai dian	101
 𣽘	ka wo jiao gi qi me pa	101
@@ -65330,8 +65343,8 @@ use_preset_vocabulary: false
 𤁠	ka jiao er zhu ha zhi	101
 𤁠	ka jiao er zhi	101
 𤁡	ka na xi zao	101
-𤁢	ka xiao li wo yao gi	101
-𤁢	ka xiao li gi	101
+𤁢	ka xiao li wo ke qi	101
+𤁢	ka xiao li qi	101
 𤁣	ka mu yao qing bi bi	101
 𤁣	ka mu yao bi	101
 𤁤	ka cao ke fo fu bo	101
@@ -65491,8 +65504,8 @@ use_preset_vocabulary: false
 𤂲	ka shao he ba	101
 𤂳	ka zhu mu da yao	101
 𤂳	ka zhu mu yao	101
-𤂴	ka hu cao ke yao gi	101
-𤂴	ka hu cao gi	101
+𤂴	ka hu cao ke ke qi	101
+𤂴	ka hu cao qi	101
 𤂵	ka yue dao fu yao xiao	101
 𤂵	ka yue dao xiao	101
 𤂶	ka er er li wo	101
@@ -65596,8 +65609,8 @@ use_preset_vocabulary: false
 𤃨	ka huo huo san	101
 𤃩	ka yu fo fo fo	101
 𤃩	ka yu fo fo	101
-𤃪	ka hu ke fo dao ke yao gi	101
-𤃪	ka hu ke gi	101
+𤃪	ka hu ke fo dao ke ke qi	101
+𤃪	ka hu ke qi	101
 𤃫	ka cao mu bao dai bi	101
 𤃫	ka cao mu bi	101
 𤃬	ka shi zao ren tu huo	101
@@ -65634,8 +65647,8 @@ use_preset_vocabulary: false
 𤃽	ka jiao qo quan qing	101
 𤃽	ka jiao qo qing	101
 𤃾	ka zhu gen min	101
-𤃿	ka cao mu bao li yao gi	101
-𤃿	ka cao mu gi	101
+𤃿	ka cao mu bao li ke qi	101
+𤃿	ka cao mu qi	101
 𤄀	ka cao shao he li wo vo	101
 𤄀	ka cao shao vo	101
 𤄁	ka tu dao gan wan fo yao	101
@@ -65674,8 +65687,8 @@ use_preset_vocabulary: false
 𤄒	ka zhu er yue	101
 𤄓	ka cao ke han vo co	101
 𤄓	ka cao ke co	101
-𤄔	ka ha xiao li wo yao gi	101
-𤄔	ka ha xiao gi	101
+𤄔	ka ha xiao li wo ke qi	101
+𤄔	ka ha xiao qi	101
 𤄕	ka fang jiu ke je me jiu ke ba	101
 𤄕	ka fang jiu ba	101
 𤄖	ka wo ren ren pa li wo	101
@@ -66009,7 +66022,7 @@ use_preset_vocabulary: false
 𤇮	huo he gi gi	101
 𤇯	wo huo he je he gi	101
 𤇯	wo huo he gi	101
-𤇰	li yao gi huo	101
+𤇰	li ke qi huo	101
 𤇱	huo san ha	101
 𤇲	li he zo huo	101
 𤇳	huo chang qi	101
@@ -66077,7 +66090,7 @@ use_preset_vocabulary: false
 𤈬	huo mu vo	101
 𤈭	hu bao jiao gi huo	101
 𤈭	hu bao jiao huo	101
-𤈮	na yao gi huo	101
+𤈮	na ke qi huo	101
 𤈯	huo he ren ren qi	101
 𤈯	huo he ren qi	101
 𤈰	huo li ren ren ke je	101
@@ -66148,13 +66161,13 @@ use_preset_vocabulary: false
 𤉥	jiao gi jiao qo	101
 𤉦	huo he pa xo	101
 𤉧	yi yi huo wen	101
-𤉨	yao gi fo ke huo	101
-𤉨	yao gi fo huo	101
+𤉨	ke qi fo ke huo	101
+𤉨	ke qi fo huo	101
 𤉩	san jiao gi dao qo	101
 𤉩	san jiao gi qo	101
 𤉪	huo fang ren er	101
-𤉫	huo yao gi ke da	101
-𤉫	huo yao gi da	101
+𤉫	huo ke qi ke da	101
+𤉫	huo ke qi da	101
 𤉬	huo wo yao pa	101
 𤉭	ma ri huo	101
 𤉮	huo gi dai me gi fo	101
@@ -66513,8 +66526,8 @@ use_preset_vocabulary: false
 𤍪	huo wo le na er	101
 𤍪	huo wo le er	101
 𤍫	tu li wo qo	101
-𤍬	huo shi yao gi huo ke	101
-𤍬	huo shi yao ke	101
+𤍬	huo shi ke qi huo ke	101
+𤍬	huo shi ke ke	101
 𤍭	huo xi le me shuai	101
 𤍭	huo xi le shuai	101
 𤍮	fu mu so huo	101
@@ -66640,8 +66653,8 @@ use_preset_vocabulary: false
 𤎵	ma he yue huo	101
 𤎶	huo zhao he le le le qo	101
 𤎶	huo zhao he qo	101
-𤎷	liu yao gi ri huo	101
-𤎷	liu yao gi huo	101
+𤎷	liu ke qi ri huo	101
+𤎷	liu ke qi huo	101
 𤎸	er nei huo er nei huo	101
 𤎸	er nei huo huo	101
 𤎹	dian me ya si qo	101
@@ -66805,8 +66818,8 @@ use_preset_vocabulary: false
 𤐐	huo jiao chang wo	101
 𤐑	huo jiao xue wen qo	101
 𤐑	huo jiao xue qo	101
-𤐒	huo yao gi yao gi min	101
-𤐒	huo yao gi min	101
+𤐒	huo ke qi ke qi min	101
+𤐒	huo ke qi min	101
 𤐓	huo ka zhao yao da	101
 𤐓	huo ka zhao da	101
 𤐔	huo huo ri zu	101
@@ -66842,7 +66855,7 @@ use_preset_vocabulary: false
 𤐤	huo xia fo qo	101
 𤐥	huo huo cao bao huo	101
 𤐥	huo huo cao huo	101
-𤐦	ke yao yao ke ri yao gi huo	101
+𤐦	ke yao yao ke ri ke qi huo	101
 𤐦	ke yao yao huo	101
 𤐧	he pa ke fo tian huo	101
 𤐧	he pa ke huo	101
@@ -66895,8 +66908,8 @@ use_preset_vocabulary: false
 𤑀	zhao xi huo huo	101
 𤑁	huo he na huo bao xo	101
 𤑁	huo he na xo	101
-𤑂	chang huo huo jiao er yao gi	101
-𤑂	chang huo huo gi	101
+𤑂	chang huo huo jiao er ke qi	101
+𤑂	chang huo huo qi	101
 𤑃	jiao er huo dao ke xue huo	101
 𤑃	jiao er huo huo	101
 𤑄	mu ba mu ba qo	101
@@ -67488,8 +67501,8 @@ use_preset_vocabulary: false
 𤖄	shu dai hu nong	101
 𤖅	shu dai jiao er me shuai	101
 𤖅	shu dai jiao shuai	101
-𤖆	shu dai yao gi yao gi	101
-𤖆	shu dai yao gi	101
+𤖆	shu dai ke qi ke qi	101
+𤖆	shu dai ke qi	101
 𤖇	shu dai ri pa	101
 𤖈	shu dai hu jiao gi ke ba	101
 𤖈	shu dai hu ba	101
@@ -69638,7 +69651,7 @@ use_preset_vocabulary: false
 𤪩	wang li ren ke	101
 𤪪	wang zhu je le ke co	101
 𤪪	wang zhu je co	101
-𤪫	wang yao yao yao mu gi	101
+𤪫	wang yao yao ke qi mu gi	101
 𤪫	wang yao yao gi	101
 𤪬	wang tu mu mu ba	101
 𤪬	wang tu mu ba	101
@@ -70226,7 +70239,7 @@ use_preset_vocabulary: false
 𤰪	tian ba co	101
 𤰫	nei shang tian	101
 𤰬	tian xiao he	101
-𤰭	yao gi tian	101
+𤰭	ke qi tian	101
 𤰮	tian le da	101
 𤰯	tian so vo	101
 𤰰	you gua me gi	101
@@ -70303,7 +70316,7 @@ use_preset_vocabulary: false
 𤱯	tian jiao chang je	101
 𤱰	tian gua he je he gi	101
 𤱰	tian gua he gi	101
-𤱱	shi yao gi tian	101
+𤱱	shi ke qi tian	101
 𤱲	tian tu dan je	101
 𤱳	tian shang ke so	101
 𤱴	tian zhu me er ke	101
@@ -70412,8 +70425,8 @@ use_preset_vocabulary: false
 𤲾	ke cao ke tian	101
 𤲿	xue tu er ke tian ke	101
 𤲿	xue tu er ke	101
-𤳀	yao yao yao gi tian	101
-𤳀	yao yao yao tian	101
+𤳀	yao yao ke qi tian	101
+𤳀	yao yao ke tian	101
 𤳁	tian he shi me er bi ren	101
 𤳁	tian he shi ren	101
 𤳂	tian he pa he pa	101
@@ -70761,8 +70774,8 @@ use_preset_vocabulary: false
 𤷁	bing dai me gi tu	101
 𤷁	bing dai me tu	101
 𤷂	bing yue mei je	101
-𤷃	bing yao gi yao gi	101
-𤷃	bing yao gi gi	101
+𤷃	bing ke qi ke qi	101
+𤷃	bing ke qi qi	101
 𤷄	bing dao fu le je	101
 𤷄	bing dao fu je	101
 𤷅	bing jiu so	101
@@ -70973,8 +70986,8 @@ use_preset_vocabulary: false
 𤹘	bing chang er je dian cun	101
 𤹘	bing chang er cun	101
 𤹙	bing ja gi xiong	101
-𤹚	bing ke han yao gi	101
-𤹚	bing ke han gi	101
+𤹚	bing ke han ke qi	101
+𤹚	bing ke han qi	101
 𤹛	bing cao san la	101
 𤹜	bing bao fo he fo	101
 𤹜	bing bao fo fo	101
@@ -71208,8 +71221,8 @@ use_preset_vocabulary: false
 𤻤	bing he pa he pa ma	101
 𤻤	bing he pa ma	101
 𤻥	bing zhu bao er	101
-𤻦	bing he mu la yao gi	101
-𤻦	bing he mu gi	101
+𤻦	bing he mu la ke qi	101
+𤻦	bing he mu qi	101
 𤻧	bing he yue shu pa	101
 𤻧	bing he yue pa	101
 𤻨	bing liu ke ha dai nei er	101
@@ -71237,8 +71250,8 @@ use_preset_vocabulary: false
 𤻳	bing dai fo fo	101
 𤻴	bing yue dao fu me shuai	101
 𤻴	bing yue dao shuai	101
-𤻵	bing xiao li wo yao gi	101
-𤻵	bing xiao li gi	101
+𤻵	bing xiao li wo ke qi	101
+𤻵	bing xiao li qi	101
 𤻶	bing yao san gi go nei cao	101
 𤻶	bing yao san cao	101
 𤻷	bing he yue shu min	101
@@ -71902,7 +71915,7 @@ use_preset_vocabulary: false
 𥂣	wo le na min	101
 𥂤	jiu jiu shi fo min	101
 𥂤	jiu jiu shi min	101
-𥂥	hu jiao gi yao gi yao gi min	101
+𥂥	hu jiao gi ke qi ke qi min	101
 𥂥	hu jiao gi min	101
 𥂦	wo le na wen min	101
 𥂦	wo le na min	101
@@ -71913,8 +71926,8 @@ use_preset_vocabulary: false
 𥂩	shi fo shao gan nei min	101
 𥂩	shi fo shao min	101
 𥂪	gong qing wen min	101
-𥂫	dai yao gi yao gi min	101
-𥂫	dai yao gi min	101
+𥂫	dai ke qi ke qi min	101
+𥂫	dai ke qi min	101
 𥂬	wo nei ren hui min	101
 𥂬	wo nei ren min	101
 𥂭	ya zhu ke fo min	101
@@ -71985,8 +71998,8 @@ use_preset_vocabulary: false
 𥃐	wo hu nei min	101
 𥃑	he yue min yi nei ba wen	101
 𥃑	he yue min wen	101
-𥃒	jin yao gi yao gi min	101
-𥃒	jin yao gi min	101
+𥃒	jin ke qi ke qi min	101
+𥃒	jin ke qi min	101
 𥃓	hu fo dao ke bao ke me min	101
 𥃓	hu fo dao min	101
 𥃔	jiu jiu me shuai jiu min	101
@@ -71995,8 +72008,8 @@ use_preset_vocabulary: false
 𥃕	zo bao cao min	101
 𥃖	jiu jiu jiu jiu er je min	101
 𥃖	jiu jiu jiu min	101
-𥃗	ren ji yao gi yao gi min	101
-𥃗	ren ji yao min	101
+𥃗	ren ji ke qi ke qi min	101
+𥃗	ren ji ke min	101
 𥃘	jiu tong jiu bao huo min	101
 𥃘	jiu tong jiu min	101
 𥃙	dao wang min dao min ri	101
@@ -72154,20 +72167,20 @@ use_preset_vocabulary: false
 𥅡	mu dai nei er	101
 𥅢	mu yi nei vo	101
 𥅣	mu go xia ke	101
-𥅤	shi yao gi nei gong ke	101
-𥅤	shi yao gi ke	101
+𥅤	shi ke qi nei gong ke	101
+𥅤	shi ke qi ke	101
 𥅥	mu bao xo	101
 𥅦	mu san pa	101
 𥅧	mu he min	101
 𥅨	mu ke ri ke	101
-𥅩	mu li yao gi	101
+𥅩	mu li ke qi	101
 𥅪	mu shu wen	101
 𥅫	mu co co co	101
 𥅬	mu shao er yao	101
 𥅭	mu er ri	101
 𥅮	dai dao mu	101
 𥅯	mu ke quan qi	101
-𥅰	shi yao gi mu	101
+𥅰	shi ke qi mu	101
 𥅱	nei he me chang mu	101
 𥅱	nei he me mu	101
 𥅲	mu zhu	101
@@ -72658,8 +72671,8 @@ use_preset_vocabulary: false
 𥋘	mu zhu shang qing	101
 𥋙	mu huo ke dao ke wei	101
 𥋙	mu huo ke wei	101
-𥋚	cao mu yao gi mu	101
-𥋚	cao mu yao mu	101
+𥋚	cao mu ke qi mu	101
+𥋚	cao mu ke mu	101
 𥋛	mu mu shao fo yao	101
 𥋛	mu mu shao yao	101
 𥋜	mei mu bao so ba vo	101
@@ -73126,8 +73139,8 @@ use_preset_vocabulary: false
 𥏙	zhu da dao je	101
 𥏚	bi zhu da xue ro	101
 𥏚	bi zhu da ro	101
-𥏛	liu yao gi zhu da	101
-𥏛	liu yao gi da	101
+𥏛	liu ke qi zhu da	101
+𥏛	liu ke qi da	101
 𥏜	zhu da da ke fo me	101
 𥏜	zhu da da me	101
 𥏝	zhu da ke cao ke	101
@@ -73371,8 +73384,8 @@ use_preset_vocabulary: false
 𥑺	dai fo ni	101
 𥑻	dai fo he tu so	101
 𥑻	dai fo he so	101
-𥑼	li yao gi dai fo	101
-𥑼	li yao gi fo	101
+𥑼	li ke qi dai fo	101
+𥑼	li ke qi fo	101
 𥑽	dai fo gua mei je	101
 𥑽	dai fo gua je	101
 𥑾	dai fo shi nong	101
@@ -73529,7 +73542,7 @@ use_preset_vocabulary: false
 𥓘	dai fo ri er	101
 𥓙	pa pa dai fo	101
 𥓚	dai fo hu to	101
-𥓛	dai fo ke yao gi yao	101
+𥓛	dai fo ke ke qi yao	101
 𥓛	dai fo ke yao	101
 𥓜	dai fo ke ren ren pa	101
 𥓜	dai fo ke pa	101
@@ -73879,16 +73892,16 @@ use_preset_vocabulary: false
 𥖒	dai fo shu na	101
 𥖓	dai fo pi fo he fo	101
 𥖓	dai fo pi fo	101
-𥖔	dai fo pa yao gi yao gi	101
-𥖔	dai fo pa gi	101
+𥖔	dai fo pa ke qi ke qi	101
+𥖔	dai fo pa qi	101
 𥖕	fo he fo dai fo pi	101
 𥖕	fo he fo pi	101
 𥖖	dai fo pi na mei je	101
 𥖖	dai fo pi je	101
 𥖗	zo fo dao ke shu dai fo	101
 𥖗	zo fo dao fo	101
-𥖘	dai fo cao san ba je yao gi	101
-𥖘	dai fo cao gi	101
+𥖘	dai fo cao san ba je ke qi	101
+𥖘	dai fo cao qi	101
 𥖙	dai fo fo ke han qi	101
 𥖙	dai fo fo qi	101
 𥖚	dai fo bao ba go chu	101
@@ -74020,10 +74033,10 @@ use_preset_vocabulary: false
 𥗙	dai fo jiu na	101
 𥗚	zo mei shu bi dai fo	101
 𥗚	zo mei shu fo	101
-𥗛	jin yao gi yao gi dai fo	101
-𥗛	jin yao gi fo	101
-𥗜	dai fo fo fo ri shi yao gi	101
-𥗜	dai fo fo gi	101
+𥗛	jin ke qi ke qi dai fo	101
+𥗛	jin ke qi fo	101
+𥗜	dai fo fo fo ri shi ke qi	101
+𥗜	dai fo fo qi	101
 𥗝	dai fo wo fo fo han he je dian	101
 𥗝	dai fo wo dian	101
 𥗞	dai fo huo huo bao fo fo	101
@@ -74577,8 +74590,8 @@ use_preset_vocabulary: false
 𥜢	ja gi guang fo	101
 𥜣	er xiao shi quan gong xia ke xia ke fo	101
 𥜣	er xiao shi fo	101
-𥜤	ja gi je mu ba yao gi yao gi	101
-𥜤	ja gi je gi	101
+𥜤	ja gi je mu ba ke qi ke qi	101
+𥜤	ja gi je qi	101
 𥜥	ja gi me er bi tian gong	101
 𥜥	ja gi me gong	101
 𥜦	er xiao ke ba ro yi yi yi yi tu	101
@@ -74863,8 +74876,8 @@ use_preset_vocabulary: false
 𥟣	he pa liu xo	101
 𥟤	he pa xue me shuai	101
 𥟤	he pa xue shuai	101
-𥟥	he pa yao gi yao gi	101
-𥟥	he pa yao gi	101
+𥟥	he pa ke qi ke qi	101
+𥟥	he pa ke qi	101
 𥟦	he pa dao ren xiao gi	101
 𥟦	he pa dao gi	101
 𥟧	he pa shang xiao vo	101
@@ -75181,8 +75194,8 @@ use_preset_vocabulary: false
 𥢆	he pa yao ba	101
 𥢇	he pa cao ke fo pa	101
 𥢇	he pa cao pa	101
-𥢈	he pa dai nei san yao gi	101
-𥢈	he pa dai gi	101
+𥢈	he pa dai nei san ke qi	101
+𥢈	he pa dai qi	101
 𥢉	zo bao he pa ke nei pa	101
 𥢉	zo bao he pa	101
 𥢊	he pa shi cao mu ba	101
@@ -75372,8 +75385,8 @@ use_preset_vocabulary: false
 𥣧	he pa nai ba	101
 𥣨	he pa xue xue gong me je vo ke	101
 𥣨	he pa xue ke	101
-𥣩	he pa xiao li wo yao gi	101
-𥣩	he pa xiao gi	101
+𥣩	he pa xiao li wo ke qi	101
+𥣩	he pa xiao qi	101
 𥣪	he pa fu fu mu ba	101
 𥣪	he pa fu ba	101
 𥣫	he pa cao mu chang gi qi	101
@@ -76035,8 +76048,8 @@ use_preset_vocabulary: false
 𥩯	liu ke nai na	101
 𥩰	liu ke ke gong je	101
 𥩰	liu ke ke je	101
-𥩱	liu ke li yao gi	101
-𥩱	liu ke li gi	101
+𥩱	liu ke li ke qi	101
+𥩱	liu ke li qi	101
 𥩲	liu ke wo yao ren	101
 𥩲	liu ke wo ren	101
 𥩳	liu ke tu cun	101
@@ -76598,7 +76611,7 @@ use_preset_vocabulary: false
 𥰌	zhu huo wo yao	101
 𥰍	zhu ke fo pa dao	101
 𥰍	zhu ke fo dao	101
-𥰎	zhu yao gi min	101
+𥰎	zhu ke qi min	101
 𥰏	zhu na wen qi me	101
 𥰏	zhu na wen me	101
 𥰐	zhu ji ke ro	101
@@ -77015,8 +77028,8 @@ use_preset_vocabulary: false
 𥴆	zhu tu dao vo	101
 𥴇	zhu pa san ren na	101
 𥴇	zhu pa san na	101
-𥴈	zhu pa yao gi yao gi	101
-𥴈	zhu pa yao gi	101
+𥴈	zhu pa ke qi ke qi	101
+𥴈	zhu pa ke qi	101
 𥴉	zhu nai gi nai gi ri	101
 𥴉	zhu nai gi ri	101
 𥴊	zhu le ke han wen	101
@@ -77119,8 +77132,8 @@ use_preset_vocabulary: false
 𥵁	zhu le er min	101
 𥵂	zhu hu fo ke da	101
 𥵂	zhu hu fo da	101
-𥵃	zhu yao gi yao gi min	101
-𥵃	zhu yao gi min	101
+𥵃	zhu ke qi ke qi min	101
+𥵃	zhu ke qi min	101
 𥵄	zhu ka liu tian	101
 𥵅	zhu pa shao er gi la	101
 𥵅	zhu pa shao la	101
@@ -78221,7 +78234,7 @@ use_preset_vocabulary: false
 𥾬	yao san ke er	101
 𥾭	yao san gua je gi	101
 𥾭	yao san gua gi	101
-𥾮	yao san yao gi	101
+𥾮	yao san ke qi	101
 𥾯	yao san gong me	101
 𥾰	yao san cao ke	101
 𥾱	yao san na je	101
@@ -78337,8 +78350,8 @@ use_preset_vocabulary: false
 𦀀	bao xo yao xiao	101
 𦀁	yao san vo vo vo	101
 𦀁	yao san vo vo	101
-𦀂	shi yao gi yao xiao	101
-𦀂	shi yao gi xiao	101
+𦀂	shi ke qi yao xiao	101
+𦀂	shi ke qi xiao	101
 𦀃	yao san zo ro	101
 𦀄	yao san nei ke ke so	101
 𦀄	yao san nei so	101
@@ -78459,8 +78472,8 @@ use_preset_vocabulary: false
 𦁉	yao san liu xo	101
 𦁊	yao san tu tu me gi	101
 𦁊	yao san tu gi	101
-𦁋	liu yao gi yao xiao	101
-𦁋	liu yao gi xiao	101
+𦁋	liu ke qi yao xiao	101
+𦁋	liu ke qi xiao	101
 𦁌	yao san ren le er yao	101
 𦁌	yao san ren yao	101
 𦁍	yao san zhao he zo	101
@@ -78473,8 +78486,8 @@ use_preset_vocabulary: false
 𦁑	yao san da gan	101
 𦁒	nei dao ke yao xiao ren je	101
 𦁒	nei dao ke je	101
-𦁓	yao gi ba ren yao xiao	101
-𦁓	yao gi ba xiao	101
+𦁓	ke qi ba ren yao xiao	101
+𦁓	ke qi ba xiao	101
 𦁔	yao san ke da la	101
 𦁔	yao san ke la	101
 𦁕	yao san shao er la	101
@@ -78698,8 +78711,8 @@ use_preset_vocabulary: false
 𦃌	yao san xue vo	101
 𦃍	yao san he nei wen ke nong	101
 𦃍	yao san he nong	101
-𦃎	yao san ke han yao gi	101
-𦃎	yao san ke gi	101
+𦃎	yao san ke han ke qi	101
+𦃎	yao san ke qi	101
 𦃏	yao san yi pa shu	101
 𦃏	yao san yi shu	101
 𦃐	yao san vo gi fo yao	101
@@ -78864,7 +78877,7 @@ use_preset_vocabulary: false
 𦄧	yao san ke ri	101
 𦄨	yao san zo bao yao xiao	101
 𦄨	yao san zo xiao	101
-𦄩	yao san cao yao gi ri	101
+𦄩	yao san cao ke qi ri	101
 𦄩	yao san cao ri	101
 𦄪	yao san go shang ke ba er	101
 𦄪	yao san go er	101
@@ -79392,8 +79405,8 @@ use_preset_vocabulary: false
 𦈹	shang fo zhu ha	101
 𦈺	zhu ha nei tu fo	101
 𦈺	zhu ha nei fo	101
-𦈻	zhu ha yao gi yao gi	101
-𦈻	zhu ha yao gi	101
+𦈻	zhu ha ke qi ke qi	101
+𦈻	zhu ha ke qi	101
 𦈼	he shi gong ke zhu ha	101
 𦈼	he shi gong ha	101
 𦈽	zhu ha zhao bao vo	101
@@ -79598,8 +79611,8 @@ use_preset_vocabulary: false
 𦋅	mu shao tu tu	101
 𦋆	mu le na gua	101
 𦋇	nei yi hu zao	101
-𦋈	mu yao gi yao gi	101
-𦋈	mu yao gi gi	101
+𦋈	mu ke qi ke qi	101
+𦋈	mu ke qi qi	101
 𦋉	mu yue dan vo	101
 𦋊	mu cao san ba	101
 𦋋	mu yao qi yao qi	101
@@ -79954,8 +79967,8 @@ use_preset_vocabulary: false
 𦎕	dao wang cao xo	101
 𦎖	dao ke quan ke fo pa	101
 𦎖	dao ke quan pa	101
-𦎗	dao ke na yao gi yao gi	101
-𦎗	dao ke na gi	101
+𦎗	dao ke na ke qi ke qi	101
+𦎗	dao ke na qi	101
 𦎘	dao ke na ke fo ke qi	101
 𦎘	dao ke na qi	101
 𦎙	dao ke na fo fo ren	101
@@ -80036,8 +80049,8 @@ use_preset_vocabulary: false
 𦎿	dao wang da yue	101
 𦏀	dao ke na dai me gi mu so	101
 𦏀	dao ke na so	101
-𦏁	dao wang he pa nai yao gi	101
-𦏁	dao wang he gi	101
+𦏁	dao wang he pa nai ke qi	101
+𦏁	dao wang he qi	101
 𦏂	dao ke na jiao nei dian to fo	101
 𦏂	dao ke na fo	101
 𦏃	le gi cai wen le he dao ke na	101
@@ -80151,7 +80164,7 @@ use_preset_vocabulary: false
 𦏿	ha xi xi	101
 𦐀	xi xi wo je	101
 𦐁	dan je xi xi	101
-𦐂	xi xi yao gi	101
+𦐂	xi xi ke qi	101
 𦐃	le na xi xi	101
 𦐄	wo to xi xi	101
 𦐅	xi xi nai gi	101
@@ -80776,8 +80789,8 @@ use_preset_vocabulary: false
 𦖌	ke han nei gong ba	101
 𦖌	ke han nei ba	101
 𦖍	ke han ri pa	101
-𦖎	ke han yao gi ren le	101
-𦖎	ke han yao le	101
+𦖎	ke han ke qi ren le	101
+𦖎	ke han ke le	101
 𦖏	ke han ren ren ren ren	101
 𦖏	ke han ren ren	101
 𦖐	ke han zhu ma dan	101
@@ -81055,7 +81068,7 @@ use_preset_vocabulary: false
 𦘣	xue tu tian na	101
 𦘤	xue me qiao me ke je ke le ke me fo yi	101
 𦘤	xue me qiao yi	101
-𦘥	gi go fo yao gi xue na	101
+𦘥	gi go fo ke qi xue na	101
 𦘥	gi go fo na	101
 𦘦	gi go fo wen xue na	101
 𦘦	gi go fo na	101
@@ -81297,7 +81310,7 @@ use_preset_vocabulary: false
 𦛷	rou zhao cun	101
 𦛸	yue le gi nei na	101
 𦛸	yue le gi na	101
-𦛹	na yao gi rou	101
+𦛹	na ke qi rou	101
 𦛺	yue ling dao	101
 𦛻	yue pa cun	101
 𦛼	yue qiu ba	101
@@ -81760,8 +81773,8 @@ use_preset_vocabulary: false
 𦠯	yue er er pa	101
 𦠰	gi go qing hu zao	101
 𦠰	gi go qing zao	101
-𦠱	yue zhu li yao gi	101
-𦠱	yue zhu li gi	101
+𦠱	yue zhu li ke qi	101
+𦠱	yue zhu li qi	101
 𦠲	yue ke cao ke la	101
 𦠲	yue ke cao la	101
 𦠳	yue go le na le na le na	101
@@ -82099,7 +82112,7 @@ use_preset_vocabulary: false
 𦣠	ya he tu	101
 𦣡	ya ba co	101
 𦣢	ya ke ro	101
-𦣣	ya yao gi	101
+𦣣	ya ke qi	101
 𦣤	xia me gong me je gong me gong	101
 𦣤	xia me gong gong	101
 𦣥	ya bi	101
@@ -82608,7 +82621,7 @@ use_preset_vocabulary: false
 𦨙	he yue ri	101
 𦨚	he yue quan	101
 𦨛	he yue shao yao	101
-𦨜	he yue yao gi	101
+𦨜	he yue ke qi	101
 𦨝	he yue ke je le ke	101
 𦨝	he yue ke ke	101
 𦨞	he yue er so	101
@@ -82650,8 +82663,8 @@ use_preset_vocabulary: false
 𦨵	he yue do me	101
 𦨶	he yue ba ke da	101
 𦨶	he yue ba da	101
-𦨷	he yue li yao gi	101
-𦨷	he yue li gi	101
+𦨷	he yue li ke qi	101
+𦨷	he yue li qi	101
 𦨸	he yue he nei na	101
 𦨸	he yue he na	101
 𦨹	he yue jiao chang le je	101
@@ -83038,7 +83051,7 @@ use_preset_vocabulary: false
 𦬔	cao gua me gi	101
 𦬕	cao fo me	101
 𦬖	cao li he le	101
-𦬗	cao yao gi	101
+𦬗	cao ke qi	101
 𦬘	cao ba yao	101
 𦬙	cao li me gi	101
 𦬚	cao ke je le ke	101
@@ -84099,8 +84112,8 @@ use_preset_vocabulary: false
 𦸏	cao ha li wo	101
 𦸐	cao er tu ba tu	101
 𦸐	cao er tu tu	101
-𦸑	cao mu bao yao gi	101
-𦸑	cao mu bao gi	101
+𦸑	cao mu bao ke qi	101
+𦸑	cao mu bao qi	101
 𦸒	cao shao he da ke fo me	101
 𦸒	cao shao he me	101
 𦸓	cao pa ren me shuai	101
@@ -84113,8 +84126,8 @@ use_preset_vocabulary: false
 𦸖	cao yao san ke	101
 𦸗	cao chang shang xiao qi	101
 𦸗	cao chang shang qi	101
-𦸘	cao dai mu yao gi	101
-𦸘	cao dai mu gi	101
+𦸘	cao dai mu ke qi	101
+𦸘	cao dai mu qi	101
 𦸙	cao he shi gong ke er	101
 𦸙	cao he shi er	101
 𦸚	cao xi xi he ri	101
@@ -84196,8 +84209,8 @@ use_preset_vocabulary: false
 𦹉	cao le ke shi	101
 𦹊	cao xia le ke fo quan shi	101
 𦹊	cao xia le shi	101
-𦹋	cao mu li yao gi	101
-𦹋	cao mu li gi	101
+𦹋	cao mu li ke qi	101
+𦹋	cao mu li qi	101
 𦹌	cao nei yi ke fo yao	101
 𦹌	cao nei yi yao	101
 𦹍	cao jin pa quan shi	101
@@ -84318,8 +84331,8 @@ use_preset_vocabulary: false
 𦺎	cao yue liu ke fo	101
 𦺎	cao yue liu fo	101
 𦺏	cao zao liu yi	101
-𦺐	cao dai yao gi yao gi	101
-𦺐	cao dai yao gi	101
+𦺐	cao dai ke qi ke qi	101
+𦺐	cao dai ke qi	101
 𦺑	cao liu ke fo yao qi	101
 𦺑	cao liu ke qi	101
 𦺒	cao le gi cai wen xo	101
@@ -84363,8 +84376,8 @@ use_preset_vocabulary: false
 𦺧	cao bao san me fo dao	101
 𦺧	cao bao san dao	101
 𦺨	cao xiang	101
-𦺩	cao hu zao yao gi	101
-𦺩	cao hu zao gi	101
+𦺩	cao hu zao ke qi	101
+𦺩	cao hu zao qi	101
 𦺪	cao he pa jin pa	101
 𦺪	cao he pa pa	101
 𦺫	cao dai fo gi gen	101
@@ -84456,8 +84469,8 @@ use_preset_vocabulary: false
 𦻛	cao le me qo	101
 𦻜	cao ka cao ke je pa	101
 𦻜	cao ka cao pa	101
-𦻝	cao shi zao yao gi	101
-𦻝	cao shi zao gi	101
+𦻝	cao shi zao ke qi	101
+𦻝	cao shi zao qi	101
 𦻞	cao hu bao bi da	101
 𦻞	cao hu bao da	101
 𦻟	cao ka co fo quan shi	101
@@ -84616,8 +84629,8 @@ use_preset_vocabulary: false
 𦼸	cao na wo fo	101
 𦼹	cao wo hui he pa	101
 𦼹	cao wo hui pa	101
-𦼺	cao shi yao gi fo wang	101
-𦼺	cao shi yao wang	101
+𦼺	cao shi ke qi fo wang	101
+𦼺	cao shi ke wang	101
 𦼻	cao ka ha to wen	101
 𦼻	cao ka ha wen	101
 𦼼	cao jiao qo vo	101
@@ -84801,8 +84814,8 @@ use_preset_vocabulary: false
 𦾝	cao ren xue ha	101
 𦾞	cao le er me shuai min	101
 𦾞	cao le er min	101
-𦾟	cao yao gi yao gi min	101
-𦾟	cao yao gi min	101
+𦾟	cao ke qi ke qi min	101
+𦾟	cao ke qi min	101
 𦾠	cao zao ren er xiao	101
 𦾠	cao zao ren xiao	101
 𦾡	cao xo ha to wen	101
@@ -84893,8 +84906,8 @@ use_preset_vocabulary: false
 𦿎	cao chu er wen	101
 𦿏	cao cao mu bao jiao gi	101
 𦿏	cao cao mu gi	101
-𦿐	cao me he li wo yao gi	101
-𦿐	cao me he gi	101
+𦿐	cao me he li wo ke qi	101
+𦿐	cao me he qi	101
 𦿑	nei he nei me ri ri nei he nei me	101
 𦿑	nei he nei me	101
 𦿒	cao pa san ren he pa	101
@@ -84991,8 +85004,8 @@ use_preset_vocabulary: false
 𧀃	cao ke dao pa	101
 𧀄	cao tian ri ke shao er	101
 𧀄	cao tian ri er	101
-𧀅	cao mu yao gi he pa	101
-𧀅	cao mu yao pa	101
+𧀅	cao mu ke qi he pa	101
+𧀅	cao mu ke pa	101
 𧀆	cao mu bao ke fo dao ke	101
 𧀆	cao mu bao ke	101
 𧀇	cao nei ke yao san tian	101
@@ -85228,10 +85241,10 @@ use_preset_vocabulary: false
 𧁿	cao shao he yao	101
 𧂀	cao zhao co dai mu ba	101
 𧂀	cao zhao co ba	101
-𧂁	cao fo fo ri shi yao gi	101
-𧂁	cao fo fo gi	101
-𧂂	cao jin yao gi yao gi	101
-𧂂	cao jin yao gi	101
+𧂁	cao fo fo ri shi ke qi	101
+𧂁	cao fo fo qi	101
+𧂂	cao jin ke qi ke qi	101
+𧂂	cao jin ke qi	101
 𧂃	cao ren le fo dai mu ba	101
 𧂃	cao ren le ba	101
 𧂄	cao er er jiao jiu	101
@@ -85283,8 +85296,8 @@ use_preset_vocabulary: false
 𧂛	cao cao mu wa	101
 𧂜	cao bao ba ri fo me xo	101
 𧂜	cao bao ba xo	101
-𧂝	cao mu bao mu yao gi	101
-𧂝	cao mu bao gi	101
+𧂝	cao mu bao mu ke qi	101
+𧂝	cao mu bao qi	101
 𧂞	cao tu dao gan huo huo	101
 𧂞	cao tu dao huo	101
 𧂟	cao jiu ren mu ba	101
@@ -85309,8 +85322,8 @@ use_preset_vocabulary: false
 𧂨	cao liu bao zu	101
 𧂩	cao yao san vo gi fo yao	101
 𧂩	cao yao san yao	101
-𧂪	cao yao gi dian me er mu ba	101
-𧂪	cao yao gi ba	101
+𧂪	cao ke qi dian me er mu ba	101
+𧂪	cao ke qi ba	101
 𧂫	cao jiao qo shao si	101
 𧂫	cao jiao qo si	101
 𧂬	cao san pa fo mu ba	101
@@ -85848,8 +85861,8 @@ use_preset_vocabulary: false
 𧇐	li me wen to	101
 𧇑	ke nong qi hu to	101
 𧇑	ke nong qi to	101
-𧇒	hu to yao gi ma	101
-𧇒	hu to yao ma	101
+𧇒	hu to ke qi ma	101
+𧇒	hu to ke ma	101
 𧇓	hu to ba xiong	101
 𧇔	hu ke fo dao ke to	101
 𧇔	hu ke fo to	101
@@ -86645,8 +86658,8 @@ use_preset_vocabulary: false
 𧎴	fo yao na fo	101
 𧎵	fo yao qi dao pa	101
 𧎵	fo yao qi pa	101
-𧎶	yao yao yao gi fo yao	101
-𧎶	yao yao yao yao	101
+𧎶	yao yao ke qi fo yao	101
+𧎶	yao yao ke yao	101
 𧎷	fo yao shao nei he shao nei he	101
 𧎷	fo yao shao he	101
 𧎸	fo yao wo nei fo	101
@@ -86863,7 +86876,7 @@ use_preset_vocabulary: false
 𧐤	fo yao wo na	101
 𧐥	fo yao na ke xue zu	101
 𧐥	fo yao na zu	101
-𧐦	fo yao shi yao gi huo ke	101
+𧐦	fo yao shi ke qi huo ke	101
 𧐦	fo yao shi ke	101
 𧐧	san ren fo yao fo yao	101
 𧐧	san ren fo yao	101
@@ -87000,7 +87013,7 @@ use_preset_vocabulary: false
 𧑪	he dao pa yao	101
 𧑫	fo yao yao yao yao ren me san	101
 𧑫	fo yao yao san	101
-𧑬	he min li yao gi fo yao	101
+𧑬	he min li ke qi fo yao	101
 𧑬	he min li yao	101
 𧑭	zo fo zo fo fo yao	101
 𧑭	zo fo zo yao	101
@@ -87032,7 +87045,7 @@ use_preset_vocabulary: false
 𧑺	fo yao na zu	101
 𧑻	fo yao na hu xue zu	101
 𧑻	fo yao na zu	101
-𧑼	shang nei fo yao gi fo yao	101
+𧑼	shang nei fo ke qi fo yao	101
 𧑼	shang nei fo yao	101
 𧑽	fo yao shang fo zu	101
 𧑽	fo yao shang zu	101
@@ -87143,9 +87156,9 @@ use_preset_vocabulary: false
 𧒳	fo yao bao da	101
 𧒴	fo yao dao dai mu zhi	101
 𧒴	fo yao dao zhi	101
-𧒵	fo yao shi yao gi fo wang	101
+𧒵	fo yao shi ke qi fo wang	101
 𧒵	fo yao shi wang	101
-𧒶	fo yao shi yao gi fo he je he gi	101
+𧒶	fo yao shi ke qi fo he je he gi	101
 𧒶	fo yao shi gi	101
 𧒷	fo yao hu jiao gi vo dao pa	101
 𧒷	fo yao hu pa	101
@@ -87235,9 +87248,9 @@ use_preset_vocabulary: false
 𧓢	xue je ri yao	101
 𧓣	guang gong er dai mu fo yao	101
 𧓣	guang gong er yao	101
-𧓤	shi yao gi ba fo yao fo yao	101
-𧓤	shi yao gi yao	101
-𧓥	fo yao shi yao gi ke cao ke	101
+𧓤	shi ke qi ba fo yao fo yao	101
+𧓤	shi ke qi yao	101
+𧓥	fo yao shi ke qi ke cao ke	101
 𧓥	fo yao shi ke	101
 𧓦	fo yao ya zhu min	101
 𧓦	fo yao ya min	101
@@ -87271,7 +87284,7 @@ use_preset_vocabulary: false
 𧓵	cao tian fo yao	101
 𧓶	fo yao cao wen san me zhi	101
 𧓶	fo yao cao zhi	101
-𧓷	xiao li wo yao gi fo yao	101
+𧓷	xiao li wo ke qi fo yao	101
 𧓷	xiao li wo yao	101
 𧓸	fo yao dao xi er da er	101
 𧓸	fo yao dao er	101
@@ -87325,7 +87338,7 @@ use_preset_vocabulary: false
 𧔐	cao nei yi yao	101
 𧔑	dao ke co fo yao fo yao	101
 𧔑	dao ke co yao	101
-𧔒	fo yao shi yao gi fei je	101
+𧔒	fo yao shi ke qi fei je	101
 𧔒	fo yao shi je	101
 𧔓	ao yao xiao vo gi er fo yao	101
 𧔓	ao yao xiao yao	101
@@ -87357,8 +87370,8 @@ use_preset_vocabulary: false
 𧔠	fo yao cao je	101
 𧔡	go gong je dian fo yao fo yao	101
 𧔡	go gong je yao	101
-𧔢	jin yao gi yao gi fo yao	101
-𧔢	jin yao gi yao	101
+𧔢	jin ke qi ke qi fo yao	101
+𧔢	jin ke qi yao	101
 𧔣	fo yao ke fo pa jiao mu ba	101
 𧔣	fo yao ke ba	101
 𧔤	nei san xiao he yao xiao fo yao	101
@@ -87409,8 +87422,8 @@ use_preset_vocabulary: false
 𧔺	fo cao ri yao	101
 𧔻	bi bi fo yao fo yao fo yao	101
 𧔻	bi bi fo yao	101
-𧔼	fo yao fo yao fo yao yao gi	101
-𧔼	fo yao fo gi	101
+𧔼	fo yao fo yao fo yao ke qi	101
+𧔼	fo yao fo qi	101
 𧔽	fo yao he er ke ro nei so xia	101
 𧔽	fo yao he xia	101
 𧔾	fo yao he pa so dai mu ba	101
@@ -87421,7 +87434,7 @@ use_preset_vocabulary: false
 𧕀	fo yao er tu	101
 𧕁	fo yao ke fo fo fo ke han	101
 𧕁	fo yao ke han	101
-𧕂	fo yao san yao gi fei ke	101
+𧕂	fo yao san ke qi fei ke	101
 𧕂	fo yao san ke	101
 𧕃	fo yao jiao fo bi bi tu	101
 𧕃	fo yao jiao tu	101
@@ -87429,8 +87442,8 @@ use_preset_vocabulary: false
 𧕄	fo yao guang la	101
 𧕅	fo yao yu fo fo fo	101
 𧕅	fo yao yu fo	101
-𧕆	fo yao hu ke fo dao ke yao gi	101
-𧕆	fo yao hu gi	101
+𧕆	fo yao hu ke fo dao ke ke qi	101
+𧕆	fo yao hu qi	101
 𧕇	fo yao jiao qo dao ke na	101
 𧕇	fo yao jiao na	101
 𧕈	go er xiao cun fo yao fo yao	101
@@ -87531,8 +87544,8 @@ use_preset_vocabulary: false
 𧕷	cao san ren yao	101
 𧕸	ma qo he ri wang fo yao	101
 𧕸	ma qo he yao	101
-𧕹	yao gi san ren ri fo yao fo yao	101
-𧕹	yao gi san yao	101
+𧕹	ke qi san ren ri fo yao fo yao	101
+𧕹	ke qi san yao	101
 𧕺	fo yao li wo li wo fan	101
 𧕺	fo yao li fan	101
 𧕻	fo yao guang liu ke qing bi	101
@@ -87671,8 +87684,8 @@ use_preset_vocabulary: false
 𧗅	he min cao pa	101
 𧗆	cao le me shuai dai min	101
 𧗆	cao le me min	101
-𧗇	yao yao yao gi he min	101
-𧗇	yao yao yao min	101
+𧗇	yao yao ke qi he min	101
+𧗇	yao yao ke min	101
 𧗈	he min chang er je dian cun	101
 𧗈	he min chang cun	101
 𧗉	ka ke qing me gi he min	101
@@ -87693,8 +87706,8 @@ use_preset_vocabulary: false
 𧗐	he min le wen	101
 𧗑	da dao gan pu he min	101
 𧗑	da dao gan min	101
-𧗒	yao yao yao gi ren he min	101
-𧗒	yao yao yao min	101
+𧗒	yao yao ke qi ren he min	101
+𧗒	yao yao ke min	101
 𧗓	yao yao ke qi he min	101
 𧗓	yao yao ke min	101
 𧗔	he min li wo me le nei	101
@@ -87760,8 +87773,8 @@ use_preset_vocabulary: false
 𧗶	do er me xin	101
 𧗷	do er me na shuai gi	101
 𧗷	do er me gi	101
-𧗸	do er me yao gi yao gi	101
-𧗸	do er me gi	101
+𧗸	do er me ke qi ke qi	101
+𧗸	do er me qi	101
 𧗹	do er me liu ke ri	101
 𧗹	do er me ri	101
 𧗺	do er me ba yao la	101
@@ -88031,8 +88044,8 @@ use_preset_vocabulary: false
 𧚛	gi nong er dian	101
 𧚜	ja dian gua er ro	101
 𧚜	ja dian gua ro	101
-𧚝	na yao gi wo he je dian	101
-𧚝	na yao gi dian	101
+𧚝	na ke qi wo he je dian	101
+𧚝	na ke qi dian	101
 𧚞	wo nei ba fo he je he gi	101
 𧚞	wo nei ba gi	101
 𧚟	ja dian go yao qi	101
@@ -88077,7 +88090,7 @@ use_preset_vocabulary: false
 𧚴	ja dian yao yao	101
 𧚵	huo ri wo he je dian	101
 𧚵	huo ri wo dian	101
-𧚶	ja dian shi yao gi co	101
+𧚶	ja dian shi ke qi co	101
 𧚶	ja dian shi co	101
 𧚷	ja dian he ri huang	101
 𧚷	ja dian he huang	101
@@ -88155,8 +88168,8 @@ use_preset_vocabulary: false
 𧛞	ja dian shi yue	101
 𧛟	ja dian ri he ao	101
 𧛟	ja dian ri ao	101
-𧛠	ja dian yao gi xia ke ba	101
-𧛠	ja dian yao ba	101
+𧛠	ja dian ke qi xia ke ba	101
+𧛠	ja dian ke ba	101
 𧛡	ja dian chang fo qi	101
 𧛡	ja dian chang qi	101
 𧛢	ja dian ke yao tu wen	101
@@ -88167,8 +88180,8 @@ use_preset_vocabulary: false
 𧛤	ja dian shao la	101
 𧛥	ja dian wo yao nei tu	101
 𧛥	ja dian wo tu	101
-𧛦	ke ro yao gi wo he je dian	101
-𧛦	ke ro yao dian	101
+𧛦	ke ro ke qi wo he je dian	101
+𧛦	ke ro ke dian	101
 𧛧	fo wo jiao gi jiao gi he je dian	101
 𧛧	fo wo jiao dian	101
 𧛨	liu nei ba fo he je he gi	101
@@ -88413,8 +88426,8 @@ use_preset_vocabulary: false
 𧝥	wo li ma gi	101
 𧝦	chang ma dai dao wo he je dian	101
 𧝦	chang ma dai dian	101
-𧝧	ja dian dao ri shi yao gi	101
-𧝧	ja dian dao gi	101
+𧝧	ja dian dao ri shi ke qi	101
+𧝧	ja dian dao qi	101
 𧝨	ja dian wo co fo	101
 𧝨	ja dian wo fo	101
 𧝩	ja dian do gua shi mu	101
@@ -88543,8 +88556,8 @@ use_preset_vocabulary: false
 𧞧	ja dian lu qo	101
 𧞨	ja dian ke fo fo fo je bo	101
 𧞨	ja dian ke bo	101
-𧞩	ja dian xiao li wo yao gi	101
-𧞩	ja dian xiao gi	101
+𧞩	ja dian xiao li wo ke qi	101
+𧞩	ja dian xiao qi	101
 𧞪	ja dian san nei yi ke yu	101
 𧞪	ja dian san yu	101
 𧞫	ja dian ya vo ke fo dao ke	101
@@ -88589,8 +88602,8 @@ use_preset_vocabulary: false
 𧞾	ja dian min quan	101
 𧞿	ja dian chang he pa he pa ma	101
 𧞿	ja dian chang ma	101
-𧟀	ja dian fo fo ri shi yao gi	101
-𧟀	ja dian fo gi	101
+𧟀	ja dian fo fo ri shi ke qi	101
+𧟀	ja dian fo qi	101
 𧟁	ja dian ma qo dao kai	101
 𧟁	ja dian ma kai	101
 𧟂	ja dian gong ke tian ke tian ke	101
@@ -88666,7 +88679,7 @@ use_preset_vocabulary: false
 𧟪	xi wang gi	101
 𧟫	xi ke fo me	101
 𧟬	xi qiu	101
-𧟭	shi yao gi xi	101
+𧟭	shi ke qi xi	101
 𧟮	xi nei ke na	101
 𧟯	xi tu ba ke je	101
 𧟯	xi tu ba je	101
@@ -89061,11 +89074,11 @@ use_preset_vocabulary: false
 𧣯	na gua xia jiao	101
 𧣰	jiao ke nei si ke	101
 𧣰	jiao ke nei ke	101
-𧣱	jiao yao gi yao	101
+𧣱	jiao ke qi yao	101
 𧣲	jiao ke ri yi	101
 𧣳	jiao gu	101
-𧣴	jiao yao gi yao gi	101
-𧣴	jiao yao gi gi	101
+𧣴	jiao ke qi ke qi	101
+𧣴	jiao ke qi qi	101
 𧣵	jiao jin nei cao	101
 𧣶	jiao me le nei ke so	101
 𧣶	jiao me le so	101
@@ -89168,8 +89181,8 @@ use_preset_vocabulary: false
 𧤾	jiao le gi fo	101
 𧤿	jiao ha er xiao pu	101
 𧤿	jiao ha er pu	101
-𧥀	yao gi fo ke fo ke jiao	101
-𧥀	yao gi fo jiao	101
+𧥀	ke qi fo ke fo ke jiao	101
+𧥀	ke qi fo jiao	101
 𧥁	jiao co he na xiang	101
 𧥁	jiao co he xiang	101
 𧥂	jiao xi xi ren xiao gi	101
@@ -89256,7 +89269,7 @@ use_preset_vocabulary: false
 𧥻	shao er wo	101
 𧥼	wo er yao	101
 𧥽	er ba wo	101
-𧥾	wo yao gi	101
+𧥾	wo ke qi	101
 𧥿	me shuai wo	101
 𧦀	wo vo vo	101
 𧦁	wo he gi he gi	101
@@ -89365,7 +89378,7 @@ use_preset_vocabulary: false
 𧧝	wo chang qi me he	101
 𧧝	wo chang qi he	101
 𧧞	zhao wo vo	101
-𧧟	wo shi yao gi	101
+𧧟	wo shi ke qi	101
 𧧠	wo xue xue	101
 𧧡	wo ba ren yao	101
 𧧢	wo wo je huang	101
@@ -89378,7 +89391,7 @@ use_preset_vocabulary: false
 𧧩	wo wo huo	101
 𧧪	wo xue na	101
 𧧫	wo go xia ke	101
-𧧬	shi yao gi wo	101
+𧧬	shi ke qi wo	101
 𧧭	wo wen qi me	101
 𧧮	wo wo je san	101
 𧧯	wo shang ke so	101
@@ -89469,7 +89482,7 @@ use_preset_vocabulary: false
 𧨸	wo nei gong ba	101
 𧨹	wo je le ke me shuai	101
 𧨹	wo je le shuai	101
-𧨺	liu yao gi wo	101
+𧨺	liu ke qi wo	101
 𧨻	li gong wo	101
 𧨼	wo hu nei ke wen	101
 𧨼	wo hu nei wen	101
@@ -89607,8 +89620,8 @@ use_preset_vocabulary: false
 𧪔	mu co co wo	101
 𧪕	wo gong me er gong vo	101
 𧪕	wo gong me vo	101
-𧪖	wo yao gi xia ke ba	101
-𧪖	wo yao gi ba	101
+𧪖	wo ke qi xia ke ba	101
+𧪖	wo ke qi ba	101
 𧪗	wo he shi ren ren nei	101
 𧪗	wo he shi nei	101
 𧪘	wo dao ke na xia ke	101
@@ -89834,8 +89847,8 @@ use_preset_vocabulary: false
 𧬡	wo he ren tu	101
 𧬢	wo ren ren ren ren ri	101
 𧬢	wo ren ren ri	101
-𧬣	liu yao gi ri wo	101
-𧬣	liu yao gi wo	101
+𧬣	liu ke qi ri wo	101
+𧬣	liu ke qi wo	101
 𧬤	wo liu ke jia er	101
 𧬤	wo liu ke er	101
 𧬥	wo shi quan ri er	101
@@ -90108,8 +90121,8 @@ use_preset_vocabulary: false
 𧮸	hu le he ke gu vo	101
 𧮸	hu le he vo	101
 𧮹	gu you ke je	101
-𧮺	gu yao gi yao gi	101
-𧮺	gu yao gi gi	101
+𧮺	gu ke qi ke qi	101
+𧮺	gu ke qi qi	101
 𧮻	gu nei tu fo	101
 𧮼	wo yi nei nei gu	101
 𧮼	wo yi nei gu	101
@@ -90182,8 +90195,8 @@ use_preset_vocabulary: false
 𧯣	tu ba ke ke	101
 𧯤	ke fo dao ke zhu me er	101
 𧯤	ke fo dao er	101
-𧯥	shi yao gi ke fo dao ke	101
-𧯥	shi yao gi ke	101
+𧯥	shi ke qi ke fo dao ke	101
+𧯥	shi ke qi ke	101
 𧯦	dao fu ke fo dao ke	101
 𧯦	dao fu ke ke	101
 𧯧	tu xue ke fo dao ke	101
@@ -90511,8 +90524,8 @@ use_preset_vocabulary: false
 𧲖	ke co liu bi	101
 𧲗	ke co zhu quan xia ke qing	101
 𧲗	ke co zhu qing	101
-𧲘	ke co hu ke fo dao ke yao gi	101
-𧲘	ke co hu gi	101
+𧲘	ke co hu ke fo dao ke ke qi	101
+𧲘	ke co hu qi	101
 𧲙	ke co yu fo fo fo	101
 𧲙	ke co yu fo	101
 𧲚	ke co ha li wo nei ba fo	101
@@ -90837,8 +90850,8 @@ use_preset_vocabulary: false
 𧵨	mu ba bao xo	101
 𧵩	ke nei pa mu ba	101
 𧵩	ke nei pa ba	101
-𧵪	mu ba yao gi co	101
-𧵪	mu ba yao co	101
+𧵪	mu ba ke qi co	101
+𧵪	mu ba ke co	101
 𧵫	mu ba me er	101
 𧵬	mu ba gua he je he gi	101
 𧵬	mu ba gua gi	101
@@ -90856,12 +90869,12 @@ use_preset_vocabulary: false
 𧵴	mu ba bao ke na	101
 𧵴	mu ba bao na	101
 𧵵	mu ba dao pa	101
-𧵶	mu ba yao gi er	101
-𧵶	mu ba yao er	101
+𧵶	mu ba ke qi er	101
+𧵶	mu ba ke er	101
 𧵷	mu ba san he vo	101
 𧵷	mu ba san vo	101
-𧵸	yao gi er mu ba	101
-𧵸	yao gi er ba	101
+𧵸	ke qi er mu ba	101
+𧵸	ke qi er ba	101
 𧵹	ke xue ren mu ba	101
 𧵹	ke xue ren ba	101
 𧵺	mu ba zhu	101
@@ -90898,8 +90911,8 @@ use_preset_vocabulary: false
 𧶋	mu ba ke je	101
 𧶌	shi bao ke ba mu ba	101
 𧶌	shi bao ke ba	101
-𧶍	mu ba yao gi yao	101
-𧶍	mu ba yao yao	101
+𧶍	mu ba ke qi yao	101
+𧶍	mu ba ke yao	101
 𧶎	bao xia ke je mu ba	101
 𧶎	bao xia ke ba	101
 𧶏	dai me gi fo mu ba	101
@@ -90907,8 +90920,8 @@ use_preset_vocabulary: false
 𧶐	tu ren ren mu ba	101
 𧶐	tu ren ren ba	101
 𧶑	ha mei mu ba	101
-𧶒	fo yao gi mu ba	101
-𧶒	fo yao gi ba	101
+𧶒	fo ke qi mu ba	101
+𧶒	fo ke qi ba	101
 𧶓	yao xia ke mu ba	101
 𧶓	yao xia ke ba	101
 𧶔	mu ba fo wang	101
@@ -90940,8 +90953,8 @@ use_preset_vocabulary: false
 𧶢	le gi er ba	101
 𧶣	li ke xia ke je gi mu ba	101
 𧶣	li ke xia ba	101
-𧶤	yao gi yao gi mu ba	101
-𧶤	yao gi yao ba	101
+𧶤	ke qi ke qi mu ba	101
+𧶤	ke qi ke ba	101
 𧶥	mu ba er qiao er qiao	101
 𧶥	mu ba er qiao	101
 𧶦	dao ren ren ren mu ba	101
@@ -91085,7 +91098,7 @@ use_preset_vocabulary: false
 𧷰	mu ba ri ba	101
 𧷱	xia ke mu ba shi vo pa	101
 𧷱	xia ke mu pa	101
-𧷲	mu ba shi yao gi chu	101
+𧷲	mu ba shi ke qi chu	101
 𧷲	mu ba shi chu	101
 𧷳	mu ba tian yao xiao	101
 𧷳	mu ba tian xiao	101
@@ -91176,8 +91189,8 @@ use_preset_vocabulary: false
 𧸞	chu fang wen ba	101
 𧸟	chu fang wen mu ba	101
 𧸟	chu fang wen ba	101
-𧸠	wo yi yao gi bi mu ba	101
-𧸠	wo yi yao ba	101
+𧸠	wo yi ke qi bi mu ba	101
+𧸠	wo yi ke ba	101
 𧸡	mu ba dao wang he na qi	101
 𧸡	mu ba dao qi	101
 𧸢	mu ba huo ke dao ke wei	101
@@ -91412,7 +91425,7 @@ use_preset_vocabulary: false
 𧺮	tu zu ba co	101
 𧺯	tu zu er shi	101
 𧺰	tu zu dai	101
-𧺱	tu zu yao gi	101
+𧺱	tu zu ke qi	101
 𧺲	tu zu bi bi	101
 𧺳	tu zu ke je le ke	101
 𧺳	tu zu ke ke	101
@@ -91721,7 +91734,7 @@ use_preset_vocabulary: false
 𧽩	shu dai jiao er cun tu zu	101
 𧽩	shu dai jiao zu	101
 𧽪	tu zu niao qo	101
-𧽫	tu zu fo yao gi ri	101
+𧽫	tu zu fo ke qi ri	101
 𧽫	tu zu fo ri	101
 𧽬	tu zu cao ke qing me gi	101
 𧽬	tu zu cao gi	101
@@ -91765,8 +91778,8 @@ use_preset_vocabulary: false
 𧾀	tu zu ren ren ren ren ri	101
 𧾀	tu zu ren ri	101
 𧾁	tu zu yao fei	101
-𧾂	tu zu shi zao yao gi	101
-𧾂	tu zu shi gi	101
+𧾂	tu zu shi zao ke qi	101
+𧾂	tu zu shi qi	101
 𧾃	tu zu dao ke huo ke ri	101
 𧾃	tu zu dao ri	101
 𧾄	tu zu li wo zhi	101
@@ -91820,7 +91833,7 @@ use_preset_vocabulary: false
 𧾜	tu zu tu zu	101
 𧾝	tu zu hu bao ke gu vo	101
 𧾝	tu zu hu vo	101
-𧾞	tu zu da yao gi fo wang	101
+𧾞	tu zu da ke qi fo wang	101
 𧾞	tu zu da wang	101
 𧾟	tu zu zhu li wo	101
 𧾟	tu zu zhu wo	101
@@ -91828,8 +91841,8 @@ use_preset_vocabulary: false
 𧾠	tu zu bao vo	101
 𧾡	tu zu guang jia er ba tu	101
 𧾡	tu zu guang tu	101
-𧾢	tu zu xiao li wo yao gi	101
-𧾢	tu zu xiao gi	101
+𧾢	tu zu xiao li wo ke qi	101
+𧾢	tu zu xiao qi	101
 𧾣	tu zu jiao nei ren mu wen	101
 𧾣	tu zu jiao wen	101
 𧾤	tu zu dai nei er bao la wen	101
@@ -92032,8 +92045,8 @@ use_preset_vocabulary: false
 𨀱	fo ma san he vo	101
 𨀱	fo ma san vo	101
 𨀲	qu fo zu	101
-𨀳	fo ma li yao gi	101
-𨀳	fo ma li gi	101
+𨀳	fo ma li ke qi	101
+𨀳	fo ma li qi	101
 𨀴	fo ma shao ri	101
 𨀵	fo ma guang tu	101
 𨀶	wo huo fo zu	101
@@ -92902,7 +92915,7 @@ use_preset_vocabulary: false
 𨈂	fo ma li wo vo li wo vo	101
 𨈂	fo ma li vo	101
 𨈃	fo ma zhen zhen	101
-𨈄	fo ma shi yao gi ma ren ren ke ren ren nei	101
+𨈄	fo ma shi ke qi ma ren ren ke ren ren nei	101
 𨈄	fo ma shi nei	101
 𨈅	fo ma cao jin fo fo fo nei cao	101
 𨈅	fo ma cao cao	101
@@ -92953,8 +92966,8 @@ use_preset_vocabulary: false
 𨈝	he qing ke wo	101
 𨈞	he qing ke he dan vo	101
 𨈞	he qing ke vo	101
-𨈟	he qing ke he yao gi	101
-𨈟	he qing ke gi	101
+𨈟	he qing ke he ke qi	101
+𨈟	he qing ke qi	101
 𨈠	he qing ke he yi yi	101
 𨈠	he qing ke yi	101
 𨈡	he qing ke he wen	101
@@ -93069,7 +93082,7 @@ use_preset_vocabulary: false
 𨉗	he qing ke gi	101
 𨉘	he qing ke he gua xia zhi	101
 𨉘	he qing ke zhi	101
-𨉙	he qing ke he yao gi dai	101
+𨉙	he qing ke he ke qi dai	101
 𨉙	he qing ke dai	101
 𨉚	he qing ke he da ri je	101
 𨉚	he qing ke je	101
@@ -93352,8 +93365,8 @@ use_preset_vocabulary: false
 𨌌	ke zao gua je	101
 𨌍	ke zao xin	101
 𨌎	ke zao jin pa	101
-𨌏	na yao gi ke zao	101
-𨌏	na yao gi zao	101
+𨌏	na ke qi ke zao	101
+𨌏	na ke qi zao	101
 𨌐	ke zao mai	101
 𨌑	ke zao chang er je dian	101
 𨌑	ke zao chang dian	101
@@ -93620,8 +93633,8 @@ use_preset_vocabulary: false
 𨎟	ke zao tian fo	101
 𨎠	tian wen fo ke zao	101
 𨎠	tian wen fo zao	101
-𨎡	ke zao wo go li yao gi	101
-𨎡	ke zao wo gi	101
+𨎡	ke zao wo go li ke qi	101
+𨎡	ke zao wo qi	101
 𨎢	ke zao le gi nei na la	101
 𨎢	ke zao le la	101
 𨎣	ke zao bao ba wen fo	101
@@ -93725,8 +93738,8 @@ use_preset_vocabulary: false
 𨏔	ke zao zo ba	101
 𨏕	ke zao cao wen san me zhi	101
 𨏕	ke zao cao zhi	101
-𨏖	ke zao ke zao yao gi yao gi	101
-𨏖	ke zao ke gi	101
+𨏖	ke zao ke zao ke qi ke qi	101
+𨏖	ke zao ke qi	101
 𨏗	ke zao jiao qo ri	101
 𨏗	ke zao jiao ri	101
 𨏘	ke zao gong qo mu ba	101
@@ -93797,7 +93810,7 @@ use_preset_vocabulary: false
 𨏸	ke zao wo xiao	101
 𨏹	ke zao mu mu li wo vo	101
 𨏹	ke zao mu vo	101
-𨏺	ke zao ke zao yao gi yao gi he yue	101
+𨏺	ke zao ke zao ke qi ke qi he yue	101
 𨏺	ke zao ke yue	101
 𨏻	ke zao shang fo min tu qo	101
 𨏻	ke zao shang qo	101
@@ -94804,8 +94817,8 @@ use_preset_vocabulary: false
 𨚲	quan me le er	101
 𨚳	wo je san er	101
 𨚴	xo fo er	101
-𨚵	shi yao gi fo mei je	101
-𨚵	shi yao gi je	101
+𨚵	shi ke qi fo mei je	101
+𨚵	shi ke qi je	101
 𨚶	nian er	101
 𨚷	jiao gi fo er	101
 𨚸	ke yao xiao er	101
@@ -94850,8 +94863,8 @@ use_preset_vocabulary: false
 𨛗	fo mei je er	101
 𨛘	he nong tu er	101
 𨛙	he san pa er	101
-𨛚	na yao gi fo mei je	101
-𨛚	na yao gi je	101
+𨛚	na ke qi fo mei je	101
+𨛚	na ke qi je	101
 𨛛	ke co fo mei je	101
 𨛛	ke co fo je	101
 𨛜	fo ke je me le fo mei je	101
@@ -95330,7 +95343,7 @@ use_preset_vocabulary: false
 𨟳	xi er gi yi	101
 𨟴	xi er shao er	101
 𨟵	xi er bi bi	101
-𨟶	yao gi xi er	101
+𨟶	ke qi xi er	101
 𨟷	xi er dai me gi	101
 𨟷	xi er dai gi	101
 𨟸	xi er shao er	101
@@ -95410,8 +95423,8 @@ use_preset_vocabulary: false
 𨠮	xi er shao nei	101
 𨠯	xi er wo yi nei	101
 𨠯	xi er wo nei	101
-𨠰	li yao gi xi er	101
-𨠰	li yao gi er	101
+𨠰	li ke qi xi er	101
+𨠰	li ke qi er	101
 𨠱	xi er wen er je	101
 𨠱	xi er wen je	101
 𨠲	xi er li he zo	101
@@ -95434,8 +95447,8 @@ use_preset_vocabulary: false
 𨠼	xi er bao pa	101
 𨠽	xi er chang le qi	101
 𨠽	xi er chang qi	101
-𨠾	na yao gi xi er	101
-𨠾	na yao gi er	101
+𨠾	na ke qi xi er	101
+𨠾	na ke qi er	101
 𨠿	xi er ke ren ren ren	101
 𨠿	xi er ke ren	101
 𨡀	xi er shang qing	101
@@ -96324,8 +96337,8 @@ use_preset_vocabulary: false
 𨪏	jin bing zhu da	101
 𨪐	jin le je ke je gong je ke shang	101
 𨪐	jin le je shang	101
-𨪑	jin yao gi yao gi dao	101
-𨪑	jin yao gi dao	101
+𨪑	jin ke qi ke qi dao	101
+𨪑	jin ke qi dao	101
 𨪒	jin fo ke je fo ke je	101
 𨪒	jin fo ke je	101
 𨪓	jin cao jiao gi fo	101
@@ -96347,8 +96360,8 @@ use_preset_vocabulary: false
 𨪞	jin guang le gi nei na	101
 𨪞	jin guang le na	101
 𨪟	jin wo fo shi	101
-𨪠	jin shi yao gi fang	101
-𨪠	jin shi yao fang	101
+𨪠	jin shi ke qi fang	101
+𨪠	jin shi ke fang	101
 𨪡	jin wo yi nei bi bi	101
 𨪡	jin wo yi bi	101
 𨪢	jin dao san so yao	101
@@ -96651,8 +96664,8 @@ use_preset_vocabulary: false
 𨭑	yao san wo jin	101
 𨭒	jin yue bao ba xia ke	101
 𨭒	jin yue bao ke	101
-𨭓	jin shi yao gi zo fo	101
-𨭓	jin shi yao fo	101
+𨭓	jin shi ke qi zo fo	101
+𨭓	jin shi ke fo	101
 𨭔	yao san yao xiao jin	101
 𨭔	yao san yao jin	101
 𨭕	jin jiao er le gi ke fo dao ke	101
@@ -96672,8 +96685,8 @@ use_preset_vocabulary: false
 𨭝	jin jiao xue wen qo	101
 𨭝	jin jiao xue qo	101
 𨭞	wo yue jin fan	101
-𨭟	jin yao gi ke ma qo	101
-𨭟	jin yao gi qo	101
+𨭟	jin ke qi ke ma qo	101
+𨭟	jin ke qi qo	101
 𨭠	jin ge gua xia	101
 𨭡	jin ka zhao jiu	101
 𨭢	jin liu ke qing quan	101
@@ -96698,14 +96711,14 @@ use_preset_vocabulary: false
 𨭬	jin cao ri nei	101
 𨭭	jin yu ren le gi	101
 𨭭	jin yu ren gi	101
-𨭮	jin yao gi yao gi min	101
-𨭮	jin yao gi min	101
+𨭮	jin ke qi ke qi min	101
+𨭮	jin ke qi min	101
 𨭯	jin cao ke fo ao le he	101
 𨭯	jin cao ke he	101
 𨭰	jin ke han fo wang	101
 𨭰	jin ke han wang	101
-𨭱	jin shi yao gi jia er	101
-𨭱	jin shi yao er	101
+𨭱	jin shi ke qi jia er	101
+𨭱	jin shi ke er	101
 𨭲	jin hu chang ri he ao	101
 𨭲	jin hu chang ao	101
 𨭳	jin fo fo me tong	101
@@ -96823,8 +96836,8 @@ use_preset_vocabulary: false
 𨮭	jin chang cao xia	101
 𨮮	jin dai nei er san nei san	101
 𨮮	jin dai nei san	101
-𨮯	jin da yao gi fo wang	101
-𨮯	jin da yao wang	101
+𨮯	jin da ke qi fo wang	101
+𨮯	jin da ke wang	101
 𨮰	jin zhu mu nong	101
 𨮱	jin zhu nei shi fo ke	101
 𨮱	jin zhu nei ke	101
@@ -96949,8 +96962,8 @@ use_preset_vocabulary: false
 𨯯	jin fo shang zhi	101
 𨯰	jin jiu yi yi jiu bao le na	101
 𨯰	jin jiu yi na	101
-𨯱	jin cao er nei dao ke shi yao gi	101
-𨯱	jin cao er gi	101
+𨯱	jin cao er nei dao ke shi ke qi	101
+𨯱	jin cao er qi	101
 𨯲	jin ke fo dao ke dai mu ba	101
 𨯲	jin ke fo ba	101
 𨯳	huo ke dao gan nei shu jin	101
@@ -97017,8 +97030,8 @@ use_preset_vocabulary: false
 𨰓	jin zhu er yue	101
 𨰔	jin bao fo er jin fo qo	101
 𨰔	jin bao fo qo	101
-𨰕	jin shi yao gi fo fei ke	101
-𨰕	jin shi yao ke	101
+𨰕	jin shi ke qi fo fei ke	101
+𨰕	jin shi ke ke	101
 𨰖	jin ke co ke co huo	101
 𨰖	jin ke co huo	101
 𨰗	jin cao ya zhu min	101
@@ -97342,7 +97355,7 @@ use_preset_vocabulary: false
 𨳬	er er xue he	101
 𨳭	er er he shang le	101
 𨳭	er er he le	101
-𨳮	er er yao gi	101
+𨳮	er er ke qi	101
 𨳯	er er he na	101
 𨳰	er er zhu shi	101
 𨳱	zhu shi er er	101
@@ -97484,8 +97497,8 @@ use_preset_vocabulary: false
 𨵈	er er fei	101
 𨵉	er er tu dao gan	101
 𨵉	er er tu gan	101
-𨵊	er er yao gi yao gi	101
-𨵊	er er yao gi	101
+𨵊	er er ke qi ke qi	101
+𨵊	er er ke qi	101
 𨵋	er er he pa xo	101
 𨵋	er er he xo	101
 𨵌	er er er ke fo me	101
@@ -98441,7 +98454,7 @@ use_preset_vocabulary: false
 𨾐	le shi li wo	101
 𨾑	le quan li wo	101
 𨾒	wo to li wo	101
-𨾓	yao gi li wo	101
+𨾓	ke qi li wo	101
 𨾔	fang li wo	101
 𨾕	le da li wo	101
 𨾖	ke ma li wo	101
@@ -98853,7 +98866,7 @@ use_preset_vocabulary: false
 𩂂	yu shao er	101
 𩂃	yu le da	101
 𩂄	yu ke nei je	101
-𩂅	yu yao gi	101
+𩂅	yu ke qi	101
 𩂆	yu dai me gi	101
 𩂇	yu ren le	101
 𩂈	yu la	101
@@ -98941,8 +98954,8 @@ use_preset_vocabulary: false
 𩃒	yu he shi gong ke	101
 𩃒	yu he shi ke	101
 𩃓	yu jiu je	101
-𩃔	yu ren ren yao gi	101
-𩃔	yu ren ren gi	101
+𩃔	yu ren ren ke qi	101
+𩃔	yu ren ren qi	101
 𩃕	yu shu dai pa	101
 𩃖	yu ke xue zu	101
 𩃗	yu da ri je	101
@@ -98957,8 +98970,8 @@ use_preset_vocabulary: false
 𩃟	yu ri gua xia	101
 𩃠	yu er yao nei	101
 𩃡	yu jiu jiu me	101
-𩃢	yu ren ren yao gi	101
-𩃢	yu ren ren gi	101
+𩃢	yu ren ren ke qi	101
+𩃢	yu ren ren qi	101
 𩃣	yu wo ren ren shi	101
 𩃣	yu wo ren shi	101
 𩃤	yu da ke fo me	101
@@ -99230,8 +99243,8 @@ use_preset_vocabulary: false
 𩆇	yu liu ke je	101
 𩆈	yu ren dao ke jiu je	101
 𩆈	yu ren dao je	101
-𩆉	yu ri ke huo yao gi	101
-𩆉	yu ri ke gi	101
+𩆉	yu ri ke huo ke qi	101
+𩆉	yu ri ke qi	101
 𩆊	yu dai nei er mian	101
 𩆊	yu dai nei mian	101
 𩆋	yu na jiao er zhu ha	101
@@ -99744,8 +99757,8 @@ use_preset_vocabulary: false
 𩋉	ge ke fo ke qi	101
 𩋉	ge ke fo qi	101
 𩋊	ge da ri je	101
-𩋋	ge yao gi yao gi	101
-𩋋	ge yao gi gi	101
+𩋋	ge ke qi ke qi	101
+𩋋	ge ke qi qi	101
 𩋌	ge ri shao er	101
 𩋍	ge li he dian je dian	101
 𩋍	ge li he dian	101
@@ -101560,7 +101573,7 @@ use_preset_vocabulary: false
 𩚤	ren ji qi	101
 𩚥	ren ji mei je	101
 𩚦	ren ji qi co	101
-𩚧	ren ji yao gi	101
+𩚧	ren ji ke qi	101
 𩚨	ren ji qiu	101
 𩚩	ren ji shi fo	101
 𩚪	ren ji er xiao	101
@@ -101988,7 +102001,7 @@ use_preset_vocabulary: false
 𩞟	shu dai zhao gen	101
 𩞠	er he li wo ren gen	101
 𩞠	er he li gen	101
-𩞡	ren ji liu yao gi ri	101
+𩞡	ren ji liu ke qi ri	101
 𩞡	ren ji liu ri	101
 𩞢	ren ji er quan xia ke qing	101
 𩞢	ren ji er qing	101
@@ -102079,8 +102092,8 @@ use_preset_vocabulary: false
 𩟍	ren ji nei pa	101
 𩟎	ren ji fo fo fo pa	101
 𩟎	ren ji fo pa	101
-𩟏	ren ji yao gi yao gi min	101
-𩟏	ren ji yao min	101
+𩟏	ren ji ke qi ke qi min	101
+𩟏	ren ji ke min	101
 𩟐	ren ji tu dao ke na zhi	101
 𩟐	ren ji tu zhi	101
 𩟑	ren ji ha ha ha ren qiao	101
@@ -102124,8 +102137,8 @@ use_preset_vocabulary: false
 𩟤	ren ji quan min	101
 𩟥	ren ji ha li wo me le nei	101
 𩟥	ren ji ha nei	101
-𩟦	ren ji xiao li wo yao gi	101
-𩟦	ren ji xiao gi	101
+𩟦	ren ji xiao li wo ke qi	101
+𩟦	ren ji xiao qi	101
 𩟧	ren ji he ri yao yao pa	101
 𩟧	ren ji he pa	101
 𩟨	nei tu fo gu ren gen	101
@@ -102398,7 +102411,7 @@ use_preset_vocabulary: false
 𩢂	vo vo ma qo	101
 𩢃	ma qo vo vo	101
 𩢄	ma qo er so	101
-𩢅	ma qo yao gi	101
+𩢅	ma qo ke qi	101
 𩢆	ma qo ro ke je	101
 𩢆	ma qo ro je	101
 𩢇	ma qo li vo	101
@@ -102601,8 +102614,8 @@ use_preset_vocabulary: false
 𩤈	ma qo gong ri	101
 𩤉	ma qo cao li bi	101
 𩤉	ma qo cao bi	101
-𩤊	ma qo yao gi yao gi	101
-𩤊	ma qo yao gi	101
+𩤊	ma qo ke qi ke qi	101
+𩤊	ma qo ke qi	101
 𩤋	ma qo ma pa	101
 𩤌	hu to ma qo	101
 𩤍	ma qo shao nei he nei he	101
@@ -102667,8 +102680,8 @@ use_preset_vocabulary: false
 𩤫	ma qo gong ke	101
 𩤬	ma qo ke fo nei fo	101
 𩤬	ma qo ke fo	101
-𩤭	ma qo yao gi jia	101
-𩤭	ma qo yao jia	101
+𩤭	ma qo ke qi jia	101
+𩤭	ma qo ke jia	101
 𩤮	ma qo le shang fo qi me	101
 𩤮	ma qo le me	101
 𩤯	cao nei da ma qo	101
@@ -102863,7 +102876,7 @@ use_preset_vocabulary: false
 𩦓	ma qo er kai	101
 𩦔	ma qo er er ke ro	101
 𩦔	ma qo er ro	101
-𩦕	ma qo shi yao gi fo dao ke	101
+𩦕	ma qo shi ke qi fo dao ke	101
 𩦕	ma qo shi ke	101
 𩦖	ma qo si si gong	101
 𩦖	ma qo si gong	101
@@ -102949,7 +102962,7 @@ use_preset_vocabulary: false
 𩦾	ma qo xi cun	101
 𩦿	ma qo bao mei mu ba	101
 𩦿	ma qo bao ba	101
-𩧀	ma qo da yao gi fo wang	101
+𩧀	ma qo da ke qi fo wang	101
 𩧀	ma qo da wang	101
 𩧁	ma qo ke han vo ren ren ren	101
 𩧁	ma qo ke ren	101
@@ -103356,8 +103369,8 @@ use_preset_vocabulary: false
 𩪹	gu qing jiu ba	101
 𩪺	gu qing ri yu er yao	101
 𩪺	gu qing ri yao	101
-𩪻	gu qing zhu mu li yao gi	101
-𩪻	gu qing zhu gi	101
+𩪻	gu qing zhu mu li ke qi	101
+𩪻	gu qing zhu qi	101
 𩪼	gu qing cao fo fo li wo	101
 𩪼	gu qing cao wo	101
 𩪽	gu qing yao yao ke yao yao je gua xia	101
@@ -103374,8 +103387,8 @@ use_preset_vocabulary: false
 𩫃	wo hui le na	101
 𩫄	wo nei fo er shi	101
 𩫄	wo nei fo shi	101
-𩫅	wo nei fo yao gi	101
-𩫅	wo nei fo gi	101
+𩫅	wo nei fo ke qi	101
+𩫅	wo nei fo qi	101
 𩫆	wo nei fo he nong	101
 𩫆	wo nei fo nong	101
 𩫇	dai me gi wo nei fo	101
@@ -103804,8 +103817,8 @@ use_preset_vocabulary: false
 𩯉	zhang san ri vo	101
 𩯊	zhang san da dao ri xiao	101
 𩯊	zhang san da xiao	101
-𩯋	zhang san shi zao yao gi	101
-𩯋	zhang san shi gi	101
+𩯋	zhang san shi zao ke qi	101
+𩯋	zhang san shi qi	101
 𩯌	zhang san le gi er gi gong shu	101
 𩯌	zhang san le shu	101
 𩯍	zhang san cao ke han vo	101
@@ -103876,8 +103889,8 @@ use_preset_vocabulary: false
 𩯮	zhang san ka cao ke ro he gi he gi	101
 𩯮	zhang san ka gi	101
 𩯯	zhang san mian mian	101
-𩯰	zhang san xiao li wo yao gi	101
-𩯰	zhang san xiao gi	101
+𩯰	zhang san xiao li wo ke qi	101
+𩯰	zhang san xiao qi	101
 𩯱	zhang san ri gong me shuai	101
 𩯱	zhang san ri shuai	101
 𩯲	zhang san san ren jiu la	101
@@ -103890,8 +103903,8 @@ use_preset_vocabulary: false
 𩯵	zhang san ren la	101
 𩯶	zhang san tu fei ke qi	101
 𩯶	zhang san tu qi	101
-𩯷	zhang san ha li wo yao gi	101
-𩯷	zhang san ha gi	101
+𩯷	zhang san ha li wo ke qi	101
+𩯷	zhang san ha qi	101
 𩯸	zhang san li ren ren ren ren dai xia ke	101
 𩯸	zhang san li ke	101
 𩯹	zhang san dai fo dai fo dai fo	101
@@ -103934,8 +103947,8 @@ use_preset_vocabulary: false
 𩰌	me wang wang le	101
 𩰍	me wang wang me gi xia	101
 𩰍	me wang wang xia	101
-𩰎	me wang wang me yao gi	101
-𩰎	me wang wang gi	101
+𩰎	me wang wang me ke qi	101
+𩰎	me wang wang qi	101
 𩰏	me wang wang me ba co	101
 𩰏	me wang wang co	101
 𩰐	me wang wang me ren xiao	101
@@ -103995,7 +104008,7 @@ use_preset_vocabulary: false
 𩰫	li qi me	101
 𩰬	ke fo qi me nei dao ke me	101
 𩰬	ke fo qi me	101
-𩰭	li yao gi	101
+𩰭	li ke qi	101
 𩰮	li er shi	101
 𩰯	li shi fo	101
 𩰰	li vo xia ke	101
@@ -104310,8 +104323,8 @@ use_preset_vocabulary: false
 𩳞	bei je yao gi	101
 𩳟	bei je yao ke co	101
 𩳟	bei je yao co	101
-𩳠	yao gi yao bei je yao	101
-𩳠	yao gi yao yao	101
+𩳠	ke qi yao bei je yao	101
+𩳠	ke qi yao yao	101
 𩳡	bei je yao zhao cun	101
 𩳡	bei je yao cun	101
 𩳢	bei je yao da ri je	101
@@ -104385,8 +104398,8 @@ use_preset_vocabulary: false
 𩴄	bei je yao cao	101
 𩴅	bei je yao san me co da	101
 𩴅	bei je yao da	101
-𩴆	yao yao yao gi bei je yao	101
-𩴆	yao yao yao yao	101
+𩴆	yao yao ke qi bei je yao	101
+𩴆	yao yao ke yao	101
 𩴇	bei je yao yi pa shu	101
 𩴇	bei je yao shu	101
 𩴈	mu wei bei je yao	101
@@ -105146,7 +105159,7 @@ use_preset_vocabulary: false
 𩻃	jiao qo ha bao er xiao	101
 𩻃	jiao qo ha xiao	101
 𩻄	jiao qo mu co	101
-𩻅	jiao qo shi yao gi huo ke	101
+𩻅	jiao qo shi ke qi huo ke	101
 𩻅	jiao qo shi ke	101
 𩻆	jiao qo dai nei er ren le gi	101
 𩻆	jiao qo dai gi	101
@@ -105579,7 +105592,7 @@ use_preset_vocabulary: false
 𩾵	quan je gi niao qo	101
 𩾵	quan je gi qo	101
 𩾶	niao qo nai gi	101
-𩾷	yao gi niao qo	101
+𩾷	ke qi niao qo	101
 𩾸	chang ren niao qo	101
 𩾹	li bi niao qo	101
 𩾺	er qiao niao qo	101
@@ -105616,7 +105629,7 @@ use_preset_vocabulary: false
 𩿗	le gi le me niao qo	101
 𩿗	le gi le qo	101
 𩿘	niao qo yao qi	101
-𩿙	niao qo yao gi	101
+𩿙	niao qo ke qi	101
 𩿚	niao qo er shi	101
 𩿛	quan niao qo	101
 𩿜	shi cao niao qo	101
@@ -106546,13 +106559,13 @@ use_preset_vocabulary: false
 𪇭	cao jiao er qo	101
 𪇮	guang jia er ba tu niao qo	101
 𪇮	guang jia er qo	101
-𪇯	xi xi ren san yao gi niao qo	101
+𪇯	xi xi ren san ke qi niao qo	101
 𪇯	xi xi ren qo	101
 𪇰	ri gong me shuai niao qo	101
 𪇰	ri gong me qo	101
 𪇱	he ri yao yao pa niao qo	101
 𪇱	he ri yao qo	101
-𪇲	xiao li wo yao gi niao qo	101
+𪇲	xiao li wo ke qi niao qo	101
 𪇲	xiao li wo qo	101
 𪇳	niao qo zhu chang fo qi	101
 𪇳	niao qo zhu qi	101
@@ -106594,8 +106607,8 @@ use_preset_vocabulary: false
 𪈅	zhu shao tu qo	101
 𪈆	cao mu bao mu niao qo	101
 𪈆	cao mu bao qo	101
-𪈇	jin yao gi yao gi niao qo	101
-𪈇	jin yao gi qo	101
+𪈇	jin ke qi ke qi niao qo	101
+𪈇	jin ke qi qo	101
 𪈈	ke fo pa dai mu ba niao qo	101
 𪈈	ke fo pa qo	101
 𪈉	nei san xiao he yao xiao niao qo	101
@@ -106634,7 +106647,7 @@ use_preset_vocabulary: false
 𪈙	niao qo cao xin	101
 𪈚	ri chu da dao pa niao qo	101
 𪈚	ri chu da qo	101
-𪈛	cao mu bao li yao gi niao qo	101
+𪈛	cao mu bao li ke qi niao qo	101
 𪈛	cao mu bao qo	101
 𪈜	yao san ri fo me xo niao qo	101
 𪈜	yao san ri qo	101
@@ -107384,8 +107397,8 @@ use_preset_vocabulary: false
 𪏈	cao ke ke ri	101
 𪏉	cao ke ke you ba bao zu	101
 𪏉	cao ke ke zu	101
-𪏊	cao ke ke you ba yao gi yao gi	101
-𪏊	cao ke ke gi	101
+𪏊	cao ke ke you ba ke qi ke qi	101
+𪏊	cao ke ke qi	101
 𪏋	cao ke ke you ba huo huo	101
 𪏋	cao ke ke huo	101
 𪏌	cao ke ke you ba li wo	101
@@ -108403,8 +108416,8 @@ use_preset_vocabulary: false
 𪗞	ma ren ren nong	101
 𪗟	ma ren ren ke ren ren nei qi	101
 𪗟	ma ren ren qi	101
-𪗠	ma ren ren ke ren ren nei yao gi	101
-𪗠	ma ren ren gi	101
+𪗠	ma ren ren ke ren ren nei ke qi	101
+𪗠	ma ren ren qi	101
 𪗡	ma ren ren ke ren ren nei pu	101
 𪗡	ma ren ren pu	101
 𪗢	ma ren ren ke ren ren nei gua me gi	101
@@ -108551,8 +108564,8 @@ use_preset_vocabulary: false
 𪘨	ma ren ren pa	101
 𪘩	ma ren ren ke ren ren nei nei he pa ke	101
 𪘩	ma ren ren ke	101
-𪘪	ma ren ren ke ren ren nei yao gi yao gi	101
-𪘪	ma ren ren gi	101
+𪘪	ma ren ren ke ren ren nei ke qi ke qi	101
+𪘪	ma ren ren qi	101
 𪘫	ma ren ren ke ren ren nei bao jiao er ke	101
 𪘫	ma ren ren ke	101
 𪘬	ma ren ren ke ren ren nei chang tu tu	101
@@ -108713,8 +108726,8 @@ use_preset_vocabulary: false
 𪙹	ma ren ren nei	101
 𪙺	ma ren ren ke ren ren nei chang cao ri nei	101
 𪙺	ma ren ren nei	101
-𪙻	ma ren ren ke ren ren nei xiao li wo yao gi	101
-𪙻	ma ren ren gi	101
+𪙻	ma ren ren ke ren ren nei xiao li wo ke qi	101
+𪙻	ma ren ren qi	101
 𪙼	li ren ren ren ren chang xia ke ma ren ren ke ren ren nei	101
 𪙼	li ren ren nei	101
 𪙽	ma ren ren ke ren ren nei chang he pa he pa ma	101
@@ -108920,7 +108933,7 @@ use_preset_vocabulary: false
 𪜉	fo me ke dao shi	101
 𪜉	fo me ke shi	101
 𪜊	gi le	101
-𪜋	wo tu yao	101
+𪜋	wo tu ke qi	101
 𪜌	nai ri	101
 𪜍	he shi he dian je dian	101
 𪜍	he shi he dian	101
@@ -109034,8 +109047,8 @@ use_preset_vocabulary: false
 𪝞	li dao ke min	101
 𪝟	li gong dian gong dian	101
 𪝟	li gong dian dian	101
-𪝠	li ke zao yao gi	101
-𪝠	li ke zao gi	101
+𪝠	li ke zao ke qi	101
+𪝠	li ke zao qi	101
 𪝡	li cao ri da	101
 𪝢	li mu wo he je dian	101
 𪝢	li mu wo dian	101
@@ -109765,7 +109778,7 @@ use_preset_vocabulary: false
 𪥂	da co	101
 𪥃	fu ke me	101
 𪥄	pa da	101
-𪥅	da yao gi	101
+𪥅	da ke qi	101
 𪥆	da ba vo	101
 𪥇	ke nei da	101
 𪥈	da ke dao shi	101
@@ -109938,15 +109951,15 @@ use_preset_vocabulary: false
 𪦴	xo zhu er ri	101
 𪦵	zhen zhen xo	101
 𪦶	le na shi vo	101
-𪦷	le na yao gi	101
+𪦷	le na ke qi	101
 𪦸	le na liu	101
 𪦹	le na wo yi	101
 𪦺	le na he ri	101
 𪦻	jin fo le na	101
 𪦼	le na he ri shao	101
 𪦼	le na he shao	101
-𪦽	gi go yao gi le na	101
-𪦽	gi go yao na	101
+𪦽	gi go ke qi le na	101
+𪦽	gi go ke na	101
 𪦾	le na cao ke ba	101
 𪦾	le na cao ba	101
 𪦿	le na ren gen	101
@@ -110018,8 +110031,8 @@ use_preset_vocabulary: false
 𪧬	bao xi er ha	101
 𪧭	bao liu ke pa gua xia	101
 𪧭	bao liu ke xia	101
-𪧮	bao le gi cai wen yao gi	101
-𪧮	bao le gi gi	101
+𪧮	bao le gi cai wen ke qi	101
+𪧮	bao le gi qi	101
 𪧯	bao zhu mu nong	101
 𪧰	bao ke fo tian quan qing	101
 𪧰	bao ke fo qing	101
@@ -110168,8 +110181,8 @@ use_preset_vocabulary: false
 𪩒	ha xi xi ke	101
 𪩓	ha cao ke gong shi	101
 𪩓	ha cao ke shi	101
-𪩔	ha dao ri shi yao gi	101
-𪩔	ha dao ri gi	101
+𪩔	ha dao ri shi ke qi	101
+𪩔	ha dao ri qi	101
 𪩕	ha le gi er gi gong shu	101
 𪩕	ha le gi shu	101
 𪩖	ha go le na le na le na	101
@@ -110186,8 +110199,8 @@ use_preset_vocabulary: false
 𪩜	ha yi yi yao	101
 𪩝	ha dao wang ke han vo	101
 𪩝	ha dao wang vo	101
-𪩞	ha jin yao gi yao gi	101
-𪩞	ha jin yao gi	101
+𪩞	ha jin ke qi ke qi	101
+𪩞	ha jin ke qi	101
 𪩟	ha ma ren ren ke ren ren nei zhu le	101
 𪩟	ha ma ren le	101
 𪩠	ha ke nei gi ke nei gi lu	101
@@ -110538,28 +110551,28 @@ use_preset_vocabulary: false
 𪭇	shu dao wang wo	101
 𪭈	shu mu ba mu ba li wo	101
 𪭈	shu mu ba wo	101
-𪭉	yao gi ke	101
-𪭊	yao gi le he	101
-𪭋	shi yao gi le na	101
-𪭋	shi yao gi na	101
-𪭌	yao gi min	101
-𪭍	gong yao gi	101
-𪭎	yao gi he tian	101
+𪭉	ke qi ke	101
+𪭊	ke qi le he	101
+𪭋	shi ke qi le na	101
+𪭋	shi ke qi na	101
+𪭌	ke qi min	101
+𪭍	gong ke qi	101
+𪭎	ke qi he tian	101
 𪭏	chang qi xia ke xo	101
 𪭏	chang qi xia xo	101
-𪭐	yao gi zhao le na	101
-𪭐	yao gi zhao na	101
-𪭑	yao gi nei me mu	101
-𪭑	yao gi nei mu	101
-𪭒	shi yao gi zhao le na	101
-𪭒	shi yao gi na	101
-𪭓	mu min yao gi	101
-𪭔	dai qing bao yao gi yao gi	101
-𪭔	dai qing bao gi	101
-𪭕	ka cao san ba je yao gi	101
-𪭕	ka cao san gi	101
-𪭖	je le wo gi mu ba yao gi	101
-𪭖	je le wo gi	101
+𪭐	ke qi zhao le na	101
+𪭐	ke qi zhao na	101
+𪭑	ke qi nei me mu	101
+𪭑	ke qi nei mu	101
+𪭒	shi ke qi zhao le na	101
+𪭒	shi ke qi na	101
+𪭓	mu min ke qi	101
+𪭔	dai qing bao ke qi ke qi	101
+𪭔	dai qing bao qi	101
+𪭕	ka cao san ba je ke qi	101
+𪭕	ka cao san qi	101
+𪭖	je le wo gi mu ba ke qi	101
+𪭖	je le wo qi	101
 𪭗	wo yao san yao san he na qi	101
 𪭗	wo yao san qi	101
 𪭘	gi go ke gong je	101
@@ -110567,8 +110580,8 @@ use_preset_vocabulary: false
 𪭙	gi go nei fo	101
 𪭚	gi go er na ke ba na	101
 𪭚	gi go er na	101
-𪭛	gi go yao gi wo fo zao	101
-𪭛	gi go yao zao	101
+𪭛	gi go ke qi wo fo zao	101
+𪭛	gi go ke zao	101
 𪭜	na jiao gi	101
 𪭝	na er dan	101
 𪭞	na he yao	101
@@ -110679,8 +110692,8 @@ use_preset_vocabulary: false
 𪮬	na zo fo fo	101
 𪮭	na tu zu jiao xiao	101
 𪮭	na tu zu xiao	101
-𪮮	na hu zao yao gi	101
-𪮮	na hu zao gi	101
+𪮮	na hu zao ke qi	101
+𪮮	na hu zao qi	101
 𪮯	na fo ke han jiao me	101
 𪮯	na fo ke me	101
 𪮰	na er er la	101
@@ -110943,7 +110956,7 @@ use_preset_vocabulary: false
 𪱛	xue he qing	101
 𪱜	yao fo yue	101
 𪱝	le me shuai qing	101
-𪱞	yao gi er qing	101
+𪱞	ke qi er qing	101
 𪱟	wang dao wang qing	101
 𪱠	yue ke huo vo	101
 𪱡	yue ren er xiao	101
@@ -111358,7 +111371,7 @@ use_preset_vocabulary: false
 𪵴	ka zhu ro	101
 𪵵	gi le shuai yue	101
 𪵶	ka ji le he	101
-𪵷	ka yao gi er	101
+𪵷	ka ke qi er	101
 𪵸	ka tu dan je	101
 𪵹	ka xia ke er	101
 𪵺	ka ma yi	101
@@ -111481,8 +111494,8 @@ use_preset_vocabulary: false
 𪷌	ka dai nei er dao qo	101
 𪷌	ka dai nei qo	101
 𪷍	ka ao qing jian	101
-𪷎	ka xia yao mu ba	101
-𪷎	ka xia yao ba	101
+𪷎	ka xia ke qi mu ba	101
+𪷎	ka xia ke ba	101
 𪷏	ka chang ke fo dao ke cun	101
 𪷏	ka chang ke cun	101
 𪷐	ka qi me he li wo	101
@@ -111567,8 +111580,8 @@ use_preset_vocabulary: false
 𪷹	liu ke ri me	101
 𪷺	ka cao ke ri yao la	101
 𪷺	ka cao ke la	101
-𪷻	ka jin yao gi yao gi	101
-𪷻	ka jin yao gi	101
+𪷻	ka jin ke qi ke qi	101
+𪷻	ka jin ke qi	101
 𪷼	ka jin da ke fo me	101
 𪷼	ka jin da me	101
 𪷽	ka he tu so he tu so nei ren	101
@@ -111646,8 +111659,8 @@ use_preset_vocabulary: false
 𪸴	huo da ke me	101
 𪸵	huo er ma je gi	101
 𪸵	huo er ma gi	101
-𪸶	huo yao gi yao gi	101
-𪸶	huo yao gi gi	101
+𪸶	huo ke qi ke qi	101
+𪸶	huo ke qi qi	101
 𪸷	huo tu ba tu	101
 𪸸	huo nei gong ba	101
 𪸹	huo mu san	101
@@ -111857,8 +111870,8 @@ use_preset_vocabulary: false
 𪺾	shao he chang tu tu	101
 𪺾	shao he chang tu	101
 𪺿	shao he er er	101
-𪻀	shao he ren ren yao gi	101
-𪻀	shao he ren gi	101
+𪻀	shao he ren ren ke qi	101
+𪻀	shao he ren qi	101
 𪻁	shao he dao ke huo ke	101
 𪻁	shao he dao ke	101
 𪻂	shao he gua shi mu	101
@@ -112081,8 +112094,8 @@ use_preset_vocabulary: false
 𪽗	go gi ke nei	101
 𪽘	tian tu ba tu	101
 𪽙	tian san ren na	101
-𪽚	ren ren yao gi tian	101
-𪽚	ren ren yao tian	101
+𪽚	ren ren ke qi tian	101
+𪽚	ren ren ke tian	101
 𪽛	go gong tian	101
 𪽜	tian gong me er shu	101
 𪽜	tian gong me shu	101
@@ -112615,8 +112628,8 @@ use_preset_vocabulary: false
 𫂮	zhu cao san ji	101
 𫂯	zhu wo yue fo yao fan	101
 𫂯	zhu wo yue fan	101
-𫂰	zhu shi yao gi wo fei ke	101
-𫂰	zhu shi yao ke	101
+𫂰	zhu shi ke qi wo fei ke	101
+𫂰	zhu shi ke ke	101
 𫂱	qiao dao pa	101
 𫂲	nai dao pa	101
 𫂳	ha dao pa	101
@@ -113280,8 +113293,8 @@ use_preset_vocabulary: false
 𫉍	cao ke ren wen	101
 𫉎	cao pa xia le ke fo	101
 𫉎	cao pa xia fo	101
-𫉏	cao yao gi fo mei je	101
-𫉏	cao yao gi je	101
+𫉏	cao ke qi fo mei je	101
+𫉏	cao ke qi je	101
 𫉐	cao mu bao fang	101
 𫉑	cao er er gan	101
 𫉒	cao shang fo ro	101
@@ -113570,8 +113583,8 @@ use_preset_vocabulary: false
 𫋶	ja dian co me	101
 𫋷	ja dian vo na	101
 𫋸	ja dian quan qing	101
-𫋹	ja dian yao ke so	101
-𫋹	ja dian yao so	101
+𫋹	ja dian ke qi ke so	101
+𫋹	ja dian ke so	101
 𫋺	ja dian he dian je dian	101
 𫋺	ja dian he dian	101
 𫋻	ja dian ren er yao	101
@@ -113718,8 +113731,8 @@ use_preset_vocabulary: false
 𫍒	wo bao je ba	101
 𫍓	wo liu ke he er ke xue huo	101
 𫍓	wo liu ke huo	101
-𫍔	wo hu ke fo dao ke yao gi	101
-𫍔	wo hu ke gi	101
+𫍔	wo hu ke fo dao ke ke qi	101
+𫍔	wo hu ke qi	101
 𫍕	wo ji zhu cao san ba	101
 𫍕	wo ji zhu ba	101
 𫍖	wo xi xi tian gong	101
@@ -113738,7 +113751,8 @@ use_preset_vocabulary: false
 𫍠	ja jiao gi le je	101
 𫍠	ja jiao gi je	101
 𫍡	ja ta	101
-𫍢	ja yao ke so	101
+𫍢	ja ke qi ke so	101
+𫍢	ja ke qi so	101
 𫍣	ja tong	101
 𫍤	ja yao qiao	101
 𫍥	ja he dian je dian	101
@@ -113974,7 +113988,7 @@ use_preset_vocabulary: false
 𫏱	he qing ke he jin min ri	101
 𫏱	he qing ke ri	101
 𫏲	ke zao er je	101
-𫏳	ke zao yao gi	101
+𫏳	ke zao ke qi	101
 𫏴	ke zao he ri	101
 𫏵	le me shuai ke zao	101
 𫏵	le me shuai zao	101
@@ -114142,8 +114156,8 @@ use_preset_vocabulary: false
 𫑞	zhao ke je gi er	101
 𫑞	zhao ke je er	101
 𫑟	wo er	101
-𫑠	yao gi yao gi er	101
-𫑠	yao gi yao er	101
+𫑠	ke qi ke qi er	101
+𫑠	ke qi ke er	101
 𫑡	fo ri je er	101
 𫑢	san he er fo me	101
 𫑢	san he er me	101
@@ -114341,12 +114355,12 @@ use_preset_vocabulary: false
 𫓢	jin xi xi gong	101
 𫓣	jin ri ri yao yao qo	101
 𫓣	jin ri ri qo	101
-𫓤	jin zhu yao gi fei ke	101
-𫓤	jin zhu yao ke	101
+𫓤	jin zhu ke qi fei ke	101
+𫓤	jin zhu ke ke	101
 𫓥	qi ba	101
 𫓦	qi le na	101
 𫓧	qi fu	101
-𫓨	qi yao gi	101
+𫓨	qi ke qi	101
 𫓩	qi ren ren	101
 𫓪	qi ba yao	101
 𫓫	qi ba ke je	101
@@ -115415,8 +115429,8 @@ use_preset_vocabulary: false
 𫞒	pa chang pa ri	101
 𫞓	ma he er xiao je he gi	101
 𫞓	ma he er gi	101
-𫞔	dai shi yao gi huo ke	101
-𫞔	dai shi yao ke	101
+𫞔	dai shi ke qi huo ke	101
+𫞔	dai shi ke ke	101
 𫞕	xue je gi	101
 𫞖	si ke je gi	101
 𫞗	ka gi nei wo yi	101
@@ -115514,8 +115528,8 @@ use_preset_vocabulary: false
 𫟔	cao ni bo	101
 𫟕	cao dao ri shi er	101
 𫟕	cao dao ri er	101
-𫟖	cao yao gi yao ya	101
-𫟖	cao yao gi ya	101
+𫟖	cao ke qi yao ya	101
+𫟖	cao ke qi ya	101
 𫟗	fo yao bao jiao er le gi er xiao	101
 𫟗	fo yao bao xiao	101
 𫟘	do er me le ke me fo ro	101
@@ -116714,8 +116728,8 @@ use_preset_vocabulary: false
 𫫵	fo go dao pa xo	101
 𫫵	fo go dao xo	101
 𫫶	fo na liu tian	101
-𫫷	fo yao gi yao gi min	101
-𫫷	fo yao gi min	101
+𫫷	fo ke qi ke qi min	101
+𫫷	fo ke qi min	101
 𫫸	ge li bi fo	101
 𫫹	ke da fo liu chang san	101
 𫫹	ke da fo san	101
@@ -116913,7 +116927,8 @@ use_preset_vocabulary: false
 𫭨	tu je he vo gi	101
 𫭨	tu je he gi	101
 𫭩	tu dan je tu	101
-𫭪	tu yao ke so	101
+𫭪	tu ke qi ke so	101
+𫭪	tu ke qi so	101
 𫭫	tu ke xia ke je gi	101
 𫭫	tu ke xia gi	101
 𫭬	hu jia er	101
@@ -117444,7 +117459,7 @@ use_preset_vocabulary: false
 𫳆	bao gong gong	101
 𫳇	bao xia fo shang	101
 𫳈	bao tu bao so	101
-𫳉	bao yao gi da	101
+𫳉	bao ke qi da	101
 𫳊	bao ma tu	101
 𫳋	bao he zo le gi	101
 𫳋	bao he zo gi	101
@@ -117887,8 +117902,8 @@ use_preset_vocabulary: false
 𫷡	yao yao ke yao er	101
 𫷡	yao yao ke er	101
 𫷢	dai mu yao yao	101
-𫷣	yao yao yao gi xo	101
-𫷣	yao yao yao xo	101
+𫷣	yao yao ke qi xo	101
+𫷣	yao yao ke xo	101
 𫷤	yao le he he er zhi	101
 𫷤	yao le he zhi	101
 𫷥	guang he le	101
@@ -118097,7 +118112,7 @@ use_preset_vocabulary: false
 𫹰	la gi nei	101
 𫹱	san la	101
 𫹲	ke je so la	101
-𫹳	yao gi la	101
+𫹳	ke qi la	101
 𫹴	shu er dan	101
 𫹵	er so la	101
 𫹶	shu xiao he	101
@@ -118230,8 +118245,8 @@ use_preset_vocabulary: false
 𫻒	nei fo shi hui ke la	101
 𫻒	nei fo shi la	101
 𫻓	wo pa pa la	101
-𫻔	shu mu ba yao gi yao gi	101
-𫻔	shu mu ba gi	101
+𫻔	shu mu ba ke qi ke qi	101
+𫻔	shu mu ba qi	101
 𫻕	mu yao qing bi bi la	101
 𫻕	mu yao qing la	101
 𫻖	shu hu tian qing	101
@@ -118265,60 +118280,60 @@ use_preset_vocabulary: false
 𫻤	shu wo yi ba	101
 𫻥	mu ge ma qo la	101
 𫻥	mu ge ma la	101
-𫻦	ke je yao gi	101
-𫻧	le he yao gi	101
-𫻨	yao gi da	101
-𫻩	yao gi san me	101
-𫻪	yao gi la	101
-𫻫	yao gi er xiao	101
-𫻬	mu yao gi	101
-𫻭	shi yao gi ke ro	101
-𫻭	shi yao gi ro	101
-𫻮	tu tu yao gi	101
-𫻯	yao gi rou	101
-𫻰	ren yao gi ren ren	101
-𫻰	ren yao gi ren	101
-𫻱	yao gi liu yi	101
-𫻲	na shuai gi yao gi	101
-𫻲	na shuai gi gi	101
-𫻳	yao gi da fo me	101
-𫻳	yao gi da me	101
-𫻴	hu me yao gi qing	101
-𫻴	hu me yao qing	101
-𫻵	he tu fo yao gi	101
-𫻵	he tu fo gi	101
-𫻶	yao gi shu dai fo	101
-𫻶	yao gi shu fo	101
-𫻷	shi quan ri yao gi	101
-𫻷	shi quan ri gi	101
+𫻦	ke je ke qi	101
+𫻧	le he ke qi	101
+𫻨	ke qi da	101
+𫻩	ke qi san me	101
+𫻪	ke qi la	101
+𫻫	ke qi er xiao	101
+𫻬	mu ke qi	101
+𫻭	shi ke qi ke ro	101
+𫻭	shi ke qi ro	101
+𫻮	tu tu ke qi	101
+𫻯	ke qi rou	101
+𫻰	ren ke qi ren ren	101
+𫻰	ren ke qi ren	101
+𫻱	ke qi liu yi	101
+𫻲	na shuai gi ke qi	101
+𫻲	na shuai gi qi	101
+𫻳	ke qi da fo me	101
+𫻳	ke qi da me	101
+𫻴	hu me ke qi qing	101
+𫻴	hu me ke qing	101
+𫻵	he tu fo ke qi	101
+𫻵	he tu fo qi	101
+𫻶	ke qi shu dai fo	101
+𫻶	ke qi shu fo	101
+𫻷	shi quan ri ke qi	101
+𫻷	shi quan ri qi	101
 𫻸	ke quan qi ke quan qi	101
 𫻸	ke quan qi qi	101
-𫻹	shang nei fo yao gi	101
-𫻹	shang nei fo gi	101
-𫻺	hu to yao gi	101
-𫻻	jiu so yao gi	101
-𫻼	yao gi li wo	101
+𫻹	shang nei fo ke qi	101
+𫻹	shang nei fo qi	101
+𫻺	hu to ke qi	101
+𫻻	jiu so ke qi	101
+𫻼	ke qi li wo	101
 𫻽	chang le qi nian	101
-𫻾	yao gi san tian	101
-𫻿	yao gi zo fo dao ke	101
-𫻿	yao gi zo ke	101
-𫼀	mu pu yao gi	101
-𫼁	ke qing me gi cun yao gi	101
-𫼁	ke qing me gi	101
-𫼂	yao shen er li yao gi	101
-𫼂	yao shen er gi	101
-𫼃	yao gi niao qo	101
-𫼄	ke nei pa ke nei pa yao gi	101
-𫼄	ke nei pa gi	101
-𫼅	zo fo dao ke fo yao gi	101
-𫼅	zo fo dao gi	101
-𫼆	huo ke dao ke fu yao gi	101
-𫼆	huo ke dao gi	101
-𫼇	yao gi mu mu ba	101
-𫼇	yao gi mu ba	101
-𫼈	xue xia ke fan cun yao gi	101
-𫼈	xue xia ke gi	101
-𫼉	gi go yao gi	101
+𫻾	ke qi san tian	101
+𫻿	ke qi zo fo dao ke	101
+𫻿	ke qi zo ke	101
+𫼀	mu pu ke qi	101
+𫼁	ke qing me gi cun ke qi	101
+𫼁	ke qing me qi	101
+𫼂	yao shen er li ke qi	101
+𫼂	yao shen er qi	101
+𫼃	ke qi niao qo	101
+𫼄	ke nei pa ke nei pa ke qi	101
+𫼄	ke nei pa qi	101
+𫼅	zo fo dao ke fo ke qi	101
+𫼅	zo fo dao qi	101
+𫼆	huo ke dao ke fu ke qi	101
+𫼆	huo ke dao qi	101
+𫼇	ke qi mu mu ba	101
+𫼇	ke qi mu ba	101
+𫼈	xue xia ke fan cun ke qi	101
+𫼈	xue xia ke qi	101
+𫼉	gi go ke qi	101
 𫼊	gua gong ri je	101
 𫼋	gua gong tu tu	101
 𫼌	gi go gong	101
@@ -118330,8 +118345,8 @@ use_preset_vocabulary: false
 𫼏	gi go shi ri	101
 𫼐	gi go nei san ba	101
 𫼐	gi go nei ba	101
-𫼑	gi go yao gi le na vo	101
-𫼑	gi go yao vo	101
+𫼑	gi go ke qi le na vo	101
+𫼑	gi go ke vo	101
 𫼒	gi go ka lu ke je qo tu yao	101
 𫼒	gi go ka yao	101
 𫼓	le na	101
@@ -118388,7 +118403,7 @@ use_preset_vocabulary: false
 𫽁	na dong shi zhi	101
 𫽂	na shi vo ba co	101
 𫽂	na shi vo co	101
-𫽃	na yao gi huo	101
+𫽃	na ke qi huo	101
 𫽄	na le me fo vo ke	101
 𫽄	na le me ke	101
 𫽅	na tu yao le he gi	101
@@ -118599,8 +118614,8 @@ use_preset_vocabulary: false
 𫿌	yao qing bi bi wen	101
 𫿌	yao qing bi wen	101
 𫿍	gong you ba wen	101
-𫿎	yao gi shu dai fo pu	101
-𫿎	yao gi shu pu	101
+𫿎	ke qi shu dai fo pu	101
+𫿎	ke qi shu pu	101
 𫿏	mu wo he je dian wen	101
 𫿏	mu wo he wen	101
 𫿐	ji wen gua gong gua xia	101
@@ -118692,7 +118707,7 @@ use_preset_vocabulary: false
 𬀀	fang zhu shu	101
 𬀁	fu fang ren	101
 𬀂	fang zhu ke ro	101
-𬀃	fang zhu yao gi	101
+𬀃	fang zhu ke qi	101
 𬀄	fang zhu gua me gi	101
 𬀄	fang zhu gua gi	101
 𬀅	fang zhu me shuai	101
@@ -118879,7 +118894,7 @@ use_preset_vocabulary: false
 𬂁	yue xue he fo	101
 𬂂	yue mu jiao gi	101
 𬂃	wo li wen qing	101
-𬂄	liu yao gi yue	101
+𬂄	liu ke qi yue	101
 𬂅	yue dao ri shi	101
 𬂆	gi ji yue jiao me	101
 𬂆	gi ji yue me	101
@@ -119585,8 +119600,8 @@ use_preset_vocabulary: false
 𬉇	ka xi xi ke dao da	101
 𬉇	ka xi xi da	101
 𬉈	ka yu wo ro	101
-𬉉	ka yao gi yao gi min	101
-𬉉	ka yao gi min	101
+𬉉	ka ke qi ke qi min	101
+𬉉	ka ke qi min	101
 𬉊	ka ke han fo wang	101
 𬉊	ka ke han wang	101
 𬉋	ka fo shang nei ren zhi	101
@@ -119633,8 +119648,8 @@ use_preset_vocabulary: false
 𬉠	ka cao gi pa	101
 𬉡	ka cao la la la	101
 𬉡	ka cao la la	101
-𬉢	ka fo fo ri shi yao gi	101
-𬉢	ka fo fo gi	101
+𬉢	ka fo fo ri shi ke qi	101
+𬉢	ka fo fo qi	101
 𬉣	ka ren ji jin pa	101
 𬉣	ka ren ji pa	101
 𬉤	ka zhu ma qo	101
@@ -119660,8 +119675,8 @@ use_preset_vocabulary: false
 𬉮	ka yu le he	101
 𬉯	zhu je le wo gi he yao xiao he ri me shuai	101
 𬉯	zhu je le shuai	101
-𬉰	ka yao gi yao gi qu chang er je dian	101
-𬉰	ka yao gi dian	101
+𬉰	ka ke qi ke qi qu chang er je dian	101
+𬉰	ka ke qi dian	101
 𬉱	jiao fo bi bi xi er he ri me shuai	101
 𬉱	jiao fo bi shuai	101
 𬉲	ka wo yao san yao san jin	101
@@ -119947,8 +119962,8 @@ use_preset_vocabulary: false
 𬌬	shao he quan ke	101
 𬌭	shao he si ke je	101
 𬌭	shao he si je	101
-𬌮	shao he yao ke so	101
-𬌮	shao he yao so	101
+𬌮	shao he ke qi ke so	101
+𬌮	shao he ke so	101
 𬌯	shao he ke han	101
 𬌰	quan gua he je he gi	101
 𬌰	quan gua he gi	101
@@ -120295,7 +120310,7 @@ use_preset_vocabulary: false
 𬐙	min le na	101
 𬐚	zhu fo min	101
 𬐛	ka to min	101
-𬐜	yao gi er min	101
+𬐜	ke qi er min	101
 𬐝	xia ke xia ke min	101
 𬐝	xia ke xia min	101
 𬐞	bao ke na min	101
@@ -120353,7 +120368,7 @@ use_preset_vocabulary: false
 𬐿	ri san dai min	101
 𬑀	fo fo quan fo fo min	101
 𬑀	fo fo quan min	101
-𬑁	hu ke fo dao ke yao gi min	101
+𬑁	hu ke fo dao ke ke qi min	101
 𬑁	hu ke fo min	101
 𬑂	gong dao pa xiong gong min	101
 𬑂	gong dao pa min	101
@@ -120374,7 +120389,8 @@ use_preset_vocabulary: false
 𬑏	mu vo xia ke	101
 𬑐	mu quan qing	101
 𬑑	mu lao	101
-𬑒	mu yao ke so	101
+𬑒	mu ke qi ke so	101
+𬑒	mu ke qi so	101
 𬑓	mu li bi shi	101
 𬑔	mu co	101
 𬑕	mu bao dong shi	101
@@ -120842,8 +120858,8 @@ use_preset_vocabulary: false
 𬕳	zhu ma qo me	101
 𬕴	zhu ke han you ke je	101
 𬕴	zhu ke han je	101
-𬕵	zhu yao gi fei ke	101
-𬕵	zhu yao gi ke	101
+𬕵	zhu ke qi fei ke	101
+𬕵	zhu ke qi ke	101
 𬕶	zhu nei tu fo li dian ke	101
 𬕶	zhu nei tu ke	101
 𬕷	zhu jin qing dao la	101
@@ -121245,8 +121261,8 @@ use_preset_vocabulary: false
 𬙡	nei yi yi cao san ba	101
 𬙡	nei yi yi ba	101
 𬙢	mu ri shao er	101
-𬙣	mu gi go yao gi	101
-𬙣	mu gi go gi	101
+𬙣	mu gi go ke qi	101
+𬙣	mu gi go qi	101
 𬙤	mu na ke qing me gi	101
 𬙤	mu na ke gi	101
 𬙥	mu he qing ke he cun	101
@@ -121304,8 +121320,8 @@ use_preset_vocabulary: false
 𬚀	xue he fo fei	101
 𬚁	dao ke na dao ke fo zhao jiu	101
 𬚁	dao ke na jiu	101
-𬚂	dao ke na le tu mu ba yao gi yao gi	101
-𬚂	dao ke na gi	101
+𬚂	dao ke na le tu mu ba ke qi ke qi	101
+𬚂	dao ke na qi	101
 𬚃	xi xi fo zu	101
 𬚄	xue me qiao ba xi xi	101
 𬚄	xue me qiao xi	101
@@ -121700,8 +121716,8 @@ use_preset_vocabulary: false
 𬝺	cao bi er bo	101
 𬝻	cao dai fo wo he je dian	101
 𬝻	cao dai fo dian	101
-𬝼	cao yao gi cao ke ro	101
-𬝼	cao yao gi ro	101
+𬝼	cao ke qi cao ke ro	101
+𬝼	cao ke qi ro	101
 𬝽	cao wang he pa nai	101
 𬝽	cao wang he nai	101
 𬝾	cao shang fo tu	101
@@ -121753,8 +121769,8 @@ use_preset_vocabulary: false
 𬞙	cao yao xiao ri	101
 𬞚	cao dai fo wo ren ren shi	101
 𬞚	cao dai fo shi	101
-𬞛	cao shi yao gi wo	101
-𬞛	cao shi yao wo	101
+𬞛	cao shi ke qi wo	101
+𬞛	cao shi ke wo	101
 𬞜	cao ri ju qo	101
 𬞝	cao mu tu ba tu	101
 𬞝	cao mu tu tu	101
@@ -121795,8 +121811,8 @@ use_preset_vocabulary: false
 𬞯	cao ri ma wen	101
 𬞰	cao me ri dao pa xo	101
 𬞰	cao me ri xo	101
-𬞱	cao mu yao gi mu	101
-𬞱	cao mu yao mu	101
+𬞱	cao mu ke qi mu	101
+𬞱	cao mu ke mu	101
 𬞲	cao hu huo ke er je	101
 𬞲	cao hu huo je	101
 𬞳	cao yue ba fu xiao gi	101
@@ -122043,8 +122059,8 @@ use_preset_vocabulary: false
 𬠻	fo yao mu wo	101
 𬠼	dai dao he min	101
 𬠽	do er me gi	101
-𬠾	do er me yao gi	101
-𬠾	do er me gi	101
+𬠾	do er me ke qi	101
+𬠾	do er me qi	101
 𬠿	do er me ma	101
 𬡀	do er me ren zhao fo	101
 𬡀	do er me fo	101
@@ -123126,8 +123142,8 @@ use_preset_vocabulary: false
 𬫡	jin le me fo vo ke	101
 𬫡	jin le me ke	101
 𬫢	jin ke na min	101
-𬫣	jin yao gi san me	101
-𬫣	jin yao gi me	101
+𬫣	jin ke qi san me	101
+𬫣	jin ke qi me	101
 𬫤	jin mu shi je	101
 𬫥	jin he pa le na	101
 𬫥	jin he pa na	101
@@ -123169,8 +123185,8 @@ use_preset_vocabulary: false
 𬫽	jin fang zhu dian	101
 𬫾	jin yao da me shuai	101
 𬫾	jin yao da shuai	101
-𬫿	jin dai mu yao gi	101
-𬫿	jin dai mu gi	101
+𬫿	jin dai mu ke qi	101
+𬫿	jin dai mu qi	101
 𬬀	jin ha nei dao ke ha	101
 𬬀	jin ha nei ha	101
 𬬁	jin he pa dao he na	101
@@ -123194,8 +123210,8 @@ use_preset_vocabulary: false
 𬬊	jin jiao er qo	101
 𬬋	jin shi ren ren ke hui	101
 𬬋	jin shi ren hui	101
-𬬌	jin yao gi yao gi ben	101
-𬬌	jin yao gi ben	101
+𬬌	jin ke qi ke qi ben	101
+𬬌	jin ke qi ben	101
 𬬍	jin pa ri ke shao er	101
 𬬍	jin pa ri er	101
 𬬎	jin nei tu fo li dian ke	101
@@ -123637,8 +123653,8 @@ use_preset_vocabulary: false
 𬰩	ge cao shao pa	101
 𬰪	le shang fo qi me ke ro	101
 𬰪	le shang fo ro	101
-𬰫	shi yao gi le shang fo qi me	101
-𬰫	shi yao gi me	101
+𬰫	shi ke qi le shang fo qi me	101
+𬰫	shi ke qi me	101
 𬰬	le shang fo qi me shang xia	101
 𬰬	le shang fo xia	101
 𬰭	le shang fo qi me fo ro	101
@@ -123814,8 +123830,8 @@ use_preset_vocabulary: false
 𬲌	ren ji ke ro	101
 𬲍	ren ji ba co	101
 𬲎	ren ji yao qi	101
-𬲏	shi yao gi ren gen	101
-𬲏	shi yao gi gen	101
+𬲏	shi ke qi ren gen	101
+𬲏	shi ke qi gen	101
 𬲐	ren ji chang le qi	101
 𬲐	ren ji chang qi	101
 𬲑	ren ji he le ri	101
@@ -123835,8 +123851,8 @@ use_preset_vocabulary: false
 𬲘	ren ji xi xo	101
 𬲙	ren ji dao wang nong	101
 𬲙	ren ji dao nong	101
-𬲚	ren ji dai mu yao gi	101
-𬲚	ren ji dai gi	101
+𬲚	ren ji dai mu ke qi	101
+𬲚	ren ji dai qi	101
 𬲛	ren ji cao san ba gua xia	101
 𬲛	ren ji cao xia	101
 𬲜	ren ji shang fo qi me he	101
@@ -123923,8 +123939,8 @@ use_preset_vocabulary: false
 𬳌	jiao je he quan	101
 𬳍	jiao je guang xue me fo	101
 𬳍	jiao je guang fo	101
-𬳎	jiao je dai mu yao gi	101
-𬳎	jiao je dai gi	101
+𬳎	jiao je dai mu ke qi	101
+𬳎	jiao je dai qi	101
 𬳏	jiao je cao ke nei ren ren	101
 𬳏	jiao je cao ren	101
 𬳐	jiao je ha bao er xiao	101
@@ -124023,8 +124039,8 @@ use_preset_vocabulary: false
 𬴉	ma da dao xiao	101
 𬴊	ma dao pa jiao gi qi me	101
 𬴊	ma dao pa me	101
-𬴋	ma shi yao gi fo wang	101
-𬴋	ma shi yao wang	101
+𬴋	ma shi ke qi fo wang	101
+𬴋	ma shi ke wang	101
 𬴌	ma cao bao er co	101
 𬴌	ma cao bao co	101
 𬴍	ma lu qo	101
@@ -124076,8 +124092,8 @@ use_preset_vocabulary: false
 𬴦	wo er er fo er er xia fang zhu fo wang	101
 𬴦	wo er er wang	101
 𬴧	zhang san kai	101
-𬴨	zhang san yao ke so	101
-𬴨	zhang san yao so	101
+𬴨	zhang san ke qi ke so	101
+𬴨	zhang san ke so	101
 𬴩	zhang san bao he je dian	101
 𬴩	zhang san bao dian	101
 𬴪	zhang san bao pa	101
@@ -124335,7 +124351,7 @@ use_preset_vocabulary: false
 𬶾	niao qo cun	101
 𬶿	gong niao qo	101
 𬷀	niao qo quan vo	101
-𬷁	yao gi niao qo	101
+𬷁	ke qi niao qo	101
 𬷂	yi shi niao qo	101
 𬷃	he shang le niao qo	101
 𬷃	he shang le qo	101
@@ -124381,8 +124397,8 @@ use_preset_vocabulary: false
 𬷝	da er xiao niao qo	101
 𬷝	da er xiao qo	101
 𬷞	pa pa niao qo	101
-𬷟	niao qo yao gi yao gi	101
-𬷟	niao qo yao gi	101
+𬷟	niao qo ke qi ke qi	101
+𬷟	niao qo ke qi	101
 𬷠	jiao er pa niao qo	101
 𬷠	jiao er pa qo	101
 𬷡	bao er niao qo	101
@@ -124858,7 +124874,7 @@ use_preset_vocabulary: false
 𬼛	gi le gi le	101
 𬼜	jiao dan je	101
 𬼝	tu yao le	101
-𬼞	yao xue	101
+𬼞	ke qi xue	101
 𬼟	zhu fo le	101
 𬼠	zhu le zhu le	101
 𬼡	he dao na je	101
@@ -124920,7 +124936,7 @@ use_preset_vocabulary: false
 𬽌	wo cao pa	101
 𬽍	wo shi shi shi nei	101
 𬽍	wo shi shi nei	101
-𬽎	wo bao yao gi	101
+𬽎	wo bao ke qi	101
 𬽏	wo nei da he je he gi	101
 𬽏	wo nei da gi	101
 𬽐	wo fo fo wo je	101
@@ -125496,7 +125512,7 @@ use_preset_vocabulary: false
 𭃚	he ao ren	101
 𭃛	co yi pa	101
 𭃜	li quan co	101
-𭃝	co li yao gi	101
+𭃝	co li ke qi	101
 𭃞	jiao gi fo dao	101
 𭃟	jin fo co	101
 𭃠	co liu yi	101
@@ -125803,7 +125819,7 @@ use_preset_vocabulary: false
 𭆤	yao yao yao shuai	101
 𭆥	le vo	101
 𭆦	vo shang	101
-𭆧	yao gi vo	101
+𭆧	ke qi vo	101
 𭆨	vo ma	101
 𭆩	vo quan me tu	101
 𭆪	me shen vo	101
@@ -125866,7 +125882,7 @@ use_preset_vocabulary: false
 𭇜	fo je he vo gi	101
 𭇜	fo je he gi	101
 𭇝	ha fo bi	101
-𭇞	fo yao gi dao	101
+𭇞	fo ke qi dao	101
 𭇟	fo dai bi	101
 𭇠	zo fo dan je	101
 𭇡	fo da cun	101
@@ -126366,7 +126382,7 @@ use_preset_vocabulary: false
 𭌑	fo bi er ba	101
 𭌒	fo bi he pa dai mu ba	101
 𭌒	fo bi he ba	101
-𭌓	fo fo ri shi yao gi fo	101
+𭌓	fo fo ri shi ke qi fo	101
 𭌓	fo fo ri fo	101
 𭌔	me fo ren chang le ke han wen	101
 𭌔	me fo ren wen	101
@@ -126515,7 +126531,7 @@ use_preset_vocabulary: false
 𭍟	nei ke ka xia ke	101
 𭍟	nei ke ka ke	101
 𭍠	ao hui	101
-𭍡	hui yao gi	101
+𭍡	hui ke qi	101
 𭍢	nei ke shao he wang	101
 𭍢	nei ke shao wang	101
 𭍣	nei ke jiao gi fang	101
@@ -126932,8 +126948,8 @@ use_preset_vocabulary: false
 𭑼	xo fo pa	101
 𭑽	xo gi nei la	101
 𭑾	xo kai san	101
-𭑿	yao he ba xo gi	101
-𭑿	yao he ba gi	101
+𭑿	ke qi he ba xo gi	101
+𭑿	ke qi he gi	101
 𭒀	qi me he wen xo	101
 𭒀	qi me he xo	101
 𭒁	wang wang xo	101
@@ -127188,7 +127204,7 @@ use_preset_vocabulary: false
 𭔟	bao wang wang ba	101
 𭔠	bao san me fo bao ba xia ke	101
 𭔠	bao san me ke	101
-𭔡	bao he shi yao gi fei	101
+𭔡	bao he shi ke qi fei	101
 𭔡	bao he shi fei	101
 𭔢	bao pa er xiao mu so	101
 𭔢	bao pa er so	101
@@ -127495,8 +127511,8 @@ use_preset_vocabulary: false
 𭗰	ha dian bi zu	101
 𭗱	er quan xia ke qing zhi ha	101
 𭗱	er quan xia ha	101
-𭗲	ha hu ke fo dao ke yao gi	101
-𭗲	ha hu ke gi	101
+𭗲	ha hu ke fo dao ke ke qi	101
+𭗲	ha hu ke qi	101
 𭗳	ha cao er xin	101
 𭗴	ha jiao qo dao ke na	101
 𭗴	ha jiao qo na	101
@@ -128001,8 +128017,8 @@ use_preset_vocabulary: false
 𭝜	bao ba na la	101
 𭝝	le ke fo zo la	101
 𭝝	le ke fo la	101
-𭝞	shu le da yao gi	101
-𭝞	shu le da gi	101
+𭝞	shu le da ke qi	101
+𭝞	shu le da qi	101
 𭝟	shu go shi fo	101
 𭝠	shi ren ren ren xiao gi	101
 𭝠	shi ren ren gi	101
@@ -128247,31 +128263,31 @@ use_preset_vocabulary: false
 𭟬	shu zhu liu bi	101
 𭟭	shu cao mu bao le gi er gi ke fo dao ke	101
 𭟭	shu cao mu ke	101
-𭟮	yao gi ke	101
-𭟯	tu yao gi	101
-𭟰	yao gi ma	101
-𭟱	dao chang yao gi	101
-𭟲	ren ren yao gi	101
-𭟳	nei fo yao gi	101
-𭟴	yao gi shang ri	101
-𭟵	yao gi jiao	101
+𭟮	ke qi ke	101
+𭟯	tu ke qi	101
+𭟰	ke qi ma	101
+𭟱	dao chang ke qi	101
+𭟲	ren ren ke qi	101
+𭟳	nei fo ke qi	101
+𭟴	ke qi shang ri	101
+𭟵	ke qi jiao	101
 𭟶	fo je qing je he gi	101
 𭟶	fo je qing gi	101
-𭟷	le gi le gi er xiao yao gi	101
-𭟷	le gi le gi	101
+𭟷	le gi le gi er xiao ke qi	101
+𭟷	le gi le qi	101
 𭟸	ke je er xiao chang qi ren	101
 𭟸	ke je er ren	101
-𭟹	dao yao gi dian me er	101
-𭟹	dao yao gi er	101
-𭟺	ke yao yao yao gi ri	101
+𭟹	dao ke qi dian me er	101
+𭟹	dao ke qi er	101
+𭟺	ke yao yao ke qi ri	101
 𭟺	ke yao yao ri	101
-𭟻	yao gi fo ke fo he tu	101
-𭟻	yao gi fo tu	101
-𭟼	hu qiu yao gi	101
-𭟽	dao ke na dao ke fo yao gi	101
-𭟽	dao ke na gi	101
-𭟾	xia xue he ke fo dao ke yao gi	101
-𭟾	xia xue he gi	101
+𭟻	ke qi fo ke fo he tu	101
+𭟻	ke qi fo tu	101
+𭟼	hu qiu ke qi	101
+𭟽	dao ke na dao ke fo ke qi	101
+𭟽	dao ke na qi	101
+𭟾	xia xue he ke fo dao ke ke qi	101
+𭟾	xia xue he qi	101
 𭟿	gua gong le	101
 𭠀	gua gong xia ke	101
 𭠁	gi go liu	101
@@ -128292,8 +128308,7 @@ use_preset_vocabulary: false
 𭠋	gi go xi pa	101
 𭠌	gi go nei cao xi da si zhi	101
 𭠌	gi go nei zhi	101
-𭠍	yao	101
-𭠍	m m yao	101
+𭠍	ke qi	101
 𭠎	na vo	101
 𭠏	na xia	101
 𭠐	na yao je	101
@@ -128319,7 +128334,7 @@ use_preset_vocabulary: false
 𭠢	na ke me er yao	101
 𭠢	na ke me yao	101
 𭠣	na ke nei tu	101
-𭠤	na yao gi dao	101
+𭠤	na ke qi dao	101
 𭠥	na quan qing	101
 𭠦	na da gan	101
 𭠧	dai dao na	101
@@ -128337,7 +128352,7 @@ use_preset_vocabulary: false
 𭠲	na er ke ke	101
 𭠳	na shi xiong	101
 𭠴	na wang nong	101
-𭠵	na yao gi yao	101
+𭠵	na ke qi yao	101
 𭠶	na zo la	101
 𭠷	na bi bi tu	101
 𭠸	na san he cun	101
@@ -129044,7 +129059,7 @@ use_preset_vocabulary: false
 𭨚	jiao gi me gi ri	101
 𭨚	jiao gi me ri	101
 𭨛	qu ren le	101
-𭨜	qu yao gi	101
+𭨜	qu ke qi	101
 𭨝	ri shao er gua xia	101
 𭨝	ri shao er xia	101
 𭨞	wang dao wang ri	101
@@ -129074,17 +129089,17 @@ use_preset_vocabulary: false
 𭨲	yue ri le me	101
 𭨳	yue wo he je dian	101
 𭨳	yue wo he dian	101
-𭨴	yue yao gi gong	101
-𭨵	yue yao gi xia ke	101
-𭨵	yue yao gi ke	101
+𭨴	yue ke qi gong	101
+𭨵	yue ke qi xia ke	101
+𭨵	yue ke qi ke	101
 𭨶	yue er vo tu	101
 𭨷	yue gua xia fo	101
 𭨸	yue li ke fo me	101
 𭨸	yue li ke me	101
 𭨹	yue er ma je gi	101
 𭨹	yue er ma gi	101
-𭨺	yue yao gi ke fo	101
-𭨺	yue yao gi fo	101
+𭨺	yue ke qi ke fo	101
+𭨺	yue ke qi fo	101
 𭨻	yue ren gan fo	101
 𭨼	gi go qing mei je	101
 𭨼	gi go qing je	101
@@ -129406,8 +129421,8 @@ use_preset_vocabulary: false
 𭬎	pa wo er wo	101
 𭬏	yao san ke qing me gi pa	101
 𭬏	yao san ke pa	101
-𭬐	pa bi bi he ri yao gi	101
-𭬐	pa bi bi gi	101
+𭬐	pa bi bi he ri ke qi	101
+𭬐	pa bi bi qi	101
 𭬑	pa wen pa da na	101
 𭬑	pa wen pa na	101
 𭬒	pa chang pa pa ma	101
@@ -129457,8 +129472,8 @@ use_preset_vocabulary: false
 𭬨	pa zo bao shu	101
 𭬩	pa cao fo fo ri shi	101
 𭬩	pa cao fo shi	101
-𭬪	pa fo fo ri shi yao gi	101
-𭬪	pa fo fo gi	101
+𭬪	pa fo fo ri shi ke qi	101
+𭬪	pa fo fo qi	101
 𭬫	fo fo li mu ke ba pa	101
 𭬫	fo fo li pa	101
 𭬬	pa zhu xia ke fan pa	101
@@ -129547,8 +129562,8 @@ use_preset_vocabulary: false
 𭭡	cao san ma	101
 𭭢	ma xia le ke fo	101
 𭭢	ma xia le fo	101
-𭭣	ke ma li yao gi	101
-𭭣	ke ma li gi	101
+𭭣	ke ma li ke qi	101
+𭭣	ke ma li qi	101
 𭭤	ma fo zu	101
 𭭥	ma dao ke na gi	101
 𭭥	ma dao ke gi	101
@@ -129832,7 +129847,7 @@ use_preset_vocabulary: false
 𭰣	dao san ren shuai	101
 𭰤	ka er fang	101
 𭰥	ka vo niao	101
-𭰦	ka tu yao gi	101
+𭰦	ka tu ke qi	101
 𭰧	ka wen yue	101
 𭰨	ka ke gong je si	101
 𭰨	ka ke gong si	101
@@ -130491,8 +130506,8 @@ use_preset_vocabulary: false
 𭷌	he shang le you	101
 𭷍	mu shao fo yao he shang le	101
 𭷍	mu shao fo le	101
-𭷎	he shang le zhu yao gi yao gi	101
-𭷎	he shang le gi	101
+𭷎	he shang le zhu ke qi ke qi	101
+𭷎	he shang le qi	101
 𭷏	qi me he wo yi	101
 𭷏	qi me he yi	101
 𭷐	qi me he fo ke je	101
@@ -130864,7 +130879,7 @@ use_preset_vocabulary: false
 𭺽	ri me he	101
 𭺾	jia gong	101
 𭺿	tian quan vo	101
-𭻀	tian yao gi	101
+𭻀	tian ke qi	101
 𭻁	tian shi vo	101
 𭻂	xiao he tian	101
 𭻃	tian ba co	101
@@ -131011,17 +131026,17 @@ use_preset_vocabulary: false
 𭼣	bing wen san me zhi	101
 𭼣	bing wen san zhi	101
 𭼤	bing ja dian pi	101
-𭼥	bing ka yao gi yao gi	101
-𭼥	bing ka yao gi	101
+𭼥	bing ka ke qi ke qi	101
+𭼥	bing ka ke qi	101
 𭼦	bing le gi er gi fo yao	101
 𭼦	bing le gi yao	101
-𭼧	bing yao yao yao gi je	101
+𭼧	bing yao yao ke qi je	101
 𭼧	bing yao yao je	101
-𭼨	bing dai yao gi yao gi	101
-𭼨	bing dai yao gi	101
+𭼨	bing dai ke qi ke qi	101
+𭼨	bing dai ke qi	101
 𭼩	bing ri qing quan	101
-𭼪	bing ri qing yao gi	101
-𭼪	bing ri qing gi	101
+𭼪	bing ri qing ke qi	101
+𭼪	bing ri qing qi	101
 𭼫	bing li wo pa	101
 𭼬	bing zhao me ri wen	101
 𭼬	bing zhao me wen	101
@@ -131209,7 +131224,7 @@ use_preset_vocabulary: false
 𭾩	he shi quan mu	101
 𭾪	mu yao je dian	101
 𭾫	mu ri qi	101
-𭾬	mu li yao gi	101
+𭾬	mu li ke qi	101
 𭾭	na mu he le	101
 𭾮	mu nian	101
 𭾯	mu jiao chang le je	101
@@ -131650,8 +131665,8 @@ use_preset_vocabulary: false
 𮂩	ja gi mu wo	101
 𮂪	ja gi jiao fo je xue ke je mu gi	101
 𮂪	ja gi jiao gi	101
-𮂫	er xiao zhu mu bao li yao gi	101
-𮂫	er xiao zhu gi	101
+𮂫	er xiao zhu mu bao li ke qi	101
+𮂫	er xiao zhu qi	101
 𮂬	ha yi nei nei	101
 𮂭	ri nei zhu san ke qo	101
 𮂭	ri nei zhu qo	101
@@ -132034,8 +132049,8 @@ use_preset_vocabulary: false
 𮆖	zhu dai nei wen	101
 𮆗	zhu me zhu me cao ka wen fo	101
 𮆗	zhu me zhu fo	101
-𮆘	zhu mu bao li yao gi	101
-𮆘	zhu mu bao gi	101
+𮆘	zhu mu bao li ke qi	101
+𮆘	zhu mu bao qi	101
 𮆙	zhu mu ke fo he je dian	101
 𮆙	zhu mu ke dian	101
 𮆚	zhu zhu ha he yao xiao	101
@@ -132549,8 +132564,8 @@ use_preset_vocabulary: false
 𮋄	ke ren ren xi	101
 𮋅	ya vo xi xi	101
 𮋆	pa ri xi xi	101
-𮋇	yao gi yao gi xi xi	101
-𮋇	yao gi yao xi	101
+𮋇	ke qi ke qi xi xi	101
+𮋇	ke qi ke xi	101
 𮋈	wo le na xi xi	101
 𮋈	wo le na xi	101
 𮋉	he ri san me xi xi	101
@@ -132766,11 +132781,11 @@ use_preset_vocabulary: false
 𮍍	nei le gong vo	101
 𮍎	ke shu dai ya	101
 𮍏	chang qi ya	101
-𮍐	yao gi shu dai nei le gong	101
-𮍐	yao gi shu gong	101
+𮍐	ke qi shu dai nei le gong	101
+𮍐	ke qi shu gong	101
 𮍑	ya zhu da fo	101
-𮍒	gi yao gi dian me ya	101
-𮍒	gi yao gi ya	101
+𮍒	gi ke qi dian me ya	101
+𮍒	gi ke qi ya	101
 𮍓	ya ri xi xi	101
 𮍔	he mu ba co	101
 𮍕	he mu gua me gi	101
@@ -132957,7 +132972,7 @@ use_preset_vocabulary: false
 𮏋	cao bao ba vo	101
 𮏌	cao wo yao da	101
 𮏍	cao ka mei je	101
-𮏎	cao bao yao gi	101
+𮏎	cao bao ke qi	101
 𮏏	cao ba ren tu	101
 𮏐	cao shao gong	101
 𮏑	cao bao jiao gi bi	101
@@ -133044,8 +133059,8 @@ use_preset_vocabulary: false
 𮐆	cao ke na dao	101
 𮐇	cao ke tian ke fo	101
 𮐇	cao ke tian fo	101
-𮐈	cao shi yao gi fang	101
-𮐈	cao shi yao fang	101
+𮐈	cao shi ke qi fang	101
+𮐈	cao shi ke fang	101
 𮐉	cao na yao zhu da	101
 𮐉	cao na yao da	101
 𮐊	cao mu si ke je	101
@@ -133135,10 +133150,10 @@ use_preset_vocabulary: false
 𮐹	cao le me qo	101
 𮐺	cao chang qi le gi min	101
 𮐺	cao chang qi min	101
-𮐻	cao yao gi dian me er	101
-𮐻	cao yao gi er	101
-𮐼	cao yao gi dian me nei le gong	101
-𮐼	cao yao gi gong	101
+𮐻	cao ke qi dian me er	101
+𮐻	cao ke qi er	101
+𮐼	cao ke qi dian me nei le gong	101
+𮐼	cao ke qi gong	101
 𮐽	cao shi fo ren le fo	101
 𮐽	cao shi fo fo	101
 𮐾	cao dai bi fo dao ke	101
@@ -133646,8 +133661,8 @@ use_preset_vocabulary: false
 𮕐	fo yao li fo	101
 𮕑	yao yao tian fo yao fo yao	101
 𮕑	yao yao tian yao	101
-𮕒	fo yao jin yao gi yao gi	101
-𮕒	fo yao jin gi	101
+𮕒	fo yao jin ke qi ke qi	101
+𮕒	fo yao jin qi	101
 𮕓	fo yao cao ka ke qing me gi cun	101
 𮕓	fo yao cao cun	101
 𮕔	min tu hu fo qo fo yao	101
@@ -134043,8 +134058,8 @@ use_preset_vocabulary: false
 𮙃	wo xiao he qo	101
 𮙄	wo jin pa tu la	101
 𮙄	wo jin pa la	101
-𮙅	wo hu huo ke yao gi	101
-𮙅	wo hu huo gi	101
+𮙅	wo hu huo ke ke qi	101
+𮙅	wo hu huo qi	101
 𮙆	wo wo gong wo	101
 𮙇	wo liu ke qing bi	101
 𮙇	wo liu ke bi	101
@@ -134095,7 +134110,7 @@ use_preset_vocabulary: false
 𮙤	ke co dai me gi mu so	101
 𮙤	ke co dai so	101
 𮙥	zhao co dian	101
-𮙦	zhao co yao gi	101
+𮙦	zhao co ke qi	101
 𮙧	zhao co bao to	101
 𮙨	zhao co li cun	101
 𮙩	zhao co bao to	101
@@ -134131,8 +134146,8 @@ use_preset_vocabulary: false
 𮚀	mu ba si je	101
 𮚁	wo yi qiao mu ba	101
 𮚁	wo yi qiao ba	101
-𮚂	shi yao gi mu ba	101
-𮚂	shi yao gi ba	101
+𮚂	shi ke qi mu ba	101
+𮚂	shi ke qi ba	101
 𮚃	ren zhao mu ba	101
 𮚄	mu ba yao xiao	101
 𮚅	ke dao pa mu ba	101
@@ -135019,8 +135034,8 @@ use_preset_vocabulary: false
 𮢥	jin wo yi wen	101
 𮢦	jin le zu qing	101
 𮢧	jin vo mu ba	101
-𮢨	jin shi yao gi wang	101
-𮢨	jin shi yao wang	101
+𮢨	jin shi ke qi wang	101
+𮢨	jin shi ke wang	101
 𮢩	jin dai mu wen	101
 𮢪	jin nei dao ke ha dao	101
 𮢪	jin nei dao dao	101
@@ -135054,16 +135069,16 @@ use_preset_vocabulary: false
 𮢼	jin ba ba min	101
 𮢽	jin cao bao wang gi	101
 𮢽	jin cao bao gi	101
-𮢾	jin shi yao gi fo xia ke	101
-𮢾	jin shi yao ke	101
+𮢾	jin shi ke qi fo xia ke	101
+𮢾	jin shi ke ke	101
 𮢿	jin liu ke ri qi	101
 𮢿	jin liu ke qi	101
 𮣀	jin ke go yu	101
 𮣁	jin ma dao pa nei	101
 𮣁	jin ma dao nei	101
 𮣂	gong qing wen jin	101
-𮣃	jin hu zao yao gi	101
-𮣃	jin hu zao gi	101
+𮣃	jin hu zao ke qi	101
+𮣃	jin hu zao qi	101
 𮣄	he tu so he tu so jin	101
 𮣄	he tu so jin	101
 𮣅	jin jiao er le gi mu ba	101
@@ -135478,7 +135493,7 @@ use_preset_vocabulary: false
 𮧄	fei er yao	101
 𮧅	fei tian	101
 𮧆	fei nei da	101
-𮧇	shi yao gi fei	101
+𮧇	shi ke qi fei	101
 𮧈	he tu fo fei cao nei da	101
 𮧈	he tu fo da	101
 𮧉	dai nei er san xia	101
@@ -136184,7 +136199,7 @@ use_preset_vocabulary: false
 𮭚	xi xi wo qo	101
 𮭛	huo huo bao niao qo pi	101
 𮭛	huo huo bao pi	101
-𮭜	xiao li wo yao gi niao qo	101
+𮭜	xiao li wo ke qi niao qo	101
 𮭜	xiao li wo qo	101
 𮭝	zhu shao tu dao gan niao qo	101
 𮭝	zhu shao tu qo	101
@@ -136501,7 +136516,7 @@ use_preset_vocabulary: false
 𰀼	le yao fo	101
 𰀽	xi le	101
 𰀾	xi je	101
-𰀿	li yao gi le	101
+𰀿	li ke qi le	101
 𰁀	le dao kai	101
 𰁁	tu zu le	101
 𰁂	nei san le he le	101
@@ -136540,8 +136555,8 @@ use_preset_vocabulary: false
 𰁘	ke tu shao ke	101
 𰁙	er ro ren ren ren ren	101
 𰁙	er ro ren ren	101
-𰁚	ke cao ke li yao gi	101
-𰁚	ke cao ke gi	101
+𰁚	ke cao ke li ke qi	101
+𰁚	ke cao ke qi	101
 𰁛	er yao ri mu vo	101
 𰁛	er yao ri vo	101
 𰁜	wo huo	101
@@ -137089,7 +137104,7 @@ use_preset_vocabulary: false
 𰇡	fo er ke zhu le	101
 𰇡	fo er ke le	101
 𰇢	fo vo pa	101
-𰇣	fo vo yao gi	101
+𰇣	fo vo ke qi	101
 𰇤	dai fo fo bi	101
 𰇥	fo ke jiao zhi	101
 𰇦	fo tu ke nei je	101
@@ -137416,7 +137431,7 @@ use_preset_vocabulary: false
 𰊿	yao tu dao tu	101
 𰋀	tu yao yao ke qi	101
 𰋀	tu yao yao qi	101
-𰋁	dai nei er bao yao gi er shi tu	101
+𰋁	dai nei er bao ke qi er shi tu	101
 𰋁	dai nei er tu	101
 𰋂	tu cao wo yao wang shu vo	101
 𰋂	tu cao wo vo	101
@@ -137721,7 +137736,8 @@ use_preset_vocabulary: false
 𰎑	ha huo ke	101
 𰎒	ha he ri	101
 𰎓	ha yao le he	101
-𰎔	ha yao ke so	101
+𰎔	ha ke qi ke so	101
+𰎔	ha ke qi so	101
 𰎕	ke me ha mei je	101
 𰎕	ke me ha je	101
 𰎖	ha nei ren dao	101
@@ -137796,7 +137812,7 @@ use_preset_vocabulary: false
 𰏆	san tian bao nei na	101
 𰏆	san tian bao na	101
 𰏇	quan xia ke le	101
-𰏈	xia ke yao gi	101
+𰏈	xia ke ke qi	101
 𰏉	xia ke ke je he le	101
 𰏉	xia ke ke le	101
 𰏊	xia ke quan yao	101
@@ -138080,8 +138096,8 @@ use_preset_vocabulary: false
 𰒓	shu le ma huang	101
 𰒔	shu ao mu ba le he	101
 𰒔	shu ao mu he	101
-𰒕	shu tian ke je dian yao gi	101
-𰒕	shu tian ke gi	101
+𰒕	shu tian ke je dian ke qi	101
+𰒕	shu tian ke qi	101
 𰒖	zhao co dai nei ren la	101
 𰒖	zhao co dai la	101
 𰒗	shu shi xiong shi xiong	101
@@ -138108,30 +138124,30 @@ use_preset_vocabulary: false
 𰒢	shu zhu mu qi	101
 𰒣	bao fo fo li wo la	101
 𰒣	bao fo fo la	101
-𰒤	dai me gi yao gi	101
-𰒤	dai me gi gi	101
-𰒥	yao gi yao gi	101
-𰒦	yao gi wen er	101
-𰒧	yao gi jiao gi vo	101
-𰒧	yao gi jiao vo	101
-𰒨	yao yao gi ren	101
-𰒩	yao gi zao	101
-𰒪	ke fo dao ke yao gi	101
-𰒪	ke fo dao gi	101
-𰒫	yao gi ke nei je ri	101
-𰒫	yao gi ke ri	101
-𰒬	hu fo ren ren yao gi	101
-𰒬	hu fo ren gi	101
-𰒭	yao gi mu ba dao	101
-𰒭	yao gi mu dao	101
+𰒤	dai me gi ke qi	101
+𰒤	dai me gi qi	101
+𰒥	ke qi ke qi	101
+𰒦	ke qi wen er	101
+𰒧	ke qi jiao gi vo	101
+𰒧	ke qi jiao vo	101
+𰒨	yao ke qi ren	101
+𰒩	ke qi zao	101
+𰒪	ke fo dao ke ke qi	101
+𰒪	ke fo dao qi	101
+𰒫	ke qi ke nei je ri	101
+𰒫	ke qi ke ri	101
+𰒬	hu fo ren ren ke qi	101
+𰒬	hu fo ren qi	101
+𰒭	ke qi mu ba dao	101
+𰒭	ke qi mu dao	101
 𰒮	chang gi qi ke fo pa	101
 𰒮	chang gi qi pa	101
-𰒯	ke je huo huo yao gi	101
-𰒯	ke je huo gi	101
-𰒰	liu nei shi fo yao gi	101
-𰒰	liu nei shi gi	101
-𰒱	san ri pa yao gi	101
-𰒱	san ri pa gi	101
+𰒯	ke je huo huo ke qi	101
+𰒯	ke je huo qi	101
+𰒰	liu nei shi fo ke qi	101
+𰒰	liu nei shi qi	101
+𰒱	san ri pa ke qi	101
+𰒱	san ri pa qi	101
 𰒲	ke fo ke qi ke fo ke qi	101
 𰒲	ke fo ke qi	101
 𰒳	chang gi qi zhao yao da	101
@@ -138154,7 +138170,7 @@ use_preset_vocabulary: false
 𰒿	na ke so je	101
 𰓀	na ke yao	101
 𰓁	na bi bi	101
-𰓂	na yao gi	101
+𰓂	na ke qi	101
 𰓃	na quan vo	101
 𰓄	na zhang	101
 𰓅	xue je na	101
@@ -138180,7 +138196,7 @@ use_preset_vocabulary: false
 𰓙	chang quan na	101
 𰓚	na quan me le na	101
 𰓚	na quan me na	101
-𰓛	yao gi dao na	101
+𰓛	ke qi dao na	101
 𰓜	na cao dan	101
 𰓝	na dao ke ro	101
 𰓞	na he yue	101
@@ -138561,7 +138577,7 @@ use_preset_vocabulary: false
 𰗧	hu nei gong pa	101
 𰗨	pa ri cun	101
 𰗩	ri pa me	101
-𰗪	fo yao gi pa	101
+𰗪	fo ke qi pa	101
 𰗫	pa fo le tu	101
 𰗬	pa he shi zhi	101
 𰗭	wo le gi cai pa	101
@@ -138635,8 +138651,8 @@ use_preset_vocabulary: false
 𰘙	pa ke je yao	101
 𰘚	pa pa ke dao pa	101
 𰘚	pa pa ke pa	101
-𰘛	pa mu ba yao gi	101
-𰘛	pa mu ba gi	101
+𰘛	pa mu ba ke qi	101
+𰘛	pa mu ba qi	101
 𰘜	pa tian wen fo	101
 𰘝	pa ba co mu ba	101
 𰘝	pa ba co ba	101
@@ -138757,7 +138773,7 @@ use_preset_vocabulary: false
 𰙣	ma si ke je	101
 𰙤	ke ma ke ma	101
 𰙥	ma bi fan	101
-𰙦	shi yao gi ma	101
+𰙦	shi ke qi ma	101
 𰙧	fo fo ma	101
 𰙨	xue tu ma	101
 𰙩	ren ren ma	101
@@ -139250,8 +139266,8 @@ use_preset_vocabulary: false
 𰞽	pa le me shuai qo	101
 𰞽	pa le me qo	101
 𰞾	huo cao quan fo	101
-𰞿	hu fo yao gi qo	101
-𰞿	hu fo yao qo	101
+𰞿	hu fo ke qi qo	101
+𰞿	hu fo ke qo	101
 𰟀	nei er mu qo	101
 𰟁	huo li wo	101
 𰟂	huo shao si qo	101
@@ -139441,8 +139457,8 @@ use_preset_vocabulary: false
 𰠲	he na vo xia ke	101
 𰠲	he na vo ke	101
 𰠳	he na wo tu	101
-𰠴	he na yao ke so	101
-𰠴	he na yao so	101
+𰠴	he na ke qi ke so	101
+𰠴	he na ke so	101
 𰠵	he na gi gen	101
 𰠶	he na shao jiao gi cun	101
 𰠶	he na shao cun	101
@@ -139535,7 +139551,7 @@ use_preset_vocabulary: false
 𰡬	shao he dao zao	101
 𰡭	wang he le	101
 𰡮	wang dao	101
-𰡯	wang yao gi	101
+𰡯	wang ke qi	101
 𰡰	wang dong shi	101
 𰡱	wang nei	101
 𰡲	wo yi wang gi	101
@@ -139922,8 +139938,8 @@ use_preset_vocabulary: false
 𰦋	mu zhu mu qi	101
 𰦌	zhen zhen zhen	101
 𰦍	le gi cai gi	101
-𰦎	yao gi le gi cai	101
-𰦎	yao gi le cai	101
+𰦎	ke qi le gi cai	101
+𰦎	ke qi le cai	101
 𰦏	le gi cai ke je san gi	101
 𰦏	le gi cai gi	101
 𰦐	le gi cai ma bi	101
@@ -140096,8 +140112,8 @@ use_preset_vocabulary: false
 𰧶	er xiao ke gi	101
 𰧷	er xiao ke gong ren	101
 𰧷	er xiao ke ren	101
-𰧸	shi yao gi er xiao	101
-𰧸	shi yao gi xiao	101
+𰧸	shi ke qi er xiao	101
+𰧸	shi ke qi xiao	101
 𰧹	er xiao xo fo	101
 𰧺	er xiao jiao gi jiao gi	101
 𰧺	er xiao jiao gi	101
@@ -140344,8 +140360,8 @@ use_preset_vocabulary: false
 𰪏	zhu dong shi wen fo	101
 𰪏	zhu dong shi fo	101
 𰪐	zhu jin le he	101
-𰪑	zhu li yao gi nei yi	101
-𰪑	zhu li yao yi	101
+𰪑	zhu li ke qi nei yi	101
+𰪑	zhu li ke yi	101
 𰪒	liu ke zhu quan bi gi	101
 𰪒	liu ke zhu gi	101
 𰪓	zhu bao ke ke co	101
@@ -140758,7 +140774,8 @@ use_preset_vocabulary: false
 𰮚	yue nai xiao	101
 𰮛	rou he ao	101
 𰮜	rou yao fo	101
-𰮝	yue yao ke so	101
+𰮝	yue ke qi ke so	101
+𰮝	yue ke qi so	101
 𰮞	rou da qi me	101
 𰮟	yue da qi me	101
 𰮠	yue yi quan yao	101
@@ -140767,7 +140784,7 @@ use_preset_vocabulary: false
 𰮣	rou jiao mei je	101
 𰮤	yue dao fu	101
 𰮥	yue tu tu je	101
-𰮦	yue tu yao gi	101
+𰮦	yue tu ke qi	101
 𰮧	nei ren ren xia le ke fo	101
 𰮧	nei ren ren fo	101
 𰮨	xiao vo nei rou	101
@@ -140981,7 +140998,7 @@ use_preset_vocabulary: false
 𰰰	cao shao he le je	101
 𰰰	cao shao he je	101
 𰰱	cao vo cun	101
-𰰲	cao yao gi dao	101
+𰰲	cao ke qi dao	101
 𰰳	cao dao ke ro	101
 𰰴	cao ha ji	101
 𰰵	cao yi pa	101
@@ -141135,7 +141152,7 @@ use_preset_vocabulary: false
 𰲛	hu to fo	101
 𰲜	hu to ke so	101
 𰲝	gua hu ro	101
-𰲞	hu to yao gi	101
+𰲞	hu to ke qi	101
 𰲟	hu to wu	101
 𰲠	er qi hu to	101
 𰲡	hu nei san vo	101
@@ -141574,8 +141591,8 @@ use_preset_vocabulary: false
 𰷋	mu ba gong kai	101
 𰷌	shi cao fo shang mu ba	101
 𰷌	shi cao fo ba	101
-𰷍	yao gi shu dai fo mu ba	101
-𰷍	yao gi shu ba	101
+𰷍	ke qi shu dai fo mu ba	101
+𰷍	ke qi shu ba	101
 𰷎	zo mei shu mu ba	101
 𰷎	zo mei shu ba	101
 𰷏	mu ba ke yao tu shang vo	101
@@ -141645,8 +141662,8 @@ use_preset_vocabulary: false
 𰷲	tu zu he le	101
 𰷳	yao zu nei san	101
 𰷴	tu zu liu xiao	101
-𰷵	tu zu yao ke so	101
-𰷵	tu zu yao so	101
+𰷵	tu zu ke qi ke so	101
+𰷵	tu zu ke so	101
 𰷶	tu zu yao qiao	101
 𰷷	tu zu co	101
 𰷸	tu zu shi le er da	101
@@ -141965,7 +141982,8 @@ use_preset_vocabulary: false
 𰺴	ke so je zhi	101
 𰺵	san zu ma	101
 𰺶	gua zhi	101
-𰺷	yao ke so zhi	101
+𰺷	ke qi ke so zhi	101
+𰺷	ke qi ke zhi	101
 𰺸	na he qi zhi	101
 𰺹	nei cai ke zhi	101
 𰺺	gua he je he gi zhi	101
@@ -142092,7 +142110,7 @@ use_preset_vocabulary: false
 𰼋	xi er cao bao le he	101
 𰼋	xi er cao he	101
 𰼌	xi er fei	101
-𰼍	dao xi er yao gi yao	101
+𰼍	dao xi er ke qi yao	101
 𰼍	dao xi er yao	101
 𰼎	xi er yao ba shang vo	101
 𰼎	xi er yao vo	101
@@ -142150,7 +142168,7 @@ use_preset_vocabulary: false
 𰼲	jin shao tian	101
 𰼳	jin jin shang ke	101
 𰼴	jin le na er	101
-𰼵	dai yao gi jin	101
+𰼵	dai ke qi jin	101
 𰼶	ke nei pa dao jin	101
 𰼶	ke nei pa jin	101
 𰼷	na liu ke jin	101
@@ -142541,10 +142559,10 @@ use_preset_vocabulary: false
 𱀺	er fo ma fo	101
 𱀻	er cao li wo vo	101
 𱀻	er cao li vo	101
-𱀼	er hu huo ke yao gi	101
-𱀼	er hu huo gi	101
-𱀽	er hu qiu yao gi	101
-𱀽	er hu qiu gi	101
+𱀼	er hu huo ke ke qi	101
+𱀼	er hu huo qi	101
+𱀽	er hu qiu ke qi	101
+𱀽	er hu qiu qi	101
 𱀾	er ren dao ro yi yi yi yi	101
 𱀾	er ren dao yi	101
 𱀿	er liu nei shi fo zhi	101
@@ -142709,8 +142727,8 @@ use_preset_vocabulary: false
 𱂠	he qi dai ren	101
 𱂡	qi dai nei ren	101
 𱂢	chu dai nei ren	101
-𱂣	yao ke so dai nei ren	101
-𱂣	yao ke so ren	101
+𱂣	ke qi ke so dai nei ren	101
+𱂣	ke qi ke ren	101
 𱂤	ha jiao gi dai nei ren	101
 𱂤	ha jiao gi ren	101
 𱂥	wen fo dai nei ren	101
@@ -142901,8 +142919,8 @@ use_preset_vocabulary: false
 𱄊	jiao je he ren	101
 𱄋	dao dai mu er shi	101
 𱄋	dao dai mu shi	101
-𱄌	ke yao gi dao dai mu	101
-𱄌	ke yao gi mu	101
+𱄌	ke ke qi dao dai mu	101
+𱄌	ke ke qi mu	101
 𱄍	san dai mu ke fo ke qi	101
 𱄍	san dai mu qi	101
 𱄎	he pa ri er yao	101
@@ -143048,8 +143066,8 @@ use_preset_vocabulary: false
 𱅬	ma cao ke qo	101
 𱅭	gu qing dai nei er	101
 𱅭	gu qing dai er	101
-𱅮	gu qing yao ke so	101
-𱅮	gu qing yao so	101
+𱅮	gu qing ke qi ke so	101
+𱅮	gu qing ke so	101
 𱅯	gu qing da qi me	101
 𱅯	gu qing da me	101
 𱅰	gu qing da ri je	101
@@ -143124,7 +143142,7 @@ use_preset_vocabulary: false
 𱆗	bei je yao nong	101
 𱆘	shao er bei je yao	101
 𱆘	shao er bei yao	101
-𱆙	bei je yao yao ke so	101
+𱆙	bei je yao ke qi ke so	101
 𱆙	bei je yao so	101
 𱆚	bei je yao dai nei ren	101
 𱆚	bei je yao ren	101
@@ -143185,12 +143203,12 @@ use_preset_vocabulary: false
 𱆻	jiao qo bao je	101
 𱆼	jiao qo le me shuai ke qo	101
 𱆼	jiao qo le qo	101
-𱆽	jiao qo mu ba yao gi	101
-𱆽	jiao qo mu gi	101
+𱆽	jiao qo mu ba ke qi	101
+𱆽	jiao qo mu qi	101
 𱆾	jiao qo mu dao pa	101
 𱆾	jiao qo mu pa	101
-𱆿	jiao qo dai ri bao yao gi	101
-𱆿	jiao qo dai gi	101
+𱆿	jiao qo dai ri bao ke qi	101
+𱆿	jiao qo dai qi	101
 𱇀	jiao qo ke ren ren ren me shuai	101
 𱇀	jiao qo ke shuai	101
 𱇁	jiao qo ri ke jia er	101
@@ -143447,7 +143465,7 @@ use_preset_vocabulary: false
 𱉤	tu tu niao	101
 𱉥	zo fo niao	101
 𱉦	shi quan bi niao	101
-𱉧	shi yao gi niao	101
+𱉧	shi ke qi niao	101
 𱉨	ke huo ke niao	101
 𱉩	ke gong ren niao	101
 𱉪	cao yi niao	101
@@ -143651,7 +143669,7 @@ use_preset_vocabulary: false
 𱋵	he pa ren xiao	101
 𱋶	min tu qo hu go	101
 𱋶	min tu qo go	101
-𱋷	min tu qo yao gi yao	101
+𱋷	min tu qo ke qi yao	101
 𱋷	min tu qo yao	101
 𱋸	min tu qo wen san me	101
 𱋸	min tu qo me	101
@@ -143755,8 +143773,8 @@ use_preset_vocabulary: false
 𱌭	ma chu jiao xue	101
 𱌮	ma chu ju	101
 𱌯	ma chu yao fo	101
-𱌰	ma chu yao ke so	101
-𱌰	ma chu yao so	101
+𱌰	ma chu ke qi ke so	101
+𱌰	ma chu ke so	101
 𱌱	ma chu ri qi	101
 𱌲	dao fu ma chu	101
 𱌳	ma chu bao dong shi	101
@@ -144009,7 +144027,7 @@ use_preset_vocabulary: false
 𱏠	li huo ke ya	101
 𱏡	li he na zo mu mu ba	101
 𱏡	li he na ba	101
-𱏢	li ren ren yao gi fei ke la	101
+𱏢	li ren ren ke qi fei ke la	101
 𱏢	li ren ren la	101
 𱏣	li wo yao san yao san fo yao	101
 𱏣	li wo yao yao	101
@@ -144492,8 +144510,8 @@ use_preset_vocabulary: false
 𱔧	fo wo zhu er	101
 𱔨	fo wo jiu he je dian	101
 𱔨	fo wo jiu dian	101
-𱔩	fo dao ri shi yao gi	101
-𱔩	fo dao ri gi	101
+𱔩	fo dao ri shi ke qi	101
+𱔩	fo dao ri qi	101
 𱔪	fo gi vo li wo	101
 𱔪	fo gi vo wo	101
 𱔫	fo bao ba he tu fo	101
@@ -145453,8 +145471,8 @@ use_preset_vocabulary: false
 𱞭	shu cao tian	101
 𱞮	shu ri liu ke	101
 𱞯	shu ri huo ke	101
-𱞰	shu hu fo yao gi	101
-𱞰	shu hu fo gi	101
+𱞰	shu hu fo ke qi	101
+𱞰	shu hu fo qi	101
 𱞱	li huo nong la	101
 𱞲	qi shao dian la	101
 𱞳	shu he yao qing je	101
@@ -145500,8 +145518,8 @@ use_preset_vocabulary: false
 𱟌	shu shang mu so	101
 𱟍	liu ke ke fo pa la	101
 𱟍	liu ke ke la	101
-𱟎	shu dao ri shi yao gi	101
-𱟎	shu dao ri gi	101
+𱟎	shu dao ri shi ke qi	101
+𱟎	shu dao ri qi	101
 𱟏	shu ka ke gong je pa	101
 𱟏	shu ka ke pa	101
 𱟐	shu le da ri shao er	101
@@ -145523,20 +145541,20 @@ use_preset_vocabulary: false
 𱟙	jiao xue la lu	101
 𱟚	shu li wo li wo wo	101
 𱟚	shu li wo wo	101
-𱟛	wo yao san yao san ri gan ma qo xue je dian xue je dian yue yao gi la	101
+𱟛	wo yao san yao san ri gan ma qo xue je dian xue je dian yue ke qi la	101
 𱟛	wo yao san la	101
-𱟜	xue bao ro yao gi	101
-𱟜	xue bao ro gi	101
-𱟝	shi shi shi da shi yao gi	101
-𱟝	shi shi shi gi	101
-𱟞	hu me yao gi dai mu	101
-𱟞	hu me yao mu	101
-𱟟	ke fo fo fo je yao gi	101
-𱟟	ke fo fo gi	101
-𱟠	ha li wo yao gi	101
-𱟠	ha li wo gi	101
-𱟡	liu ke qing bi yao gi	101
-𱟡	liu ke qing gi	101
+𱟜	xue bao ro ke qi	101
+𱟜	xue bao ro qi	101
+𱟝	shi shi shi da shi ke qi	101
+𱟝	shi shi shi qi	101
+𱟞	hu me ke qi dai mu	101
+𱟞	hu me ke mu	101
+𱟟	ke fo fo fo je ke qi	101
+𱟟	ke fo fo qi	101
+𱟠	ha li wo ke qi	101
+𱟠	ha li wo qi	101
+𱟡	liu ke qing bi ke qi	101
+𱟡	liu ke qing qi	101
 𱟢	gi go fang ke so je	101
 𱟢	gi go fang je	101
 𱟣	gi go nei cao bi	101
@@ -145625,8 +145643,8 @@ use_preset_vocabulary: false
 𱠡	na nei da min	101
 𱠢	na he mu la	101
 𱠣	na jin ke me	101
-𱠤	ka le er na yao gi	101
-𱠤	ka le er gi	101
+𱠤	ka le er na ke qi	101
+𱠤	ka le er qi	101
 𱠥	na dao ke da zhi	101
 𱠥	na dao ke zhi	101
 𱠦	na ja huo huo	101
@@ -145892,7 +145910,7 @@ use_preset_vocabulary: false
 𱣕	pa ren ma	101
 𱣖	pa shang ke ba	101
 𱣗	pa wo huo	101
-𱣘	pa vo yao gi	101
+𱣘	pa vo ke qi	101
 𱣙	pa tu zu	101
 𱣚	pa xia ke nei ren	101
 𱣚	pa xia ke ren	101
@@ -145970,8 +145988,8 @@ use_preset_vocabulary: false
 𱤎	pa yao san wen er	101
 𱤎	pa yao san er	101
 𱤏	pa pa pa pa	101
-𱤐	pa shi yao gi fo dao ke	101
-𱤐	pa shi yao ke	101
+𱤐	pa shi ke qi fo dao ke	101
+𱤐	pa shi ke ke	101
 𱤑	ke dao pa hui le gi	101
 𱤑	ke dao pa gi	101
 𱤒	mo cao ri da	101
@@ -146731,7 +146749,7 @@ use_preset_vocabulary: false
 𱫱	zo fo ke fo qo	101
 𱫱	zo fo ke qo	101
 𱫲	huo quan fo xiao	101
-𱫳	yao gi wu qo	101
+𱫳	ke qi wu qo	101
 𱫴	huo mu shao tu	101
 𱫵	he nei ke dao pa qo	101
 𱫵	he nei ke qo	101
@@ -146756,8 +146774,8 @@ use_preset_vocabulary: false
 𱬂	huo hu to san	101
 𱬃	huo ri chang le qi	101
 𱬃	huo ri chang qi	101
-𱬄	shang yao gi ri huo	101
-𱬄	shang yao gi huo	101
+𱬄	shang ke qi ri huo	101
+𱬄	shang ke qi huo	101
 𱬅	huo er er fo	101
 𱬆	zhu tian wen qo	101
 𱬇	huo jiao mu huo	101
@@ -146789,14 +146807,14 @@ use_preset_vocabulary: false
 𱬖	yao fo xin huo	101
 𱬗	pa na nei pa huo	101
 𱬗	pa na nei huo	101
-𱬘	huo shang qing yao ke so	101
+𱬘	huo shang qing ke qi ke so	101
 𱬘	huo shang qing so	101
 𱬙	huo do ha to wen	101
 𱬙	huo do ha wen	101
 𱬚	huo jiao mu dai je he	101
 𱬚	huo jiao mu he	101
-𱬛	dao shang yao gi ri huo	101
-𱬛	dao shang yao huo	101
+𱬛	dao shang ke qi ri huo	101
+𱬛	dao shang ke huo	101
 𱬜	huo wo zhu	101
 𱬝	shi quan ri qo dong	101
 𱬝	shi quan ri dong	101
@@ -147011,8 +147029,8 @@ use_preset_vocabulary: false
 𱮗	shao he ni yue	101
 𱮘	shao he vo li wo	101
 𱮘	shao he vo wo	101
-𱮙	shao he wo yao gi	101
-𱮙	shao he wo gi	101
+𱮙	shao he wo ke qi	101
+𱮙	shao he wo qi	101
 𱮚	shao he tian bao yue	101
 𱮚	shao he tian yue	101
 𱮛	shao he wen san me zhi	101
@@ -147112,8 +147130,8 @@ use_preset_vocabulary: false
 𱯖	wang jiao er ha	101
 𱯗	wang shao yi san ha	101
 𱯗	wang shao yi ha	101
-𱯘	wang gi yao yao yao gi	101
-𱯘	wang gi yao gi	101
+𱯘	wang gi yao yao ke qi	101
+𱯘	wang gi yao qi	101
 𱯙	wang bao xin	101
 𱯚	wang liu ke ri je	101
 𱯚	wang liu ke je	101
@@ -147165,7 +147183,7 @@ use_preset_vocabulary: false
 𱯵	wang shi fo vo	101
 𱯶	wang gi hu bao ba ri le da	101
 𱯶	wang gi hu da	101
-𱯷	wang jiao mu yao gi jiao gi	101
+𱯷	wang jiao mu ke qi jiao gi	101
 𱯷	wang jiao mu gi	101
 𱯸	wang ba fo er mu ba	101
 𱯸	wang ba fo ba	101
@@ -147454,7 +147472,7 @@ use_preset_vocabulary: false
 𱲴	mu so ke gong	101
 𱲵	mu wo ba shi	101
 𱲶	ja gi je mu	101
-𱲷	mu na yao gi	101
+𱲷	mu na ke qi	101
 𱲸	er xiao vo mu	101
 𱲹	mu fo zu	101
 𱲺	mu li ben	101
@@ -148109,8 +148127,8 @@ use_preset_vocabulary: false
 𱸹	dao pa shao si	101
 𱸺	xo vo dao pa	101
 𱸻	dao pa dai dao	101
-𱸼	dao pa yao ke so	101
-𱸼	dao pa yao so	101
+𱸼	dao pa ke qi ke so	101
+𱸼	dao pa ke so	101
 𱸽	dao pa nei ke jiao gi	101
 𱸽	dao pa nei gi	101
 𱸾	dao pa ren er yao	101
@@ -148470,8 +148488,8 @@ use_preset_vocabulary: false
 𱼒	yue xo ke tu	101
 𱼓	yue do tu zu	101
 𱼔	yue chang qi ya	101
-𱼕	yue dai mu yao gi	101
-𱼕	yue dai mu gi	101
+𱼕	yue dai mu ke qi	101
+𱼕	yue dai mu qi	101
 𱼖	yue bi dai mu ba	101
 𱼖	yue bi dai ba	101
 𱼗	yue dao pa je gua xia	101
@@ -148729,8 +148747,8 @@ use_preset_vocabulary: false
 𱾶	cao ha min qo	101
 𱾷	he nei yi ke so wen cao qi me he	101
 𱾷	he nei yi he	101
-𱾸	cao liu yao gi jia er	101
-𱾸	cao liu yao er	101
+𱾸	cao liu ke qi jia er	101
+𱾸	cao liu ke er	101
 𱾹	cao er liu ke na dao ke je	101
 𱾹	cao er liu je	101
 𱾺	cao mu bao shu dai wei	101
@@ -148830,8 +148848,8 @@ use_preset_vocabulary: false
 𱿯	fo yao dai ma	101
 𱿰	fo yao na jin fo	101
 𱿰	fo yao na fo	101
-𱿱	yao ke so fo yao xia	101
-𱿱	yao ke so xia	101
+𱿱	ke qi ke so fo yao xia	101
+𱿱	ke qi ke xia	101
 𱿲	fo yao ge	101
 𱿳	fo yao chang ri le na	101
 𱿳	fo yao chang na	101
@@ -148860,8 +148878,8 @@ use_preset_vocabulary: false
 𱿿	fo yao ba gi	101
 𲀀	fo yao wo yi dai nei er	101
 𲀀	fo yao wo er	101
-𲀁	fo yao dai mu yao gi	101
-𲀁	fo yao dai gi	101
+𲀁	fo yao dai mu ke qi	101
+𲀁	fo yao dai qi	101
 𲀂	fo yao shi dao ke hui	101
 𲀂	fo yao shi hui	101
 𲀃	fo yao ha yue yue	101
@@ -149717,8 +149735,8 @@ use_preset_vocabulary: false
 𲈔	qi bei je yao	101
 𲈕	qi shi zao zhu le	101
 𲈕	qi shi zao le	101
-𲈖	qi dai mu yao gi	101
-𲈖	qi dai mu gi	101
+𲈖	qi dai mu ke qi	101
+𲈖	qi dai mu qi	101
 𲈗	qi liu ke zao	101
 𲈘	qi dao wang min	101
 𲈙	qi xi dao pa	101
@@ -149871,11 +149889,11 @@ use_preset_vocabulary: false
 𲉴	yu bi	101
 𲉵	yu na wan	101
 𲉶	yu li quan	101
-𲉷	yu li yao gi	101
+𲉷	yu li ke qi	101
 𲉸	yu fo er shi	101
 𲉹	yu er je ta	101
-𲉺	yu yao gi yao gi	101
-𲉺	yu yao gi gi	101
+𲉺	yu ke qi ke qi	101
+𲉺	yu ke qi qi	101
 𲉻	yu ke han er	101
 𲉼	yu ri pa	101
 𲉽	yu shao he gua	101
@@ -149883,8 +149901,8 @@ use_preset_vocabulary: false
 𲉿	yu ka cao er	101
 𲊀	yu bao nei san	101
 𲊁	yu ji cun	101
-𲊂	yu shi yao gi huo	101
-𲊂	yu shi yao huo	101
+𲊂	yu shi ke qi huo	101
+𲊂	yu shi ke huo	101
 𲊃	ke bao me he he li xue bao zhang	101
 𲊃	ke bao me zhang	101
 𲊄	yu shao si zo fo	101
@@ -150036,8 +150054,8 @@ use_preset_vocabulary: false
 𲋕	ren ji he pa	101
 𲋖	xo vo ren gen	101
 𲋗	dai dao ren gen	101
-𲋘	ren ji yao ke so	101
-𲋘	ren ji yao so	101
+𲋘	ren ji ke qi ke so	101
+𲋘	ren ji ke so	101
 𲋙	ren ji er vo tu	101
 𲋙	ren ji er tu	101
 𲋚	ren ji jin nei cao	101
@@ -150246,8 +150264,8 @@ use_preset_vocabulary: false
 𲍏	jiao ke he tu so	101
 𲍏	jiao ke he so	101
 𲍐	jiao ke dao pa	101
-𲍑	jiao ke yao ke so	101
-𲍑	jiao ke yao so	101
+𲍑	jiao ke ke qi ke so	101
+𲍑	jiao ke ke so	101
 𲍒	jiao ke chang le qi	101
 𲍒	jiao ke chang qi	101
 𲍓	jiao ke ke huo chang	101
@@ -150347,8 +150365,8 @@ use_preset_vocabulary: false
 𲎔	guang pa pa nei pa ke	101
 𲎔	guang pa pa ke	101
 𲎕	dao gong you ba	101
-𲎖	gi go yao gi min tu qo	101
-𲎖	gi go yao qo	101
+𲎖	gi go ke qi min tu qo	101
+𲎖	gi go ke qo	101
 𲎗	zhen dai mu ba min tu qo	101
 𲎗	zhen dai mu qo	101
 𲎘	min tu qo zhen dai mu ba	101
@@ -150598,10 +150616,10 @@ use_preset_vocabulary: false
 𮲊	shu tu fo he je dian	101
 𮲊	shu tu fo dian	101
 𮲋	shu li wo nai	101
-𮲌	chang jia er yao gi	101
-𮲌	chang jia er gi	101
-𮲍	da yao gi fo tu	101
-𮲍	da yao gi tu	101
+𮲌	chang jia er ke qi	101
+𮲌	chang jia er qi	101
+𮲍	da ke qi fo tu	101
+𮲍	da ke qi tu	101
 𮲎	chang qi dai nei er san	101
 𮲎	chang qi dai san	101
 𮲏	na kai	101
@@ -150619,7 +150637,7 @@ use_preset_vocabulary: false
 𮲙	fang jin	101
 𮲚	ri ke jiao	101
 𮲛	ri gi yi	101
-𮲜	ri yao gi	101
+𮲜	ri ke qi	101
 𮲝	ri yao	101
 𮲞	ri ben	101
 𮲟	ri dai nei ren	101
@@ -150783,7 +150801,8 @@ use_preset_vocabulary: false
 𮴔	wang li bi shi	101
 𮴕	wang guang da	101
 𮴖	wang gi nei fo	101
-𮴗	wang yao ke so	101
+𮴗	wang ke qi ke so	101
+𮴗	wang ke qi so	101
 𮴘	wang da zhi	101
 𮴙	wang tu zu	101
 𮴚	wang er vo tu	101
@@ -150962,8 +150981,8 @@ use_preset_vocabulary: false
 𮶐	ke han you	101
 𮶑	ke han wang gi	101
 𮶒	ke han tu tu	101
-𮶓	ke han yao ke so	101
-𮶓	ke han yao so	101
+𮶓	ke han ke qi ke so	101
+𮶓	ke han ke so	101
 𮶔	yue er dan	101
 𮶕	yue yi shi	101
 𮶖	he mu wen	101
@@ -151506,7 +151525,7 @@ use_preset_vocabulary: false
 ⼻	m m do	101
 ⼼	la	101
 ⼼	m m la	101
-⼽	yao gi	101
+⼽	ke qi	101
 ⼾	gua gong	101
 ⼿	na	101
 ⼿	m m na	101
@@ -164946,8 +164965,8 @@ use_preset_vocabulary: false
 𘬣	ke qi	101
 𘬤	ke qi gi	101
 𘬥	ke je he	101
-𘬦	ke yao	101
-𘬧	ke yao gi	101
+𘬦	ke ke qi	101
+𘬧	ke ke qi	101
 𘬨	er je ba	101
 𘬩	gan gi	101
 𘬪	ke da ren	101
