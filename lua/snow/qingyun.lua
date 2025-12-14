@@ -1,4 +1,4 @@
--- 清韵方案过滤器
+-- 冰雪清韵方案过滤器
 
 local snow = require("snow.snow")
 
@@ -29,12 +29,12 @@ function filter.init(env)
   env.memory = Memory(env.engine, env.engine.schema, "pinyin")
   env.chaifen = snow.table_from_tsv(rime_api.get_user_data_dir() .. "/lua/snow/qingyun_chaifen.txt")
   env.connection = env.engine.context.commit_notifier:connect(function(ctx)
-    local reset = env.engine.schema.config:get_int("switches/7/reset")
-    snow.errorf("清韵方案：重置选项，chaifen=%s", tostring(reset))
+    local reset = env.engine.schema.config:get_int("switches/3/reset")
     local target = reset == 1 and true or false
     local current = ctx:get_option("character")
     if current ~= target then
       ctx:set_option("character", target)
+      snow.errorf("自动%s单字模式", target and "启用" or "关闭")
     end
   end)
 end
@@ -64,7 +64,7 @@ function filter.func(translation, env)
   for candidate in translation:iter() do
     if env.engine.context:get_option("buffered") and not is_pinyin(candidate) then
       local result = env.lookup_pinyin:lookup(candidate.text)
-      candidate.comment = candidate.comment .. result
+      snow.comment(candidate, result)
       ---@type Candidate[]
       local candidates = {}
       for pinyin in result:gmatch("[^%s]+") do
@@ -73,7 +73,8 @@ function filter.func(translation, env)
           if entry.text == candidate.text then
             local phrase = Phrase(env.memory, "phrase", candidate.start, candidate._end, entry)
             local c = phrase:toCandidate()
-            c.comment = pinyin
+            c.comment = candidate.comment
+            snow.comment(c, pinyin)
             c.quality = entry.weight
             table.insert(candidates, c)
           end
@@ -83,8 +84,16 @@ function filter.func(translation, env)
       for _, c in ipairs(candidates) do
         yield(c)
       end
-    -- 生成一简十重提示
-    elseif rime_api.regex_match(input, "[bpmfdtnlgkhjqxzcsrvwy]{1,2}") then
+      goto continue
+    end
+    if candidate.type == "sentence" and (not is_pinyin(candidate)) then
+      goto continue -- 过滤掉冰雪清韵形码的组句候选
+    end
+    local character_only = env.engine.context:get_option("character")
+    if character_only and utf8.len(candidate.text) > 1 then
+      goto continue
+    end
+    if rime_api.regex_match(input, "[bpmfdtnlgkhjqxzcsrvwy]{1,2}") then -- 生成一简十重提示
       if count == 0 then
         local hint = ""
         for _, letter in ipairs(affix) do
@@ -98,36 +107,48 @@ function filter.func(translation, env)
             end
           end
         end
-        candidate.comment = candidate.comment .. hint
-        prettify_preedit(candidate)
-        yield(candidate)
+        if utf8.len(candidate.text) > 1 then -- 第一个候选就是词
+          local c = Candidate("placeholder", candidate.start, candidate._end, "🈚️", hint)
+          c.preedit = candidate.preedit
+          count = count + 1
+          prettify_preedit(c)
+          yield(c)
+          goto continue
+        else
+          snow.comment(candidate, hint)
+        end
+      else
+        goto continue
       end
       count = count + 1
-    elseif utf8.len(candidate.text) == 1 and (is_pinyin(candidate) or (segment and (segment:has_tag("pinyin") or segment:has_tag("stroke")))) then
-      -- 生成多音字提示
+    elseif utf8.len(candidate.text) == 1 and (is_pinyin(candidate) or (segment and (segment:has_tag("pinyin") or segment:has_tag("stroke")))) then -- 生成反查提示
       local codes = env.reverse_lookup[candidate.text]
       if codes then
-        candidate.comment = table.concat(codes, " ")
+        snow.comment(candidate, table.concat(codes, " "))
         if env.engine.context:get_option("chaifen") then
           local chaifen = env.chaifen[candidate.text]
           if chaifen then
-            candidate.comment = candidate.comment .. "［" .. chaifen .. "］"
+            snow.comment(candidate, ("［%s］"):format(chaifen))
           end
         end
       end
-      prettify_preedit(candidate)
-      yield(candidate)
-    elseif candidate.type == "sentence" and (not is_pinyin(candidate)) then
-      -- 过滤掉冰雪清韵形码的组句候选
     else
-      prettify_preedit(candidate)
-      local character_only = env.engine.context:get_option("character")
-      if character_only and utf8.len(candidate.text) > 1 then
-        goto continue
+      local codes = env.reverse_lookup[candidate.text]
+      if codes then
+        local shorter_codes = {}
+        for _, code in ipairs(codes) do
+          if code:len() < input:len() then
+            table.insert(shorter_codes, code)
+          end
+        end
+        if #shorter_codes > 0 then
+          snow.comment(candidate, table.concat(shorter_codes, " "))
+        end
       end
-      yield(candidate)
-      ::continue::
     end
+    prettify_preedit(candidate)
+    yield(candidate)
+    ::continue::
   end
 end
 

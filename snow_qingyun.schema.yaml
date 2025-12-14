@@ -16,6 +16,33 @@ schema:
     - snow_stroke
     - snow_qingyun_xingma
 
+switches:
+  - name: popping
+    states: [ 全息, 前缀 ]
+    reset: 1
+  - name: chaifen
+    states: [ 隐藏, 拆分 ]
+    reset: 0
+  - name: unicode
+    states: [ 隐藏, 注解 ]
+    reset: 0
+  - name: character
+    states: [ 字词, 单字 ]
+    reset: 0
+  - name: buffered
+    states: [ 结束, 缓冲 ]
+    reset: 0
+  - name: add
+    states: [ 结束, 加词 ]
+    reset: 0
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
 engine:
   processors:
     - ascii_composer
@@ -49,8 +76,9 @@ engine:
     - history_translator
   filters:
     - lua_filter@*snow.fix
-    - lua_filter@*snow.postpone
     - lua_filter@*snow.qingyun
+    - lua_filter@*snow.postpone
+    - lua_filter@*snow.unicode
 
 speller:
   alphabet: bpmfdtnlgkhjqxzcsrwyvaoeiu;,./
@@ -133,19 +161,6 @@ __patch:
   - snow_qingyun.custom:/patch?
 
 patch:
-  switches/+:
-    - name: popping
-      states: [全息, 前缀]
-      reset: 1
-    - name: buffered
-      states: [结束, 缓冲]
-      reset: 0
-    - name: chaifen
-      states: [隐藏, 拆分]
-      reset: 0
-    - name: character
-      states: [字词, 单字]
-      reset: 0
   pinyin/prefix: "`"
   recognizer/patterns/pinyin: "^`[a-z]*'?$"
   stroke/prefix: "`"
@@ -178,6 +193,8 @@ patch:
     - { when: has_menu, accept: 6, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
     - { when: has_menu, accept: 7, send_sequence: "{End}" }
     - { when: always, accept: "Control+j", toggle: buffered }
-    - { when: always, accept: "Shift+Tab", toggle: character }
+    - { when: has_menu, accept: "Shift+Tab", toggle: character }
+    - { when: always, accept: "Control+u", toggle: unicode }
+    - { when: always, accept: "Control+t", toggle: chaifen }
   menu/alternative_select_keys: "_23890"
   menu/page_size: 6

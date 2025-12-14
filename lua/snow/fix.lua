@@ -126,7 +126,7 @@ function this.func(translation, env)
   ---@type Candidate[]
   local free_candidates = {}
   for _, phrase in ipairs(fixed_phrases) do
-    local dummy_candidate = Candidate("fixed", segment.start, segment._end, phrase, "📍")
+    local dummy_candidate = Candidate("fixed", segment.start, segment._end, phrase, snow.fixed_notfound_symbol)
     dummy_candidate.preedit = input
     table.insert(fixed_candidates, dummy_candidate)
   end
@@ -148,7 +148,7 @@ function this.func(translation, env)
     local is_fixed = false
     for j = 1, #fixed_candidates do
       if candidate.text == fixed_candidates[j].text then
-        candidate.comment = candidate.comment .. "📌"
+        snow.comment(candidate, snow.fixed_symbol)
         fixed_candidates[j] = candidate
         is_fixed = true
         break

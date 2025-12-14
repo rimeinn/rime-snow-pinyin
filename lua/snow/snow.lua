@@ -31,7 +31,7 @@ function snow.current(context)
   return context.input:sub(segment.start + 1, segment._end)
 end
 
-snow.debug = false
+snow.debug = true
 
 ---格式化 Info 日志
 ---@param format string|number
@@ -203,6 +203,8 @@ end
 snow.origin = 29365920
 snow.separator = " \t"
 
+snow.fixed_symbol = "📌"
+snow.fixed_notfound_symbol = "📍"
 snow.RADIX = 20
 snow.DISABLE_INDEX = snow.RADIX - 1
 snow.MAX_INDEX = snow.RADIX - 2

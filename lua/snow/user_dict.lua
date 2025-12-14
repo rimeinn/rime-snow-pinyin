@@ -9,10 +9,9 @@ local this = {}
 ---@class UserDbEnv: Env
 ---@field dict table<string, string[]>
 ---@field user_dict LevelDb
----@field add_status "off" | "index" | "word"
----@field add_index integer
 ---@field add_word string
 ---@field add_input string
+---@field add_index integer
 ---@field connection Connection
 ---@field fix_key KeyEvent
 ---@field add_key KeyEvent
@@ -27,10 +26,9 @@ function this.init(env)
   if config:get_bool("translator/enable_schema_user_dict") then
     env.user_dict = snow.get_db(env.engine.schema.schema_id)
   end
-  env.add_status = "off"
-  env.add_index = 0
   env.add_word = ""
   env.add_input = ""
+  env.add_index = 0
   env.fix_key = KeyEvent("Control+semicolon")
   env.add_key = KeyEvent("Control+apostrophe")
   env.up_key = KeyEvent("Control+bracketleft")
@@ -44,7 +42,7 @@ function this.init(env)
     end
   end
   env.connection = env.engine.context.commit_notifier:connect(function(ctx)
-    if env.add_status == "word" then
+    if env.add_input:len() > 0 then
       local text = ctx:get_commit_text()
       if text and text ~= "" then
         env.add_word = env.add_word .. text
@@ -54,18 +52,11 @@ function this.init(env)
   end)
 end
 
----@param key string
----@param env UserDbEnv
-function this.is_fixed(key, env)
-  for k, v in env.user_dict:query(key):iter() do
-    if k ~= key then
-      goto continue
-    end
-    local _, existing_index = snow.decode(snow.parse(v) or 0)
-    if existing_index ~= 0 and existing_index ~= snow.DISABLE_INDEX then
-      return true
-    end
-    ::continue::
+---@param candidate Candidate
+function this.is_fixed(candidate)
+  local comment = candidate.comment
+  if comment:match(snow.fixed_symbol) or comment:match(snow.fixed_notfound_symbol) then
+    return true
   end
   return false
 end
@@ -75,17 +66,18 @@ end
 ---@param new_index integer
 ---@param env UserDbEnv
 function this.check_move(input, index, new_index, env)
-  local value = snow.format(snow.encode(snow.epoch(), new_index))
-  ---@type string[]
-  local keys = {}
-  for k, v in env.user_dict:query(input .. snow.separator):iter() do
-    local _, existing_index = snow.decode(snow.parse(v) or 0)
-    if existing_index == index then
-      table.insert(keys, k)
-    end
+  local segment = env.engine.context.composition:toSegmentation():back()
+  if not segment then
+    return
   end
-  for _, key in ipairs(keys) do
+  local candidate = segment:get_candidate_at(index - 1)
+  if this.is_fixed(candidate) then
+    local epoch = snow.epoch()
+    local word = candidate.text
+    local key = snow.key(input, word)
+    local value = snow.format(snow.encode(epoch, new_index))
     env.user_dict:update(key, value)
+    snow.errorf("时间戳 %d：「%s」在 %s 候选 %d → %d", epoch, word, input, index, new_index)
   end
 end
 
@@ -97,6 +89,24 @@ function this.refresh_recover(context, index)
   segment.selected_index = index - 1
 end
 
+---@param env UserDbEnv
+function this.get_first_available_index(env)
+  local segment = env.engine.context.composition:toSegmentation():back()
+  if not segment then
+    return nil
+  end
+  for index = 1, snow.MAX_INDEX do
+    local candidate = segment:get_candidate_at(index - 1)
+    if not candidate then
+      return index
+    end
+    if not this.is_fixed(candidate) then
+      return index
+    end
+  end
+  return nil
+end
+
 ---@param key_event KeyEvent
 ---@param env UserDbEnv
 function this.func(key_event, env)
@@ -106,50 +116,20 @@ function this.func(key_event, env)
     return snow.kNoop
   end
 
-  if env.add_status == "index" then
-    -- 将数字添加到 add_index
-    if key_event.keycode >= 0x30 and key_event.keycode <= 0x39 then
-      local digit = key_event.keycode - 0x30
-      env.add_index = env.add_index * 10 + digit
-      local c = context:get_selected_candidate()
-      c.preedit = string.format("%s%d", c.preedit, tostring(digit))
-      snow.errorf("正在添加索引：%d", env.add_index)
-      return snow.kAccepted
-    elseif key_event.keycode == 0x20 then
-      env.add_status = "word"
-      snow.errorf("索引 %d 输入完成，准备添加新词", env.add_index)
-      context:clear()
-      return snow.kAccepted
-    elseif key_event.keycode == snow.kBackSpace then
-      if env.add_index == 0 then
-        env.add_status = "off"
-        snow.errorf("取消添加新词")
-        return snow.kAccepted
-      else
-        env.add_index = math.floor(env.add_index / 10)
-        local c = context:get_selected_candidate()
-        c.preedit = c.preedit:sub(1, -2)
-        snow.errorf("正在添加索引：%d", env.add_index)
-        return snow.kAccepted
-      end
-    elseif key_event.keycode == snow.kEscape then
-      env.add_status = "off"
-      snow.errorf("取消添加新词")
-      return snow.kAccepted
-    end
-    return snow.kNoop -- 正在添加索引，忽略其他按键
-  elseif env.add_status == "word" then
+  if env.add_input:len() > 0 then
     if key_event:eq(env.add_key) then
       local key = snow.key(env.add_input, env.add_word)
       local epoch = snow.epoch()
       local value = snow.format(snow.encode(epoch, env.add_index))
       env.user_dict:update(key, value)
       snow.errorf("时间戳 %d：添加新词「%s」到 %s 候选 %d", epoch, env.add_word, env.add_input, env.add_index)
-      env.add_status = "off"
+      env.add_input = ""
+      context:set_option("add", false)
       return snow.kAccepted
     elseif key_event.keycode == snow.kEscape then
-      env.add_status = "off"
+      env.add_input = ""
       snow.errorf("取消添加新词")
+      context:set_option("add", false)
       return snow.kAccepted
     end
     return snow.kNoop -- 正在添加新词，忽略其他按键
@@ -175,7 +155,7 @@ function this.func(key_event, env)
 
   if key_event:eq(env.fix_key) then -- 固定/取消固定
     local value = snow.format(snow.encode(epoch, index))
-    if this.is_fixed(key, env) then
+    if this.is_fixed(candidate) then
       local found = false
       local entries = env.dict[input] or {}
       for _, entry in ipairs(entries) do
@@ -194,16 +174,20 @@ function this.func(key_event, env)
     this.refresh_recover(context, index)
     return snow.kAccepted
   elseif key_event:eq(env.add_key) then -- 添加新词
-    env.add_status = "index"
-    env.add_index = 0
+    local add_index = this.get_first_available_index(env)
+    if not add_index then
+      snow.errorf("无法添加新词：%s 候选已满", input)
+      return snow.kAccepted
+    end
     env.add_word = ""
     env.add_input = input
-    local c = context:get_selected_candidate()
-    c.preedit = string.format("%s・加词 ", c.preedit, env.add_index)
+    env.add_index = add_index
+    context:clear()
+    context:set_option("add", true)
     snow.errorf("准备添加新词")
     return snow.kAccepted
   elseif key_event:eq(env.up_key) then
-    if not this.is_fixed(key, env) or index <= 1 then
+    if not this.is_fixed(candidate) or index <= 1 then
       return snow.kNoop
     end
     local value = snow.format(snow.encode(epoch, index - 1))
@@ -213,7 +197,7 @@ function this.func(key_event, env)
     this.refresh_recover(context, index - 1)
     return snow.kAccepted
   elseif key_event:eq(env.down_key) then
-    if not this.is_fixed(key, env) or index >= snow.MAX_INDEX then
+    if not this.is_fixed(candidate) or index >= snow.MAX_INDEX then
       return snow.kNoop
     end
     local value = snow.format(snow.encode(epoch, index + 1))
@@ -223,12 +207,16 @@ function this.func(key_event, env)
     this.refresh_recover(context, index + 1)
     return snow.kAccepted
   elseif key_event:eq(env.reset_key) then
-    for k, v in env.user_dict:query(input .. snow.separator):iter() do
+    local da = env.user_dict:query(input .. snow.separator)
+    for k, v in da:iter() do
       local _, existing_index = snow.decode(snow.parse(v) or 0)
       if existing_index ~= snow.DISABLE_INDEX then
         env.user_dict:update(k, snow.format(snow.encode(epoch, snow.DISABLE_INDEX)))
       end
     end
+    ---@diagnostic disable-next-line: cast-local-type
+    da = nil
+    collectgarbage()
     snow.errorf("时间戳 %d：重置在 %s 的候选", epoch, input)
     this.refresh_recover(context, index)
     return snow.kAccepted
