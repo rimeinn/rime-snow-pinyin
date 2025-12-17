@@ -1,0 +1,256 @@
+# Rime schema
+# encoding: utf-8
+
+schema:
+  schema_id: snow_qingchun
+  name: 冰雪清纯
+  version: "0.3.0"
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+  description: |
+    冰雪清韵纯净版，采用固定码表输入
+  dependencies:
+    - snow_pinyin
+    - snow_stroke
+
+switches:
+  - name: chaifen
+    states: [ 隐藏, 拆分 ]
+    reset: 0
+  - name: unicode
+    states: [ 隐藏, 注解 ]
+    reset: 0
+  - name: ascii_mode
+    reset: 0
+    states: [ 中文, 西文 ]
+  - name: full_shape
+    states: [ 半角, 全角 ]
+  - name: ascii_punct
+    states: [ 。，, ．， ]
+
+engine:
+  processors:
+    - ascii_composer
+    - recognizer
+    - key_binder
+    - lua_processor@*snow.select_character
+    - lua_processor@*snow.popping
+    - speller
+    - punctuator
+    - selector
+    - navigator
+    - express_editor
+  segmentors:
+    - ascii_segmentor
+    - matcher
+    - abc_segmentor
+    - affix_segmentor@pinyin
+    - punct_segmentor
+    - fallback_segmentor
+  translators:
+    - punct_translator
+    - table_translator
+    - table_translator@stroke
+    - script_translator@pinyin
+    - lua_translator@*snow.datetime
+    - lua_translator@*snow.number
+    - lua_translator@*snow.calculator
+    - history_translator
+  filters:
+    - reverse_lookup_filter@lookup_qingyun
+    - lua_filter@*snow.qingchun
+    - lua_filter@*snow.unicode
+
+speller:
+  alphabet: bpmfdtnlgkhjqxzcsrwyvaoeiu;,./
+  initials: bpmfdtnlgkhjqxzcsrwyv
+  delimiter: " "
+  # 让一简十重可以自动上屏
+  # auto_select_pattern: "[bpmfdtnlgkhjqxzcsrywv][aoeiu;,./]$"
+  popping:
+    # 单字、二字词、三字词
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{1,3}[aoeiu;,\\.\\/]"
+      accept: "[a-z;,\\.\\/]"
+    # 四字词和多字词
+    - match: "[bpmfdtnlgkhjqxzcsrywv]{4,}"
+      accept: "[a-z;,\\.\\/]"
+    # 顶标点
+    - match: ".*[^a-z0-9;,./]"
+      accept: "[a-z;,./]"
+    # 标点大写顶
+    - match: ".*[a-z0-9;,./]"
+      accept: "[^a-z0-9;,./ ]"
+
+translator:
+  dictionary: snow_qingchun
+  enable_user_dict: false
+  enable_sentence: false
+  enable_completion: true
+
+menu:
+  alternative_select_keys: "_23890"
+  page_size: 6
+
+recognizer:
+  patterns:
+    punct: '^`([0-9]0?|[A-Za-z]+)$'
+    pinyin: "^`[a-z]*'?$"
+    stroke: "^`[a-z]*'?$"
+    lua: null
+    history: "^`$"
+
+stroke:
+  tag: pinyin
+  dictionary: stroke
+  prism: snow_stroke
+  enable_user_dict: false
+  enable_sentence: false
+  enable_completion: true
+  prefix: "`"
+  suffix: "'"
+  tips: 〔笔画〕
+  preedit_format:
+    - xlit/eiuoa/一丨丿丶乙/
+  comment_format:
+    - xlit/hspnz/eiuoa/
+
+pinyin:
+  tag: pinyin
+  dictionary: snow_pinyin
+  packs:
+    - snow_pinyin.base
+    - snow_pinyin.ext
+  enable_user_dict: false
+  enable_sentence: false
+  prefix: "`"
+  suffix: "'"
+  tips: 〔拼音〕
+
+lua:
+  input: "`"
+
+history:
+  tag: history
+  input: "`"
+  size: 5
+  initial_quality: 100
+
+lookup_qingyun:
+  tags: [pinyin, abc]
+  overwrite_comment: true
+  dictionary: snow_qingchun
+
+key_binder:
+  select_first_character: bracketleft
+  select_last_character: bracketright
+  bindings:
+    # Emacs 编辑键
+    - { accept: "Control+p", send: Up, when: composing }
+    - { accept: "Control+n", send: Down, when: composing }
+    - { accept: "Control+b", send: Left, when: composing }
+    - { accept: "Control+f", send: Right, when: composing }
+    - { accept: "Control+a", send: Home, when: composing }
+    - { accept: "Control+e", send: End, when: composing }
+    - { accept: "Control+d", send: Delete, when: composing }
+    - { accept: "Control+k", send: "Shift+Delete", when: composing }
+    - { accept: "Control+h", send: BackSpace, when: composing }
+    - { accept: "Control+g", send: Escape, when: composing }
+    - { accept: "Control+bracketleft", send: Escape, when: composing }
+    - { accept: "Control+y", send: Page_Up, when: composing }
+    - { accept: "Alt+v", send: Page_Up, when: composing }
+    - { accept: "Control+v", send: Page_Down, when: composing }
+    # 翻页
+    - { when: has_menu, accept: Tab, send: Page_Down }
+    - { when: paging, accept: Shift+Tab, send: Page_Up }
+    # 切换
+    - { accept: "Control+Shift+1", select: .next, when: always }
+    - { accept: "Control+Shift+2", toggle: ascii_mode, when: always }
+    - { accept: "Control+Shift+3", toggle: full_shape, when: always }
+    - { accept: "Control+Shift+4", toggle: traditionalization, when: always }
+    - { accept: "Control+Shift+5", toggle: ascii_punct, when: always }
+    - { accept: "Control+Shift+exclam", select: .next, when: always }
+    - { accept: "Control+Shift+at", toggle: ascii_mode, when: always }
+    - { accept: "Control+Shift+numbersign", toggle: full_shape, when: always }
+    - { accept: "Control+Shift+dollar", toggle: traditionalization, when: always }
+    - { accept: "Control+Shift+percent", toggle: ascii_punct, when: always }
+    - { when: always, accept: "Control+u", toggle: unicode }
+    - { when: always, accept: "Control+t", toggle: chaifen }
+
+punctuator:
+  full_shape:
+    ' ' : '　'
+    ',' : ， 
+    '.' : 。 
+    '<' : 《
+    '>' : 》
+    '?' : ？
+    ':' : ：
+    '''' : { pair: [ '‘', '’' ] }
+    '"' : { pair: [ '“', '”' ] }
+    '`' : ・
+    '~' : ～
+    '!' : ！
+    '@' : ＠
+    '#' : ＃
+    '%' : ％
+    '$' : ￥
+    '^' : ……
+    '&' : ＆
+    '*' : ＊
+    '(' : （
+    ')' : ）
+    '-' : －
+    '_' : ——
+    '+' : ＋
+    '=' : ＝
+    '[' : 【
+    ']' : 】
+    '{' : 「
+    '}' : 」
+    "a": 了
+    "o": 我
+    "e": 的
+    "i": 是
+    "u": 不
+    ";": 在
+    "|": ；
+    "/": 和
+    "\\": 、
+  half_shape:
+    ',' : ，
+    '.' : 。 
+    '<' : 《
+    '>' : 》
+    '?' : ？
+    ':' : ：
+    '''' : { pair: [ ‘, ’ ] }
+    '"' : { pair: [ “, ” ] }
+    '`' : ·
+    '~' : ～
+    '!' : ！
+    '@' : '@'
+    '#' : '#'
+    '%' : '%'
+    '$' : '¥'
+    '^' : ……
+    '&' : '&'
+    '*' : '*'
+    '(' : （
+    ')' : ）
+    '-' : '-'
+    '_' : ——
+    '+' : '+'
+    '=' : '='
+    '[' : 【
+    ']' : 】
+    '{' : 「
+    '}' : 」
+    "a": 了
+    "o": 我
+    "e": 的
+    "i": 是
+    "u": 不
+    ";": 在
+    "|": ；
+    "/": 和
+    "\\": 、

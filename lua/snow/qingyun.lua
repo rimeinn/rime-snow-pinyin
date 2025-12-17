@@ -2,7 +2,7 @@
 
 local snow = require("snow.snow")
 
-local filter = {}
+local this = {}
 
 ---@class QingyunEnv: Env
 ---@field fixed table<string, string>
@@ -13,7 +13,7 @@ local filter = {}
 ---@field connection Connection
 
 ---@param env QingyunEnv
-function filter.init(env)
+function this.init(env)
   env.fixed = snow.table_from_tsv(rime_api.get_user_data_dir() .. "/snow_qingyun.fixed.txt")
   env.reverse_lookup = {}
   for code, content in pairs(env.fixed) do
@@ -56,7 +56,7 @@ end
 
 ---@param translation Translation
 ---@param env QingyunEnv
-function filter.func(translation, env)
+function this.func(translation, env)
   local count = 0
   local input = snow.current(env.engine.context) or "";
   local segment = env.engine.context.composition:toSegmentation():back()
@@ -128,7 +128,7 @@ function filter.func(translation, env)
         if env.engine.context:get_option("chaifen") then
           local chaifen = env.chaifen[candidate.text]
           if chaifen then
-            snow.comment(candidate, ("［%s］"):format(chaifen))
+            snow.comment(candidate, "~ " .. chaifen)
           end
         end
       end
@@ -153,12 +153,14 @@ function filter.func(translation, env)
 end
 
 ---@param env QingyunEnv
-function filter.fini(env)
+function this.fini(env)
   env.fixed = nil
   env.reverse_lookup = nil
   env.lookup_pinyin = nil
   env.memory = nil
+  env.chaifen = nil
+  env.connection:disconnect()
   collectgarbage()
 end
 
-return filter
+return this
