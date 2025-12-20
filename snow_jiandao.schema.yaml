@@ -43,6 +43,7 @@ engine:
     - punct_translator
     - lua_translator@*snow.table_like*t12
     - lua_translator@*snow.table_like*jianpin
+    - lua_translator@*snow.table_like*lianxiang
     - table_translator@stroke
     - script_translator@pinyin
     - lua_translator@*snow.datetime
@@ -68,6 +69,7 @@ speller:
     - match: "[bpmfdtnlgkhjqxzcsrywe][viuoa]*"
       accept: "[viuoa]"
   popping:
+    # 四顶模式
     # 630
     - when: popping
       match: "[bpmfdtnlgkhjqxzcsrywe][viuoa]+"
@@ -85,12 +87,30 @@ speller:
       match: "[bpmfdtnlgkhjqxzcsrywe][a-z]{3,}"
       accept: "[BPMFDTNLGKHJQXZCSRYWE]"
       strategy: append
+    # 三顶模式
+    # 630
+    - when: popping1
+      match: "[bpmfdtnlgkhjqxzcsrywe][viuoa]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywe]"
+    # 单字
+    - when: popping1
+      match: "[bpmfdtnlgkhjqxzcsrywe]{2}[viuoa]+"
+      accept: "[bpmfdtnlgkhjqxzcsrywe]"
+    # 多字词
+    - when: popping1
+      match: "[bpmfdtnlgkhjqxzcsrywe]{3,}[viuoa]*"
+      accept: "[bpmfdtnlgkhjqxzcsrywe]"
+    # 大写参与编码
+    - when: popping1
+      match: "[bpmfdtnlgkhjqxzcsrywe][a-z]{2,}"
+      accept: "[BPMFDTNLGKHJQXZCSRYWE]"
+      strategy: append
     # 顶标点
     - match: ".*[^a-z0-9]"
       accept: "[bpmfdtnlgkhjqxzcsrywe]"
     # 标点大写顶
-    - match: ".*[a-z0-9;']"
-      accept: "[^a-z0-9;' ]"
+    - match: ".*[a-z0-9]"
+      accept: "[^a-z0-9 ]"
   algebra:
     __include: snow_sanpin.schema.yaml:/sanpin_algebra
     __append:
@@ -112,8 +132,8 @@ __patch:
 
 patch:
   switches/+:
-    - name: popping
-      states: [整句, 顶功]
+    - options: [fluid, popping, popping1]
+      states: [整句, 四顶, 三顶]
       reset: 1
     - name: chaifen
       states: [默认, 拆分]
@@ -125,6 +145,7 @@ patch:
   translator/preedit_format: null
   translator/t1_pattern: "[bpmfdtnlgkhjqxzcsrywe][a-z]?"
   translator/t2_pattern: "[bpmfdtnlgkhjqxzcsrywe]{4}"
+  translator/t3_pattern: "[bpmfdtnlgkhjqxzcsrywe]{3}"
   translator/jianpin_pattern: "[bpmfdtnlgkhjqxzcsrywe]{3,}"
   translator/enable_schema_user_dict: true
   key_binder/bindings/+:

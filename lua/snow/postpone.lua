@@ -23,7 +23,7 @@ function this.tags_match(segment, env)
   if context.caret_pos ~= context.input:len() then
     return false
   end
-  return context:get_option("popping")
+  return context:get_option("popping") or context:get_option("popping1")
 end
 
 ---@param known_candidates table<string, number>

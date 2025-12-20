@@ -31,7 +31,7 @@ function snow.current(context)
   return context.input:sub(segment.start + 1, segment._end)
 end
 
-snow.debug = true
+snow.debug = false
 
 ---格式化 Info 日志
 ---@param format string|number
@@ -91,11 +91,11 @@ end
 ---@param candidate Candidate
 ---@param proxy string
 function snow.prepare(candidate, proxy, normal)
-  local proxy_segment = proxy:sub(1, candidate._end - candidate._start);
-  candidate._end = candidate._start + proxy_segment:gsub("[ ?]", ""):len()
+  candidate._end = candidate._start + proxy:gsub("[ ?~]", ""):len()
   if not normal then
     candidate.quality = candidate.quality + 1
   end
+  -- candidate.comment = candidate.comment .. (" [%f, %d, %d]"):format(candidate.quality, candidate._start, candidate._end)
   return candidate
 end
 

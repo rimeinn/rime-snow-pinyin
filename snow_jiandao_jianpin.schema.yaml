@@ -47,6 +47,7 @@ speller:
     __append:
       - derive/.([viuoa])$/?$1/ # 无韵母
       - xform/^([a-z])[^?]+$/$1/ # 简拼
+      - derive/^.+$/~/ # 通配符
 
 __patch:
   - patch

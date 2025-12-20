@@ -79,6 +79,15 @@ jianpin:
     - snow_pinyin.tencent
     - snow_pinyin.user
 
+jianpin2:
+  dictionary: snow_pinyin
+  prism: snow_jiandao_jianpin
+  packs:
+    - snow_pinyin.base
+    - snow_pinyin.ext
+    - snow_pinyin.tencent
+    - snow_pinyin.user
+
 menu:
   alternative_select_keys: "_09876"
   page_size: 6

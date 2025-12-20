@@ -11,8 +11,8 @@ script: |
   end
 deploy:
   sentence:
-    options:
-      popping: false
+    patch:
+      'switches/@4/reset': 0
     tests:
       - send: bgxhpbyb
         assert: cand[1].text == "冰雪拼音"

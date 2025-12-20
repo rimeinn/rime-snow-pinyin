@@ -130,8 +130,8 @@ speller:
     - match: ".*[^a-z0-9]"
       accept: "[bpmfdtnlgkhjqxzcsrywe]"
     # 标点大写顶
-    - match: ".*[a-z0-9;']"
-      accept: "[^a-z0-9;' ]"
+    - match: ".*[a-z0-9]"
+      accept: "[^a-z0-9 ]"
   algebra:
     __include: /sanpin_algebra
     __append:
@@ -151,8 +151,8 @@ __patch:
 
 patch:
   switches/+:
-    - name: popping
-      states: [整句, 顶功]
+    - options: [fluid, popping]
+      states: [整句, 四顶]
       reset: 1
     - name: buffered
       states: [结束, 缓冲]
