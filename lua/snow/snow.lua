@@ -91,7 +91,8 @@ end
 ---@param candidate Candidate
 ---@param proxy string
 function snow.prepare(candidate, proxy, normal)
-  candidate._end = candidate._start + proxy:gsub("[ ?~]", ""):len()
+  local proxy_segment = proxy:sub(1, candidate._end - candidate._start);
+  candidate._end = candidate._start + proxy_segment:gsub("[ ?~]", ""):len()
   if not normal then
     candidate.quality = candidate.quality + 1
   end

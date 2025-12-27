@@ -58,3 +58,17 @@ deploy:
       # 缓冲造词
       - send: "vbe kk  bekk"
         assert: cand[1].text == "表示可靠"
+  popping1:
+    patch:
+      'switches/@4/reset': 2
+    tests:
+      # 组词规则
+      - send: bgx
+        assert: has("冰雪")
+      - send: erf
+        assert: has("输入法")
+      - send: fhr
+        assert: has("中华人民")
+      # 顶功
+      - send: ykge
+        assert: commit == "一个"
