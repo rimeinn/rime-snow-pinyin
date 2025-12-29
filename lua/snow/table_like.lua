@@ -10,10 +10,18 @@ local snow = require "snow.snow"
 ---@field pattern3 string
 
 local t12 = {}
+---@type Translator?
+T12Translator = T12Translator
+---@type integer
+T12Reference = 0
 
 ---@param env ProxyTranslatorEnv
 function t12.init(env)
-  env.translator = Component.Translator(env.engine, "translator", "script_translator")
+  if not T12Translator then
+    T12Translator = Component.Translator(env.engine, "translator", "script_translator")
+    T12Reference = T12Reference + 1
+  end
+  env.translator = T12Translator
   env.pattern = env.engine.schema.config:get_string("translator/t1_pattern") or "^.+$"
   env.pattern2 = env.engine.schema.config:get_string("translator/t2_pattern") or "^.+$"
   env.pattern3 = env.engine.schema.config:get_string("translator/t3_pattern") or "^.+$"
@@ -57,14 +65,26 @@ end
 ---@param env ProxyTranslatorEnv
 function t12.fini(env)
   env.translator = nil
-  collectgarbage()
+  T12Reference = T12Reference - 1
+  if T12Reference == 0 then
+    T12Translator = nil
+    collectgarbage()
+  end
 end
 
 local jianpin = {}
+---@type Translator?
+JianpinTranslator = JianpinTranslator
+---@type integer
+JianpinReference = 0
 
 ---@param env ProxyTranslatorEnv
 function jianpin.init(env)
-  env.translator = Component.Translator(env.engine, "jianpin", "script_translator")
+  if not JianpinTranslator then
+    JianpinTranslator = Component.Translator(env.engine, "jianpin", "script_translator")
+    JianpinReference = JianpinReference + 1
+  end
+  env.translator = JianpinTranslator
   env.pattern = env.engine.schema.config:get_string("translator/jianpin_pattern") or "^.+$"
 end
 
@@ -104,11 +124,29 @@ function jianpin.func(input, segment, env)
   end
 end
 
+---@param env ProxyTranslatorEnv
+function jianpin.fini(env)
+  env.translator = nil
+  JianpinReference = JianpinReference - 1
+  if JianpinReference == 0 then
+    JianpinTranslator = nil
+    collectgarbage()
+  end
+end
+
 local lianxiang = {}
+---@type Translator?
+LianxiangTranslator = LianxiangTranslator
+---@type integer
+LianxiangReference = 0
 
 ---@param env ProxyTranslatorEnv
 function lianxiang.init(env)
-  env.translator = Component.Translator(env.engine, "jianpin2", "script_translator")
+  if not LianxiangTranslator then
+    LianxiangTranslator = Component.Translator(env.engine, "jianpin2", "script_translator")
+    LianxiangReference = LianxiangReference + 1
+  end
+  env.translator = LianxiangTranslator
 end
 
 ---@param input string
@@ -130,7 +168,11 @@ end
 ---@param env ProxyTranslatorEnv
 function lianxiang.fini(env)
   env.translator = nil
-  collectgarbage()
+  LianxiangReference = LianxiangReference - 1
+  if LianxiangReference == 0 then
+    LianxiangTranslator = nil
+    collectgarbage()
+  end
 end
 
 return {
