@@ -4,7 +4,7 @@
 schema:
   schema_id: snow_qingyun_xingma
   name: 冰雪清韵形码
-  version: "0.3.0"
+  version: "0.3"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |

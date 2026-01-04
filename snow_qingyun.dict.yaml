@@ -1,6 +1,6 @@
 ---
 name: snow_qingyun
-version: '0.2'
+version: "0.3"
 sort: by_weight
 use_preset_vocabulary: false
 ...

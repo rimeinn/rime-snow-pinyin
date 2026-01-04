@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_sipin
   name: 冰雪四拼
-  version: "0.2.0"
+  version: "0.3"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |

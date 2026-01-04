@@ -4,7 +4,7 @@
 schema:
   schema_id: snow_lingpin
   name: 冰雪零拼
-  version: "0.2.0"
+  version: "0.3"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |

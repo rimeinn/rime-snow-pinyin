@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_yipin
   name: 冰雪一拼
-  version: "0.2.0"
+  version: "0.3"
   author:
     - 张皓哲 <576440085@qq.com>
     - 谭淞宸 <i@tansongchen.com>

@@ -4,7 +4,7 @@
 schema:
   schema_id: snow_qingchun
   name: 冰雪清纯
-  version: "0.3.0"
+  version: "0.3"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |
@@ -12,6 +12,7 @@ schema:
   dependencies:
     - snow_pinyin
     - snow_stroke
+    - snow_qingyun_chaifen
 
 switches:
   - name: chaifen

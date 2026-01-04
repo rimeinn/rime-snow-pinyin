@@ -1,0 +1,15 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: snow_qingyun_chaifen
+  name: 冰雪清韵拆分
+  version: "0.3"
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+  description: |
+    以音码词语和形码单字为特色的前缀码输入方案
+
+translator:
+  dictionary: snow_qingyun_chaifen
+  enable_user_dict: false

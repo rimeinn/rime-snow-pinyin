@@ -4,7 +4,7 @@
 schema:
   schema_id: snow_stroke
   name: 冰雪笔画
-  version: "0.2"
+  version: "0.3"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |

@@ -9,7 +9,7 @@ local this = {}
 ---@field reverse_lookup table<string, string[]>
 ---@field lookup_pinyin ReverseLookup
 ---@field memory Memory
----@field chaifen table<string, string>
+---@field chaifen ReverseLookup
 ---@field connection Connection
 
 ---@param env QingyunEnv
@@ -27,7 +27,7 @@ function this.init(env)
   end
   env.lookup_pinyin = ReverseLookup("snow_pinyin")
   env.memory = Memory(env.engine, env.engine.schema, "pinyin")
-  env.chaifen = snow.table_from_tsv(rime_api.get_user_data_dir() .. "/lua/snow/qingyun_chaifen.txt")
+  env.chaifen = ReverseLookup("snow_qingyun_chaifen")
   env.connection = env.engine.context.commit_notifier:connect(function(ctx)
     local reset = env.engine.schema.config:get_int("switches/3/reset")
     local target = reset == 1 and true or false
@@ -126,9 +126,9 @@ function this.func(translation, env)
       if codes then
         snow.comment(candidate, table.concat(codes, " "))
         if env.engine.context:get_option("chaifen") then
-          local chaifen = env.chaifen[candidate.text]
+          local chaifen = env.chaifen:lookup(candidate.text)
           if chaifen then
-            snow.comment(candidate, "~ " .. chaifen)
+            snow.comment(candidate, "~ " .. chaifen:gsub("-", " "))
           end
         end
       end

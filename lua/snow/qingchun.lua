@@ -6,12 +6,12 @@ local this = {}
 
 ---@class QingchunEnv: Env
 ---@field memory Memory
----@field chaifen table<string, string>
+---@field chaifen ReverseLookup
 
 ---@param env QingchunEnv
 function this.init(env)
   env.memory = Memory(env.engine, env.engine.schema)
-  env.chaifen = snow.table_from_tsv(rime_api.get_user_data_dir() .. "/lua/snow/qingyun_chaifen.txt")
+  env.chaifen = ReverseLookup("snow_qingyun_chaifen")
 end
 
 ---@param translation Translation
@@ -33,9 +33,9 @@ function this.func(translation, env)
   if segment:has_tag("pinyin") or segment:has_tag("stroke") then -- 生成反查提示
     for candidate in translation:iter() do
       if env.engine.context:get_option("chaifen") then
-        local chaifen = env.chaifen[candidate.text]
+        local chaifen = env.chaifen:lookup(candidate.text)
         if chaifen then
-          snow.comment(candidate, "~ " .. chaifen)
+          snow.comment(candidate, "~ " .. chaifen:gsub("-", " "))
         end
       end
       yield(candidate)

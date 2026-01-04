@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_jiandao
   name: 冰雪键道
-  version: "0.2.0"
+  version: "0.3"
   author:
     - 吅吅大山
     - 谭淞宸 <i@tansongchen.com>
