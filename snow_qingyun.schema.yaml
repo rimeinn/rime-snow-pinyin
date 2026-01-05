@@ -13,7 +13,7 @@ schema:
     以音码词语和形码单字为特色的前缀码输入方案
   dependencies:
     - snow_pinyin
-    - snow_stroke
+    - snow_bihua
     - snow_qingyun_xingma
     - snow_qingyun_chaifen
 

@@ -4,13 +4,9 @@
 local snow = require "snow.snow"
 
 ---@class AssistEnv: Env
----@field strokes table<string, string>
----@field radicals_gf0012 table<string, string>
----@field radicals_xingpang table<string, string>
----@field radical_sipin table<string, string>
----@field radical_shengjie table<string, string>
----@field xkjd table<string, string>
----@field xkjd_chaifen table<string, string>
+---@field strokes ReverseLookup
+---@field shape_elements ReverseLookup
+---@field shape_mapping table<string, string>
 
 --- 将字符串中每一个字符替换为 map 中对应的值
 ---@param element string
@@ -30,26 +26,36 @@ end
 --- 键道的特殊处理
 ---@param text string
 ---@param current string
+---@param radicals_map ReverseLookup
 ---@param map table<string, string>
-local function jiandao_encode(text, current, map)
+local function jiandao_encode(text, current, radicals_map, map)
   -- 把 UTF-8 编码的词语拆成单个字符的列表
-  local characters = {}
-  for _, char in utf8.codes(text) do
-    table.insert(characters, utf8.char(char))
+  ---@type string[]
+  local codes = {}
+  for _, codepoint in utf8.codes(text) do
+    local char = utf8.char(codepoint)
+    local radicals = radicals_map:lookup(char) or ""
+    local code = ""
+    for _, radical_codepoint in utf8.codes(radicals) do
+      local r = utf8.char(radical_codepoint)
+      local radical_code = map[r] or ""
+      code = code .. radical_code
+    end
+    table.insert(codes, code)
   end
   local result = ""
-  if #characters == 2 and current:len() == 1 then -- 630
-    result = (map[characters[2]] or "??"):sub(1, 2)
-  elseif #characters == 1 then
+  if #codes == 2 and current:len() == 1 then -- 630
+    result = (codes[2] or "??"):sub(1, 2)
+  elseif #codes == 1 then
     -- 如果只有一个字符，直接返回对应的编码
-    result = map[characters[1]] or "??"
-  elseif #characters == 3 then
+    result = codes[1] or "??"
+  elseif #codes == 3 then
     -- 如果有三个字符，返回第一个字符的编码和第二个字符的编码
-    result = (map[characters[1]] or "?"):sub(1, 1) ..
-        (map[characters[2]] or "?"):sub(1, 1) .. (map[characters[3]] or "?"):sub(1, 1)
-  elseif #characters >= 2 then
+    result = (codes[1] or "?"):sub(1, 1) ..
+        (codes[2] or "?"):sub(1, 1) .. (codes[3] or "?"):sub(1, 1)
+  elseif #codes >= 2 then
     -- 如果有两个字符，返回第一个字符的编码和第二个字符的编码
-    result = (map[characters[1]] or "?"):sub(1, 1) .. (map[characters[2]] or "?"):sub(1, 1)
+    result = (codes[1] or "?"):sub(1, 1) .. (codes[2] or "?"):sub(1, 1)
   end
   return result
 end
@@ -58,14 +64,13 @@ local filter = {}
 
 ---@param env AssistEnv
 function filter.init(env)
+  local config = env.engine.schema.config
   local dir = rime_api.get_user_data_dir() .. "/lua/snow/"
-  env.strokes = snow.table_from_tsv(dir .. "strokes.txt")
-  env.radicals_gf0012 = snow.table_from_tsv(dir .. "radicals_gf0012.txt")
-  env.radicals_xingpang = snow.table_from_tsv(dir .. "radicals_xingpang.txt")
-  env.radical_sipin = snow.table_from_tsv(dir .. "radical_sipin.txt")
-  env.radical_shengjie = snow.table_from_tsv(dir .. "radical_shengjie.txt")
-  env.xkjd = snow.table_from_tsv(dir .. "xkjd.txt")
-  env.xkjd_chaifen = snow.table_from_tsv(dir .. "xkjd_chaifen.txt")
+  env.strokes = ReverseLookup("stroke")
+  local shape_elements = config:get_string("translator/shape_elements") or "snow_bushou"
+  env.shape_elements = ReverseLookup(shape_elements)
+  local shape_mapping = config:get_string("translator/shape_mapping") or "radical_sipin.txt"
+  env.shape_mapping = snow.table_from_tsv(dir .. shape_mapping)
 end
 
 ---@param text string
@@ -85,14 +90,14 @@ function filter.handle_candidate(text, shape_input, env)
       local comment = ""
       if shape_input:sub(1, 1) == "1" then
         partial_code = shape_input:sub(2)
-        local element = env.radicals_gf0012[text] or ""
-        code = encode(element, env.radical_sipin)
+        local element = env.shape_elements:lookup(text) or ""
+        code = encode(element, env.shape_mapping)
         prompt = " 部首 [" .. partial_code .. "]"
         comment = code .. " " .. element
       else
         partial_code = shape_input
-        local element = env.strokes[text] or ""
-        code = encode(element, { ["一"] = "e", ["丨"] = "i", ["丿"] = "u", ["丶"] = "o", ["乙"] = "a" })
+        local element = snow.split(env.strokes:lookup(text), " ")[1] or ""
+        code = encode(element, { ["h"] = "e", ["s"] = "i", ["p"] = "u", ["n"] = "o", ["z"] = "a" })
         prompt = partial_code:len() > 0 and
             " 笔画 [" .. partial_code:gsub(".", { ["e"] = "一", ["i"] = "丨", ["u"] = "丿", ["o"] = "丶", ["a"] = "乙" }) .. "]" or
             nil
@@ -111,14 +116,14 @@ function filter.handle_candidate(text, shape_input, env)
       local comment = ""
       if shape_input:sub(1, 1) == "1" then
         partial_code = shape_input:sub(2)
-        local element = env.radicals_gf0012[text] or ""
-        code = encode(element, env.radical_sipin)
+        local element = env.shape_elements:lookup(text) or ""
+        code = encode(element, env.shape_mapping)
         prompt = " 部首 [" .. partial_code .. "]"
         comment = code .. " " .. element
       else
         partial_code = shape_input
-        local element = env.strokes[text] or ""
-        code = encode(element, { ["一"] = "v", ["丨"] = "i", ["丿"] = "u", ["丶"] = "o", ["乙"] = "a" })
+        local element = snow.split(env.strokes:lookup(text), " ")[1] or ""
+        code = encode(element, { ["h"] = "v", ["s"] = "i", ["p"] = "u", ["n"] = "o", ["z"] = "a" })
         prompt = " 笔画 [" ..
             partial_code:gsub(".", { ["v"] = "一", ["i"] = "丨", ["u"] = "丿", ["o"] = "丶", ["a"] = "乙" }) .. "]"
         comment = code
@@ -130,14 +135,14 @@ function filter.handle_candidate(text, shape_input, env)
     end
   elseif id == "snow_jiandao" then -- 冰雪键道
     if shape_input:len() > 0 or rime_api.regex_match(current, "[bpmfdtnlgkhjqxzcsrywe][a-z]([bpmfdtnlgkhjqxzcsrywe][a-z]?)?") then
-      local code = jiandao_encode(text, current, env.xkjd)
+      local code = jiandao_encode(text, current, env.shape_elements, env.shape_mapping)
       local prompt = shape_input:len() > 0 and " 形 [" .. shape_input .. "]" or nil
       local match = not code or code:sub(1, #shape_input) == shape_input
       local comment = code
       if current:len() == 1 then
         comment = "" -- 630 不需要提示
       elseif utf8.len(text) == 1 and (env.engine.context:get_option("chaifen") or is_pinyin) then
-        local chaifen = env.xkjd_chaifen[text] or ""
+        local chaifen = env.shape_elements:lookup(text) or ""
         comment = comment .. " " .. chaifen
       end
       return match, prompt, comment
@@ -147,8 +152,8 @@ function filter.handle_candidate(text, shape_input, env)
   elseif id == "snow_yipin" then -- 冰雪一拼
     local partial_code = ""
     local prompt = ""
-    local element = env.radicals_xingpang[text] or ""
-    local code = encode(element, env.radical_shengjie)
+    local element = env.shape_elements:lookup(text) or ""
+    local code = encode(element, env.shape_mapping)
     local comment = (code .. " " .. element):gsub("rj", "'")
     if shape_input:sub(1, 1) == "v" then
       partial_code = shape_input:sub(2, -2):gsub("([a-z])%1", function(a, b)

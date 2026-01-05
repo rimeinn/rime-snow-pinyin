@@ -15,6 +15,7 @@ schema:
     拼读并击的顶功和整句版，使用脚本翻译器来达到更好的打词体验
   dependencies:
     - snow_pinyin
+    - snow_xingpang
 
 engine:
   processors:
@@ -364,3 +365,5 @@ patch:
     - { when: composing, accept: bracketright, send: Page_Down }
     - { when: composing, accept: bracketleft, send: Page_Up }
   menu/alternative_select_keys: null
+  translator/shape_elements: snow_xingpang
+  translator/shape_mapping: "radical_shengjie.txt"

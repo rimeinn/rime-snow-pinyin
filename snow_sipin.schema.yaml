@@ -13,7 +13,8 @@ schema:
     带调拼音词顶功输入方案
   dependencies:
     - snow_pinyin
-    - snow_stroke
+    - snow_bihua
+    - snow_bushou
 
 engine:
   processors:
@@ -176,6 +177,8 @@ patch:
   translator/prism: snow_sipin
   translator/preedit_format: null
   translator/enable_schema_user_dict: true
+  translator/shape_elements: snow_bushou
+  translator/shape_mapping: "radical_sipin.txt"
   punctuator/half_shape/+:
     ";": 的
     "|": ；

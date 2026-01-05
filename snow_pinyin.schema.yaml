@@ -12,7 +12,7 @@ schema:
     用 1、2、3、4、5 表示阴平、阳平、上声、去声和轻声
     用空格、0、9、8、7、6 来选择候选
   dependencies:
-    - snow_stroke
+    - snow_bihua
 
 switches:
   - name: ascii_mode
@@ -107,7 +107,7 @@ recognizer:
 stroke:
   tag: stroke
   dictionary: stroke
-  prism: snow_stroke
+  prism: snow_bihua
   enable_user_dict: false
   enable_sentence: false
   enable_completion: true

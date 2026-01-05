@@ -14,8 +14,9 @@ schema:
     单字三码起顶、词组四码起顶的双拼词顶功方案
   dependencies:
     - snow_pinyin
-    - snow_stroke
+    - snow_bihua
     - snow_jiandao_jianpin
+    - snow_jiandao_chaifen
 
 engine:
   processors:
@@ -148,6 +149,8 @@ patch:
   translator/t3_pattern: "[bpmfdtnlgkhjqxzcsrywe]{3}"
   translator/jianpin_pattern: "[bpmfdtnlgkhjqxzcsrywe]{3,}"
   translator/enable_schema_user_dict: true
+  translator/shape_elements: snow_jiandao_chaifen
+  translator/shape_mapping: "radical_jiandao.txt"
   key_binder/bindings/+:
     - { when: always, accept: "Control+j", toggle: buffered }
     - { when: always, accept: "Control+l", send_sequence: "{Home}{Right}{Right}" }

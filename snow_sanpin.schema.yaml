@@ -14,7 +14,7 @@ schema:
     基于键道双拼改编
   dependencies:
     - snow_pinyin
-    - snow_stroke
+    - snow_bihua
 
 engine:
   processors:

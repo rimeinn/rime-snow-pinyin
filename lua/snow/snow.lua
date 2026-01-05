@@ -83,6 +83,17 @@ function snow.sub(s, i, j)
   end
 end
 
+---@param s string
+---@param sep string
+function snow.split(s, sep)
+  ---@type string[]
+  local result = {}
+  for part in s:gmatch("([^" .. sep .. "]+)") do
+    table.insert(result, part)
+  end
+  return result
+end
+
 ---@param env Env
 function snow.get_dictionary_path(env)
   return rime_api.get_user_data_dir() .. ("/%s.fixed.txt"):format(env.engine.schema.schema_id)

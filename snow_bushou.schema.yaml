@@ -1,0 +1,14 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: snow_bushou
+  name: 冰雪部首
+  version: "0.3"
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+  description: |
+    取自 GF0012 部首表
+
+translator:
+  dictionary: snow_bushou

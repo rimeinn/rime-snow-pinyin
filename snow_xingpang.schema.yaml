@@ -1,0 +1,15 @@
+# Rime schema settings
+# encoding: utf-8
+
+schema:
+  schema_id: snow_xingpang
+  name: 冰雪形旁
+  version: "0.3"
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+    - 张皓哲
+  description: |
+    取自拼读并击形旁部首码
+
+translator:
+  dictionary: snow_xingpang
