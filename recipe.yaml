@@ -1,0 +1,10 @@
+# encoding: utf-8
+---
+recipe:
+  Rx: snow_pinyin
+  description: >-
+    安装冰雪拼音
+
+install_files: >-
+  snow*.yaml
+  lua/snow/*
