@@ -3,14 +3,14 @@ on:
     tags:
       - "*"
 
-name: Create Release
+name: 发布
 
 jobs:
   build:
-    name: Create Release
+    name: 发布
     runs-on: ubuntu-24.04
     steps:
-      - name: Checkout code
+      - name: 获取代码
         uses: actions/checkout@v4
         with:
           submodules: true

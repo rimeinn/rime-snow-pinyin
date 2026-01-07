@@ -1,6 +1,6 @@
 on: [push]
 
-name: Test
+name: 测试
 
 jobs:
   test:
@@ -20,7 +20,13 @@ jobs:
           - name: 冰雪清韵
             schema: snow_qingyun
     steps:
-      - uses: actions/checkout@v4
+      - name: 获取代码
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: 复制笔画输入方案
+        run: |
+          cp rime-stroke/stroke* .
       - name: 安装 Mira
         run: |
           wget https://github.com/rimeinn/mira/releases/download/latest/mira
