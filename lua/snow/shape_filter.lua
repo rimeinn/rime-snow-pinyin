@@ -98,6 +98,9 @@ function filter.handle_candidate(text, shape_input, env)
         partial_code = shape_input
         local element = snow.split(env.strokes:lookup(text), " ")[1] or ""
         code = encode(element, { ["h"] = "e", ["s"] = "i", ["p"] = "u", ["n"] = "o", ["z"] = "a" })
+        if code:len() > partial_code:len() + 4 then
+          code = code:sub(1, partial_code:len() + 4) .. "~"
+        end
         prompt = partial_code:len() > 0 and
             " 笔画 [" .. partial_code:gsub(".", { ["e"] = "一", ["i"] = "丨", ["u"] = "丿", ["o"] = "丶", ["a"] = "乙" }) .. "]" or
             nil
