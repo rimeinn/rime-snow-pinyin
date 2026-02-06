@@ -848,6 +848,8 @@ deploy:
     tests:
       - send: sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m}
         assert: cand[1].text == "冰雪"
+      - send: sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m}f{Release+f}
+        assert: commit == "冰雪的"
   popping:
     tests:
       # 固顶词

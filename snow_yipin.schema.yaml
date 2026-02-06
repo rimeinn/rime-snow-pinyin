@@ -56,9 +56,9 @@ chord_composer:
     - xform/^([qazwsxedcrfvtgb]+) $/v $1 v/
     - xform/^([yhnujmikolp]+) $/v$1$1v/
     # 左手并击，打出声介（一简字）
-    - xform/^([qazwsxedcrfvtgb]+)$/ $1  /
+    - xform/^([qazwsxedcrfvtgb]+)$/o $1  /
     # 左手并击右手单引号，打出声介的二选（一简词）
-    - xform/^([qazwsxedcrfvtgb]+)'$/ $1 - /
+    - xform/^([qazwsxedcrfvtgb]+)'$/o $1 - /
     # 右手并击，打出符号和功能键
     - xform|^h$|iduh |
     - xform|^j$|idh |
@@ -197,7 +197,7 @@ chord_composer:
     - xform/^(u?r)(an|ang|ao|e|en|eng|ou|u|ua|uan|ue|uei|uen|ueng)?([wyxq])$/[$1$2$3]/
     - xform/^(u?[zcs])(a|ai|an|ang|ao|e|ei|en|eng|ou|u|uan|ue|uei|uen|ueng)?([wyxq])$/[$1$2$3]/
     # 单独打声介的情况
-    - xform/^([bpmfdtnlgkhzcsr]j?[iuv]?)$/[$1]/
+    - xform/^(o?[bpmfdtnlgkhzcsr]j?[iuv]?)$/[$1]/
     # 辅助码的情况
     - xform/^(v.+v)$/[$1]/
     # 去除不合法音节

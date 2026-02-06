@@ -27,6 +27,10 @@ function processor.func(key_event, env)
     if incoming == "u" then -- 在完整音节后面出现 u，表示追加
       env.active = false
       return snow.kAccepted
+    elseif incoming == "i" or incoming == "o" then -- 在完整音节后面出现 i，表示标点符号
+      context:confirm_current_selection()
+      context:commit()
+      return incoming == "i" and snow.kNoop or snow.kAccepted
     elseif rime_api.regex_match(incoming, "[a-z]") then
       if env.active and context:get_option("popping") then
         context:confirm_current_selection()
