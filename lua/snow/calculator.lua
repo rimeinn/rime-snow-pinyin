@@ -34,6 +34,26 @@ round = function(x, dc)
   return x - dif
 end
 
+-- 银行家舍入法
+round2 = function (x, dc)
+  local dc = dc or 1
+  local fraction = x / dc
+  local integer = math.floor(fraction)
+  local remainder = fraction - integer
+
+  if remainder < 0.5 then
+    return integer * dc
+  elseif remainder > 0.5 then
+    return (integer + 1) * dc
+  else
+    if integer % 2 == 0 then
+      return integer * dc
+    else
+      return (integer + 1) * dc
+    end
+  end
+end
+
 random = math.random
 randomseed = math.randomseed
 
@@ -391,6 +411,13 @@ local function calculator_translator(input, seg, env)
   ---@cast result string
   yield(Candidate("number", seg.start, seg._end, result, "答案"))
   yield(Candidate("number", seg.start, seg._end, exp .. " = " .. result, "等式"))
+
+  local result = tostring(result)
+  if result:find("e") then
+    local base, symbol, exponent = result:match("(.*)e([+-])(.*)")
+    yield(Candidate("number", seg.start, seg._end, string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
+    yield(Candidate("number", seg.start, seg._end, exp .. " ≈ " .. string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
+  end
 end
 
 return calculator_translator
