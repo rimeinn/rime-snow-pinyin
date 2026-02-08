@@ -417,6 +417,9 @@ local function calculator_translator(input, seg, env)
     local base, symbol, exponent = result:match("(.*)e([+-])(.*)")
     yield(Candidate("number", seg.start, seg._end, string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
     yield(Candidate("number", seg.start, seg._end, exp .. " ≈ " .. string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
+  else
+    yield(Candidate("number", seg.start, seg._end, string.format("%.2f", round2(result, 0.01)), "答案"))
+    yield(Candidate("number", seg.start, seg._end, exp .. " ≈ " .. string.format("%.2f", round2(result, 0.01)), "答案"))
   end
 end
 
