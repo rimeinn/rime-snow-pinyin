@@ -3,7 +3,7 @@ import { readFileSync, writeFileSync } from "fs";
 import { dump } from "js-yaml";
 
 const 声介映射 = new Map(
-  `
+	`
 d	F
 i	D
 sh	S
@@ -56,13 +56,13 @@ lv	AS
 nu	SE
 nv	XD
 `
-    .trim()
-    .split("\n")
-    .map((line) => line.split("\t") as [string, string])
+		.trim()
+		.split("\n")
+		.map((line) => line.split("\t") as [string, string]),
 );
 
 const 韵调映射 = new Map(
-  `
+	`
 4	J
 e1	K
 3	L
@@ -108,20 +108,20 @@ ao2	U;
 ai3	HI
 ai1	HO
 `
-    .trim()
-    .split("\n")
-    .map((line) => line.split("\t") as [string, string])
+		.trim()
+		.split("\n")
+		.map((line) => line.split("\t") as [string, string]),
 );
 
 interface 拼合 {
-  拼音: string;
-  声介: string;
-  韵调: string;
+	拼音: string;
+	声介: string;
+	韵调: string;
 }
 
 const csv: 拼合[] = parse(readFileSync("scripts/冰雪一拼拼合表.txt"), {
-  delimiter: "\t",
-  columns: ["拼音", "声介", "韵调"],
+	delimiter: "\t",
+	columns: ["拼音", "声介", "韵调"],
 });
 
 const 分组: 拼合[][] = [];
@@ -129,61 +129,61 @@ const 分组: 拼合[][] = [];
 let last: string = "";
 const group: 拼合[] = [];
 for (const x of csv) {
-  if (x.拼音.replace(/\d/, "") === last.replace(/\d/, "")) {
-    group.push(x);
-  } else {
-    if (group.length > 0) {
-      分组.push([...group]);
-      group.length = 0;
-    }
-    last = x.拼音;
-    group.push(x);
-  }
+	if (x.拼音.replace(/\d/, "") === last.replace(/\d/, "")) {
+		group.push(x);
+	} else {
+		if (group.length > 0) {
+			分组.push([...group]);
+			group.length = 0;
+		}
+		last = x.拼音;
+		group.push(x);
+	}
 }
 
 interface Test {
-  send: string;
-  assert: string;
+	send: string;
+	assert: string;
 }
 
 const 被合并的音节: Map<string, string> = new Map([
-  ["hm", "hen"],
-  ["hng", "heng"],
-  ["ng", "eng"],
-  ["n", "en"],
-  ["m", "mu"],
-  ["o", "e"],
-  ["yo", "ye"],
-  ["lo", "le"],
-  ["me", "mo"],
+	["hm", "hen"],
+	["hng", "heng"],
+	["ng", "eng"],
+	["n", "en"],
+	["m", "mu"],
+	["o", "e"],
+	["yo", "ye"],
+	["lo", "le"],
+	["me", "mo"],
 ]);
 
 const tests: Test[] = [];
 
 for (const 组 of 分组) {
-  const 随机选择 = 组[Math.floor(Math.random() * 组.length)];
-  const { 拼音, 声介, 韵调 } = 随机选择;
-  const 声介键位 = 声介映射.get(声介);
-  const 韵调键位 = 韵调映射.get(韵调);
-  if (!声介键位 || !韵调键位) {
-    console.error(`${拼音} 声介 ${声介} 韵调 ${韵调} 键位映射未找到`);
-    continue;
-  }
-  const lookup: Record<string, string> = {
-    ",": "comma",
-    ".": "period",
-    ";": "semicolon",
-    "/": "slash",
-  };
-  const 所有按键 = Array.from((声介键位 + 韵调键位).toLowerCase());
-  const 所有按键松开 = 所有按键.map((x) => `{Release+${lookup[x] ?? x}}`);
-  const send = 所有按键.concat(所有按键松开).join("");
-  const 不带调拼音 = 拼音.slice(0, 拼音.length - 1);
-  const 最终拼音 = 被合并的音节.has(不带调拼音)
-    ? 拼音.replace(不带调拼音, 被合并的音节.get(不带调拼音)!)
-    : 拼音;
-  const assert = `preedit == "${最终拼音}"`;
-  tests.push({ send, assert });
+	const 随机选择 = 组[Math.floor(Math.random() * 组.length)];
+	const { 拼音, 声介, 韵调 } = 随机选择;
+	const 声介键位 = 声介映射.get(声介);
+	const 韵调键位 = 韵调映射.get(韵调);
+	if (!声介键位 || !韵调键位) {
+		console.error(`${拼音} 声介 ${声介} 韵调 ${韵调} 键位映射未找到`);
+		continue;
+	}
+	const lookup: Record<string, string> = {
+		",": "comma",
+		".": "period",
+		";": "semicolon",
+		"/": "slash",
+	};
+	const 所有按键 = Array.from((声介键位 + 韵调键位).toLowerCase());
+	const 所有按键松开 = 所有按键.map((x) => `{Release+${lookup[x] ?? x}}`);
+	const send = 所有按键.concat(所有按键松开).join("");
+	const 不带调拼音 = 拼音.slice(0, 拼音.length - 1);
+	const 最终拼音 = 被合并的音节.has(不带调拼音)
+		? 拼音.replace(不带调拼音, 被合并的音节.get(不带调拼音)!)
+		: 拼音;
+	const assert = `preedit == "${最终拼音}"`;
+	tests.push({ send, assert });
 }
 
 const content = dump({ deploy: { syllable: { tests } } });

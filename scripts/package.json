@@ -1,31 +1,33 @@
 {
-  "name": "snow",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "deploy": "tsx scripts/tasks.ts deploy",
-    "retrieve": "tsx scripts/tasks.ts retrieve",
-    "test-sipin": "mira spec/snow_sipin.test.yaml",
-    "test-sanpin": "mira spec/snow_sanpin.test.yaml",
-    "test-yipin": "mira spec/snow_yipin.test.yaml",
-    "test-jiandao": "mira spec/snow_jiandao.test.yaml",
-    "test": "npm run test-sipin && npm run test-sanpin && npm run test-jiandao && npm run test-yipin"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@pinyin-pro/data": "^1.0.3",
-    "csv-parse": "^6.1.0",
-    "gray-matter": "^4.0.3",
-    "js-yaml": "^4.1.0",
-    "lodash-es": "^4.17.21",
-    "pinyin-pro": "^3.20.3"
-  },
-  "devDependencies": {
-    "@types/js-yaml": "^4.0.9",
-    "@types/lodash-es": "^4.17.12",
-    "@types/node": "^20.19.39",
-    "tsx": "^4.7.2"
-  }
+	"name": "snow",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+    "format": "bunx --bun @biomejs/biome format --write",
+		"deploy": "tsx scripts/tasks.ts deploy",
+		"retrieve": "tsx scripts/tasks.ts retrieve",
+		"test-sipin": "mira spec/snow_sipin.test.yaml",
+		"test-sanpin": "mira spec/snow_sanpin.test.yaml",
+		"test-yipin": "mira spec/snow_yipin.test.yaml",
+		"test-jiandao": "mira spec/snow_jiandao.test.yaml",
+		"test": "npm run test-sipin && npm run test-sanpin && npm run test-jiandao && npm run test-yipin"
+	},
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@pinyin-pro/data": "^1.0.3",
+		"csv-parse": "^6.1.0",
+		"gray-matter": "^4.0.3",
+		"js-yaml": "^4.1.0",
+		"lodash-es": "^4.17.21",
+		"pinyin-pro": "^3.20.3"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "2.5.3",
+		"@types/js-yaml": "^4.0.9",
+		"@types/lodash-es": "^4.17.12",
+		"@types/node": "^20.19.39",
+		"tsx": "^4.7.2"
+	}
 }
