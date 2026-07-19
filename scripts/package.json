@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-    "format": "bunx --bun @biomejs/biome format --write",
+		"format": "bunx --bun @biomejs/biome format --write",
 		"deploy": "tsx scripts/tasks.ts deploy",
 		"retrieve": "tsx scripts/tasks.ts retrieve",
 		"test-sipin": "mira spec/snow_sipin.test.yaml",
@@ -17,6 +17,7 @@
 	"license": "ISC",
 	"dependencies": {
 		"@pinyin-pro/data": "^1.0.3",
+		"bun-types": "^1.3.14",
 		"csv-parse": "^6.1.0",
 		"gray-matter": "^4.0.3",
 		"js-yaml": "^4.1.0",

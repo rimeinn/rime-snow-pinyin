@@ -14,3 +14,13 @@ ascii_composer:
     Eisu_toggle: clear
     Shift_L: inline_ascii
     Shift_R: commit_text
+
+key_binder:
+  bindings: []
+
+punctuator:
+  full_shape: {}
+  half_shape: {}
+
+recognizer:
+  patterns: {}

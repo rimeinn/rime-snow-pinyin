@@ -145,6 +145,6 @@ patch:
     - { when: always, accept: v, toggle: buffered }
     - { when: composing, accept: v, send: v }
   menu/alternative_select_keys: null
-  recognizer/patterns/jianpin: "[bpmfdtnlgkhjqxzcsrywe]{3,}"
+  recognizer/patterns/jianpin: "^[bpmfdtnlgkhjqxzcsrywe]{3,}$"
   stroke/prism: snow_jiandao_bihua
   stroke/preedit_format: [xlit/viuoa/一丨丿丶乙/]

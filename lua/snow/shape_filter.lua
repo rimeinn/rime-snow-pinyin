@@ -137,12 +137,12 @@ function filter.handle_candidate(text, shape_input, env)
       return true, nil, nil
     end
   elseif id == "snow_jiandao" then -- 冰雪键道
-    if shape_input:len() > 0 or rime_api.regex_match(current, "[bpmfdtnlgkhjqxzcsrywe][a-z]([bpmfdtnlgkhjqxzcsrywe][a-z]?)?") then
+    if is_pinyin or shape_input:len() > 0 or rime_api.regex_match(current, "[bpmfdtnlgkhjqxzcsrywe][a-z]([bpmfdtnlgkhjqxzcsrywe][a-z]?)?") then
       local code = jiandao_encode(text, current, env.shape_elements, env.shape_mapping)
       local prompt = shape_input:len() > 0 and " 形 [" .. shape_input .. "]" or nil
       local match = not code or code:sub(1, #shape_input) == shape_input
       local comment = code
-      if current:len() == 1 then
+      if not is_pinyin and current:len() == 1 then
         comment = "" -- 630 不需要提示
       elseif utf8.len(text) == 1 and (env.engine.context:get_option("chaifen") or is_pinyin) then
         local chaifen = env.shape_elements:lookup(text) or ""

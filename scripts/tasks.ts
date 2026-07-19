@@ -1,6 +1,6 @@
-import { copyFileSync, readdirSync } from "fs";
-import { homedir } from "os";
-import { join } from "path";
+import { copyFileSync, readdirSync } from "node:fs";
+import { homedir } from "node:os";
+import { join } from "node:path";
 import { Glob } from "bun";
 
 // 使用 glob 模式匹配文件，支持星号通配符
@@ -11,13 +11,13 @@ const FILE_PATTERNS = [
 	"snow_*.fixed.txt",
 ];
 
-function resolveFiles(): string[] {
+function resolveFiles(folder: string): string[] {
 	const glob = new Glob(`{${FILE_PATTERNS.join(",")}}`);
-	return [...glob.scanSync(".")].sort();
+	return [...glob.scanSync(folder)].sort();
 }
 
 function deploy(path: string) {
-	for (const file of resolveFiles()) {
+	for (const file of resolveFiles(".")) {
 		copyFileSync(`./${file}`, `${path}/${file}`);
 	}
 	for (const file of readdirSync("./lua/snow/")) {
@@ -26,7 +26,7 @@ function deploy(path: string) {
 }
 
 function retrieve(path: string) {
-	for (const file of resolveFiles()) {
+	for (const file of resolveFiles(path)) {
 		copyFileSync(`${path}/${file}`, `./${file}`);
 	}
 	for (const file of readdirSync(`${path}/lua/snow/`)) {

@@ -1,0 +1,25 @@
+# Rime schema
+# encoding: utf-8
+
+__include: stroke.schema.yaml:/
+
+schema:
+  schema_id: snow_jiandao_bihua
+  name: 冰雪键道笔画
+  version: "0.3"
+  author:
+    - 谭淞宸 <i@tansongchen.com>
+  description: |
+    用 viuoa 输入笔画，用于反查
+  dependencies:
+    - stroke
+
+__patch:
+  - patch
+  - snow_jiandao_bihua.custom:/patch?
+
+patch:
+  speller/alphabet: aviou
+  speller/algebra:
+    - xlit/hspnz/viuoa/
+  translator/prism: snow_jiandao_bihua
