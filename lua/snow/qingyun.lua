@@ -125,12 +125,6 @@ function this.func(translation, env)
       local codes = env.reverse_lookup[candidate.text]
       if codes then
         snow.comment(candidate, table.concat(codes, " "))
-        if env.engine.context:get_option("chaifen") then
-          local chaifen = env.chaifen:lookup(candidate.text)
-          if chaifen then
-            snow.comment(candidate, "~ " .. chaifen:gsub("-", " "))
-          end
-        end
       end
     else
       local codes = env.reverse_lookup[candidate.text]
@@ -144,6 +138,12 @@ function this.func(translation, env)
         if #shorter_codes > 0 then
           snow.comment(candidate, table.concat(shorter_codes, " "))
         end
+      end
+    end
+    if env.engine.context:get_option("chaifen") then
+      local chaifen = env.chaifen:lookup(candidate.text)
+      if chaifen:len() > 0 then
+        snow.comment(candidate, "~ " .. chaifen:gsub("-", " "))
       end
     end
     prettify_preedit(candidate)
