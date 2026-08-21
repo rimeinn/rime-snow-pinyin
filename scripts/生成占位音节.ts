@@ -70,4 +70,4 @@ for (const syllable of set) {
 	}
 }
 
-writeFileSync("output.txt", 音节.map((x) => `🈚️\t${x}`).join("\n"));
+writeFileSync("output.txt", 音节.map((x) => `${x}\t${x}`).join("\n"));
