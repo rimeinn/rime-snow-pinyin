@@ -20,6 +20,6 @@ __patch:
 
 patch:
   speller/alphabet: aeiou
-  algebra:
+  speller/algebra:
     - xlit/hspnz/eiuoa/
   translator/prism: snow_bihua

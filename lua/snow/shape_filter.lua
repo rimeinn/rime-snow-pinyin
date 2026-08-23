@@ -88,25 +88,33 @@ function filter.handle_candidate(text, shape_input, env)
       ---@type string?
       local prompt = ""
       local comment = ""
+      local match = false
       if shape_input:sub(1, 1) == "1" then
         partial_code = shape_input:sub(2)
         local element = env.shape_elements:lookup(text) or ""
         code = encode(element, env.shape_mapping)
         prompt = " 部首 [" .. partial_code .. "]"
         comment = code .. " " .. element
+        match = not code or code:sub(1, #partial_code) == partial_code
       else
         partial_code = shape_input
-        local element = snow.split(env.strokes:lookup(text), " ")[1] or ""
-        code = encode(element, { ["h"] = "e", ["s"] = "i", ["p"] = "u", ["n"] = "o", ["z"] = "a" })
-        if code:len() > partial_code:len() + 4 then
-          code = code:sub(1, partial_code:len() + 4) .. "~"
-        end
         prompt = partial_code:len() > 0 and
             " 笔画 [" .. partial_code:gsub(".", { ["e"] = "一", ["i"] = "丨", ["u"] = "丿", ["o"] = "丶", ["a"] = "乙" }) .. "]" or
             nil
-        comment = code
+        local elements = snow.split(env.strokes:lookup(text), " ")
+        match = #elements == 0
+        ---@type string[]
+        local codes = {}
+        for _, element in ipairs(elements) do
+          code = encode(element, { ["h"] = "e", ["s"] = "i", ["p"] = "u", ["n"] = "o", ["z"] = "a" })
+          if code:len() > partial_code:len() + 4 then
+            code = code:sub(1, partial_code:len() + 4) .. "~"
+          end
+          table.insert(codes, code)
+          match = match or code:sub(1, #partial_code) == partial_code
+        end
+        comment = table.concat(codes, " ")
       end
-      local match = not code or code:sub(1, #partial_code) == partial_code
       return match, prompt, comment
     else
       return true, nil, nil
