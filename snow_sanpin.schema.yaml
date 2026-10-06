@@ -157,10 +157,15 @@ speller:
   algebra:
     __include: /sanpin_algebra
     __append:
-      # 辅音字母补 ja
-      - xform/~{1,2}([bpmfdtnlgkhjqxzcsrywe])/$1ja/
-      # 元音字母补 kk
-      - xform/~{1,2}([aviou])/kk$1/
+      # 英数字母的音节码：取键道的字母音节码再补一个轻声 a，凑成本方案的声韵调
+      # 三码。这样两个方案的字母声母一致（辅音字母是该字母、元音字母都是 x），
+      # 简拼棱镜 snow_jiandao_jianpin 才能两边共用；改动时那边要跟着改
+      - xform/~{1,2}([bpmfdtnlgkhjqxzcsrywe])/$1ea/
+      - xform/~{1,2}v/xha/
+      - xform/~{1,2}i/xka/
+      - xform/~{1,2}u/xja/
+      - xform/~{1,2}o/xla/
+      - xform/~{1,2}a/xsa/
       - abbrev/^([a-z]).+$/$1/ # 简拼
       - derive/[viuoa]$// # 无声调
 

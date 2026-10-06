@@ -103,7 +103,18 @@ end
 ---@param proxy string
 function snow.prepare(candidate, proxy, normal)
   local proxy_segment = proxy:sub(1, candidate._end - candidate._start);
-  candidate._end = candidate._start + proxy_segment:gsub("[ ?~]", ""):len()
+  local real_segment = proxy_segment:gsub("[ ?~]", "")
+  candidate._end = candidate._start + real_segment:len()
+  -- 代理码里补出来的 ` `、`?`、`~` 也被 librime 算进了「全码匹配长度积分」
+  -- （`quality_len / full_code_length`，见 script_translator.cc），于是带一个
+  -- 分隔符的二字词代理码（`dl km`）会比不带分隔符的多字词简拼（`dlkm`）凭空高出
+  -- 0.25，无论词频如何都稳压后者。这里把虚高减掉，让两路候选和键道直接查词
+  -- 一样按词频排序。
+  local real_input_length = proxy:gsub("[ ?~]", ""):len()
+  local filler_length = proxy_segment:len() - real_segment:len()
+  if filler_length > 0 and real_input_length > 0 then
+    candidate.quality = candidate.quality - filler_length / real_input_length
+  end
   if not normal then
     candidate.quality = candidate.quality + 1
   end
@@ -175,6 +186,12 @@ snow.db_pool = snow.db_pool or {}
 ---@type table<string, integer>
 snow.ref_counter = snow.ref_counter or {}
 
+-- 调用方必须在 init 时把 name 记在 env 里，fini 时用记下的 name 来 release。
+-- 不能在 fini 里现取 env.engine.schema.schema_id：librime 的
+-- ConcreteEngine::ApplySchema 先 schema_.reset(新方案)，再 InitializeComponents()
+-- 清空旧组件触发 fini，此时 engine.schema 已经是新方案，拿它去 release 会放掉别人
+-- 的计数，旧方案的词典则永远留在 db_pool 里独占 LOCK，同步时报
+-- "IO error: lock ...: already held by process"。
 ---@param name string
 ---@return LevelDb|nil
 function snow.get_db(name)
@@ -198,6 +215,7 @@ end
 function snow.release_db(name)
   local count = snow.ref_counter[name]
   if count == nil or count <= 0 then
+    snow.errorf("用户词典 %s 的引用计数异常，没有被释放", tostring(name))
     return
   end
   count = count - 1

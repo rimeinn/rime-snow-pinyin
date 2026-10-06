@@ -9,10 +9,12 @@ local this = {}
 ---@class UserDbEnv: Env
 ---@field dict table<string, string[]>
 ---@field user_dict LevelDb
+---@field user_dict_name string
 ---@field add_word string
 ---@field add_input string
 ---@field add_index integer
 ---@field connection Connection
+---@field unhandled_connection Connection
 ---@field fix_key KeyEvent
 ---@field add_key KeyEvent
 ---@field up_key KeyEvent
@@ -24,7 +26,9 @@ function this.init(env)
   local config = env.engine.schema.config
   env.dict = snow.read_dictionary(snow.get_dictionary_path(env))
   if config:get_bool("translator/enable_schema_user_dict") then
-    env.user_dict = snow.get_db(env.engine.schema.schema_id)
+    -- 记下方案名，fini 时 engine.schema 已是新方案，见 snow.get_db 的注释
+    env.user_dict_name = env.engine.schema.schema_id
+    env.user_dict = snow.get_db(env.user_dict_name)
   end
   env.add_word = ""
   env.add_input = ""
@@ -50,6 +54,40 @@ function this.init(env)
       end
     end
   end)
+  -- 西文模式下的字母、无编码时的数字等按键不经 Rime 上屏，而是放行给应用自己插入，
+  -- commit_notifier 收不到；engine 对所有放行的按键都会触发 unhandled_key_notifier，在这里补记
+  env.unhandled_connection = env.engine.context.unhandled_key_notifier:connect(function(_, key_event)
+    if env.add_input:len() == 0 then
+      return
+    end
+    if key_event:release() or key_event:ctrl() or key_event:alt() or key_event:super() then
+      return
+    end
+    local keycode = key_event.keycode
+    if keycode >= 0x20 and keycode < 0x7f then
+      env.add_word = env.add_word .. string.char(keycode)
+    elseif keycode == snow.kEscape then
+      -- 西文模式下 Escape 被 ascii_composer 直接放行，到不了 func，只能在这里取消
+      this.cancel_add(env)
+      return
+    elseif keycode == snow.kBackSpace then
+      -- 应用删掉了一个字符，这里也删掉最后一个字符
+      local offset = utf8.offset(env.add_word, -1)
+      if offset then
+        env.add_word = env.add_word:sub(1, offset - 1)
+      end
+    else
+      return
+    end
+    snow.errorf("正在添加新词：%s", env.add_word)
+  end)
+end
+
+---@param env UserDbEnv
+function this.cancel_add(env)
+  env.add_input = ""
+  snow.errorf("取消添加新词")
+  env.engine.context:set_option("add", false)
 end
 
 ---@param candidate Candidate
@@ -122,18 +160,22 @@ function this.func(key_event, env)
 
   if env.add_input:len() > 0 then
     if key_event:eq(env.add_key) then
-      local key = snow.key(env.add_input, env.add_word)
+      -- 去掉首尾空白：上屏后多按的空格会被应用插入，也就被一并记了下来
+      local word = env.add_word:match("^%s*(.-)%s*$")
+      if word == "" then
+        this.cancel_add(env)
+        return snow.kAccepted
+      end
+      local key = snow.key(env.add_input, word)
       local epoch = snow.epoch()
       local value = snow.format(snow.encode(epoch, env.add_index))
       env.user_dict:update(key, value)
-      snow.errorf("时间戳 %d：添加新词「%s」到 %s 候选 %d", epoch, env.add_word, env.add_input, env.add_index)
+      snow.errorf("时间戳 %d：添加新词「%s」到 %s 候选 %d", epoch, word, env.add_input, env.add_index)
       env.add_input = ""
       context:set_option("add", false)
       return snow.kAccepted
     elseif key_event.keycode == snow.kEscape then
-      env.add_input = ""
-      snow.errorf("取消添加新词")
-      context:set_option("add", false)
+      this.cancel_add(env)
       return snow.kAccepted
     end
     return snow.kNoop -- 正在添加新词，忽略其他按键
@@ -233,10 +275,13 @@ function this.fini(env)
   env.dict = nil
   if env.user_dict then
     env.user_dict = nil
-    snow.release_db(env.engine.schema.schema_id)
+    snow.release_db(env.user_dict_name)
   end
   if env.connection then
     env.connection:disconnect()
+  end
+  if env.unhandled_connection then
+    env.unhandled_connection:disconnect()
   end
 end
 

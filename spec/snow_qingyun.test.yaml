@@ -270,8 +270,9 @@ deploy:
       - send: "fhe{Control+semicolon}fhe"
         assert: cand[1].text == "发挥"
       # 自由加词：Control+' → 任意方式输入 → Control+'
-      - send: "kfc{Control+apostrophe}fkxqS  {Control+apostrophe}kfc"
-        assert: cand[1].text == "疯狂星期四"
+      # 无编码时的大写字母、数字由应用直接插入，不经 Rime 上屏，也要记进新词
+      - send: "kfc{Control+apostrophe}fkxqS Vo50{Control+apostrophe}kfc"
+        assert: cand[1].text == "疯狂星期四V我50"
       # 加词时若第一候选已固定，新词加到第二候选
       - send: "dna{Control+apostrophe}tyhtHS {Control+apostrophe}dna"
         assert: cand[1].text == "半" and cand[2].text == "脱氧核糖核酸"

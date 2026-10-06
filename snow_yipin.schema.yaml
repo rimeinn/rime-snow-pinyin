@@ -41,8 +41,8 @@ engine:
     - script_translator
   filters:
     - lua_filter@*snow.fix
-    - uniquifier
     - lua_filter@*snow.shape_filter
+    - uniquifier
     - simplifier
     - lua_filter@*snow.unicode
 

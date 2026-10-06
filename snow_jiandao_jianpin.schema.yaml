@@ -45,6 +45,16 @@ speller:
   algebra:
     __include: snow_sanpin.schema.yaml:/sanpin_algebra
     __append:
+      # 英数字母的伪音节（`~x` / `~~x`）也要缩得出声母，否则英数混输造出来的词
+      # 在声母编码下查不到。本棱镜被键道和三拼共用：键道的字母音节码是 `<声>e`
+      # / `x<韵>`，三拼是在其后补一个轻声 a（`<声>ea` / `x<韵>a`），声母相同，
+      # 所以这里只写键道那一套就够了。改动任一方案的字母规则时这里要跟着改
+      - xform/~{1,2}([bpmfdtnlgkhjqxzcsrywe])/$1e/
+      - xform/~{1,2}v/xh/
+      - xform/~{1,2}i/xk/
+      - xform/~{1,2}u/xj/
+      - xform/~{1,2}o/xl/
+      - xform/~{1,2}a/xs/
       - derive/.([viuoa])$/?$1/ # 无韵母
       - xform/^([a-z])[^?]+$/$1/ # 简拼
       - derive/^.+$/~/ # 通配符

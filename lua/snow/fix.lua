@@ -8,13 +8,16 @@ local this = {}
 ---@class SnowFixedFilterEnv: Env
 ---@field dict table<string, string[]>
 ---@field user_dict LevelDb
+---@field user_dict_name string
 
 ---@param env SnowFixedFilterEnv
 function this.init(env)
   local config = env.engine.schema.config
   env.dict = snow.read_dictionary(snow.get_dictionary_path(env))
   if config:get_bool("translator/enable_schema_user_dict") then
-    env.user_dict = snow.get_db(env.engine.schema.schema_id)
+    -- 记下方案名，fini 时 engine.schema 已是新方案，见 snow.get_db 的注释
+    env.user_dict_name = env.engine.schema.schema_id
+    env.user_dict = snow.get_db(env.user_dict_name)
   end
 end
 
@@ -167,7 +170,7 @@ function this.fini(env)
   env.dict = nil
   if env.user_dict then
     env.user_dict = nil
-    snow.release_db(env.engine.schema.schema_id)
+    snow.release_db(env.user_dict_name)
   end
 end
 
