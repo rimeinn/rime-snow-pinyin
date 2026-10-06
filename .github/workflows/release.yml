@@ -20,11 +20,10 @@ jobs:
         run: |
           cp rime-stroke/stroke* .
           zip -r snow-pinyin.zip snow_* stroke.* lua
-      - name: 写入编译配置
+      - name: 预览安装包去掉腾讯词库和笔画
         run: |
-          echo -e "patch:\n  schema_list:\n    - { schema: snow_sipin }" > default.custom.yaml
-          echo -e "patch:\n  schema/dependencies: [snow_pinyin]\n  engine/translators/@2: null\n  translator/packs: [snow_pinyin.base, snow_pinyin.ext]" > snow_sipin.custom.yaml
-          echo -e "patch:\n  schema/dependencies: []\n  translator/packs: [snow_pinyin.base, snow_pinyin.ext]" > snow_pinyin.custom.yaml
+          sed -i -E '/^ *- snow_pinyin\.tencent$/d' snow_*.schema.yaml
+          sed -i -E '/^ *- (snow_bihua|snow_jiandao_bihua|affix_segmentor@stroke|table_translator@stroke)$/d; /^ *(recognizer\/patterns\/)?stroke: /d' snow_*.schema.yaml
       - name: 编译
         run: rime_deployer --build . /usr/share/rime-data/
       - name: 打包预览安装包

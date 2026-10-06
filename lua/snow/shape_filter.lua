@@ -49,7 +49,8 @@ local function stroke_match(text, partial_code, env, map)
   if partial_code:len() > 0 then
     prompt = " 笔画 [" .. partial_code:gsub(".", reverse_map) .. "]"
   end
-  local elements = snow.split(env.strokes:lookup(text), " ")
+  -- 预览安装包不含笔画反查库，此时 env.strokes 为 nil，不做笔画过滤
+  local elements = env.strokes and snow.split(env.strokes:lookup(text), " ") or {}
   local match = #elements == 0
   ---@type string[]
   local codes = {}
