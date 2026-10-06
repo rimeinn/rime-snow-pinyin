@@ -22,6 +22,8 @@ jobs:
           zip -r snow-pinyin.zip snow_* stroke.* lua
       - name: 预览安装包去掉腾讯词库和笔画
         run: |
+          # rime-prelude 自带 default.yaml，仓库的 default.yaml 会被部署器当作过时副本移进 trash/
+          echo -e "patch:\n  schema_list:\n    - { schema: snow_sipin }\n    - { schema: snow_sanpin }\n    - { schema: snow_yipin }\n    - { schema: snow_jiandao }\n    - { schema: snow_qingyun }" > default.custom.yaml
           sed -i -E '/^ *- snow_pinyin\.tencent$/d' snow_*.schema.yaml
           sed -i -E '/^ *- (snow_bihua|snow_jiandao_bihua|affix_segmentor@stroke|table_translator@stroke)$/d; /^ *(recognizer\/patterns\/)?stroke: /d' snow_*.schema.yaml
       - name: 编译
