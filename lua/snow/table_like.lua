@@ -3,11 +3,10 @@
 
 local snow = require "snow.snow"
 
----@class ProxyTranslatorEnv: Env
+---@class TableLikeEnv: Env
 ---@field translator Translator
 ---@field pattern string
 ---@field pattern2 string
----@field pattern3 string
 
 local t12 = {}
 ---@type Translator?
@@ -15,7 +14,7 @@ T12Translator = T12Translator
 ---@type integer
 T12Reference = 0
 
----@param env ProxyTranslatorEnv
+---@param env TableLikeEnv
 function t12.init(env)
   if not T12Translator then
     T12Translator = Component.Translator(env.engine, "translator", "script_translator")
@@ -24,12 +23,11 @@ function t12.init(env)
   env.translator = T12Translator
   env.pattern = env.engine.schema.config:get_string("translator/t1_pattern") or "^.+$"
   env.pattern2 = env.engine.schema.config:get_string("translator/t2_pattern") or "^.+$"
-  env.pattern3 = env.engine.schema.config:get_string("translator/t3_pattern") or "^.+$"
 end
 
 ---@param input string
 ---@param segment Segment
----@param env ProxyTranslatorEnv
+---@param env TableLikeEnv
 function t12.func(input, segment, env)
   -- 一字词
   if rime_api.regex_match(input, env.pattern) or env.engine.context:get_option("fluid") == true then
@@ -50,10 +48,8 @@ function t12.func(input, segment, env)
       end
     end
   end
-  local is_sanding = env.engine.context:get_option("popping1")
-  local pattern = is_sanding and env.pattern3 or env.pattern2
   -- 二字词
-  if rime_api.regex_match(input, pattern) then
+  if rime_api.regex_match(input, env.pattern2) then
     local proxy = ("%s %s"):format(input:sub(1, 2), input:sub(3))
     if input:len() == 6 then
       proxy = ("%s%s %s"):format(input:sub(1, 2), input:sub(-1, -1), input:sub(3, -2))
@@ -62,14 +58,14 @@ function t12.func(input, segment, env)
     if translation then
       for candidate in translation:iter() do
         if utf8.len(candidate.text) <= 2 then
-          yield(snow.prepare(candidate, proxy, not is_sanding))
+          yield(snow.prepare(candidate, proxy, true))
         end
       end
     end
   end
 end
 
----@param env ProxyTranslatorEnv
+---@param env TableLikeEnv
 function t12.fini(env)
   env.translator = nil
   T12Reference = T12Reference - 1
@@ -85,7 +81,7 @@ JianpinTranslator = JianpinTranslator
 ---@type integer
 JianpinReference = 0
 
----@param env ProxyTranslatorEnv
+---@param env TableLikeEnv
 function jianpin.init(env)
   if not JianpinTranslator then
     JianpinTranslator = Component.Translator(env.engine, "jianpin", "script_translator")
@@ -97,12 +93,12 @@ end
 
 ---@param input string
 ---@param segment Segment
----@param env ProxyTranslatorEnv
+---@param env TableLikeEnv
 function jianpin.func(input, segment, env)
   -- 多字词
   if rime_api.regex_match(input, env.pattern) then
     local proxy = input:gsub("[viuoa]", "")
-    local buma = input:gsub("[bpmfdtnlgkhjqxzcsrywe]", "");
+    local buma = input:gsub("[bpmfdtnlgkhjqxzcsrywe]", "")
     if buma:len() == 1 then
       proxy = ("%s?%s"):format(proxy, buma)
     elseif buma:len() == 2 then
@@ -133,7 +129,7 @@ function jianpin.func(input, segment, env)
   end
 end
 
----@param env ProxyTranslatorEnv
+---@param env TableLikeEnv
 function jianpin.fini(env)
   env.translator = nil
   JianpinReference = JianpinReference - 1
@@ -143,51 +139,7 @@ function jianpin.fini(env)
   end
 end
 
-local lianxiang = {}
----@type Translator?
-LianxiangTranslator = LianxiangTranslator
----@type integer
-LianxiangReference = 0
-
----@param env ProxyTranslatorEnv
-function lianxiang.init(env)
-  if not LianxiangTranslator then
-    LianxiangTranslator = Component.Translator(env.engine, "jianpin2", "script_translator")
-    LianxiangReference = LianxiangReference + 1
-  end
-  env.translator = LianxiangTranslator
-end
-
----@param input string
----@param segment Segment
----@param env ProxyTranslatorEnv
-function lianxiang.func(input, segment, env)
-  -- 多字词
-  if env.engine.context:get_option("popping1") and input:len() == 3 then
-    local proxy = ("%s %s %s ~"):format(input:sub(1,1), input:sub(2,2), input:sub(3,3))
-    local translation = env.translator:query(proxy, segment)
-    if translation then
-      for candidate in translation:iter() do
-        if candidate.type ~= "sentence" then
-          yield(snow.prepare(candidate, proxy, true))
-        end
-      end
-    end
-  end
-end
-
----@param env ProxyTranslatorEnv
-function lianxiang.fini(env)
-  env.translator = nil
-  LianxiangReference = LianxiangReference - 1
-  if LianxiangReference == 0 then
-    LianxiangTranslator = nil
-    collectgarbage()
-  end
-end
-
 return {
   t12 = t12,
   jianpin = jianpin,
-  lianxiang = lianxiang,
 }

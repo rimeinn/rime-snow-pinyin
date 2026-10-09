@@ -1,11 +1,11 @@
 -- Unicode 过滤器
 -- 为候选加上 Unicode 和分区信息
 
-local snow = require("snow.snow")
+local snow = require "snow.snow"
 
 local filter = {}
 
-local unicodeBlocks = {
+local unicode_blocks = {
   -- 统一汉字基本集与扩展
   {
     name = "CJK",
@@ -130,12 +130,7 @@ local unicodeBlocks = {
     begin = 0x16fe0,
     finish = 0x16fff,
   },
-};
-
----@param env Env
-function filter.init(env)
-  -- 初始化可以放一些预处理代码
-end
+}
 
 ---@param segment Segment
 ---@param env Env
@@ -144,7 +139,7 @@ function filter.tags_match(segment, env)
 end
 
 function filter.get_block_name(codepoint)
-  for _, block in ipairs(unicodeBlocks) do
+  for _, block in ipairs(unicode_blocks) do
     if codepoint >= block.begin and codepoint <= block.finish then
       return block.name
     end

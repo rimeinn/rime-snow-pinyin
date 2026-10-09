@@ -1,15 +1,12 @@
 -- 冰雪英拼翻译器
 
-
-local snow = require "snow.snow"
-
----@class YingpinTranslatorEnv: Env
+---@class YingpinEnv: Env
 ---@field translator Translator
 ---@field connection Connection
 
 local translator = {}
 
----@param env YingpinTranslatorEnv
+---@param env YingpinEnv
 function translator.init(env)
   env.translator = Component.Translator(env.engine, "translator", "table_translator")
   env.connection = env.engine.context.commit_notifier:connect(function(ctx)
@@ -27,7 +24,7 @@ local initial_lookup = {
 
 ---@param input string
 ---@param segment Segment
----@param env YingpinTranslatorEnv
+---@param env YingpinEnv
 function translator.func(input, segment, env)
   local consonants = input:gsub("[aeiou]", "")
   local lookup_consonants = consonants
@@ -65,10 +62,11 @@ function translator.func(input, segment, env)
   end
 end
 
----@param env YingpinTranslatorEnv
+---@param env YingpinEnv
 function translator.fini(env)
   env.translator = nil
   env.connection:disconnect()
+  collectgarbage()
 end
 
 return translator

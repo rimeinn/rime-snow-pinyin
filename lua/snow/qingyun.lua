@@ -1,8 +1,8 @@
 -- 冰雪清韵方案过滤器
 
-local snow = require("snow.snow")
+local snow = require "snow.snow"
 
-local this = {}
+local filter = {}
 
 ---@class QingyunEnv: Env
 ---@field fixed table<string, string>
@@ -13,7 +13,7 @@ local this = {}
 ---@field connection Connection
 
 ---@param env QingyunEnv
-function this.init(env)
+function filter.init(env)
   env.fixed = snow.table_from_tsv(rime_api.get_user_data_dir() .. "/snow_qingyun.fixed.txt")
   env.reverse_lookup = {}
   for code, content in pairs(env.fixed) do
@@ -38,13 +38,13 @@ function this.init(env)
   end)
 end
 
----@param candiate Candidate
-function is_pinyin(candiate)
-  return candiate.preedit:sub(1, 1) == "["
+---@param candidate Candidate
+local function is_pinyin(candidate)
+  return candidate.preedit:sub(1, 1) == "["
 end
 
 ---@param candidate Candidate
-function prettify_preedit(candidate)
+local function prettify_preedit(candidate)
   if candidate.preedit:sub(1, 1) == "[" then
     candidate.preedit = candidate.preedit:sub(2, -2)
   end
@@ -55,9 +55,9 @@ end
 
 ---@param translation Translation
 ---@param env QingyunEnv
-function this.func(translation, env)
+function filter.func(translation, env)
   local count = 0
-  local input = snow.current(env.engine.context) or "";
+  local input = snow.current(env.engine.context) or ""
   local segment = env.engine.context.composition:toSegmentation():back()
   local affix = { "a", "o", "e", "i", "u", ";", ",", ".", "/" }
   for candidate in translation:iter() do
@@ -152,8 +152,15 @@ function this.func(translation, env)
   end
 end
 
+-- 清韵的笔画反查也打 pinyin 标签；标点、历史等段不应被单字过滤、缓冲改写
+---@param segment Segment
 ---@param env QingyunEnv
-function this.fini(env)
+function filter.tags_match(segment, env)
+  return segment:has_tag("abc") or segment:has_tag("pinyin")
+end
+
+---@param env QingyunEnv
+function filter.fini(env)
   env.fixed = nil
   env.reverse_lookup = nil
   env.lookup_pinyin = nil
@@ -163,4 +170,4 @@ function this.fini(env)
   collectgarbage()
 end
 
-return this
+return filter

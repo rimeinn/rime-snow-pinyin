@@ -4,7 +4,7 @@
 
 local snow = require "snow.snow"
 
-local this = {}
+local processor = {}
 
 local strategies = {
   pop = "pop",
@@ -23,16 +23,18 @@ local strategies = {
 ---@field popping PoppingConfig[]
 ---@field auto_select_pattern string
 ---@field processing boolean
+---@field option_connection Connection
+---@field commit_connection Connection
 
 ---@param env PoppingEnv
-function this.init(env)
-  env.engine.context.option_update_notifier:connect(function(ctx, name)
+function processor.init(env)
+  env.option_connection = env.engine.context.option_update_notifier:connect(function(ctx, name)
     if name == "buffered" then
       local buffered = ctx:get_option("buffered")
       ctx:set_option("_auto_commit", not buffered)
     end
   end)
-  env.engine.context.commit_notifier:connect(function(ctx)
+  env.commit_connection = env.engine.context.commit_notifier:connect(function(ctx)
     if ctx:get_option("buffered") then
       ctx:set_option("buffered", false)
     end
@@ -68,7 +70,7 @@ end
 
 ---@param key_event KeyEvent
 ---@param env PoppingEnv
-function this.func(key_event, env)
+function processor.func(key_event, env)
   if env.processing then
     return snow.kNoop
   end
@@ -184,4 +186,10 @@ function this.func(key_event, env)
   return snow.kAccepted
 end
 
-return this
+---@param env PoppingEnv
+function processor.fini(env)
+  env.option_connection:disconnect()
+  env.commit_connection:disconnect()
+end
+
+return processor

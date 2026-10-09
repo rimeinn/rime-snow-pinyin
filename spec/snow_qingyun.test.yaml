@@ -248,8 +248,8 @@ deploy:
       - send: "cweI{Down}{Down}{Down}{Down}{Down}]"
         assert: commit == "薇"
       # 拼音反查（`` ` `` 引导）
-      - send: "`zhe"
-        assert: cand[1].text == "着"
+      - send: "`shi"
+        assert: cand[1].text == "是"
       # 笔画反查（`` ` `` 引导，横竖撇点折为 eiuoa）
       - send: "`eiuoa"
         assert: cand[1].text == "札"

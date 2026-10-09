@@ -50,7 +50,7 @@ local confs = {
 
 local function todatechars(datechars, input)
   local r = ""
-  for c in string.gmatch(input, "%w") do
+  for c in input:gmatch("%w") do
     ---@type string
     r = r .. datechars[c]
   end
@@ -62,8 +62,8 @@ local function read_seg(conf, n)
   local i = 0
   local zf = true
 
-  while string.len(n) > 0 do
-    local d = tonumber(string.sub(n, -1, -1))
+  while n:len() > 0 do
+    local d = tonumber(n:sub(-1, -1))
     if d ~= 0 then
       ---@type string
       s = conf.number[d] .. conf.suffix[i] .. s
@@ -76,7 +76,7 @@ local function read_seg(conf, n)
       zf = true
     end
     i = i + 1
-    n = string.sub(n, 1, -2)
+    n = n:sub(1, -2)
   end
 
   return i < 4, s
@@ -87,14 +87,14 @@ local function read_number(conf, n)
   local i = 0
   local zf = false
 
-  n = string.gsub(n, "^0+", "")
+  n = n:gsub("^0+", "")
 
   if n == "" then
     return conf.number[0]
   end
 
-  while string.len(n) > 0 do
-    local zf2, r = read_seg(conf, string.sub(n, -4, -1))
+  while n:len() > 0 do
+    local zf2, r = read_seg(conf, n:sub(-4, -1))
     if r ~= "" then
       if zf and s ~= "" then
         ---@type string
@@ -106,31 +106,41 @@ local function read_number(conf, n)
     end
     zf = zf2
     i = i + 1
-    n = string.sub(n, 1, -5)
+    n = n:sub(1, -5)
   end
   return s
 end
 
+local translator = {}
+
+---@class NumberEnv: Env
+---@field prompt string
+
+---@param env NumberEnv
+function translator.init(env)
+  env.prompt = env.engine.schema.config:get_string("lua/input") or "o"
+end
+
 ---@param input string
----@param seg Segment
----@param env Env
-local function translator(input, seg, env)
-  local lua_prompt = env.engine.schema.config:get_string("lua/input") or "o"
-  if string.sub(input, 1, 1) == lua_prompt then
-    local n = string.sub(input, 2)
-    if tonumber(n) ~= nil then
-      for _, conf in ipairs(confs) do
-        local r = read_number(conf, n)
-        yield(Candidate("number", seg.start, seg._end, r, conf.comment))
-      end
-    elseif string.find(n, "[0-9]+%a") ~= nil then
-      local d = todatechars(datechars, n)
-      if d ~= nil then
-        yield(Candidate("number", seg.start, seg._end, d, ""))
-        if string.find(d, "零") then
-          local d2 = string.gsub(d, "零", "〇")
-          yield(Candidate("number", seg.start, seg._end, d2, ""))
-        end
+---@param segment Segment
+---@param env NumberEnv
+function translator.func(input, segment, env)
+  if input:sub(1, 1) ~= env.prompt then
+    return
+  end
+  local n = input:sub(2)
+  if tonumber(n) ~= nil then
+    for _, conf in ipairs(confs) do
+      local r = read_number(conf, n)
+      yield(Candidate("number", segment.start, segment._end, r, conf.comment))
+    end
+  elseif n:find("[0-9]+%a") ~= nil then
+    local d = todatechars(datechars, n)
+    if d ~= nil then
+      yield(Candidate("number", segment.start, segment._end, d, ""))
+      if d:find("零") then
+        local d2 = d:gsub("零", "〇")
+        yield(Candidate("number", segment.start, segment._end, d2, ""))
       end
     end
   end

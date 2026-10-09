@@ -4,9 +4,9 @@
 
 local snow = require "snow.snow"
 
-local this = {}
+local processor = {}
 
----@class UserDbEnv: Env
+---@class UserDictEnv: Env
 ---@field dict table<string, string[]>
 ---@field user_dict LevelDb
 ---@field user_dict_name string
@@ -21,8 +21,8 @@ local this = {}
 ---@field down_key KeyEvent
 ---@field reset_key KeyEvent
 
----@param env UserDbEnv
-function this.init(env)
+---@param env UserDictEnv
+function processor.init(env)
   local config = env.engine.schema.config
   env.dict = snow.read_dictionary(snow.get_dictionary_path(env))
   if config:get_bool("translator/enable_schema_user_dict") then
@@ -68,7 +68,7 @@ function this.init(env)
       env.add_word = env.add_word .. string.char(keycode)
     elseif keycode == snow.kEscape then
       -- 西文模式下 Escape 被 ascii_composer 直接放行，到不了 func，只能在这里取消
-      this.cancel_add(env)
+      processor.cancel_add(env)
       return
     elseif keycode == snow.kBackSpace then
       -- 应用删掉了一个字符，这里也删掉最后一个字符
@@ -83,15 +83,15 @@ function this.init(env)
   end)
 end
 
----@param env UserDbEnv
-function this.cancel_add(env)
+---@param env UserDictEnv
+function processor.cancel_add(env)
   env.add_input = ""
   snow.errorf("取消添加新词")
   env.engine.context:set_option("add", false)
 end
 
 ---@param candidate Candidate
-function this.is_fixed(candidate)
+function processor.is_fixed(candidate)
   local comment = candidate.comment
   if comment:match(snow.fixed_symbol) or comment:match(snow.fixed_notfound_symbol) then
     return true
@@ -102,14 +102,14 @@ end
 ---@param input string
 ---@param index integer
 ---@param new_index integer
----@param env UserDbEnv
-function this.check_move(input, index, new_index, env)
+---@param env UserDictEnv
+function processor.check_move(input, index, new_index, env)
   local segment = env.engine.context.composition:toSegmentation():back()
   if not segment then
     return
   end
   local candidate = segment:get_candidate_at(index - 1)
-  if this.is_fixed(candidate) then
+  if processor.is_fixed(candidate) then
     local epoch = snow.epoch()
     local word = candidate.text
     local key = snow.key(input, word)
@@ -121,14 +121,14 @@ end
 
 ---@param context Context
 ---@param index integer
-function this.refresh_recover(context, index)
+function processor.refresh_recover(context, index)
   context:refresh_non_confirmed_composition()
   local segment = context.composition:toSegmentation():back()
   segment.selected_index = index - 1
 end
 
----@param env UserDbEnv
-function this.get_first_available_index(env)
+---@param env UserDictEnv
+function processor.get_first_available_index(env)
   local segment = env.engine.context.composition:toSegmentation():back()
   if not segment then
     return nil
@@ -138,7 +138,7 @@ function this.get_first_available_index(env)
     if not candidate then
       return index
     end
-    if not this.is_fixed(candidate) then
+    if not processor.is_fixed(candidate) then
       return index
     end
   end
@@ -146,8 +146,8 @@ function this.get_first_available_index(env)
 end
 
 ---@param key_event KeyEvent
----@param env UserDbEnv
-function this.func(key_event, env)
+---@param env UserDictEnv
+function processor.func(key_event, env)
   local context = env.engine.context
   local config = env.engine.schema.config
   if not config:get_bool("translator/enable_schema_user_dict") then
@@ -163,7 +163,7 @@ function this.func(key_event, env)
       -- 去掉首尾空白：上屏后多按的空格会被应用插入，也就被一并记了下来
       local word = env.add_word:match("^%s*(.-)%s*$")
       if word == "" then
-        this.cancel_add(env)
+        processor.cancel_add(env)
         return snow.kAccepted
       end
       local key = snow.key(env.add_input, word)
@@ -175,7 +175,7 @@ function this.func(key_event, env)
       context:set_option("add", false)
       return snow.kAccepted
     elseif key_event.keycode == snow.kEscape then
-      this.cancel_add(env)
+      processor.cancel_add(env)
       return snow.kAccepted
     end
     return snow.kNoop -- 正在添加新词，忽略其他按键
@@ -201,7 +201,7 @@ function this.func(key_event, env)
 
   if key_event:eq(env.fix_key) then -- 固定/取消固定
     local value = snow.format(snow.encode(epoch, index))
-    if this.is_fixed(candidate) then
+    if processor.is_fixed(candidate) then
       local found = false
       local entries = env.dict[input] or {}
       for _, entry in ipairs(entries) do
@@ -217,10 +217,10 @@ function this.func(key_event, env)
       snow.errorf("时间戳 %d：「%s」固定 %s 候选 %d", epoch, word, input, index)
     end
     env.user_dict:update(key, value)
-    this.refresh_recover(context, index)
+    processor.refresh_recover(context, index)
     return snow.kAccepted
   elseif key_event:eq(env.add_key) then -- 添加新词
-    local add_index = this.get_first_available_index(env)
+    local add_index = processor.get_first_available_index(env)
     if not add_index then
       snow.errorf("无法添加新词：%s 候选已满", input)
       return snow.kAccepted
@@ -233,24 +233,24 @@ function this.func(key_event, env)
     snow.errorf("准备添加新词")
     return snow.kAccepted
   elseif key_event:eq(env.up_key) then
-    if not this.is_fixed(candidate) or index <= 1 then
+    if not processor.is_fixed(candidate) or index <= 1 then
       return snow.kAccepted
     end
     local value = snow.format(snow.encode(epoch, index - 1))
     snow.errorf("时间戳 %d：「%s」在 %s 候选 %d → %d", epoch, word, input, index, index - 1)
-    this.check_move(input, index - 1, index, env)
+    processor.check_move(input, index - 1, index, env)
     env.user_dict:update(key, value)
-    this.refresh_recover(context, index - 1)
+    processor.refresh_recover(context, index - 1)
     return snow.kAccepted
   elseif key_event:eq(env.down_key) then
-    if not this.is_fixed(candidate) or index >= snow.MAX_INDEX then
+    if not processor.is_fixed(candidate) or index >= snow.MAX_INDEX then
       return snow.kAccepted
     end
     local value = snow.format(snow.encode(epoch, index + 1))
     snow.errorf("时间戳 %d：「%s」在 %s 候选 %d → %d", epoch, word, input, index, index + 1)
-    this.check_move(input, index + 1, index, env)
+    processor.check_move(input, index + 1, index, env)
     env.user_dict:update(key, value)
-    this.refresh_recover(context, index + 1)
+    processor.refresh_recover(context, index + 1)
     return snow.kAccepted
   elseif key_event:eq(env.reset_key) then
     local da = env.user_dict:query(input .. snow.separator)
@@ -264,14 +264,14 @@ function this.func(key_event, env)
     da = nil
     collectgarbage()
     snow.errorf("时间戳 %d：重置在 %s 的候选", epoch, input)
-    this.refresh_recover(context, index)
+    processor.refresh_recover(context, index)
     return snow.kAccepted
   end
   return snow.kNoop
 end
 
----@param env UserDbEnv
-function this.fini(env)
+---@param env UserDictEnv
+function processor.fini(env)
   env.dict = nil
   if env.user_dict then
     env.user_dict = nil
@@ -285,4 +285,4 @@ function this.fini(env)
   end
 end
 
-return this
+return processor

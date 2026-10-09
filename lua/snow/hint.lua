@@ -1,6 +1,7 @@
-local snow = require "snow.snow"
 -- 提示过滤器
 -- 目前仅用于提示冰雪键道和冰雪四拼的 630 简词
+
+local snow = require "snow.snow"
 
 local filter = {}
 
@@ -80,7 +81,7 @@ end
 ---@param segment Segment
 ---@param env Env
 function filter.tags_match(segment, env)
-  return segment:has_tag("abc") or segment:has_tag("jianpin")
+  return segment:has_tag("abc")
 end
 
 return filter

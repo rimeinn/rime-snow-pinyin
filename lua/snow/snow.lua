@@ -102,7 +102,7 @@ end
 ---@param candidate Candidate
 ---@param proxy string
 function snow.prepare(candidate, proxy, normal)
-  local proxy_segment = proxy:sub(1, candidate._end - candidate._start);
+  local proxy_segment = proxy:sub(1, candidate._end - candidate._start)
   local real_segment = proxy_segment:gsub("[ ?~]", "")
   candidate._end = candidate._start + real_segment:len()
   -- 代理码里补出来的 ` `、`?`、`~` 也被 librime 算进了「全码匹配长度积分」

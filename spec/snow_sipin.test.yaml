@@ -216,8 +216,8 @@ deploy:
       - send: "csuiai{Down}{Down}]"
         assert: commit == "薇"
       # 拼音反查（`a` 引导）
-      - send: azhe
-        assert: cand[1].text == "着"
+      - send: ashi
+        assert: cand[1].text == "是"
       # 笔画反查（`u` 引导，横竖撇点折为 eiuoa）
       - send: ueiuoa
         assert: cand[1].text == "札"

@@ -3,7 +3,7 @@
 
 local snow = require "snow.snow"
 
----@class AssistEnv: Env
+---@class ShapeFilterEnv: Env
 ---@field strokes ReverseLookup
 ---@field shape_elements ReverseLookup
 ---@field shape_mapping table<string, string>
@@ -31,7 +31,7 @@ local sanpin_stroke_map = { ["一"] = "v", ["丨"] = "i", ["丿"] = "u", ["丶"]
 --- 冰雪四拼和冰雪三拼的笔画匹配函数
 --- @param text string
 --- @param partial_code string
---- @param env AssistEnv
+--- @param env ShapeFilterEnv
 --- @param map table<string, string>
 local function stroke_match(text, partial_code, env, map)
   ---@type table<string, string>
@@ -69,7 +69,7 @@ end
 
 --- @param text string
 --- @param partial_code string
---- @param env AssistEnv
+--- @param env ShapeFilterEnv
 local function radical_match(text, partial_code, env)
   local element = env.shape_elements:lookup(text) or ""
   local code = encode(element, env.shape_mapping)
@@ -118,7 +118,7 @@ end
 
 local filter = {}
 
----@param env AssistEnv
+---@param env ShapeFilterEnv
 function filter.init(env)
   local config = env.engine.schema.config
   local dir = rime_api.get_user_data_dir() .. "/lua/snow/"
@@ -131,7 +131,7 @@ end
 
 ---@param text string
 ---@param shape_input string
----@param env AssistEnv
+---@param env ShapeFilterEnv
 function filter.handle_candidate(text, shape_input, env)
   local segment = env.engine.context.composition:toSegmentation():back()
   local is_pinyin = segment and segment:has_tag("pinyin") or false
@@ -191,7 +191,7 @@ function filter.handle_candidate(text, shape_input, env)
 end
 
 ---@param translation Translation
----@param env AssistEnv
+---@param env ShapeFilterEnv
 function filter.func(translation, env)
   local context = env.engine.context
   local shape_input = context:get_property("shape_input")
@@ -227,6 +227,14 @@ end
 ---@param env Env
 function filter.tags_match(segment, env)
   return segment:has_tag("abc") or segment:has_tag("pinyin")
+end
+
+---@param env ShapeFilterEnv
+function filter.fini(env)
+  env.strokes = nil
+  env.shape_elements = nil
+  env.shape_mapping = nil
+  collectgarbage()
 end
 
 return filter

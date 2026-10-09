@@ -2,14 +2,14 @@
 
 local snow = require "snow.snow"
 
-local this = {}
+local processor = {}
 
 ---@class EditorEnv: Env
 ---@field match string
 ---@field accept string
 
 ---@param env EditorEnv
-function this.init(env)
+function processor.init(env)
   local config = env.engine.schema.config
   local editor_config = config:get_map("speller/editor")
   if editor_config then
@@ -20,7 +20,7 @@ end
 
 ---@param key_event KeyEvent
 ---@param env EditorEnv
-function this.func(key_event, env)
+function processor.func(key_event, env)
   local context = env.engine.context
   -- 只对无修饰按键生效
   if key_event:ctrl() or key_event:alt() or key_event:super() or key_event:release() then
@@ -71,4 +71,4 @@ function this.func(key_event, env)
   return snow.kAccepted
 end
 
-return this
+return processor

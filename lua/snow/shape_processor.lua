@@ -13,12 +13,14 @@ end
 ---@field match_shape string?
 ---@field accept string
 
----@class ShapeEnv: Env
+---@class ShapeProcessorEnv: Env
 ---@field config ShapeConfig[]
+---@field select_connection Connection
+---@field commit_connection Connection
 
 local processor = {}
 
----@param env ShapeEnv
+---@param env ShapeProcessorEnv
 function processor.init(env)
   local function clear()
     env.engine.context:set_property("shape_input", "")
@@ -26,8 +28,8 @@ function processor.init(env)
     update(env)
   end
   local context = env.engine.context
-  context.select_notifier:connect(clear)
-  context.commit_notifier:connect(clear)
+  env.select_connection = context.select_notifier:connect(clear)
+  env.commit_connection = context.commit_notifier:connect(clear)
   local shape_config = env.engine.schema.config:get_list("speller/shape")
   if not shape_config then
     return
@@ -51,9 +53,9 @@ function processor.init(env)
   end
 end
 
----@param key KeyEvent
----@param env ShapeEnv
-function processor.func(key, env)
+---@param key_event KeyEvent
+---@param env ShapeProcessorEnv
+function processor.func(key_event, env)
   local input = snow.current(env.engine.context) or ""
   if input:len() == 0 then
     env.engine.context:set_property("shape_input", "")
@@ -61,10 +63,17 @@ function processor.func(key, env)
   -- 追加编码
   local context = env.engine.context
   local shape_input = context:get_property("shape_input")
-  if key.modifier ~= 0 then
+  if key_event.modifier ~= 0 then
     return snow.kNoop
   end
-  if key.keycode == snow.kBackSpace and shape_input ~= "" then
+  local segment = env.engine.context.composition:toSegmentation():back()
+  if not segment then
+    return snow.kNoop
+  end
+  if not segment:has_tag("abc") then
+    return snow.kNoop
+  end
+  if key_event.keycode == snow.kBackSpace and shape_input ~= "" then
     if env.engine.schema.schema_id == "snow_yipin" then
       shape_input = ""
     else
@@ -72,7 +81,7 @@ function processor.func(key, env)
     end
     goto update
   else
-    local key_char = utf8.char(key.keycode)
+    local key_char = utf8.char(key_event.keycode)
     for _, rule in ipairs(env.config) do
       if rule.match and not rime_api.regex_match(input, rule.match) then
         goto continue
@@ -93,6 +102,12 @@ function processor.func(key, env)
   context:set_property("shape_input", shape_input)
   update(env)
   return snow.kAccepted
+end
+
+---@param env ShapeProcessorEnv
+function processor.fini(env)
+  env.select_connection:disconnect()
+  env.commit_connection:disconnect()
 end
 
 return processor

@@ -3,15 +3,15 @@
 
 local snow = require "snow.snow"
 
-local this = {}
+local filter = {}
 
----@class SnowFixedFilterEnv: Env
+---@class FixEnv: Env
 ---@field dict table<string, string[]>
 ---@field user_dict LevelDb
 ---@field user_dict_name string
 
----@param env SnowFixedFilterEnv
-function this.init(env)
+---@param env FixEnv
+function filter.init(env)
   local config = env.engine.schema.config
   env.dict = snow.read_dictionary(snow.get_dictionary_path(env))
   if config:get_bool("translator/enable_schema_user_dict") then
@@ -23,13 +23,13 @@ end
 
 ---@param segment Segment
 ---@param env Env
-function this.tags_match(segment, env)
+function filter.tags_match(segment, env)
   return segment:has_tag("abc")
 end
 
 ---@param fixed_candidates Candidate[]
 ---@param free_candidates Candidate[]
-function this.finalize(fixed_candidates, free_candidates)
+function filter.finalize(fixed_candidates, free_candidates)
   ---@type integer
   local free_index = 1
   -- 输出固定的候选
@@ -47,9 +47,9 @@ function this.finalize(fixed_candidates, free_candidates)
   end
 end
 
----@param env SnowFixedFilterEnv
+---@param env FixEnv
 ---@param input string
-function this.get_customized_list(env, input)
+function filter.get_customized_list(env, input)
   ---@type string[]
   local fixed_phrases = {}
   if env.dict[input] then
@@ -97,8 +97,8 @@ function this.get_customized_list(env, input)
 end
 
 ---@param translation Translation
----@param env SnowFixedFilterEnv
-function this.func(translation, env)
+---@param env FixEnv
+function filter.func(translation, env)
   local context = env.engine.context
   local segment = context.composition:toSegmentation():back()
   local input = snow.current(context)
@@ -113,7 +113,7 @@ function this.func(translation, env)
   if shape_input then
     full_input = input .. shape_input
   end
-  local fixed_phrases = this.get_customized_list(env, full_input)
+  local fixed_phrases = filter.get_customized_list(env, full_input)
   if not fixed_phrases then
     for candidate in translation:iter() do
       yield(candidate)
@@ -139,7 +139,7 @@ function this.func(translation, env)
       yield(candidate)
       goto continue
     elseif seen_candidates == max_candidates or (candidate._end - candidate._start) < input:len() then
-      this.finalize(fixed_candidates, free_candidates)
+      filter.finalize(fixed_candidates, free_candidates)
       finalized = true
       yield(candidate)
       goto continue
@@ -161,12 +161,12 @@ function this.func(translation, env)
     ::continue::
   end
   if not finalized then
-    this.finalize(fixed_candidates, free_candidates)
+    filter.finalize(fixed_candidates, free_candidates)
   end
 end
 
----@param env SnowFixedFilterEnv
-function this.fini(env)
+---@param env FixEnv
+function filter.fini(env)
   env.dict = nil
   if env.user_dict then
     env.user_dict = nil
@@ -174,4 +174,4 @@ function this.fini(env)
   end
 end
 
-return this
+return filter

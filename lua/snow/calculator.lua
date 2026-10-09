@@ -4,7 +4,11 @@
 
 ---@diagnostic disable: lowercase-global
 ---@diagnostic disable: no-unknown
--- 定義全局函數、常數（注意命名空間污染）
+-- 表达式在 sandbox 里求值：下面定义的函数、常数都落在 sandbox 上，不污染全局；
+-- 查不到的名字（math、string、yield、Candidate 等）回落到 _G
+local sandbox = setmetatable({}, { __index = _G })
+local _ENV = sandbox
+
 cos = math.cos
 sin = math.sin
 tan = math.tan
@@ -359,21 +363,30 @@ end
 -- greedy：隨時求值（每次變化都會求值，否則結尾爲特定字符時求值）
 local greedy = true
 
---- @param input string
---- @param seg Segment
---- @param env Env
-local function calculator_translator(input, seg, env)
-  local lua_prompt = env.engine.schema.config:get_string("lua/input") or "o"
-  if string.sub(input, 1, 1) ~= lua_prompt then return end
-  if string.len(input) <= 1 then return end
+local translator = {}
 
-  local expfin = greedy or string.sub(input, -1, -1) == ";"
-  local exp = (greedy or not expfin) and string.sub(input, 2, -1) or string.sub(input, 2, -2)
+---@class CalculatorEnv: Env
+---@field prompt string
+
+---@param env CalculatorEnv
+function translator.init(env)
+  env.prompt = env.engine.schema.config:get_string("lua/input") or "o"
+end
+
+---@param input string
+---@param segment Segment
+---@param env CalculatorEnv
+function translator.func(input, segment, env)
+  if input:sub(1, 1) ~= env.prompt then return end
+  if input:len() <= 1 then return end
+
+  local expfin = greedy or input:sub(-1, -1) == ";"
+  local exp = (greedy or not expfin) and input:sub(2, -1) or input:sub(2, -2)
 
   -- 空格輸入可能
   exp = exp:gsub("#", " ")
 
-  yield(Candidate("number", seg.start, seg._end, exp, "表达式"))
+  yield(Candidate("number", segment.start, segment._end, exp, "表达式"))
 
   if not expfin then return end
 
@@ -387,12 +400,12 @@ local function calculator_translator(input, seg, env)
       expe, count = expe:gsub("\\%s*([%a%d%s,_]-)%s*%.(.-)|", " (function (%1) return %2 end) ")
     until count == 0
   end
-  --yield(Candidate("number", seg.start, seg._end, expe, "展開"))
+  --yield(Candidate("number", segment.start, segment._end, expe, "展開"))
 
   -- 防止危險操作，禁用os和io命名空間
   if expe:find("i?os?%.") then return end
   -- return語句保證了只有合法的Lua表達式才可執行
-  local chunk, err = load("return " .. expe)
+  local chunk, err = load("return " .. expe, "calculator", "t", sandbox)
   if not chunk then
     -- 语法错误，直接忽略即可，不报错
     return
@@ -409,18 +422,18 @@ local function calculator_translator(input, seg, env)
 
   result = serialize(result)
   ---@cast result string
-  yield(Candidate("number", seg.start, seg._end, result, "答案"))
-  yield(Candidate("number", seg.start, seg._end, exp .. " = " .. result, "等式"))
+  yield(Candidate("number", segment.start, segment._end, result, "答案"))
+  yield(Candidate("number", segment.start, segment._end, exp .. " = " .. result, "等式"))
 
   local result = tostring(result)
   if result:find("e") then
     local base, symbol, exponent = result:match("(.*)e([+-])(.*)")
-    yield(Candidate("number", seg.start, seg._end, string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
-    yield(Candidate("number", seg.start, seg._end, exp .. " ≈ " .. string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
+    yield(Candidate("number", segment.start, segment._end, string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
+    yield(Candidate("number", segment.start, segment._end, exp .. " ≈ " .. string.format("%.2f", round2(base, 0.01)).."e"..symbol..exponent, "答案"))
   else
-    yield(Candidate("number", seg.start, seg._end, string.format("%.2f", round2(result, 0.01)), "答案"))
-    yield(Candidate("number", seg.start, seg._end, exp .. " ≈ " .. string.format("%.2f", round2(result, 0.01)), "答案"))
+    yield(Candidate("number", segment.start, segment._end, string.format("%.2f", round2(result, 0.01)), "答案"))
+    yield(Candidate("number", segment.start, segment._end, exp .. " ≈ " .. string.format("%.2f", round2(result, 0.01)), "答案"))
   end
 end
 
-return calculator_translator
+return translator

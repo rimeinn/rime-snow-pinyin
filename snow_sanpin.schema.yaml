@@ -108,15 +108,6 @@ jianpin:
     - snow_pinyin.tencent
     - snow_pinyin.user
 
-jianpin2:
-  dictionary: snow_pinyin
-  prism: snow_jiandao_jianpin
-  packs:
-    - snow_pinyin.base
-    - snow_pinyin.ext
-    - snow_pinyin.tencent
-    - snow_pinyin.user
-
 speller:
   alphabet: bpmfdtnlgkhjqxzcsrwyeviuoa
   initials: bpmfdtnlgkhjqxzcsrwye

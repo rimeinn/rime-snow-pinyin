@@ -3,21 +3,17 @@
 
 local snow = require "snow.snow"
 
-local this = {}
-
----@param env Env
-function this.init(env)
-end
+local filter = {}
 
 ---@param segment Segment
 ---@param env Env
-function this.tags_match(segment, env)
+function filter.tags_match(segment, env)
   return env.engine.schema.config:get_bool("speller/force_special")
 end
 
 ---@param translation Translation
----@param env SnowPostponeEnv
-function this.func(translation, env)
+---@param env Env
+function filter.func(translation, env)
   local context = env.engine.context
   -- 取出输入中当前正在翻译的一部分
   local input = snow.current(context)
@@ -38,4 +34,4 @@ function this.func(translation, env)
   end
 end
 
-return this
+return filter

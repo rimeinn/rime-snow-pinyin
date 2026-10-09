@@ -1,5 +1,7 @@
 # 冰雪拼音开发约定
 
+**始终用中文回复。**
+
 ## 实际目录
 
 `~/.local/share/fcitx5/rime` 里的 `snow_*.schema.yaml`、`snow_*.dict.yaml`、
@@ -64,6 +66,52 @@ mira -C cache spec/snow_sipin.test.yaml
   名字要在 `init` 里记到 `env` 上（如 `env.user_dict_name`），`fini` 用记下的那个。
   记错名字时旧方案的 LevelDB 会一直占着 `LOCK`，表现为同步时「刚切走的那个方案」报
   `Error opening db ... already held by process`。
+
+## lua 编码规范
+
+`lua/snow/` 下自写的组件统一按以下写法；`input_statistics.lua`（未接入任何方案）和
+`calculator.lua` 的函数库部分是外来代码，不强求。
+
+**文件结构**
+
+- 顺序：头注释（`-- xxx处理器` + 一句说明）→ 空行 → `local snow = require "snow.snow"`
+  （用不到 `snow` 就不 require）→ `---@class XxxEnv: Env` → 组件表 → `return`。
+- 组件表按类型命名为 `processor` / `segmentor` / `translator` / `filter`，不用 `this`、
+  `select` 之类；一个文件导出多个组件时（`table_like.lua`）用各自的名字，`return { a = a, ... }`。
+- translator 也写成表加 `init` / `func`，不写成裸函数返回。配置（如 `lua/input`）在
+  `init` 里读到 `env` 上，不要在 `func` 里每次读。
+- 没有内容的 `init` / `fini` 直接省略。
+
+**命名与注解**
+
+- `env` 的类型名为「模块名 + Env」：`FixEnv`、`UserDictEnv`、`ShapeFilterEnv`。每个
+  `---@param env` 标注本模块的类，没有扩展字段时用 `Env`，不借用别的模块的类。
+- 参数名固定：processor 为 `(key_event, env)`，translator 为 `(input, segment, env)`，
+  filter 为 `(translation, env)`、`tags_match(segment, env)`。
+- 局部变量和字段用 snake_case。
+
+**作用域**
+
+- 不定义全局变量或全局函数，辅助函数一律 `local function`，需要被别处调用的挂在组件表上。
+  所有方案共用一个 Lua 状态，全局名会互相覆盖。
+- 必须让外部代码看到的名字（如计算器给 `load` 求值用的函数）放进专用环境表，
+  `load(chunk, name, "t", env)`，不要放进 `_G`。
+
+**生命周期**
+
+- filter 必须写 `tags_match`，只在需要处理的段上运行（多数是 `abc`，反查类再加 `pinyin`）；
+  不按标签而按开关或配置生效的（`unicode`、`special`）也通过 `tags_match` 判断。
+- `notifier:connect` 的返回值必须存到 `env` 上并在 `fini` 里 `disconnect()`。context 跨方案
+  存活，不断开的话每次切换方案都会多挂一份回调。
+- `fini` 负责：断开连接；`snow.release_db` 释放用户词典；把 `Memory`、`ReverseLookup`、
+  `Component.*` 等 C++ 对象置 `nil` 后 `collectgarbage()`。普通 Lua 表不用手动清。
+
+**语法细节**
+
+- `require "x"` 不加括号；字符串用双引号，内容含 `"` 时才用单引号；行尾不加分号。
+- 字符串操作用方法调用：`input:sub(1, 1)`，不写 `string.sub(input, 1, 1)`。
+- `if` 条件不加多余括号。
+- 2 空格缩进，不用 tab。
 
 ## processors 顺序
 

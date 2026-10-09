@@ -3,27 +3,27 @@
 
 local snow = require "snow.snow"
 
-local this = {}
+local filter = {}
 
----@class SnowPostponeEnv: Env
+---@class PostponeEnv: Env
 ---@field known_candidates table<string, number>
 ---@field disable string
 
----@param env SnowPostponeEnv
-function this.init(env)
+---@param env PostponeEnv
+function filter.init(env)
   env.known_candidates = {}
   env.disable = env.engine.schema.config:get_string("translator/disable_postpone_pattern") or ""
 end
 
 ---@param segment Segment
 ---@param env Env
-function this.tags_match(segment, env)
+function filter.tags_match(segment, env)
   local context = env.engine.context
   -- 在回补时不刷新
   if context.caret_pos ~= context.input:len() then
     return false
   end
-  return context:get_option("popping") or context:get_option("popping1")
+  return context:get_option("popping") and segment:has_tag("abc")
 end
 
 ---@param known_candidates table<string, number>
@@ -48,8 +48,8 @@ end
 ---@param regular_candidates Candidate[]
 ---@param final_table Candidate[]
 ---@param input string
----@param env SnowPostponeEnv
-function this.finalize(postponed_candidates, regular_candidates, final_table, input, env)
+---@param env PostponeEnv
+function filter.finalize(postponed_candidates, regular_candidates, final_table, input, env)
   ---@type Candidate[]
   local merged_candidates = { regular_candidates[1] }
   table.sort(postponed_candidates, function(a, b)
@@ -80,8 +80,8 @@ function this.finalize(postponed_candidates, regular_candidates, final_table, in
 end
 
 ---@param translation Translation
----@param env SnowPostponeEnv
-function this.func(translation, env)
+---@param env PostponeEnv
+function filter.func(translation, env)
   local context = env.engine.context
   local segment = context.composition:toSegmentation():back()
   -- 取出输入中当前正在翻译的一部分
@@ -131,7 +131,7 @@ function this.func(translation, env)
     if finalized then
       yield(candidate)
     elseif seen_candidates == max_candidates or (candidate._end - candidate._start) < input:len() then
-      this.finalize(postponed_candidates, regular_candidates, final_table, full_input, env)
+      filter.finalize(postponed_candidates, regular_candidates, final_table, full_input, env)
       finalized = true
       yield(candidate)
     elseif candidate.comment:match("📌") or candidate.comment:match("📍") then -- 固定候选不调整位置
@@ -144,8 +144,8 @@ function this.func(translation, env)
     seen_candidates = seen_candidates + 1
   end
   if not finalized then
-    this.finalize(postponed_candidates, regular_candidates, final_table, full_input, env)
+    filter.finalize(postponed_candidates, regular_candidates, final_table, full_input, env)
   end
 end
 
-return this
+return filter

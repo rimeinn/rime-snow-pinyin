@@ -1,11 +1,8 @@
-local snow = require "snow.snow"
 -- 组词规则过滤器
 
-local filter = {}
+local snow = require "snow.snow"
 
----@param env Env
-function filter.init(env)
-end
+local filter = {}
 
 ---@param translation Translation
 ---@param env Env
@@ -54,7 +51,7 @@ end
 ---@param segment Segment
 ---@param env Env
 function filter.tags_match(segment, env)
-  return segment:has_tag("abc") or segment:has_tag("jianpin")
+  return segment:has_tag("abc")
 end
 
 return filter

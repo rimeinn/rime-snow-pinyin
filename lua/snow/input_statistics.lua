@@ -122,7 +122,7 @@ local progressBarEmpty_word = skinList[input_stats.progressBarSkinIdx_word].empt
 local progressBarField_code = skinList[input_stats.progressBarSkinIdx_code].field
 local progressBarEmpty_code = skinList[input_stats.progressBarSkinIdx_code].empty
 
-function trim(str)
+local function trim(str)
     if type(str) ~= "string" then
         return ""  -- 非字符串返回空字符串，也可返回原值/报错，按需调整
     end
@@ -1096,10 +1096,10 @@ local function init(env)
 		save_stats(env.engine.schema.schema_id)
 	end)
 end
-function finit(env)
+local function fini(env)
 	if env.notifier then
 		env.notifier:disconnect()
 		env.notifier = nil
 	end
 end
-return { init = init, fini = finit, func = translator }
+return { init = init, fini = fini, func = translator }
