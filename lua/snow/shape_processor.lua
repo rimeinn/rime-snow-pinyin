@@ -74,11 +74,8 @@ function processor.func(key_event, env)
     return snow.kNoop
   end
   if key_event.keycode == snow.kBackSpace and shape_input ~= "" then
-    if env.engine.schema.schema_id == "snow_yipin" then
-      shape_input = ""
-    else
-      shape_input = shape_input:sub(1, -2)
-    end
+    -- 冰雪一拼一次删掉整个辅助码
+    shape_input = env.engine.schema.schema_id == "snow_yipin" and "" or shape_input:sub(1, -2)
     goto update
   else
     local key_char = utf8.char(key_event.keycode)

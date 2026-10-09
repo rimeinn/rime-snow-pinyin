@@ -7,7 +7,7 @@ local filter = {}
 
 ---@class FixEnv: Env
 ---@field dict table<string, string[]>
----@field user_dict LevelDb
+---@field user_dict LevelDb|nil
 ---@field user_dict_name string
 
 ---@param env FixEnv

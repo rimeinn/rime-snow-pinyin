@@ -16,6 +16,7 @@ function translator.init(env)
   end)
 end
 
+---@type table<string, string>
 local initial_lookup = {
   ["a"] = "j",
   ["e"] = "q",

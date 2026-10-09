@@ -189,15 +189,17 @@ deploy:
         assert: cand[1].text:match("^%d+时%d+分%d+秒$") ~= nil
       - send: ors
         assert: cand[1].text:match("^%d+年%d+月%d+日%d+时%d+分%d+秒$") ~= nil
-      # 输入统计：本机、全部合并各给今日、本周、本月、本年四条；各安装分列；导出
+      # 输入统计：本机、全部合并各给今日、本周、本月、本年、累计五条；各安装分列；tj 前加字母只看一个时段
       - send: otj
-        assert: cand[1].text:match("^今日 %d+ 字") ~= nil and cand[4].text:match("^本年 %d+ 字") ~= nil
+        assert: cand[1].text:match("^今日 %d+ 词，%d+ 字") ~= nil and cand[5].text:match("^累计 %d+ 词，%d+ 字") ~= nil
       - send: otjq
-        assert: cand[1].text:match("^今日 %d+ 字") ~= nil and cand[4].text:match("^本年 %d+ 字") ~= nil
+        assert: cand[1].text:match("^今日 %d+ 词，%d+ 字") ~= nil and cand[5].text:match("^累计 %d+ 词，%d+ 字") ~= nil
       - send: otjs
-        assert: cand[1].text:match("（本机） 今日 %d+ 字") ~= nil
-      - send: otjd
-        assert: cand[1].text:match("snow_statistics%.tsv$") ~= nil
+        assert: cand[1].text:match("（本机） 今日 %d+ 词，%d+ 字") ~= nil
+      - send: oqtj
+        assert: cand[1].text:match("^累计 %d+ 词，%d+ 字") ~= nil
+      - send: ortjs
+        assert: cand[1].text:match("（本机） 今日 %d+ 词，%d+ 字") ~= nil
       # 笔画辅助码：音节码之后直接加笔画
       - send: ytivi
         assert: page("芫")

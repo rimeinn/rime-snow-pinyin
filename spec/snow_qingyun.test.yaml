@@ -270,13 +270,15 @@ deploy:
       - send: "``rs"
         assert: cand[1].text:match("^%d+年%d+月%d+日%d+时%d+分%d+秒$") ~= nil
       - send: "``tj"
-        assert: cand[1].text:match("^今日 %d+ 字") ~= nil and cand[4].text:match("^本年 %d+ 字") ~= nil
+        assert: cand[1].text:match("^今日 %d+ 词，%d+ 字") ~= nil and cand[5].text:match("^累计 %d+ 词，%d+ 字") ~= nil
       - send: "``tjq"
-        assert: cand[1].text:match("^今日 %d+ 字") ~= nil and cand[4].text:match("^本年 %d+ 字") ~= nil
+        assert: cand[1].text:match("^今日 %d+ 词，%d+ 字") ~= nil and cand[5].text:match("^累计 %d+ 词，%d+ 字") ~= nil
       - send: "``tjs"
-        assert: cand[1].text:match("（本机） 今日 %d+ 字") ~= nil
-      - send: "``tjd"
-        assert: cand[1].text:match("snow_statistics%.tsv$") ~= nil
+        assert: cand[1].text:match("（本机） 今日 %d+ 词，%d+ 字") ~= nil
+      - send: "``qtj"
+        assert: cand[1].text:match("^累计 %d+ 词，%d+ 字") ~= nil
+      - send: "``rtjs"
+        assert: cand[1].text:match("（本机） 今日 %d+ 词，%d+ 字") ~= nil
   # 方案码用户词典：这些操作会写入 snow_qingyun.userdb，故单独部署并按顺序执行
   schema_userdb:
     tests:

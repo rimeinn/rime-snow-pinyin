@@ -20,12 +20,36 @@ bun scripts/tasks.ts unlink    # 还原成独立副本
 
 ## 测试
 
-测试位于 `spec/*.test.yaml`，由 [mira](https://github.com/rimeinn/mira) 运行：
+测试位于 `spec/*.test.yaml`，由 [mira](https://github.com/rimeinn/mira) 运行。日常用
+`scripts/test.ts`，五个方案并行，全部跑完约 40 秒；失败时只打印失败用例，完整输出留在它给出的
+临时目录里：
+
+```sh
+bun scripts/test.ts                  # 全部五个方案
+bun scripts/test.ts yipin qingyun    # 只跑指定方案，snow_ 前缀可省
+```
+
+它为每个方案准备一份独立环境，这几步都是为了提速或者能并行，不要省掉：
+
+- **精简的源目录**：mira 的每个 deploy 都会把整个 `source_dir`（spec 里写的是 `..`，也就是
+  整个仓库，带 `.git`、`node_modules`、`cache`，约 1 GB）复制一遍。脚本只复制
+  `git ls-files -co --exclude-standard` 列出的文件，再加上 `rime-stroke/stroke*`，相当于 CI 的
+  全新 checkout。本机的 `*.userdb`、`user.yaml` 自然被排除在外，不用再 `rm -rf *.userdb`。
+- **`default.custom.yaml` 只留被测方案**：否则每个 deploy 都要检查 `schema_list` 里的全部五个
+  方案。这两项加起来，每个 deploy 从约 4 秒降到约 1.4 秒。
+- **独立的 `TMPDIR`**：mira 的工作目录写死为 `$TMPDIR/mira`，启动时整个删掉，两个 mira
+  同时跑会互相删目录然后崩溃。
+- **独立的缓存副本**：`-C` 指向的 staging 目录不能共用。带 `patch` 的 deploy（sanpin、
+  jiandao 的 `sentence`，sipin 的 `special`）会把改过的方案编译进缓存，改了词典后几个进程还会
+  同时重建同一份 `.bin`。脚本先把仓库的 `cache/` 复制给每个方案，跑完再把更新过的文件写回去。
+
+只调一个 deploy 时直接用 mira 的 `-R` 更快，但这会用仓库本身作 `source_dir`，所以要自己清
+词频，同时也不能有别的 mira 在跑：
 
 ```sh
 cp rime-stroke/stroke* .          # 笔画反查依赖
 rm -rf *.userdb                   # 清掉上次运行累积的词频，与 CI 的全新 checkout 对齐
-mira -C cache spec/snow_sipin.test.yaml
+mira -C cache -R '^popping$' spec/snow_sipin.test.yaml
 ```
 
 - 断言里只有 `cand`（元素含 `.text`、`.comment`）、`preedit`、`commit`；`assert` 会被包进
@@ -77,14 +101,17 @@ mira -C cache spec/snow_sipin.test.yaml
 
 ### 结构
 
-- `lua_processor@*snow.statistics*processor` 排在 processors **第一位**，只观察按键，恒返回
-  `kNoop`。它把每个计入的键追加到 `env.steps`，在每次上屏时结算写库。排第一是因为
-  `ascii_composer` 会吃掉临时西文的空格和回车，`shape_processor`、`select_character` 等也会
-  `kAccepted` 掉按键，排在它们后面就看不到这些键了。
+- `lua_processor@*snow.statistics*processor` 排在 processors **第一位**，只观察按键，除了并击
+  的最后一次松开（见「并击」）都返回 `kNoop`。它把每个计入的键追加到 `env.steps`，在每次上屏时结算写库。排第一是因为
+  `ascii_composer` 会吃掉临时西文下的按键（要靠它们判断临时西文是否上屏了），`shape_processor`、
+  `select_character` 等也会 `kAccepted` 掉按键，排在它们后面就看不到这些键了。
 - `lua_translator@*snow.statistics*translator` 紧跟在 `datetime` 后面，处理 `otj` / `otjq` /
-  `otjs` / `otjd`。如果排在 `calculator` 后面，首选会被计算器回显的 `tj` 抢走。
-- 接入的方案：sipin、sanpin、jiandao、qingyun；yipin 未接入。命令前缀取自 `lua/input`，和
-  datetime、number、calculator 共用：多数方案是 `o`，qingyun 的 `o` 是普通编码，所以用两个着重号
+  `otjs`，以及 `tj` 前加 `r` / `z` / `y` / `n` / `q` 只看一个时段的 `ortj`、`oqtjs` 等。如果排在 `calculator` 后面，首选会被计算器回显的 `tj` 抢走。
+- 接入的方案：sipin、sanpin、yipin、jiandao、qingyun。命令前缀取自 `lua/input`，和
+  datetime、number、calculator 共用：多数方案是 `o`。yipin 的 `o` 会被 `combo_popping` 吞掉，
+  所以改用 `i`，和符号一致（`itj` 等没有和符号码重复）；命令由 `chord_composer/algebra` 里的右手并击
+  `jkl` / `jkl;` / `uio` 打出，结果加方括号，以免被 `output_format` 当成非法音节删掉。
+  qingyun 的 `o` 是普通编码，所以用两个着重号
   ``` `` ```。单个 `` ` `` 在 qingyun 里引导拼音、笔画反查和重复上屏，对应的 recognizer 规则
   （`` ^`[a-z]*'?$ ``、`` ^`$ ``）都匹配不到第二个字符是 `` ` `` 的输入，所以 `` ^``.*$ `` 和它们
   互不重叠。
@@ -103,8 +130,9 @@ mira -C cache spec/snow_sipin.test.yaml
 - 多设备同步：每个安装只写带自己 `installation_id`（即 `rime_api.get_user_id()`）的键，而且所有
   计数**只增不减**。`UserDbMerger` 对同一个键取 `c` 的最大值，结果正好是该安装的最新值；重复
   同步结果不变（用 `rime_dict_manager -b` / `-r` 实测过往返）。为了保证单调：
-  - 有效按键结算出负数时，余额留到下次结算（`env.carry`），不写负增量；
-  - 极速只在更大时覆盖。
+  - 有效按键结算出来不是正数的上屏整次丢掉，不写负增量；
+  - 极速窗口的字数、时长只在速度更高时一起覆盖。这两个字段不一定各自递增（速度更高的窗口可能
+    字数更少），合并时各取最大值，结果可能拼自两个窗口。窗口时长都在一分钟上下，偏差很小，接受。
   - 两台设备的 `installation_id` 相同时，它们的数据会按最大值互相覆盖，这是这种方案的前提。
 - 日期取结算（上屏）那一刻的本地日期。
 
@@ -112,14 +140,30 @@ mira -C cache spec/snow_sipin.test.yaml
 
 1. `snow.redispatching` 为真时跳过：popping 用 `engine:process_key()` 把同一个键重投到链顶，
    第一次已经记过了。
-2. 所有 release 事件都跳过。修饰键（`0xffe1`–`0xffee`）按下时只记下来（`env.tap`），松开时
-   如果中间没按过别的键、而且正在输入，就算一个键，例如切换临时西文的 Shift。修饰键和别的键
-   一起按时，整组只算在那个键上。
-3. 有编码时，其余按下的键全部计入，包括 Ctrl/Alt 组合键（整组算一个）、退格、方向键、Escape、
-   空格、选重键。
-4. 没有编码时，只计入 `0x20`–`0x7e` 的可见字符，并且要求没有按 Ctrl/Alt/Super、不处在全局
-   英文状态（`ascii_mode`）。也就是只算会开始一段输入、或会直接上屏的键；快捷键和全局英文
-   下的输入属于应用，不算。
+2. `ascii_mode` 为真时跳过，包括全局英文和临时西文：它们不属于中文输入。临时西文下有编码时
+   置 `env.cancelling`，见第 6 条。
+3. 并击方案先按下一节的规则处理并击键。
+4. 所有 release 事件和修饰键（`0xffe1`–`0xffee`）本身都跳过。修饰键和别的键一起按时，整组只算
+   在那个键上；单独按放的修饰键（如切换临时西文的 Shift）不算。
+5. 有编码时，其余按下的键全部计入，包括 Ctrl/Alt 组合键（整组算一个）、退格、方向键、Escape、
+   空格、选重键。没有编码时，只计入 `0x20`–`0x7e` 的可见字符，并且要求没有按 Ctrl/Alt/Super，
+   也就是只算会开始一段输入、或会直接上屏的键；快捷键属于应用，不算。
+6. 有编码时按 Escape，如果它把编码**全部**清空了，就认为用户放弃了这段输入，`env.steps` 整个清空，
+   连同这个 Escape 都不计。Escape 在有已确认的段时只清最后一段（`ClearPreviousSegment`），所以
+   不能在按下时就清，而是置 `env.cancelling`，等下一个事件（最晚是它自己的松开）再看
+   `is_composing()`。key_binder 把 `Control+g`、`Control+bracketleft` 转成的 Escape 也经
+   `ProcessSyntheticKey` 从链顶重投，同样生效。
+
+   临时西文同理：它会把已经打的中文编码换成对应的字母一起上屏，这次上屏不记，进入临时西文之前
+   打的中文编码也不计，也就是清空 `env.steps`。上屏有两条路径，都要处理：
+   - 本机改过的 librime（`~/Public/librime`）里，空格、回车、改动过西文后切回中文等都由
+     ascii_composer 调用 `engine:CommitText`，不经过 `commit_notifier`。所以临时西文下有编码时
+     每个键都置 `env.cancelling`，键处理完编码没了就清空 `steps`；
+   - 原版 librime（mira 用的是 Homebrew 的 1.17）里，回车走 express_editor 的
+     `context:commit()`，这时 `ascii_mode` 还开着，所以 `commit_notifier` 的回调里遇到
+     `ascii_mode` 也清空 `steps`、不记。
+
+   没改动就切回中文时，ascii_composer 会还原中文编码，`steps` 保留，接着累计。
 
 每个计入的键 $k$ 记两个量：
 
@@ -132,27 +176,63 @@ $$
 其中 $t$ 取自 `rime_api.get_time_ms()`，是单调时钟的毫秒数（不是墙上时间，只能用来算间隔）。
 $t_{k-1}$ 是上一个计入的键的时刻，$T_\text{idle}=5000$ ms。停顿之后的第一个键 $\delta=0$。
 
+### 并击（yipin）
+
+方案配置里有 `chord_composer/alphabet` 时，processor 按旧版 `ChordComposer`
+（`librime/src/rime/gear/chord_composer.cc`）的规则跟踪并击，**一组并击算一个键**：
+
+- chord_composer 吃掉并击键的按下和松开。所有键都松开时，它把并击序列化、过 `algebra` 和
+  `output_format`，再把结果**逐个字符用 `ProcessSyntheticKey` 从链顶重投**（`bay`、`iduh `、
+  `od ` 之类），没人处理的合成键由它直接 `CommitText`。合成键在 Lua 里和真实按键一样，都是
+  字母的按下事件，没有标志可区分。
+- processor 用 `env.held` 镜像 chord_composer 的 `pressed_keys`：不在 `ascii_mode` 时，按下
+  alphabet 里的键（无修饰键）只记进 `held`，不计数；非并击键或带修饰键的事件（按下、松开都算）
+  清空 `held`，这和 C++ 里 `state_.Clear()` 的条件一致，键本身照普通按键处理。
+- 让 `held` 变空的那次松开，就是 chord_composer 要 FinishChord 的时刻。processor 先记一个键，
+  然后置 `env.finishing`，**自己调用 `engine:process_key()` 把这次松开交给后面的处理器**，
+  返回后清掉 `finishing` 并返回 `kAccepted`。嵌套调用期间到达的事件都是合成键，一律跳过；
+  `process_key` 是同步的，所以界限是精确的，不依赖计时。这个键必须**在重投之前**记下，因为重投
+  中途就会上屏。
+- 合成按键数为 0（`output_format` 把组合 erase 掉了）的并击照样计入 `keys`，但 $e=0$：它没有
+  打出任何东西，也不需要退格。
+- `combo_popping` 是在下一组并击的第一个合成字母上顶屏的，这时那组并击已经记进 `env.steps`，
+  所以它的两处上屏都要设 `snow.handover = 1`。
+- yipin 的退格绑定为 `back_syllable`，一次删一个音节，即一组并击，$e=-1$ 的口径不用改。
+- 时长 $\delta$ 取相邻两次结算并击（以及普通按键）之间的间隔。
+- 没处理 `use_shift` 等选项（开了之后要像 C++ 那样换算到基础层），冰雪一拼没有开。
+
 ### 上屏从哪里来
 
 | 来源 | 捕获方式 | 记作的上屏文字 |
 | --- | --- | --- |
 | `context:commit()`：选词、空格、顶屏、回车上屏编码、标点 | `commit_notifier` | `get_commit_text()` |
-| 没有编码时直接放行给应用的可见字符（数字、空格等） | `unhandled_key_notifier` | 这个字符 |
-| `snow.commit_text`：以词定字、略码、英拼的空格 | `property_update_notifier`，属性名 `commit_text` | 属性值 |
-| 临时西文的空格、回车（`ascii_composer` 调用 `engine:CommitText`） | processor 按 `ascii_composer` 的规则自己补记 | `input`，空格时再加一个空格 |
+| 没有编码时直接放行给应用的可见字符（数字、空格等），以及 chord_composer 因为没人处理而直接上屏的合成键 | `unhandled_key_notifier` | 这个字符 |
+| `snow.commit_text`：以词定字、略码、英拼的空格 | `property_update_notifier`，属性名 `commit_text` | 属性值，即 `counted` 参数，默认为上屏的文字 |
 
 - `engine:commit_text` 不触发 `commit_notifier`。**以后新写的直接上屏一律调用
   `snow.commit_text`**，否则这次上屏的字数会漏记，它的按键也会被算进下一次上屏。
+- 一个键触发几次上屏时，要让统计只记成一个词加上这个键打出的部分，否则后几次分不到按键。
+  略码就是这样做的：重复出来的部分不管接在词前还是词后，都合成一次上屏，词前的部分上屏时
+  `counted` 传空串不记，词后的部分上屏时 `counted` 传两部分之和；词本身用 handover 把略码键
+  转给重复出来的部分。
 - `unhandled_key_notifier` 对 `kRejected` 的键也会触发，所以回调里要排除 `ascii_mode`；还要
   排除 `snow.redispatching`，因为顶屏后重投、最终没人处理的键（比如空格）并没有到达应用。
 
 ### 按键归到哪次上屏
 
-设第 $j$ 次上屏的文字为 $c_j$，结算时 `env.steps` 里有 $n_j$ 个键。结算的是前
-$n_j-h_j$ 个，组成集合 $K_j$；最后 $h_j$ 个留给下一次上屏。
+设第 $j$ 次上屏的文字为 $c_j$，结算时 `env.steps` 里有 $n_j$ 个键。从末尾往回累加 $e_k$，
+累加到 $h_j$ 为止，这一段留给下一次上屏，其余的键组成集合 $K_j$。$h_j=0$ 时全部结算。
 
-$h_j$ 就是 `snow.handover`：popping 按规则顶屏时取 $1+\ell$，$\ell$ 是因 `rule.prefix` 被推回
-输入框的编码长度；其他上屏都取 $0$。
+$h_j$ 就是 `snow.handover`，单位是有效按键：popping 按规则顶屏时取 $1+\ell$，$\ell$ 是因
+`rule.prefix` 被推回输入框的编码长度；combo_popping 顶屏时取 $1$（那组并击）；略码先上屏原词
+时取 $1$（略码键，算作重复出来的部分的编码，如 `wgA` 记成「这个」2 码、重复的「这个」1 码）；
+其他上屏都取 $0$。
+
+按有效按键数而不是按键数往回数，是为了让推回的编码中途回改过时也能分对：`abcx⌫d` 后按
+`e` 顶屏、推回 `cd`，往回数 3 个有效按键得到 `cx⌫de`，「ab」记 2 码。只要每个 $e=+1$ 的键都
+往输入框里加了一个字符、每个退格都删了一个字符，分界就是精确的：从末尾累加到 $h_j$ 的位置，
+是输入框长度最后一次等于 $|\text{input}|-\ell$ 的时刻（$|\text{input}|$ 取顶屏前），此后
+前面的编码再没被动过。
 
 这样设计的原因：
 
@@ -174,43 +254,52 @@ $h_j$ 就是 `snow.handover`：popping 按规则顶屏时取 $1+\ell$，$\ell$ �
 
 | 字段 | 定义 |
 | --- | --- |
-| `chars` 字数 | $\sum_j \lvert c_j\rvert$ |
 | `keys` 按键 | $\sum_j \lvert K_j\rvert$ |
-| `effective_keys` 有效按键 | $\sum_j E_j$，见下 |
 | `duration` 时长（ms） | $\sum_j\sum_{k\in K_j}\delta_k$ |
-| `fastest` 极速（字/分） | 见下 |
+| `fastest_chars`、`fastest_duration` 极速窗口 | 见下 |
 | `word<i>` 词长分布 | $\#\{j:\lvert c_j\rvert=i\}$ |
-| `code<i>` 码长分布 | $\#\{j:E_j=i\}$，$i\ge 0$ |
+| `code<i>` 码长分布 | $\#\{j:E_j=i\}$，$i\ge 1$，$E_j$ 见下 |
 
-**有效按键**带一个跨上屏的余额 $r$（`env.carry`，初值 0）：
+词数、字数和有效按键不单独存，显示时由分布算出：
 
 $$
-\tilde E_j=r_{j-1}+\sum_{k\in K_j}e_k,\qquad E_j=\max(\tilde E_j,0),\qquad r_j=\min(\tilde E_j,0)
+\text{words}=\sum_i\text{word}_i=\sum_i\text{code}_i,\qquad
+\text{chars}=\sum_i i\cdot\text{word}_i,\qquad
+\text{effective\_keys}=\sum_i i\cdot\text{code}_i
 $$
 
-有编码时每按一次退格，它本身让 `keys` 加 1、`effective_keys` 减 1，被删掉的那个键之前也给两边
-各加过 1，所以两者的差值增加 2。有效按键近似于「不打错时需要的按键数」。只有在退格多于其他键时
-（例如顶屏后删掉推回的编码）才会出现负的 $\tilde E_j$。
+为此**档位不设上限**，「十及以上」只在显示时合并。
+
+**有效按键**：
+
+$$
+E_j=\sum_{k\in K_j}e_k
+$$
+
+有编码时每按一次退格，它本身让按键加 1、有效按键减 1，被删掉的那个键之前也给两边
+各加过 1，所以两者的差值增加 2。有效按键近似于「不打错时需要的按键数」。
+
+按键归属正确时每次上屏至少有一个有效按键，$E_j\ge 1$。$E_j\le 0$ 说明归属出了偏差（见
+「已知局限」），这次上屏整次丢掉：不写 `keys`、`duration`、`word`、`code`，$K_j$ 照样从
+`env.steps` 里移除。所以库里不会有 `word0`、`code0`；报告解析字段时也只认正整数的档位。
 
 **码长按有效按键算，而不是按 `ctx.input` 的长度算**：`input` 不含辅助码（sipin 的辅助码存在
 `shape_input` 属性里）、选重键和上屏键，没法和按键数对上。
 
-**两个恒等式**严格成立：
-
-$$
-\sum_i i\cdot\text{word}_i=\text{chars},\qquad \sum_i i\cdot\text{code}_i=\text{effective\_keys}
-$$
-
-这是因为每次结算时，`word`/`code` 档位与 `chars`/`effective_keys` 的增量取自同一个数，并且
-**档位不设上限**。以后改口径时，用这两个等式来检查。$E_j=0$ 的上屏记进 `code0`，例如略码重复
-出来的那一份。它对第二个等式没有影响。
+**两个不变式**：每次结算 `word`、`code` 各加一档，所以 $\sum_i\text{word}_i=\sum_i\text{code}_i$；
+$E_j\le\lvert K_j\rvert$，所以 $\sum_i i\cdot\text{code}_i\le\text{keys}$。
+以后改口径时，用这两条来检查，另外库里不应出现 `word0`、`code0`。
 
 **极速**：在当前会话（engine 实例）内，把连续若干次上屏的字数和时长累加成一个窗口，
-时长 $D_W\ge 60\,\text{s}$ 时结算 $v=\lfloor 60000\cdot\text{chars}_W/D_W\rfloor$，只有比当天
-已记录的值大才覆盖，然后清空窗口重新累计。窗口不滑动，所以它不是严格的「最快一分钟」，而是
+时长 $D_W\ge 60\,\text{s}$ 时结算 $v=\text{chars}_W/D_W$，只有比当天已记录的窗口快才把
+$\text{chars}_W$、$D_W$ 一起写进 `fastest_chars`、`fastest_duration`，然后清空窗口重新累计。
+存窗口而不存速度，是因为 `c=` 只能存整数。窗口不滑动，所以它不是严格的「最快一分钟」，而是
 「某段至少一分钟的输入的平均速度」的最大值。
 
-### 报告里的派生量
+### 报告
+
+每个时段一个候选，文字分五行：词数、字数、按键、有效按键、用时（分）；均速、极速、击键、码长、
+键准、理论码长；平均词长、打词率；词长分布；码长分布。没有上屏时只有第一行，时长为 0 时没有第二行。
 
 记 $D$ 为 `duration`，单位 ms：
 
@@ -219,14 +308,16 @@ $$
 \text{击键}=\frac{1000\cdot\text{keys}}{D}\ \text{键/秒},\quad
 \text{码长}=\frac{\text{keys}}{\text{chars}},\quad
 \text{键准}=\frac{\text{effective\_keys}}{\text{keys}},\quad
-\text{理论码长}=\frac{\text{effective\_keys}}{\text{chars}}
+\text{理论码长}=\frac{\text{effective\_keys}}{\text{chars}},\quad
+\text{平均词长}=\frac{\text{chars}}{\text{words}},\quad
+\text{打词率}=1-\frac{\text{word}_1}{\text{chars}}
 $$
 
-- 分布显示的是各档占上屏次数的比例，长度用中文数字（100 以上用阿拉伯数字）。
-- 周、月、年把各天的计数相加，`fastest` 取最大值；本周从周一算起。
-- `otjq` 把各安装的计数相加；`otjs` 列出本年有数据的安装。
-- 报告只看当前方案。导出则包含全部方案、全部安装，每行是「方案 × 日期 × 安装」，分布列写成
-  `1:n1 2:n2 …`。
+- 分布显示的是各档占上屏次数的比例，长度用 `number.lua` 的 `chinese` 写成中文数字，十及以上合为一档。
+- 周、月、年、累计把各天的计数相加，极速取各天、各安装中最快的那个窗口；本周从周一算起，累计是该方案的全部日期。
+- `otjq` 把各安装的计数相加；`otjs` 列出所选时段中最长的那个（不带字母时即累计）里有数据的安装。
+- 报告只看当前方案。不单独做导出：Rime 同步时会把整个库导出为同步目录下的
+  `snow_statistics.userdb.txt`，包含全部方案、全部安装的逐日原始计数。
 
 ### 其他取舍
 
@@ -238,27 +329,44 @@ $$
 ### 已知局限
 
 - 缓冲模式下的顶屏只 confirm 不上屏，handover 不起作用；缓冲区整体上屏时，按键都算在那一次上。
-- handover 假设推回输入框的每个编码字符对应一个有效按键，被推回的编码如果经过回改会有偏差。
-- 通过 `ascii_composer` 的 `commit_raw_input` 等按键绑定从临时西文上屏时，实际上屏的是
-  `raw_keys_`，而补记用的是 `context.input`，字数可能略有出入。默认的空格、回车是准确的。
+- handover 假设推回的编码里每个 $e=+1$ 的键都往 `input` 里加了一个字符。推回的那段里如果有
+  不进 `input` 的键（有编码时的方向键、sipin 存进 `shape_input` 的辅助码），分界会偏，上一次
+  上屏多记几码，下一次少记；删掉推回的编码时下一次的 $E_j$ 还可能不是正数，被整次丢掉。
 - 极速窗口不跨会话：切换方案或重启输入法时，没满一分钟的窗口会被丢掉；跨零点的窗口记在
   结算那天。
-- mira 里所有按键都是瞬间完成的，测出的时长和速度没有意义，spec 只断言报告格式。
+- 并击状态是镜像的。如果和 C++ 不同步，嵌套的 `process_key` 可能返回 false，这时外层仍返回
+  `kAccepted`：返回 `kRejected` 会让 `unhandled_key_notifier` 触发第二次，代价只是这次松开不会再
+  交给应用。
+- 辅助码并击（`v…v`）和它所属的音节是两组并击，但 `back_syllable` 未必按这个粒度删，退格后的
+  有效按键会有偏差。
+- 只适用于旧版 `chord_composer`。yipin 如果改用 `streaming_chord`（`StreamingChordProcessor`），
+  这套逻辑要重写：流式并击直接 `PushInput`，靠超时切分音节，不一定等所有键松开，只有双功能键
+  会用合成键重投。
+- mira 里所有按键都是瞬间完成的，测出的时长和速度没有意义，spec 只断言报告格式。yipin 是例外：
+  它在单独的 `statistics` 部署里断言了按键数和码长分布，用来检查一组并击算一个键。
 
 ### 验证方法
 
-改动统计逻辑后，除了跑 spec，还要用临时用例混合各种上屏方式，导出后检查两个恒等式。mira 的
-数据目录是 `$TMPDIR/mira/data/`，**每个 deploy 都会重建**，所以临时用例只写一个 deploy，并把
-`otjd` 放在最后：
+改动统计逻辑后，除了跑 spec，还要用临时用例混合各种上屏方式，再检查两个恒等式。临时用例
+直接用 mira 跑（`test.ts` 跑完会删掉临时目录）。mira 的数据目录是 `$TMPDIR/mira/data/`，
+**每个 deploy 都会重建**，所以临时用例只写一个 deploy。跑完后
+在数据目录里用 `rime_dict_manager -b` 把库导出成同步快照，逐个「方案 × 日期 × 安装」检查两个不变式：
 
 ```sh
-python3 - "$TMPDIR/mira/data/snow_statistics.tsv" <<'PY'
-import csv, sys
-for r in csv.DictReader(open(sys.argv[1]), delimiter="\t"):
-    f = lambda k: sum(int(a) * int(b) for a, b in (x.split(":") for x in r[k].split()))
-    assert f("word_distribution") == int(r["chars"]), r
-    assert f("code_distribution") == int(r["effective_keys"]), r
-PY
+cd "$TMPDIR/mira/data" && rime_dict_manager -b snow_statistics >/dev/null
+cat sync/*/snow_statistics.userdb.txt | python3 -c '
+import re, sys, collections
+rows = collections.defaultdict(dict)
+for line in sys.stdin:
+    if line.startswith("#"):
+        continue
+    key, field, value = line.rstrip("\n").split("\t")
+    rows[key][field] = int(re.match(r"c=(-?\d+)", value).group(1))
+for key, r in rows.items():
+    f = lambda kind, w: sum(w(int(k[len(kind):])) * v for k, v in r.items() if re.fullmatch(kind + r"\d+", k))
+    assert f("word", lambda i: 1) == f("code", lambda i: 1), (key, r)
+    assert f("code", lambda i: i) <= r.get("keys", 0), (key, r)
+'
 ```
 
 要追踪每个键、每次结算，就临时在 `processor.func` / `record` 里用 `io.open(..., "a")` 写一个
@@ -311,6 +419,30 @@ PY
 - `if` 条件不加多余括号。
 - 2 空格缩进，不用 tab。
 
+**类型检查**
+
+`lua/snow/` 下自写的文件应当没有 lua-language-server 警告（编辑器里按 strict 级别检查，含
+`no-unknown`）。VS Code 只分析打开过的文件，要一次查全用扩展自带的命令行：
+
+```sh
+echo '{"diagnostics.groupFileStatus":{"strict":"Any","strong":"Any"},"diagnostics.disable":["lowercase-global"]}' > "$TMPDIR/luarc.json"
+~/.vscode/extensions/sumneko.lua-*/server/bin/lua-language-server --check="$PWD" \
+  --configpath="$TMPDIR/luarc.json" --checklevel=Warning --logpath="$TMPDIR/luals" --check_format=json
+```
+
+末行给出总数，逐条结果在 `$TMPDIR/luals/check.json`。`input_statistics.lua` 是外来代码，
+它的 136 条警告不用管。容易触发警告的几种写法：
+
+- `snow.get_db` 在库被别的进程锁住时返回 `nil`，所以持有它的字段要标 `LevelDb|nil`，用之前判空。
+- 下标从 0 开始的表（如 `number.lua` 的 `digits`）标 `table<integer, string>`，不要标
+  `string[]`：后者用 `[0]` 取值推不出类型。索引它的键也必须是 integer，`tonumber()` 返回
+  `number?`，不行，数字字符可以用 `s:byte(i) - 48`。
+- 用字面量建的、以字符串为键的查找表（如 `{ a = "j", e = "q" }`）用变量去索引时推不出类型，
+  要标 `---@type table<string, string>`。函数里先建空表再逐项填的局部变量同理，要标元素类型。
+- 一个 `if` 的某个分支给变量赋字面量（`x = ""`），另一个分支写 `x = x:sub(1, -2)`，后者会
+  报 `no-unknown`，加 `---@type` 也没用（LuaLS 的问题）。改成一个表达式
+  `x = cond and "" or x:sub(1, -2)`。
+
 ## processors 顺序
 
 五个顶功方案（sipin / sanpin / yipin / jiandao / qingyun）共用一套相对顺序，新增或移动
@@ -318,7 +450,7 @@ PY
 
 ```yaml
   processors:
-    - lua_processor@*snow.statistics*processor  # yipin 无
+    - lua_processor@*snow.statistics*processor
     - ascii_composer
     - chord_composer                        # 仅 yipin
     - lua_processor@*snow.shape_processor    # qingyun 无
@@ -360,9 +492,9 @@ PY
 - `user_dict` < `key_binder`：`Control+bracketleft` 被绑成了 Escape。user_dict 的上移/下移
   分支落空时也要返回 `kAccepted`，否则会穿透成 Escape 清空整句。
 - `shape_processor` < `key_binder`：sipin 的 `1` 既是辅助码触发键又被绑成「定位」。
-- `statistics` 排第一：它只计数、恒返回 `kNoop`，要在其他处理器吃掉按键之前看到每个键，
-  包括 `ascii_composer` 临时西文下用来上屏的空格、回车（这类上屏不经过 `commit_notifier`）。
-  全局英文状态由它自己按 `ascii_mode` 跳过；popping 重投的那一次靠 `snow.redispatching` 去重。
+- `statistics` 排第一：它只计数，除并击的最后一次松开外都返回 `kNoop`，要在其他处理器吃掉按键之前看到每个键，
+  包括被 `ascii_composer` 吃掉的临时西文按键（靠它们判断临时西文是否上屏，以便丢掉之前累计的按键）。
+  全局英文和临时西文由它自己按 `ascii_mode` 跳过；popping 重投的那一次靠 `snow.redispatching` 去重。
 - 其余沿用 Rime 原生顺序。
 
 拿不准的那一对不要按多数方案的现状定，跑 mira。另外，某个功能用小写键测像是完全
@@ -373,9 +505,7 @@ PY
 改动 processors 后跑全部五份 spec：
 
 ```sh
-for s in snow_sipin snow_sanpin snow_yipin snow_jiandao snow_qingyun; do
-  mira -C cache spec/$s.test.yaml
-done
+bun scripts/test.ts
 ```
 
 手工逐键探查用 `~/Public/librime` build 里的 `rime_console -i`（带 librime-lua）：把仓库
@@ -403,9 +533,9 @@ rsync 到临时目录，补上 `default.yaml`／`essay.txt` 和只含待测方�
                                           # sanpin 的 *snow.table_like*jianpin
     - table_translator@stroke             # yipin 无
     - script_translator@pinyin            # yipin 无
-    - lua_translator@*snow.datetime       # 以下 yipin 均无
+    - lua_translator@*snow.datetime       # yipin 无
     - lua_translator@*snow.statistics*translator
-    - lua_translator@*snow.number
+    - lua_translator@*snow.number         # 以下 yipin 均无
     - lua_translator@*snow.calculator
     - history_translator
 

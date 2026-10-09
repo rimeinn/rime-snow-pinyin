@@ -28,13 +28,18 @@ function processor.func(key_event, env)
       env.active = false
       return snow.kAccepted
     elseif incoming == "i" or incoming == "o" then -- 在完整音节后面出现 i，表示标点符号
+      -- 这是下一组并击的第一个合成按键，输入统计已经把这组并击记下了，要转给下一个词
+      snow.handover = 1
       context:confirm_current_selection()
       context:commit()
+      snow.handover = nil
       return incoming == "i" and snow.kNoop or snow.kAccepted
     elseif rime_api.regex_match(incoming, "[a-z]") then
       if env.active and context:get_option("popping") then
+        snow.handover = 1
         context:confirm_current_selection()
         context:commit()
+        snow.handover = nil
       else
         env.active = true
       end

@@ -19,6 +19,7 @@ schema:
 
 engine:
   processors:
+    - lua_processor@*snow.statistics*processor
     - ascii_composer
     - chord_composer
     - lua_processor@*snow.shape_processor
@@ -39,6 +40,7 @@ engine:
   translators:
     - punct_translator
     - script_translator
+    - lua_translator@*snow.statistics*translator
   filters:
     - lua_filter@*snow.fix
     - lua_filter@*snow.shape_filter
@@ -87,6 +89,10 @@ chord_composer:
     - xform/-/{Right}/
     - xform/^hk$/{Page_Up}/
     - xform/^hl$/{Page_Down}/
+    # 右手并击，打出输入统计的命令；加方括号以免被 output_format 当成非法音节删掉
+    - xform/^jkl$/[itj]/
+    - xform/^jkl;$/[itjq]/
+    - xform/^uio$/[itjs]/
     # 左手声介
     - xform/ zv /rj/
     - xform/ d /rji/
@@ -366,5 +372,7 @@ patch:
     - { when: composing, accept: bracketright, send: Page_Down }
     - { when: composing, accept: bracketleft, send: Page_Up }
   menu/alternative_select_keys: null
+  # combo_popping 会吞掉 o，所以 lua 翻译器的命令改用 i 引导，和符号一致
+  lua/input: "i"
   translator/shape_elements: snow_xingpang
   translator/shape_mapping: "radical_shengjie.txt"

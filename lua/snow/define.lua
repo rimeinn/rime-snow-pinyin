@@ -537,13 +537,13 @@ Component = {}
 ---@field connect fun(self: self, f: fun(ctx: Context), group: integer|nil): Connection
 
 ---@class OptionUpdateNotifier: Notifier
----@field connect fun(self: self, f: fun(ctx: Context, name: string), group:integer|nil): function[]
+---@field connect fun(self: self, f: fun(ctx: Context, name: string), group:integer|nil): Connection
 
 ---@class PropertyUpdateNotifier: Notifier
----@field connect fun(self: self, f: fun(ctx: Context, name: string), group:integer|nil): function[]
+---@field connect fun(self: self, f: fun(ctx: Context, name: string), group:integer|nil): Connection
 
 ---@class KeyEventNotifier: Notifier
----@field connect fun(self: self, f: fun(ctx: Context, key: string), group:integer|nil): function[]
+---@field connect fun(self: self, f: fun(ctx: Context, key_event: KeyEvent), group:integer|nil): Connection
 
 ---@class Connection
 ---@field disconnect fun(self: self)
@@ -580,7 +580,7 @@ function Switcher(engine) end
 ---@class DbAccessor
 ---@field reset fun(self: self): boolean
 ---@field jump fun(self: self, prefix: string): boolean
----@field iter fun(self: self): fun(): (string, string) | nil
+---@field iter fun(self: self): fun(): string, string
 
 ---@class UserDb
 ---@field _loaded boolean

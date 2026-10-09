@@ -7,11 +7,7 @@
 		"format": "bunx --bun @biomejs/biome format --write",
 		"link": "bun scripts/tasks.ts link",
 		"unlink": "bun scripts/tasks.ts unlink",
-		"test-sipin": "mira spec/snow_sipin.test.yaml",
-		"test-sanpin": "mira spec/snow_sanpin.test.yaml",
-		"test-yipin": "mira spec/snow_yipin.test.yaml",
-		"test-jiandao": "mira spec/snow_jiandao.test.yaml",
-		"test": "npm run test-sipin && npm run test-sanpin && npm run test-jiandao && npm run test-yipin"
+		"test": "bun scripts/test.ts"
 	},
 	"author": "",
 	"license": "ISC",

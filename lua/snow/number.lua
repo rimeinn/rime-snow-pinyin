@@ -15,12 +15,12 @@ local letters = { s = "十", b = "百", q = "千", w = "万", n = "年", y = "�
 local traditional = { ["万"] = "萬", ["亿"] = "億", ["贰"] = "貳", ["叁"] = "參", ["陆"] = "陸" }
 
 ---@param n string 不含前导零的数字串
----@param digits string[]
----@param units string[]
+---@param digits table<integer, string> 下标从 0 开始
+---@param units table<integer, string> 下标从 0 开始
 local function read(n, digits, units)
   local s = ""
   for i = 1, #n do
-    local d, p = tonumber(n:sub(i, i)), #n - i
+    local d, p = n:byte(i) - 48, #n - i
     if d > 0 then
       s = s .. digits[d] .. units[p % 4]
     elseif p % 4 > 0 and n:sub(i + 1, i + 1) ~= "0" then
@@ -31,6 +31,12 @@ local function read(n, digits, units)
     end
   end
   return s == "" and digits[0] or s
+end
+
+--- 把非负整数写成小写汉字，十几省去开头的「一」，如 12 → 十二。供其他组件调用
+---@param n integer
+function translator.chinese(n)
+  return (read(tostring(n), lower, lower_units):gsub("^一十", "十"))
 end
 
 ---@param env NumberEnv

@@ -8,7 +8,7 @@ local processor = {}
 
 ---@class UserDictEnv: Env
 ---@field dict table<string, string[]>
----@field user_dict LevelDb
+---@field user_dict LevelDb|nil
 ---@field user_dict_name string
 ---@field add_word string
 ---@field add_input string
