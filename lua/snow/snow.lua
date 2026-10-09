@@ -33,6 +33,22 @@ end
 
 snow.debug = false
 
+-- popping 用 engine:process_key 重投按键期间为 true，排在它前面的处理器会再收到一次同一个键
+snow.redispatching = false
+
+-- popping 顶屏上屏时为转给下一个词的按键数（触发顶屏的键，加上推回输入框的编码），供输入统计扣除
+---@type integer|nil
+snow.handover = nil
+
+--- 绕过 context 直接上屏。这条路径不触发 commit_notifier，所以同时写一次 context 属性
+--- `commit_text`，输入统计靠 property_update_notifier 补记
+---@param engine Engine
+---@param text string
+function snow.commit_text(engine, text)
+  engine:commit_text(text)
+  engine.context:set_property("commit_text", text)
+end
+
 ---格式化 Info 日志
 ---@param format string|number
 function snow.infof(format, ...)

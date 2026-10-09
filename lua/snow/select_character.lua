@@ -31,11 +31,11 @@ function processor.func(key_event, env)
   end
   if utf8.len(text) > 1 then
     if key_event:eq(env.first_key) then
-      engine:commit_text(text:sub(1, utf8.offset(text, 2) - 1))
+      snow.commit_text(engine, text:sub(1, utf8.offset(text, 2) - 1))
       context:clear()
       return snow.kAccepted
     elseif key_event:eq(env.last_key) then
-      engine:commit_text(text:sub(utf8.offset(text, -1)))
+      snow.commit_text(engine, text:sub(utf8.offset(text, -1)))
       context:clear()
       return snow.kAccepted
     end

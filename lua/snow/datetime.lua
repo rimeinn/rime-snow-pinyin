@@ -15,10 +15,10 @@ end
 ---@param segment Segment
 ---@param env DatetimeEnv
 function translator.func(input, segment, env)
-  if input:sub(1, 1) ~= env.prompt then
+  if input:sub(1, #env.prompt) ~= env.prompt then
     return
   end
-  local command = input:sub(2)
+  local command = input:sub(#env.prompt + 1)
   ---@type (string | osdate)[]
   local datetimes = {}
   if command == "rq" then

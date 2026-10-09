@@ -377,11 +377,11 @@ end
 ---@param segment Segment
 ---@param env CalculatorEnv
 function translator.func(input, segment, env)
-  if input:sub(1, 1) ~= env.prompt then return end
-  if input:len() <= 1 then return end
+  if input:sub(1, #env.prompt) ~= env.prompt then return end
+  if input:len() <= #env.prompt then return end
 
   local expfin = greedy or input:sub(-1, -1) == ";"
-  local exp = (greedy or not expfin) and input:sub(2, -1) or input:sub(2, -2)
+  local exp = (greedy or not expfin) and input:sub(#env.prompt + 1, -1) or input:sub(#env.prompt + 1, -2)
 
   -- 空格輸入可能
   exp = exp:gsub("#", " ")

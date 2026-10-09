@@ -22,7 +22,6 @@ local strategies = {
 ---@class PoppingEnv: Env
 ---@field popping PoppingConfig[]
 ---@field auto_select_pattern string
----@field processing boolean
 ---@field option_connection Connection
 ---@field commit_connection Connection
 
@@ -71,7 +70,7 @@ end
 ---@param key_event KeyEvent
 ---@param env PoppingEnv
 function processor.func(key_event, env)
-  if env.processing then
+  if snow.redispatching then
     return snow.kNoop
   end
   local context = env.engine.context
@@ -146,10 +145,13 @@ function processor.func(key_event, env)
     end
     -- 如果当前有候选，则执行顶屏；否则顶功失败，继续执行下一个规则
     if context:has_menu() then
+      -- 非缓冲时 _auto_commit 已开，confirm 这一步就会上屏
+      snow.handover = 1 + (rule.prefix and input:len() - rule.prefix or 0)
       context:confirm_current_selection()
       if not buffered then
         context:commit()
       end
+      snow.handover = nil
       success = true
     end
     if rule.prefix then
@@ -173,7 +175,7 @@ function processor.func(key_event, env)
   elseif with_punct and map[key_event.keycode] then
     key_event = KeyEvent(utf8.char(map[key_event.keycode]))
   end
-  env.processing = true
+  snow.redispatching = true
   env.engine:process_key(key_event)
   if not buffered then
     local new_input = snow.current(context) or ""
@@ -182,7 +184,7 @@ function processor.func(key_event, env)
       context:commit()
     end
   end
-  env.processing = false
+  snow.redispatching = false
   return snow.kAccepted
 end
 

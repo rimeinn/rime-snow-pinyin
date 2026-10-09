@@ -1,5 +1,7 @@
 -- 冰雪英拼翻译器
 
+local snow = require "snow.snow"
+
 ---@class YingpinEnv: Env
 ---@field translator Translator
 ---@field connection Connection
@@ -10,7 +12,7 @@ local translator = {}
 function translator.init(env)
   env.translator = Component.Translator(env.engine, "translator", "table_translator")
   env.connection = env.engine.context.commit_notifier:connect(function(ctx)
-    env.engine:commit_text(" ")
+    snow.commit_text(env.engine, " ")
   end)
 end
 
