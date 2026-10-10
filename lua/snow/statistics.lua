@@ -1,16 +1,14 @@
 -- 输入统计处理器与翻译器
 --
 -- 用法（前缀为方案的 lua/input）：
---   tj   本机、本方案的今日、本周、本月、本年、累计统计，每个时段一个候选：开头是统计的日期范围、方案和平台
---        （tjq、tjs 为设备），然后是词数、字数、用时、按键、有效按键、键准、
---        均速、极速、击键、码长、理论码长、平均词长、多字词占比、词长分布、码长分布
+--   tj   本机、本方案的今日、本周、本月、本年、累计统计，每个时段一个候选
 --   rtj、ztj、ytj、ntj、qtj  只看今日、本周、本月、本年、累计中的一项
 --   tjq  所有设备合并的统计（其他设备的数据经 Rime 同步后才会出现），也可以只看一项，如 rtjq
---   tjs  各设备分别列出，当前设备标「（本机）」，也可以只看一项，如 rtjs
+--   tjs  每个时段列出有数据的各设备，也可以只看一项，如 rtjs
 -- 统计命令本身上屏时不记；方案的 statistics/exclude 可以再列出一些正则，上屏时整个输入（context.input）
 -- 与其中任一个完全匹配就不记，例如 [ "o.*" ] 屏蔽所有 o 引导的输入。
 -- 设备按 installation.yaml 的 installation_id 区分，可改成 macbook、phone 等易读的名字，
--- 但改名后旧数据仍记在旧名字下。
+-- 但改名后旧数据仍记在旧名字下。用户目录下没有 installation.yaml 或其中没有 installation_id 时统计不工作。
 -- 数据存在用户目录下的 snow_statistics.userdb，Rime 同步时会和用户词典一样导出为 snow_statistics.userdb.txt。
 --
 -- 各量的含义：
@@ -52,7 +50,7 @@ local db_name = "snow_statistics"
 ---@class StatisticsEnv: Env
 ---@field db LevelDb|nil
 ---@field schema_id string
----@field installation string
+---@field installation string|nil
 ---@field prompt string
 ---@field exclude string[]
 ---@field schema_name string
@@ -80,12 +78,19 @@ local function fetch(db, key)
   return snow.parse(db:fetch(key) or "") or 0
 end
 
+-- 安装名直接读 installation.yaml，不用 rime_api.get_user_id()：后者是 deployer 的字段，只在本进程跑过
+-- installation_update 时才会被赋值，只初始化、不维护的前端读到的是默认值 unknown，几台设备会挤在同一个名字下
 ---@param env StatisticsEnv
 local function open(env)
   env.schema_id = env.engine.schema.schema_id
-  env.installation = rime_api.get_user_id()
   env.prompt = env.engine.schema.config:get_string("lua/input") or "o"
-  env.db = snow.get_db(db_name)
+  local config = Config()
+  if config:load_from_file(rime_api.get_user_data_dir() .. "/installation.yaml") then
+    env.installation = config:get_string("installation_id")
+  end
+  if env.installation and env.installation ~= "" then
+    env.db = snow.get_db(db_name)
+  end
 end
 
 ---@param env StatisticsEnv
@@ -394,7 +399,7 @@ function translator.init(env)
       return
     end
     local genuine = cand:get_genuine()
-    local full = env.reports[genuine.text .. "\t" .. genuine.comment]
+    local full = env.reports[genuine.text]
     if full then
       genuine.text = full
     end
@@ -494,22 +499,51 @@ end
 -- 报告中隔开开头、正文、分布和署名的分割线
 local divider = ("─"):rep(14)
 
+-- librime 自动生成的 installation_id，形如 8-4-4-4-12 位十六进制
+local uuid = "^" .. ("%x"):rep(8) .. ("%-" .. ("%x"):rep(4)):rep(3) .. "%-" .. ("%x"):rep(12) .. "$"
+
+--- 报告里显示的设备名。没改过的 UUID 只显示前 8 位，免得候选太长；这种名字认不出是哪台设备，
+--- 所以本机再加「（本机）」，改过的名字不加
+---@param env StatisticsEnv
+---@param installation string
+local function device(env, installation)
+  if not installation:match(uuid) then
+    return installation
+  end
+  return installation:sub(1, 8) .. (installation == env.installation and "（本机）" or "")
+end
+
 ---@param env StatisticsEnv
 ---@param segment Segment
 ---@param title string 时段，如「2026 年 10 月 10 日」
----@param source string 方案和平台（或设备）两行，已带 emoji
 ---@param s table<string, integer>
----@param label string 候选的注释，tjs 为设备名，用来区分标题相同的候选
-local function report(env, segment, title, source, s, label)
+---@param installation string|nil 统计所属的安装，nil 表示所有设备合并
+---@param per_device boolean 是否为 tjs 类命令，是则显示设备行，并在候选里写设备名；所有设备合并时设备行显示「全部」
+local function report(env, segment, title, s, installation, per_device)
   local words, chars, effective_keys, word, code = summarize(s)
   local keys, duration = s.keys or 0, s.duration or 0
   local lines = {
     "📊 " .. title .. "统计数据",
-    source,
-    divider,
-    ("词 %d，字 %d，用时 %.0f 分"):format(words, chars, duration / 60000),
-    ("键 %d，有效键 %d，键准 %.0f%%"):format(keys, effective_keys, ratio(effective_keys, keys) * 100)
+    ("⌨️ 方案：%s (%s)"):format(env.schema_name, env.schema_id),
   }
+  -- 候选只显示 📊 加时段（第一行去掉「统计数据」），全文记下来，上屏时由 expand_connection 换上
+  local brief = "📊 " .. title
+  if not installation then
+    table.insert(lines, "💻 设备：全部")
+  elseif per_device then
+    local name = device(env, installation)
+    table.insert(lines, "💻 设备：" .. name)
+    -- uniquifier 只按文字合并候选，tjs 里同一时段的各设备不能只靠注释区分
+    brief = brief .. " · " .. name
+  end
+  -- 库里只记了安装，没记平台，所以只有本机的统计能显示平台
+  if installation == env.installation then
+    table.insert(lines, "🧩 平台：" .. env.platform)
+  end
+  table.insert(lines, divider)
+  table.insert(lines, ("词 %d，字 %d，用时 %.0f 分"):format(words, chars, duration / 60000))
+  table.insert(lines, ("键 %d，有效键 %d，键准 %.0f%%"):format(
+    keys, effective_keys, ratio(effective_keys, keys) * 100))
   local average = ratio(chars, duration) * 60000
   local speed = ("均速 %.0f，"):format(average)
   -- 极速是至少一分钟的输入的最高平均速度。整个时段满一分钟时它本身就是一段，所以极速不低于均速；
@@ -531,10 +565,8 @@ local function report(env, segment, title, source, s, label)
   table.insert(lines, divider)
   table.insert(lines, "❄️ 冰雪统计 v" .. snow.version)
   table.insert(lines, "💬 冰雪拼音 QQ 群 1014366669")
-  -- 候选只显示 📊 加时段（第一行去掉「统计数据」），全文记下来，上屏时由 expand_connection 换上
-  local brief = "📊 " .. title
-  env.reports[brief .. "\t" .. label] = table.concat(lines, "\n")
-  yield(Candidate("statistics", segment.start, segment._end, brief, label))
+  env.reports[brief] = table.concat(lines, "\n")
+  yield(Candidate("statistics", segment.start, segment._end, brief, ""))
 end
 
 ---@param t osdate
@@ -590,27 +622,28 @@ function translator.func(input, segment, env)
     end
   end
   env.reports = {}
-  local schema = ("⌨️ 方案：%s (%s)\n"):format(env.schema_name, env.schema_id)
-  if command == "s" then
-    -- 列出最后一个（也是最长的）时段里有数据的安装
-    ---@type string[]
-    local installations = {}
-    for installation in pairs(selected[#selected].data) do
-      table.insert(installations, installation)
-    end
-    table.sort(installations)
-    for _, installation in ipairs(installations) do
-      local label = installation .. (installation == env.installation and "（本机）" or "")
-      local source = schema .. "💻 设备：" .. label
-      for _, t in ipairs(selected) do
-        report(env, segment, t.title, source, t.data[installation] or {}, label)
-      end
-    end
-    return
-  end
-  local source = schema .. "💻 " .. (command == "q" and "设备：全部" or "平台：" .. env.platform)
   for _, t in ipairs(selected) do
-    report(env, segment, t.title, source, command == "q" and t.total or t.data[env.installation] or {}, "")
+    if command == "s" then
+      -- 每个时段列出该时段里有数据的安装，本机在前，其余按名字排
+      ---@type string[]
+      local installations = {}
+      for installation in pairs(t.data) do
+        table.insert(installations, installation)
+      end
+      table.sort(installations, function(a, b)
+        if (a == env.installation) ~= (b == env.installation) then
+          return a == env.installation
+        end
+        return a < b
+      end)
+      for _, installation in ipairs(installations) do
+        report(env, segment, t.title, t.data[installation], installation, true)
+      end
+    elseif command == "q" then
+      report(env, segment, t.title, t.total, nil, false)
+    else
+      report(env, segment, t.title, t.data[env.installation] or {}, env.installation, false)
+    end
   end
 end
 
