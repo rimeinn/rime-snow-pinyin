@@ -2,6 +2,7 @@ import { addDict, customPinyin, pinyin, convert } from "pinyin-pro";
 import CompleteDict from "@pinyin-pro/data/complete.json";
 import { mkdirSync, readFileSync, writeFileSync } from "fs";
 import matter from "gray-matter";
+import { VERSION } from "./version";
 const diff2 = {
 	这个: "zhè gè",
 	部分: "bù fèn",
@@ -698,7 +699,7 @@ function process(name: string, dict: Map<string, string[]>) {
 	const body = [""].concat(determined.map((row) => row.join("\t"))).join("\n");
 	const header = {
 		name: `snow_pinyin.${name}`,
-		version: "0.2",
+		version: VERSION,
 		sort: "by_weight",
 		use_preset_vocabulary: false,
 	};

@@ -6,7 +6,7 @@
 
 ---
 name: snow_yingpin
-version: "0.1"
+version: "0.3.11"
 sort: by_weight
 use_preset_vocabulary: false
 ...

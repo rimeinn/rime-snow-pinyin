@@ -1,6 +1,7 @@
 import { readFileSync, writeFileSync } from "fs";
 import { 获取大字集拼音 } from "./utils";
 import matter from "gray-matter";
+import { VERSION } from "./version";
 
 const 通用规范拼音 = readFileSync("scripts/tygf.txt", "utf-8")
 	.trim()
@@ -17,7 +18,7 @@ const 文件内容 = [
 文件内容.push(
 	matter.stringify("", {
 		name: "snow_pinyin",
-		version: "0.1",
+		version: VERSION,
 		sort: "by_weight",
 		use_preset_vocabulary: false,
 	}),

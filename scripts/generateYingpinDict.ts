@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync } from "fs";
 import { resolve } from "path";
+import { VERSION } from "./version";
 
 type Entry = {
 	word: string;
@@ -63,7 +64,7 @@ function renderDictionary(entries: Entry[]) {
 		"",
 		"---",
 		"name: snow_yingpin",
-		'version: "0.1"',
+		`version: "${VERSION}"`,
 		"sort: by_weight",
 		"use_preset_vocabulary: false",
 		"...",

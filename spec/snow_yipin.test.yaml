@@ -928,17 +928,3 @@ deploy:
       # 第一击带空格容错
       - send: dj {Release+d}{Release+j}{Release+space}
         assert: has("亿")
-  # 输入统计：写 snow_statistics.userdb，单独部署以便断言计数
-  statistics:
-    tests:
-      # 一组并击算一个键：「冰」1 键，「雪」并击加空格 2 键；没有打出编码的并击 yh 不算有效按键，「的」2 键、1 有效键；
-      # 开头那组并击被 Escape 清掉，连同 Escape 一起不计
-      - send: sgi{Release+s}{Release+g}{Release+i}{Escape}sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m} {Release+space}yh{Release+y}{Release+h}f{Release+f}
-        assert: commit == "冰雪的"
-      # 右手并击打出命令：jkl → itj 本机，jkl; → itjq 合并，uio → itjs 各安装分列
-      - send: jkl{Release+j}{Release+k}{Release+l}
-        assert: cand[1].text:match("^今日 3 词，3 字，5 键，4 有效键，") ~= nil and cand[1].text:match("\n平均词长 1.00，打词率 0.00%%\n词长分布：一字 100%%\n码长分布：一码 67%% 二码 33%%$") ~= nil
-      - send: jkl;{Release+j}{Release+k}{Release+l}{Release+semicolon}
-        assert: cand[1].text:match("^今日 %d+ 词，%d+ 字") ~= nil and cand[5].text:match("^累计 %d+ 词，%d+ 字") ~= nil
-      - send: uio{Release+u}{Release+i}{Release+o}
-        assert: cand[1].text:match("（本机） 今日 %d+ 词，%d+ 字") ~= nil

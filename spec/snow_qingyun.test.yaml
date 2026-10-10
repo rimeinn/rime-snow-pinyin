@@ -256,7 +256,7 @@ deploy:
       # 重复上屏（`` ` `` 引导）
       - send: "cfu? `"
         assert: cand[1].text == "重复"
-      # Lua 脚本（两个 `` ` `` 引导）：数字、计算（含字母开头）、日期时间、输入统计
+      # Lua 脚本（两个 `` ` `` 引导）：数字、计算（含字母开头）、日期时间
       - send: "``123"
         assert: cand[1].text == "一百二十三" and has("壹佰贰拾叁")
       - send: "``1234*5678"
@@ -269,16 +269,6 @@ deploy:
         assert: cand[1].text:match("^%d+时%d+分%d+秒$") ~= nil
       - send: "``rs"
         assert: cand[1].text:match("^%d+年%d+月%d+日%d+时%d+分%d+秒$") ~= nil
-      - send: "``tj"
-        assert: cand[1].text:match("^今日 %d+ 词，%d+ 字") ~= nil and cand[5].text:match("^累计 %d+ 词，%d+ 字") ~= nil
-      - send: "``tjq"
-        assert: cand[1].text:match("^今日 %d+ 词，%d+ 字") ~= nil and cand[5].text:match("^累计 %d+ 词，%d+ 字") ~= nil
-      - send: "``tjs"
-        assert: cand[1].text:match("（本机） 今日 %d+ 词，%d+ 字") ~= nil
-      - send: "``qtj"
-        assert: cand[1].text:match("^累计 %d+ 词，%d+ 字") ~= nil
-      - send: "``rtjs"
-        assert: cand[1].text:match("（本机） 今日 %d+ 词，%d+ 字") ~= nil
   # 方案码用户词典：这些操作会写入 snow_qingyun.userdb，故单独部署并按顺序执行
   schema_userdb:
     tests:

@@ -1,30 +1,32 @@
 -- 输入统计处理器与翻译器
 --
 -- 用法（前缀为方案的 lua/input）：
---   tj   本机、本方案的今日、本周、本月、本年、累计统计，每个时段一个候选，分五行：
---        词数、字数、按键、有效按键、用时；均速、极速、击键、码长、键准、理论码长；平均词长、打词率；
---        词长分布；码长分布
+--   tj   本机、本方案的今日、本周、本月、本年、累计统计，每个时段一个候选：开头是统计的日期范围、方案和平台
+--        （tjq、tjs 为设备），然后是词数、字数、用时、按键、有效按键、键准、
+--        均速、极速、击键、码长、理论码长、平均词长、多字词占比、词长分布、码长分布
 --   rtj、ztj、ytj、ntj、qtj  只看今日、本周、本月、本年、累计中的一项
 --   tjq  所有设备合并的统计（其他设备的数据经 Rime 同步后才会出现），也可以只看一项，如 rtjq
 --   tjs  各设备分别列出，当前设备标「（本机）」，也可以只看一项，如 rtjs
+-- 统计命令本身上屏时不记；方案的 statistics/exclude 可以再列出一些正则，上屏时整个输入（context.input）
+-- 与其中任一个完全匹配就不记，例如 [ "o.*" ] 屏蔽所有 o 引导的输入。
 -- 设备按 installation.yaml 的 installation_id 区分，可改成 macbook、phone 等易读的名字，
 -- 但改名后旧数据仍记在旧名字下。
 -- 数据存在用户目录下的 snow_statistics.userdb，Rime 同步时会和用户词典一样导出为 snow_statistics.userdb.txt。
 --
 -- 各量的含义：
 --   词数      上屏的次数
---   字数      上屏的字符数，标点、数字、空格以及没有编码时直接输入的字符都算
+--   字数      上屏的字符数，标点、数字、空格以及没有编码时直接输入的字符都算，但没有编码时单独输入的空格、回车等空白符不算
 --   按键      输入过程中按下的键数，组合键整组算一个，并击方案中一组并击算一个；临时西文和全局英文下的按键不算
 --   有效按键  按键数减去两倍退格数，即退格和被它删掉的那个键都不算；没有打出任何编码的并击也不算
 --   用时      相邻两次按键的间隔之和，超过 5 秒的间隔视为停顿，不计入
 --   均速      字数 / 用时，单位为字/分
---   极速      每累计 60 秒用时结算一次分速，取最高值
+--   极速      每累计 60 秒用时结算一次分速，取最高值，不低于均速；用时不满 60 秒时不显示
 --   击键      按键 / 用时，单位为键/秒
 --   码长      按键 / 字数
 --   键准      有效按键 / 按键
 --   理论码长  有效按键 / 字数
 --   平均词长  字数 / 词数
---   打词率    多字词上屏的字数 / 字数
+--   多字词占比  多字词上屏的字数 / 字数
 --   词长分布  每次上屏的字数的分布，十字及以上合为一档
 --   码长分布  每次上屏所用有效按键数的分布，即上次上屏后到这次上屏的按键，顶功时触发顶屏的键算给下一个词，
 --             略码键算给重复出来的部分；
@@ -52,16 +54,20 @@ local db_name = "snow_statistics"
 ---@field schema_id string
 ---@field installation string
 ---@field prompt string
+---@field exclude string[]
+---@field schema_name string
+---@field platform string
 ---@field connection Connection
 ---@field unhandled_connection Connection
 ---@field property_connection Connection
 ---@field last integer
----@field cancelling boolean
+---@field composing boolean
+---@field committed boolean
 ---@field steps { effective: integer, duration: integer }[]
 ---@field chord_keys table<integer, true>|nil
 ---@field held table<integer, true>
----@field chording boolean
 ---@field finishing boolean
+---@field blank boolean
 ---@field output integer
 ---@field window_chars integer
 ---@field window_duration integer
@@ -76,6 +82,7 @@ end
 local function open(env)
   env.schema_id = env.engine.schema.schema_id
   env.installation = rime_api.get_user_id()
+  env.prompt = env.engine.schema.config:get_string("lua/input") or "o"
   env.db = snow.get_db(db_name)
 end
 
@@ -87,11 +94,95 @@ local function close(env)
   end
 end
 
---- 一段输入的速度，单位为字/毫秒，时长为 0 时为 0
----@param chars integer|nil
----@param duration integer|nil
-local function speed(chars, duration)
-  return (duration or 0) > 0 and (chars or 0) / duration or 0
+--- 两数之比，分母为 0 或缺失时为 0，报告里不会出现 inf 和 nan。也用来算速度（字/毫秒）
+---@param numerator number|nil
+---@param denominator number|nil
+local function ratio(numerator, denominator)
+  return (denominator or 0) > 0 and (numerator or 0) / denominator or 0
+end
+
+--- 统计命令（如 otj、rtjq）的时段字母和命令字母，不是统计命令时返回 nil
+---@param input string
+---@param prompt string
+local function parse_command(input, prompt)
+  if input:sub(1, #prompt) ~= prompt then
+    return nil
+  end
+  return input:sub(#prompt + 1):match("^([rzynq]?)tj([qs]?)$")
+end
+
+--- 上屏时的输入是统计命令，或者与 statistics/exclude 中任一个正则完全匹配
+---@param env StatisticsEnv
+---@param input string
+local function excluded(env, input)
+  if parse_command(input, env.prompt) then
+    return true
+  end
+  for _, pattern in ipairs(env.exclude) do
+    if rime_api.regex_match(input, pattern) then
+      return true
+    end
+  end
+  return false
+end
+
+--- 从 env.steps 里取出属于这次上屏的按键
+---@param env StatisticsEnv
+---@param handover integer|nil 末尾有这么多有效按键属于下一个词（顶屏键和推回输入框的编码），留在 env.steps 里
+local function take(env, handover)
+  local steps = env.steps
+  -- 从末尾往回数到累计 handover 个有效按键为止，推回的编码中途回改过也能分对
+  local count = #steps
+  local rest = handover or 0
+  while rest > 0 and count > 0 do
+    rest = rest - steps[count].effective
+    count = count - 1
+  end
+  env.steps = { table.unpack(steps, count + 1) }
+  return { table.unpack(steps, 1, count) }
+end
+
+--- 把上屏前累计的按键、有效按键和时长，连同这次上屏的字数、词长和码长写进当天的记录
+---@param env StatisticsEnv
+---@param text string 上屏的文字
+---@param handover integer|nil 见 take
+local function record(env, text, handover)
+  local db = env.db
+  local chars = utf8.len(text) or 0
+  if not db or chars == 0 then
+    return
+  end
+  local prefix = ("%s %s %s \t"):format(env.schema_id, os.date("%Y%m%d"), env.installation)
+  local steps = take(env, handover)
+  local count = #steps
+  ---@type table<string, integer>
+  local delta = { keys = count, duration = 0 }
+  local effective = 0
+  for i = 1, count do
+    effective = effective + steps[i].effective
+    delta.duration = delta.duration + steps[i].duration
+  end
+  -- 每次上屏至少有一个有效按键，不到一个说明按键归属出了偏差（如顶屏推回的编码含辅助码），整次丢掉
+  if effective <= 0 then
+    return
+  end
+  delta["word" .. chars] = 1
+  delta["code" .. effective] = 1
+  for field, value in pairs(delta) do
+    db:update(prefix .. field, snow.format(fetch(db, prefix .. field) + value))
+  end
+  env.window_chars = env.window_chars + chars
+  env.window_duration = env.window_duration + delta.duration
+  if env.window_duration >= window_ms then
+    -- 极速窗口的字数和时长分开存，同步合并时各取最大值，不一定出自同一个窗口，但窗口时长都在一分钟上下，偏差很小
+    if ratio(env.window_chars, env.window_duration)
+        > ratio(fetch(db, prefix .. "window_chars"), fetch(db, prefix .. "window_duration")) then
+      db:update(prefix .. "window_chars", snow.format(env.window_chars))
+      db:update(prefix .. "window_duration", snow.format(env.window_duration))
+    end
+    env.window_chars = 0
+    env.window_duration = 0
+  end
 end
 
 local processor = {}
@@ -101,9 +192,20 @@ function processor.init(env)
   open(env)
   env.last = 0
   env.steps = {}
-  env.cancelling = false
+  env.composing = false
+  env.committed = false
   env.window_chars = 0
   env.window_duration = 0
+  env.exclude = {}
+  local exclude = env.engine.schema.config:get_list("statistics/exclude")
+  if exclude then
+    for i = 1, exclude.size do
+      local value = exclude:get_value_at(i - 1)
+      if value then
+        table.insert(env.exclude, value.value)
+      end
+    end
+  end
   -- 并击方案：按 chord_composer 的并击键跟踪并击，见 chord
   local alphabet = env.engine.schema.config:get_string("chord_composer/alphabet")
   if alphabet then
@@ -112,33 +214,44 @@ function processor.init(env)
       env.chord_keys[key_event.keycode] = true
     end
     env.held = {}
-    env.chording = false
     env.finishing = false
+    env.blank = false
     env.output = 0
   end
   local context = env.engine.context
   -- 选词、顶屏、回车上屏编码等经过 context:commit() 的上屏
   env.connection = context.commit_notifier:connect(function(ctx)
+    env.committed = true
     -- 临时西文不属于中文输入：不记这次上屏，之前累计的按键（进入临时西文前打的中文编码）也不要了
     if ctx:get_option("ascii_mode") then
       env.steps = {}
       return
     end
-    processor.record(env, ctx:get_commit_text(), snow.handover)
+    if excluded(env, ctx.input) then
+      take(env, snow.handover)
+      return
+    end
+    record(env, ctx:get_commit_text(), snow.handover)
   end)
-  -- 没有编码时直接放行给应用的可见字符（数字、空格等）记作一字词；popping 重投时放行的键并没有到达应用
+  -- 没有编码时直接放行给应用的可见字符（数字、标点等）记作一字词；popping 重投时放行的键并没有到达应用
   env.unhandled_connection = context.unhandled_key_notifier:connect(function(ctx, key_event)
     local keycode = key_event.keycode
     if snow.redispatching or ctx:get_option("ascii_mode") or key_event:release() or key_event:ctrl()
         or key_event:alt() or key_event:super() or keycode < 0x20 or keycode > 0x7e then
       return
     end
-    processor.record(env, string.char(keycode))
+    -- 单独输入的空格不记；是并击打出来的话，那组并击也不记，见 chord
+    if keycode == 0x20 then
+      env.blank = env.finishing
+      return
+    end
+    record(env, string.char(keycode))
   end)
   -- 以词定字、略码等用 snow.commit_text 直接上屏的
   env.property_connection = context.property_update_notifier:connect(function(ctx, name)
     if name == "commit_text" then
-      processor.record(env, ctx:get_property(name))
+      env.committed = true
+      record(env, ctx:get_property(name))
     end
   end)
 end
@@ -164,31 +277,35 @@ local function chord(key_event, env)
   if not env.chord_keys[keycode] or key_event:ctrl() or key_event:alt() or key_event:shift()
       or key_event:super() or key_event:caps() then
     env.held = {}
-    env.chording = false
     return nil
   end
   if not key_event:release() then
     env.held[keycode] = true
-    env.chording = true
     return snow.kNoop
   end
   if not env.held[keycode] then
     return snow.kNoop
   end
   env.held[keycode] = nil
-  if next(env.held) or not env.chording then
+  if next(env.held) then
     return snow.kNoop
   end
-  env.chording = false
   -- 最后一个键松开时，chord_composer 把并击结果逐键合成、从链顶重投。这里先记下这组并击，再代为处理这个键，
   -- 把重投括起来跳过。并击要先记：重投中途就会上屏
   step(env, 1)
+  local current = env.steps[#env.steps]
   env.finishing = true
+  env.blank = false
   env.output = 0
   env.engine:process_key(key_event)
   env.finishing = false
-  -- 没有打出任何编码的并击不算有效按键。没有合成按键也就不会上屏，这组并击还是最后一个
-  if env.output == 0 then
+  -- 没有编码时单独打出空格的并击整个不记。合成按键里如果先有别的上屏，这组并击已经结算过了，不再是最后一个
+  if env.blank then
+    if env.steps[#env.steps] == current then
+      table.remove(env.steps)
+    end
+    -- 没有打出任何编码的并击不算有效按键。没有合成按键也就不会上屏，这组并击还是最后一个
+  elseif env.output == 0 then
     env.steps[#env.steps].effective = 0
   end
   return snow.kAccepted
@@ -209,19 +326,17 @@ function processor.func(key_event, env)
     return snow.kNoop
   end
   local context = env.engine.context
-  -- 上一个键是有编码时的 Escape 或临时西文下的键：如果它之后编码没了，就是放弃了这段输入，或者这段输入
-  -- 作为西文上屏了，之前累计的按键都不要了。Escape 在缓冲区里只清最后一段，临时西文切回中文时编码可能还原，
-  -- 所以要等它处理完（最晚到它自己的松开事件）再看
-  if env.cancelling then
-    env.cancelling = false
-    if not context:is_composing() then
-      env.steps = {}
-    end
-  end
+  -- 本处理器排在第一位，事件开始时的状态就是上一个事件处理完的状态。上一个事件开始时有编码，现在没了，
+  -- 中间又没有上屏，就是这段输入被放弃了：Escape、退格删光、临时西文下作为西文上屏（不经过 commit_notifier）
+  -- 等等。之前累计的按键都不要了
   local composing = context:is_composing()
+  if env.composing and not composing and not env.committed then
+    env.steps = {}
+  end
+  env.composing = composing
+  env.committed = false
   -- 临时西文和全局英文都不属于中文输入，不记
   if context:get_option("ascii_mode") then
-    env.cancelling = composing
     return snow.kNoop
   end
   if env.chord_keys then
@@ -235,64 +350,13 @@ function processor.func(key_event, env)
   if key_event:release() or keycode >= 0xffe1 and keycode <= 0xffee then
     return snow.kNoop
   end
-  -- 没有编码时只记直接输入的可见字符，快捷键交给应用，不记
+  -- 没有编码时只记直接输入的可见字符，快捷键交给应用，空格、回车等空白符单独输入也不算中文输入，都不记
   if not composing and (key_event:ctrl() or key_event:alt() or key_event:super()
-        or keycode < 0x20 or keycode > 0x7e) then
+        or keycode <= 0x20 or keycode > 0x7e) then
     return snow.kNoop
   end
   step(env, keycode == snow.kBackSpace and -1 or 1)
-  env.cancelling = composing and keycode == snow.kEscape
   return snow.kNoop
-end
-
---- 把上屏前累计的按键、有效按键和时长，连同这次上屏的字数、词长和码长写进当天的记录
----@param env StatisticsEnv
----@param text string 上屏的文字
----@param handover integer|nil 末尾有这么多有效按键属于下一个词（顶屏键和推回输入框的编码），不计入这次上屏
-function processor.record(env, text, handover)
-  local db = env.db
-  local chars = utf8.len(text) or 0
-  if not db or chars == 0 then
-    return
-  end
-  local prefix = ("%s %s %s \t"):format(env.schema_id, os.date("%Y%m%d"), env.installation)
-  local steps = env.steps
-  -- 从末尾往回数到累计 handover 个有效按键为止，推回的编码中途回改过也能分对
-  local count = #steps
-  local rest = handover or 0
-  while rest > 0 and count > 0 do
-    rest = rest - steps[count].effective
-    count = count - 1
-  end
-  env.steps = { table.unpack(steps, count + 1) }
-  ---@type table<string, integer>
-  local delta = { keys = count, duration = 0 }
-  local effective = 0
-  for i = 1, count do
-    effective = effective + steps[i].effective
-    delta.duration = delta.duration + steps[i].duration
-  end
-  -- 每次上屏至少有一个有效按键，不到一个说明按键归属出了偏差（如顶屏推回的编码含辅助码），整次丢掉
-  if effective <= 0 then
-    return
-  end
-  delta["word" .. chars] = 1
-  delta["code" .. effective] = 1
-  for field, value in pairs(delta) do
-    db:update(prefix .. field, snow.format(fetch(db, prefix .. field) + value))
-  end
-  env.window_chars = env.window_chars + chars
-  env.window_duration = env.window_duration + delta.duration
-  if env.window_duration >= window_ms then
-    -- 极速窗口的字数和时长分开存，同步合并时各取最大值，不一定出自同一个窗口，但窗口时长都在一分钟上下，偏差很小
-    if speed(env.window_chars, env.window_duration)
-        > speed(fetch(db, prefix .. "window_chars"), fetch(db, prefix .. "window_duration")) then
-      db:update(prefix .. "window_chars", snow.format(env.window_chars))
-      db:update(prefix .. "window_duration", snow.format(env.window_duration))
-    end
-    env.window_chars = 0
-    env.window_duration = 0
-  end
 end
 
 ---@param env StatisticsEnv
@@ -308,7 +372,16 @@ local translator = {}
 ---@param env StatisticsEnv
 function translator.init(env)
   open(env)
-  env.prompt = env.engine.schema.config:get_string("lua/input") or "o"
+  env.schema_name = env.engine.schema.schema_name
+  -- fcitx5-rime 的 distribution_name 只是 Rime，所以优先用 code_name
+  local name = rime_api.get_distribution_code_name()
+  if name == "" then
+    name = rime_api.get_distribution_name()
+  end
+  env.platform = (name .. " " .. rime_api.get_distribution_version()):match("^%s*(.-)%s*$")
+  if env.platform == "" then
+    env.platform = "未知平台"
+  end
 end
 
 --- 把一条「方案 日期 安装」的记录并入统计：极速取速度更高的那个窗口，其余字段相加
@@ -320,7 +393,7 @@ local function merge(s, row)
       s[field] = (s[field] or 0) + value
     end
   end
-  if speed(row.window_chars, row.window_duration) > speed(s.window_chars, s.window_duration) then
+  if ratio(row.window_chars, row.window_duration) > ratio(s.window_chars, s.window_duration) then
     s.window_chars, s.window_duration = row.window_chars, row.window_duration
   end
 end
@@ -385,7 +458,7 @@ local function summarize(s)
   return words, chars, effective_keys, buckets.word, buckets.code
 end
 
---- 各档占上屏次数的比例，如「一字 40% 二字 35%」
+--- 各档占上屏次数的比例，如「一字 40%、二字 35%」
 ---@param bucket table<integer, integer>
 ---@param total integer
 ---@param unit string
@@ -394,33 +467,55 @@ local function distribution(bucket, total, unit)
   for i = 1, longest do
     if bucket[i] then
       local name = number.chinese(i) .. unit .. (i == longest and "及以上" or "")
-      table.insert(parts, ("%s %.0f%%"):format(name, bucket[i] * 100 / total))
+      table.insert(parts, ("%s %.0f%%"):format(name, ratio(bucket[i], total) * 100))
     end
   end
-  return table.concat(parts, " ")
+  return table.concat(parts, "、")
 end
 
+-- 报告中隔开开头、正文、分布和署名的分割线
+local divider = ("─"):rep(14)
+
 ---@param segment Segment
----@param label string
+---@param title string 如「2026 年 10 月 10 日统计数据」
+---@param source string 方案和平台（或设备）两行，已带 emoji
 ---@param s table<string, integer>
-local function report(segment, label, s)
+local function report(segment, title, source, s)
   local words, chars, effective_keys, word, code = summarize(s)
   local keys, duration = s.keys or 0, s.duration or 0
   local lines = {
-    ("%s %d 词，%d 字，%d 键，%d 有效键，用时 %.0f 分"):format(label, words, chars, keys, effective_keys,
-      duration / 60000),
+    "📊 " .. title,
+    source,
+    divider,
+    ("词 %d，字 %d，用时 %.0f 分"):format(words, chars, duration / 60000),
+    ("键 %d，有效键 %d，键准 %.0f%%"):format(keys, effective_keys, ratio(effective_keys, keys) * 100)
   }
-  if chars > 0 and duration > 0 then
-    table.insert(lines, ("均速 %.2f，极速 %.2f，击键 %.2f，码长 %.2f，键准 %.2f%%，理论码长 %.2f"):format(
-      chars * 60000 / duration, speed(s.window_chars, s.window_duration) * 60000, keys * 1000 / duration, keys / chars,
-      effective_keys * 100 / keys, effective_keys / chars))
+  local average = ratio(chars, duration) * 60000
+  local speed = ("均速 %.0f，"):format(average)
+  -- 极速是至少一分钟的输入的最高平均速度。整个时段满一分钟时它本身就是一段，所以极速不低于均速；
+  -- 会话末尾没满一分钟的窗口没有结算，不取最大值的话极速可能低于均速。不满一分钟时没有极速
+  if duration >= window_ms then
+    local fastest = math.max(ratio(s.window_chars, s.window_duration) * 60000, average)
+    speed = speed .. ("极速 %.0f，"):format(fastest)
   end
+  table.insert(lines, ("%s击键 %.2f"):format(speed, ratio(keys, duration) * 1000))
   if chars > 0 then
-    table.insert(lines, ("平均词长 %.2f，打词率 %.2f%%"):format(chars / words, (chars - (word[1] or 0)) * 100 / chars))
+    table.insert(lines, ("码长 %.2f，理论码长 %.2f"):format(
+      ratio(keys, chars), ratio(effective_keys, chars)))
+    table.insert(lines, ("平均词长 %.2f，多字词占比 %.0f%%"):format(
+      ratio(chars, words), ratio(chars - (word[1] or 0), chars) * 100))
+    table.insert(lines, divider)
     table.insert(lines, "词长分布：" .. distribution(word, words, "字"))
     table.insert(lines, "码长分布：" .. distribution(code, words, "码"))
   end
+  table.insert(lines, divider)
+  table.insert(lines, "❄️ 冰雪统计 v" .. snow.version)
   yield(Candidate("statistics", segment.start, segment._end, table.concat(lines, "\n"), ""))
+end
+
+---@param t osdate
+local function date(t)
+  return ("%d 年 %d 月 %d 日"):format(t.year, t.month, t.day)
 end
 
 -- tj 本机，tjq 全部安装合并，tjs 各安装分列；tj 前加 r、z、y、n、q 只看一个时段
@@ -428,61 +523,68 @@ end
 ---@param segment Segment
 ---@param env StatisticsEnv
 function translator.func(input, segment, env)
-  local prompt = env.prompt
-  if not env.db or input:sub(1, #prompt) ~= prompt then
-    return
-  end
-  local period, command = input:sub(#prompt + 1):match("^([rzynq]?)tj([qs]?)$")
-  if not period then
+  local period, command = parse_command(input, env.prompt)
+  if not env.db or not period then
     return
   end
   local now = os.date("*t")
   ---@cast now osdate
   local today = os.date("%Y%m%d")
   ---@cast today string
+  --- i 天前的正午
+  ---@param i integer
+  local function ago(i)
+    return os.time({ year = now.year, month = now.month, day = now.day - i, hour = 12 })
+  end
+  -- 本周从周一算起
+  local offset = (now.wday + 5) % 7
   ---@type string[]
   local week = {}
-  for i = 0, (now.wday + 5) % 7 do
-    table.insert(week, os.date("%Y%m%d", os.time({ year = now.year, month = now.month, day = now.day - i, hour = 12 })))
+  for i = 0, offset do
+    table.insert(week, os.date("%Y%m%d", ago(i)))
   end
-  -- 命令字母、名称和日期前缀，空前缀匹配所有日期
+  -- ISO 8601 周：本周所在的年和周数都按本周的周四算，所以年初几天可能属于上一年的最后一周。
+  -- 不用 os.date 的 %G、%V，因为 Windows 上的 Lua 只支持 C89 的格式符
+  local thursday = os.date("*t", ago(offset - 3))
+  ---@cast thursday osdate
+  local week_title = ("%d 年 %d 周"):format(thursday.year, (thursday.yday - 1) // 7 + 1)
+  -- 命令字母、日期范围和日期前缀，空前缀匹配所有日期
   local periods = {
-    { "r", "今日", { today } },
-    { "z", "本周", week },
-    { "y", "本月", { today:sub(1, 6) } },
-    { "n", "本年", { today:sub(1, 4) } },
-    { "q", "累计", { "" } },
+    { "r", date(now), { today } },
+    { "z", week_title, week },
+    { "y", ("%d 年 %d 月"):format(now.year, now.month), { today:sub(1, 6) } },
+    { "n", ("%d 年"):format(now.year), { today:sub(1, 4) } },
+    { "q", "截至 " .. date(now) .. "累计", { "" } },
   }
-  ---@type string[]
-  local labels = {}
-  ---@type table<string, table<string, integer>>[]
-  local data = {}
-  ---@type table<string, integer>[]
-  local totals = {}
+  -- 选中的时段，每项为标题、「安装 → 统计」和合计
+  ---@type { title: string, data: table<string, table<string, integer>>, total: table<string, integer> }[]
+  local selected = {}
   for _, p in ipairs(periods) do
     if period == "" or period == p[1] then
-      table.insert(labels, p[2])
-      data[#labels], totals[#labels] = collect(env, p[3])
+      local data, total = collect(env, p[3])
+      table.insert(selected, { title = p[2] .. "统计数据", data = data, total = total })
     end
   end
+  local schema = ("⌨️ 方案：%s (%s)\n"):format(env.schema_name, env.schema_id)
   if command == "s" then
     -- 列出最后一个（也是最长的）时段里有数据的安装
     ---@type string[]
     local installations = {}
-    for installation in pairs(data[#data]) do
+    for installation in pairs(selected[#selected].data) do
       table.insert(installations, installation)
     end
     table.sort(installations)
     for _, installation in ipairs(installations) do
-      local name = installation == env.installation and installation .. "（本机）" or installation
-      for i, label in ipairs(labels) do
-        report(segment, name .. " " .. label, data[i][installation] or {})
+      local source = schema .. "💻 设备：" .. installation .. (installation == env.installation and "（本机）" or "")
+      for _, t in ipairs(selected) do
+        report(segment, t.title, source, t.data[installation] or {})
       end
     end
     return
   end
-  for i, label in ipairs(labels) do
-    report(segment, label, command == "q" and totals[i] or data[i][env.installation] or {})
+  local source = schema .. "💻 " .. (command == "q" and "设备：全部" or "平台：" .. env.platform)
+  for _, t in ipairs(selected) do
+    report(segment, t.title, source, command == "q" and t.total or t.data[env.installation] or {})
   end
 end
 

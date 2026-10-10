@@ -31,6 +31,10 @@ function snow.current(context)
   return context.input:sub(segment.start + 1, segment._end)
 end
 
+-- 冰雪拼音的版本号，是全仓库唯一的来源：用 `bun scripts/version.ts <版本号>` 修改，
+-- 它会同时改写所有 snow_*.schema.yaml、snow_*.dict.yaml 里的 version
+snow.version = "0.3.11"
+
 snow.debug = false
 
 -- popping 用 engine:process_key 重投按键期间为 true，排在它前面的处理器会再收到一次同一个键

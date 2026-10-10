@@ -1,6 +1,6 @@
 ---
 name: snow_pinyin.user
-version: "0.3"
+version: "0.3.11"
 sort: by_weight
 use_preset_vocabulary: false
 ...

@@ -1,6 +1,6 @@
 ---
 name: snow_bushou
-version: "0.3"
+version: "0.3.11"
 sort: original
 use_preset_vocabulary: false
 ...

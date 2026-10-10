@@ -4,7 +4,7 @@
 schema:
   schema_id: snow_bushou
   name: 冰雪部首
-  version: "0.3"
+  version: "0.3.11"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |

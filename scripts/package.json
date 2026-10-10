@@ -5,8 +5,8 @@
 	"main": "index.js",
 	"scripts": {
 		"format": "bunx --bun @biomejs/biome format --write",
-		"link": "bun scripts/tasks.ts link",
-		"unlink": "bun scripts/tasks.ts unlink",
+		"link": "bun scripts/link.ts link",
+		"unlink": "bun scripts/link.ts unlink",
 		"test": "bun scripts/test.ts"
 	},
 	"author": "",
