@@ -31,7 +31,7 @@
 --   码长分布  每次上屏所用有效按键数的分布，即上次上屏后到这次上屏的按键，顶功时触发顶屏的键算给下一个词，
 --             略码键算给重复出来的部分；
 --             十码及以上合为一档
--- 详细口径和设计取舍见仓库 CLAUDE.md 的「输入统计」一节。
+-- 详细口径和设计取舍见仓库 docs/statistics.md。
 
 local snow = require "snow.snow"
 local number = require "snow.number"
@@ -60,6 +60,8 @@ local db_name = "snow_statistics"
 ---@field connection Connection
 ---@field unhandled_connection Connection
 ---@field property_connection Connection
+---@field expand_connection Connection
+---@field reports table<string, string>
 ---@field last integer
 ---@field composing boolean
 ---@field committed boolean
@@ -382,6 +384,21 @@ function translator.init(env)
   if env.platform == "" then
     env.platform = "未知平台"
   end
+  env.reports = {}
+  -- 报告太长，候选只显示时段，上屏时再换成全文。分组的回调排在引擎自己的（未分组的）OnCommit
+  -- 之前，引擎随后按选中候选的 text 取上屏文字，所以在这里改写 text 就能换掉上屏内容。改的是
+  -- genuine：uniquifier 等包装器的 text 为空时取被包装的候选的
+  env.expand_connection = env.engine.context.commit_notifier:connect(function(ctx)
+    local cand = ctx:get_selected_candidate()
+    if not cand then
+      return
+    end
+    local genuine = cand:get_genuine()
+    local full = env.reports[genuine.text .. "\t" .. genuine.comment]
+    if full then
+      genuine.text = full
+    end
+  end, 0)
 end
 
 --- 把一条「方案 日期 安装」的记录并入统计：极速取速度更高的那个窗口，其余字段相加
@@ -458,16 +475,17 @@ local function summarize(s)
   return words, chars, effective_keys, buckets.word, buckets.code
 end
 
---- 各档占上屏次数的比例，如「一字 40%、二字 35%」
+--- 各档占上屏次数的比例，如「一字 40%、二字 35%」；四舍五入为 0% 的档不显示
 ---@param bucket table<integer, integer>
 ---@param total integer
 ---@param unit string
 local function distribution(bucket, total, unit)
   local parts = {}
   for i = 1, longest do
-    if bucket[i] then
+    local percent = ("%.0f"):format(ratio(bucket[i] or 0, total) * 100)
+    if percent ~= "0" then
       local name = number.chinese(i) .. unit .. (i == longest and "及以上" or "")
-      table.insert(parts, ("%s %.0f%%"):format(name, ratio(bucket[i], total) * 100))
+      table.insert(parts, ("%s %s%%"):format(name, percent))
     end
   end
   return table.concat(parts, "、")
@@ -476,15 +494,17 @@ end
 -- 报告中隔开开头、正文、分布和署名的分割线
 local divider = ("─"):rep(14)
 
+---@param env StatisticsEnv
 ---@param segment Segment
----@param title string 如「2026 年 10 月 10 日统计数据」
+---@param title string 时段，如「2026 年 10 月 10 日」
 ---@param source string 方案和平台（或设备）两行，已带 emoji
 ---@param s table<string, integer>
-local function report(segment, title, source, s)
+---@param label string 候选的注释，tjs 为设备名，用来区分标题相同的候选
+local function report(env, segment, title, source, s, label)
   local words, chars, effective_keys, word, code = summarize(s)
   local keys, duration = s.keys or 0, s.duration or 0
   local lines = {
-    "📊 " .. title,
+    "📊 " .. title .. "统计数据",
     source,
     divider,
     ("词 %d，字 %d，用时 %.0f 分"):format(words, chars, duration / 60000),
@@ -510,7 +530,11 @@ local function report(segment, title, source, s)
   end
   table.insert(lines, divider)
   table.insert(lines, "❄️ 冰雪统计 v" .. snow.version)
-  yield(Candidate("statistics", segment.start, segment._end, table.concat(lines, "\n"), ""))
+  table.insert(lines, "💬 冰雪拼音 QQ 群 1014366669")
+  -- 候选只显示 📊 加时段（第一行去掉「统计数据」），全文记下来，上屏时由 expand_connection 换上
+  local brief = "📊 " .. title
+  env.reports[brief .. "\t" .. label] = table.concat(lines, "\n")
+  yield(Candidate("statistics", segment.start, segment._end, brief, label))
 end
 
 ---@param t osdate
@@ -562,9 +586,10 @@ function translator.func(input, segment, env)
   for _, p in ipairs(periods) do
     if period == "" or period == p[1] then
       local data, total = collect(env, p[3])
-      table.insert(selected, { title = p[2] .. "统计数据", data = data, total = total })
+      table.insert(selected, { title = p[2], data = data, total = total })
     end
   end
+  env.reports = {}
   local schema = ("⌨️ 方案：%s (%s)\n"):format(env.schema_name, env.schema_id)
   if command == "s" then
     -- 列出最后一个（也是最长的）时段里有数据的安装
@@ -575,21 +600,23 @@ function translator.func(input, segment, env)
     end
     table.sort(installations)
     for _, installation in ipairs(installations) do
-      local source = schema .. "💻 设备：" .. installation .. (installation == env.installation and "（本机）" or "")
+      local label = installation .. (installation == env.installation and "（本机）" or "")
+      local source = schema .. "💻 设备：" .. label
       for _, t in ipairs(selected) do
-        report(segment, t.title, source, t.data[installation] or {})
+        report(env, segment, t.title, source, t.data[installation] or {}, label)
       end
     end
     return
   end
   local source = schema .. "💻 " .. (command == "q" and "设备：全部" or "平台：" .. env.platform)
   for _, t in ipairs(selected) do
-    report(segment, t.title, source, command == "q" and t.total or t.data[env.installation] or {})
+    report(env, segment, t.title, source, command == "q" and t.total or t.data[env.installation] or {}, "")
   end
 end
 
 ---@param env StatisticsEnv
 function translator.fini(env)
+  env.expand_connection:disconnect()
   close(env)
 end
 

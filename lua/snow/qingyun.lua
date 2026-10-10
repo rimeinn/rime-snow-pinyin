@@ -7,9 +7,9 @@ local filter = {}
 ---@class QingyunEnv: Env
 ---@field fixed table<string, string>
 ---@field reverse_lookup table<string, string[]>
----@field lookup_pinyin ReverseLookup
+---@field lookup_pinyin ReverseLookup|nil
 ---@field memory Memory
----@field chaifen ReverseLookup
+---@field chaifen ReverseLookup|nil
 ---@field connection Connection
 
 ---@param env QingyunEnv
@@ -62,7 +62,7 @@ function filter.func(translation, env)
   local affix = { "a", "o", "e", "i", "u", ";", ",", ".", "/" }
   for candidate in translation:iter() do
     if env.engine.context:get_option("buffered") and not is_pinyin(candidate) then
-      local result = env.lookup_pinyin:lookup(candidate.text)
+      local result = env.lookup_pinyin and env.lookup_pinyin:lookup(candidate.text) or ""
       ---@type Candidate[]
       local candidates = {}
       for pinyin in result:gmatch("[^%s]+") do
@@ -139,7 +139,7 @@ function filter.func(translation, env)
       end
     end
     if env.engine.context:get_option("chaifen") then
-      local chaifen = env.chaifen:lookup(candidate.text)
+      local chaifen = env.chaifen and env.chaifen:lookup(candidate.text) or ""
       if chaifen:len() > 0 then
         snow.comment(candidate, "~ " .. chaifen:gsub("-", " "))
       end

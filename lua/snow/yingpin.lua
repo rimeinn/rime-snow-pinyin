@@ -37,6 +37,9 @@ function translator.func(input, segment, env)
   local vowels = input:gsub("[^aeiou]", "")
   -- 一字词
   local translation = env.translator:query(lookup_consonants, segment)
+  if not translation then
+    return
+  end
   for candidate in translation:iter() do
     local text = candidate.text
     -- 如果以元音开头，尝试添加零声母

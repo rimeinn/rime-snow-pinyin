@@ -46,7 +46,7 @@ function processor.init(env)
     local parsed = {
       match = match and match:get_string(),
       match_shape = match_shape and match_shape:get_string(),
-      accept = value:get_value("accept"):get_string(),
+      accept = value:get_value("accept"):get_string() or "",
     }
     table.insert(env.config, parsed)
     ::continue::
