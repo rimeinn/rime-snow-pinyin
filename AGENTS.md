@@ -112,7 +112,11 @@ patch:
 
 ## 测试
 
-测试位于 `spec/*.test.yaml`，由 [mira](https://github.com/rimeinn/mira) 运行。日常用 `scripts/test.ts`，五个方案并行，全部跑完约 40 秒；失败时只打印失败用例，完整输出留在它给出的临时目录里：
+按键反馈性能测量见 [docs/latency.md](docs/latency.md)：`bun scripts/benchmark-latency.ts [方案]` 使用 `rime_api_console` 逐键测量；`bun scripts/test.ts [方案]` 默认在功能测试通过后串行执行性能测试，无需 `--latency`。完整场景采样完成后自动更新文档中的当前结果，并在输出目录保存文档快照；分方案测量保留其他行的时间与环境，历史版本及部分场景探查不覆盖完整结果。性能测量不能与 mira 或其他基准并行运行。
+
+`bun scripts/benchmark-latency.ts --ci` 执行五方案统一发布预算（`scripts/lib/latency-budget.ts` 中的 `LATENCY_BUDGET`）：P50 < 10 ms、P95 < 25 ms、P99 < 50 ms，至少 200 轮；每场景及按键位置的 P99 也须 < 50 ms，首次反馈最大值 < 100 ms。不得按方案放宽标准或用低耗时的并击按下、松开事件稀释反馈分布。CI 和发布共用 `.github/workflows/latency.yml`，发布必须依赖门禁成功。
+
+测试位于 `spec/*.test.yaml`，由 [mira](https://github.com/rimeinn/mira) 运行。日常用 `scripts/test.ts`，功能测试五方案并行，约 40 秒，随后串行运行性能测量；功能失败时只打印失败用例，完整输出留在它给出的临时目录里：
 
 ```sh
 bun scripts/test.ts                  # 全部五个方案
@@ -198,6 +202,8 @@ mira -C cache -R '^popping$' spec/snow_sipin.test.yaml
 
 **语法细节**
 
+- 只有 `nil` 和 `false` 为假，`0`、空字符串和空表都为真。判空字符串用 `s == ""`，连续数组用 `#list == 0`，字典用 `next(map) == nil`；`not value` 只用来判断真假或是否缺值。
+- `a and b or c` 只有在 `b` 不会为 `false` 或 `nil` 时才能代替条件表达式，否则写 `if` 分支。`0` 和 `""` 不会触发 `or` 的后备值。
 - `require "x"` 不加括号；字符串用双引号，内容含 `"` 时才用单引号；行尾不加分号。
 - 字符串操作用方法调用：`input:sub(1, 1)`，不写 `string.sub(input, 1, 1)`。
 - `if` 条件不加多余括号。

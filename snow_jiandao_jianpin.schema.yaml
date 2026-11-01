@@ -58,7 +58,7 @@ speller:
       # 声母后可接大写韵母；保持与冰雪三拼共用的简拼、声调通配不变
       - derive/^(.)(.)[viuoa]$/$1\u$2/
       - derive/.([viuoa])$/?$1/ # 无韵母
-      - xform/^([a-z])[a-z]+$/$1/ # 简拼，保留带大写韵母的拼写
+      - xform/^([bpmfdtnlgkhjqxzcsrywe])[bpmfdtnlgkhjqxzcsrywe][viuoa]?$/$1/ # 简拼，保留带大写韵母的拼写
       - derive/^.+$/~/ # 通配符
 
 __patch:

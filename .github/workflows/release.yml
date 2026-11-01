@@ -6,8 +6,12 @@ on:
 name: 发布
 
 jobs:
+  latency:
+    name: 发布前性能门禁
+    uses: ./.github/workflows/latency.yml
   build:
     name: 发布
+    needs: [latency]
     runs-on: ubuntu-26.04
     steps:
       - name: 获取代码

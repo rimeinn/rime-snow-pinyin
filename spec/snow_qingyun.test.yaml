@@ -139,6 +139,9 @@ deploy:
       - send: "e"
         assert: commit == "的"
       # 单字的「声空」码：21 个，取字的第一码加空格
+      # 普通模式只显示一项，附带一简十重提示
+      - send: k
+        assert: tostring(#cand) == "1" and cand[1].text == "来"
       - send: "k "
         assert: commit == "来"
       # 单字的「声韵」码：80 个，第一码为字的第一码，第二码无理
@@ -186,6 +189,9 @@ deploy:
       - send: "{Control+j}bxe? srfa2 bxsrF"
         assert: cand[1].text == "冰雪输入法"
       # 缓冲造词中的形音替换法：用形码输入单字参与造词，再从候选中选取正确的读音
+      # 简码提示之后仍须提供其余形码字的读音，不能提前截断
+      - send: "{Control+j}pp"
+        assert: page("林")
       - send: "{Control+j}ppjg"
         assert: cand[1].text == "梦"
       - send: "{Control+j}ppjgkvna"

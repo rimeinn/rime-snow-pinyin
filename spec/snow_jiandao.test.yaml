@@ -135,7 +135,7 @@ deploy:
         assert: cand[1].text == "史诗"
       - send: ekekioekek
         assert: commit == "史诗" and cand[1].text == "史诗"
-  # 混合声韵拼写：大写韵母不计入四个小写字母的分界
+  # 混合声韵拼写：韵母和形码不计入四个声母的分界
   mixed_spelling:
     tests:
       # 空输入时大写字母仍直接输入西文
@@ -161,7 +161,7 @@ deploy:
       # 补过韵母后仍可输入第四个声母
       - send: kExHfSq
         assert: has("科学发展") and commit == nil
-      # 已有四个小写字母时，大写沿用追加长词声母的行为
+      # 已有四个声母时，大写沿用追加长词声母的行为
       - send: kExHfSqG
         assert: has("科学发展观") and preedit == "kE xH fS q g"
       - send: fYhrmGHG
@@ -173,6 +173,28 @@ deploy:
         assert: not has("输入法")
       - send: kExHfSquoaa
         assert: has("科学发展")
+      # 先加形再补末字韵母，与先补韵再加形等价
+      - send: erfvS
+        assert: has("输入法") and preedit == "e r fS 形 [v]" and commit == nil
+      - send: erfvuS
+        assert: has("输入法") and preedit == "e r fS 形 [vu]" and commit == nil
+      - send: erfvuaS
+        assert: has("输入法") and preedit == "e r fS 形 [vua]" and commit == nil
+      - send: erfSvua
+        assert: has("输入法") and preedit == "e r fS 形 [vua]" and commit == nil
+      - send: eJrfvuS
+        assert: has("输入法") and preedit == "eJ r fS 形 [vu]" and commit == nil
+      - send: erJfvuS
+        assert: has("输入法") and preedit == "e rJ fS 形 [vu]" and commit == nil
+      - send: erfvuK
+        assert: not has("输入法") and commit == nil
+      - send: erfvSua
+        assert: has("输入法") and preedit == "e r fS 形 [vua]" and commit == nil
+      # 先补形再补韵，退格仍优先删除形码，取消后无残留
+      - send: erfvuS{BackSpace}
+        assert: has("输入法") and preedit == "e r fS 形 [v]" and commit == nil
+      - send: erfvuS{Escape}erf
+        assert: has("输入法") and preedit == "e r f" and commit == nil
       # 退格直接删除真实编码中的韵母，取消后也没有残留状态
       - send: erfS{BackSpace}
         assert: has("输入法") and preedit == "e r f"
@@ -182,6 +204,8 @@ deploy:
         assert: has("输入法") and preedit == "e r f"
       # 形码完成的三字词、四个声母后的长词仍能顶功
       - send: eJrJfSvbgxh
+        assert: commit == "输入法" and has("冰雪")
+      - send: erfvuSbgxh
         assert: commit == "输入法" and has("冰雪")
       - send: kExHfSqGbgxh
         assert: commit == "科学发展观" and has("冰雪")
@@ -233,7 +257,15 @@ deploy:
         assert: commit == nil
       - send: "o bgxherf  erf "
         assert: commit == "冰雪输入法输入法"
-      - send: "o o jp mzua"
+      - send: "o o"
+        assert: cand[1].text == "📝 关闭缓冲" and commit == nil
+      - send: "o o "
+        assert: commit == nil and preedit == nil
+      - send: "o o erf "
+        assert: commit == "输入法"
+      - send: "o o{Escape}jp mzua"
+        assert: commit == nil and cand[1].text == "猫"
+      - send: "o o o jp mzua"
         assert: commit == nil and cand[1].text == "猫"
   # 高级功能
   advanced:

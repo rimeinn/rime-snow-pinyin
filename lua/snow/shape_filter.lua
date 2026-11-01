@@ -83,7 +83,8 @@ local function radical_match(text, partial_code, env)
   local code = encode(element, env.shape_mapping)
   local prompt = " 部首 [" .. partial_code .. "]"
   local comment = code .. " " .. element
-  local match = not code or code:sub(1, #partial_code) == partial_code
+  -- 查不到部首时 encode 返回空串；Lua 中空串为真，不能用 not code 判空。
+  local match = code == "" or code:sub(1, #partial_code) == partial_code
   return match, prompt, comment
 end
 
@@ -163,7 +164,7 @@ function filter.handle_candidate(text, shape_input, env)
       return stroke_match(text, shape_input, env, sanpin_stroke_map)
     end
   elseif id == "snow_jiandao" then -- 冰雪键道
-    if is_pinyin or shape_input:len() > 0 or current:find("[A-Z]") or rime_api.regex_match(current, "[bpmfdtnlgkhjqxzcsrywe][a-z]([bpmfdtnlgkhjqxzcsrywe][a-z]?)?") then
+    if is_pinyin or shape_input:len() > 0 or current:find("[BPMFDTNLGKHJQXZCSRYWE]") or rime_api.regex_match(current, "[bpmfdtnlgkhjqxzcsrywe]{2,4}") then
       local code = jiandao_encode(text, current, env.shape_elements, env.shape_mapping)
       local prompt = shape_input:len() > 0 and " 形 [" .. shape_input .. "]" or nil
       local match = code == "" or code:sub(1, #shape_input) == shape_input

@@ -85,9 +85,8 @@ function filter.get_customized_list(env, input)
     end
     ::continue::
   end
-  ---@diagnostic disable-next-line: cast-local-type
-  da = nil
-  collectgarbage()
+  -- 游标交给 Lua 正常回收；snow.release_db 会在关库前统一回收。
+  -- 每次查固定候选都完整回收，会把整个 Lua 状态的扫描开销带进按键反馈。
   for i = 1, max_index do
     if not fixed_phrases[i] then
       fixed_phrases[i] = snow.placeholder
@@ -114,7 +113,8 @@ function filter.func(translation, env)
     full_input = input .. shape_input
   end
   local fixed_phrases = filter.get_customized_list(env, full_input)
-  if not fixed_phrases then
+  -- 空表在 Lua 中也为真；没有固定候选时直接透传，避免无谓地预取 100 个候选。
+  if #fixed_phrases == 0 then
     for candidate in translation:iter() do
       yield(candidate)
     end

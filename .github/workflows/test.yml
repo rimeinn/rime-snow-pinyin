@@ -1,8 +1,11 @@
-on: [push]
+on: [push, pull_request]
 
 name: 测试
 
 jobs:
+  latency:
+    name: 性能门禁
+    uses: ./.github/workflows/latency.yml
   dictionary:
     name: 拼音词典编码检查
     runs-on: ubuntu-24.04

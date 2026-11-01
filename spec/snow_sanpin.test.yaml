@@ -161,7 +161,15 @@ deploy:
         assert: commit == nil
       - send: "o bgxherf  erf "
         assert: commit == "冰雪输入法输入法"
-      - send: "o o jp mzv"
+      - send: "o o"
+        assert: cand[1].text == "📝 关闭缓冲" and commit == nil
+      - send: "o o "
+        assert: commit == nil and preedit == nil
+      - send: "o o erf "
+        assert: commit == "输入法"
+      - send: "o o{Escape}jp mzv"
+        assert: commit == nil and cand[1].text == "猫"
+      - send: "o o o jp mzv"
         assert: commit == nil and cand[1].text == "猫"
   # 选择造词：末码是首字声调，选完首字后不能把它当成第二字的编码
   encoding:
@@ -264,6 +272,9 @@ deploy:
         assert: not page("嶅")
       - send: xzi1e
         assert: cand[1].text == "嶅"
+      # 部首库未收录「祇」：不能把未知部首当成与辅助码不匹配。
+      - send: qki1e
+        assert: has("祇")
       # 以词定字：`[` 取首字、`]` 取末字
       - send: "xxrr["
         assert: commit == "熙"

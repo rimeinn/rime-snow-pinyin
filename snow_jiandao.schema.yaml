@@ -74,9 +74,9 @@ speller:
   initials: bpmfdtnlgkhjqxzcsrwye
   delimiter: " "
   shape:
-    - match: "(?:[bpmfdtnlgkhjqxzcsrywe][A-Z]?){3,}[viuoa]*"
+    - match: "(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){3,}[viuoa]*"
       accept: "[viuoa]"
-    - match: "[bpmfdtnlgkhjqxzcsrywe][a-z]([bpmfdtnlgkhjqxzcsrywe][a-z]?)?[viuoa]*"
+    - match: "[bpmfdtnlgkhjqxzcsrywe]{2,4}[viuoa]*"
       accept: "[viuoa]"
     - match: "[bpmfdtnlgkhjqxzcsrywe][viuoa]*"
       accept: "[viuoa]"
@@ -88,20 +88,25 @@ speller:
       accept: "[bpmfdtnlgkhjqxzcsrywe]"
     # 单字和三字词
     - when: popping
-      match: "(?:[bpmfdtnlgkhjqxzcsrywe][A-Z]?){2,3}[viuoa]+"
+      match: "(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){2,3}[viuoa]+"
       accept: "[bpmfdtnlgkhjqxzcsrywe]"
     # 四字词和多字词
     - when: popping
-      match: "(?:[bpmfdtnlgkhjqxzcsrywe][A-Z]?){4,}[viuoa]*"
+      match: "(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){4,}[viuoa]*"
       accept: "[bpmfdtnlgkhjqxzcsrywe]"
-    # 已有至少四个小写字母时，大写转成小写追加下一个字的声母
+    # 三字词已加形后，仍可补末字韵母；须先于长词声母规则判断
     - when: popping
-      match: "(?=(?:[A-Z]*[a-z]){4})[bpmfdtnlgkhjqxzcsrywe][a-zA-Z]*"
+      match: "(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){2}[bpmfdtnlgkhjqxzcsrywe][viuoa]+"
+      accept: "[BPMFDTNLGKHJQXZCSRYWE]"
+      strategy: append_raw
+    # 已有至少四个声母时，大写转成小写追加下一个字的声母；韵母和形码不计数
+    - when: popping
+      match: "(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){4,}[viuoa]*"
       accept: "[BPMFDTNLGKHJQXZCSRYWE]"
       strategy: append
-    # 不足四个小写声母时，大写原样追加为前一个字的韵母
+    # 不足四个声母时，大写原样追加为前一个字的韵母
     - when: popping
-      match: "(?:[bpmfdtnlgkhjqxzcsrywe][A-Z]?){0,2}[bpmfdtnlgkhjqxzcsrywe]"
+      match: "(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){0,2}[bpmfdtnlgkhjqxzcsrywe]"
       accept: "[BPMFDTNLGKHJQXZCSRYWE]"
       strategy: append_raw
     # 顶标点
@@ -165,6 +170,6 @@ patch:
   key_binder/bindings/+:
     - { when: always, accept: "Control+j", toggle: buffered }
   menu/alternative_select_keys: null
-  recognizer/patterns/jianpin: "^(?:[bpmfdtnlgkhjqxzcsrywe][A-Z]?){3,}$"
+  recognizer/patterns/jianpin: "^(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){3,}$"
   stroke/prism: snow_jiandao_bihua
   stroke/preedit_format: [xlit/viuoa/一丨丿丶乙/]

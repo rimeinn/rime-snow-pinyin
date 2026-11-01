@@ -1,4 +1,4 @@
-// 并行运行五个方案的 mira 测试
+// 并行运行 mira 功能测试，通过后串行测量延迟并更新 docs/latency.md
 //
 //   bun scripts/test.ts                  # 全部方案
 //   bun scripts/test.ts yipin qingyun    # 只跑指定方案，snow_ 前缀可省
@@ -73,7 +73,8 @@ function syncNewer(from: string, to: string) {
 	}
 }
 
-const names = process.argv.slice(2);
+// 兼容原来的 --latency 参数；性能测试现在始终执行。
+const names = process.argv.slice(2).filter((arg) => arg !== "--latency");
 const schemas =
 	names.length > 0
 		? names.map((name) => (name.startsWith("snow_") ? name : `snow_${name}`))
@@ -132,3 +133,12 @@ if (failed.length > 0) {
 	process.exit(1);
 }
 rmSync(base, { recursive: true, force: true });
+
+// 功能测试完成后串行测量，避免五个 mira 与基准进程争抢 CPU、I/O。
+const result = spawnSync(
+	process.execPath,
+	[join(ROOT, "scripts", "benchmark-latency.ts"), ...schemas],
+	{ cwd: ROOT, stdio: "inherit" },
+);
+if (result.error) throw result.error;
+process.exit(result.status ?? 1);

@@ -1,0 +1,54 @@
+name: 按键反馈性能
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  latency:
+    name: 五方案统一延迟预算
+    runs-on: ubuntu-24.04
+    timeout-minutes: 30
+    steps:
+      - name: 获取方案代码
+        uses: actions/checkout@v4
+      - name: 获取固定版本 librime 1.17.0
+        uses: actions/checkout@v4
+        with:
+          repository: rime/librime
+          ref: 33e78140250125871856cdc5b42ddc6a5fcd3cd4
+          path: output/latency-runtime/librime
+          persist-credentials: false
+      - name: 获取固定版本 librime-lua
+        uses: actions/checkout@v4
+        with:
+          repository: hchunhui/librime-lua
+          ref: 68f9c364a2d25a04c7d4794981d7c796b05ab627
+          path: output/latency-runtime/librime/plugins/lua
+          persist-credentials: false
+      - name: 安装构建依赖
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends cmake ninja-build g++ pkg-config libboost-regex-dev libgoogle-glog-dev libgflags-dev libleveldb-dev libmarisa-dev libopencc-dev libyaml-cpp-dev liblua5.4-dev
+      - name: 构建带 Lua 的控制台
+        run: |
+          cmake -S output/latency-runtime/librime -B output/latency-runtime/build -G Ninja -DCMAKE_BUILD_TYPE=Release -DBUILD_TEST=OFF -DBUILD_MERGED_PLUGINS=ON -DENABLE_EXTERNAL_PLUGINS=OFF -DLUA_VERSION=lua5.4
+          cmake --build output/latency-runtime/build --target rime_api_console --parallel 2
+      - name: 安装 Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.3.14
+      - name: 安装脚本依赖
+        run: bun install --cwd scripts --frozen-lockfile
+      - name: 检查五个方案的统一性能预算
+        run: bun scripts/benchmark-latency.ts --ci --console output/latency-runtime/build/bin/rime_api_console --shared-data output/latency-runtime/librime/data/minimal --output-dir output/latency-ci
+      - name: 保留性能报告与失败日志
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: latency-${{ github.run_id }}-${{ github.run_attempt }}
+          path: output/latency-ci/
+          retention-days: 14

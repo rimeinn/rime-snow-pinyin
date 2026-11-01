@@ -45,12 +45,14 @@ end
 
 ---@param candidate Candidate
 local function prettify_preedit(candidate)
-  if candidate.preedit:sub(1, 1) == "[" then
-    candidate.preedit = candidate.preedit:sub(2, -2)
+  local preedit = candidate.preedit
+  if preedit:sub(1, 1) == "[" then
+    preedit = preedit:sub(2, -2)
   end
-  -- 补齐空格以便阅读
-  candidate.preedit = rime_api.regex_replace(candidate.preedit,
-    "(?<=[bpmfdtnlgkhjqxzcsrwyv])(?=[bpmfdtnlgkhjqxzcsrwyv])", " ")
+  -- 在连续声码之间补空格；避免为每个候选重新编译带前后查找的正则。
+  candidate.preedit = preedit:gsub("([bpmfdtnlgkhjqxzcsrwyv])([bpmfdtnlgkhjqxzcsrwyv]+)", function(first, rest)
+    return first .. rest:gsub(".", " %0")
+  end)
 end
 
 ---@param translation Translation
@@ -60,8 +62,10 @@ function filter.func(translation, env)
   local input = snow.current(env.engine.context) or ""
   local segment = env.engine.context.composition:toSegmentation():back()
   local affix = { "a", "o", "e", "i", "u", ";", ",", ".", "/" }
+  local show_shortcut_hint = rime_api.regex_match(input, "[bpmfdtnlgkhjqxzcsrvwy]{1,2}")
+  local buffered = env.engine.context:get_option("buffered")
   for candidate in translation:iter() do
-    if env.engine.context:get_option("buffered") and not is_pinyin(candidate) then
+    if buffered and not is_pinyin(candidate) then
       local result = env.lookup_pinyin and env.lookup_pinyin:lookup(candidate.text) or ""
       ---@type Candidate[]
       local candidates = {}
@@ -91,7 +95,7 @@ function filter.func(translation, env)
     if character_only and utf8.len(candidate.text) > 1 then
       goto continue
     end
-    if rime_api.regex_match(input, "[bpmfdtnlgkhjqxzcsrvwy]{1,2}") then -- 生成一简十重提示
+    if show_shortcut_hint then -- 生成一简十重提示
       if count == 0 then
         local hint = ""
         for _, letter in ipairs(affix) do
@@ -111,6 +115,9 @@ function filter.func(translation, env)
           count = count + 1
           prettify_preedit(c)
           yield(c)
+          if not buffered then
+            return
+          end
           goto continue
         else
           snow.comment(candidate, hint)
@@ -148,6 +155,10 @@ function filter.func(translation, env)
       prettify_preedit(candidate)
     end
     yield(candidate)
+    -- 普通模式一简十重只显示首个候选；缓冲模式仍需继续输出形码字的读音。
+    if show_shortcut_hint and not buffered then
+      return
+    end
     ::continue::
   end
 end

@@ -193,8 +193,17 @@ deploy:
         assert: commit == nil
       - send: "o bxouivrf  d "
         assert: commit == "冰雪输入法都"
-      # 再次选择命令仍保持开启，不会切换为关闭
-      - send: "o o kr qz"
+      # 缓冲模式下显示关闭命令，选中后不上屏文字并恢复直接上屏
+      - send: "o o"
+        assert: cand[1].text == "📝 关闭缓冲" and commit == nil
+      - send: "o o "
+        assert: commit == nil and preedit == nil
+      - send: "o o d "
+        assert: commit == "都"
+      # 取消关闭命令仍保留缓冲，再次开启也能正常缓冲
+      - send: "o o{Escape}kr qz"
+        assert: commit == nil and cand[1].text == "裙子"
+      - send: "o o o kr qz"
         assert: commit == nil and cand[1].text == "裙子"
   # 缓冲造词与英数混输造词
   buffered:
@@ -354,6 +363,9 @@ deploy:
       # 只打 2 码（不打声调）也可以接部首辅助码
       - send: fa1s
         assert: cand[1].text == "罚"
+      # 部首库未收录「祇」：不能把未知部首当成与辅助码不匹配。
+      - send: qie1s
+        assert: has("祇")
   # 方案码用户词典：这些操作会写入 snow_sipin.userdb，故单独部署并按顺序执行
   schema_userdb:
     tests:
