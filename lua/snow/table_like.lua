@@ -12,13 +12,19 @@ local snow = require "snow.snow"
 ---@param segment Segment
 ---@param env TableLikeEnv
 ---@param accept? fun(candidate: Candidate): boolean
-local function translate(proxy, segment, env, accept)
+---@param complete_only? boolean
+local function translate(proxy, segment, env, accept, complete_only)
   -- 代理码不是合法拼写时 query 返回 nil，这一路当作没有候选
   local translation = env.translator:query(proxy, segment)
   if not translation then
     return
   end
   for candidate in translation:iter() do
+    -- 原生 script_translator 按消耗长度降序输出；简拼只查完整编码，
+    -- 遇到短片段即可结束，避免把成千上万个前缀候选取到 Lua 再逐个丢弃。
+    if complete_only and candidate._end - candidate._start < proxy:len() then
+      return
+    end
     snow.prepare(candidate, proxy)
     if not accept or accept(candidate) then
       yield(candidate)
@@ -109,7 +115,7 @@ function jianpin.func(input, segment, env)
   end)
   translate(proxy, segment, env, function(candidate)
     return utf8.len(candidate.text) >= initial_count and candidate.type ~= "sentence"
-  end)
+  end, true)
 end
 
 ---@param env TableLikeEnv
