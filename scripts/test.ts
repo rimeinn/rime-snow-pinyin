@@ -22,6 +22,7 @@ import { tmpdir } from "node:os";
 import { dirname, join } from "node:path";
 import { checkPinyinDictionary } from "./check-pinyin-dict";
 import { ROOT } from "./lib/paths";
+import { copyRimeDependencies } from "./lib/rime-dependencies";
 
 const SCHEMAS = [
 	"snow_sipin",
@@ -38,7 +39,7 @@ function clone(src: string, dest: string) {
 }
 
 // 准备一份只含 Rime 需要的文件的源目录，相当于 CI 的全新 checkout：
-// mira 每个部署都会把整个 source_dir 复制一遍，仓库里的 .git、node_modules、cache
+// mira 每个部署都会把整个 source_dir 复制一遍，仓库里的 .git、node_modules、build
 // 会让每次部署多花约 1 秒；*.userdb、user.yaml 等本机文件也不该带进测试
 function prepareSource(dest: string, schema: string) {
 	const git = spawnSync(
@@ -52,6 +53,7 @@ function prepareSource(dest: string, schema: string) {
 		if (!file || !existsSync(src) || !statSync(src).isFile()) continue;
 		clone(src, join(dest, file));
 	}
+	copyRimeDependencies(ROOT, dest);
 	// 每个部署默认会检查 schema_list 里的全部方案，只留被测方案能把部署从约 4 秒降到约 1.4 秒
 	writeFileSync(
 		join(dest, "default.custom.yaml"),
@@ -60,7 +62,7 @@ function prepareSource(dest: string, schema: string) {
 }
 
 // 复制目录里比目标新的文件并保留 mtime。用来给每个方案复制一份缓存，
-// 以及把测试中重新编译过的产物写回仓库的 cache，下次就不用再编译
+// 以及把测试中重新编译过的产物写回仓库的 build，下次就不用再编译
 function syncNewer(from: string, to: string) {
 	mkdirSync(to, { recursive: true });
 	for (const file of readdirSync(from)) {
@@ -85,16 +87,16 @@ if (unknown.length > 0) throw new Error(`Unknown schema: ${unknown}`);
 checkPinyinDictionary();
 
 const base = mkdtempSync(join(tmpdir(), "snow-test-"));
-const cache = join(ROOT, "cache");
+const cache = join(ROOT, "build");
 const start = performance.now();
 const results = await Promise.all(
 	schemas.map(async (schema) => {
 		const dir = join(base, schema);
 		prepareSource(join(dir, "src"), schema);
 		mkdirSync(join(dir, "tmp"));
-		if (existsSync(cache)) syncNewer(cache, join(dir, "cache"));
+		if (existsSync(cache)) syncNewer(cache, join(dir, "build"));
 		const proc = Bun.spawn(
-			["mira", "-C", "cache", join("src", "spec", `${schema}.test.yaml`)],
+			["mira", "-C", "build", join("src", "spec", `${schema}.test.yaml`)],
 			{
 				cwd: dir,
 				env: { ...process.env, TMPDIR: join(dir, "tmp") },
@@ -109,7 +111,7 @@ const results = await Promise.all(
 		const seconds = ((performance.now() - start) / 1000).toFixed(1);
 		console.log(`${code === 0 ? "✓" : "✗"} ${schema}  ${seconds}s`);
 		writeFileSync(join(base, `${schema}.log`), output);
-		if (existsSync(join(dir, "cache"))) syncNewer(join(dir, "cache"), cache);
+		if (existsSync(join(dir, "build"))) syncNewer(join(dir, "build"), cache);
 		return { schema, code, output };
 	}),
 );

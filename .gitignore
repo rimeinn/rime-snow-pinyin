@@ -1,9 +1,10 @@
 node_modules
 diff
-cache
 stroke.*
 build
 *.userdb
 installation.yaml
 user.yaml
 output/
+radical_pinyin.schema.yaml
+radical_pinyin.dict.yaml

@@ -22,6 +22,11 @@ import { LATENCY_CASES, SCHEMA_NAMES } from "./data/latency-cases";
 import { LATENCY_BUDGET, latencyBudgetFailures } from "./lib/latency-budget";
 import { updateLatencyDocument } from "./lib/latency-document";
 import { ROOT } from "./lib/paths";
+import {
+	copyRimeDependencies,
+	RADICAL_SUBMODULE,
+	RIME_DEPENDENCIES,
+} from "./lib/rime-dependencies";
 
 function splitKeys(sequence: string): string[] {
 	const keys = sequence.match(/\{[^{}]+\}|[^{}]/g) ?? [];
@@ -66,6 +71,13 @@ function copyRimeSource(source: string, dest: string) {
 	}
 	clone(join(source, "lua"), join(dest, "lua"));
 	clone(join(source, "default.yaml"), join(dest, "default.yaml"));
+	// 历史版本尚未依赖部件词库时保持原来的部署环境。
+	if (
+		readFileSync(join(source, "snow_sipin.schema.yaml"), "utf8").includes(
+			"    - radical_pinyin\n",
+		)
+	)
+		copyRimeDependencies(source, dest);
 }
 
 function sourceFingerprint(source: string): string {
@@ -84,6 +96,7 @@ function sourceFingerprint(source: string): string {
 		if (
 			name === "lua" ||
 			name === "default.yaml" ||
+			RIME_DEPENDENCIES.includes(name) ||
 			(/^snow_.*\.(yaml|txt)$/.test(name) && !name.endsWith(".custom.yaml"))
 		)
 			add(name);
@@ -306,6 +319,30 @@ async function main() {
 				input: archive.stdout,
 			});
 			if (extracted.status !== 0) throw new Error(extracted.stderr.toString());
+			// git archive 不包含子模块内容，按被测版本锁定的提交取出依赖。
+			const moduleEntry =
+				git("ls-tree", ref, RADICAL_SUBMODULE) ||
+				git("ls-tree", ref, "rime-radical-pinyin");
+			if (moduleEntry) {
+				const commit = moduleEntry.split(/\s+/)[2];
+				const dependency = spawnSync(
+					"git",
+					[
+						"-C",
+						join(ROOT, RADICAL_SUBMODULE),
+						"archive",
+						commit,
+						...RIME_DEPENDENCIES,
+					],
+					{ maxBuffer: 32 * 1024 * 1024 },
+				);
+				if (dependency.status !== 0)
+					throw new Error(dependency.stderr.toString());
+				const unpacked = spawnSync("tar", ["-xf", "-", "-C", source], {
+					input: dependency.stdout,
+				});
+				if (unpacked.status !== 0) throw new Error(unpacked.stderr.toString());
+			}
 		} else copyRimeSource(ROOT, source);
 		const sourceSha256 = sourceFingerprint(source);
 		const samples: Sample[] = [];

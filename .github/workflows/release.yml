@@ -22,7 +22,8 @@ jobs:
         run: sudo apt install -y --no-install-recommends librime-bin rime-prelude
       - name: 打包用户安装包
         run: |
-          zip -r snow-pinyin.zip snow_* lua
+          cp deps/rime-radical-pinyin/radical_pinyin.{schema,dict}.yaml .
+          zip -r snow-pinyin.zip snow_* radical_pinyin.*.yaml lua
       - name: 安装 Bun
         uses: oven-sh/setup-bun@v2
       - name: 安装皮肤生成依赖
@@ -39,7 +40,8 @@ jobs:
           # rime-prelude 自带 default.yaml，仓库的 default.yaml 会被部署器当作过时副本移进 trash/
           echo -e "patch:\n  schema_list:\n    - { schema: snow_sipin }\n    - { schema: snow_sanpin }\n    - { schema: snow_yipin }\n    - { schema: snow_jiandao }\n    - { schema: snow_qingyun }" > default.custom.yaml
           sed -i -E '/^ *- snow_pinyin\.tencent$/d' snow_*.schema.yaml
-          sed -i -E '/^ *- (snow_bihua|snow_jiandao_bihua|affix_segmentor@stroke|table_translator@stroke|lua_filter@\*snow\.bihua(\*filter)?)$/d; /^ *(recognizer\/patterns\/)?stroke: /d' snow_*.schema.yaml
+          # 部件反查共用 stroke 段，保留入口和分段器，只移除笔画词库与翻译器。
+          sed -i -E '/^ *- (snow_bihua|snow_jiandao_bihua|table_translator@stroke|lua_filter@\*snow\.bihua(\*filter)?)$/d' snow_*.schema.yaml
       - name: 编译
         run: rime_deployer --build . /usr/share/rime-data/
       - name: 打包预览安装包

@@ -247,6 +247,16 @@ deploy:
       # 拼音反查（`a` 引导）
       - send: ashi
         assert: cand[1].text == "是"
+      # 部件全拼反查：连续输入各部件读音，候选同时显示拼音。
+      - send: "uwangyan"
+        assert: page("琰") and cand[rank("琰")].comment:find("yan3", 1, true) ~= nil and commit == nil
+      - send: "umaowenniao"
+        assert: page("鹜") and cand[rank("鹜")].comment:find("wu4", 1, true) ~= nil and commit == nil
+      # 单引号结束反查后可正常上屏，退格重输仍留在反查段。
+      - send: "uwangyan' "
+        assert: commit == "琰"
+      - send: "uwangyan{BackSpace}n"
+        assert: page("琰") and commit == nil
       # 笔画反查（`u` 引导，横竖撇点折为 eiuoa）
       - send: ueiuoa
         assert: cand[1].text == "札"

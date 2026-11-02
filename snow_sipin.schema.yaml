@@ -13,6 +13,7 @@ schema:
     带调拼音词顶功输入方案
   dependencies:
     - snow_pinyin
+    - radical_pinyin
     - snow_bihua
     - snow_bushou
 
@@ -45,6 +46,7 @@ engine:
     - punct_translator
     - script_translator
     - table_translator@stroke
+    - table_translator@radical
     - script_translator@pinyin
     - lua_translator@*snow.buffered
     - lua_translator@*snow.datetime

@@ -13,6 +13,7 @@ schema:
     用空格、0、9、8、7、6 来选择候选
   dependencies:
     - snow_bihua
+    - radical_pinyin
 
 switches:
   - name: ascii_mode
@@ -45,6 +46,7 @@ engine:
   translators:
     - punct_translator
     - table_translator@stroke
+    - table_translator@radical
     - script_translator
   filters:
     - lua_filter@*snow.bihua
@@ -97,12 +99,25 @@ stroke:
   enable_completion: true
   prefix: "u"
   suffix: "'"
-  tips: 〔笔画〕
+  tips: 〔笔画·部件〕
   preedit_format:
     - xlit/eiuoa/一丨丿丶乙/
   comment_format:
     - xform/[A-Z]+$//
     - xlit/12345/eiuoa/
+
+# 与笔画反查共用入口和段标签，输入部件的连续全拼。
+radical:
+  tag: stroke
+  dictionary: radical_pinyin
+  prism: radical_pinyin
+  enable_user_dict: false
+  enable_sentence: false
+  enable_completion: true
+  prefix: "u"
+  suffix: "'"
+  comment_format:
+    - erase/^.*$//
 
 pinyin:
   tag: pinyin

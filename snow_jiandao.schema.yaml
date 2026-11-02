@@ -14,6 +14,7 @@ schema:
     单字三码起顶、词组四码起顶的双拼词顶功方案
   dependencies:
     - snow_pinyin
+    - radical_pinyin
     - snow_jiandao_bihua
     - snow_jiandao_jianpin
     - snow_jiandao_chaifen
@@ -47,6 +48,7 @@ engine:
     - script_translator
     - script_translator@jianpin
     - table_translator@stroke
+    - table_translator@radical
     - script_translator@pinyin
     - lua_translator@*snow.buffered
     - lua_translator@*snow.datetime

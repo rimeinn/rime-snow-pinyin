@@ -33,6 +33,7 @@ export function chord(keys: string): string {
 
 export const LATENCY_CASES: Record<string, LatencyCase[]> = {
 	snow_sipin: [
+		{ id: "radical", keys: "uwangyan", page: "琰", source: "README.md" },
 		{ id: "single", keys: "biu", page: "笔", source: "snow4/spelling.md" },
 		{ id: "double", keys: "bxoui", page: "冰雪", source: "snow4/basic.md" },
 		{ id: "triple", keys: "svm", page: "为什么", source: "snow4/basic.md" },
@@ -69,6 +70,7 @@ export const LATENCY_CASES: Record<string, LatencyCase[]> = {
 		},
 	],
 	snow_sanpin: [
+		{ id: "radical", keys: "uwangyan", page: "琰", source: "README.md" },
 		{ id: "single", keys: "bgv", page: "冰", source: "snow3/spelling.md" },
 		{ id: "double", keys: "bgxhuv", page: "冰雪", source: "snow3/basic.md" },
 		{ id: "triple", keys: "erfuvo", page: "输入法", source: "snow3/basic.md" },
@@ -105,6 +107,7 @@ export const LATENCY_CASES: Record<string, LatencyCase[]> = {
 		},
 	],
 	snow_jiandao: [
+		{ id: "radical", keys: "uwangyan", page: "琰", source: "README.md" },
 		{
 			id: "dense-prefix",
 			keys: "mdd",
@@ -179,6 +182,7 @@ export const LATENCY_CASES: Record<string, LatencyCase[]> = {
 		},
 	],
 	snow_qingyun: [
+		{ id: "radical", keys: "`wangyan", page: "琰", source: "README.md" },
 		{
 			id: "single-shape",
 			keys: "rrri",

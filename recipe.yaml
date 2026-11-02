@@ -3,8 +3,17 @@
 recipe:
   Rx: snow_pinyin
   description: >-
-    安装冰雪拼音
+    安装冰雪拼音的方案、词库、固定词表、Lua 组件及部件反查依赖
 
-install_files: >-
-  snow*.yaml
-  lua/snow/*
+# 与 deps/rime-radical-pinyin 的提交保持一致。
+download_files:
+  - https://raw.githubusercontent.com/mirtlecn/rime-radical-pinyin/87e73d7182916f3db9dbc0b6a4d18a78a775b298/radical_pinyin.schema.yaml
+  - https://raw.githubusercontent.com/mirtlecn/rime-radical-pinyin/87e73d7182916f3db9dbc0b6a4d18a78a775b298/radical_pinyin.dict.yaml
+
+install_files:
+  - snow_*.schema.yaml
+  - snow_*.dict.yaml
+  - snow_*.fixed.txt
+  - lua/snow/*
+  - radical_pinyin.schema.yaml
+  - radical_pinyin.dict.yaml

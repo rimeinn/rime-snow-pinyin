@@ -33,8 +33,8 @@ bun run --cwd scripts check:format    # 检查格式
 | --- | --- | --- |
 | `generate-pinyin-dict.ts [输出文件]` | `data/tygf-pinyin.tsv` 与 `lib/character-pinyin.ts` 中固定版本的在线大字集拼音 | `snow_pinyin.dict.yaml` |
 | `check-pinyin-dict.ts` | 离线检查单字词典全部读音在五个方案中的完整音节编码，异常时退出失败 | 不写文件 |
-| `generate-word-dicts.ts [base ext tencent] [--output-dir 目录]` | 雾凇子模块 `ice/cn_dicts/` 与当前单字词典；省略词库名时生成三份 | `snow_pinyin.*.dict.yaml`；未确定读音写入 `diff/` |
-| `generate-english-dict.ts [输入文件] [输出文件]` | 默认读取 `rime-easy-en/easy_en.dict.yaml` | `snow_yingpin.dict.yaml` |
+| `generate-word-dicts.ts [base ext tencent] [--output-dir 目录]` | 雾凇子模块 `deps/rime-ice/cn_dicts/` 与当前单字词典；省略词库名时生成三份 | `snow_pinyin.*.dict.yaml`；未确定读音写入 `diff/` |
+| `generate-english-dict.ts [输入文件] [输出文件]` | 默认读取 `deps/rime-easy-en/easy_en.dict.yaml` | `snow_yingpin.dict.yaml` |
 | `generate-stroke-dict.ts <输入文件> [输出文件]` | 外部三列笔画 TSV，格式见「笔画与地区字形」 | `snow_bihua.dict.yaml` |
 | `generate-radical-codes.ts [输出目录]` | `data/radicals.tsv` 与冰雪四拼、冰雪三拼的拼写规则 | `lua/snow/radical_sipin.txt`、`radical_sanpin.txt` |
 | `annotate-words.ts <词表> [输出文件]` | 每行一个词，可带后续 TSV 列；优先查现有词典，缺词时调用注音库 | `output/annotated-words.tsv` |
@@ -59,7 +59,13 @@ bun run --cwd scripts check:format    # 检查格式
 
 ## 实际目录
 
+外部 Rime 方案子模块统一放在 `deps/`：雾凇拼音为 `deps/rime-ice`，英文词库为 `deps/rime-easy-en`，部件全拼为 `deps/rime-radical-pinyin`。
+
+部件全拼反查依赖子模块 `deps/rime-radical-pinyin`，首次克隆或更新依赖后运行 `git submodule update --init deps/rime-radical-pinyin`。发布、功能测试和性能测试会把其中的 `radical_pinyin.schema.yaml`、`radical_pinyin.dict.yaml` 复制到独立方案目录的根目录；不要手改或提交根目录里的副本。冰雪四拼、冰雪三拼和冰雪键道与笔画反查共用 `u` 和 `stroke` 标签，冰雪清韵与拼音、笔画反查共用反引号和 `pinyin` 标签；`lookup_pinyin` 为这些候选显示拼音。冰雪一拼不接入部件反查。
+
 `~/.local/share/fcitx5/rime` 里的 `snow_*.schema.yaml`、`snow_*.dict.yaml`、`snow_*.fixed.txt`、`lua/snow` 都是指回本仓库的软链，**没有「同步」这一步**：改哪边都是改同一份文件，`git pull` 后重新部署即可。
+
+`link.ts` 同样管理两个 `radical_pinyin.*.yaml` 文件：本机软链直接指向子模块文件，iCloud 同步和压缩包则把它们复制到方案目录根目录。
 
 ```sh
 bun scripts/link.ts link      # 建立软链（幂等，仓库新增文件后重跑；冲突时中止，确认后加 --force）
@@ -127,16 +133,16 @@ bun scripts/test.ts yipin qingyun    # 只跑指定方案，snow_ 前缀可省
 
 `scripts/test.ts` 为每个方案准备一份独立环境，这几步都是为了提速或者能并行，不要省掉：
 
-- **精简的源目录**：mira 的每个 deploy 都会把整个 `source_dir`（spec 里写的是 `..`，也就是整个仓库，带 `.git`、`node_modules`、`cache`，约 1 GB）复制一遍。脚本只复制 `git ls-files -co --exclude-standard` 列出的文件，相当于 CI 的全新 checkout。本机的 `*.userdb`、`user.yaml` 自然被排除在外，不用再 `rm -rf *.userdb`。
+- **精简的源目录**：mira 的每个 deploy 都会把整个 `source_dir`（spec 里写的是 `..`，也就是整个仓库，带 `.git`、`node_modules`、`build`，约 1 GB）复制一遍。脚本只复制 `git ls-files -co --exclude-standard` 列出的文件，相当于 CI 的全新 checkout。本机的 `*.userdb`、`user.yaml` 自然被排除在外，不用再 `rm -rf *.userdb`。
 - **`default.custom.yaml` 只留被测方案**：否则每个 deploy 都要检查 `schema_list` 里的全部五个方案。这两项加起来，每个 deploy 从约 4 秒降到约 1.4 秒。
 - **独立的 `TMPDIR`**：mira 的工作目录写死为 `$TMPDIR/mira`，启动时整个删掉，两个 mira 同时跑会互相删目录然后崩溃。
-- **独立的缓存副本**：`-C` 指向的 staging 目录不能共用。带 `patch` 的 deploy（冰雪三拼、冰雪键道的 `sentence`，冰雪四拼的 `special`）会把改过的方案编译进缓存，改了词典后几个进程还会同时重建同一份 `.bin`。脚本先把仓库的 `cache/` 复制给每个方案，跑完再把更新过的文件写回去。
+- **独立的缓存副本**：mira 与 `rime_api_console` 的编译产物统一放在仓库的 `build/`。带 `patch` 的 deploy（冰雪三拼、冰雪键道的 `sentence`，冰雪四拼的 `special`）会把改过的方案编译进缓存，改了词典后几个进程还会同时重建同一份 `.bin`，所以并行 mira 的 `-C` 不能指向同一个目录。脚本先把 `build/` 复制给每个方案，跑完再把更新过的文件写回去；直接在仓库运行控制台和 mira 时也应串行。
 
 只调一个 deploy 时直接用 mira 的 `-R` 更快，但这会用仓库本身作 `source_dir`，所以要自己清词频，同时也不能有别的 mira 在跑：
 
 ```sh
 rm -rf *.userdb                   # 清掉上次运行累积的词频，与 CI 的全新 checkout 对齐
-mira -C cache -R '^popping$' spec/snow_sipin.test.yaml
+mira -C build -R '^popping$' spec/snow_sipin.test.yaml
 ```
 
 - 断言里只有 `cand`（元素含 `.text`、`.comment`）、`preedit`、`commit`；`assert` 会被包进 `return (...)`，只能写表达式。
@@ -305,6 +311,7 @@ bun scripts/test.ts
     - <方案专属副翻译器>                    # 冰雪键道、冰雪清韵的 script_translator@<方案>、
                                           # 冰雪三拼的 *snow.table_like*jianpin
     - table_translator@stroke             # 冰雪一拼无
+    - table_translator@radical            # 冰雪一拼无；与笔画共用反查入口
     - script_translator@pinyin            # 冰雪一拼无
     - lua_translator@*snow.buffered       # 仅冰雪四拼、冰雪三拼、冰雪键道
     - lua_translator@*snow.datetime       # 冰雪一拼无
@@ -318,8 +325,8 @@ bun scripts/test.ts
     - lua_filter@*snow.placeholder        # 冰雪一拼无
     - lua_filter@*snow.bihua              # 冰雪一拼无；按词典语言名筛选笔画，须在反查过滤器之前
     - lua_filter@*snow.enforce            # 仅冰雪键道
-    - reverse_lookup_filter@lookup_pinyin # 冰雪一拼、冰雪清韵无
-    - reverse_lookup_filter@lookup_<方案>  # 同上
+    - reverse_lookup_filter@lookup_pinyin # 冰雪一拼无
+    - reverse_lookup_filter@lookup_<方案>  # 冰雪一拼、冰雪清韵无
     - lua_filter@*snow.fix
     - lua_filter@*snow.shape_filter       # 冰雪清韵用 *snow.qingyun 占这个位置
     - lua_filter@*snow.postpone           # 冰雪一拼无

@@ -1,6 +1,9 @@
-[submodule "ice"]
-	path = ice
+[submodule "rime-ice"]
+	path = deps/rime-ice
 	url = https://github.com/iDvel/rime-ice
 [submodule "rime-easy-en"]
-	path = rime-easy-en
+	path = deps/rime-easy-en
 	url = https://github.com/BlindingDark/rime-easy-en
+[submodule "rime-radical-pinyin"]
+	path = deps/rime-radical-pinyin
+	url = https://github.com/mirtlecn/rime-radical-pinyin

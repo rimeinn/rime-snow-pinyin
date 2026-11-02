@@ -17,6 +17,7 @@ import { homedir } from "node:os";
 import { dirname, join } from "node:path";
 import { Glob } from "bun";
 import { ROOT } from "./lib/paths";
+import { RADICAL_SUBMODULE, RIME_DEPENDENCIES } from "./lib/rime-dependencies";
 
 // fcitx5 固定读取的 Rime 用户目录
 const USER_DIR = join(homedir(), ".local", "share", "fcitx5", "rime");
@@ -60,6 +61,15 @@ function pairs(): { src: string; dest: string }[] {
 		src: join(ROOT, file),
 		dest: join(USER_DIR, file),
 	}));
+	for (const file of RIME_DEPENDENCIES) {
+		const src = join(ROOT, RADICAL_SUBMODULE, file);
+		if (!existsSync(src))
+			throw new Error(`找不到 ${src}，请先初始化 ${RADICAL_SUBMODULE} 子模块`);
+		list.push({
+			src,
+			dest: join(USER_DIR, file),
+		});
+	}
 	// lua/snow 整个目录软链，仓库里增删脚本时无需重新执行
 	list.push({
 		src: join(ROOT, "lua", "snow"),
@@ -147,6 +157,8 @@ function sync() {
 	// 目标目录里的相对路径 → 仓库里的源文件
 	const files = new Map<string, string>();
 	for (const file of scan(ROOT)) files.set(file, join(ROOT, file));
+	for (const file of RIME_DEPENDENCIES)
+		files.set(file, join(ROOT, RADICAL_SUBMODULE, file));
 	let copied = 0;
 	for (const [file, src] of [...files].sort()) {
 		const dest = join(HAMSTER_DIR, file);

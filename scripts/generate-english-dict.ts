@@ -59,7 +59,7 @@ function renderDictionary(entries: Entry[]) {
 		"# Rime dictionary",
 		"# encoding: utf-8",
 		"#",
-		"# Generated from rime-easy-en/easy_en.dict.yaml",
+		"# Generated from deps/rime-easy-en/easy_en.dict.yaml",
 		"#",
 		"",
 		"---",
@@ -81,7 +81,7 @@ function renderDictionary(entries: Entry[]) {
 
 function main() {
 	const sourcePath = resolve(
-		process.argv[2] ?? rootPath("rime-easy-en/easy_en.dict.yaml"),
+		process.argv[2] ?? rootPath("deps/rime-easy-en/easy_en.dict.yaml"),
 	);
 	const targetPath = resolve(
 		process.argv[3] ?? rootPath("snow_yingpin.dict.yaml"),

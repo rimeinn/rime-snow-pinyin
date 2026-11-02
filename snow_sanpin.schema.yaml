@@ -14,6 +14,7 @@ schema:
     基于键道双拼改编
   dependencies:
     - snow_pinyin
+    - radical_pinyin
     - snow_jiandao_bihua
     - snow_jiandao_jianpin
 
@@ -45,6 +46,7 @@ engine:
     - lua_translator@*snow.table_like*t12
     - lua_translator@*snow.table_like*jianpin
     - table_translator@stroke
+    - table_translator@radical
     - script_translator@pinyin
     - lua_translator@*snow.buffered
     - lua_translator@*snow.datetime

@@ -13,6 +13,7 @@ schema:
     以音码词语和形码单字为特色的前缀码输入方案
   dependencies:
     - snow_pinyin
+    - radical_pinyin
     - snow_bihua
     - snow_qingyun_xingma
     - snow_qingyun_chaifen
@@ -71,6 +72,7 @@ engine:
     - script_translator
     - script_translator@qingyun
     - table_translator@stroke
+    - table_translator@radical
     - script_translator@pinyin
     - lua_translator@*snow.datetime
     - lua_translator@*snow.statistics*translator
@@ -81,6 +83,7 @@ engine:
   filters:
     - lua_filter@*snow.placeholder
     - lua_filter@*snow.bihua
+    - reverse_lookup_filter@lookup_pinyin
     - lua_filter@*snow.fix
     - lua_filter@*snow.qingyun
     - lua_filter@*snow.postpone
@@ -168,6 +171,12 @@ __patch:
   - snow_qingyun.custom:/patch?
 
 patch:
+  radical/prefix: "`"
+  radical/tag: pinyin
+  # 完整部件码优先于同码的拼音词组，补全部件码仍接受补全降权。
+  radical/initial_quality: 2
+  lookup_pinyin/tags: [pinyin]
+  pinyin/tips: 〔拼音·笔画·部件〕
   pinyin/prefix: "`"
   recognizer/patterns/pinyin: "^`[a-z]*'?$"
   stroke/prefix: "`"

@@ -11,7 +11,7 @@ import { VERSION } from "./version";
 function getIceFrequency() {
 	const frequency = new Map<string, [string, number][]>();
 	for (const [word, pinyin, freq] of readDictionary(
-		rootPath("ice/cn_dicts/8105.dict.yaml"),
+		rootPath("deps/rime-ice/cn_dicts/8105.dict.yaml"),
 	)) {
 		frequency.set(
 			word,
@@ -58,7 +58,7 @@ function readIceDictionary(
 	const data: [string, string, string][] = [];
 
 	for (const row of readDictionary(
-		rootPath(`ice/cn_dicts/${name}.dict.yaml`),
+		rootPath(`deps/rime-ice/cn_dicts/${name}.dict.yaml`),
 	)) {
 		let [word, simp_pinyin, frequency] = row;
 		if (frequency === undefined) {

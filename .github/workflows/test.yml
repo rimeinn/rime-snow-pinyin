@@ -44,4 +44,6 @@ jobs:
           wget https://github.com/rimeinn/mira/releases/download/latest/mira
           chmod +x mira
       - name: ${{ matrix.name }}
-        run: ./mira -C cache spec/${{ matrix.schema }}.test.yaml
+        run: |
+          cp deps/rime-radical-pinyin/radical_pinyin.{schema,dict}.yaml .
+          ./mira -C build spec/${{ matrix.schema }}.test.yaml
