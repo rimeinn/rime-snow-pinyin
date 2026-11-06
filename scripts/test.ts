@@ -1,4 +1,4 @@
-// 并行运行 mira 功能测试，通过后串行测量延迟并更新 docs/latency.md
+// 并行运行 mira 功能测试，通过后串行测量延迟。
 //
 //   bun scripts/test.ts                  # 全部方案
 //   bun scripts/test.ts yipin qingyun    # 只跑指定方案，snow_ 前缀可省

@@ -22,7 +22,7 @@
 
 1. 安装所在平台的 Rime 前端，例如 Windows 小狼毫、macOS 或 Linux 小企鹅、iOS 或 Android 元书、Android 同文、HarmonyOS 超越输入法；下载入口见[使用文档](https://input.tansongchen.com/#下载安装)。
 2. 从[发布页面](https://github.com/rimeinn/rime-snow-pinyin/releases/latest)下载 `snow-pinyin.zip`，解压到 Rime 用户文件夹，使 `snow_*.schema.yaml` 和 `lua/snow/` 直接位于其中。
-3. 在 `default.custom.yaml` 的 `patch/schema_list` 中加入所需方案，执行“重新部署”，再从方案选单中选择。
+3. 在 `default.custom.yaml` 的 `patch/schema_list` 中加入所需方案，执行「重新部署」，再从方案选单中选择。
 
 例如，启用冰雪四拼和冰雪三拼：
 

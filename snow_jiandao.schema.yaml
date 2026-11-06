@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_jiandao
   name: 冰雪键道
-  version: "0.3.13"
+  version: "0.3.14"
   author:
     - 吅吅大山
     - 谭淞宸 <i@tansongchen.com>
@@ -164,6 +164,12 @@ patch:
     - name: buffered
       states: [结束, 缓冲]
       reset: 0
+    - name: unicode
+      states: [隐藏, 注解]
+      reset: 0
+    - name: add
+      states: [结束, 加词]
+      reset: 0
   translator/prism: snow_jiandao
   translator/preedit_format: null
   translator/enable_schema_user_dict: true
@@ -171,6 +177,8 @@ patch:
   translator/shape_mapping: "radical_jiandao.txt"
   key_binder/bindings/+:
     - { when: always, accept: "Control+j", toggle: buffered }
+    - { when: always, accept: "Control+u", toggle: unicode }
+    - { when: always, accept: "Control+t", toggle: chaifen }
   menu/alternative_select_keys: null
   recognizer/patterns/jianpin: "^(?:[bpmfdtnlgkhjqxzcsrywe][BPMFDTNLGKHJQXZCSRYWE]?){3,}$"
   stroke/prism: snow_jiandao_bihua

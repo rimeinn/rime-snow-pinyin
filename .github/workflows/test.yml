@@ -3,47 +3,9 @@ on: [push, pull_request]
 name: 测试
 
 jobs:
+  functional:
+    name: 功能门禁
+    uses: ./.github/workflows/functional.yml
   latency:
     name: 性能门禁
     uses: ./.github/workflows/latency.yml
-  dictionary:
-    name: 拼音词典编码检查
-    runs-on: ubuntu-24.04
-    steps:
-      - name: 获取代码
-        uses: actions/checkout@v4
-      - name: 安装 Bun
-        uses: oven-sh/setup-bun@v2
-      - name: 安装脚本依赖
-        run: bun install --cwd scripts --frozen-lockfile
-      - name: 检查五个方案的全部拼音音节编码
-        run: bun scripts/check-pinyin-dict.ts
-  test:
-    name: 测试
-    runs-on: ubuntu-24.04
-    strategy:
-      matrix:
-        include:
-          - name: 冰雪四拼
-            schema: snow_sipin
-          - name: 冰雪三拼
-            schema: snow_sanpin
-          - name: 冰雪一拼
-            schema: snow_yipin
-          - name: 冰雪键道
-            schema: snow_jiandao
-          - name: 冰雪清韵
-            schema: snow_qingyun
-    steps:
-      - name: 获取代码
-        uses: actions/checkout@v4
-        with:
-          submodules: true
-      - name: 安装 Mira
-        run: |
-          wget https://github.com/rimeinn/mira/releases/download/latest/mira
-          chmod +x mira
-      - name: ${{ matrix.name }}
-        run: |
-          cp deps/rime-radical-pinyin/radical_pinyin.{schema,dict}.yaml .
-          ./mira -C build spec/${{ matrix.schema }}.test.yaml

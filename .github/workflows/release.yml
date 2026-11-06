@@ -6,12 +6,15 @@ on:
 name: 发布
 
 jobs:
+  functional:
+    name: 发布前功能门禁
+    uses: ./.github/workflows/functional.yml
   latency:
     name: 发布前性能门禁
     uses: ./.github/workflows/latency.yml
   build:
     name: 发布
-    needs: [latency]
+    needs: [functional, latency]
     runs-on: ubuntu-26.04
     steps:
       - name: 获取代码
@@ -20,12 +23,16 @@ jobs:
           submodules: true
       - name: 安装 Rime 输入法用于编译
         run: sudo apt install -y --no-install-recommends librime-bin rime-prelude
+      - name: 安装 Bun
+        uses: oven-sh/setup-bun@v2
+        with:
+          bun-version: 1.3.14
+      - name: 核对发布标签和全部版本号
+        run: bun scripts/version.ts --check "$GITHUB_REF_NAME"
       - name: 打包用户安装包
         run: |
           cp deps/rime-radical-pinyin/radical_pinyin.{schema,dict}.yaml .
           zip -r snow-pinyin.zip snow_* radical_pinyin.*.yaml lua
-      - name: 安装 Bun
-        uses: oven-sh/setup-bun@v2
       - name: 安装皮肤生成依赖
         run: bun install --cwd scripts --frozen-lockfile
       - name: 检查五个方案的全部拼音音节编码

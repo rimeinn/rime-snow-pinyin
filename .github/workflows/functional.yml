@@ -1,0 +1,57 @@
+name: 功能与词典检查
+
+on:
+  workflow_call:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  dictionary:
+    name: 脚本与词典检查
+    runs-on: ubuntu-24.04
+    steps:
+      - name: 获取代码
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: 安装 Bun
+        uses: oven-sh/setup-bun@v2
+      - name: 安装脚本依赖
+        run: bun install --cwd scripts --frozen-lockfile
+      - name: 核对全部版本号
+        run: bun scripts/version.ts --check
+      - name: 检查发布脚本
+        run: bun test scripts/benchmark-latency.test.ts scripts/version.test.ts
+      - name: 检查五个方案的全部拼音音节编码
+        run: bun scripts/check-pinyin-dict.ts
+  test:
+    name: 测试
+    runs-on: ubuntu-24.04
+    strategy:
+      matrix:
+        include:
+          - name: 冰雪四拼
+            schema: snow_sipin
+          - name: 冰雪三拼
+            schema: snow_sanpin
+          - name: 冰雪一拼
+            schema: snow_yipin
+          - name: 冰雪键道
+            schema: snow_jiandao
+          - name: 冰雪清韵
+            schema: snow_qingyun
+    steps:
+      - name: 获取代码
+        uses: actions/checkout@v4
+        with:
+          submodules: true
+      - name: 安装 Mira
+        run: |
+          wget https://github.com/rimeinn/mira/releases/download/latest/mira
+          chmod +x mira
+      - name: ${{ matrix.name }}
+        run: |
+          cp deps/rime-radical-pinyin/radical_pinyin.{schema,dict}.yaml .
+          ./mira -C build spec/${{ matrix.schema }}.test.yaml

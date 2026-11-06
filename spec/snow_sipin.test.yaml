@@ -353,10 +353,9 @@ deploy:
         assert: commit == "好着好着"
       - send: "haQ"
         assert: commit == "好来好去"
-      # TODO: 文档中「Ａ了一Ａ」的略码 `K` 在 lua/snow/abbreviation.lua 中尚无对应分支，
-      # 实现后补充：
-      # - send: "haK"
-      #   assert: commit == "好了一好"
+      # 略码：Ａ了一Ａ 用 K
+      - send: "haK"
+        assert: commit == "好了一好"
       # 笔画辅助码：音节码之后直接加笔画
       - send: kooeei
         assert: page("芫")

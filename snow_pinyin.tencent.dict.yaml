@@ -1,6 +1,6 @@
 ---
 name: snow_pinyin.tencent
-version: "0.3.13"
+version: "0.3.14"
 sort: by_weight
 use_preset_vocabulary: false
 ...

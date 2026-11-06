@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_qingyun
   name: 冰雪清韵
-  version: "0.3.13"
+  version: "0.3.14"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |
@@ -202,16 +202,18 @@ patch:
     "|": ；
     "/": 和
     "\\": 、
-  key_binder/bindings/+:
-    # 定位
-    - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
-    - { when: has_menu, accept: 4, send_sequence: "{Shift+Right}{Shift+Right}" }
-    - { when: has_menu, accept: 5, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}" }
-    - { when: has_menu, accept: 6, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
-    - { when: has_menu, accept: 7, send_sequence: "{End}" }
-    - { when: always, accept: "Control+j", toggle: buffered }
-    - { when: has_menu, accept: "Shift+Tab", toggle: character }
-    - { when: always, accept: "Control+u", toggle: unicode }
-    - { when: always, accept: "Control+t", toggle: chaifen }
+  key_binder/bindings:
+    __include: snow_pinyin.schema.yaml:/key_binder/bindings_common
+    __append:
+      # 定位
+      - { when: has_menu, accept: 1, send_sequence: "{Shift+Right}" }
+      - { when: has_menu, accept: 4, send_sequence: "{Shift+Right}{Shift+Right}" }
+      - { when: has_menu, accept: 5, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}" }
+      - { when: has_menu, accept: 6, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
+      - { when: has_menu, accept: 7, send_sequence: "{End}" }
+      - { when: always, accept: "Control+j", toggle: buffered }
+      - { when: has_menu, accept: "Shift+Tab", toggle: character }
+      - { when: always, accept: "Control+u", toggle: unicode }
+      - { when: always, accept: "Control+t", toggle: chaifen }
   menu/alternative_select_keys: "_23890"
   menu/page_size: 6

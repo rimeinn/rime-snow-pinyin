@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_sipin
   name: 冰雪四拼
-  version: "0.3.13"
+  version: "0.3.14"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |
@@ -184,6 +184,12 @@ patch:
     - name: buffered
       states: [结束, 缓冲]
       reset: 0
+    - name: unicode
+      states: [隐藏, 注解]
+      reset: 0
+    - name: add
+      states: [结束, 加词]
+      reset: 0
   translator/prism: snow_sipin
   translator/preedit_format: null
   translator/enable_schema_user_dict: true
@@ -202,4 +208,5 @@ patch:
     - { when: has_menu, accept: 6, send_sequence: "{Shift+Right}{Shift+Right}{Shift+Right}{Shift+Right}" }
     - { when: has_menu, accept: 7, send_sequence: "{End}" }
     - { when: always, accept: "Control+j", toggle: buffered }
+    - { when: always, accept: "Control+u", toggle: unicode }
   menu/alternative_select_keys: "_23890"

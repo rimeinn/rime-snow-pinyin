@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_sanpin
   name: 冰雪三拼
-  version: "0.3.13"
+  version: "0.3.14"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |
@@ -186,6 +186,12 @@ patch:
     - name: buffered
       states: [结束, 缓冲]
       reset: 0
+    - name: unicode
+      states: [隐藏, 注解]
+      reset: 0
+    - name: add
+      states: [结束, 加词]
+      reset: 0
   translator/prism: snow_sanpin
   translator/preedit_format: null
   translator/enable_schema_user_dict: true
@@ -196,6 +202,7 @@ patch:
   translator/jianpin_pattern: "[bpmfdtnlgkhjqxzcsrywe]{3,}[viuoa]{0,3}"
   key_binder/bindings/+:
     - { when: always, accept: "Control+j", toggle: buffered }
+    - { when: always, accept: "Control+u", toggle: unicode }
   menu/alternative_select_keys: null
   stroke/prism: snow_jiandao_bihua
   stroke/preedit_format: [xlit/viuoa/一丨丿丶乙/]

@@ -34,6 +34,11 @@ deploy:
         assert: cand[1].text:match("^📊 .* · ") ~= nil
   buffered:
     tests:
+      # Control+j 开启缓冲，再按一次关闭，恢复音节间顶屏
+      - send: "{Control+j}sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m}"
+        assert: commit == nil and cand[1].text == "雪"
+      - send: "{Control+j}{Control+j}sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m}"
+        assert: commit == "冰" and cand[1].text == "雪"
       # 右手并击 jio 直接开启缓冲，不产生文字或命令候选
       - send: jio{Release+j}{Release+i}{Release+o}
         assert: commit == nil and preedit == nil and tostring(#cand) == "0"
@@ -43,9 +48,9 @@ deploy:
       # 左手一简字也留在缓冲区
       - send: jio{Release+j}{Release+i}{Release+o}f{Release+f}d{Release+d}
         assert: commit == nil and preedit == "的一"
-      # 再次并击保持开启
+      # 再次并击关闭缓冲，恢复音节间顶屏，与两次 Control+j 一致
       - send: jio{Release+j}{Release+i}{Release+o}jio{Release+j}{Release+i}{Release+o}sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m}
-        assert: commit == nil and cand[1].text == "雪"
+        assert: commit == "冰" and cand[1].text == "雪"
       # 两次空格上屏整句，随后恢复普通顶屏
       - send: jio{Release+j}{Release+i}{Release+o}sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m}{space}{Release+space}{space}{Release+space}sgi{Release+s}{Release+g}{Release+i}drm{Release+d}{Release+r}{Release+m}
         assert: commit == "冰雪冰" and cand[1].text == "雪"

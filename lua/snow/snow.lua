@@ -33,7 +33,7 @@ end
 
 -- 冰雪拼音的版本号，是全仓库唯一的来源：用 `bun scripts/version.ts <版本号>` 修改，
 -- 它会同时改写所有 snow_*.schema.yaml、snow_*.dict.yaml 里的 version
-snow.version = "0.3.13"
+snow.version = "0.3.14"
 
 snow.debug = false
 

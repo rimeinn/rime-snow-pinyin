@@ -1,10 +1,9 @@
-// 常驻 rime_api_console 的逐键反馈延迟；用法与测量边界见 docs/latency.md。
+// 常驻 rime_api_console 的逐键反馈延迟；用法与测量边界见 AGENTS.md 的「按键反馈延迟」。
 import { spawn, spawnSync } from "node:child_process";
 import {
 	appendFileSync,
 	constants,
 	copyFileSync,
-	existsSync,
 	mkdirSync,
 	mkdtempSync,
 	readFileSync,
@@ -20,7 +19,6 @@ import { dirname, join, resolve } from "node:path";
 import { StringDecoder } from "node:string_decoder";
 import { LATENCY_CASES, SCHEMA_NAMES } from "./data/latency-cases";
 import { LATENCY_BUDGET, latencyBudgetFailures } from "./lib/latency-budget";
-import { updateLatencyDocument } from "./lib/latency-document";
 import { ROOT } from "./lib/paths";
 import {
 	copyRimeDependencies,
@@ -107,6 +105,10 @@ function sourceFingerprint(source: string): string {
 // 每次 request 只允许一个在途请求。print schema list 是只读屏障；它出现在完整
 // print(context) 之后，且下一次 ReadLine 刷新 stdout，适用于没有行缓冲的管道。
 // 不能把 ReadLine 的按键回显、status 行或第一条候选当作反馈完成。
+// Rime 的 E 级日志可能已被内部回退处理，不能仅凭日志级别判定失败。
+const CONSOLE_FAILURE =
+	/^(?:F\d{8}|.*\[deploy\] failure|.*Error processing key sequence|.*Lua.*error)/m;
+
 class ConsoleDriver {
 	private child;
 	private pending?: {
@@ -143,11 +145,7 @@ class ConsoleDriver {
 					const ms = performance.now() - pending.start;
 					clearTimeout(pending.timer);
 					this.pending = undefined;
-					if (
-						/^(?:[EF]\d{8}|.*Error processing key sequence|.*Lua.*error)/m.test(
-							this.errors + pending.lines.join("\n"),
-						)
-					) {
+					if (CONSOLE_FAILURE.test(this.errors + pending.lines.join("\n"))) {
 						pending.reject(new Error(`Rime 出错，见 ${log}`));
 					} else pending.resolve({ ms, output: pending.lines.join("\n") });
 				} else if (this.pending && !line.includes("\r"))
@@ -204,11 +202,19 @@ class ConsoleDriver {
 		const code = await this.done;
 		clearTimeout(timer);
 		if (code !== 0) throw new Error(`控制台退出码：${code}`);
-		if (/^[EF]\d{8}/m.test(this.errors))
+		if (CONSOLE_FAILURE.test(this.errors))
 			throw new Error(`Rime 出错，见 ${this.log}`);
 	}
-	kill() {
+	async kill() {
+		if (this.closed) return;
 		this.child.kill();
+		const timer = setTimeout(() => this.child.kill("SIGKILL"), 5000);
+		try {
+			// close 在 stdout/stderr 排空后触发，等待它完成日志落盘再退出。
+			await this.done;
+		} finally {
+			clearTimeout(timer);
+		}
 	}
 }
 
@@ -234,7 +240,6 @@ async function main() {
 	let binary = "rime_api_console";
 	let output = resolve("output/latency");
 	let ref = "";
-	let shared = "";
 	let maxP99 = Number.POSITIVE_INFINITY;
 	let casePattern = /./;
 	for (let i = 0; i < args.length; i++) {
@@ -252,7 +257,6 @@ async function main() {
 		else if (arg === "--output-dir") output = resolve(value());
 		else if (arg === "--ref") ref = value();
 		else if (arg === "--case") casePattern = new RegExp(value());
-		else if (arg === "--shared-data") shared = resolve(value());
 		else if (arg === "--max-p99-ms") maxP99 = Number(value());
 		else if (arg.startsWith("--")) throw new Error(`未知参数：${arg}`);
 		else names.push(arg.startsWith("snow_") ? arg : `snow_${arg}`);
@@ -287,15 +291,6 @@ async function main() {
 	if (!found)
 		throw new Error(`找不到 ${binary}；需要带 librime-lua 的 rime_api_console`);
 	binary = realpathSync(found);
-	if (!shared)
-		shared =
-			[
-				"/Library/Input Methods/Squirrel.app/Contents/SharedSupport",
-				"/usr/share/rime-data",
-				"/usr/local/share/rime-data",
-			].find((dir) => existsSync(join(dir, "essay.txt"))) ?? "";
-	if (!shared || !existsSync(join(shared, "essay.txt")))
-		throw new Error("请用 --shared-data 指定含 essay.txt 的 Rime 共享数据目录");
 	mkdirSync(output, { recursive: true });
 	const base = mkdtempSync(join(tmpdir(), "snow-latency-"));
 	const source = join(base, "source");
@@ -355,7 +350,6 @@ async function main() {
 			const dir = join(base, schema);
 			mkdirSync(dir);
 			copyRimeSource(source, dir);
-			clone(join(shared, "essay.txt"), join(dir, "essay.txt"));
 			writeFileSync(
 				join(dir, "default.custom.yaml"),
 				`patch:\n  schema_list:\n    - schema: ${schema}\n    - schema: snow_bushou\n`,
@@ -490,14 +484,10 @@ async function main() {
 				/snow.version = "([^"]+)"/,
 			)?.[1],
 			binary,
-			shared,
 			rounds,
 			casePattern: casePattern.source,
 			casesSha256: new Bun.CryptoHasher("sha256")
 				.update(JSON.stringify(LATENCY_CASES))
-				.digest("hex"),
-			essaySha256: new Bun.CryptoHasher("sha256")
-				.update(readFileSync(join(shared, "essay.txt")))
 				.digest("hex"),
 			consoleSha256: new Bun.CryptoHasher("sha256")
 				.update(readFileSync(binary))
@@ -536,16 +526,6 @@ async function main() {
 			}
 		}
 		console.log(`原始样本及报告：${output}`);
-		const updated = updateLatencyDocument(report);
-		if (updated.length) {
-			const document = join(ROOT, "docs", "latency.md");
-			const snapshot = join(output, "latency.md");
-			if (document !== snapshot) copyFileSync(document, snapshot);
-			console.log(
-				`✓ 已更新 latency.md：${updated.map((schema) => SCHEMA_NAMES[schema]).join("、")}`,
-			);
-		} else
-			console.log("本轮没有更新的完整工作区结果，保留 latency.md 的当前结果");
 		if (budgetFailures.length)
 			throw new Error(`统一性能预算不通过：\n${budgetFailures.join("\n")}`);
 		if (ci)
@@ -561,7 +541,7 @@ async function main() {
 				`p99 超过 ${maxP99} ms：${failed.map(([key]) => key).join(", ")}`,
 			);
 	} finally {
-		driver?.kill();
+		await driver?.kill();
 		rmSync(base, { recursive: true, force: true });
 	}
 }

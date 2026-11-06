@@ -4,7 +4,7 @@
 schema:
   schema_id: snow_pinyin
   name: 冰雪拼音
-  version: "0.3.13"
+  version: "0.3.14"
   author:
     - 谭淞宸 <i@tansongchen.com>
   description: |
@@ -148,6 +148,12 @@ key_binder:
   select_first_character: bracketleft
   select_last_character: bracketright
   bindings:
+    __include: snow_pinyin.schema.yaml:/key_binder/bindings_common
+    __append:
+      - { accept: "Control+Shift+4", toggle: traditionalization, when: always }
+      - { accept: "Control+Shift+dollar", toggle: traditionalization, when: always }
+  # 冰雪清韵简繁通打，只复用不含简繁转换的公共绑定
+  bindings_common:
     # Emacs 编辑键
     - { accept: "Control+p", send: Up, when: composing }
     - { accept: "Control+n", send: Down, when: composing }
@@ -170,12 +176,10 @@ key_binder:
     - { accept: "Control+Shift+1", select: .next, when: always }
     - { accept: "Control+Shift+2", toggle: ascii_mode, when: always }
     - { accept: "Control+Shift+3", toggle: full_shape, when: always }
-    - { accept: "Control+Shift+4", toggle: traditionalization, when: always }
     - { accept: "Control+Shift+5", toggle: ascii_punct, when: always }
     - { accept: "Control+Shift+exclam", select: .next, when: always }
     - { accept: "Control+Shift+at", toggle: ascii_mode, when: always }
     - { accept: "Control+Shift+numbersign", toggle: full_shape, when: always }
-    - { accept: "Control+Shift+dollar", toggle: traditionalization, when: always }
     - { accept: "Control+Shift+percent", toggle: ascii_punct, when: always }
 
 punctuator:

@@ -6,7 +6,7 @@ __include: snow_pinyin.schema.yaml:/
 schema:
   schema_id: snow_yipin
   name: 冰雪一拼
-  version: "0.3.13"
+  version: "0.3.14"
   author:
     - 张皓哲 <576440085@qq.com>
     - 谭淞宸 <i@tansongchen.com>
@@ -89,7 +89,7 @@ chord_composer:
     - xform/-/{Right}/
     - xform/^hk$/{Page_Up}/
     - xform/^hl$/{Page_Down}/
-    # 右手并击 jio 直接开启缓冲，无需选词确认
+    # 右手并击 jio 与 Control+j 一样切换缓冲，无需选词确认
     - xform/^jio$/{Control+j}/
     # 右手并击，打出输入统计的命令；加方括号以免被 output_format 当成非法音节删掉
     - xform/^jkl$/[itj]/
@@ -374,8 +374,12 @@ patch:
     - name: buffered
       states: [结束, 缓冲]
       reset: 0
+    - name: unicode
+      states: [隐藏, 注解]
+      reset: 0
   key_binder/bindings/+:
-    - { when: always, accept: "Control+j", set_option: buffered }
+    - { when: always, accept: "Control+j", toggle: buffered }
+    - { when: always, accept: "Control+u", toggle: unicode }
     - { when: composing, accept: bracketright, send: Page_Down }
     - { when: composing, accept: bracketleft, send: Page_Up }
   menu/alternative_select_keys: null

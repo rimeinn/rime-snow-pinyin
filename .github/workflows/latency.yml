@@ -1,4 +1,4 @@
-name: 按键反馈性能
+name: 性能
 
 on:
   workflow_call:
@@ -46,7 +46,15 @@ jobs:
       - name: 安装脚本依赖
         run: bun install --cwd scripts --frozen-lockfile
       - name: 检查五个方案的统一性能预算
-        run: bun scripts/benchmark-latency.ts --ci --console output/latency-runtime/build/bin/rime_api_console --shared-data output/latency-runtime/librime/data/minimal --output-dir output/latency-ci
+        run: bun scripts/benchmark-latency.ts --ci --console output/latency-runtime/build/bin/rime_api_console --output-dir output/latency-ci
+      - name: 展示性能结果
+        if: always()
+        run: |
+          if [ -f output/latency-ci/report.json ]; then
+            bun scripts/summarize-latency.ts output/latency-ci/report.json >> "$GITHUB_STEP_SUMMARY"
+          else
+            printf '## 按键反馈延迟\n\n❌ 未生成性能报告，请查看本次运行的测试与构建日志。\n' >> "$GITHUB_STEP_SUMMARY"
+          fi
       - name: 保留性能报告与失败日志
         if: always()
         uses: actions/upload-artifact@v4
